@@ -4,7 +4,22 @@
             "pattern": "^.*example.com"
         },
         {
-            "pattern": "^.*example-end.com"
-        }          
+            "pattern": "^.*INSERT-DOMAIN-AND-PATH-TO-CODE-HERE"
+        },
+        {
+            "pattern": "^.*html2canvas.hertzen.com"
+        },
+        {
+            "pattern": "^.*adobe.io"
+        },
+        {
+            "pattern": "^.*developer.linkedin.com"
+        },
+        {
+            "pattern": "^.*developers.facebook.com"
+        },
+        {
+            "pattern": "^.*localhost:4502/"
+        }
     ]
 }
