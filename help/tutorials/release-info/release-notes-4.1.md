@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides 4.1 release
-description: Latest release of Adobe Experience Manager Guides 
+description: Latest release of Adobe Experience Manager Guides
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 ---
 # Latest release of Adobe Experience Manager Guides
 
@@ -283,4 +284,3 @@ The bugs fixed in various areas are listed below:
 * SVG images that do not render correctly in author modes of XML Editor. (9426)
 * Baseline is not being honored while publishing via salesforce. (8953) 
 * Ability to clear rootmap from the user preferences settings is not present. (8534)
-
