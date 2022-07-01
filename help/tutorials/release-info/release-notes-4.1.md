@@ -198,6 +198,7 @@ When you select to download the DITA map, the request is queued, and you receive
 * The baseline parameter in the APIs to Download Map now uses the title of the baseline to retrieve the versioned content.
 
 ### Deprecated Feature
+
 AEM Guides no longer supports the generation of DITA output format for FrameMaker documents. This DITA option has also been removed from the Output Presets of the Map dashboard.
 
 ## Fixed issues
