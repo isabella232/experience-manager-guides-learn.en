@@ -45,8 +45,8 @@ For more details, see the Technical requirements section in the Install and conf
 
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
 | --- | --- | --- |--- |--- |
-| 4.0 (Non-UUID)|  1.6.8 <br>[Link](https://artifactory.corp.adobe.com/ui/native/generic-ppbu-installers-release/oxygen/1.6/8/) | 1.6.8<br>[Link](https://artifactory.corp.adobe.com/ui/native/generic-ppbu-installers-release/oxygen/1.6/MAC/8/) |  1.6 <br> [Link](https://git.corp.adobe.com/AdobeStarling/demo-assets/blob/openinoxygen_button/open-in-oxygen-button/open-in-oxygen-dam-button-1.5.zip)| 1.6 <br> [Link](https://git.corp.adobe.com/AdobeStarling/demo-assets/blob/openinoxygen_button/open-in-oxygen-button/open-in-oxygen-dam-button-1.5.zip) |
-| 4.0 (UUID) | 2.3.8 <br> [Link](https://artifactory.corp.adobe.com/ui/native/generic-ppbu-installers-release/oxygen/2.3/8/) | 2.3.8 <br> [Link](https://artifactory.corp.adobe.com/ui/native/generic-ppbu-installers-release/oxygen/2.3/MAC/8/) |2.3 <br> [Link](https://git.corp.adobe.com/AdobeStarling/demo-assets/blob/master/open-in-oxygen-button/open-in-oxygen-dam-button-2.2.zip) | 2.3 <br> [Link](https://git.corp.adobe.com/AdobeStarling/demo-assets/blob/master/open-in-oxygen-button/open-in-oxygen-dam-button-2.2.zip) |
+| 4.0 (Non-UUID)| 2.0 | 2.0 |  1.6 | 1.6 |
+| 4.0 (UUID) | 2.7 | 2.7 |2.3 | 2.3 |
 |  |  |  |  
 
 
@@ -279,7 +279,7 @@ The bugs fixed in various areas are listed below:
 * Insert Keyword dialog doesn’t have the search ability and keywords are not listed in sorted order. (9094)
 * Performing a search in XML Editor causes the page to freeze. (9452) 
 * Sites are missing in AEM presets under the Output tab. (9567)
-* SVG images that do not render correctly in preview and author modes of XML Editor. (9426)
+* SVG images that do not render correctly in author modes of XML Editor. (9426)
 * Baseline is not being honored while publishing via salesforce. (8953) 
 * Ability to clear rootmap from the user preferences settings is not present. (8534)
 
