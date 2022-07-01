@@ -35,8 +35,8 @@ For more details, see the Technical requirements section in the Install and conf
 
 |Release| FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
-|4.0 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
-| 4.0 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
+|4.1 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
+| 4.1 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
 | | | | |
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
