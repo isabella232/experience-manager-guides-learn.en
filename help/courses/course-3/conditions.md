@@ -22,7 +22,7 @@ Sample files that you may opt to use for this lesson are provided in the file [c
 4. Click [!UICONTROL **Add**].
 
     ![Conditions in Folder Profiles](images/lesson-13/add-name.png)
- 
+
 5. Complete the required fields.
 
     - The Name should correspond to an attribute used for profiling.
@@ -64,7 +64,7 @@ The Conditions panel allows controlled assignment of Attribute and Value pairing
      b. Complete the required fields in the **User Preferences** dialog. For example:
 
     ![User Preferences](images/lesson-13/user-preferences.png)
- 
+
     c. Click [!UICONTROL **Save**].
 
 2. From the conditions panel, expand the dropdowns for Audience and Platform. Note that the available conditions are Folder Profile-specific.
@@ -80,13 +80,13 @@ Subject Scheme maps are a specialized form of ditamap and are referenced by a ma
 2. Select a map that references the Subject Scheme ditamap. This example uses the map called _Design and Layout_.
 
     ![User Preferences](images/lesson-13/subject-scheme-map.png)
- 
+
 3. Configure User Preferences.
 
     a. Click the [!UICONTROL **User Preferences**] icon.
 
     ![User Preferences](images/lesson-13/user-prefs-icon-2.png)
- 
+
     b. Populate the fields in the **User Preferences** dialog. 
 
     c. Click the folder symbol next to the Base Path field to choose the path to the desired file.
