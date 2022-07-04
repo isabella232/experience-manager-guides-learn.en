@@ -21,10 +21,10 @@ You can download the example image file from [here.](assets/working-with-images/
 
    ![Upload Assets](images/lesson-4/upload-assets.png)
 
-
 1. Select the image you would like to upload from your local system, and select **Open**.
 
    The [!UICONTROL Upload Assets] dialog box displays.
+
 1. Select **Upload**.
 
 ## Inserting an image into a topic
@@ -46,7 +46,6 @@ For the following, ensure that your topic is open in the document editor.
 1. Select the **Insert Image** icon.
 
    ![Insert Image icon](images/lesson-4/insert-image.png)
-
 
    The Insert Image dialog box appears.
 
@@ -82,9 +81,11 @@ As you have made a significant change to your topic, you may now find it useful 
 1. In the Version Labels field, enter any relevant labels.
 
    Labels allow you to specify the version you want to include when publishing.
+
    >[!NOTE] 
    > 
    > If your program is configured with predefined labels, you can select from these to ensure consistent labelling. 
+
 1. Select **Save**.
 
    You have created a new version of your topic, and the version number is updated.

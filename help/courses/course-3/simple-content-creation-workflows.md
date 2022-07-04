@@ -31,13 +31,13 @@ Images can be added directly from a local drive.
 
 3. Use **Content Properties** on the right side panel to modify an image’s
 
-    • scale
+    - scale
 
-    • position
+    - position
 
-    • alignment, or
-    
-    • other attributes.
+    - alignment, or
+
+    - other attributes.
 
     ![Content Properties](images/lesson-15/content-properties.png) 
 
@@ -54,7 +54,7 @@ Split View is helpful when comparing topics, copying and pasting between topics,
 4. Choose **Right**.
 
     ![Split View](images/lesson-15/split-view.png)
- 
+
 ## Correct typographical errors
 
 1. Locate the word or phrase containing the error.
@@ -76,7 +76,7 @@ Users may want to download a PDF of the current topic to mark up or share with o
 2. Click the [!UICONTROL **PDF icon**] above the topic. A dialog appears.
 
     ![PDF Export](images/lesson-15/pdf-export.png)
- 
+
 3. Fill in the information for either **Transformation Name** or **DITA-OT Command Line Arguments** if required. Note that a PDF still generates if all fields are left blank.
 
 4. Click [!UICONTROL **Download**]. The PDF generates.
@@ -92,7 +92,6 @@ Users may want to download a PDF of the current topic to mark up or share with o
 3. Select **Locate In**.
 
 4. Choose either **Repository** or **Map** to jump to the desired topic location.
- 
 
 ## Version a topic
 
@@ -103,11 +102,11 @@ Users may want to download a PDF of the current topic to mark up or share with o
 3. Click the **Repository** icon on the top left menu.
 
     ![Repository Icon](images/lesson-15/repository-icon.png)
- 
+
 4. In the dialog, add **Comments for New Version**.
 
     ![New Version Dialog](images/lesson-15/version-dialog.png)
- 
+
 5. Click [!UICONTROL **Save**].
 
 The version number updates.
@@ -125,7 +124,7 @@ Trying to track a topic's state based on only the Version Number can be difficul
     b. Under XML Content Version Labels, either add a new topic or use an existing one.
 
     ![Content Version Labels](images/lesson-15/version-labels.png)
- 
+
 3. Select [!UICONTROL **Upload**].
 
 4. Choose a file such as ReviewLabels.json or similar. Details on how to create such a file are covered in another video.
@@ -145,13 +144,13 @@ Version labels are now loaded.
 2. Click the [!UICONTROL **User Preferences**] icon at the top left of the current topic.
 
     ![Folder Profile](images/lesson-15/folder-profile-icon.png)
- 
+
 3. Select the same Folder Profile where version labels were previously loaded.
 
 4. In the User Preferences dialog, ensure the Base Path references the same information the Folder Profile has been applied to.
 
     ![User Preferences](images/lesson-15/user-preferences.png)
- 
+
 5. Click [!UICONTROL **Save**].
 
 6. Version the topic. 
@@ -173,12 +172,11 @@ The version number updates.
 3. Select [!UICONTROL **View in Assets UI**].
 
     ![Assets UI](images/lesson-15/view-assets-ui.png)
- 
+
     - The version history with labels is displayed on the left.
 
     ![Version History](images/lesson-15/version-history.png)
- 
- 
+
 4. Click on a version to access options such as **Revert to this Version** and **Preview Version**.
 
 ## Create a new template
@@ -194,5 +192,5 @@ Templates exist for both topics and maps. Administrators can access Templates in
     ![New Topic Template](images/lesson-15/version-history.png)
 
 4. Populate the fields in the resulting dialog.
- 
+
 The shell template appears, containing sample content and a sample structure.

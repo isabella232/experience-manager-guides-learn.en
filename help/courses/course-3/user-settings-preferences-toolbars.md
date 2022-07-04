@@ -19,13 +19,13 @@ Tags are visual cues indicating an element's boundaries. An element boundary mar
 
     Tags appear within the topic. With Tags View on you can:
 
-    • Select an element’s content by clicking on the opening or closing tag.
+    - Select an element’s content by clicking on the opening or closing tag.
 
-    • Expand or collapse tags by clicking on the + or – sign in the tag.
+    - Expand or collapse tags by clicking on the + or – sign in the tag.
 
-    • Use the context menu to cut, copy, or past the selected element.
+    - Use the context menu to cut, copy, or past the selected element.
 
-    • Drag and drop elements by selecting the tag and dropping the element in a valid location.
+    - Drag and drop elements by selecting the tag and dropping the element in a valid location.
 
 2. Click the [!UICONTROL **Toggle Tags View**] icon again to hide tags.
 
@@ -69,11 +69,11 @@ The toolbar at the top right of the screen allows you to switch between views.
 
 ![Modes](images/lesson-2/modes.png)
 
-• Select **Author** to view the structure and content as you work with a topic.
+- Select **Author** to view the structure and content as you work with a topic.
 
-• Select **Source** to display the underlying XML that makes up the topic.
+- Select **Source** to display the underlying XML that makes up the topic.
 
-• Select **Preview** to show how a topic will display when viewed by a user in their browser.
+- Select **Preview** to show how a topic will display when viewed by a user in their browser.
 
 ## Change the theme with User Preferences
 
