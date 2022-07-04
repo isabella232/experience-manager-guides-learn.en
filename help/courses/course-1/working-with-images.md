@@ -85,6 +85,7 @@ As you have made a significant change to your topic, you may now find it useful 
    >[!NOTE] 
    > 
    > If your program is configured with predefined labels, you can select from these to ensure consistent labelling. 
+
 1. Select **Save**.
 
    You have created a new version of your topic, and the version number is updated.
