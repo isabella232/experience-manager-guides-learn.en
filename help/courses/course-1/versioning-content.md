@@ -23,8 +23,8 @@ Versioning a document creates a snapshot of its current state. Creating multiple
    Labels allow you to specify the version you want to include when publishing.
 
    >[!NOTE] 
-   > 
-   > If your program is configured with predefined labels, you can select from these to ensure consistent labelling. 
+   >
+   >If your program is configured with predefined labels, you can select from these to ensure consistent labelling. 
 
 1. Select **Save**.
 
@@ -37,7 +37,7 @@ Once you have multiple versions of your content, you may want to explore the dif
 1. Select the Version History icon from the toolbar.
 
    ![Version History icon](images/lesson-7/version-history.png)
-   
+
    The Version History dialog displays.
 
 1. Select a version from the dropdown to compare your current version against.
