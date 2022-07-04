@@ -25,6 +25,7 @@ Versioning a document creates a snapshot of its current state. Creating multiple
    >[!NOTE] 
    > 
    > If your program is configured with predefined labels, you can select from these to ensure consistent labelling. 
+
 1. Select **Save**.
 
    You have created a new version of your topic, and the version number is updated. The first version of a document will be Version 1.0.
