@@ -31,9 +31,9 @@ You may want to use a spell check tool other than the browser’s default dictio
 
 3. There are two options:
 
-    • **Browser Spell Check** — the default setting where spell check uses the browser’s built-in dictionary.
+    - **Browser Spell Check** — the default setting where spell check uses the browser’s built-in dictionary.
 
-    • **AEM Spell Check** — use this to build a custom word list using AEM’s custom dictionary. 
+    - **AEM Spell Check** — use this to build a custom word list using AEM’s custom dictionary. 
 
 4. Choose **AEM Spell Check**.
 
@@ -53,19 +53,17 @@ The Administrator can change the settings so that the AEM dictionary recognizes 
 
     ![CRXDE Lite Config Node](images/lesson-11/config-node.png)
 
-
 4. Create a new file.
 
     a. Right-click on the config folder.
+
     b. Choose **Create > Create File**.
- 
+
     ![New Dictionary File Creation](images/lesson-11/new-dictionary-file.png)
 
-
     c. Name the file _**user_dictionary.txt**_.
- 
-    ![User Dictionary text](images/lesson-11/user-dictionary.png)
 
+    ![User Dictionary text](images/lesson-11/user-dictionary.png)
 
     d. Click [!UICONTROL **OK**].
 
@@ -103,13 +101,12 @@ Authors may need to restart their Web Editor session to get the updated custom w
 
 4. Choose either
 
-    • **Checkout file before replace** — if enabled by an Administrator, the file will be checked out automatically before replacing search terms.
+    - **Checkout file before replace** — if enabled by an Administrator, the file will be checked out automatically before replacing search terms.
 
-    • **Whole word only** — restricts the search to return only the exact word or phrase entered.
+    - **Whole word only** — restricts the search to return only the exact word or phrase entered.
 
     ![Find Replace in Repository](images/lesson-11/repository-find-replace.png)
 
- 
 5. Click the [!UICONTROL **Apply Filter**] icon to select the path in the Repository where you want to perform the search.
 
 6. Enter the terms to Find and Replace.
@@ -119,5 +116,5 @@ Authors may need to restart their Web Editor session to get the updated custom w
 8. Click [!UICONTROL **Find**].
 
 9. Open the desired file and use the arrows to navigate from one found result to the next.
- 
+
     ![Find Replace Navigation UI](images/lesson-11/find-replace-navigation.png)
