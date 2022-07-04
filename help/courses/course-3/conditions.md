@@ -25,11 +25,11 @@ Sample files that you may opt to use for this lesson are provided in the file [c
  
 5. Complete the required fields.
 
-    • The Name should correspond to an attribute used for profiling.
+    - The Name should correspond to an attribute used for profiling.
 
-    • The Value is the exact entry that will be used in the DITA code source.
+    - The Value is the exact entry that will be used in the DITA code source.
 
-    • The Label is the word that will be seen by the user who is entering attributes.
+    - The Label is the word that will be seen by the user who is entering attributes.
 
 6. Click [!UICONTROL **Save**].
 
@@ -98,7 +98,6 @@ Subject Scheme maps are a specialized form of ditamap and are referenced by a ma
     >[!IMPORTANT]
     >
     >Important: the selected Root Map must be the map that contains the Subject Scheme.
- 
 
     ![User Preferences](images/lesson-13/user-preferences-2.png)
 
