@@ -11,10 +11,10 @@ A PDF template has four components: Page Layouts, Stylesheets, Resources, and Se
 ## Create and customize page layouts
 
 Settings in the Page Layouts component allow you to design the structure of a page by defining the header, footer, and content area on a page. Using the WYSIWYG page layout editor, you can create a page layout for different sections in a PDF, such as the front and back cover pages, chapter, Table of
-Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), glossary, or create a layout for a custom page. In the PDF template Settings, you can assign a page layout with different topics in a DITA map, which are then used to generate the PDF output.  
+Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), glossary, or create a layout for a custom page. In the PDF template Settings, you can assign a page layout with different sections within a PDF, which are then used to generate the PDF output.  
 
 ### Create a new page layout
-> **Note**: There are 2 page layouts that are shipped out of the box - Common and TOC. You can customize these or create new page layouts.
+> **Note**: There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
 
 1. In the Web Editor, go to the **Output** tab.
 1. Expand the left sidebar and click on **Templates**.
@@ -47,10 +47,13 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
    For more information on defining individual layout elements like header, footer, page number, title, and more, see *Work with page layout elements*.
 
 ## Use Stylesheets to customize PDF
-Settings in the Stylesheets component allow you to style the page layout components and DITA content using the WYSIWYG editor or directly work with the CSS file. You can create your own styles or customize the default style properties. The WYSIWYG editor gives you the access to most of the properties that you would need to style your page layout or DITA content. For advanced customizations, you can work directly in the CSS editor.
+Settings in the Stylesheets component allow you to style the page layout components and DITA content using the WYSIWYG editor or directly work with the CSS file. You can create your own styles or customize the default style properties. The WYSIWYG editor gives you the access to most of the properties that you would need to style your page layout or DITA content. For advanced customizations, you can work directly in the Source view.
 
 ### Create a new stylesheet
-While CSS files are provided for content and layout, you can create a new stylesheet to apply multiple customizations to a specific style type that can then be applied to a target component. For example, to style a TOC title (`.toc-title`), you can apply a font size of 21 pt in Stylesheet A and a font size of 26 pt in Stylesheet B.
+While CSS files are provided for content and layout, you can create a new stylesheet to apply multiple customizations to a specific style type that can then be applied to a target component. By default, sample CSS files are bundled within the product. These CSS files are meant to help you organize your styling information across content and layouts. You can choose to merge these styles in a single CSS file or multiple files. 
+
+By default, whenever you create a new page layout, the `layout.css` file is included within the new page layout. If you want the page layout to contain styles from a different CSS file, then you can simply drag-and-drop the desired CSS file on the new page layout’s content editing area. To validate if the CSS file has been embedded within the page layout, switch to the Source view and you will find a link to the CSS file in the `<head>` element.  
+
 
 To create a stylesheet, follow the below steps:
 1. In the **Templates** panel, do one of the following:
@@ -66,7 +69,10 @@ To create a stylesheet, follow the below steps:
    A new stylesheet is created and added under the Stylesheets section.
 
 ### Create a new style
-By default, the CSS files contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can also create new styles under the base styles and apply them to any DITA content or page layout components.
+By default, the CSS files contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
+
+Typically, you will create a new style when you want to associate a custom style for any DITA element. For such custom styles to work, you must ensure that you are associating the style’s class name with the DITA element’s outputclass attribute. 
+
 
 To create a new style, follow the below steps:
 1. Right click on any style and choose New Style from the context menu.
@@ -74,8 +80,12 @@ To create a new style, follow the below steps:
    This opens the Add Style dialog.
    
    ![Add new style](assets/add-style.png)
-1. <Need info>
-2. Click **Done**.
+1. In the **Tag** filed, choose a tag for which you want to create a new style.
+1. Specify a **Class** name.
+   
+   This class name must be associated with the tag’s outputclass attribute in your source content. 
+1. Select a **Pseudo Class** for enhanced styling of the element. 
+1. Click **Done**.
 
    A new style is created and added under the base style.
 
@@ -121,30 +131,43 @@ using the template.
 
 To configure, click **Settings** in the **Templates** panel to view the following options:
 
-**Page Layouts**
-
-Use the Page Layouts tab to apply a page layout for a specific page in your PDF. For example, to select a layout for the front cover page, click the dropdown menu under the Cover Page field and select the layout you have designed to generate the cover page.
-
-For more information on page layouts, see *Setting Page Layout*.
-
 **General**
 
 Set the basic configuration settings for starting a chapter from odd or even page, the TOC structure, and define the leader line format for the TOC entries. You can define the following setting:
 
-* **Always start chapter from**: Allows you to define how each chapter is published in the final PDF. You can choose from a **New Page**, **Odd Page**, or **Even Page** options.
+* **Always start chapter from**: Allows you to define how each chapter is published in the final PDF. You can choose from a **New Page**, **Odd Page**, or **Even Page** options. If you choose to start a new chapter from an odd page, then a blank page is inserted after a chapter that ends on an odd page. For example, if your chapter ends on page number 15, then the publishing process will insert a blank 16<sup>th</sup> page so that the new chapter can start from the 17<sup>th</sup> page. 
 
-* **Start each topic from a new page**: Select to begin each topic from a new page. If you want to keep your chapters in continuation without any page gaps, then deselect this option.
+* **Start each topic from a new page**:  If you want each topic within your chapter to start from a new page, then select **Start each topic from a new page** option. If you want to keep your topics in continuation without any page gaps, then deselect this option.
 
 * **TOC Structure**: Allows you to customize the hierarchy of the Table of Contents. It uses the following additional settings:
 
    * **Use Headings up to Level**: It allows you to adjust the number of heading levels to be displayed in the TOC structure of your PDF.
-   * **Readjust heading levels as per the source TOC hierarchy**: Select this option to reset the TOC heading levels as per the DITA map’s chapter or topic heading levels in the PDF output.
-   * **Add or replace heading from the source TOC to maintain the hierarchy**: Select to use the navigation title attribute’s heading given to any Chapter or TOC heading levels from the DITA map.
-   * **Do not show page number for the first level in TOC**: Select this option to hide the corresponding page numbers for all chapter first-level headings containing nested heading levels.
-   * **Leader format**: Use the drop-down to select Dotted, Solid, or Space leader lines to connect heading levels to its corresponding page numbers.
+   * **Do not show page number for the first level in TOC**: Select this option to hide the corresponding page numbers for all chapters that contain nested or child topics. Consider the following example wherein an output is created without selecting this option. 
+   ![Upload assets](assets/page-number-in-toc.png)
+   
+   In the above example, Advanced PDF Settings, Appendix, and Legal are the first level topic headings or chapter titles. A page number is assigned to all of these headings. 
+   
+   Now, if you select this option and generate the output, then you will get the following TOC:
+   ![Upload assets](assets/page-number-missing-in-toc.png)
 
+   Here you can notice that the first chapter Advanced PDF settings is not given any page number, as it has nested or child topics. Whereas a page number if assigned to Appendix and Legal because they are standalone topics without any child topic. 
+
+* **Leader format**: Use the drop-down to select Dotted, Solid, or Space leader lines to connect heading levels to its corresponding page numbers.
    For applying TOC structure and styling heading levels, see *Define Table of Contents*.
+
+   > **Note**: If you are a CSS developer, then you can define the leader format directly in the CSS file as well. 
 * **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. For more information on using table continuation markers, see Use table continuation markers.
+
+**Page Layouts**
+
+The Page Layouts settings give you complete control over specifying which page layout is to be used for a specific section of your document. For example, to select a layout for the Table of Contents, click the dropdown menu under the TOC field and select the layout you have designed to generate the TOC. 
+
+If you have not created a layout for a particular section in your document, you can simply choose a layout that serves as the default layout for such sections or topics. The default page layout is then applied for all such sections that do not have a dedicated page layout. 
+
+Similarly, if you want a cover and back page, then you must have a page layout created and applied in the settings. Else, your PDF will not contain the cover and back pages. 
+
+
+For more information on page layouts, see *Setting Page Layout*.
 
 **Print**
 
@@ -160,10 +183,8 @@ Configure the print production settings to assign printer marks, select color mo
 
 * **Media Box size**: This is the overall page size including the extended area occupied by printer marks. Use the drop-down option to select the page size for your PDF output or create your own custom size.
 
-* **Color Space**: The RGB and CMYK color modes are used for mixing color. Choose RGB to display the generated PDF digitally and CMYK for physical printing. Colors defined in the document will be converted to the chosen color space.
+* **Color Space**: You are given an option to choose from RGB or CMYK color spaces to print your PDF document. Choose RGB to display the generated PDF digitally and CMYK for physical printing. Colors defined in the document are converted to the chosen color space.
    > **Note**: An ICC color profile is necessary for PDF/A creation if using CMYK color space.
-
-   ![ICC Profile](assets/icc-color-space.png)
 
    For more information on applying these print settings, see *Printing preferences*.
 
