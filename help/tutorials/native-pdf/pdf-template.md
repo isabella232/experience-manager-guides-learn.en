@@ -17,7 +17,7 @@ You can create custom PDF templates with specific page layouts and define format
 To create a new PDF template, follow the below steps:
 1. In the Web Editor, go to the **Output** tab.
 1. Expand the left sidebar and click on **Templates**.
-![Create PDF template](assets/create-pdf-template.png)
+<img src="assets/create-pdf-template.png" alt="Create PDF template" width="400">
 1. In the **Templates** panel, click the **+** icon next to **Templates** and choose **PDF Template**.
 1. Specify a name for the template in the **New Template** dialog.
 1. Click **Done**. 
@@ -35,7 +35,7 @@ To duplicate an existing PDF template, follow the below steps:
 1. Hover over the template you want to duplicate and select the (*Options* icon) **...** and choose **Duplicate** from the context menu.
 
    This opens the Duplicate Template dialog.   
-   ![Duplicate PDF template](assets/duplicate-template.png)
+   <img src="assets/duplicate-template.png" alt="Duplicate PDF template" width="250">  
 1. Specify a name for the teamplte.
 
    The **Name** field is pre-populated as a copy of the same name as the source template.
@@ -59,7 +59,7 @@ To customize a PDF template, follow the below steps:
    * Hover over any template and click the ... (Options icon) and choose Edit from the context menu.
    
       By default, this opens the Settings panel in the templates editor.
-   ![Customize PDF Teamplte](assets/customize-pdf-template.png)
+   <img src="assets/customize-pdf-template.png" alt="Customize PDF Teamplte" width="350">
    
    The various template components that you can customize are categorized under the following sections:
    * Page Layouts: A typical PDF contains different pages, such as a front cover or title page, TOC, chapter, index, and more. The Page Layouts section allows you to design the look-and-feel of different pages that would make up your PDF. In addition to the appearance, you can also define the arrangement of page elements such as the header, footer, and content areas on a page. To know more on customizing a page’s layout, see ***Create and customize page layouts***.

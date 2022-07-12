@@ -26,7 +26,7 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
       
       This opens the Add Layout dialog.
       
-      ![Add Layout dialog](assets/add-layout.png)
+      <img src="assets/add-layout-2.png" alt="Add Layout dialog" width="250">
 1. Specify a name for the new page layout.
    > **Note:** Avoid using any special characters when naming a page layout. A space in the name is replaced with an underscore “_”.
 1. Click **Done**.
@@ -62,7 +62,7 @@ To create a stylesheet, follow the below steps:
    
    This opens the Add Stylesheet dialog.
    
-   ![Add Stylesheet](assets/add-stylesheet.png)
+   <img src="assets/add-stylesheet.png" alt="Add stylesheet" width="250">
 1. Specify a name for the new stylesheet.
 1. Click **Done**.
    
@@ -79,7 +79,7 @@ To create a new style, follow the below steps:
 
    This opens the Add Style dialog.
    
-   ![Add new style](assets/add-style.png)
+     <img src="assets/add-style.png" alt="Add new style" width="300"/>
 1. In the **Tag** filed, choose a tag for which you want to create a new style.
 1. Specify a **Class** name.
    
@@ -104,7 +104,7 @@ To customize a style, follow the below steps:
    
    This opens the stylesheet for editing and displays the list of styles in the Styles panel.
 
-   ![Customize style](assets/customize-style.png)
+   <img src="assets/customize-style.png" alt="Customize style" width="450">
 
 1. To customize a style, double-click on a style or click the > icon before a style to view and customize it using the Styles editor.
 
@@ -116,7 +116,7 @@ To add an asset file to the Resources folder, follow the below steps:
 
    This opens the Upload Assets dialog.
 
-   ![Upload assets](assets/resources-import-assets.png)
+   <img src="assets/resources-import-assets.png" alt="Upload assets" width="300">
    
    The path where the asset file will be uploaded is shown in the **Select Asset Folder** field.
    > **Note:** You cannot change the path for uploading assets. By default, all assets are stored under the `/content/dam/dita-templates/pdf/<PDF-template-name>` folder.
@@ -143,12 +143,13 @@ Set the basic configuration settings for starting a chapter from odd or even pag
 
    * **Use Headings up to Level**: It allows you to adjust the number of heading levels to be displayed in the TOC structure of your PDF.
    * **Do not show page number for the first level in TOC**: Select this option to hide the corresponding page numbers for all chapters that contain nested or child topics. Consider the following example wherein an output is created without selecting this option. 
-   ![Upload assets](assets/page-number-in-toc.png)
+   
+   <img src="assets/page-number-in-toc.png" alt="Upload assets" width="250">
    
    In the above example, Advanced PDF Settings, Appendix, and Legal are the first level topic headings or chapter titles. A page number is assigned to all of these headings. 
    
    Now, if you select this option and generate the output, then you will get the following TOC:
-   ![Upload assets](assets/page-number-missing-in-toc.png)
+   <img src="assets/page-number-missing-in-toc.png" alt="Upload assets" width="250"> 
 
    Here you can notice that the first chapter Advanced PDF settings is not given any page number, as it has nested or child topics. Whereas a page number if assigned to Appendix and Legal because they are standalone topics without any child topic. 
 
