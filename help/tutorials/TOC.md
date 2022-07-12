@@ -32,4 +32,3 @@ breadcrumb-title: AEM Guides Tutorials
   + [Publish a PDF output](./web-editor/native-pdf-web-editor.md) 
   + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
 + Versioning {#versioning}
-  + [Components of a PDF template](./native-pdf/components-pdf-template.md)
