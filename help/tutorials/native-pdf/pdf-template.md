@@ -1,7 +1,8 @@
 ---
 title: Native PDF Publish Feature | Customize and configure the Native PDF feature
 description: Learn how to customize and configure the various components of the Native PDF Feature.
-
+hide: yes
+hidefromtoc: yes
 ---
 # PDF template
 
