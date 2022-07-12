@@ -1,7 +1,8 @@
 ---
 title: Native PDF Publish Feature | Components of a PDF template
 description: Learn the various components of a PDF tempalte and how to customize and configure them.
-
+hide: yes
+hidefromtoc: yes
 ---
 # Components of a PDF template
 
