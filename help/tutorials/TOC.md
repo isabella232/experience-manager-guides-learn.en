@@ -34,4 +34,4 @@ breadcrumb-title: AEM Guides Tutorials
 + Versioning {#versioning}
 + Hidden articles {#hidden}
 +   + [Hidden PDF Template](./native-pdf/pdf-template.md)
-+   + [Hidden PDF Template](./native-pdf/components-pdf-template.md)
++   + [Hidden Components of a PDF Template](./native-pdf/components-pdf-template.md)
