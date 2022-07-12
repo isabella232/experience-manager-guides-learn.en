@@ -25,6 +25,7 @@ To create a new PDF template, follow the below steps:
    The new template is created and added in the *Templates* panel. 
 
 ## Duplicate a PDF template
+
 If you want to create a new template with the same page layouts and formatting as that of an existing template, you can create a copy. Once a template has been duplicated, you can further customize its components as needed.
 
 To duplicate an existing PDF template, follow the below steps:
@@ -46,6 +47,7 @@ To duplicate an existing PDF template, follow the below steps:
    A duplicate template is created and added under Templates.
 
 ## Customize a PDF template
+
 You can customize templates by tweaking the template components and applying style formats using stylesheets.
 
 To customize a PDF template, follow the below steps:

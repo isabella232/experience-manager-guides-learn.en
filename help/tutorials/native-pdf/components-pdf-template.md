@@ -14,6 +14,7 @@ Settings in the Page Layouts component allow you to design the structure of a pa
 Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), glossary, or create a layout for a custom page. In the PDF template Settings, you can assign a page layout with different sections within a PDF, which are then used to generate the PDF output.  
 
 ### Create a new page layout
+
 > **Note**: There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
 
 1. In the Web Editor, go to the **Output** tab.
@@ -47,9 +48,11 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
    For more information on defining individual layout elements like header, footer, page number, title, and more, see *Work with page layout elements*.
 
 ## Use Stylesheets to customize PDF
+
 Settings in the Stylesheets component allow you to style the page layout components and DITA content using the WYSIWYG editor or directly work with the CSS file. You can create your own styles or customize the default style properties. The WYSIWYG editor gives you the access to most of the properties that you would need to style your page layout or DITA content. For advanced customizations, you can work directly in the Source view.
 
 ### Create a new stylesheet
+
 While CSS files are provided for content and layout, you can create a new stylesheet to apply multiple customizations to a specific style type that can then be applied to a target component. By default, sample CSS files are bundled within the product. These CSS files are meant to help you organize your styling information across content and layouts. You can choose to merge these styles in a single CSS file or multiple files. 
 
 By default, whenever you create a new page layout, the `layout.css` file is included within the new page layout. If you want the page layout to contain styles from a different CSS file, then you can simply drag-and-drop the desired CSS file on the new page layout’s content editing area. To validate if the CSS file has been embedded within the page layout, switch to the Source view and you will find a link to the CSS file in the `<head>` element.  
@@ -69,6 +72,7 @@ To create a stylesheet, follow the below steps:
    A new stylesheet is created and added under the Stylesheets section.
 
 ### Create a new style
+
 By default, the CSS files contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
 
 Typically, you will create a new style when you want to associate a custom style for any DITA element. For such custom styles to work, you must ensure that you are associating the style’s class name with the DITA element’s outputclass attribute. 
@@ -90,6 +94,7 @@ To create a new style, follow the below steps:
    A new style is created and added under the base style.
 
 ### Customize a predefined or new style
+
 Once you have created a new CSS file with default styles or want to customize styles in an existing CSS file, you can use the styles editor to do so.
 
 To customize a style, follow the below steps:
@@ -109,6 +114,7 @@ To customize a style, follow the below steps:
 1. To customize a style, double-click on a style or click the > icon before a style to view and customize it using the Styles editor.
 
 ## Work with resources
+
 This is a container for all assets used to design a template. You can think of it as a folder, which contains assets such as background images, custom fonts, logos, and more. Whenever you add an asset in your template, it is upload or check in to the asset folder. You can then use these assets to customize or design your PDF templates.
 
 To add an asset file to the Resources folder, follow the below steps:
@@ -126,6 +132,7 @@ To add an asset file to the Resources folder, follow the below steps:
 The selected file is imported and listed under the Resources folder.
 
 ## Advanced PDF Settings
+
 Use the Settings section to configure the advanced settings for PDF’s page layout, starting PDF from odd or even page, formats for the cross references, and enabling printing marks in the final PDF that's generated
 using the template.
 
