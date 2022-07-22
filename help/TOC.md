@@ -35,7 +35,8 @@ breadcrumb-title: AEM Guides Tutorials and Videos
   + WIP Native PDF articles {#hidden}
     + [Hidden PDF Template](./tutorials/native-pdf/pdf-template.md)
     + [Hidden Components of a PDF Template](./tutorials/native-pdf/components-pdf-template.md)
-+ [Videos](./courses/overview.md)
++ Videos {#videos}
+  + [Overview](./courses/overview.md)
   + Getting started with [!DNL AEM Guides] {#getting-started}
     + [Course overview](./courses/course-1/overview.md)
     + [Understand the AEM user interface](./courses/course-1/understanding-the-aem-user-interface.md)
