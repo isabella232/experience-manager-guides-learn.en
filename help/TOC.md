@@ -4,9 +4,9 @@ user-guide-description: Explore our collection of tutorials and videos for Adobe
 breadcrumb-title: AEM Guides Tutorials and Videos
 ---
   
-# Tutorials and video courses for [!DNL Adobe Experience Manager Guides] {#tutorials_and_videos}
+# Tutorials and video courses for [!DNL Adobe Experience Manager Guides] {#tutorials-and-videos}
 
-+ Tutorials
++ Tutorials {#tutorials}
   + Release Information {#release-info}
     + [[!DNL AEM Guides] Releases](./tutorials/release-info/latest-release-info.md) 
     + Release Notes {#release-notes}
