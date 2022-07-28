@@ -200,6 +200,7 @@ In the following example, we will insert a chapter TOC in First page layout of a
 
     <img src="./assets/chapter-toc-default.png" width="400">
     <img src="./assets/transparent-background.png" width="30">
+    
     >[!NOTE]
     >
     >The default chapter TOC contains headings 1 to 4. Here, Heading 1 is the Chapter Title itself. So, you may not want to have the chapter title again in the TOC or you may want to increase the level of headings that you want in the TOC. You can customize the TOC by changing the properties.
