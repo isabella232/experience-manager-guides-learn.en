@@ -33,7 +33,10 @@ The Page Layouts settings under the **Template > Settings** section allow you to
 
 Different page layouts in your PDF template can be further customized by having different first, right, or left page layouts. You can design these pages differently using the page layout designer.
 
-> **Note**: If you want to have a single page layout for a section in your book, then you do not need to create the First, Right, or left page layouts.
+>[!NOTE]
+>
+>If you want to have a single page layout for a section in your book, then you do not need to create the First, Right, or left page layouts.
+
 
 Consider the following points when creating the page layouts:
 
@@ -50,7 +53,7 @@ The following example will walk you through the process of creating variants of 
 
     By default, when you create a page layout, it is also opened up for editing. The following screenshot displays a blank (default) page layout:
 
-    <img src="./assets/default-blank-page-layout.png" height="400">
+    <img src="./assets/default-blank-page-layout.png" width="300">
 
     The header, footer, and content area in a template is created by default. You can easily customize these areas using the tools, page properties, and content properties given in the user interface. For advanced configuration, you can use the Source view and add your custom HTML and CSS code.
 
@@ -70,7 +73,9 @@ For example, if you want to insert an image in the header area of the First page
 
 1. Open the required page layout for editing.
 
-    > **Note**: See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >[!NOTE]
+    >
+    >See _Customize a page layout_ section for opening a page layout for customization or editing.
 
 1. Click the Edit Header (<img src="./assets/header-icon.svg" width="25">) icon to bring your cursor in the header area.
 
@@ -108,7 +113,9 @@ In the following example, we will insert a page number and a topic title in the 
 
 1. Open the required page layout for editing.
 
-    Note: See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >[!NOTE]
+    >
+    >See _Customize a page layout_ section for opening a page layout for customization or editing.
 
 1. Click the Edit Footer (![](./assets/footer-icon.svg)) icon to bring your cursor in the footer area.
 
@@ -122,7 +129,9 @@ In the following example, we will insert a page number and a topic title in the 
 
     <img src="./assets/insert-page-number-field.svg" width="400">
 
-    > **Note**: You can also edit the format of all fields, except the default format. To do so, click the Edit icon next to the format that you want to edit, make changes, and click OK.
+    >[!NOTE]
+    >
+    >You can also edit the format of all fields, except the default format. To do so, click the Edit icon next to the format that you want to edit, make changes, and click OK.
 
     The default page number field is inserted in the footer area of the page layout.
 
@@ -154,8 +163,8 @@ In the following example, we will insert a page number and a topic title in the 
 
         <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-> **Developer corner:**  ![](./assets/developer-corner-icon.svg) 
-
+| Developer corner: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+|--- |--- |
 If you like to work directly with the CSS and HTML code, then you can also achieve this by going to the Source view of the page layout and making changes in the code. The following code snippet shows the same footer setting done through the code:
 
 ```md
@@ -177,7 +186,9 @@ In the following example, we will insert a chapter TOC in First page layout of a
 
 1. Open the required page layout for editing.
 
-    Note: See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >[!NOTE]
+    >
+    >See _Customize a page layout_ section for opening a page layout for customization or editing.
 
 1. Place the cursor in the content area of the page layout.
 1. Click the Chapter TOC (<img src="./assets/chapter-toc-icon.svg">) icon.
@@ -186,7 +197,9 @@ In the following example, we will insert a chapter TOC in First page layout of a
 
     <img src="./assets/chapter-toc-default.png" width="400">
 
-    > **Note**: The default chapter TOC contains headings 1 to 4. Here, Heading 1 is the Chapter Title itself. So, you may not want to have the chapter title again in the TOC or you may want to increase the level of headings that you want in the TOC. You can customize the TOC by changing the properties.
+    >[!NOTE]
+    >
+    >The default chapter TOC contains headings 1 to 4. Here, Heading 1 is the Chapter Title itself. So, you may not want to have the chapter title again in the TOC or you may want to increase the level of headings that you want in the TOC. You can customize the TOC by changing the properties.
 
 1. Open the HTML Content Properties panel to customize the TOC heading levels.
 
@@ -198,7 +211,9 @@ In the following example, we will insert a chapter TOC in First page layout of a
 
     <img src="./assets/chapter-toc-updated.png" width="400">
 
-    > **Note**: The final published PDF will only show the TOC entries based on the content in your chapters. If you don't have level 5 headings in a chapter, it will not be shown in the final output.
+    >[!NOTE]
+    >
+    >The final published PDF will only show the TOC entries based on the content in your chapters. If you don't have level 5 headings in a chapter, it will not be shown in the final output.
 
 ## Work with multi-column page layout
 
@@ -208,7 +223,9 @@ To create a page layout with multiple columns, perform the following steps:
 
 1. Open the required page layout for editing.
 
-    > **Note**: See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >[!NOTE]
+    >
+    >See _Customize a page layout_ section for opening a page layout for customization or editing.
 
 1. As the multi-column layout is applied on the content, excluding the header and footer area, you need to select the content element in the breadcrumb.
 
@@ -222,7 +239,9 @@ To create a page layout with multiple columns, perform the following steps:
    
     * **Column Width:** Specify the width of a column in a multi-column layout. By default, the size is set in pixels (px), you can also specify it in pt, rem, em, %, or in units.
 
-        >**Note:** If you don&#39;t specify a size, then the columns are automatically sized to fit in the given page margins.
+        >[!NOTE]
+        >
+        >If you don&#39;t specify a size, then the columns are automatically sized to fit in the given page margins.
 
     * **Column Gap** : Specify the space between individual columns.
   
@@ -234,15 +253,15 @@ To create a page layout with multiple columns, perform the following steps:
 
     <img src="./assets/element-span-across-columns.png" width="400">
 
-    >[**IMPORTANT**]
-    > 
+    >[!IMPORTANT]
+    >
     >You can apply Span Column property to any DITA element.
 
     * **Column Fill** : Specify how content fills columns. By default, it is set to Balance which fills each column with equal amount of content.
 
     * **Column Rule** : If you want to have a line in between columns, then use this property to define the line or ruling styles. Specify the values for ruling Style, Color, and Width to add a line in between columns.
 
-## Use Page Properties for different page orientation**
+## Use Page Properties for different page orientation
 
 While designing a page layout, having control over various page properties is essential. The Native PDF feature encapsulates all major page properties under the Page Properties panel. The Page Properties panel provides access to various properties under the following sections:
 
@@ -262,7 +281,7 @@ While designing a page layout, having control over various page properties is es
 
 Let’s look at an example wherein a combination of portrait and landscape page orientation and view rotation properties are used. In this example, we will create a PDF with default portrait orientation, but a table will be rendered in landscape orientation with content in Clockwise 90 degree view. The final output will look something similar to:
 
-<img src="./assets/portrait-landscape-page-layouts.png" height="800">
+<img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
 In the above output, the Contact List information is presented in landscape mode with content also rotated in 90 degrees. The remaining content is displayed in the normal portrait mode.
 
@@ -332,7 +351,7 @@ Perform the following steps to achieve the above tasks:
 
     1. In the **Content Properties** panel, add a new `outputclass` property with `landscape-style` as property value.
 
-        <img src="./assets/new-style-table-outputclass.png" height="400">
+        <img src="./assets/new-style-table-outputclass.png" width="300">
     
     1. Click **Save All** to save the updated file. 
 
@@ -344,7 +363,9 @@ The final PDF will have the table content rendered in landscape mode as shown in
 
 The Content Properties panel lets you easily update the look and feel of the elements on your page layout. The properties under the Content Properties panel are divided into the following sections:
 
-> **Note**: For more details about the usage of these properties, see W3C CSS Page Media Standards documentation.
+>[!NOTE]
+>
+>For more details about the usage of these properties, see W3C CSS Page Media Standards documentation.
 
 * **Attributes**: Contains ID, Class, and Translate properties. If you set the Translate property to no, then the content in that specific element is not translated.
 
