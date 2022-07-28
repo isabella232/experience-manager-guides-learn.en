@@ -50,7 +50,7 @@ The following example will walk you through the process of creating variants of 
 
     By default, when you create a page layout, it is also opened up for editing. The following screenshot displays a blank (default) page layout:
 
-    <img src=".\assets\default-blank-page-layout.png" height="400">
+    <img src="./assets/default-blank-page-layout.png" height="400">
 
     The header, footer, and content area in a template is created by default. You can easily customize these areas using the tools, page properties, and content properties given in the user interface. For advanced configuration, you can use the Source view and add your custom HTML and CSS code.
 
@@ -72,9 +72,9 @@ For example, if you want to insert an image in the header area of the First page
 
     > **Note**: See _Customize a page layout_ section for opening a page layout for customization or editing.
 
-1. Click the Edit Header (<img src=".\assets\header-icon.svg" width="25">) icon to bring your cursor in the header area.
+1. Click the Edit Header (<img src="./assets/header-icon.svg" width="25">) icon to bring your cursor in the header area.
 
-1. Click the Inert Image (<img src=".\assets\insert-image-icon.svg" width="25"> ) icon.
+1. Click the Inert Image (<img src="./assets/insert-image-icon.svg" width="25"> ) icon.
 
     The Select Path pop-up appears.
 
@@ -82,7 +82,7 @@ For example, if you want to insert an image in the header area of the First page
 
     The following screenshot shows a sample image added in the header area.
 
-    <img src=".\assets\image-in-header-area.png" width="500">
+    <img src="./assets/image-in-header-area.png" width="500">
 
     Once an image is inserted, you can modify its attributes to give it the look and feel that you want. The easiest way of changing the way an image or any other element on your page layout looks, use the Content Properties panel to do so. See _Work with Content Properties panel_ for the various properties that are available through the UI to customize.
 
@@ -110,7 +110,7 @@ In the following example, we will insert a page number and a topic title in the 
 
     Note: See _Customize a page layout_ section for opening a page layout for customization or editing.
 
-1. Click the Edit Footer (![](.\assets\footer-icon.svg)) icon to bring your cursor in the footer area.
+1. Click the Edit Footer (![](./assets/footer-icon.svg)) icon to bring your cursor in the footer area.
 
 1. Insert a paragraph element by clicking the Insert HTML Elements <img src="./assets/insert-html-element-2.svg" width=25> icon, and selecting Paragraph from the list of elements.
 
@@ -262,7 +262,7 @@ While designing a page layout, having control over various page properties is es
 
 Let’s look at an example wherein a combination of portrait and landscape page orientation and view rotation properties are used. In this example, we will create a PDF with default portrait orientation, but a table will be rendered in landscape orientation with content in Clockwise 90 degree view. The final output will look something similar to:
 
-<img src=".\assets\portrait-landscape-page-layouts.png" height="800">
+<img src="./assets/portrait-landscape-page-layouts.png" height="800">
 
 In the above output, the Contact List information is presented in landscape mode with content also rotated in 90 degrees. The remaining content is displayed in the normal portrait mode.
 
@@ -280,7 +280,7 @@ Perform the following steps to achieve the above tasks:
 
     1. In the right panel, click **Page Properties**. 
 
-        <img src=".\assets\page-properties-panel.png" width="300">
+        <img src="./assets/page-properties-panel.png" width="300">
     1. Change the **Orientation** to **Landscape**. 
 
 1. Change the View Rotation property to render content in 90 degrees clockwise direction. 
@@ -300,11 +300,11 @@ Perform the following steps to achieve the above tasks:
     
     1. Right click on **Other Styles** and choose **New Style**.
 
-        <img src=".\assets\stylesheet-other-new-style.png" width="300">
+        <img src="./assets/stylesheet-other-new-style.png" width="300">
     
     1. In the **Add Style** popup, enter `landscape-style` in the **Class** name field.
 
-        <img src=".\assets\stylesheet-new-landscape-style.png" width="400">
+        <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
     1.  Click **Done**. 
         
@@ -316,7 +316,7 @@ Perform the following steps to achieve the above tasks:
 
     1. Enter `Landscape` in the **Page Layout** property. 
 
-        <img src=".\assets\new-style-with-landscape-layout.png" width="500">
+        <img src="./assets/new-style-with-landscape-layout.png" width="500">
 
 1. Add the style in the outputcalss definition of the table that we want to render in the landscape page layout. 
 
@@ -326,13 +326,13 @@ Perform the following steps to achieve the above tasks:
 
     1. In the breadcrumb, click on the `table` element to select the table. 
 
-        <img src=".\assets\new-style-table-element.png" width="400">
+        <img src="./assets/new-style-table-element.png" width="400">
     
     1. In the right panel, click and open the **Content Properties** panel. 
 
     1. In the **Content Properties** panel, add a new `outputclass` property with `landscape-style` as property value.
 
-        <img src=".\assets\new-style-table-outputclass.png" height="400">
+        <img src="./assets/new-style-table-outputclass.png" height="400">
     
     1. Click **Save All** to save the updated file. 
 
@@ -352,7 +352,7 @@ The Content Properties panel lets you easily update the look and feel of the ele
 
 * **Border**: Contains properties to add and format a border to an element in your page layout. You can set Border Side (as all, top, bottom, right, or left), Border Style (as Solid, Dashed, Dotted lines, or more), Border Color, Width, and Radius for having curved border. In the following example, a curved border has been added in the header area of the page.
 
-    <img src=".\assets\border-properties.png" width="500">
+    <img src="./assets/border-properties.png" width="500">
 
 * **Layout**: Contains properties to configure the layout of an element in your page layout. You can set Height, Width, Margins and Padding (for top, bottom, left, or right), Horizontal or Vertical alignment, Float (as Left, Right, or none), Clear (as left, right, both, or none), element’s Position (as absolute, fixed, relative, or more), Display (as block, content, fix or more), Z Index, Transparency, Transform (by rotating or scaling), and Transform Origin (by X and Y-offset). 
 
