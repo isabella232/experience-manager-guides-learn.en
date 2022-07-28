@@ -163,9 +163,8 @@ In the following example, we will insert a page number and a topic title in the 
 
         <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
->[!Developer corner:]  
->![](./assets/developer-corner-icon.svg) 
-> 
+| Developer corner: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+|--- |--- |
 If you like to work directly with the CSS and HTML code, then you can also achieve this by going to the Source view of the page layout and making changes in the code. The following code snippet shows the same footer setting done through the code:
 
 ```md
