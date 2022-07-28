@@ -4,6 +4,7 @@ description: Learn how to design your page layout for presenting information in 
 hide: yes
 hidefromtoc: yes
 ---
+
 # Design a page layout
 
 When creating a PDF document, you would have different sections for presenting different types of information. For example, a PDF document would start from a front or cover page, which would have your company&#39;s logo, book title, or version information. Then there would be chapters, appendices, or glossary pages. Each section in a PDF document looks different and that is achieved by creating and customizing the page layout.
@@ -79,7 +80,7 @@ For example, if you want to insert an image in the header area of the First page
 
 1. Click the Edit Header (<img src="./assets/header-icon.svg" width="25">) icon to bring your cursor in the header area.
 
-1. Click the Inert Image (<img src="./assets/insert-image-icon.svg" width="25"> ) icon.
+1. Click the Inert Image (<img src="./assets/insert-image-icon.svg" width="25">) icon.
 
     The Select Path pop-up appears.
 
@@ -128,7 +129,7 @@ In the following example, we will insert a page number and a topic title in the 
 1. Select the **Page Number** category from the Field list, the **default(1)** page number format from the Format list, and click **Insert**.
 
     <img src="./assets/insert-page-number-field.svg" width="400">
-
+    <br>
     >[!NOTE]
     >
     >You can also edit the format of all fields, except the default format. To do so, click the Edit icon next to the format that you want to edit, make changes, and click OK.
@@ -163,9 +164,9 @@ In the following example, we will insert a page number and a topic title in the 
 
         <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Developer corner: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| Developer corner: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-If you like to work directly with the CSS and HTML code, then you can also achieve this by going to the Source view of the page layout and making changes in the code. The following code snippet shows the same footer setting done through the code:
+| If you like to work directly with the CSS and HTML code, then you can also achieve this by going to the Source view of the page layout and making changes in the code. The following code snippet shows the same footer setting done through the code: |
 
 ```md
 …
@@ -210,7 +211,7 @@ In the following example, we will insert a chapter TOC in First page layout of a
     Similarly, if you want to have headings up till level 5, then change the second drop-down list to 5. The updated TOC will look as shown below:
 
     <img src="./assets/chapter-toc-updated.png" width="400">
-
+    <br>
     >[!NOTE]
     >
     >The final published PDF will only show the TOC entries based on the content in your chapters. If you don't have level 5 headings in a chapter, it will not be shown in the final output.
@@ -252,7 +253,7 @@ To create a page layout with multiple columns, perform the following steps:
     As shown in the following example, the Span Column property for the heading text is set to all. This ensures that even though the document is multi-column, the heading spans across columns.
 
     <img src="./assets/element-span-across-columns.png" width="400">
-
+    <br>
     >[!IMPORTANT]
     >
     >You can apply Span Column property to any DITA element.
