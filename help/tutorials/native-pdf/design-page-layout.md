@@ -1,8 +1,9 @@
 ---
 title: Native PDF Publish Feature | Design a page layout
-description: Learn how to design your page layout for presenting information in different sections of your PDF output. 
+description: Learn how to design your page layout for presenting information in different sections of your PDF output.
 hide: yes
 hidefromtoc: yes
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 ---
 # Design a page layout
 
@@ -379,5 +380,4 @@ The Content Properties panel lets you easily update the look and feel of the ele
 
 * **Background**: Contains properties to include a background image or color shade. You can set the Image Size (by setting Height or Width), Background Repeat (as repeat, no-repeat, round, or more), and Background Position (as left top, right center, center bottom, or more).    
 
-* **Multiple Columns**: Contains properties to configure multi-column properties for the page or any specific element, such as Chapter TOC. For more details on the properties and how to use them, see _Work with multi-column page layout_. 
-
+* **Multiple Columns**: Contains properties to configure multi-column properties for the page or any specific element, such as Chapter TOC. For more details on the properties and how to use them, see _Work with multi-column page layout_.
