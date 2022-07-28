@@ -129,7 +129,9 @@ In the following example, we will insert a page number and a topic title in the 
 1. Select the **Page Number** category from the Field list, the **default(1)** page number format from the Format list, and click **Insert**.
 
     <img src="./assets/insert-page-number-field.svg" width="400">
+    
     <br>
+    
     >[!NOTE]
     >
     >You can also edit the format of all fields, except the default format. To do so, click the Edit icon next to the format that you want to edit, make changes, and click OK.
@@ -211,7 +213,9 @@ In the following example, we will insert a chapter TOC in First page layout of a
     Similarly, if you want to have headings up till level 5, then change the second drop-down list to 5. The updated TOC will look as shown below:
 
     <img src="./assets/chapter-toc-updated.png" width="400">
+
     <br>
+    
     >[!NOTE]
     >
     >The final published PDF will only show the TOC entries based on the content in your chapters. If you don't have level 5 headings in a chapter, it will not be shown in the final output.
@@ -253,7 +257,9 @@ To create a page layout with multiple columns, perform the following steps:
     As shown in the following example, the Span Column property for the heading text is set to all. This ensures that even though the document is multi-column, the heading spans across columns.
 
     <img src="./assets/element-span-across-columns.png" width="400">
+
     <br>
+    
     >[!IMPORTANT]
     >
     >You can apply Span Column property to any DITA element.
