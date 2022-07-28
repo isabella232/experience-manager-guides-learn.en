@@ -131,7 +131,7 @@ In the following example, we will insert a page number and a topic title in the 
 
     <img src="./assets/insert-page-number-field.svg" width="400">
     
-    <br>
+    <img src="./assets/transparent-background.png" width="30">
     
     >[!NOTE]
     >
@@ -169,7 +169,7 @@ In the following example, we will insert a page number and a topic title in the 
 
 | Developer corner: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-| If you like to work directly with the CSS and HTML code, then you can also achieve this by going to the Source view of the page layout and making changes in the code. The following code snippet shows the same footer setting done through the code: |
+If you like to work directly with the CSS and HTML code, then you can also achieve this by going to the Source view of the page layout and making changes in the code. The following code snippet shows the same footer setting done through the code: 
 
 ```md
 …
@@ -200,7 +200,8 @@ In the following example, we will insert a chapter TOC in First page layout of a
     The default chapter TOC is inserted in the content area.
 
     <img src="./assets/chapter-toc-default.png" width="400">
-
+    <img src="./assets/transparent-background.png" width="30">
+    
     >[!NOTE]
     >
     >The default chapter TOC contains headings 1 to 4. Here, Heading 1 is the Chapter Title itself. So, you may not want to have the chapter title again in the TOC or you may want to increase the level of headings that you want in the TOC. You can customize the TOC by changing the properties.
@@ -215,7 +216,7 @@ In the following example, we will insert a chapter TOC in First page layout of a
 
     <img src="./assets/chapter-toc-updated.png" width="400">
 
-    <br>
+    <img src="./assets/transparent-background.png" width="30">
     
     >[!NOTE]
     >
@@ -259,7 +260,7 @@ To create a page layout with multiple columns, perform the following steps:
 
     <img src="./assets/element-span-across-columns.png" width="400">
 
-    <br>
+    <img src="./assets/transparent-background.png" width="30">
     
     >[!IMPORTANT]
     >
