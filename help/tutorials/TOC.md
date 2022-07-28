@@ -35,3 +35,4 @@ breadcrumb-title: AEM Guides Tutorials
 + WIP Native PDF articles {#hidden}
   + [Hidden PDF Template](./native-pdf/pdf-template.md)
   + [Hidden Components of a PDF Template](./native-pdf/components-pdf-template.md)
+  + [Hidden Design a page layout](./native-pdf/design-page-layout.md)
