@@ -3,6 +3,7 @@ title: Native PDF Publish Feature | Customize and configure the Native PDF featu
 description: Learn how to customize and configure the various components of the Native PDF Feature.
 hide: yes
 hidefromtoc: yes
+exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 ---
 # PDF template
 
@@ -74,5 +75,3 @@ To customize a PDF template, follow the below steps:
    For example, double-click on *Page Layouts* or click the *>* icon before *Page Layouts* to view the available
 page layouts.
 1. Once you have made the desired changes, click *Save All* (or `Ctrl+S`).
-
-

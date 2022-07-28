@@ -49,7 +49,7 @@ Multiple tracked changes can also be filtered by insertion, deletion, or reviewe
 2. Select the checkboxes for the desired filters.
 
     ![Filter UI](images/lesson-12/filter.png)
- 
+
 3. Click [!UICONTROL **Apply**].
 
 ## Accept or reject tracked changes
@@ -74,23 +74,21 @@ Reviewers and Subject Matter Experts can accept or reject other users’ changes
 
 ## Work with the Merge feature
 
-When you work in a multi-author environment, it can be difficult to track what changes other
-authors have made in a topic or map. The Merge feature gives you more control over not only
-viewing the changes, but also what changes are retained in the latest version of the document.
+When you work in a multi-author environment, it can be difficult to track what changes other authors have made in a topic or map. The Merge feature gives you more control over not only viewing the changes, but also what changes are retained in the latest version of the document.
 
 1. Open a topic in the Web Editor.
 
 2. Click the [!UICONTROL **Merge**] icon on the toolbar.
-    
+
     ![Merge Icon](images/lesson-12/merge-icon.png)
 
 3. In the Merge dialog, select a version of the file with which you want to compare the current version of the file.
 
 4. From the Options, choose:
 
-    • **Track Changes From Selected Version**: This option shows all content updates in the form of tracked changes. You can then choose to accept or reject changes in the document one at a time or all at once.
+    - **Track Changes From Selected Version**: This option shows all content updates in the form of tracked changes. You can then choose to accept or reject changes in the document one at a time or all at once.
 
-    • **Revert to Selected Version**: This option reverts the current version of the document to the selected version. It does not give you any control over what content is accepted or rejected.
+    - **Revert to Selected Version**: This option reverts the current version of the document to the selected version. It does not give you any control over what content is accepted or rejected.
 
 5. Click [!UICONTROL **Done**].
 

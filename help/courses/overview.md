@@ -5,8 +5,6 @@ exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
 ---
 # Video Courses for [!DNL Adobe Experience Manager Guides] {#overview}
 
-Adobe Experience Manager Guides (referred to as [!DNL AEM Guides] solution later in this space) is a powerful, enterprise-grade component content management solution (CCMS). 
-
 Check out this space for video based courses for [!DNL Adobe Experience Manager Guides]. 
 
 >[!NOTE]

@@ -9,30 +9,30 @@ exl-id: 29fe5e78-8787-4f09-a969-60f68e376976
 
 In this course you learned about:
 
-• [User Preferences and Settings](./user-settings-preferences-toolbars.md)
+- [User Preferences and Settings](./user-settings-preferences-toolbars.md)
 
-• [Folder Profiles](folder-profiles.md)
+- [Folder Profiles](folder-profiles.md)
 
-• [Editor Configuration](editor-configuration.md)
+- [Editor Configuration](editor-configuration.md)
 
-• [Panels](panels.md)
+- [Panels](panels.md)
 
-• [Outline View](outline-view.md)
+- [Outline View](outline-view.md)
 
-• [Cross-References and Links](cross-references-and-links.md)
+- [Cross-References and Links](cross-references-and-links.md)
 
-• [Content Reuse](content-reuse.md)
+- [Content Reuse](content-reuse.md)
 
-• [Keys](keys.md)
+- [Keys](keys.md)
 
-• [Glossary](glossary.md)
+- [Glossary](glossary.md)
 
-• [Spell-checking and Find and Replace](spell-check.md)
+- [Spell-checking and Find and Replace](spell-check.md)
 
-• [Track Changes](track-changes.md)
+- [Track Changes](track-changes.md)
 
-• [Conditions](conditions.md)
+- [Conditions](conditions.md)
 
-• [Maps and Bookmarks](maps-and-bookmaps.md)
+- [Maps and Bookmarks](maps-and-bookmaps.md)
 
-• [Simple Content Creation Workflows](simple-content-creation-workflows.md)
+- [Simple Content Creation Workflows](simple-content-creation-workflows.md)

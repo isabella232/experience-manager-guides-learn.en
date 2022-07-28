@@ -6,7 +6,7 @@ breadcrumb-title: AEM Guides Videos
   
 # [!DNL Adobe Experience Manager Guides] {#videos}
 
-+ [[!DNL AEM Guides] for AEM](overview.md)
++ [[!DNL AEM Guides] Videos](overview.md)
 + Getting started with [!DNL AEM Guides] {#getting-started}
   + [Course overview](./course-1/overview.md)
   + [Understand the AEM user interface](./course-1/understanding-the-aem-user-interface.md)

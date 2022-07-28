@@ -18,6 +18,7 @@ Once you have familiarized yourself with the user interface, you can begin to cr
 1. Select the **+** icon and **Folder**.
 
    ![+ icon](images/lesson-3/+-icon.png)
+
 1. Give the folder a title.
 1. Select **Create**.
  You have created a new folder, which now displays in the Repository. This folder will be your home for all course content.
@@ -31,6 +32,7 @@ We can now create a folder inside your new folder to contain images or other con
    ![Ellipsis icon](images/lesson-3/ellipses-icon.png)
 
    The Options menu displays.
+
 1. Select **Create \> Folder**.
    ![Creating a subfolder](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -43,6 +45,7 @@ We can now create a folder inside your new folder to contain images or other con
    ![Ellipsis icon](images/lesson-3/ellipses-icon.png)
 
    The Options Menu displays.
+
 1. Select **Create \> Topic**.
 
    ![Creating a new topic](images/lesson-3/create-topic-with-markings.png)
@@ -87,6 +90,7 @@ You can save your work at any time with Save or Save as New Version. Use Save to
    >[!NOTE] 
    > 
    > If your program is configured with predefined labels, you can select from these to ensure consistent labelling. 
+
 1. Select **Save**.
-   
+
    You have created a new version of your topic, and the version number is updated.
