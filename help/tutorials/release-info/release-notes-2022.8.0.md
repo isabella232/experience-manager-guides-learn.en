@@ -43,7 +43,7 @@ Now you can view the complete layout of a DITA map in the map editor. When you o
 ![layout view](assets/layout-view-map.png)
 
 The Layout view contains a seperate tool bar which helps you perform many tasks on the topics present in a map. 
-You can insert topic references, topic group, key definitions in a map. You can reorganize the topics present in a map by moving them up, down, left, or right. You can also drag-and-drop the references to move them in a map. Map editor also provides the icons to  lock or unlock files, check the version history, and do a version label management. 
+You can insert topic references, topic group, key definitions in a map. You can reorganize the topics present in a map by moving them up, down, left, or right. You can also drag-and-drop the topics to move them in a map. Map editor also provides the icons to  lock or unlock files, check the version history, and do a version label management. 
 
 
 The Layout view also provides the **View Options** to show or hide line number, show or hide check box, or show the file name or title  for the topics in a map:
