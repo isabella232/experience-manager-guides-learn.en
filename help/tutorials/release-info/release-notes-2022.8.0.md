@@ -28,7 +28,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | 
 | --- | --- | --- |
-| 2022.5.0 | 2.7.5 | 2.7.5 | 
+| 2022.8.0 | 2.7.5 | 2.7.5 | 
 |  |  |  |  
 
 
@@ -43,16 +43,17 @@ Now you can view the complete layout of a DITA map in the map editor. When you o
 ![layout view](assets/layout-view-map.png)
 
 The Layout view contains a seperate tool bar which helps you perform many tasks on the topics present in a map. 
-You can insert topic references, topic group, key definitions in a map. You can also reorganize the topics present in a map by moving them up, down, left, or right. You can  lock or unlock files, check the version history, and do a version label management.
+You can insert topic references, topic group, key definitions in a map. You can reorganize the topics present in a map by moving them up, down, left, or right. You can also drag-and-drop the references to move them in a map. Map editor also provides the icons to  lock or unlock files, check the version history, and do a version label management. 
 
-The Layout view also provides the following **View Options** for a map: 
-* Show Line Numbers
-* Show Check Box 
-* Show File Name
+
+The Layout view also provides the **View Options** to show or hide line number, show or hide check box, or show the file name or title  for the topics in a map:
+
+
+![view-options](assets/view-options.png)
 
 You can also view the topics based on the conditional filters applied on them.
 
-In addition to organizing topics in the map file, you can also add, move, copy, paste, or delete references using the **Options** menu available for an element in the Layout view. 
+In addition to organizing topics in the map file, you can also add, move, copy, paste, or delete references using the **Options** menu available for an element in the Layout view. You can also drag-and-drop a topic or a map from the repository panel to the map opened in the map editor.
 
 The right panel displays the Content Properties and the Map Properties in the Layout view of the map editor. The Inline Attributes defined for the selected topic are displayed against the topic in the Layout view. For example, you can quickly find all topics which have the platform attribute defined as `IOS`.
 
