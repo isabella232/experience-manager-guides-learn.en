@@ -105,4 +105,5 @@ The bugs fixed in various areas are listed below:
 
 ## Known issues
 
-If multiple files are selected from the result section displayed on performing a search on repository and then drag-dropped in the author view, only a single file gets added.
+* If multiple files are selected from the result section displayed on performing a search on repository and then drag-dropped in the author view, only a single file gets added.
+* If Layout view button is not visible in map editor, please update the ui_config.json in the Folder Profile.
