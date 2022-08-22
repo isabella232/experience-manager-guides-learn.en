@@ -38,11 +38,11 @@ AEM Guides as a Cloud Service provides many enhancements and new features in the
 
 ### Layout view in the Map Editor
 
-Now you can view the complete layout of a DITA map in the Map Editor. When you open a map for editing it opens the **Layout** view of the Map Editor. In this view you can see the map hierarchy in a tree view and also organize or structure the topics in a map. 
+Now you can view the complete layout of a DITA map in the Map Editor. When you open a map for editing, it opens the **Layout** view of the Map Editor. In this view, you can see the map hierarchy in a tree view and also organize or structure the topics in a map. 
 
 ![layout view](assets/layout-view-map.png)
 
-The Layout view contains a seperate tool bar which helps you perform many tasks on the topics present in a map. 
+The Layout view contains a separate tool bar which helps you perform many tasks on the topics present in a map. 
 You can insert topic references, topic group, key definitions in a map. You can reorganize the topics present in a map by moving them up, down, left, or right. You can also drag-and-drop the topics to move them in a map. The Map Editor also provides the icons to  lock or unlock files, check the version history, and do a version label management. 
 
 
@@ -117,7 +117,7 @@ Use the given workaround for the following known issues:
 
 * Symbols.json is overridden so issue 8919 occurs.
 
-    **Workaround**: Updated symbols.json must be merged with overriden symbols.json.
+    **Workaround**: Updated symbols.json must be merged with overridden symbols.json.
 
 ### Other known issues
 
