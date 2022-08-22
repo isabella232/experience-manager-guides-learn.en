@@ -36,14 +36,14 @@ This section lists the compatibility matrix for the software applications suppor
 
 AEM Guides as a Cloud Service provides many enhancements and new features in the latest release:
 
-### Layout view in the Map editor
+### Layout view in the Map Editor
 
-Now you can view the complete layout of a DITA map in the map editor. When you open a map for editing it opens the **Layout** view of the map editor. In this view you can see the map hierarchy in a tree view and also organize or structure the topics in a map. 
+Now you can view the complete layout of a DITA map in the Map Editor. When you open a map for editing it opens the **Layout** view of the Map Editor. In this view you can see the map hierarchy in a tree view and also organize or structure the topics in a map. 
 
 ![layout view](assets/layout-view-map.png)
 
 The Layout view contains a seperate tool bar which helps you perform many tasks on the topics present in a map. 
-You can insert topic references, topic group, key definitions in a map. You can reorganize the topics present in a map by moving them up, down, left, or right. You can also drag-and-drop the topics to move them in a map. Map editor also provides the icons to  lock or unlock files, check the version history, and do a version label management. 
+You can insert topic references, topic group, key definitions in a map. You can reorganize the topics present in a map by moving them up, down, left, or right. You can also drag-and-drop the topics to move them in a map. The Map Editor also provides the icons to  lock or unlock files, check the version history, and do a version label management. 
 
 
 The Layout view also provides the **View Options** to show or hide line number, show or hide check box, or show the file name or title  for the topics in a map.
@@ -53,9 +53,9 @@ The Layout view also provides the **View Options** to show or hide line number, 
 
 You can also view the topics based on the conditional filters applied on them.
 
-In addition to organizing topics in the map file, you can also add, move, copy, paste, or delete references using the **Options** menu available for an element in the Layout view. You can also drag-and-drop a topic or a map from the repository panel to the map opened in the map editor.
+In addition to organizing topics in the map file, you can also add, move, copy, paste, or delete references using the **Options** menu available for an element in the Layout view. You can also drag-and-drop a topic or a map from the repository panel to the map opened in the Map Editor.
 
-The right panel displays the Content Properties and the Map Properties in the Layout view of the map editor. The Inline Attributes defined for the selected topic are displayed against the topic in the Layout view. For example, you can quickly find all topics which have the platform attribute defined as `IOS`.
+The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor. The Inline Attributes defined for the selected topic are displayed against the topic in the Layout view. For example, you can quickly find all topics which have the platform attribute defined as `IOS`.
 
 Now you can also set the metadata information for the topics or the map. You can define the Nav Title, Link Text, Short Description, and Keywords for the selected topic or map. 
 
@@ -105,6 +105,20 @@ The bugs fixed in various areas are listed below:
 
 ## Known issues
 
+Adobe has identified the following known issues for AEM Guides as a Cloud Service August 2022 release.
+
+### Known issues with workaround
+
+Use the given workaround for the following known issues:
+
+* The Layout view is not visible in the Map Editor.
+
+  **Workaround**: Update the ui_config.json in the Folder Profile.
+
+* Symbols.json is overridden so issue 8919 occurs.
+
+    **Workaround**: Updated symbols.json must be merged with overriden symbols.json.
+
+### Other known issues
+
 * If multiple files are selected from the result section displayed on performing a search on repository and then drag-dropped in the author view, only a single file gets added.
-* If Layout view button is not visible in map editor, please update the ui_config.json in the Folder Profile.
-* If symbols.json is overridden then for issue#8919 updated symbols.json must be merged with overriden symbols.json
