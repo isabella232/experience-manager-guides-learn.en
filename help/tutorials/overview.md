@@ -24,7 +24,7 @@ With [!DNL AEM Guides] solution, enterprises can deliver seamless and personaliz
 
 * **[[!DNL AEM Guides] Authoring in the built-in Web Editor](../courses/course-3/overview.md)**
 
-    Learn how to author content using the native Web Editor in  [!DNL Adobe Experience Manager Guides]. Gain complete understanding of user preferences, editor settings, configuration, toolbars and more._
+    _Learn how to author content using the native Web Editor in  [!DNL Adobe Experience Manager Guides]. Gain complete understanding of user preferences, editor settings, configuration, toolbars and more._
 
 * **[Output Generation with [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
