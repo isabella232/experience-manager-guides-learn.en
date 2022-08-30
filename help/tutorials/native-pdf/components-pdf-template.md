@@ -36,6 +36,19 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
    
    The new layout is created and added under Page Layouts.
 
+### Duplicate a page layout
+
+1. In the **Templates** section of the template that you want to duplicate, double-click on **Page Layouts** or click the **>** icon before **Page Layouts**.
+
+   This displays the list of page layouts within the template.
+   
+1. Hover over the page layout that you want to duplicate and click the (*Options* icon) **...** and select **Duplicate** from the context menu.
+
+1. In the _Duplicate Layout_ dialog, enter a name for the page layout.
+
+1. Click **Done**.
+   A copy of the selected page layout is created and added under Page Layouts.
+
 ### Customize a page layout
 
 1. In the **Templates** section of the template that you want to edit, double-click on **Page Layouts** or click the **>** icon before **Page Layouts**.
