@@ -307,8 +307,8 @@ If you do not want a page layout to have a header and footer, then there are two
 
 Based on your requirements, you might want to add an image that appears in the header area (or any other part) of the page layout. There are two ways in which you can add an image in your page layout:
 
-- Use an image from the template Resources.
-- Use the \<Add Image\> tool in the page layout editor.
+* Use an image from the template Resources.
+* Use the \<Add Image\> tool in the page layout editor.
 
 >[!NOTE]
 >
@@ -342,15 +342,15 @@ Fields are very useful when you want to insert a piece of information that is pr
 
 There are the following categories for fields that you can insert in your page layout:
 
-- Date
-- Time
-- Topic Title
-- Project Title
-- Page Number
-- Total Page
-- Chapter Title
-- Chapter Number
-- Metadata
+* Date
+* Time
+* Topic Title
+* Project Title
+* Page Number
+* Total Page
+* Chapter Title
+* Chapter Number
+* Metadata
 
 Each of these field categories contain different variations in which the field information can be inserted. For example, a Date field can have different variations such as `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` and so on. Similarly, Page Number can have variations in the form of roman, decimal, or even locale-specific formats such as _Arabic_, _Devanagari_, _Hebrew_, and more.
 
