@@ -190,9 +190,9 @@ Perform the following steps to achieve the above tasks:
 1. Add the style in the `outputclass` definition of the table that we want to render in the landscape page layout.
     1. In a DITA file editor, open the file where you want to apply the new page layout.
     
-    2. Find the `<table>` element, which is to be rendered in Landscape mode.
+    1. Find the `<table>` element, which is to be rendered in Landscape mode.
     
-    3. In the breadcrumb, click on the table element to select the table.
+    1. In the breadcrumb, click on the table element to select the table.
 
         <img src="./assets/new-style-table-element.png" width="400">
 
@@ -203,7 +203,7 @@ Perform the following steps to achieve the above tasks:
         <img src="./assets/new-style-table-outputclass.png" width="300">
 
   1. Click **Savel All** to save the updated file.
-  2. Generate the PDF output.
+  1. Generate the PDF output.
 
 The final PDF will have the table content rendered in landscape mode as shown in the beginning of the example.
 
@@ -264,9 +264,9 @@ By default, the header and footer margins are set to 1 inch. You can change this
     >See _Customize a page layout_ section for opening a page layout for customization or editing.
 
 1. In the right panel, click **Page Properties**.
-2. Expand the **Layout** section.
-3. Click the lock icon next to the **Margin** property.
-4. To change the header size, enter the desired value in the Top margin field.
+1. Expand the **Layout** section.
+1. Click the lock icon next to the **Margin** property.
+1. To change the header size, enter the desired value in the Top margin field.
 
     >[!NOTE]
     >
@@ -327,7 +327,7 @@ To insert an image like your company's logo in the header area, perform the foll
 
 1. To add an image, choose anyone of the following methods:
   1. Click the **Inert Image** (<img src="./assets/insert-image-icon.svg" width="25">) icon in the toolbar; in the **Select Path** pop-up, browse to the image location and click **Select** to insert it in the header area.
-  2. Drag and drop an image from the Resources folder into the header area.
+  1. Drag and drop an image from the Resources folder into the header area.
 
 The following screenshot shows a sample image added in the header area.
 
