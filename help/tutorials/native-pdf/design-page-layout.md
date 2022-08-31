@@ -87,7 +87,7 @@ While designing a page layout, having control over various page properties is es
 >
 >The Page Properties panel encapsulates the properties and follows rules defined under the [Page Media standards](https://www.w3.org/TR/css-page-3/).
 
-* **Page Size** : Specify the page size you want to use for the page layout. The Page Size dropdown list allows you to choose from over 15 page sizes. You can also create a page layout using a custom page size, see [Set the page size](design-page-layout.md#set-the-page-size) for more details.
+* **Page Size** : Specify the page size you want to use for the page layout. The Page Size dropdown list allows you to choose from over 15 page sizes. You can also create a page layout using a custom page size, see [Set the page size](#set-page-size) for more details.
 
 * **Orientation** : Specify the page orientation to use for the page layout. You can choose from Portrait or Landscape page orientations. Note that you can choose to have different orientations applied to different page variants in a page layout. For example, if your content contains a wide table or a large image, then you can create a landscape page layout and apply that layout to the wider table or image.
 
@@ -145,7 +145,7 @@ To achieve this kind of output, we need to perform the following main tasks:
 Perform the following steps to achieve the above tasks:
 
 1. Create a page layout with Landscape orientation. 
-    1. Create a “Landscape” page layout using the steps given under “Create a new page layout” procedure.
+    1. Create a "Landscape" page layout using the steps given under "Create a new page layout" procedure.
 
     1. In the right panel, click **Page Properties**. 
 
@@ -334,7 +334,7 @@ The following screenshot shows a sample image added in the header area.
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Once an image is inserted, you can modify its attributes to give it the look and feel that you want. The easiest way of changing the way an image or any other element on your page layout looks, use the Content Properties panel. See [Work with Content Properties panel](design-page-layout.md#work-with-content-properties-panel) for the various properties that are available through the UI to customize.
+Once an image is inserted, you can modify its attributes to give it the look and feel that you want. The easiest way of changing the way an image or any other element on your page layout looks, use the Content Properties panel. See [Work with Content Properties panel](#work-with-content-props) for the various properties that are available through the UI to customize.
 
 ### Add fields and metadata {#add-fields-metadata}
 
@@ -354,7 +354,7 @@ There are the following categories for fields that you can insert in your page l
 
 Each of these field categories contain different variations in which the field information can be inserted. For example, a Date field can have different variations such as `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` and so on. Similarly, Page Number can have variations in the form of roman, decimal, or even locale-specific formats such as _Arabic_, _Devanagari_, _Hebrew_, and more.
 
-In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted in your page layout. For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).
+In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted in your page layout. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 In the following example, we will insert a page number and a chapter title in the footer area of a page layout.
 
@@ -380,7 +380,7 @@ In the following example, we will insert a page number and a chapter title in th
 
     >[!NOTE]
     >
-    >You can also edit the format of all fields, except the default format. To do so, click the Edit icon next to the format that you want to edit, make changes, and click OK. For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).
+    >You can also edit the format of all fields, except the default format. To do so, click the Edit icon next to the format that you want to edit, make changes, and click OK. For more information, see [Add fields and metadata](#add-fields-metadata).
 
     The default page number field is inserted in the footer area of the page layout.
 
@@ -442,7 +442,7 @@ In the following example, we will insert a chapter TOC in the first page layout 
 
 >[!NOTE]
 >
->For this procedure, it is assumed that you have created the First page variant for a chapter page layout. For instructions on how to create a page variant, see _Create the first, right, or left page layout variants_.
+>For this procedure, it is assumed that you have created the First page variant for a chapter page layout. For instructions on how to create a page variant, see [Create the first, right, or left page layout variants](#page-layout-variants).
 
 1. Open the required page layout for editing.
 
@@ -476,7 +476,7 @@ In the following example, we will insert a chapter TOC in the first page layout 
     >
     >The final published PDF will only show the TOC entries based on the content in your chapters. If you don't have level 5 headings in a chapter, it will not be shown in the final output.
 
-The look and feel of the default TOC can be customized using the stylesheets. The style starting with `chaptoc-level-#` (like `chaptoc-level-1`, `chaptoc-level-2`, and so on) are used to customize the styles for the chapter TOC. For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_.
+The look and feel of the default TOC can be customized using the stylesheets. The style starting with `chaptoc-level-#` (like `chaptoc-level-1`, `chaptoc-level-2`, and so on) are used to customize the styles for the chapter TOC. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -512,7 +512,7 @@ To create a page layout with multiple columns, perform the following steps:
 
     * **Column Gap** : Specify the space between individual columns.
   
-    * **Column Span** : If you want any element on your page layout to span across columns, then you need to use this property. This is achieved by modifying the style of the desired element using the Stylesheets, for more information see _Section explaining style customization_.
+    * **Column Span** : If you want any element on your page layout to span across columns, then you need to use this property. This is achieved by modifying the style of the desired element using the Stylesheets. <!--for more information see _Section explaining style customization_-->.
 
     In your page layout, if you want a certain text to appear on the first page of all chapter page layouts, then you can add it to the First page variant of the Chapter page layout.
 
@@ -541,4 +541,4 @@ The Content Properties panel lets you easily update the look and feel of the ele
 * **Layout** : Contains properties to configure the layout of an element in your page layout. You can set Height, Width, Margins and Padding (for top, bottom, left, or right), Horizontal or Vertical alignment, Float (as Left, Right, or none), Clear (as left, right, both, or none), element's Position (as absolute, fixed, relative, or more), Display (as block, content, fix or more), Z Index, Transparency, Transform (by rotating or scaling), and Transform Origin (by X and Y-offset).
 
 * **Background** : Contains properties to include a background image or color shade. You can set the Image Size (by setting Height or Width), Background Repeat (as repeat, no-repeat, round, or more), and Background Position (as left top, right center, center bottom, or more).
-* **Multiple Columns** : Contains properties to configure multi-column properties for the page or any specific element, such as Chapter TOC. For more details on the properties and how to use them, see _Work with multi-column page layout_.
+* **Multiple Columns** : Contains properties to configure multi-column properties for the page or any specific element, such as Chapter TOC. For more details on the properties and how to use them, see [Work with multi-column page layout](#multi-column-layout).
