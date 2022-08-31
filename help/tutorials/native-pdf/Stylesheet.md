@@ -101,7 +101,7 @@ In this example, we will customize the headings from level 1 to level 3 to use a
 
       >[!NOTE]
       >
-      >You can enter the value in px (pixels), pt (points), rem, em, % (percentage), or in (inches) units.
+      >You can enter the value in px (pixels), pt (points), rem, em, &#37; (percentage), or in (inches) units.
 
    * **Prefix Width**: This is the area that is occupied by the auto-number format. It is automatically set to a size that can easily accommodate the selected style format. If you want to increase the size, then you can replace the default value. 
 
@@ -270,7 +270,7 @@ In the following example, we will customize the numbered or ordered list style:
 
       >[!NOTE]
       >
-      >You can enter the value in px (pixels), pt (points), rem, em, % (percentage), or in (inches) units.
+      >You can enter the value in px (pixels), pt (points), rem, em, &#37; (percentage), or in (inches) units.
 
    * **Prefix Width**: This is the area that is occupied by the Number Format. It is automatically set to a size that can easily accommodate the selected format. If you want to increase the size, then you can replace the default value. 
 
@@ -328,7 +328,7 @@ In the following example, we see how to create a table style and the various tab
 
    * **Vertical Alignment**: Specify the vertical alignment for cell content. Available options are: Top, Middle, and Bottom.
 
-   * **Border Side, Style, Color, Width, Radius:** Specify the border-related properties. You can choose to have borders only on specific sides like Left or Right. The Border Style lists the available border styles like Solid, Dashed, Double line, and more. Specify the border color using the color palette. You can specify the border width in px, pt, rem, em, %, and in units. The Radius defines the curve to make circular corners. 
+   * **Border Side, Style, Color, Width, Radius:** Specify the border-related properties. You can choose to have borders only on specific sides like Left or Right. The Border Style lists the available border styles like Solid, Dashed, Double line, and more. Specify the border color using the color palette. You can specify the border width in px, pt, rem, em, &#37;, and in units. The Radius defines the curve to make circular corners. 
 
    The other properties under the Font, Border, Layout, Pagination, and Background are explained under other examples in this topic. Depending on your selection in the **Apply Formatting To** property, you can apply these values to the entire table or selected rows or columns.
 
