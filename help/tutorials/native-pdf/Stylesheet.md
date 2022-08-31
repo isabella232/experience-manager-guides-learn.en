@@ -120,16 +120,16 @@ Note: See *Customize a predefined or new style* section for opening a stylesheet
    |**Heading Style**|**Property**|**Value**|**Additional Comments**|
    | :- | :- | :- | :- |
    |h1|Style|Decimal|These properties are under the Autonumber category |
-   ||Format|Chapter <x>:||
+   ||Format|Chapter \<x\>:||
    ||Prefix Width|160 px||
    ||Font > Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
    |h2|Style|Decimal|These properties are under the Autonumber category |
-   ||Format|Section <x>:||
+   ||Format|Section \<x\>:||
    ||Prefix Width|125 px||
    ||Font > Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
    |h3|Style|Decimal|These properties are under the Autonumber category |
    ||Insert Level|2||
-   ||Format|Section <2>.<x>:||
+   ||Format|Section <2>.\<x\>:||
    ||Prefix Width|125 px||
    ||Font > Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
    ||
@@ -246,7 +246,7 @@ In the following example, we will customize the numbered or ordered list style:
 
 1. Click **Yes** on the *Confirmation* message to open the **Advanced Formatting** properties. 
 
-The following properties are available by default:
+   The following properties are available by default:
 
    * **Level**: By default, there are 6 levels of numbered lists. The level that you select in this drop-down controls the style changes on the selected level and all subsequent levels. For example, if you select level 4, then all style changes that you apply are set on levels 4, 5, and 6.
 
