@@ -68,7 +68,9 @@ In this example, we will customize the headings from level 1 to level 3 to use a
 
 1. Open the required stylesheet for editing. 
 
-Note: See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
+   >[!NOTE]
+   >
+   >See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
 
 1. In the **Styles** list, expand the **Heading Styles**. 
 
@@ -120,16 +122,16 @@ Note: See *Customize a predefined or new style* section for opening a stylesheet
    |**Heading Style**|**Property**|**Value**|**Additional Comments**|
    | :- | :- | :- | :- |
    |h1|Style|Decimal|These properties are under the Autonumber category |
-   ||Format|Chapter \<x\>:||
+   ||Format|`Capter <x>:`||
    ||Prefix Width|160 px||
-   ||Font > Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
+   ||Font &gt; Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
    |h2|Style|Decimal|These properties are under the Autonumber category |
-   ||Format|Section \<x\>:||
+   ||Format|`Section <x>:`||
    ||Prefix Width|125 px||
    ||Font > Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
    |h3|Style|Decimal|These properties are under the Autonumber category |
    ||Insert Level|2||
-   ||Format|Section <2>.\<x\>:||
+   ||Format|`Section <2>.<x>:`||
    ||Prefix Width|125 px||
    ||Font > Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
    ||
@@ -206,7 +208,7 @@ In the following example, we will create an inline character style:
 
       >[!NOTE]
       >
-      >You can also add fonts to your template, which are stored in the Resources section of your template. For more details about adding fonts and working with Resources, see <**Add a link to the Resources section**>. 
+      >You can also add fonts to your template, which are stored in the Resources section of your template. For more details about adding fonts and working with Resources, see **Add a link to the Resources section**. 
 
    * **Layout**: You can set the layout-related properties such as Height and Width, Margin, Padding, Alignment, and more.
 
