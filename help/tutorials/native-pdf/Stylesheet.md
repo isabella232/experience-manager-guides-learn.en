@@ -97,9 +97,9 @@ Note: See *Customize a predefined or new style* section for opening a stylesheet
 
    * **Indent**: If you want to indent the heading, then you need to set the Indent value. For our example, set it to 0 px.
 
-   >[!NOTE]
-   >
-   >You can enter the value in px (pixels), pt (points), rem, em, % (percentage), or in (inches) units.
+      >[!NOTE]
+      >
+      >You can enter the value in px (pixels), pt (points), rem, em, % (percentage), or in (inches) units.
 
    * **Prefix Width**: This is the area that is occupied by the auto-number format. It is automatically set to a size that can easily accommodate the selected style format. If you want to increase the size, then you can replace the default value. 
 
@@ -204,9 +204,9 @@ In the following example, we will create an inline character style:
    
    * **Font**: All font-related properties can be customized from this section. By default, there are some fonts bundled with the product. You can choose the desired font for the character style. For our example, set the Font Family to *Serif,* and select *Bold* and *Italic* in the Font Style property. You can also customize other font properties such as Font Weight (like bold, lighter), Text Decoration (like underline, overline), Font Size, Font Color, Text Alignment, and more.  
 
-   >[!NOTE]
-   >
-   >You can also add fonts to your template, which are stored in the Resources section of your template. For more details about adding fonts and working with Resources, see <**Add a link to the Resources section**>. 
+      >[!NOTE]
+      >
+      >You can also add fonts to your template, which are stored in the Resources section of your template. For more details about adding fonts and working with Resources, see <**Add a link to the Resources section**>. 
 
    * **Layout**: You can set the layout-related properties such as Height and Width, Margin, Padding, Alignment, and more.
 
@@ -237,6 +237,7 @@ In the following example, we will customize the numbered or ordered list style:
 1. Select the **ol** style from the list. 
 
    The properties for the ol style are shown in the Properties panel along with its Preview.
+
    <img src="./assets/list-style-default.png" width=500>
 
 1. Select the **Advanced Formatting** option. 
@@ -276,6 +277,7 @@ The following properties are available by default:
    * **Spacing**: Specify the horizontal spacing in between the list number format and the content. The vertical spacing controls the gap between the two list items.  
 
       The following screenshot shows the customized ordered list for each level:
+     
       <img src="./assets/list-number-format-final.png" width="500">
 
 ## Work with table style
@@ -363,10 +365,3 @@ In the following example, we will create a new window’s title (`wintitle`) sty
 The following screenshot displays the wintitle style being applied to the text “Primary Control”.
 
 <img src="./assets/other-style-wintitle.png" width="500">
-
-
-
-
-
-
-
