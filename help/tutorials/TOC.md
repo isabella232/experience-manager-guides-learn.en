@@ -37,4 +37,4 @@ breadcrumb-title: AEM Guides Tutorials
   + [Hidden PDF Template](./native-pdf/pdf-template.md)
   + [Hidden Components of a PDF Template](./native-pdf/components-pdf-template.md)
   + [Hidden Design a page layout](./native-pdf/design-page-layout.md)
-  + [Hidden Stylesheet](./native-pdf/Stylesheet.md)
+  + [Hidden Stylesheet](./native-pdf/stylesheet.md)
