@@ -1,4 +1,4 @@
-﻿---
+---
 title: Native PDF Publish Feature | Work with the common content styles
 description: Learn how to create use styleheets and create styles for your content.
 hide: yes
@@ -40,7 +40,7 @@ The heading styles encapsulate all base styles for the headings used in your con
 
 ### Create custom chapter-level headings
 
-In a book (or a bookmap), you work with Chapters. The base heading styles are designed in such a way that they get applied on your chapter-level headings without any customizations. However, if you want to create specialized headings for your content, then you will have to create those headings. For example, the default `h1.chapter` heading gets applied on your chapter’s title. If you want your chapter title to appear in a different style, then you need to customize the `h1.chapter` style. Similarly, you can create custom styles for sub-headings in your chapter. For example, if you want to create a custom style for all 2nd and 3rd level headings in your chapter, then you need to create a new style as `h2.chatper` and `h3.chatper`.
+In a book (or a bookmap), you work with Chapters. The base heading styles are designed in such a way that they get applied on your chapter-level headings without any customizations. However, if you want to create specialized headings for your content, then you will have to create those headings. For example, the default `h1.chapter` heading gets applied on your chapter’s title. If you want your chapter title to appear in a different style, then you need to customize the `h1.chapter` style. Similarly, you can create custom styles for sub-headings in your chapter. For example, if you want to create a custom style for all 2<sup>nd</sup> and 3<sup>rd</sup> level headings in your chapter, then you need to create a new style as `h2.chatper` and `h3.chatper`.
 
 As the Native PDF Publishing feature contains the base style definitions for the most common styles, even if you accidentally delete a style, the default style is applied on the content. For example, if there’s no style definition for h2 style in your stylesheet, the Native PDF Publishing feature will apply some base style on h2 content. 
 
@@ -133,7 +133,7 @@ In this example, we will customize the headings from level 1 to level 3 to use a
    ||Insert Level|2||
    ||Format|`Section <2>.<x>:`||
    ||Prefix Width|125 px||
-   ||Font > Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
+   ||Font &gt; Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
    ||
 
    <img src="./assets/auto-number-output.png" width=500>
