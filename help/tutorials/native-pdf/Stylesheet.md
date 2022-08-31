@@ -32,7 +32,7 @@ The following sections cover the most commonly used style settings in the form o
 
 ## Work with Heading Styles
 
-The heading styles encapsulate all base styles for the headings used in your content. OOTB you will get 6 base heading styles and a heading style for the topic/chapter and appendix’s title heading. In a structured document, the H1 represents the topic’s or chapter’s title and H2 through H6 are used for sub-topics or sections within a topic/chapter. This hierarchy of headings is automatically applied on your content whenever the corresponding heading is found.  
+The heading styles encapsulate all base styles for the headings used in your content. OOTB you will get 6 base heading styles and a heading style for the topic&#47;chapter and appendix’s title heading. In a structured document, the H1 represents the topic’s or chapter’s title and H2 through H6 are used for sub-topics or sections within a topic&#47;chapter. This hierarchy of headings is automatically applied on your content whenever the corresponding heading is found.  
 
 >[!NOTE]
 >
@@ -304,7 +304,7 @@ In the following example, we see how to create a table style and the various tab
 
 1. Select `table.double-border` from the **Table Styles** list, and set the following properties:
 
-   * **Apply Formatting To**: You can choose to apply the style formatting to the entire table, odd/even rows or columns, or first/last row or column. 
+   * **Apply Formatting To**: You can choose to apply the style formatting to the entire table, odd&#47;even rows or columns, or first&#47;last row or column. 
 
       >[!NOTE]
       >
