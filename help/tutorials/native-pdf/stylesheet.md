@@ -22,7 +22,7 @@ The styles editor is a WYSIWYG editor that hides all the complexities of a CSS c
 * Page Styles
 * Other Styles
 
-When working with structured DITA content, the style mapping for most of the DITA elements is in place in the default stylesheet. If you are working with standard DITA elements, then you can change their look and feel by directly making changes in the style definition. These style definitions are available under the Other Style category. For more details, see *Work with other styles* later in this topic. 
+When working with structured DITA content, the style mapping for most of the DITA elements is in place in the default stylesheet. If you are working with standard DITA elements, then you can change their look and feel by directly making changes in the style definition. These style definitions are available under the Other Style category. For more details, see [Work with other styles](#other-styles) later in this topic. 
 
 The following sections cover the most commonly used style settings in the form of examples. 
 
@@ -32,24 +32,24 @@ The following sections cover the most commonly used style settings in the form o
 
 ## Work with Heading Styles {#heading-styles}
 
-The heading styles encapsulate all base styles for the headings used in your content. OOTB you will get 6 base heading styles and a heading style for the topic&#47;chapter and appendix’s title heading. In a structured document, the H1 represents the topic’s or chapter’s title and H2 through H6 are used for sub-topics or sections within a topic&#47;chapter. This hierarchy of headings is automatically applied on your content whenever the corresponding heading is found.  
+The heading styles encapsulate all base styles for the headings used in your content. OOTB you will get 6 base heading styles and a heading style for the topic&#47;chapter and appendix's title heading. In a structured document, the H1 represents the topic's or chapter's title and H2 through H6 are used for sub-topics or sections within a topic&#47;chapter. This hierarchy of headings is automatically applied on your content whenever the corresponding heading is found.  
 
 >[!NOTE]
 >
->You can create your own custom heading styles and those can be used in your content using the outputclass. For more details, see Step 4 in *Use page orientation and view rotation* example. 
+>You can create your own custom heading styles and those can be used in your content using the outputclass. For more details, see Step 4 in [Use page orientation and view rotation](design-page-layout.md#page-orientation-rotation) example. 
 
 ### Create custom chapter-level headings {#create-chapter-level-heading}
 
-In a book (or a bookmap), you work with Chapters. The base heading styles are designed in such a way that they get applied on your chapter-level headings without any customizations. However, if you want to create specialized headings for your content, then you will have to create those headings. For example, the default `h1.chapter` heading gets applied on your chapter’s title. If you want your chapter title to appear in a different style, then you need to customize the `h1.chapter` style. Similarly, you can create custom styles for sub-headings in your chapter. For example, if you want to create a custom style for all 2<sup>nd</sup> and 3<sup>rd</sup> level headings in your chapter, then you need to create a new style as `h2.chatper` and `h3.chatper`.
+In a book (or a bookmap), you work with Chapters. The base heading styles are designed in such a way that they get applied on your chapter-level headings without any customizations. However, if you want to create specialized headings for your content, then you will have to create those headings. For example, the default `h1.chapter` heading gets applied on your chapter's title. If you want your chapter title to appear in a different style, then you need to customize the `h1.chapter` style. Similarly, you can create custom styles for sub-headings in your chapter. For example, if you want to create a custom style for all 2<sup>nd</sup> and 3<sup>rd</sup> level headings in your chapter, then you need to create a new style as `h2.chatper` and `h3.chatper`.
 
-As the Native PDF Publishing feature contains the base style definitions for the most common styles, even if you accidentally delete a style, the default style is applied on the content. For example, if there’s no style definition for h2 style in your stylesheet, the Native PDF Publishing feature will apply some base style on h2 content. 
+As the Native PDF Publishing feature contains the base style definitions for the most common styles, even if you accidentally delete a style, the default style is applied on the content. For example, if there's no style definition for h2 style in your stylesheet, the Native PDF Publishing feature will apply some base style on h2 content. 
 
 In this example, we will create a 2nd level chapter heading style:
 
 1. Open the required stylesheet for editing. 
    >[!NOTE]
    >
-   >See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
+   >See [Customize a predefined or new style](components-pdf-template.md#customize-style) section for opening a stylesheet for customization or editing. 
 
 1. In the **Styles** list, expand the **Heading Styles**. 
 1. Right-click on **Heading Styles** style and choose **New Style**. 
@@ -70,7 +70,7 @@ In this example, we will customize the headings from level 1 to level 3 to use a
 
    >[!NOTE]
    >
-   >See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
+   >See [Customize a predefined or new style](components-pdf-template.md#customize-style) section for opening a stylesheet for customization or editing. 
 
 1. In the **Styles** list, expand the **Heading Styles**. 
 
@@ -152,7 +152,7 @@ In the following example, we will create a drop cap style:
 
    >[!NOTE]
    >
-   >See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
+   >See [Customize a predefined or new style](components-pdf-template.md#customize-style) section for opening a stylesheet for customization or editing. 
 
 1. In the **Styles** list, expand the **Paragraph Styles**.
 
@@ -170,7 +170,7 @@ In the following example, we will create a drop cap style:
    
    * **Layout**: Set the vertical alignment of the text around the drop cap style. For our example, we will set the Vertical Alignment to Bottom.  
 
-As the `p` tag is mapped with the `<p>` element in DITA, you don’t need to explicitly add this style using the outputclass attribute. Wherever in your content a `<p>` element is used, the drop cap style is automatically applied on it. In the following screenshot, the chapter title, short description, and definition list elements have not been formatted with the drop cap style. Only the paragraph style is formatted with the drop cap style:
+As the `p` tag is mapped with the `<p>` element in DITA, you don't need to explicitly add this style using the outputclass attribute. Wherever in your content a `<p>` element is used, the drop cap style is automatically applied on it. In the following screenshot, the chapter title, short description, and definition list elements have not been formatted with the drop cap style. Only the paragraph style is formatted with the drop cap style:
 
 <img src="./assets/char-style-drop-cap.png" width=500>
 
@@ -188,7 +188,7 @@ In the following example, we will create an inline character style:
 
    >[!NOTE]
    >
-   >See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
+   >See [Customize a predefined or new style](components-pdf-template.md#customize-style) section for opening a stylesheet for customization or editing. 
 
 1. In the **Styles** list, expand the **Character Styles**.
 
@@ -208,7 +208,7 @@ In the following example, we will create an inline character style:
 
       >[!NOTE]
       >
-      >You can also add fonts to your template, which are stored in the Resources section of your template. For more details about adding fonts and working with Resources, see **Add a link to the Resources section**. 
+      >You can also add fonts to your template, which are stored in the Resources section of your template. For more details about adding fonts and working with Resources, see [Work with resources](components-pdf-template.md#work-with-resources). 
 
    * **Layout**: You can set the layout-related properties such as Height and Width, Margin, Padding, Alignment, and more.
 
@@ -232,7 +232,7 @@ In the following example, we will customize the numbered or ordered list style:
 
    >[!NOTE]
    >
-   >See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
+   >See [Customize a predefined or new style](components-pdf-template.md#customize-style) section for opening a stylesheet for customization or editing. 
 
 1. In the **Styles** list, expand the **List Styles**. 
 
@@ -256,7 +256,7 @@ In the following example, we will customize the numbered or ordered list style:
 
    Further, you can work with the following Advanced Formatting properties:
 
-   * **Number Format**: The default format is set to `<x>`, wherein the `x` value is replaced with the numbering Style that you selected in the List Style Type property. For example, if you have selected `decimal` (1) style, then the value of `x` auto-increments for every instance of the list element and goes as 2, 3, and so on. You can also add custom text in the field to format the list style. For example, if you want all first-level list styles to have a suffix “`)`”, then you need to set this field for first-level list style as “`<x>)`”.
+   * **Number Format**: The default format is set to `<x>`, wherein the `x` value is replaced with the numbering Style that you selected in the List Style Type property. For example, if you have selected `decimal` (1) style, then the value of `x` auto-increments for every instance of the list element and goes as 2, 3, and so on. You can also add custom text in the field to format the list style. For example, if you want all first-level list styles to have a suffix "`)`", then you need to set this field for first-level list style as "`<x>)`".
 
    * **Insert Character**: If you want to add any special character in the Number Format, then click the Insert Character (<img src="./assets/insert-chars.png" width="25">) icon. Select the desired character that you want to add in the style format and click Insert. There are different types of special characters that you can choose from the Select Category drop-down list.
 
@@ -264,7 +264,7 @@ In the following example, we will customize the numbered or ordered list style:
 
       <img src="./assets/list-insert-level.png" width="400">
 
-      You can also change the Number Format to present the list values as required. For example, when you are using a nested numbering style for level 3, then you can format it as “`<2>.<x>))`”. This will show list number 2, followed by a period, then followed by list number 3, and then two brackets, as `2.3))`.  
+      You can also change the Number Format to present the list values as required. For example, when you are using a nested numbering style for level 3, then you can format it as "`<2>.<x>))`". This will show list number 2, followed by a period, then followed by list number 3, and then two brackets, as `2.3))`.  
 
    * **Indent**: If you want to indent the list, then you need to set the Indent value. Any changes in the indent can be reviewed in the Preview panel and adjusted.
 
@@ -292,7 +292,7 @@ In the following example, we see how to create a table style and the various tab
 
    >[!NOTE]
    >
-   >See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
+   >See [Customize a predefined or new style](components-pdf-template.md#customize-style) section for opening a stylesheet for customization or editing. 
 
 1. In the **Styles** list, right-click on the **Table Style** and choose **New Style**. 
 
@@ -338,17 +338,17 @@ In the following example, we see how to create a table style and the various tab
 
 ## Work with other styles {#other-styles}
 
-If you are working with structured (DITA) content, then you will notice that almost all DITA elements have a style mapping in the default stylesheet. For example, a `<shortdesc>` element’s style is defined under **Other Style** > **.shortdesc** style definition. You can easily customize any of these styles and they get automatically applied in the PDF output generated from your structured content. This means that unlike other custom styles, you don’t need to add an `outputclass` attribute on the content for these styles. 
+If you are working with structured (DITA) content, then you will notice that almost all DITA elements have a style mapping in the default stylesheet. For example, a `<shortdesc>` element's style is defined under **Other Style** > **.shortdesc** style definition. You can easily customize any of these styles and they get automatically applied in the PDF output generated from your structured content. This means that unlike other custom styles, you don't need to add an `outputclass` attribute on the content for these styles. 
 
-In case you want to create a style definition for any element that is not available by default or you have a custom element, then you can easily create it in the stylesheet. The only point you must consider is to create the style with the same name as the structured element’s name.
+In case you want to create a style definition for any element that is not available by default or you have a custom element, then you can easily create it in the stylesheet. The only point you must consider is to create the style with the same name as the structured element's name.
 
-In the following example, we will create a new window’s title (`wintitle`) style:
+In the following example, we will create a new window's title (`wintitle`) style:
 
 1. Open the required stylesheet for editing. 
 
       >[!NOTE]
       >
-      >See *Customize a predefined or new style* section for opening a stylesheet for customization or editing. 
+      >See [Customize a predefined or new style](components-pdf-template.md#customize-style) section for opening a stylesheet for customization or editing. 
 
 1. In the **Styles** list, expand **Other Styles**. 
 
@@ -364,6 +364,6 @@ In the following example, we will create a new window’s title (`wintitle`) sty
 
 1. Select .wintitle from the **Other Styles** list, and set the properties as required.
 
-The following screenshot displays the wintitle style being applied to the text “Primary Control”.
+The following screenshot displays the wintitle style being applied to the text "Primary Control".
 
 <img src="./assets/other-style-wintitle.png" width="500">
