@@ -5,7 +5,7 @@ hide: yes
 hidefromtoc: yes
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 ---
-# PDF template
+# PDF template {#PDF-template}
 
 Using a template ensures consistency in content layout and structure. As templates are predefined, you can avoid rework on formatting issues that arise for every new project or updates. Templates enable you to design page layouts, style content, and apply various settings to customize your PDF.
 
@@ -26,7 +26,7 @@ To create a new PDF template, follow the below steps:
    
    The new template is created and added in the *Templates* panel. 
 
-## Duplicate a PDF template
+## Duplicate a PDF template {#duplicate-pdf-template}
 
 If you want to create a new template with the same page layouts and formatting as that of an existing template, you can create a copy. Once a template has been duplicated, you can further customize its components as needed.
 
@@ -48,7 +48,7 @@ To duplicate an existing PDF template, follow the below steps:
    
    A duplicate template is created and added under Templates.
 
-## Customize a PDF template
+## Customize a PDF template {#customize-pdf-template}
 
 You can customize templates by tweaking the template components and applying style formats using stylesheets.
 
@@ -57,7 +57,7 @@ To customize a PDF template, follow the below steps:
 1. Expand the left sidebar and click on Templates.
    
    This opens the Templates panel.
-1. To view a template’s components, do one of the following:
+1. To view a template's components, do one of the following:
 
    * Click the > icon next to a template or double-click on the template name.
    * Hover over any template and click the ... (Options icon) and choose Edit from the context menu.
@@ -66,10 +66,10 @@ To customize a PDF template, follow the below steps:
    <img src="assets/customize-pdf-template.png" alt="Customize PDF Teamplte" width="350">
    
    The various template components that you can customize are categorized under the following sections:
-   * Page Layouts: A typical PDF contains different pages, such as a front cover or title page, TOC, chapter, index, and more. The Page Layouts section allows you to design the look-and-feel of different pages that would make up your PDF. In addition to the appearance, you can also define the arrangement of page elements such as the header, footer, and content areas on a page. To know more on customizing a page’s layout, see ***Create and customize page layouts***.
-   * Stylesheets: The settings in the Stylesheets section allows you to customize the look and feel of the page layout components like the TOC, index, glossary and more. In addition, you can also customize the styles for the DITA content like headings, paragraphs, lists, and more. To know more on using the stylesheets, see ***Use Stylesheets to customize PDF***.
-   * Resources: Store asset files that you would need to customize or design PDF templates. Assets such as logos, custom fonts, background images, and more are stored in the Resources. To know more on utilizing resources, see ***Work with resources***.
-   * Settings: Configure the output settings for generating a PDF using the template. This section allows you to define template mapping for various pages in a PDF, chapter starting page, print markers, and more. For more information on applying settings, see ***Advanced PDF Settings***.
+   * Page Layouts: A typical PDF contains different pages, such as a front cover or title page, TOC, chapter, index, and more. The Page Layouts section allows you to design the look-and-feel of different pages that would make up your PDF. In addition to the appearance, you can also define the arrangement of page elements such as the header, footer, and content areas on a page. To know more on customizing a page's layout, see [Create and customize page layouts](components-pdf-template.md#create-customize-page-layout).
+   * Stylesheets: The settings in the Stylesheets section allows you to customize the look and feel of the page layout components like the TOC, index, glossary and more. In addition, you can also customize the styles for the DITA content like headings, paragraphs, lists, and more. To know more on using the stylesheets, see [Use Stylesheets to customize PDF](components-pdf-template.md#stylesheet-customization).
+   * Resources: Store asset files that you would need to customize or design PDF templates. Assets such as logos, custom fonts, background images, and more are stored in the Resources. To know more on utilizing resources, see [Work with resources](components-pdf-template.md#work-with-resources).
+   * Settings: Configure the output settings for generating a PDF using the template. This section allows you to define template mapping for various pages in a PDF, chapter starting page, print markers, and more. For more information on applying settings, see [Advanced PDF Settings](components-pdf-template.md#advanced-pdf-settings).
 1. To customize a template component, double-click on a template component or click the > icon before it.
    
    For example, double-click on *Page Layouts* or click the *>* icon before *Page Layouts* to view the available

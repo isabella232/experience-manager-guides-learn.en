@@ -5,24 +5,28 @@ hide: yes
 hidefromtoc: yes
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 ---
-# Components of a PDF template
+# Components of a PDF template {#components-pdf-template}
 
 A PDF template has four components: Page Layouts, Stylesheets, Resources, and Settings. You can create a template by customizing these individual components and associating the template with an output preset while generating a PDF output. The following sections cover these components and their customization process in detail.
 
 
-## Create and customize page layouts
+## Create and customize page layouts {#create-customize-page-layout}
 
 Settings in the Page Layouts component allow you to design the structure of a page by defining the header, footer, and content area on a page. Using the WYSIWYG page layout editor, you can create a page layout for different sections in a PDF, such as the front and back cover pages, chapter, Table of
 Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), glossary, or create a layout for a custom page. In the PDF template Settings, you can assign a page layout with different sections within a PDF, which are then used to generate the PDF output.  
 
-### Create a new page layout
+### Create a new page layout {#create-page-layout}
 
-> **Note**: There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
+   >[!NOTE]
+   >
+   >There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
 
 1. In the Web Editor, go to the **Output** tab.
 1. Expand the left sidebar and click on **Templates**.
 1. Open the template that you want to work with.
-   > **Note**: You can open a template by double-clicking on its name or clicking the > icon next to its name.
+    >[!NOTE]
+    >
+    >You can open a template by double-clicking on its name or clicking the > icon next to its name.
 1. To create a new page layout, do one of the following:
    * Hover over **Page Layouts** and click the (*Options* icon) **...** and choose **New Page Layout**.
    * In the **Templates** panel, click the **+** icon next to **Templates** and choose **Page Layout** from the context menu.
@@ -31,12 +35,14 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
       
       <img src="assets/add-layout-2.png" alt="Add Layout dialog" width="250">
 1. Specify a name for the new page layout.
-   > **Note:** Avoid using any special characters when naming a page layout. A space in the name is replaced with an underscore “_”.
+    >[!NOTE]
+    >
+    >Avoid using any special characters when naming a page layout. A space in the name is replaced with an underscore “_”.
 1. Click **Done**.
    
    The new layout is created and added under Page Layouts.
 
-### Duplicate a page layout
+### Duplicate a page layout {#duplicate-page-layout}
 
 1. In the **Templates** section of the template that you want to duplicate, double-click on **Page Layouts** or click the **>** icon before **Page Layouts**.
 
@@ -49,7 +55,7 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
 1. Click **Done**.
    A copy of the selected page layout is created and added under Page Layouts.
 
-### Customize a page layout
+### Customize a page layout {#customize-page-layout}
 
 1. In the **Templates** section of the template that you want to edit, double-click on **Page Layouts** or click the **>** icon before **Page Layouts**.
 
@@ -61,13 +67,13 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
    This opens the page layout editor for customization.
 1. Once you have made the desired changes, click *Save All* (or `Crl+S`).
 
-   For more information on defining individual layout elements like header, footer, page number, title, and more, see *Work with page layout elements*.
+   For more information on defining individual layout elements like header, footer, page number, title, and more, see [Design a page layout](design-page-layout.md).
 
-## Use Stylesheets to customize PDF
+## Use Stylesheets to customize PDF {#stylesheet-customization}
 
 Settings in the Stylesheets component allow you to style the page layout components and DITA content using the WYSIWYG editor or directly work with the CSS file. You can create your own styles or customize the default style properties. The WYSIWYG editor gives you the access to most of the properties that you would need to style your page layout or DITA content. For advanced customizations, you can work directly in the Source view.
 
-### Create a new stylesheet
+### Create a new stylesheet {#create-stylesheet}
 
 While CSS files are provided for content and layout, you can create a new stylesheet to apply multiple customizations to a specific style type that can then be applied to a target component. By default, sample CSS files are bundled within the product. These CSS files are meant to help you organize your styling information across content and layouts. You can choose to merge these styles in a single CSS file or multiple files. 
 
@@ -87,7 +93,7 @@ To create a stylesheet, follow the below steps:
    
    A new stylesheet is created and added under the Stylesheets section.
 
-### Create a new style
+### Create a new style {#create-style}
 
 By default, the CSS files contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
 
@@ -109,7 +115,7 @@ To create a new style, follow the below steps:
 
    A new style is created and added under the base style.
 
-### Customize a predefined or new style
+### Customize a predefined or new style {#customize-style}
 
 Once you have created a new CSS file with default styles or want to customize styles in an existing CSS file, you can use the styles editor to do so.
 
@@ -129,7 +135,9 @@ To customize a style, follow the below steps:
 
 1. To customize a style, double-click on a style or click the > icon before a style to view and customize it using the Styles editor.
 
-## Work with resources
+for details about working with the most common styles, see [Work with the common content styles](stylesheet.md)
+
+## Work with resources {#work-with-resources}
 
 This is a container for all assets used to design a template. You can think of it as a folder, which contains assets such as background images, custom fonts, logos, and more. Whenever you add an asset in your template, it is upload or check in to the asset folder. You can then use these assets to customize or design your PDF templates.
 
@@ -141,13 +149,16 @@ To add an asset file to the Resources folder, follow the below steps:
    <img src="assets/resources-import-assets.png" alt="Upload assets" width="300">
    
    The path where the asset file will be uploaded is shown in the **Select Asset Folder** field.
-   > **Note:** You cannot change the path for uploading assets. By default, all assets are stored under the `/content/dam/dita-templates/pdf/<PDF-template-name>` folder.
+    >[!NOTE]
+    >
+    >You cannot change the path for uploading assets. By default, all assets are stored under the `/content/dam/dita-templates/pdf/<PDF-template-name>` folder.
 
 1. Click **Choose Files** to browse the asset file from your local machine
+
 1. Click **Upload**.
 The selected file is imported and listed under the Resources folder.
 
-## Advanced PDF Settings
+## Advanced PDF Settings {#advanced-pdf-settings}
 
 Use the Settings section to configure the advanced settings for PDF’s page layout, starting PDF from odd or even page, formats for the cross references, and enabling printing marks in the final PDF that's generated
 using the template.
@@ -177,10 +188,12 @@ Set the basic configuration settings for starting a chapter from odd or even pag
    Here you can notice that the first chapter Advanced PDF settings is not given any page number, as it has nested or child topics. Whereas a page number if assigned to Appendix and Legal because they are standalone topics without any child topic. 
 
 * **Leader format**: Use the drop-down to select Dotted, Solid, or Space leader lines to connect heading levels to its corresponding page numbers.
-   For applying TOC structure and styling heading levels, see *Define Table of Contents*.
+   For applying TOC structure and styling heading levels, see [Add a chapter TOC](design-page-layout.md#add-chapter-toc).
 
-   > **Note**: If you are a CSS developer, then you can define the leader format directly in the CSS file as well. 
-* **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. For more information on using table continuation markers, see Use table continuation markers.
+    >[!NOTE]
+    >
+    >If you are a CSS developer, then you can define the leader format directly in the CSS file as well. 
+* **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Page Layouts**
 
@@ -191,7 +204,7 @@ If you have not created a layout for a particular section in your document, you 
 Similarly, if you want a cover and back page, then you must have a page layout created and applied in the settings. Else, your PDF will not contain the cover and back pages. 
 
 
-For more information on page layouts, see *Setting Page Layout*.
+For more information on page layouts, see [Design a page layout](design-page-layout.md).
 
 **Print**
 
@@ -208,10 +221,12 @@ Configure the print production settings to assign printer marks, select color mo
 * **Media Box size**: This is the overall page size including the extended area occupied by printer marks. Use the drop-down option to select the page size for your PDF output or create your own custom size.
 
 * **Color Space**: You are given an option to choose from RGB or CMYK color spaces to print your PDF document. Choose RGB to display the generated PDF digitally and CMYK for physical printing. Colors defined in the document are converted to the chosen color space.
-   > **Note**: An ICC color profile is necessary for PDF/A creation if using CMYK color space.
+    >[!NOTE]
+    >
+    >An ICC color profile is necessary for PDF/A creation if using CMYK color space.
 
-   For more information on applying these print settings, see *Printing preferences*.
+   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Cross references**
 
-Use the Cross-reference tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more. For more information, see *Format cross-references*.
+Use the Cross-reference tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more. <!--For more information, see *Format cross-references*.-->
