@@ -6,15 +6,15 @@ hidefromtoc: yes
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 ---
 
-# Design a page layout
+# Design a page layout {#design-page-layout}
 
 When creating a PDF document, you would have different sections for presenting different types of information. For example, a PDF document would start from a front or cover page, which would have your company's logo, book title, or version information. Then there would be chapters, appendices, or glossary pages. Each section in a PDF document looks different and that is achieved by creating and customizing the page layout.
 
 When you design your page layout, you can define the various elements that make up a page. For example, you can define the page size, margins, header and footer, orientation, and other page specifications on a page. The Native PDF Publishing feature allows you to design your page as per the [Page Media standards](https://www.w3.org/TR/css-page-3/). Most of the settings that are covered under the Paged Media standards can be easily customized using the Native PDF Publishing feature's user interface. For some other advanced-level formatting, you can use the Source view to write your own CSS code.
 
-Once you have designed the page layouts, you need to associate these layouts with their respective sections in the PDF Page Layout settings. See the _Create and customize page layouts_ section for details on how to create and open a page layout for customization.
+Once you have designed the page layouts, you need to associate these layouts with their respective sections in the PDF Page Layout settings. See the [Create and customize page layouts](components-pdf-template.md#create-customize-page-layout) section for details on how to create and open a page layout for customization.
 
-## Types of page layouts
+## Types of page layouts {#types-of-page-layout}
 
 A PDF document typically contains the following sections:
 
@@ -27,11 +27,11 @@ A PDF document typically contains the following sections:
 * Index
 * Back page
 
-These sections would need a corresponding page layout to present the information in a specific format. In addition, you can also have a blank page that is used as a filler to start a new chapter from an odd or even page. In that case, you can either use the default page layout or create a page layout for a blank page. See _Create a new page layout_ for more details.
+These sections would need a corresponding page layout to present the information in a specific format. In addition, you can also have a blank page that is used as a filler to start a new chapter from an odd or even page. In that case, you can either use the default page layout or create a page layout for a blank page. See [Create a new page layout](components-pdf-template.md#create-page-layout) for more details.
 
 The Page Layouts settings under the **Template>Settings** section allow you to define which page layout is to be used for different sections of your PDF. Each page layout can further have different first, right, or left page variants.
 
-### Create the first, right, or left page layout variants
+### Create the first, right, or left page layout variants {#page-layout-variants}
 
 Different page layouts in your PDF template can be further customized by having different first, right, or left page layout variants. You can design these pages differently using the page layout designer.
 
@@ -55,7 +55,7 @@ Consider the following points when creating the page layouts:
 
     >[!NOTE]
     >
-    >If you do not create a separate blank page layout, then the default page layout is used. For creating a page layout, See _Create a new page layout_.
+    >If you do not create a separate blank page layout, then the default page layout is used. For creating a page layout, See [Create a new page layout](components-pdf-template.md#create-page-layout).
 
 The following example will walk you through the process of creating variants of a page layout:
 
@@ -79,7 +79,7 @@ The following example will walk you through the process of creating variants of 
 
 The selected page layout is created using a copy of the base Chapter layout. This means that if you have made any changes in the default Chapter page layout, the same changes are replicated in the variant page layout at the time of page layout creation.
 
-## Work with the Page Properties of a page layout
+## Work with the Page Properties of a page layout {#page-props-page-layout}
 
 While designing a page layout, having control over various page properties is essential. The Native PDF Publishing feature encapsulates all major page properties under the Page Properties panel. The Page Properties panel provides access to various properties under the following sections:
 
@@ -87,7 +87,7 @@ While designing a page layout, having control over various page properties is es
 >
 >The Page Properties panel encapsulates the properties and follows rules defined under the [Page Media standards](https://www.w3.org/TR/css-page-3/).
 
-* **Page Size** : Specify the page size you want to use for the page layout. The Page Size dropdown list allows you to choose from over 15 page sizes. You can also create a page layout using a custom page size, see **Set the page size** for more details.
+* **Page Size** : Specify the page size you want to use for the page layout. The Page Size dropdown list allows you to choose from over 15 page sizes. You can also create a page layout using a custom page size, see [Set the page size](design-page-layout.md#set-the-page-size) for more details.
 
 * **Orientation** : Specify the page orientation to use for the page layout. You can choose from Portrait or Landscape page orientations. Note that you can choose to have different orientations applied to different page variants in a page layout. For example, if your content contains a wide table or a large image, then you can create a landscape page layout and apply that layout to the wider table or image.
 
@@ -103,7 +103,7 @@ While designing a page layout, having control over various page properties is es
 
 * **Footnote** : Specify the properties to display footnotes in your output. You can choose to specify the margins and padding properties along with a border style.
 
-### Set the page size
+### Set the page size {#set-page-size}
 
 The very first thing that you need to define in a page layout is the page size. In the Page Properties, there are over 15-page sizes that you can choose for a page layout. You can also create a custom page size by performing the following steps:
 
@@ -111,7 +111,7 @@ The very first thing that you need to define in a page layout is the page size. 
 
     >[!NOTE]
     >
-    >See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >See [Customize a page layout](components-pdf-template.md#customize-page-layout) section for opening a page layout for customization or editing.
 
 1. In the right panel, click **Page Properties**.
 1. In the **Page Size** drop-down list, select **Custom**.
@@ -124,7 +124,7 @@ The very first thing that you need to define in a page layout is the page size. 
     >
     >Some of the most commonly used units are px (pixels), pt (points), rem, em, % (percentage), and in (inches).
 
-### Use page orientation and view rotation
+### Use page orientation and view rotation {#page-orientation-rotation}
 
 Let's look at an example wherein a combination of portrait and landscape page orientation and view rotation properties are used. In this example, we will create a PDF with default portrait orientation, but a table will be rendered in landscape orientation with content in Clockwise 90 degree view. The final output will look something similar to:
 
@@ -208,7 +208,7 @@ Perform the following steps to achieve the above tasks:
 
 The final PDF will have the table content rendered in landscape mode as shown in the beginning of the example.
 
-### Add a background image
+### Add a background image {#add-bg-image}
 
 Based on your requirements, you might want to add a background image that appears on every first page of a Chapter (PDF) output. The Background properties under the Page Properties allow you to easily add a background image. You can choose to replicate this image across a page, and position the image anywhere in the top, bottom, or center area of the page.
 
@@ -218,7 +218,7 @@ For example, to insert a background image in the center part of your content are
 
     >[!NOTE]
     >
-    >See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >See [Customize a page layout](components-pdf-template.md#customize-page-layout) section for opening a page layout for customization or editing.
 
 1. Click anywhere in the content area.
 
@@ -248,13 +248,13 @@ The following screenshot displays the background image with the Background Repea
 
 <img src="./assets/background-image.png" width="500">
 
-## Work with page header and footer
+## Work with page header and footer {#work-header-footer}
 
 When you include information in a header or footer in a page layout that information is repeated on all pages using that page layout. Typically, the header area is used for chapter or topic title and the footer area is used for showing page numbers.
 
 When you create a new page layout the header and footer area is created by default. You can do many customizations in the header and footer area of a page layout. For example, you can insert an image (like a logo), variables (containing dynamic information), or static content.
 
-### Change the header and footer margins and lines
+### Change the header and footer margins and lines {#header-footer-margins}
 
 By default, the header and footer margins are set to 1 inch. You can change this default value by changing the Margin setting in the Page Properties panel. Perform the following steps to change the header and footer size:
 
@@ -262,7 +262,7 @@ By default, the header and footer margins are set to 1 inch. You can change this
 
     >[!NOTE]
     >
-    >See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >See [Customize a page layout](components-pdf-template.md#customize-page-layout) section for opening a page layout for customization or editing.
 
 1. In the right panel, click **Page Properties**.
 1. Expand the **Layout** section.
@@ -294,7 +294,7 @@ If you like to work directly with the CSS and HTML code, then you can change the
 >
 >In the above example, different units are used to specify the margin values.
 
-### Remove the header and footer
+### Remove the header and footer {#remove-header-footer}
 
 The header and footer overlay in the top and bottom margins. Technically, this means that if you want to have a header and footer in your page layout, you must reserve the required space in the top and bottom margins.
 
@@ -303,7 +303,7 @@ If you do not want a page layout to have a header and footer, then there are two
 * If you want to retain the top and bottom margins, leave the header and footer area blank.
 * If you do not want to retain the top and bottom margins (like designing the front and back cover of a magazine), then you can remove the margins by setting the top and bottom margin properties to 0. This leaves no space for the header and footer.
 
-### Add an image or a logo in the header
+### Add an image or a logo in the header {#add-image-header}
 
 Based on your requirements, you might want to add an image that appears in the header area (or any other part) of the page layout. There are two ways in which you can add an image in your page layout:
 
@@ -320,7 +320,7 @@ To insert an image like your company's logo in the header area, perform the foll
 
 >[!NOTE]
 >
->See _Customize a page layout_ section for opening a page layout for customization or editing.
+>See [Customize a page layout](components-pdf-template.md#customize-page-layout) section for opening a page layout for customization or editing.
 
 1. Click the Edit Header (<img src="./assets/header-icon.svg" width="25">) icon to bring your cursor in the header area.
 
@@ -334,9 +334,9 @@ The following screenshot shows a sample image added in the header area.
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Once an image is inserted, you can modify its attributes to give it the look and feel that you want. The easiest way of changing the way an image or any other element on your page layout looks, use the Content Properties panel. See _Work with Content Properties panel_ for the various properties that are available through the UI to customize.
+Once an image is inserted, you can modify its attributes to give it the look and feel that you want. The easiest way of changing the way an image or any other element on your page layout looks, use the Content Properties panel. See [Work with Content Properties panel](design-page-layout.md#work-with-content-properties-panel) for the various properties that are available through the UI to customize.
 
-### Add fields and metadata
+### Add fields and metadata {#add-fields-metadata}
 
 Fields are very useful when you want to insert a piece of information that is pre-defined. For example, you can include a Chapter Title field in your chapter's header area that is replaced with the actual chapter's title when published.
 
@@ -354,7 +354,7 @@ There are the following categories for fields that you can insert in your page l
 
 Each of these field categories contain different variations in which the field information can be inserted. For example, a Date field can have different variations such as `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` and so on. Similarly, Page Number can have variations in the form of roman, decimal, or even locale-specific formats such as _Arabic_, _Devanagari_, _Hebrew_, and more.
 
-In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted in your page layout. For more information, see _Work with fields and metadata_.
+In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted in your page layout. For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).
 
 In the following example, we will insert a page number and a chapter title in the footer area of a page layout.
 
@@ -362,7 +362,7 @@ In the following example, we will insert a page number and a chapter title in th
 
     >[!NOTE]
     >
-    >See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >See [Customize a page layout](components-pdf-template.md#customize-page-layout) section for opening a page layout for customization or editing.
 
 1. Click the **Edit Footer** (![](./assets/footer-icon.svg)) icon to bring your cursor in the footer area.
 
@@ -380,7 +380,7 @@ In the following example, we will insert a page number and a chapter title in th
 
     >[!NOTE]
     >
-    >You can also edit the format of all fields, except the default format. To do so, click the Edit icon next to the format that you want to edit, make changes, and click OK. For more information, see _Work with fields and metadata_.
+    >You can also edit the format of all fields, except the default format. To do so, click the Edit icon next to the format that you want to edit, make changes, and click OK. For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).
 
     The default page number field is inserted in the footer area of the page layout.
 
@@ -426,7 +426,7 @@ If you like to work directly with the CSS and HTML code, then you can also achie
 …
 ```
 
-## Work with content area
+## Work with content area {#content-area}
 
 The content area is the largest area in terms of content space. The content area is populated with your topic's content. In some special cases, you can add boilerplate content in the content area. This content is published at the specified location in your page layout. For example, the heading in your table of contents, glossary, and index can be added as boilerplate content, which is published "as is" in the final output. Another example is the chapter TOC, which is typically added on the first page of every chapter.
 
@@ -434,7 +434,7 @@ One of the most commonly used customizations in the content area is the multi-co
 
 In the following sections, we will cover various scenarios to customize the content area.
 
-### Add a chapter TOC
+### Add a chapter TOC {#add-chapter-toc}
 
 A chapter table of contents serves as a quick reference for the readers to know what is in the chapter. Typically, a chapter TOC is added at the very beginning of a chapter. So, if you want to use a chapter TOC, then you can add it in the content area of the main chapter page layout or the first page layout variant of a chapter.
 
@@ -448,7 +448,7 @@ In the following example, we will insert a chapter TOC in the first page layout 
 
     >[!NOTE]
     >
-    >See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >See [Customize a page layout](components-pdf-template.md#customize-a-page-layout) section for opening a page layout for customization or editing.
 
 1. Place the cursor in the content area of the page layout.
 
@@ -482,7 +482,7 @@ The look and feel of the default TOC can be customized using the stylesheets. Th
 >
 >Currently, if you make any style updates in a stylesheet, it might not reflect in the content preview. However, the output is rendered with the updated styles.
 
-### Work with multi-column page layout
+### Work with multi-column page layout {#multi-column-layout}
 
 Multi-column page layouts are very common in publishing magazines or indexes in a book. The Native PDF Publishing feature allows you to easily split your document into multiple columns. Using different page layouts, you can choose to keep only a specific section divided into multiple columns while keeping the other sections in a single column (or normal) layout.
 
@@ -492,7 +492,7 @@ To create a page layout with multiple columns, perform the following steps:
 
     >[!NOTE]
     >
-    >See _Customize a page layout_ section for opening a page layout for customization or editing.
+    >See [Customize a page layout](components-pdf-template.md#customize-a-page-layout) section for opening a page layout for customization or editing.
 
 1. As the multi-column layout is applied on the content, excluding the header and footer area, you need to select the content element in the breadcrumb.
 
@@ -528,7 +528,7 @@ To create a page layout with multiple columns, perform the following steps:
     
     * **Column Rule** : If you want to have a line in between columns, then use this property to define the line or ruling styles. Specify the values for ruling Style, Color, and Width to add a line in between columns.
 
-## Work with Content Properties panel
+## Work with Content Properties panel {#work-with-content-props}
 
 The Content Properties panel lets you easily update the look and feel of the elements on your page layout. The properties under the Content Properties panel are divided into the following sections:
 

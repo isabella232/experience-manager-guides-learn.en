@@ -5,7 +5,7 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# Work with the common content styles
+# Work with the common content styles {#work-with-common-styles}
 
 A stylesheet contains the definitions of styles for the elements that are used in your PDF output. You can choose to work with the sample stylesheets or create new ones. In most cases, creating a copy of the OOTB sample stylesheet will help you get started quickly. 
 
@@ -30,7 +30,7 @@ The following sections cover the most commonly used style settings in the form o
 >
 >In the following examples, it is assumed that you are working with the sample stylesheet shipped with the product. 
 
-## Work with Heading Styles
+## Work with Heading Styles {#heading-styles}
 
 The heading styles encapsulate all base styles for the headings used in your content. OOTB you will get 6 base heading styles and a heading style for the topic&#47;chapter and appendix’s title heading. In a structured document, the H1 represents the topic’s or chapter’s title and H2 through H6 are used for sub-topics or sections within a topic&#47;chapter. This hierarchy of headings is automatically applied on your content whenever the corresponding heading is found.  
 
@@ -38,7 +38,7 @@ The heading styles encapsulate all base styles for the headings used in your con
 >
 >You can create your own custom heading styles and those can be used in your content using the outputclass. For more details, see Step 4 in *Use page orientation and view rotation* example. 
 
-### Create custom chapter-level headings
+### Create custom chapter-level headings {#create-chapter-level-heading}
 
 In a book (or a bookmap), you work with Chapters. The base heading styles are designed in such a way that they get applied on your chapter-level headings without any customizations. However, if you want to create specialized headings for your content, then you will have to create those headings. For example, the default `h1.chapter` heading gets applied on your chapter’s title. If you want your chapter title to appear in a different style, then you need to customize the `h1.chapter` style. Similarly, you can create custom styles for sub-headings in your chapter. For example, if you want to create a custom style for all 2<sup>nd</sup> and 3<sup>rd</sup> level headings in your chapter, then you need to create a new style as `h2.chatper` and `h3.chatper`.
 
@@ -60,7 +60,7 @@ A new heading style named `h2.chapter` is created and added under the Heading St
 
 Once you have created a style, you can customize the required properties of the style using the style editor. 
 
-### Create auto-number headings
+### Create auto-number headings {#auto-number-heading}
 
 One of the most commonly used output styles is autonumbered headings. These headings represent the chapter number, topic and sub-topic numbers. The auto-number headings are different from the list styles where a list of items within a topic are assigned auto-numbers.  
 
@@ -138,11 +138,11 @@ In this example, we will customize the headings from level 1 to level 3 to use a
 
    <img src="./assets/auto-number-output.png" width=500>
 
-## Work with Paragraph Styles
+## Work with Paragraph Styles {#paragraph-style}
 
 A paragraph style can be created to apply special formatting on an entire paragraph. However, using the pseudo-class, you can apply a style to only a specific part of the text. In the following example, we will create a paragraph style to use the drop cap style.
 
-### Create the drop cap style 
+### Create the drop cap style {#drop-cap-style}
 
 A drop cap (or dropped capital) style is used in magazines, and literary documents wherein the first character of a paragraph or section is given some special styling. You can achieve the same effect using the Native PDF Publishing feature. 
 
@@ -174,11 +174,11 @@ As the `p` tag is mapped with the `<p>` element in DITA, you don’t need to exp
 
 <img src="./assets/char-style-drop-cap.png" width=500>
 
-## Work with Character Styles
+## Work with Character Styles {#char-style}
 
 Using the character styles, you can create styles for formatting characters or words within your content. For example, you can create a character style for inline code or filename, or you can create a style that uses multiple styling formats on selected content. 
 
-### Create an inline character style
+### Create an inline character style {#inline-char-style}
 
 Formatting inline characters or words in a paragraph is a very common style. The process of creating an inline style involves two tasks – first, create a new style in the stylesheet, and second apply the style in your content using the `outputclass` attribute. 
 
@@ -222,7 +222,7 @@ The following example shows the Bold Italic format being applied at different pl
 
 <img src="./assets/char-format-applied.png" width=500>
 
-## Customize list style
+## Customize list style {#custom-list-style}
 
 The List Styles contain the default style settings for the ordered and unordered lists. You can easily customize these list styles to meet your documentation requirements. 
 
@@ -282,7 +282,7 @@ In the following example, we will customize the numbered or ordered list style:
      
       <img src="./assets/list-number-format-final.png" width="500">
 
-## Work with table style
+## Work with table style {#table-styles}
 
 Using the stylesheets, you can design *n* number of table styles. Using the table styles, you can design how the entire table, a particular row or column. With control at cell-level styling, you can create very presentable table styles. 
 
@@ -336,7 +336,7 @@ In the following example, we see how to create a table style and the various tab
 
    <img src="./assets/table-final-design.png" width="500">
 
-## Work with other styles
+## Work with other styles {#other-styles}
 
 If you are working with structured (DITA) content, then you will notice that almost all DITA elements have a style mapping in the default stylesheet. For example, a `<shortdesc>` element’s style is defined under **Other Style** > **.shortdesc** style definition. You can easily customize any of these styles and they get automatically applied in the PDF output generated from your structured content. This means that unlike other custom styles, you don’t need to add an `outputclass` attribute on the content for these styles. 
 
