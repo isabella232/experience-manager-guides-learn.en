@@ -1,8 +1,6 @@
 ---
 title: Native PDF Publish Feature | Work with the common content styles
 description: Learn how to create use styleheets and create styles for your content.
-hide: yes
-hidefromtoc: yes
 ---
 
 # Work with the common content styles {#work-with-common-styles}

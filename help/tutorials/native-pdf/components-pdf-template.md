@@ -1,8 +1,6 @@
 ---
 title: Native PDF Publish Feature | Components of a PDF template
 description: Learn the various components of a PDF tempalte and how to customize and configure them.
-hide: yes
-hidefromtoc: yes
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 ---
 # Components of a PDF template {#components-pdf-template}
@@ -37,7 +35,7 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
 1. Specify a name for the new page layout.
     >[!NOTE]
     >
-    >Avoid using any special characters when naming a page layout. A space in the name is replaced with an underscore “_”.
+    >Avoid using any special characters when naming a page layout. A space in the name is replaced with an underscore "_".
 1. Click **Done**.
    
    The new layout is created and added under Page Layouts.
@@ -77,7 +75,7 @@ Settings in the Stylesheets component allow you to style the page layout compone
 
 While CSS files are provided for content and layout, you can create a new stylesheet to apply multiple customizations to a specific style type that can then be applied to a target component. By default, sample CSS files are bundled within the product. These CSS files are meant to help you organize your styling information across content and layouts. You can choose to merge these styles in a single CSS file or multiple files. 
 
-By default, whenever you create a new page layout, the `layout.css` file is included within the new page layout. If you want the page layout to contain styles from a different CSS file, then you can simply drag-and-drop the desired CSS file on the new page layout’s content editing area. To validate if the CSS file has been embedded within the page layout, switch to the Source view and you will find a link to the CSS file in the `<head>` element.  
+By default, whenever you create a new page layout, the `layout.css` file is included within the new page layout. If you want the page layout to contain styles from a different CSS file, then you can simply drag-and-drop the desired CSS file on the new page layout's content editing area. To validate if the CSS file has been embedded within the page layout, switch to the Source view and you will find a link to the CSS file in the `<head>` element.  
 
 
 To create a stylesheet, follow the below steps:
@@ -97,7 +95,7 @@ To create a stylesheet, follow the below steps:
 
 By default, the CSS files contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
 
-Typically, you will create a new style when you want to associate a custom style for any DITA element. For such custom styles to work, you must ensure that you are associating the style’s class name with the DITA element’s outputclass attribute. 
+Typically, you will create a new style when you want to associate a custom style for any DITA element. For such custom styles to work, you must ensure that you are associating the style's class name with the DITA element's outputclass attribute. 
 
 
 To create a new style, follow the below steps:
@@ -109,7 +107,7 @@ To create a new style, follow the below steps:
 1. In the **Tag** filed, choose a tag for which you want to create a new style.
 1. Specify a **Class** name.
    
-   This class name must be associated with the tag’s outputclass attribute in your source content. 
+   This class name must be associated with the tag's outputclass attribute in your source content. 
 1. Select a **Pseudo Class** for enhanced styling of the element. 
 1. Click **Done**.
 
@@ -160,7 +158,7 @@ The selected file is imported and listed under the Resources folder.
 
 ## Advanced PDF Settings {#advanced-pdf-settings}
 
-Use the Settings section to configure the advanced settings for PDF’s page layout, starting PDF from odd or even page, formats for the cross references, and enabling printing marks in the final PDF that's generated
+Use the Settings section to configure the advanced settings for PDF's page layout, starting PDF from odd or even page, formats for the cross references, and enabling printing marks in the final PDF that's generated
 using the template.
 
 To configure, click **Settings** in the **Templates** panel to view the following options:

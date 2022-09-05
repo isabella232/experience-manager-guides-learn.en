@@ -26,15 +26,15 @@ breadcrumb-title: AEM Guides Tutorials
   + [Work with conditional output](./content-architecture/create-and-use-conditions.md)
   + [Create global keys](./content-architecture/create-global-keys.md)
 + Configuring {#configuring}
+  + Configure Native PDF Publishing feature {#config-native-pdf-publish}
+    + [PDF Template](./native-pdf/pdf-template.md)
+    + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
+    + [Design a page layout](./native-pdf/design-page-layout.md)
+    + [Work with the common content styles](./native-pdf/stylesheet.md)
   + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + Translation {#translation}
   + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
 + Web Editor {#web-editor}
-  + [Publish a PDF output](./web-editor/native-pdf-web-editor.md) 
+  + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
   + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
 + Versioning {#versioning}
-+ WIP Native PDF articles {#hidden}
-  + [Hidden PDF Template](./native-pdf/pdf-template.md)
-  + [Hidden Components of a PDF Template](./native-pdf/components-pdf-template.md)
-  + [Hidden Design a page layout](./native-pdf/design-page-layout.md)
-  + [Hidden Stylesheet](./native-pdf/stylesheet.md)
