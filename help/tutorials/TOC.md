@@ -26,7 +26,7 @@ breadcrumb-title: AEM Guides Tutorials
   + [Work with conditional output](./content-architecture/create-and-use-conditions.md)
   + [Create global keys](./content-architecture/create-global-keys.md)
 + Configuring {#configuring}
-  + Configure Native PDF Publishing feature {#config-native-pdf-publish}
+  + Native PDF Publishing {#config-native-pdf-publish}
     + [PDF Template](./native-pdf/pdf-template.md)
     + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
     + [Design a page layout](./native-pdf/design-page-layout.md)
