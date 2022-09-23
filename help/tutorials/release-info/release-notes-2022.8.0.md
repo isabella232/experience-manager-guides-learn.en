@@ -1,16 +1,20 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, August 2022 release
+<<<<<<< Updated upstream
 description: Latest release of Adobe Experience Manager Guides as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
+=======
+description: August release of Adobe Experience Manager Guides as a Cloud Service
+>>>>>>> Stashed changes
 ---
-# Latest release of Adobe Experience Manager Guides as a Cloud Service 
+# August release of Adobe Experience Manager Guides as a Cloud Service 
 
-## Upgrade to the latest release
+## Upgrade to the August release
 
 Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later referred as *AEM Guides as a Cloud Service*) setup by performing the following steps:
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment you want to upgrade.
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.8.167.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
+3. Commit the changes and run the Cloud Services pipeline to upgrade to the August release of AEM Guides as a Cloud Service.
 
 ## Compatibility matrix
 
@@ -35,7 +39,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 ## New features and enhancements
 
-AEM Guides as a Cloud Service provides many enhancements and new features in the latest release:
+AEM Guides as a Cloud Service provides many enhancements and new features in the August release:
 
 ### Layout view in the Map Editor
 
