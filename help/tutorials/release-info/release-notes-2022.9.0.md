@@ -55,7 +55,12 @@ By default, the options **Checkout file before replace** and **Create new versio
 
 ### View version difference for Out of Sync files from the translation dashboard
 
-You can now choose to translate the **Out of Sync** files based on the changes done between the two versions of a topic.  From the translation dashboard, you can easily see the differences between the last translated version and the current version of the selected file. Based on the differences, you can decide whether you want to translate a topic or not.
+You can now choose to translate the **Out of Sync** files based on the changes done between the two versions of a topic.  
+![Translation dashboard](assets/translation-version-diff.png)
+From the translation dashboard, you can easily see the differences between the last translated version and the current version of the selected file. 
+![version difference dialog](assets/version-diff.png)
+
+Based on the differences, you can decide whether you want to translate a topic or not.
 
 ### Metadata UI available for PDF Presets  
 
