@@ -11,6 +11,15 @@ Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later r
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.8.167.
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
 
+## Steps to index the existing content 
+Perform the following steps for indexing the existing content and use the new find and replace text at map level:
+* Run a POST request to the server (with correct authentication) - http://<server:port>/bin/guides/map-find/indexin. 
+(Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed)
+* The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - http://<server:port>/bin/guides/map-find/indexing?jobId={jobId} 
+(For example: http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+* Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
+
+
 ## Compatibility matrix
 
 This section lists the compatibility matrix for the software applications supported by AEM Guides as a Cloud Service September 2022 release. 
