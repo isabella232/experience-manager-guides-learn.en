@@ -113,7 +113,6 @@ The bugs fixed in various areas are listed below:
 *	Native PDF | Content via conkeyref is not getting displayed in the PDF output. (9836)
 * Native PDF | Key references for Keydefs with images or external links are not resolved. (10063)
 *	Author view for a map doesn't display placeholder text for tablelist and figurelist. (10330)
-*	Peer link is not resolved on a page generated for the AEM site output. (7774)
 *	When we create a new baseline,  the already selected baseline filter is not applied. (9954)
 *	Video file is missing from the baseline if the parent folder name has a space character. 10031)
 *	Baseline creation does not pick the latest version when the user timezone is different from the server timezone. (10190)
