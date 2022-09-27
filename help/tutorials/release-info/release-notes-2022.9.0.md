@@ -48,7 +48,7 @@ AEM Guides as a Cloud Service provides many enhancements and new features in the
 
 ### Create a dynamic baseline based on labels
 
-Now AEM Guides provides you the feature to create dynamic baselines based on labels. If you apply a specific baseline while generating a baseline, downloading a map, or creating a translation project, the files are picked dynamically based on the updated labels. This feature is handy as you don’t have to modify the baseline when updating the labels. 
+Now AEM Guides provides you the feature to create dynamic baselines based on labels. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. This feature is handy as you don’t have to modify the baseline when updating the labels. 
 You can also export the snapshot of the baseline as a  CSV.
 
 ![Create baselines](assets/preset-metadata.png)
@@ -67,6 +67,7 @@ By default, the options **Checkout file before replace** and **Create new versio
 You can now choose to translate the **Out of Sync** files based on the changes done between the two versions of a topic.  
 ![Translation dashboard](assets/translation-version-diff.png)
 From the translation dashboard, you can easily see the differences between the last translated version and the current version of the selected file. 
+
 ![version difference dialog](assets/version-diff.png)
 
 Based on the differences, you can decide whether you want to translate a topic or not.
