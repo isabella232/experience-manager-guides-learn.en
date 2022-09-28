@@ -37,7 +37,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2022.9.0 | 2.7.5 | 2.7.5 | 2.3 | 2.3 | 
+| 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
