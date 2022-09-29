@@ -12,6 +12,7 @@ Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later r
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
 
 ## Steps to index the existing content 
+
 Perform the following steps for indexing the existing content and use the new find and replace text at map level:
 * Run a POST request to the server (with correct authentication) - http://<server:port>/bin/guides/map-find/indexin. 
 (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed ||  Example :   https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>)
