@@ -52,7 +52,7 @@ AEM Guides as a Cloud Service provides many enhancements and new features in the
 Now AEM Guides provides you the feature to create dynamic baselines based on labels. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. This feature is handy as you don’t have to modify the baseline when updating the labels. 
 You can also export the snapshot of the baseline as a  CSV.
 
-![Create baselines](assets/preset-metadata.png)
+![Create baselines](assets/dynamic-baseline.png)
 
 ### Find and replace the text at map level
 
