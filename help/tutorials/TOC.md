@@ -12,7 +12,8 @@ breadcrumb-title: AEM Guides Tutorials
   + Release Notes {#release-notes}
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
-      + [Current release notes](./release-info/release-notes-2022.8.0.md) 
+      + [Current release notes](./release-info/release-notes-2022.9.0.md) 
+      + [August release notes](./release-info/release-notes-2022.8.0.md)
       + [May release notes](./release-info/release-notes-2022.5.0.md)
       + [April release notes](./release-info/release-notes-2022.4.0.md)
       + [March release notes](./release-info/release-notes-2022.3.0.md)
