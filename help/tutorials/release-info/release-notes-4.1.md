@@ -3,9 +3,9 @@ title: Release Notes | Adobe Experience Manager Guides 4.1 release
 description: Latest release of Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 ---
-# Latest release of Adobe Experience Manager Guides
+# 4.1 release of Adobe Experience Manager Guides
 
-## Upgrade to the latest release
+## Upgrade to the 4.1 release
 
 You can easily upgrade your current version of Adobe Experience Manager Guides (later referred as *AEM Guides*) to version 4.1. Before you proceed with upgrading to version 4.1 of AEM Guides, you must consider the following points:
 
@@ -53,7 +53,7 @@ For more details, see the Technical requirements section in the Install and conf
 
 ## New features and enhancements
 
-AEM Guides provides many enhancements and new features in the latest release:
+AEM Guides provides many enhancements and new features in the 4.1 release:
 
 ### Enhanced Web Editor
 
