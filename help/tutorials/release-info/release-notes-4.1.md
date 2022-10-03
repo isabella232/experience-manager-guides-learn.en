@@ -24,10 +24,10 @@ This section lists the compatibility matrix for the software applications suppor
 ### ADOBE EXPERIENCE MANAGER
 
 **Non-UUID**
-Version 6.5 Service Pack 12, 11, 10, or 9
+Version 6.5 Service Pack 13, 12, 11, or 10
 
 **UUID**
-Version 6.5 Service Pack 12, 11, 10, or 9
+Version 6.5 Service Pack 13, 12, 11, or 10
 
 For more details, see the Technical requirements section in the Install and configure Adobe Experience Manager Guides guide. 
 
@@ -36,8 +36,8 @@ For more details, see the Technical requirements section in the Install and conf
 
 |Release| FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
-|4.1 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
-| 4.1 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
+|4.1.2 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
+| 4.1.2 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
 | | | | |
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
@@ -46,9 +46,9 @@ For more details, see the Technical requirements section in the Install and conf
 
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
 | --- | --- | --- |--- |--- |
-| 4.1 (Non-UUID)|  2.0 | 2.0 |  1.6 | 1.6  |
-| 4.1 (UUID) | 2.7 | 2.7  |2.3 | 2.3  |
-|  |  |  |  
+| 4.1.2 (Non-UUID)|  2.0 | 2.0 |  1.6 | 1.6  |
+| 4.1.2 (UUID) | 2.7 | 2.7  |2.3 | 2.3  |
+|  |  |   |  
 
 
 ## Fixed issues
