@@ -6,7 +6,7 @@ breadcrumb-title: AEM Guides Tutorials
   
 # Tutorials for [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [Tutorials for [!DNL AEM Guides] for AEM](overview.md)
++ [Tutorials for [!DNL AEM Guides]](overview.md)
 + Release Information {#release-info}
   + [[!DNL AEM Guides] releases](./release-info/latest-release-info.md) 
   + Release Notes {#release-notes}
