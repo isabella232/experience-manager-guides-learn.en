@@ -7,9 +7,9 @@ exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 This release notes covers the upgrade instructions, new features, and enhancements in version 4.1.x of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 ## Upgrade to the latest release
 
-You can easily upgrade your current version of AEM Guides to version 4.1. Before you proceed with upgrading to version 4.1 of AEM Guides, you must consider the following points:
-
-* If you are using version 4.0.x, then you can directly upgrade to version 4.1. You need to upgrade to version 4.0.x before upgrading to 4.1.
+You can easily upgrade your current version of AEM Guides to version 4.1.2. Before you proceed with upgrading to version 4.1.2 of AEM Guides, you must consider the following points:
+* If you are using version 4.1.x, then you can directly upgrade to version 4.1.2.
+* If you are using version 4.0.x, then you need to upgrade to version 4.1 before upgrading to 4.1.2.
 * If you are using version 3.8.5, then you need to upgrade to version 4.0.x before upgrading to 4.1.
 * If you are on a version prior to 3.8.5, refer to the upgrade section in the product-specific installation guide.
 
