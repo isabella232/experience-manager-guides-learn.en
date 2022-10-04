@@ -13,7 +13,7 @@ You can easily upgrade your current version of AEM Guides to version 4.1.2. Befo
 * If you are using version 3.8.5, then you need to upgrade to version 4.0.x before upgrading to 4.1.
 * If you are on a version prior to 3.8.5, refer to the upgrade section in the product-specific installation guide.
 
-For details, see [Upgrade instructions](/assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+For details, see [Upgrade instructions](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## 4.1.2 | Release notes
 
