@@ -66,7 +66,7 @@ The bugs fixed in various areas are listed below:
 
 * Baseline exported during translation does not load in the baseline tab of editor.
 
-  **Workaround**: Use the baseline tab of ditamap dashboard.
+  **Workaround**: Use the baseline tab of DITA map dashboard.
 
 ## 4.1 | Release Notes
 
