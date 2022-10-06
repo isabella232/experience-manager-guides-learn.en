@@ -8,8 +8,8 @@ This release notes covers the upgrade instructions, new features, and enhancemen
 ## Upgrade to the latest release
 
 You can easily upgrade your current version of AEM Guides to version 4.1.2. Before you proceed with upgrading to version 4.1.2 of AEM Guides, you must consider the following points:
-* If you are using version 4.1.x, then you can directly upgrade to version 4.1.2.
-* If you are using version 4.0.x, then you need to upgrade to version 4.1 before upgrading to 4.1.2.
+* If you are using version 4.1 or 4.1.x, then you can directly upgrade to version 4.1.2.
+* If you are using version 4.0.x, then you need to upgrade to version 4.1 or 4.1.x before upgrading to 4.1.2.
 * If you are using version 3.8.5, then you need to upgrade to version 4.0.x before upgrading to 4.1.
 * If you are on a version prior to 3.8.5, refer to the upgrade section in the product-specific installation guide.
 
