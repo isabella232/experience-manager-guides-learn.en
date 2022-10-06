@@ -61,7 +61,7 @@ The bugs fixed in various areas are listed below:
 * Baseline creation does not pick the latest version, when the user's timezone is different from the server timezone. (10336) 
 * Control+F shortcut is not opening the browser search modal on the Assets Console after the installation of AEM Guides 4.1. (10339)
 * Baseline creation error occurs for the topic which has the reference to a folder. (10383)
-* Output presets tab is showcasing a blank screen intermittently and in some cases non editable presets are getting displayed. (10390)
+* Output presets tab is showcasing a blank screen intermittently and in some cases non-editable presets are getting displayed. (10390)
 * Keyspace management is leading to exceptions and errors. (10449)
 
 ### Known issues with workaround
