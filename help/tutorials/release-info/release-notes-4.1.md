@@ -62,6 +62,12 @@ The bugs fixed in various areas are listed below:
 * Output presets tab is showcasing a blank screen intermittently and in some cases non editable presets are getting displayed. (10390)
 * Keyspace management is leading to exceptions and errors. (10449)
 
+### Known issues with workaround
+
+* Baseline exported during translation does not load in the baseline tab of editor.
+
+  **Workaround**: Use the baseline tab of ditamap dashboard.
+
 ## 4.1 | Release Notes
 
 This release notes covers the upgrade instructions, new features, and enhancements in version 4.1.x of Adobe Experience Manager Guides (later referred as *AEM Guides*).
