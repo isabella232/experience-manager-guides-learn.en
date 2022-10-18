@@ -8,7 +8,7 @@ description: Latest release of Adobe Experience Manager Guides as a Cloud Servic
 
 Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later referred as *AEM Guides as a Cloud Service*) setup by performing the following steps:
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
-2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.9.178.
+2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.10.178.
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
 
 ## Compatibility matrix
@@ -62,4 +62,4 @@ The bugs fixed in various areas are listed below:
 * Native PDF | Restarting the page number in the chapter layout randomly starts numbering from the end of the previous chapter. (10154)
 * Chrome browser | Screen is getting blank on dragging and dropping any element from the UI. For example, on dragging a condition from the Conditions panel. (10524)
 * Node properties are removed after the copy-paste operation of an asset. (10053)
-* Need a way to navigate out of Web Editor to the homepage of AEM Guides. (9654)
+* On click of "close" users were being redirected to assets - The experience has been corrected to take users to AEM Homepage. (9654)
