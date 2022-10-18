@@ -61,5 +61,5 @@ The bugs fixed in various areas are listed below:
 * Native PDF | Not able to hide frontmatter topics from the Table of contents. (10355)
 * Native PDF | Restarting the page number in the chapter layout randomly starts numbering from the end of the previous chapter. (10154)
 * Chrome browser | Screen is getting blank on dragging and dropping any element from the UI. For example, on dragging a condition from the Conditions panel. (10524)
-* Node properties are removed after the copy-paste operation of an asset. (10053)
-* On click of "close" users were being redirected to assets - The experience has been corrected to take users to AEM Homepage. (9654)
+* Node properties are getting removed after the copy-paste operation of an asset. (10053)
+* On clicking  **Close** users were being redirected to assets - the experience has been corrected to take users to the AEM homepage. (9654)
