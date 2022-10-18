@@ -47,7 +47,7 @@ In the **Quick Generate** panel, you can see the list of all the output presets 
 
 ![Quick Generate panel](assets/quick-generate-panel.png)
 
-Select one or more presets and quickly generate the output. You can also quickly view the generated output for the presets. A success message is displayed on the generation of the output. An error message is shown if the output generation fails. You can also view the error log to see the details of the error that occurred in the generation process.   
+Select one or more presets and quickly generate the output. You can also quickly view the output generated for the presets. A success message is displayed on the generation of the output. An error message is shown if the output generation fails. You can also view the error log to see the details of the error that occurred in the generation process.   
 
 
 ## Fixed issues
