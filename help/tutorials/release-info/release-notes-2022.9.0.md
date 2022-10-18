@@ -1,15 +1,15 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, September 2022 release
-description: Latest release of Adobe Experience Manager Guides as a Cloud Service
+description: September release of Adobe Experience Manager Guides as a Cloud Service
 ---
-# Latest release of Adobe Experience Manager Guides as a Cloud Service 
+# September release of Adobe Experience Manager Guides as a Cloud Service 
 
-## Upgrade to the latest release
+## Upgrade to the September release
 
 Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later referred as *AEM Guides as a Cloud Service*) setup by performing the following steps:
-1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment you want to upgrade.
+1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.9.178.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
+3. Commit the changes and run the Cloud Services pipeline to upgrade to the September release of AEM Guides as a Cloud Service.
 
 ## Steps to index the existing content 
 
@@ -44,7 +44,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 ## New features and enhancements
 
-AEM Guides as a Cloud Service provides many enhancements and new features in the latest release:
+AEM Guides as a Cloud Service provides many enhancements and new features in the September release:
 
 
 ### Create a dynamic baseline based on labels
