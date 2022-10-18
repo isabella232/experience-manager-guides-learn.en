@@ -56,7 +56,7 @@ The Preset panel opens.
    * Click the + icon against **Presets** to add a new output preset of **Type: PDF**  
 3. To configure settings of an existing PDF preset:   
    * Click the  **Options** ![options](assets/options.svg) icon next to the desired output Preset and select **Edit**. 
-You can use the following settings in the **General**, **Layout**, **Security**, and **Advanced** tabs to configure a PDF output preset: 
+You can use the following settings in the **General**, **Metadata**, **Layout**, **Security**, and **Advanced** tabs to configure a PDF output preset: 
 
 **General**
 
@@ -69,6 +69,23 @@ Use to specify basic output settings, such as specify output path, PDF file name
 | **Apply Conditions using** |   For conditionalized content, choose from the below options to generate a PDF output based on those conditions: <br>* **None Applied** Select this option if you do not want to apply any condition on the map and source content. <br> * **Ditaval File** Select a DITAVAL file to generate conditionalized content. To select, click against Condition Preset and locate the file. <br> * **Condition Preset** Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br>|
 |  **Use Baseline**  | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish. See [Work with Baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) for more details.   |
  
+**Metadata**
+
+Metadata is the description or definition of your content. Metadata helps in content management and helps in searching files on the internet. 
+
+Use the Metadata tab to set the title, author, subject, and keywords for the PDF output. This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
+
+**Note**: This metadata overrides the metadata defined at the book level. 
+
+![metadata tab](assets/pdf-metadata.png)
+
+| Setting | Description |
+|---|---|
+|**Title**|Specify a short and clear title to define the document.|
+|**Author**|Specify the names of the author(s) who created the document.  | 
+|**Subject**|Define the subject or collection with which the document is related.|
+|**Keywords**|Use relevant keywords to improve your search engine optimization (SEO) and help the users to find your related content.|
+
 **Layout**
 
 Use to set page layouts and specify page view options for PDF output such as Page Display and set Zoom levels.
