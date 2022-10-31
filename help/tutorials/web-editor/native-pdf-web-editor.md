@@ -5,7 +5,7 @@ exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 ---
 # Publish PDF output
 
-With the AEM Guides solution, you can generate PDFs of individual topics or an entire map file. You can publish your content in a PDF format using one of the three methods below: 
+With AEM Guides, you can generate PDFs of individual topics or an entire map file. You can publish your content in a PDF format using one of the three methods below: 
 
 * **DITA-OT**  
 
