@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, September 2022 release
 description: September release of Adobe Experience Manager Guides as a Cloud Service
+exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 ---
 # September release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -128,4 +129,4 @@ Adobe has identified the following known issues for AEM Guides as a Cloud Servic
 
 * Dynamic baseline is not integrated with knowledge base publishing. 
 
-* Translation | Version difference icon appears for the source content due to any change in the target content. 
+* Translation | Version difference icon appears for the source content due to any change in the target content.
