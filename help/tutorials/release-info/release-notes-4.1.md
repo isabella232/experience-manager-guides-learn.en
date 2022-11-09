@@ -114,6 +114,14 @@ For more details, see the Technical requirements section in the Install and conf
 
 AEM Guides provides many enhancements and new features in the 4.1 release:
 
+### Native PDF publishing
+
+Support for creating a native PDF has also been added in the 4.1 release of AEM Guides. A new publishing engine has been introduced with the following features:
+* Create a CSS template
+* Create different page templates
+* Design PDF templates comprising CSS and page templates
+* Publish map and topic content in PDF format 
+
 ### Enhanced Web Editor
 
 * **Improved key resolution**
