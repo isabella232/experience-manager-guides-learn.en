@@ -122,6 +122,10 @@ Support for creating a native PDF has also been added in the 4.1 release of AEM 
 * Design PDF templates comprising CSS and page templates
 * Publish map and topic content in PDF format 
 
+### Support for knowledge base site path in Article-based publishing
+
+AEM Guides provides the article-based publishing feature to incrementally generate an output of one or more topics or publish your content to a knowledgebase platform. With the 4.1 release, you have an additional option to choose the Knowledge Base site path to which the topic/map needs to be published. Once you select the path, the output is generated at the specified path.  
+
 ### Enhanced Web Editor
 
 * **Improved key resolution**
