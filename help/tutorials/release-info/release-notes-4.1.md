@@ -9,13 +9,56 @@ This release notes covers the upgrade instructions, new features, and enhancemen
 
 ## Upgrade to the latest release
 
-You can easily upgrade your current version of AEM Guides to version 4.1.2. Before you proceed with upgrading to version 4.1.2 of AEM Guides, you must consider the following points:
-* If you are using version 4.1 or 4.1.x, then you can directly upgrade to version 4.1.2.
-* If you are using version 4.0.x, then you need to upgrade to version 4.1 or 4.1.x before upgrading to 4.1.2.
+You can easily upgrade your current version of AEM Guides to version 4.1.3. Before you proceed with upgrading to version 4.1.3 of AEM Guides, you must consider the following points:
+* If you are using version 4.1 or 4.1.x, then you can directly upgrade to version 4.1.3.
+* If you are using version 4.0.x, then you need to upgrade to version 4.1 or 4.1.x before upgrading to 4.1.3.
 * If you are using version 3.8.5, then you need to upgrade to version 4.0.x before upgrading to 4.1.
 * If you are on a version prior to 3.8.5, refer to the upgrade section in the product-specific installation guide.
 
 For details, see [Upgrade instructions](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+
+## 4.1.3 | Release notes
+
+## Compatibility matrix
+
+This section lists the compatibility matrix for the software applications supported by AEM Guides 4.1.3 release. 
+
+### ADOBE EXPERIENCE MANAGER
+
+**Non-UUID**
+Version 6.5 Service Pack 13, 12, 11, or 10
+
+**UUID**
+Version 6.5 Service Pack 13, 12, 11, or 10
+
+For more details, see the Technical requirements section in the Install and configure Adobe Experience Manager Guides guide. 
+
+
+### FrameMaker and FrameMaker Publishing Server
+
+|Release| FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| --- | --- | --- | --- | --- |
+|4.1.3 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
+| 4.1.3 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
+| | | | |
+
+*Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
+
+### Oxygen Connector
+
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| --- | --- | --- |--- |--- |
+| 4.1.3 (Non-UUID)|  2.0 | 2.0 |  1.6 | 1.6  |
+| 4.1.3 (UUID) | 2.7 | 2.7  |2.3 | 2.3  |
+|  |  |   |  
+
+
+## Fixed issues
+
+The bug fixed is listed below:
+
+* Web Editor loads blank page intermittently. (10678)
+
 
 ## 4.1.2 | Release notes
 
