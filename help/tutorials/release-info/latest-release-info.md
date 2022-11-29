@@ -24,15 +24,16 @@ exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 
 ### Choose between the two versions
 * If you are a new customer, we recommend you to use UUID version.
-* If you are an existing customer, you can choose to move to UUID version as the migration from Non-UUID to UUID version is now possible. For more details, see the Non-UUID to UUID content migration section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+* If you are an existing customer, you can choose to move to UUID version as the migration from Non-UUID to UUID version is now possible. For more details, see the *Non-UUID to UUID content migration* section in the **Install and configure Adobe Experience Manager Guides.**
 
-Customers will need to decide between UUID and Non-UUID mode at the time of first setup (please connect with your Customer Success Manager to help you make the decision based on your usecase).
-
-When upgrading from one version of [!DNL AEM Guides] to a newer version, customers will need to ensure they pick the same mode (UUID / Non-UUID) to match their existing mode. A Non-UUID version should not be directly upgrade to a UUID version. Moving from Non-UUID version to UUID version would need content migration. 
+>[!NOTE]
+>
+>* Customers will need to decide between UUID and Non-UUID mode at the time of first setup (in case you need help, please connect with Customer Success Manager to help you make the decision based on your usecase).
+>* When upgrading from one version of [!DNL AEM Guides] to a newer version, customers will need to ensure they pick the same mode (UUID / Non-UUID) to match their existing mode. A Non-UUID version should not be directly upgrade to a UUID version. Moving from Non-UUID version to UUID version would need content migration. 
 
 **Upgrading Builds**
 
-When you are upgrading from an older version to a newer version of [!DNL AEM Guides], you might need to execute some migration scripts. Refer to Release Notes and version specific documentation for upgrade instructions.
+When you are upgrading from an older version to a newer version of [!DNL AEM Guides], you might need to execute migration scripts. Refer to Release Notes and version specific documentation for upgrade instructions.
 
 Not all upgrade paths are directly supported. For example, direct upgrade to version 4.0 is possible only from version 3.8. 
 If you are on a version prior to 3.8, then refer to your version-specific documentation for upgrade instructions [Help Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
