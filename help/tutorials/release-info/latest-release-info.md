@@ -7,7 +7,7 @@ exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 
 [!DNL Adobe Experience Manager Guides] is an application deployed onto AEM. It is a powerful, enterprise-grade component content management solution (CCMS) which enables native DITA support in Adobe Experience Manager, empowering AEM to handle DITA-based content creation and delivery. 
 
-AEM Guides packages are available in two modes - UUID build and Non-UUID builds.
+AEM Guides packages are available in two variants - UUID build and Non-UUID builds.
 
 ## UUID and Non-UUID builds
 Key differences between the UUID and Non-UUID builds are as follows:
