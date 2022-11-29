@@ -214,9 +214,9 @@ The following settings are available under the Page Layout section:
 If you do not want to show a particular section in your PDF output, then you can disable that by turning the toggle switch to off. You can also define the order in which these different sections as generated in your PDF. If you want to change the default order of these pages, hover on the left of a page layout and click on  the dotted bars icon to drag and drop the page layout at the desired location. 
 Your PDF will contain the enabled page layouts in the order you have organized them here.
 
-**Page Layout for Empty Pages**: You can also specify the page layout for the empty pages. The selected layout will be applied to all empty pages. For example, if you have designed a Blank page layout for all empty pages, select Blank in the drop-down list, and all empty pages in your document will have the Blank page layout.
+**Page Layout for Empty Pages**:	You can also specify the page layout for the empty pages. The selected layout will be applied to all empty pages. For example, if you have designed a Blank page layout for all empty pages, then select **Blank** in the drop-down list, and all empty pages in your document will have the Blank page layout.
 
-**Cover Page and Back Page**: If you have designed a cover page layout, then map it to the Cover Page option. Similarly, if you have a back page layout, then map it to the Back Page option. If no cover or back page layouts have been created, then the default page layout is applied. 
+**Cover Page and Back Page**: If you have designed a cover page layout, then map it to the **Cover Page** option. Similarly, if you have a back page layout, then map it to the **Back Page** option. If no cover or back page layouts have been created, then the default page layout is applied. 
 
 For more information on page layouts, see [Design a page layout](design-page-layout.md).
 
