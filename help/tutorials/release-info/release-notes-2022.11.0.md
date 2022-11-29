@@ -12,7 +12,7 @@ Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later r
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.10.183.
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
 
-## Steps to index the existing content (Only if you are on or below 2022.08.0 CS release)
+## Steps to index the existing content (Only if you are on a version prior to September release of AEM Guides as a Cloud Service)
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level:
 
