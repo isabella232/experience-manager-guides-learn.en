@@ -197,10 +197,26 @@ Set the basic configuration settings for starting a chapter from odd or even pag
 
 The Page Layouts settings give you complete control over specifying which page layout is to be used for a specific section of your document. For example, to select a layout for the Table of Contents, click the dropdown menu under the TOC field and select the layout you have designed to generate the TOC. 
 
-If you have not created a layout for a particular section in your document, you can simply choose a layout that serves as the default layout for such sections or topics. The default page layout is then applied for all such sections that do not have a dedicated page layout. 
+The following settings are available under the Page Layout section:
 
-Similarly, if you want a cover and back page, then you must have a page layout created and applied in the settings. Else, your PDF will not contain the cover and back pages. 
+![Page layouts](assets/template-page-layout.png)
 
+**Default Page Layout**: Select a page layout that acts as the default layout for all pages in your PDF. This is the base page layout that is applied on those sections or topic where you have not created a dedicated page layout. 
+
+**Page layout for different sections**: You can choose to map a page layout with the following sections of your PDF output: 
+* TOC
+* List of Figures
+* List of Tables
+* Chapters & Topics
+* Index
+* Glossary
+
+If you do not want to show a particular section in your PDF output, then you can disable that by turning the toggle switch to off. You can also define the order in which these different sections as generated in your PDF. If you want to change the default order of these pages, hover on the left of a page layout and click on  the dotted bars icon to drag and drop the page layout at the desired location. 
+Your PDF will contain the enabled page layouts in the order you have organized them here.
+
+**Page Layout for Empty Pages**: You can also specify the page layout for the empty pages. The selected layout will be applied to all empty pages. For example, if you have designed a Blank page layout for all empty pages, select Blank in the drop-down list, and all empty pages in your document will have the Blank page layout.
+
+**Cover Page and Back Page**: If you have designed a cover page layout, then map it to the Cover Page option. Similarly, if you have a back page layout, then map it to the Back Page option. If no cover or back page layouts have been created, then the default page layout is applied. 
 
 For more information on page layouts, see [Design a page layout](design-page-layout.md).
 
