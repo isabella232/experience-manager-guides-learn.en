@@ -12,6 +12,18 @@ Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later r
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.10.183.
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
 
+## Steps to index the existing content (Only if you are on or below 2022.08.0 CS release)
+
+Perform the following steps for indexing the existing content and use the new find and replace text at map level:
+
+* Run a POST request to the server (with correct authentication) - http://<server:port>/bin/guides/map-find/indexin.
+(Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed || Example : https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>)
+
+* The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}
+(For example: http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+
+* Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
+
 ## Compatibility matrix
 
 This section lists the compatibility matrix for the software applications supported by AEM Guides as a Cloud Service November 2022 release. 
@@ -40,7 +52,7 @@ AEM Guides as a Cloud Service provides enhancements and new features in the late
 
 ### Delete files from the repository panel
 
-Now you can easily delete files from the **Options** menu of the selected file.  
+Now you can easily delete files (single file at a time) from the **Options** menu of the selected file from repository panel.
 ![Delete from repository](assets/repository-delete-file.png)
 
 A confirmation prompt is displayed before deleting the file. If the file is not referenced from any other file, it is deleted, and a success message is displayed.
@@ -104,7 +116,6 @@ Now you can also generate the TOC in DITA maps using an advanced PDF setting of 
 
 The bugs fixed in various areas are listed below:
 
-* Native PDF | The settings under the version difference PDF option are not retained when they are updated and saved. (10776)
 * Native PDF | A footnote in table header leads to a bold and centre-aligned footnote text in the footer within PDF output. (10610)
 * Native PDF | `conkeyref` does not get resolved in the generated PDF output. (10564)
 * Native PDF | Issues occur on accessing metadata of a map in the PDF output. (10556)
