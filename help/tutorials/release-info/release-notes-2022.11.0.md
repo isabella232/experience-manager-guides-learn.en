@@ -135,7 +135,7 @@ The bugs fixed in various areas are listed below:
 * Post processing is blocked for entire language folder whose assets are present in an active translation project. (10332)
 * Template tab in XML Editor is not visible to folder profile administrators. (10266)
 * Navigation issues occur in Web Editor after 4.0 upgrade. (10159)
-* First character is broken in Korean language while authoring in the Web Edtor. (10049)
+* First character is broken in Korean language while authoring in the Web Editor. (10049)
 * SVG files are not getting displayed in Preview mode. (10010)
 * If Editor's Output tab contains more presets, the presets section cannot be scrolled, and all the presets are not displayed. (9787)
 * **Edit** and **Annotate** options for an image are not working correctly in the column view. (8758)
