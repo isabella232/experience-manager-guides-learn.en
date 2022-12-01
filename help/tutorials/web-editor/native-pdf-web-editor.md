@@ -51,7 +51,7 @@ To create or configure a PDF output preset:
 1. In the Output tab, click **Presets** in the left sidebar. 
 The Preset panel opens.
  
-<img src="assets/preset-panel.png" alt="preset panel" width=450>
+<img src="assets/preset-panel.png" alt="preset panel" width=600>
 
 2. In the output **Presets** panel, do one of the following:  
    * Double-click a predefined PDF output preset to view it.
@@ -81,7 +81,7 @@ Use the Metadata tab to set the title, author, subject, and keywords for the PDF
 
 **Note**: This metadata overrides the metadata defined at the book level. 
 
-<img src="assets/pdf-metadata.png" alt="metadata tab" width=450>
+<img src="assets/pdf-metadata.png" alt="metadata tab" width=600>
 
 
 | Setting | Description |
