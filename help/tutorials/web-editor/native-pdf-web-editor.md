@@ -49,12 +49,14 @@ From the PDF output preset you can select a template, apply conditions, set rest
 To create or configure a PDF output preset: 
 
 1. In the Output tab, click **Presets** in the left sidebar. 
-The Preset panel opens. 
-![preset panel](assets/preset-panel.png)
-2. In the output **Presets** panel, do one of the following:  
+The Preset panel opens.
+ <img src="assets/preset-panel.png" alt="preset panel" width=600>
+
+1. In the output **Presets** panel, do one of the following:  
    * Double-click a predefined PDF output preset to view it.
    * Click the + icon against **Presets** to add a new output preset of **Type: PDF**  
-3. To configure settings of an existing PDF preset:   
+
+1. To configure settings of an existing PDF preset:   
    * Click the  **Options** ![options](assets/options.svg) icon next to the desired output Preset and select **Edit**. 
 You can use the following settings in the **General**, **Metadata**, **Layout**, **Security**, and **Advanced** tabs to configure a PDF output preset: 
 
@@ -64,10 +66,12 @@ Use to specify basic output settings, such as specify output path, PDF file name
 
 | Setting  | Description|
 | --- | --- |
-|**Output Path**|   The path within the AEM repository where the PDF output is stored. Ensure that the output path is not located inside the project folder. If left blank, the output gets generated in the default DITA map output location.|
-|  **PDF file**  | Specify a file name to save the PDF. By default, the PDF file name adds the DITA map name along with the preset name. For example, ditamap is ‘TestMap’ and the name of the preset is ‘preset1’ then the default name of the pdf will be ‘TestMap_preset1.pdf’.  |
-| **Apply Conditions using** |   For conditionalized content, choose from the below options to generate a PDF output based on those conditions: <br>* **None Applied** Select this option if you do not want to apply any condition on the map and source content. <br> * **Ditaval File** Select a DITAVAL file to generate conditionalized content. To select, click against Condition Preset and locate the file. <br> * **Condition Preset** Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br>|
-|  **Use Baseline**  | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish. See [Work with Baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) for more details.   |
+|**Output Path**|The path within the AEM repository where the PDF output is stored. Ensure that the output path is not located inside the project folder. If left blank, the output gets generated in the default DITA map output location.<br>You can also use the following out-of-box variables to define the Output Path. You can use a single or a combination of variables to define this option. <br> `${map_filename}`: Uses the DITA map files name to create the destination path. <br> `${map_title}`: Uses the DITA map title to create the destination path. <br>`${preset_name}`: Uses the output preset name to create the destination path. <br> `${language_code}`: Uses the language code where the map file is located to create the destination path. <br> `${map_parentpath}`: Uses the complete path of the map file to create the destination path.  <br>`${path_after_langfolder}`: Uses the path of the map file after the language folder to create the destination path.| 
+|  **PDF File**  | Specify a file name to save the PDF. By default, the PDF file name adds the DITA map name along with the preset name. For example, ditamap is ‘TestMap’ and the name of the preset is ‘preset1’ then the default name of the pdf will be ‘TestMap_preset1.pdf’. <br>You can also use the following out-of-box variables to define the PDF File. You can use a single or a combination of variables to define this option. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`.  |
+| **Apply Conditions Using** |   For conditionalized content, choose from the below options to generate a PDF output based on those conditions: <br>* **None Applied** Select this option if you do not want to apply any condition on the map and source content. <br>* **Ditaval File** Select a DITAVAL file to generate conditionalized content. To select, click against Condition Preset and locate the file. <br> * **Condition Preset** Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br>|
+|  **Use Baseline**  | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish. See [Work with Baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) for more details.  |
+|  **Create PDF with Change Bar between Published Versions**  | Use the following options to create a PDF showing the differences in content between two versions using change bars:   <br>* **Baseline of the Previous Version** Choose the baseline version which you want to compare with the current version or another baseline. A change bar appears in the PDF to indicate the modified content. A change bar is a vertical line that visually identifies new or revised content. The change bar appears on the left of the content that has been inserted, changed, or deleted. <br> **Note**: If you select **Use Baseline** and choose a baseline to publish, the comparison will be done between the two selected baseline versions. For example, if you choose baseline Version 1.3 under **Use Baseline**, and Version 1.1 under **Baseline of the Previous Version**, the comparison will be done between baseline Version 1.1 and baseline Version 1.3. <br>* **Show Added Text** Select to show the inserted text in green color and underlined. This option is selected by default. <br> * **Show Deleted Text** Select to show the deleted text in red color and marked with a strikethrough. This option is selected by default. <br>**Note** You can also customize the styling of the change bar, inserted content, or deleted content using the stylesheet.<br> |
+| **Post Generation Workflow** |Select to show a drop-down list that contains all workflows configured in AEM. You can select the workflow you want to execute after the completion of PDF generation workflow.|
  
 **Metadata**
 
@@ -77,7 +81,8 @@ Use the Metadata tab to set the title, author, subject, and keywords for the PDF
 
 **Note**: This metadata overrides the metadata defined at the book level. 
 
-![metadata tab](assets/pdf-metadata.png)
+<img src="assets/pdf-metadata.png" alt="metadata tab" width=600>
+
 
 | Setting | Description |
 |---|---|
@@ -141,6 +146,6 @@ You can view a progress bar next to the selected output preset in the Output Pre
 6. Once the output generation is complete, click  **View Output** ![view output](assets/view-output.svg) icon on the top bar to view the output.  
 A **Success** dialog box is visible at the lower-right corner of the screen.
 If an output is not successful, the below error message is displayed.
-![error log](assets/error-log.png)
+<img src="assets/error-log.png" alt ="error log" width =250>
 
 To view the error log, click **Dismiss**, hover over the selected preset tab, and click ![options](assets/options.svg) **Options** > **View Log**.
