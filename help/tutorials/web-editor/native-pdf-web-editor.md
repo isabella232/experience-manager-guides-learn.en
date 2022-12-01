@@ -50,7 +50,8 @@ To create or configure a PDF output preset:
 
 1. In the Output tab, click **Presets** in the left sidebar. 
 The Preset panel opens. 
-![preset panel](assets/preset-panel.png)
+<img src="assets/preset-panel.png" alt="preset panel" width=400>
+
 2. In the output **Presets** panel, do one of the following:  
    * Double-click a predefined PDF output preset to view it.
    * Click the + icon against **Presets** to add a new output preset of **Type: PDF**  
@@ -78,8 +79,8 @@ Metadata is the description or definition of your content. Metadata helps in con
 Use the Metadata tab to set the title, author, subject, and keywords for the PDF output. This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
 
 **Note**: This metadata overrides the metadata defined at the book level. 
+<img src="assets/pdf-metadata.png" alt="metadata tab" width=400>
 
-![metadata tab](assets/pdf-metadata.png)
 
 | Setting | Description |
 |---|---|
@@ -143,6 +144,6 @@ You can view a progress bar next to the selected output preset in the Output Pre
 6. Once the output generation is complete, click  **View Output** ![view output](assets/view-output.svg) icon on the top bar to view the output.  
 A **Success** dialog box is visible at the lower-right corner of the screen.
 If an output is not successful, the below error message is displayed.
-![error log](assets/error-log.png)
+<img src="assets/error-log.png" alt ="error log" width =250>
 
 To view the error log, click **Dismiss**, hover over the selected preset tab, and click ![options](assets/options.svg) **Options** > **View Log**.
