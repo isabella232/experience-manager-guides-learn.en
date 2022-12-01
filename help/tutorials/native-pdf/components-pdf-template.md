@@ -200,7 +200,7 @@ The Page Layouts settings give you complete control over specifying which page l
 
 The following settings are available under the Page Layout section:
 
-<img src="assets/template-page-layout.png" alt="Page layouts" width="450">
+<img src="assets/template-page-layout.png" alt="Page layouts" width="500">
 
 
 **Default Page Layout**: Select a page layout that acts as the default layout for all pages in your PDF. This is the base page layout that is applied on those sections or topics where you have not created a dedicated page layout. 
