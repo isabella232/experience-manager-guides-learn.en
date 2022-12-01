@@ -181,6 +181,7 @@ Set the basic configuration settings for starting a chapter from odd or even pag
    In the above example, Advanced PDF Settings, Appendix, and Legal are the first level topic headings or chapter titles. A page number is assigned to all of these headings. 
    
    Now, if you select this option and generate the output, then you will get the following TOC:
+
    <img src="assets/page-number-missing-in-toc.png" alt="Upload assets" width="250"> 
 
    Here you can notice that the first chapter Advanced PDF settings is not given any page number, as it has nested or child topics. Whereas a page number if assigned to Appendix and Legal because they are standalone topics without any child topic. 
@@ -199,7 +200,8 @@ The Page Layouts settings give you complete control over specifying which page l
 
 The following settings are available under the Page Layout section:
 
-![Page layouts](assets/template-page-layout.png)
+<img src="assets/template-page-layout.png" alt="Page layouts" width="450">
+
 
 **Default Page Layout**: Select a page layout that acts as the default layout for all pages in your PDF. This is the base page layout that is applied on those sections or topics where you have not created a dedicated page layout. 
 
