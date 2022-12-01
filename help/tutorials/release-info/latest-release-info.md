@@ -10,6 +10,7 @@ exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 AEM Guides packages are available in two variants - UUID build and Non-UUID builds.
 
 ## UUID and Non-UUID builds
+
 Key differences between the UUID and Non-UUID builds are as follows:
 
 |  |UUID build |Non-UUID build |
@@ -18,6 +19,7 @@ Key differences between the UUID and Non-UUID builds are as follows:
 |**Reference creation**|All content references are created based on their paths.|All content references are created based on their UUID.|
 
 ### Benefits of UUID build 
+
 * UUID installation is more performant:
     * References are path independent: The reference management system is aware of the linkages as the references are created based on UUIDs and not the paths.
     * Move/Update operations are efficient: The UUIDs remain same even if the assets move to another path in repository. So, no processing is required to patch the references between the assets on move/update operations.
@@ -25,6 +27,7 @@ Key differences between the UUID and Non-UUID builds are as follows:
 
 
 ### Choose between the two builds
+
 * If you are a new customer, we recommend you to use UUID build.
 * If you are an existing customer, you can choose to move to UUID build as the migration from Non-UUID to UUID build is now possible. For more details, see the *Non-UUID to UUID content migration* section in the **Install and configure Adobe Experience Manager Guides.**
 

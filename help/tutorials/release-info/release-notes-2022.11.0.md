@@ -77,6 +77,7 @@ Before starting the purge operation, you can preview the report to see the versi
 Once the purge operation is complete, you can check the purge report to see the purged files.
 
 ### Manage Global and Folder Profile output presets 
+
 AEM Guides provide you the feature to create and manage output presets for the Global and Folder Profiles. Then you can easily use these output presets to generate output for all maps that are related to that Global or Folder profile.
 
 ![Add global profile](assets/add-global-output-preset.png)
@@ -93,6 +94,7 @@ In the translation dashboard, you can also see the Version Label column. This di
 ## Native PDF publishing enhancements
 
 ### PDF with change bar showing the difference between document versions   
+
 Now you can create a PDF that shows the differences in content between two versions using change bar. You can choose to compare the current version with a baseline of the previous version or compare between the two selected baseline versions. 
 ![pdf-change-versions](assets/pdf-change-version.png)
 A change bar appears in the PDF to indicate the modified, inserted, or deleted content. You also have the options to do the following:
@@ -100,6 +102,7 @@ A change bar appears in the PDF to indicate the modified, inserted, or deleted c
 * Show the deleted content in red color and marked with a strikethrough
 
 ### Variable support for Output Path and PDF File name
+
 Now you can also use the following out-of-box variables to define the Output Path and PDF File. You can use a single or a combination of variables to define these options:
 * `${map_filename}`
 * `${map_title}`
@@ -110,6 +113,7 @@ Now you can also use the following out-of-box variables to define the Output Pat
 
 
 ### Generate Table of Contents for DITA maps and reorder page layouts
+
 Now you can also generate the TOC in DITA maps using an advanced PDF setting of the template. You can choose to enable or disable the display of the various page layouts and also reorder their position. 
 
 ## Fixed issues
