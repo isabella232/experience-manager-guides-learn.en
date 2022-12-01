@@ -224,7 +224,9 @@ Your PDF will contain the enabled page layouts in the order you have organized t
 
 **Cover Page and Back Page**: If you have designed a cover page layout, then map it to the **Cover Page** option. Similarly, if you have a back page layout, then map it to the **Back Page** option. If no cover or back page layouts have been created, then the default page layout is applied. 
 
-Note: The bookmap settings take a precedence over the page layout settings.
+>[!NOTE]
+    >
+    > The bookmap settings take a precedence over the page layout settings.
 
 For more information on page layouts, see [Design a page layout](design-page-layout.md).
 
