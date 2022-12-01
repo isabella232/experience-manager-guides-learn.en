@@ -52,7 +52,7 @@ AEM Guides as a Cloud Service provides enhancements and new features in the late
 ### Delete files from the repository panel
 
 Now you can easily delete files (single file at a time) from the **Options** menu of the selected file from repository panel.
-![Delete from repository](assets/repository-delete-file.png)
+<img src="assets/repository-delete-file.png" alt="Delete from repository" width=500>
 
 A confirmation prompt is displayed before deleting the file. If the file is not referenced from any other file, it is deleted, and a success message is displayed.
 
@@ -65,13 +65,14 @@ If the selected file is checked out, you cannot delete it, and an error message 
 
 As you create and maintain your content, many versions might get created for your DITA files in your repository. AEM Guides allows you to purge older versions of your DITA files from the repository and free up disk space. 
 
-![Preview purge report](assets/preview-purge-report.png)
+<img  src="assets/preview-purge-report.png" alt="Preview purge report" width=500>
+
 
 AEM Guides does not delete the first version of the file or a version that is included in a baseline, or has a label applied to it. Purge operation doesn't even delete files that are included in a translation or a review workflow. You can choose the number of versions to retain and also decide to delete the files which are older than the defined number of days.
 
 Before starting the purge operation, you can preview the report to see the versions that will be purged. You can then decide to start or cancel the purge operation. 
 
-![Download purge report](assets/download-purge-report.png)
+<img  src="assets/download-purge-report.png" alt="PDownload purge report" width=500>
 
 Once the purge operation is complete, you can check the purge report to see the purged files.
 
@@ -79,7 +80,7 @@ Once the purge operation is complete, you can check the purge report to see the 
 
 AEM Guides provide you the feature to create and manage output presets for the Global and Folder Profiles. Then you can easily use these output presets to generate output for all maps that are related to that Global or Folder profile.
 
-![Add global profile](assets/add-global-output-preset.png)
+<img  src="assets/add-global-output-preset.png" alt="Add global profile" width=400>
 
 **Note** Only folder level administrative users can create Global and Folder Profile presets. 
 
@@ -88,14 +89,18 @@ These global presets appear under the **Output** tab of all related maps. You ca
 ### Version Label column added to the translation dashboard
 
 In the translation dashboard, you can also see the Version Label column. This displays the Label for the selected version of the source file. This can help you select all files with a specific label and translate them in one go. 
-![send for translation](assets/send-translation.png)
+
+<img  src="assets/send-translation.png" alt="send for translation" width=600>
+
 
 ## Native PDF publishing enhancements
 
 ### PDF with change bar showing the difference between document versions   
 
 Now you can create a PDF that shows the differences in content between two versions using change bar. You can choose to compare the current version with a baseline of the previous version or compare between the two selected baseline versions. 
-![pdf-change-versions](assets/pdf-change-version.png)
+
+<img  src="assets/pdf-change-version.png" alt="spdf-change-version" width=600>
+
 A change bar appears in the PDF to indicate the modified, inserted, or deleted content. You also have the options to do the following:
 * Show the inserted content in green color and underlined
 * Show the deleted content in red color and marked with a strikethrough
