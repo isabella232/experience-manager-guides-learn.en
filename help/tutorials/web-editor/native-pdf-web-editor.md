@@ -49,7 +49,8 @@ From the PDF output preset you can select a template, apply conditions, set rest
 To create or configure a PDF output preset: 
 
 1. In the Output tab, click **Presets** in the left sidebar. 
-The Preset panel opens. 
+The Preset panel opens.
+ 
 <img src="assets/preset-panel.png" alt="preset panel" width=400>
 
 2. In the output **Presets** panel, do one of the following:  
@@ -79,6 +80,7 @@ Metadata is the description or definition of your content. Metadata helps in con
 Use the Metadata tab to set the title, author, subject, and keywords for the PDF output. This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
 
 **Note**: This metadata overrides the metadata defined at the book level. 
+
 <img src="assets/pdf-metadata.png" alt="metadata tab" width=400>
 
 
