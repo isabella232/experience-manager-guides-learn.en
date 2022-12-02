@@ -125,7 +125,6 @@ Now you can also generate the TOC in DITA maps using an advanced PDF setting of 
 
 The bugs fixed in various areas are listed below:
 
-* Native PDF | A footnote in table header leads to a bold and centre-aligned footnote text in the footer within PDF output. (10610)
 * Native PDF | `conkeyref` does not get resolved in the generated PDF output. (10564)
 * Native PDF | Issues occur on accessing metadata of a map in the PDF output. (10556)
 * Native PDF | Inline style are used for generating tags instead of class name.  (10498)
@@ -135,7 +134,6 @@ The bugs fixed in various areas are listed below:
 * Note inside a para tag which is a conref is not getting displayed in the preview. (10559)
 * Hitting backspace at the end of a list item removes the whole list. (10540)
 * On using a native PDF export the nested `<indexterm>` are not nested in the index. (10521)
-* On using baseline publishing wrong `cq:tags` are picked (picked from current working copy instead of version copy). (10494)
 * **Auto-Indent** button in the toolbar is missing in the  Source View. (10448)
 * First character of a list item is lost while the list is being authored in the editor. (10447)
 * Multiple pop ups appear if any DITA asset version is changed and saved in baseline editing window. (10399)
@@ -144,7 +142,6 @@ The bugs fixed in various areas are listed below:
 * Post processing is blocked for entire language folder whose assets are present in an active translation project. (10332)
 * Template tab in XML Editor is not visible to folder profile administrators. (10266)
 * Navigation issues occur in Web Editor after 4.0 upgrade. (10159)
-* First character is broken in Korean language while authoring in the Web Editor. (10049)
 * SVG files are not getting displayed in Preview mode. (10010)
 * If Editor's Output tab contains more presets, the presets section cannot be scrolled, and all the presets are not displayed. (9787)
 * **Edit** and **Annotate** options for an image are not working correctly in the column view. (8758)
