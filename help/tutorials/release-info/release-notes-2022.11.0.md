@@ -94,9 +94,7 @@ In the translation dashboard, you can also see the Version Label column. This di
 <img  src="assets/send-translation.png" alt="send for translation" width=600>
 
 
-## Native PDF publishing enhancements
-
-### PDF with change bar showing the difference between document versions   
+### Native PDF | PDF with change bar showing the difference between document versions   
 
 Now you can create a PDF that shows the differences in content between two versions using change bar. You can choose to compare the current version with a baseline of the previous version or compare between the two selected baseline versions. 
 
@@ -106,7 +104,7 @@ A change bar appears in the PDF to indicate the modified, inserted, or deleted c
 * Show the inserted content in green color and underlined
 * Show the deleted content in red color and marked with a strikethrough
 
-### Variable support for Output Path and PDF File name
+### Native PDF | Variable support for Output Path and PDF File name
 
 Now you can also use the following out-of-box variables to define the Output Path and PDF File. You can use a single or a combination of variables to define these options:
 * `${map_filename}`
@@ -117,7 +115,7 @@ Now you can also use the following out-of-box variables to define the Output Pat
 * `${path_after_langfolder}` (Only for Output Path)
 
 
-### Generate Table of Contents for DITA maps and reorder page layouts
+### Native PDF | Generate Table of Contents for DITA maps and reorder page layouts
 
 Now you can also generate the TOC in DITA maps using an advanced PDF setting of the template. You can choose to enable or disable the display of the various page layouts and also reorder their position. 
 
