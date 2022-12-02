@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, November 2022 release
 description: Latest release of Adobe Experience Manager Guides as a Cloud Service
+exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 ---
 # Latest release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -147,4 +148,4 @@ The bugs fixed in various areas are listed below:
 * SVG files are not getting displayed in Preview mode. (10010)
 * If Editor's Output tab contains more presets, the presets section cannot be scrolled, and all the presets are not displayed. (9787)
 * **Edit** and **Annotate** options for an image are not working correctly in the column view. (8758)
-* Peer link is not resolved and appears as a normal text in the generated output. (7774) 
+* Peer link is not resolved and appears as a normal text in the generated output. (7774)
