@@ -117,7 +117,7 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 | Setting  | Description|
 | --- | --- |
 |**Create accessible (tagged) PDF**|   Select this option to generate a PDF with tags. A tagged PDF makes it easier for screen readers to read and navigate content, hyperlinks, bookmarks, and so on. For example, if a table is tagged, the screen reader will know that it is reading the table and not just lines and text.  |
-|  **Merge PDFs included in the TOC** | Select this option to merge existing PDFs into your output by adding them to your Table of Contents. The PDFs will be inserted at the location represented in the TOC and the pages will be incremented accordingly. |  
+|  **Merge PDFs included in the TOC** | Select this option to merge existing PDFs into your output by adding them to your DITA map as a resource file. The PDFs will be inserted at the location represented in the map and the pages will be incremented accordingly. |  
 |  **Embed used fonts** | Select this option when using fonts that may not be installed on end user’s machine. With this option selected, the used fonts get embedded in the PDF, ensuring the user can see the PDF as intended even if the fonts are not installed on their machine. <br> **Note**: A font can be embedded only if it contains a setting by the font vendor that permits it to be embedded. Ensure you have the required setting or license before embedding a font.  | 
 |  **Use automatic hyphenation** | With automatic hyphenation enabled, words at the end of lines are broken in grammatically correct places with a hyphen. |  
 |  **Enable JavaScript** | Enable this option if you have a JavaScript code that you want to use to transform your content dynamically before generating a PDF. |  
