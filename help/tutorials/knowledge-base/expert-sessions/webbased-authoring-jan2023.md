@@ -18,14 +18,14 @@ In this session, we covered :
  - personalize web-editor by customizing styles or branding
  
 ## Related resources 
- - **Available feature videos** - on [experience league](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
+ - **Available feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
  
- - **User Guide** - [web documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
+ - **User Guide** - [Web Documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
  
- - For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+ - For session specific community interactions on Experience League, please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
  >[!NOTE]
-- Features shown in this session are available on the following versions of AEM Guides
+ Features shown in this session are available on the following versions of AEM Guides
 > - 4.1.3
 > - 2211
 

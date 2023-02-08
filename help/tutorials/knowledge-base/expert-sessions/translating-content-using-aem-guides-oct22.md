@@ -18,14 +18,14 @@ In this session, we covered :
  - Best practices for structured content translation
  
 ## Related resources 
- - **Available feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en){target="_blank"} 
+ - **Available feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
  
- - **User Guide** - [Web Documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html){target="_blank"}
+ - **User Guide** - [Web Documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
  
- - For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions){target="_blank"}
+ - For session specific community interactions on Experience League, please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
  
 >[!NOTE]
-- Features shown in this session are available on the following versions of AEM Guides
+ Features shown in this session are available on the following versions of AEM Guides
 > - 4.1 
 > - 2207
 
