@@ -19,14 +19,15 @@ In this session, we covered :
  
 ## Related resources 
  - **Available feature videos** - on [experience league](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
+ 
  - **User Guide** - [web documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
+ 
+ - For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
  >[!NOTE]
 - Features shown in this session are available on the following versions of AEM Guides
 > - 4.1.3
 > - 2211
-
-- For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 # Next Expert session 
  - **Session topic** - Native PDF Publishing *(based on survey results)*

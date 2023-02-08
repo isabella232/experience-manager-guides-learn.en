@@ -19,17 +19,18 @@ In this session, we covered :
  
 ## Related resources 
  - **Available feature videos** - on [experience league](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
+ 
  - **User Guide** - [web documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+ 
+ - For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
  
 >[!NOTE]
 - Features shown in this session are available on the following versions of AEM Guides
 > - 4.1 
 > - 2211
 
-- For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
-
 # Next Expert session 
- - **Session topic** - Web-based authoring AEM Guides 
+ - **Session topic** - [Web-based authoring AEM Guides](/help/tutorials/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
  - **Scheduled on** - 19 January 2023
 
 # For further inquiry

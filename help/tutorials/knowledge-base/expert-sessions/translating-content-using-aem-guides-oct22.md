@@ -1,6 +1,8 @@
-
 # Translating content using AEM Guides
 Discover the ultimate solution for multilingual content creation with AEM Guides' robust translation capabilities. In this session we will discuss about the translation process, integration mechanism, and cost-effectiveness of human and machine translation workflows.
+
+## Session recording
+>[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## Highlights
  - **Session Date** - 27 October 2022 
@@ -8,9 +10,6 @@ Discover the ultimate solution for multilingual content creation with AEM Guides
  - **Session duration** - 60 minutes
  - **Audience** - Customers, Partners, and Adobe Employees
  
-## Session recording
->[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
-
 ## Key Takeaways
 In this session, we covered :
  - Reasons why companies invest in translation to improve their business.
@@ -19,20 +18,20 @@ In this session, we covered :
  - Best practices for structured content translation
  
 ## Related resources 
- - **Available feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
- - **User Guide** - [Web Documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+ - **Available feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en){target="_blank"} 
+ 
+ - **User Guide** - [Web Documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html){target="_blank"}
+ 
+ - For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions){target="_blank"}
  
 >[!NOTE]
 - Features shown in this session are available on the following versions of AEM Guides
 > - 4.1 
 > - 2207
 
-- For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
-
 # Next Expert session 
- - **Session topic** - Using Baselines in AEM Guides 
+ - **Session topic** - [Using Baselines in AEM Guides](/help/tutorials/knowledge-base/expert-sessions/baselines-dec22.md) 
  - **Scheduled on** - 8 Decemeber 2022
-
   
 # For further inquiry
 Reach out to us at techcomm@adobe.com
