@@ -1,15 +1,14 @@
 # Baseline Overview
 Version management in AEM Guides is done using Baseline that allows you to create a version of your topics and assets which can then be used for publishing or translation. In this session we will learn how baseline can be helpful in managing your content effectively.
 
+## Session recording
+>[!VIDEO](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
+
 ## Highlights
  - **Session Date** - 8 December 2022 
  - **Number of attendees** - 64
  - **Session duration** - 60 minutes
  - **Audience** - Customers, Partners, and Adobe Employees
-
-
-## Session recording
-
 
 ## Key Takeaways
 In this session, we covered :
@@ -21,6 +20,13 @@ In this session, we covered :
 ## Related resources 
  - **Available feature videos** - on [experience league](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
  - **User Guide** - [web documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+ 
+>[!NOTE]
+- Features shown in this session are available on the following versions of AEM Guides
+> - 4.1 
+> - 2211
+
+- For session specific community interactions on Experience League, Please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 # Next Expert session 
  - **Session topic** - Web-based authoring AEM Guides 
