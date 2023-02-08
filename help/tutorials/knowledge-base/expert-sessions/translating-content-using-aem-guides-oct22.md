@@ -13,7 +13,7 @@ Discover the ultimate solution for multilingual content creation with AEM Guides
 > - 2207
 
 ## Session recording
->[!VIDEO] (https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## Key Takeaways
 In this session, we covered :
