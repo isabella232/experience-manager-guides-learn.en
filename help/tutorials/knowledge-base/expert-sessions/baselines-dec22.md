@@ -1,37 +1,40 @@
-# Baseline Overview
-Version management in AEM Guides is done using Baseline that allows you to create a version of your topics and assets which can then be used for publishing or translation. In this session we will learn how baseline can be helpful in managing your content effectively.
+# Manage content using baselines
+Version management in AEM Guides is done using a baseline that allows you to create a version of your topics and assets, which can then be used for publishing or translation. 
+
+## Session overview
+In this session, you learn how to use baselines to manage your content effectively.
 
 ## Session recording
->[!VIDEO](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
+>See the recorded [video](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on) session.
 
 ## Highlights
- - **Session Date** - 8 December 2022 
+ - **Date** - December 8, 2022 
  - **Number of attendees** - 64
- - **Session duration** - 60 minutes
- - **Audience** - Customers, Partners, and Adobe Employees
+ - **Duration** - 60 minutes
+ - **Audience** - Customers, partners, and Adobe employees
 
-## Key Takeaways
-In this session, we covered :
+## Key takeaways
+In this session, you learn about the following:
  - Different baseline operations in AEM Guides
- - Asset Download, Publishing and translation using baseline.
- - Best practices for using baselines.
- - Sneak peek of a new upcoming feature "Dynamic Baseline" 
+ - Download, publish, and translate using a baseline
+ - Best practices for using a baseline
+ - Sneak peek of a new upcoming feature, **Create dynamic baselines**
  
 ## Related resources 
- - **Available feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
+ - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
  
- - **User Guide** - [Web Documentation](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+ - **User Guide** - [Work with baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
  
- - For session specific community interactions on Experience League, please visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+ - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
  
 >[!NOTE]
- Features shown in this session are available on the following versions of AEM Guides
-> - 4.1 
-> - 2211
+ The features shown in this session are available on the following versions of AEM Guides:
+> - On-prem 4.1 and later
+> - Cloud Services 2211 and later
 
-# Next Expert session 
- - **Session topic** - [Web-based authoring AEM Guides](/help/tutorials/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
- - **Scheduled on** - 19 January 2023
+# More expert sessions
+ - **Topic** - [Author web-based content](webbased-authoring-jan2023.md)
+ - **Scheduled on** - January 19, 2023
 
-# For further inquiry
-Reach out to us at techcomm@adobe.com
+# Contact us
+For any queries, send us an email at techcomm@adobe.com.

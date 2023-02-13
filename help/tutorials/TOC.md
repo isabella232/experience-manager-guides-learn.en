@@ -41,3 +41,7 @@ breadcrumb-title: AEM Guides Tutorials
   + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
   + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
 + Versioning {#versioning}
++ Knowledge Base
+  + [Manage content using baselines](./knowledge-base/expert-sessions/baselines-dec22.md) 
+  + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+  + [Translate content](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
