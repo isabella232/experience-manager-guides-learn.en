@@ -12,26 +12,26 @@ In this session, you learn how to use baselines to manage your content effective
 
 ## Highlights
 
- - **Date** - December 8, 2022 
- - **Number of attendees** - 64
- - **Duration** - 60 minutes
- - **Audience** - Customers, partners, and Adobe employees
+- **Date** - December 8, 2022 
+- **Number of attendees** - 64
+- **Duration** - 60 minutes
+- **Audience** - Customers, partners, and Adobe employees
 
 ## Key takeaways
 
 In this session, you learn about the following:
- - Different baseline operations in AEM Guides
- - Download, publish, and translate using a baseline
- - Best practices for using a baseline
- - Sneak peek of a new upcoming feature, **Create dynamic baselines**
+- Different baseline operations in AEM Guides
+- Download, publish, and translate using a baseline
+- Best practices for using a baseline
+- Sneak peek of a new upcoming feature, **Create dynamic baselines**
  
 ## Related resources 
 
- - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
+- **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
  
- - **User Guide** - [Work with baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **User Guide** - [Work with baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
  
- - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
  
 >[!NOTE]
 >
@@ -41,8 +41,8 @@ In this session, you learn about the following:
 
 ## More expert sessions
 
- - **Topic** - [Author web-based content](webbased-authoring-jan2023.md)
- - **Scheduled on** - January 19, 2023
+- **Topic** - [Author web-based content](webbased-authoring-jan2023.md)
+- **Scheduled on** - January 19, 2023
 
 ## Contact us
 
