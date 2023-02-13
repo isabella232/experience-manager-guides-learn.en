@@ -34,15 +34,16 @@ In this session, you learn about the following:
  - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
  
 >[!NOTE]
- The features shown in this session are available on the following versions of AEM Guides:
+>
+>The features shown in this session are available on the following versions of AEM Guides:
 > - On-prem 4.1 and later
 > - Cloud Services 2211 and later
 
-# More expert sessions
+## More expert sessions
 
  - **Topic** - [Author web-based content](webbased-authoring-jan2023.md)
  - **Scheduled on** - January 19, 2023
 
-# Contact us
+## Contact us
 
 For any queries, send us an email at techcomm@adobe.com.

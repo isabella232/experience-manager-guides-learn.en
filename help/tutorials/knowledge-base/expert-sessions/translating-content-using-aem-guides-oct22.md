@@ -34,15 +34,16 @@ In this session, you learn about the following:
  - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
  
 >[!NOTE]
- The features shown in this session are available on the following versions of AEM Guides:
+>
+> The features shown in this session are available on the following versions of AEM Guides:
 > - On-prem 4.1 or later 
 > - Cloud Services 2207 or later
 
-# More expert sessions 
+## More expert sessions 
 
  - **Topic** - [Manage content using baselines](baselines-dec22.md) 
  - **Scheduled on** - December 8, 2022
   
-# Contact us
+## Contact us
 
 For any queries, send us an email at techcomm@adobe.com.
