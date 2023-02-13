@@ -1,3 +1,7 @@
+---
+title: Translate content
+description: Learn how to translate your content into multiple languages.
+---
 # Translate content
 
 AEM Guides provides the ultimate solution for multilingual content creation with robust translation capabilities.

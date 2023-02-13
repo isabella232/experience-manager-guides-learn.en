@@ -1,3 +1,8 @@
+---
+title: Author web-based content
+description: Learn how to author structured content using the web editor.
+---
+
 # Author web-based content
 
 AEM Guides comes with a built-in web editor for authoring structured content. You can work with a simplified web-based authoring experience but yet choose to use or enable powerful capabilities like conditional content validation, spell check, content reuse, reference validation, friendly names, and author math equations.
