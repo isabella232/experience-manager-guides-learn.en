@@ -33,7 +33,7 @@ In this session, you learn about the following:
  
  - **Community Forum** - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
- >[!NOTE]
+>[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
 > - On-prem 4.1.3 or later
