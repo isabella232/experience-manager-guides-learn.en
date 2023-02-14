@@ -7,7 +7,7 @@ exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
 
 The Editor has a highly configurable interface. The mix of User Preferences, Editor Settings, and Folder Profiles means you can customize nearly every aspect to your specific work environment.
 
->[!VIDEO](https://video.tv.adobe.com/v/342769)
+>[!VIDEO](https://video.tv.adobe.com/v/342769?quality=12&learn=on)
 
 ## Show or hide element tags
 
@@ -19,7 +19,7 @@ Tags are visual cues indicating an element's boundaries. An element boundary mar
 
     Tags appear within the topic. With Tags View on you can:
 
-    - Select an element’s content by clicking on the opening or closing tag.
+    - Select an element's content by clicking on the opening or closing tag.
 
     - Expand or collapse tags by clicking on the + or – sign in the tag.
 

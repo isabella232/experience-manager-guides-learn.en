@@ -7,7 +7,7 @@ exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
 
 The Reports tab in the Map Dashboard allows you to identify and resolve broken links, content that is referenced and reused (conrefs), cross references, or other missing information. 
 
->[!VIDEO](https://video.tv.adobe.com/v/339039)
+>[!VIDEO](https://video.tv.adobe.com/v/339039?quality=12&learn=on)
 
 ## Preparing for the exercise
 
@@ -116,7 +116,7 @@ The missing images have been uploaded. Now, a newly generated AEM Site output wi
 
 ## Resolving broken conrefs
 
-If content that is referenced elsewhere (a conref) links to for a file within another folder (for example, one named “reuse.”) and the content is not uploaded, an error must be resolved. For example, you must create a subfolder named “reuse,” and upload the missing file into “reuse.”
+If content that is referenced elsewhere (a conref) links to for a file within another folder (for example, one named "reuse.") and the content is not uploaded, an error must be resolved. For example, you must create a subfolder named "reuse," and upload the missing file into "reuse."
 
 ### Uploading an asset with the [!UICONTROL Assets] UI
 
