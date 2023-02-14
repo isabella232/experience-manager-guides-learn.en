@@ -196,7 +196,17 @@ Set the basic configuration settings for starting a chapter from odd or even pag
 
 **Page Layouts**
 
-The Page Layouts settings give you complete control over specifying which page layout is to be used for a specific section of your document. For example, to select a layout for the Table of Contents, click the dropdown menu under the TOC field and select the layout you have designed to generate the TOC. 
+The Page Layouts settings give you complete control over specifying which page layout is to be used for a specific section of your document. For example, to select a layout for the Table of Contents, click the dropdown menu under the TOC field and select the layout you have designed to generate the TOC.
+
+You can define the page layout both for bookmaps and DITA maps. 
+
+>[!NOTE]
+>
+>The bookmap content takes a precedence over the page layout settings.
+
+For a bookmap the given settings are helpful in defining the page layout for various sections.  For example, you can select a page layout “common” for some sections like front and back cover pages. 
+
+For a DITA map, you can not only define the page layout for various sections, but also choose the sections and their order in which you want to show them in your PDF. For example, you can hide the Index and show the List of Tables after the Chapter and Topics. 
 
 The following settings are available under the Page Layout section:
 
@@ -213,20 +223,16 @@ The following settings are available under the Page Layout section:
 * Index
 * Glossary
 
-If you do not want to show a particular section in your PDF output, then you can disable that by turning the toggle switch to off. 
+ For a DITA map you can also choose the sections. If you do not want to show a particular section in your PDF output, then you can disable that by turning the toggle switch to off. 
 
-**Chapter & Topics** layout is always enabled and **Glossary** layout is always disabled by default. You cannot toggle them.
+**Chapter & Topics** layout is always enabled by default in a DITA map. You cannot toggle it.
 
-You can also define the order in which these different sections as generated in your PDF. If you want to change the default order of these pages, hover on the left of a page layout and click on  the dotted bars icon to drag and drop the page layout at the desired location. 
+For a DITA map you can also define the order in which these different sections as generated in your PDF. If you want to change the default order of these pages, hover on the left of a page layout and click on  the dotted bars icon to drag and drop the page layout at the desired location. 
 Your PDF will contain the enabled page layouts in the order you have organized them here.
 
 **Page Layout for Empty Pages**:    You can also specify the page layout for the empty pages. The selected layout will be applied to all empty pages. For example, if you have designed a Blank page layout for all empty pages, then select **Blank** in the drop-down list, and all empty pages in your document will have the Blank page layout.
 
-**Cover Page and Back Page**: If you have designed a cover page layout, then map it to the **Cover Page** option. Similarly, if you have a back page layout, then map it to the **Back Page** option. If no cover or back page layouts have been created, then the default page layout is applied. 
-
->[!NOTE]
->
->The bookmap settings take a precedence over the page layout settings.
+**Cover Page and Back Page**: If you have designed a cover page layout, then map it to the **Cover Page** option. Similarly, if you have a back page layout, then map it to the **Back Page** option. If no cover or back page layouts have been created, then the front and back cover pages are not generated.
 
 For more information on page layouts, see [Design a page layout](design-page-layout.md).
 
