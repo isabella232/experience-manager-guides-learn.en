@@ -4,7 +4,7 @@ description: Learn how to use baselines to manage your content effectively.
 ---
 # Manage content using baselines
 
-Version management in AEM Guides is done using a baseline that allows you to create a version of your topics and assets, which can then be used for publishing or translation. 
+Release management in AEM Guides is done using a baseline that allows you to choose a version of your topics and assets, which can then be used for publishing or translation. 
 
 ## Session overview
 
