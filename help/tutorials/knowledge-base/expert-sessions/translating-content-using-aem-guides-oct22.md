@@ -1,6 +1,7 @@
 ---
 title: Translate content
 description: Learn how to translate your content into multiple languages.
+exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
 ---
 # Translate content
 
