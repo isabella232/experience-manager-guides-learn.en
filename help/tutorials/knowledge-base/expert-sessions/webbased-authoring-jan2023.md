@@ -13,7 +13,7 @@ In this session, you learn how to create, publish, and manage content using the 
 
 ## Session recording
 
->See the recorded [video](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on) session.
+>[video](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## Highlights
 
@@ -44,11 +44,11 @@ In this session, you learn about the following:
 > - On-prem 4.1.3 or later
 > - Cloud Services 2211 and later
 
-## More expert sessions 
+## Next expert session 
 
 - **Topic** - Native PDF Publishing *(based on survey results)*
 - **Scheduled on** - February 23, 2023
 
 ## Contact us
 
-For any queries, send us an email at techcomm@adobe.com.
+For any queries, send us an email at <techcomm@adobe.com>
