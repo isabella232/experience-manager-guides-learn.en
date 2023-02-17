@@ -13,7 +13,7 @@ In this session, you learn how to create, publish, and manage content using the 
 
 ## Session recording
 
->[video](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## Highlights
 

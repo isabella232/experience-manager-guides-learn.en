@@ -13,7 +13,7 @@ In this session, you learn how to use baselines to manage your content effective
 
 ## Session recording
 
->[video](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
 
 ## Highlights
 
