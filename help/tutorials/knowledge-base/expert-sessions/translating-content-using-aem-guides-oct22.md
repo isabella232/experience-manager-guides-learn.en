@@ -13,7 +13,7 @@ In this session, you learn about the translation process, integration mechanism,
 
 ## Session recording
 
->[video](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## Highlights
 
