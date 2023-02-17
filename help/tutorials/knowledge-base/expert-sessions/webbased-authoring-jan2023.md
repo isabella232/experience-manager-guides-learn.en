@@ -1,8 +1,8 @@
 ---
 title: Author web-based content
 description: Learn how to author structured content using the web editor.
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 ---
-
 # Author web-based content
 
 AEM Guides comes with a built-in web editor for authoring structured content. You can work with a simplified web-based authoring experience but yet choose to use or enable powerful capabilities like conditional content validation, spell check, content reuse, reference validation, friendly names, and author math equations.
@@ -13,7 +13,7 @@ In this session, you learn how to create, publish, and manage content using the 
 
 ## Session recording
 
->See the recorded [video](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on) session.
+>[video](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## Highlights
 
@@ -44,11 +44,11 @@ In this session, you learn about the following:
 > - On-prem 4.1.3 or later
 > - Cloud Services 2211 and later
 
-## More expert sessions 
+## Next expert session 
 
 - **Topic** - Native PDF Publishing *(based on survey results)*
 - **Scheduled on** - February 23, 2023
 
 ## Contact us
 
-For any queries, send us an email at techcomm@adobe.com.
+For any queries, send us an email at <techcomm@adobe.com>

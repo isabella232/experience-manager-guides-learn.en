@@ -1,6 +1,7 @@
 ---
 title: Manage content using baselines
 description: Learn how to use baselines to manage your content effectively.
+exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
 ---
 # Manage content using baselines
 
@@ -12,7 +13,7 @@ In this session, you learn how to use baselines to manage your content effective
 
 ## Session recording
 
->See the recorded [video](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on) session.
+>[video](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
 
 ## Highlights
 
@@ -43,11 +44,11 @@ In this session, you learn about the following:
 > - On-prem 4.1 and later
 > - Cloud Services 2211 and later
 
-## More expert sessions
+## Next expert session
 
 - **Topic** - [Author web-based content](webbased-authoring-jan2023.md)
 - **Scheduled on** - January 19, 2023
 
 ## Contact us
 
-For any queries, send us an email at techcomm@adobe.com.
+For any queries, send us an email at <techcomm@adobe.com>
