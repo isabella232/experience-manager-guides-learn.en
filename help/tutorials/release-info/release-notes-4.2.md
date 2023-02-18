@@ -3,17 +3,22 @@ title: Release Notes | Adobe Experience Manager Guides 4.2 release
 description: Latest release of Adobe Experience Manager Guides
 
 ---
-# 4.2 release of Adobe Experience Manager Guides
+# 4.2 release of Adobe Experience Manager Guides (February 2023)
 
 This release notes covers the upgrade instructions, new features, and enhancements in version 4.2 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
 ## Upgrade to the latest release
 
-You can easily upgrade your current version of AEM Guides to version 2. Before you proceed with upgrading to version 4.2 of AEM Guides, you must consider the following points:
+You can easily upgrade your current version of AEM Guides to version 4.2. Before you proceed with upgrading to version 4.2 of AEM Guides, you must consider the following points:
 * If you are using version 4.1 or 4.1.x, then you can directly upgrade to version 4.2.
-* If you are using version 4.0.x, then you need to upgrade to version 4.1 or 4.1.x before upgrading to 4.2.
-* If you are using version 3.8.5, then you need to upgrade to version 4.0.x before upgrading to 4.1.
+* If you are using version 4.0.x, then you need to upgrade to version 4.1 before upgrading to 4.2.
+* If you are using AEM Guides version 3.8.5, then you need to upgrade to version 4.0 or any Service
+Pack of version 4.0 before upgrading to 4.1.
 * If you are on a version prior to 3.8.5, refer to the upgrade section in the product-specific installation guide.
+
+>[!NOTE]
+>
+>You must install AEM service pack before upgrading AEM Guides version.
 
 For details, see [Upgrade instructions](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
@@ -26,20 +31,19 @@ This section lists the compatibility matrix for the software applications suppor
 ### ADOBE EXPERIENCE MANAGER
 
 **Non-UUID**
-Version 6.5 Service Pack 13, 12, 11, or 10
+Version 6.5 Service Pack 15, 14, 13, or 12
 
 **UUID**
-Version 6.5 Service Pack 13, 12, 11, or 10
+Version 6.5 Service Pack 15, 14, 13, or 12
 
-For more details, see the Technical requirements section in the Install and configure Adobe Experience Manager Guides guide. 
-
+For more details, see the *Technical requirements* section in the Install and configure Adobe Experience Manager Guides guide
 
 ### FrameMaker and FrameMaker Publishing Server
 
-|Release| FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+|Release| FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
-|4.1.3 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
-| 4.1.3 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
+|4.2 (Non-UUID)| 2022 or higher |2020.2 or higher* | 2022 or higher | 2020.3 or higher |
+| 4.2 (UUID) | 2022 or higher | 2020.2 or higher*  | 2022 or higher | 2020.4 or higher |
 | | | | |
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
@@ -48,353 +52,299 @@ For more details, see the Technical requirements section in the Install and conf
 
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
 | --- | --- | --- |--- |--- |
-| 4.1.3 (Non-UUID)|  2.0 | 2.0 |  1.6 | 1.6  |
-| 4.1.3 (UUID) | 2.7 | 2.7  |2.3 | 2.3  |
+| 4.2 (Non-UUID)|  2.1-regular-4 | 2.1-regular-4 |  1.6 | 1.6  |
+| 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8  |2.3 | 2.3  |
 |  |  |   |  
-
-
-## Fixed issues
-
-The bug fixed is listed below:
-
-* Web Editor loads blank page intermittently. (10678)
-
-
-## 4.1.2 | Release notes
-
-## Compatibility matrix
-
-This section lists the compatibility matrix for the software applications supported by AEM Guides 4.1.2 release. 
-
-### ADOBE EXPERIENCE MANAGER
-
-**Non-UUID**
-Version 6.5 Service Pack 13, 12, 11, or 10
-
-**UUID**
-Version 6.5 Service Pack 13, 12, 11, or 10
-
-For more details, see the Technical requirements section in the Install and configure Adobe Experience Manager Guides guide. 
-
-
-### FrameMaker and FrameMaker Publishing Server
-
-|Release| FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
-| --- | --- | --- | --- | --- |
-|4.1.2 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
-| 4.1.2 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
-| | | | |
-
-*Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
-
-### Oxygen Connector
-
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
-| --- | --- | --- |--- |--- |
-| 4.1.2 (Non-UUID)|  2.0 | 2.0 |  1.6 | 1.6  |
-| 4.1.2 (UUID) | 2.7 | 2.7  |2.3 | 2.3  |
-|  |  |   |  
-
-
-## Fixed issues
-
-The bugs fixed in various areas are listed below:
-
-* On selecting all folder profiles, an invisible folder profile (which is incorrect) appears. (10393)
-* Baseline creation does not pick the latest version, when the user's timezone is different from the server timezone. (10336) 
-* Control+F shortcut is not opening the browser search modal on the Assets Console after the installation of AEM Guides 4.1. (10339)
-* Baseline creation error occurs for the topic which has the reference to a folder. (10383)
-* Output presets tab is showcasing a blank screen intermittently and in some cases non-editable presets are getting displayed. (10390)
-* Keyspace management is leading to exceptions and errors. (10449)
-
-### Known issues with workaround
-
-* Baseline exported during translation does not load in the baseline tab of editor.
-
-  **Workaround**: Use the baseline tab of DITA map dashboard.
-
-## 4.1 | Release Notes
-
-This release notes covers the upgrade instructions, new features, and enhancements in version 4.1.x of Adobe Experience Manager Guides (later referred as *AEM Guides*).
-
-## Compatibility matrix
-
-This section lists the compatibility matrix for the software applications supported by AEM Guides 4.1 release. 
-
-### ADOBE EXPERIENCE MANAGER
-
-**Non-UUID**
-Version 6.5 Service Pack 13, 12, 10, or 11
-
-**UUID**
-Version 6.5 Service Pack 13, 12, 10, or 11
-
-For more details, see the Technical requirements section in the Install and configure Adobe Experience Manager Guides guide. 
-
-
-
-
-### FrameMaker and FrameMaker Publishing Server
-
-|Release| FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
-| --- | --- | --- | --- | --- |
-|4.1 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
-| 4.1 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
-| | | | |
-
-*Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
-
-### Oxygen Connector
-
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
-| --- | --- | --- |--- |--- |
-| 4.1 (Non-UUID)| 2.0 | 2.0 |  1.6 | 1.6 |
-| 4.1 (UUID) | 2.7 | 2.7 |2.3 | 2.3 |
-|  |  |  |  
 
 
 ## New features and enhancements
 
-AEM Guides provides many enhancements and new features in the 4.1 release:
+AEM Guides provides many enhancements and new features in the 4.2 release:
 
-### Native PDF publishing
+### Generate reports from the Web Editor
 
-Support for creating a native PDF has also been added in the 4.1 release of AEM Guides. A new publishing engine has been introduced with the following features:
-* Create a CSS template
-* Create different page templates
-* Design PDF templates comprising CSS and page templates
-* Publish map and topic content in PDF format 
+AEM Guides comes with a feature in the Web Editor that enables you to check the overall completeness of your technical documents and generate reports for them.
+You can view the topic list and manage the metadata of all references for the current map from the
+**Reports** tab in the Web Editor.
 
-### Support for knowledge base site path in Article-based publishing
+**Generate the Topic List view**
 
-AEM Guides provides the article-based publishing feature to incrementally generate an output of one or more topics or publish your content to a knowledgebase platform. With the 4.1 release, you have an additional option to choose the Knowledge Base site path to which the topic/map needs to be published. Once you select the path, the output is generated at the specified path.  
+You can generate the Topic List view provides detailed information about your topics, such as the reference type, document state, and author. You can also generate the CSV to download the current snapshot of the topics in the DITA map.
 
-### Enhanced Web Editor
+**Manage metadata and change document state**
 
-* **Improved key resolution**
+Now you can tag your DITA content from the Web editor. You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or a sub-map. You can also change the document state of all selected topics to the next possible common document state.
 
-A DITA content key reference inserts a part of content from one topic into another. It uses a key to locate the content. The key references associated with a DITA topic need to be resolved. The selected root map takes the highest precedence to resolve key references. 
+<img  src="assets/web-editor-metadata-panel.png" alt="manage metadata" width=600>
 
-![user preferences dialog](assets/user-preferences.png)
+### Revamped UI for the review tasks
 
-Now the key references are resolved on the basis of the root map set in the following order of priority: 
-
-1. User Preferences
-2. Map View panel 
-3. Folder Profile
-
-For more details, see *Resolve key references* section in the Using Adobe Experience Manager Guides guide.
-
-* **Add a custom panel in the left panel**
-
-Now you can add a custom panel within the left panel of the Web Editor. You can use a custom panel for various purposes like providing help or doing the testing for a project. If a custom panel has been configured, then it also appears in the list of panels within the **Editor Settings**. You can toggle the switch to show or hide the custom panel.
-
-* **Ability to change the document state of topics in a DITA map**
-
-Now you can easily change the document state of selected topics within a DITA map. You can also open and edit the properties of selected topics in a DITA map from the **More Options** menu at the bottom of the Map View panel.
-
-![selected topic properties](assets/map-view-properties.png)
-
-* **Version information displayed in the Preview mode**
-
-The Web Editor helps you in managing your versions. Now you can also see the version of the active topic or DITA map in the top right corner of the topic's file tab in the Preview mode of a topic.
-
-![preview version](assets/preview-version.png)
+Now AEM guides provides an improved UI that helps you review the topics shared for review. In the latest UI, the review task has the following enhancements:
+* Conditions panel that allows you to highlight the content as per the available conditions in the topic.
+* Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. 
+*	The comments are displayed in the order of the commented text in the document. 
+*	Name of the review task is displayed on the review workflow.
+*	Select the rootmap for the review task which is used to resolve all the key references and glossary terms used in the review content.
+*	Preview mode shows how the content will be displayed after applying all the changes.
+*	Contextual toolbar which helps you quickly highlight or strikethrough text.
+*	Options menu to edit or delete your own comments.
+*	For outdated comments version number of the topic on which the comment was added, is displayed.
+*	On using the filters, the comments on the right panel get filtered according to the selection, and the
+number of comments in the left panel is updated accordingly.
 
 
-* **Improved Web Editor refresh behavior**
+<img alt="review task" src="assets/comment-pop-up-panel.png" width=600>
 
-The following  enhancements are now available with the browser refresh operation in the Web Editor:
 
-* Now you get the support to refresh the browser while you edit your 
-content in the Web Editor. If you hit the browser refresh icon while one or more files with
-unsaved changes are opened for editing, you are prompted to save your files or cancel the refresh action. 
+For more details, refer to the *Review topics or maps* section in the Using Adobe Experience Manager Guides guide.
 
-* Even on refreshing the browser, the views of the left panel and the right panel are retained.  
+### Translation enhancements
 
-* The active topic or DITA map is reopened in the content editing area.
+Now you have more user-friendly enhancements in the Translation dashboard which will help you easily translate your documents from the Web Editor.
 
-* **Create maps based on customized templates** 
 
-Now you get the powerful feature to create customized map templates. You can use them to create DITA maps along with the topic templates and map templates referenced in the map template. 
+**Version Label column added to the translation dashboard**
 
-![dita templates](assets/dita-templates.png)
+In the translation dashboard, you can also see the Version Label column. This displays the Label for the selected version of the source file. This can help you select all files with a specific label and translate them in one go.
 
-You can also refer to other map templates and topic templates from the customized map template. The referred map templates can refer to various map templates, topic templates, topics, maps, images, videos, and other assets.
+**View version difference for Out of Sync files from the translation dashboard**
 
-![create dita templates](assets/create-dita-template.png)
+Now you can check the differences between the selected version and the last translated source version of the topics. You can also choose to translate the **Out of Sync** files based on the changes done between the two versions of a topic.
 
-The customized map template can help you very easily replicate the map templates and the entire referred folder structure. These customized templates are especially useful to create and recreate multiple maps which have recursive structures and references. 
+<img  src="assets/translation-version-diff.png" alt="translation board" width=600>
 
-* **Schematron support**
-“Schematron” refers to a rule-based validation language used to define tests for an XML file. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map. Web editor supports Schematron files. You can import the Schematron files and also edit them in Web Editor. The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics. 
 
-![validate schematron](assets/schematron-validate.png)
 
-* **Improved dialog on file close**
+**Pass the version label to the target version**
 
-AEM Guides prompts you to save your changes and unlock your locked files when you try to close a file opened in the Web Editor. The prompts are displayed based on the **Ask for check-in on close** and **Ask for new version on close** settings configured by your administrator.
+AEM Guides allows you to pass the label of the source file to the target file. This will help you easily identify the source version for the translated file.
 
-Based on the configuration, you get the option to save the changes and create a new version of your document. Or, you can also check in the file and save the changes to the current version.  
+<img alt="translation labels" src="assets/translation-pass-source-label.png" width=600>
 
-![File close](assets/file-close-save-changes-unlock.png)
+For example, if you have some source files with the version label Release 1.0 applied to them, then you can also pass on the source label (Release 1.0) to the translated file.
 
-For more details, see *File close and save scenarios* section in the Using Adobe Experience Manager Guides guide.* The **Insert Keyword** feature has been improved. You can now more easily find a Keyword to be inserted as the keywords are listed in alphabetical order. You can also search keyword(s) by typing a search string in the Search box. 
+**Dismiss Out of Sync assets**
 
-![insert keyword](assets/insert-keyword.png)
+If you make changes in some of the assets, then AEM Guides marks them to be Out of Sync. You can either re-translate the modified assets or choose to dismiss Out of Sync status. For example, if you have made some very minor changes that really don't need a translation you can mark their status as In Sync.
 
-* **Support for Markdown documents**
-Markdown is a lightweight markup language that can help you add formatting elements to plain text documents. The Web Editor allows you to use Markdown documents (.md) along with your DITA documents. You can easily author and preview a Markdown document in the Web Editor and also add it in your map file through DITA map editor.  For more details, see *Author Markdown documents from the Web Editor* section in  Using Adobe Experience Manager Guides guide.
+**View In Progress translation projects for a topic or map**
 
-![support markdown](assets/create-markdown-dita-topic.png)
+Some of the references on your translation dashboard might be in progress status. Now AEM Guides provides a feature to help you view the list of all In Progress translation projects (along with the target language) that contain the selected reference.
 
-* **Ability to configure a default tags view**
-If a user enables the Tags View from the Web Editor, it remains enabled even across the sessions.  This means that you don't have to enable the Tags View again to access it later. Your administrator can configure the default state for the Tags View in the Web Editor. The default value for Tags View for a new user's session is determined by the tagsView property in the ui_config.json file.
+For more details, refer to the *Translate documents from the Web Editor* section in the Using Adobe Experience Manager Guides guide.
 
-* Now in the Repository View files are loaded in batches. All the files present in the main or `/content/dam folder` are listed. But from the next level or the secondary folder 75 files are loaded at a time. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
+### Generate output in various formats from the Web Editor
 
-![load more files](assets/load-more-files.png)
+Now you can easily generate the output for your topics or DITA map from the Web Editor. You can configure various output presets like AEM Site, PDF, HTML5,
+JSON, and custom output and generate the respective outputs. You can define attributes in your DITA topics and the use the condition preset to apply a condition while publishing the output. You can also use the Baseline publishing feature to selectively publish a specific version of your DITA map or topic.
 
-### New Baseline dashboard
+**Manage Global and Folder Profile output presets**
 
-AEM Guides 4.1 release provides the Baseline feature integrated inside the Web Editor. You can now create baselines from the Web Editor and use them to publish or translate topics of different versions.
+AEM Guides provide you the feature to create and manage output presets for the Global and Folder Profiles. Then you can easily use these output presets to generate output for all maps that are related to that Global or Folder profile.
 
-**Note**: For upgraded system, please update the latest **ui_config.json** for Folder Profile.
+<img alt="add preset" src="assets/add-global-output-preset.png" width=400>
 
-Use this feature to create a baseline with a specific version of the topics available on a specific date and time. Also, you get the API support to create or update a baseline with a label defined for a version of topics. 
 
-![baseline manage tab](assets/baseline-manage.png)
+These global presets appear under the **Output** tab of all related maps. You can use them to generate the output for all the related maps. You can select the preset as default PDF preset to generate the PDF output. You can also **Edit**, **Rename**, **Duplicate**, or **Delete** an existing output preset from the **Options** menu.
 
-You can search the files based on filenames, or file location. You can also filter the topics to be displayed in the baseline editing window and sort them based on specific columns. 
+>[!NOTE]
+>
+>Only folder level administrative users can create Global and Folder Profile presets.
 
-![baseline manage tab](assets/baseline-filter.png)
+### Find and replace the text at map level
 
-The performance for the baseline creation process has been further improved. The process to create baselines is asynchronous, so you can continue editing other files in the Web Editor while the baseline is being created. For more details, see *Create and manage baselines from the Web Editor* in the Using Adobe Experience Manager Guides guide. 
+You can now search for files within a map that contain specific text. The searched text is highlighted in the files. You can also replace the searched word or phrase with another word or phrase within the files. Select the **Replace single occurrence** icon to replace the current occurrence and the Replace all in File icon to replace all occurrences in the selected file. You can select **Replace All** icon to replace all occurrences of the searched term in all the files.
 
-Note: The Baseline tab on the map dashboard is hidden by default. Your administrator can enable the Baseline tab on the map dashboard.
+<img src="assets/map-find-replace.png" alt="map find replace" width=600>
 
-* The baseline parameter in the APIs to Download Map now uses the title of the baseline to retrieve the versioned content.
-
-### Improved Translation Process
-
-* **Ability to create a scoping translation project**
-If you need to create only the scope for a project to be translated, you can select **Create a new scoping translation project**. This will not send the copies for translation and the original translation status of the files is maintained. 
  
-![scoping translation project](assets/scoping-translation-project.png)
+By default, the options **Checkout file before replace** and **Create new version after replace** are selected, so a file is checked out before you replace the text, and a new version is created after the text is replaced. You can also search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
-* The **Languages** list displays the language folders along with their language codes. For example, French (fr) and German (de).
-
-![translation languaged](assets/translation-languages.png)
-
-For more details on translation, see *Translate documents from the Web Editor* section in  Using Adobe Experience Manager Guides guide.
+### Layout view in the Map Editor
 
 
-### Enhanced Publishing
+Now you can view the complete layout of a DITA map in the Map Editor. When you open a map for editing, it opens the Layout view of the Map Editor. In this view, you can see the map hierarchy in a tree view. You can also edit and organize or structure the topics in a map.
 
-* You can also access the **Publish Dashboard** from the Outputs tab while you generate output from the map dashboard. A list of all active publishing tasks is available in the Publish Dashboard. 
+<img src="assets/layout-view-map.png" alt=" map layout view" width=600>
 
-![queued outputs](assets/queued-output.png)
+The Layout view contains a separate tool bar which helps you perform many tasks on the topics present in a map. 
+You can insert topic references, topic group, key definitions in a map. You can reorganize the topics present in a map by moving them up, down, left, or right. You can also drag-and-drop the topics to move them in a map. The Map Editor also provides the icons to lock or unlock files, check the version history, and do a version label management.
 
-* From the map dashboard you can select multiple DITAVAL files to generate conditionalized content. You can maintain the file order by adding or deleting files. You can also hover over the file name to see the path in the AEM repository where the file is stored. 
 
-* Baselines have been honored for the metadata of AEM site output. You can also process the properties of a baseline version as metadata. If no baseline is defined, then the properties of the latest version are processed as metadata.
+The Layout view also provides the **View Options** to show or hide line number, show, or hide check box, or show the file name or title for the topics in a map.
+You can also view the topics based on the conditional filters applied on them.
 
-* The **File Name** and **DITA-OT Command Line Arguments** options have been added for HTML5, EPUB, and Custom output presets. Now you can specify the file name with which you want to save the output. You can also specify the additional arguments that you want DITA-OT to process while generating output.
+In addition to organizing topics in the map file, you can also add, move, copy, paste, or delete references using the **Options** menu available for an element in the Layout view. 
 
-### Map dashboard
+<img src="assets/layout-inline-attributes.png" alt=" map layout attributes" width=600> 
 
-When you select to download the DITA map, the request is queued, and you receive a notification once the map is ready to download. You can choose to download the map file immediately or download it later from the link provided in the AEM notification Inbox. 
 
-![Map download](assets/download-map-prompt.png)
+The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor. Now you can also set the metadata information for the topics or the map. You can define the Nav Title, Link Text, Short Description, and Keywords for the selected topic or map.
+ 
+For more details, see *Layout view* section in the Using Adobe Experience Manager Guides guide.
 
-### Other Feature Enhancements
+### Quick Generate panel
 
-* AEM Guides now supports Oxygen XML Author version 24.1.
-* The baseline parameter in the APIs to Download Map now uses the title of the baseline to retrieve the versioned content.
+Now AEM Guides provides the Quick Generate panel which helps you quickly generate and view the output for presets created for your DITA map.
 
-### Deprecated Feature
+<img src="assets/quick-generate-map-view.png" alt=" quick generate panle" width=600> 
+ 
+In the **Quick Generate** panel, you can see the list of all the output presets created for your DITA map. You can also quickly view the output generated for the presets.  A success or failure message is displayed on the completion of output generation. You can also view the error log which contains details of the error that occurred in the generation process.
 
-AEM Guides no longer supports the generation of DITA output format for FrameMaker documents. This DITA option has also been removed from the Output Presets of the Map dashboard.
+### Create a dynamic baseline based on labels
+
+Now AEM Guides provides you the feature to create dynamic baselines based on labels. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. This feature is handy as you don't have to modify the baseline when updating the labels.
+ 
+<img src="assets/dynamic-baseline.png" alt=" dynamic baseline" width=400> 
+
+### Delete and Duplicate files from the repository panel
+
+Now you can easily delete files (single file at a time) from the **Options** menu of the selected file from repository panel. A confirmation prompt is displayed before deleting the file. If the file is not referenced from any other file, it is deleted, and a success message is displayed. 
+
+<img src="assets/options-menu-repo-view-file-level.png" alt="file options menu " width=500> 
+
+You can also create a duplicate or a copy of the selected file. By default, the file is created with
+a suffix (like filename_1.extension). You also have the option to rename the duplicate file in the Duplicate Asset prompt.
+
+
+### Other Web Editor enhancements
+
+* In AEM Guides you can perform some common operations for images and media files using the context menu. Now you can also You can locate the selected image or media in the repository or view the preview of the file in Assets UI.
+
+* The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar. When you open a map in the map view, the title of the current map is displayed in the center of the main toolbar. If the title is too long, then an ellipsis is displayed, and you can also hover over the title to see the full title in the tool tip.
+
+### Purging selected versions of files
+As you create and maintain your content, many versions might get created for your DITA files in your repository. AEM Guides allows you to purge older versions of your DITA files from the repository and free up disk space.
+
+<img  src="assets/preview-purge-report.png" alt="Preview purge report" width=500>
+ 
+AEM Guides does not delete the first version of the file or a version that is included in a baseline, or has a label applied to it. Purge operation doesn't even delete files that are included in a translation or a review workflow. You can choose the number of versions to retain and also decide to delete the files which are older than the defined number of days.
+
+Before starting the purge operation, you can preview the report to see the versions that will be purged. You can then decide to start or cancel the purge operation.
+
+<img  src="assets/download-purge-report.png" alt="PDownload purge report" width=500>
+
+Once the purge operation is complete, you can check the purge report to see the purged files.
+
+### View title in place of GUID in the Oxygen Editor
+
+Now AEM Guides allows you to choose Use Title in Editor and Maps Manager option in Settings and then  you are shown the title of the file on the
+file's tab when opened in the Editor or the DITA Maps Manager. If this is not selected, then the UUID of the file is displayed on the file’s tab.
+
+### Metadata UI available for PDF Presets
+
+You can set the metadata from the output preset of a DITA map. You can set the Title, Author, Subject, and Keywords metadata. This metadata is mapped to the metadata in the File Properties of your output PDF. This metadata overrides the metadata defined at the book level. You can define the metadata specifically in each output preset and pass it on to the output PDF.
+
+### Native PDF | PDF with change bar showing the difference between document versions
+
+Now you can create a PDF that shows the differences in content between two versions using change bar. You can choose to compare the current version with a baseline of the previous version or compare between the two selected baseline versions.
+
+<img  src="assets/pdf-change-version.png" alt="pdf-change-version" width=600>
+ 
+A change bar appears in the PDF to indicate the modified, inserted, or deleted content. You also have the options to do the following:
+* Show the inserted content in green color and underlined
+* Show the deleted content in red color and marked with a strikethrough
+
+### Native PDF | Variable support for Output Path and PDF File name
+
+Now you can also use the following out-of-box variables to define the Output Path and PDF File. You can use a single or a combination of variables to define these options:
+*	${map_filename}
+*	${map_title}
+*	${preset_name}
+*	${language_code}
+*	${map_parentpath} (Only for Output Path)
+*	${path_after_langfolder} (Only for Output Path)
+
+### Native PDF | Generate Table of Contents for DITA maps and reorder page layouts
+
+Now you can also generate the TOC in DITA maps using an advanced PDF setting of the template. You can choose to enable or disable the display of the various page layouts and also reorder their position.
+
+### Native PDF | Add a custom bookmark in PDF output
+Now you can add a custom bookmark on a particular content in your final PDF output for easy navigation. This would be added to the TOC  which is created from the topic or section titles in your DITA map. 
+
+### Native PDF | Apply custom style on TOC entries and topic content  
+AEM Guides provides the feature to apply custom styling on the TOC entries or a particular topic in the PDF output. For example, you can change color of the text in the TOC and the topic's title. You can also apply styles on the entire content within the topic.
+
+
+
 
 ## Fixed issues
 
 The bugs fixed in various areas are listed below:
 
-* Authoring support not available as an alternate for file path-based referencing for publishing. (8076) 
-* DITA Add on package prevents the DAM duplicate asset detection. (8417)
-* After check-in of a document from Oxygen to AEM, Japanese content in the document gets replaced by question marks (???). (9124)
-* Refresh checked out files is not working on logging with Web authentication in Oxygen. (9179)
-* File is not checked out when opened in Oxygen. (9192)
-* After check-in of a document from Oxygen to AEM, Japanese content in the document gets replaced by question marks (???). (9276)
-* Web Authentication not working in Oxygen. (9296)
-* Reupload fails in Oxygen when the file(s) already exist in AEM at the same location. (9328)
-* Option not available to forcefully sync content between AEM and the local system. (9439)
-* ID is not automatically generated for element added using **Insert Reusable Content** dialog from secondary tool bar. (5826) 
-* No confirmation dialog is displayed on uploading an image with the same name as an existing file, via the editor. (6011)
-* A non-breaking space not available in the character pallet. (7523)
-* The element list (Alt+Enter) appears grayed out in Dark/Darkest theme. (7913)
-* Version is not updated on saving the revision of a topic from map panel toolbar. (8228)
-* xref cannot be inserted even at valid locations. (8354)
-* 'getversionlabels' operation has limitations and doesn’t give expected performance. (8513) 
-* Issues occur with confirmation dialog on closing a locked or edited file which is not currently opened in editor. (8692)
-* Error occurs on adding a user as an administrator in the folder profile when the user ID is numeric. (8908)
-* Translation panel is visible even on opening the DITA map in the Map Editor. (9053)
-* Language code is not displayed with the language in the Translation panel. (9108)
-* Translation and Baseline tabs are visible for some time on the Map dashboard. (9146)
-* When the translation is done, an additional version is created for the translated asset. (9310) 
-* Approved translation does not integrate to the target language when the target language code contains five characters like `fr_ca`. (9357)
-* Translated content is broken when the target language code created is mentioned as `fr-fr, `, `en-us`. (9527) 
-* On loading a DITA map that is outside the language folder, an exception is logged at the backend.(9543)
-* Unable to create DITA file using the custom DITA template from the editor. (7262)
-* The DITA map is lost on publishing a UUID DITA map via FMPS. (7278) 
-* AEM Guides does not copy the non-unique properties of an asset when an asset is copied and pasted. (8241) 
-* DITA map filename not getting converted to lower case on creation. (8383)
-* Review task description does not appear in the email notification being sent when a new review task is being assigned. (8507)
-* Download map API | Temporary folders not getting cleaned up in case download process errors out. (8523)
-* `columnpreview.jsp` is dependent on SP.  (8543)
-* Output jobs with status like ‘Waiting’ or ‘Executing’ do not get cleaned up in the Publish Dashboard.  (8569)
-* Default icon picked on generating a report using the Generate button, even when the icon property is defined. (8573)
-* Issues occur in review process while upgrading from 3.8.X to 4.0. (8788)
-* In the Review panel of the Web Editor, if a username is long, the icons to accept/reject are not displayed clearly. (8793)
-* Reference tree breaks after removing a topic and performing a move operation. (8804) 
-* Custom DTD defined by the user does not take precedence over standard DITA DTD embedded in DITA-OT. (9104)
-* Position of highlighting is incorrect in Side-By-Side view. (9305)
-* Use-by-reference footnote doesn't scroll to the footnote section in AEM site output. (9061) 
-* Order of footnotes is incorrect in the AEM Site output. (9327)
-* Newly created DITA assets are always checked out by another user. (9387)
-* Error always gets logged on the creation of new content. (9388)
-* The third screen in the review task creation process does not show the list of glossaries. (4558)
-* Incorrect UUID references assigned when uploading multiple files from FrameMaker/Oxygen Connector. (8269)
-* Email notification is not being sent when a review task is being re-assigned in the Inbox. (8376)
-* The second administrator user cannot be added as the first administrator user to a folder. (8430)
-* **Apply Labels** dialog on the Baseline tab does not display labels in dropdown. (8455)
-* On using baseline publishing with image as conref in the topic, the image is not published in the output. (8564)
-* Output purging feature fails if large number of leftover output history nodes are present. (8568)
-* Within the version history panel, the current version section shows incorrect timestamp and modified by information. (8765)
-* Baseline not updated on the basis of the label defined. (8799)
-* Error occurs when files whose parent folder has special characters in the filename, are opened in Oxygen (using the **Edit in Oxygen** button). (8918)
-* Uploading files from Oxygen to AEM fails. (9157)
-* Download map with baseline not working if the content is moved to some other folder. (9331)
-* Oxygen checks out an incorrect version of a topic after a version revert in AEM. (9411)
-* Search in Repository panel and topicref browse dialog freezes the screen when the content is large. (9432)
-* If the setting **Create New Version for Uploaded File** is ON, a new version is created on reverting and saving on any frozen node. (9473)
-* Incorrect timestamp differences are displayed in Assets UI on reverting a file version. (9480)
-* Files are checked out automatically on reverting to any version. (9482)
-* Lock icon is displayed in the repository view even when the file is checked in from the editor.  (5756)
-* Unable to add frontmatter, backmatter elements in a bookmap using the Author view of the Web Editor. (7652)
-* The Preview mode does not support `deliveryTarget` conditional processing attribute in DITA. (7685)
-* On opening a glossary topic in the XML editor, AEM forces to save it even if it hasn’t been modified. (8105)
-* Insert references dialog opens on adding subjectref to a map using UI. (8212)
-* Reuse content panel crashes on searching special characters `[` or `*` .(8279)
-* On authoring Glossentry, the Web Editor shows the content as a Note. (8384)
-* XML Editor removes newline in codeblock. (8522)
-* Switching between source and author mode marks the topic as dirty and requires the content to be saved again.(8524)
-* Unable to close an unlocked topic. (8545)
-* No option exists to choose the Knowledge Base path in article-based publishing presets. (8636)
-* Attributes are  missing on adding a chapter into bookmap using Drag-and-drop from the Favorites view. (8746)
-* Insert Keyword dialog doesn’t have the search ability and keywords are not listed in sorted order. (9094)
-* Performing a search in XML Editor causes the page to freeze. (9452) 
-* Sites are missing in AEM presets under the Output tab. (9567)
-* SVG images that do not render correctly in author modes of XML Editor. (9426)
-* Baseline is not being honored while publishing via salesforce. (8953) 
-* Ability to clear rootmap from the user preferences settings is not present. (8534)
+### Authoring
+
+* Left panel breaks on adding a tab. (11126)
+* Changes in the Web Editor html cause issues with `<dl>` and `<dlentry>`. (11024)
+* Some attributes are not being treated as conditional and causing issues. (10895)
+* Three levels or more nested <indexterm> are not nested in native PDF export. (10799)
+* The content disappears in the body of a task on switching from Author to Source view. (10735)
+* Review comments are misplaced in a review task. (10625)
+* Editor Preview- <conref> note inside a para tag is not getting displayed in the preview mode. (10559)
+* Hitting backspace at the end of a list item removes the whole list. (10540)
+* Screen is displayed as blank in Chrome v106 on the drag-drop on any element from UI ( For example, from the Conditions panel). (10524)
+* Auto Indent button is missing from the toolbar in the **Source** view. (10448)
+* The first character of a list item is lost sometimes when the list is being authored in the editor.( 10447)
+* **Undo** or **Redo** is not working correctly on some files. (10373)
+* Custom metadata is not getting retained on copy and paste action. (10367) 
+* An error occurs on doing a copy (ctrl+c) and paste (ctrl+v) of content. (10304)
+* Outline panel doesn't display content when switched from Author to Source mode. (10296)
+* Submap does not get created when it refers to a main map in DITA Templates. (10231)
+* Navigation issues occur in Web Editor after 4.0 upgrade. (10159)
+* Undo option in XML Editor takes the user to the top of the page. (10091) 
+* Node properties are removed after copy and paste operation of an asset. (10053)
+* SVG files added to DITA topics are not displayed in preview mode of editor. (10010)
+* Search results for find and replace within the Web Editor are not readable in Dark mode. (9978)
+* Web Editor | No loader exists while creating a map from the map template. (9891)
+* Web Editor | Conref in the topic template does not work and the hash id copied is not updated in the content copy. (9890)
+* Web Editor | No option is displayed to browse the topics or map template inside the sub-folders of the topic or map folder. (9889)
+* Web Editor | No option to create a new template on the sub-folders of topics or maps. (9888)
+* XML Editor does not update the images on topics. (9500)
+* mimeType is hardcoded for DITA assets creation and update. (8979)
+* A normal hyphen is inserted on selecting Non-breaking Hyphen in the **Insert Special Character** dialog. (8919) 
+* Version creator name in Version History is "fmdita-serviceuser" for the files uploaded via Assets UI. (8910)
+ * Edit option does not work for images while working in the Column view of Assets UI. (8758)
+* DITA topic is not auto updated with changes done on **Properties** page. (8745)
+* While moving elements within the topic in Web Editor the assigned IDs on elements get overwritten by auto-assigned IDs. (7895)
+
+### Management
+
+* Copying a DITA map Asset (from Asset UI ) causes erroneous baselines in the copied asset. (11218)
+* Warning message is not displayed on the upload of a file that is larger than the limit allowed in AEM (2 GB by default).  (10817)
+* Web Editor-Baseline | The behavior of the Latest column is different in the new baseline dashboard within the Web Editor. (10808)
+* Translation | Translation job does not get started due to invalid /libs/fmdita/i18n/ja.json. (10543)
+* Translation | An error occurs in a scoping translation project created from the translation dashboard (Human Translation). (10526)
+* Translation | Post processing is blocked for the entire language folder whose assets are present in an active translation project. (10332)
+* Translation| Metadata and Tags are not getting propagated to the translated copies. (4696)
+* Multiple pop-ups appear for any asset if the version is changed and saved on Baseline editor. (10399)
+* Session Leak occurs at com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
+* The video file is missing from the baseline if the parent folder contains space in the name. (10031)
+
+### Publishing
+* Topic regeneration is not working for some scenarios. (10635)
+* PDF publishing fails on generating the output for a duplicate preset (of an existing preset). (10584)
+* View Log button is not working in case the PDF generation fails for a preset. (10576)
+* Publishlistener does not display the requested data in info logs, and it also contains some junk logs.( 10567)
+* Native PDF | PDF generation fails with a Null Pointer exception. (10950)
+* Native PDF | conkeyref is not getting resolved in the generated output. (10564)
+* Native PDF | Issues occur with the metadata of a map that needs to be referred to in the PDF output.( 10556)
+* Native PDF | Issues occur on rotating the Table header. (10555)
+* Native PDF | Issues occur on removing topics that have processing role='resource-only'. (10554)
+* Native PDF | Empty Keyrefs are displayed in PDF output. (10553)
+* Native PDF | Nested <indexterm> are not nested in native PDF export. (10521)
+* Native PDF | Native PDF uses inline style instead of class name for the generated tags. (10498)
+* Native PDF | Nested topicref in appendices are all transformed to h1 in the temporary HTML.( 10454)
+* Native PDF | Not able to hide frontmatter topics from the Table of Contents. (10355)
+* Native PDF | Table frame attribute not propagated to the temporary HTML (as class). (10353)
+* Native PDF | Temporary HTML files add the colsep and rowsep classes to <td> and <th> even if their value is 0 in the source DITA. (10352)
+* Native PDF | Restarting page numbers in chapter layout randomly starts numbering from the end of the previous chapter. (10154)
+* Native PDF | Key references for keydefs with image or external links are not getting resolved. (10063)
+* Native PDF | Appendix is being displayed as a chapter in generated PDF. (9829)
+* Template tab in xml editor is not getting displayed to Folder Profile admins. (10266)
+* Baseline publishing fails for PDF generated using FrameMaker Publishing Server 2020. (10551)
+* Application error occurs on clicking the Edit button after selecting all the presets via Output presets checkbox in Quick Generate pop-up. (10388)
+* If the Output tab in Web Editor is having more presets, the presets section is not vertically scrollable, and does not display all the available presets. (9787)
+* Unable to delete presets from Output workflow while publishing via Editor. (9100)
+* Peer link is rendered as normal text instead of a link on the generated page. (7774)
+
+

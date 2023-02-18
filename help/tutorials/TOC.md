@@ -22,6 +22,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [February release notes](./release-info/release-notes-2022.2.0.md)
       + [January release notes](./release-info/release-notes-2022.1.0.md)
     + On-prem/Managed Services {#on-prem-release-notes}
+      + [4.2 Release Notes](./release-info/release-notes-4.2.md)
       + [4.1.x Release Notes](./release-info/release-notes-4.1.md)
       + [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
