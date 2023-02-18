@@ -82,14 +82,14 @@ Now you can tag your DITA content from the Web editor. You can apply tags on an 
 Now AEM guides provides an improved UI that helps you review the topics shared for review. In the latest UI, the review task has the following enhancements:
 * Conditions panel that allows you to highlight the content as per the available conditions in the topic.
 * Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. 
-*	The comments are displayed in the order of the commented text in the document. 
-*	Name of the review task is displayed on the review workflow.
-*	Select the rootmap for the review task which is used to resolve all the key references and glossary terms used in the review content.
-*	Preview mode shows how the content will be displayed after applying all the changes.
-*	Contextual toolbar which helps you quickly highlight or strikethrough text.
-*	Options menu to edit or delete your own comments.
-*	For outdated comments version number of the topic on which the comment was added, is displayed.
-*	On using the filters, the comments on the right panel get filtered according to the selection, and the
+* The comments are displayed in the order of the commented text in the document. 
+* Name of the review task is displayed on the review workflow.
+* Select the rootmap for the review task which is used to resolve all the key references and glossary terms used in the review content.
+* Preview mode shows how the content will be displayed after applying all the changes.
+* Contextual toolbar which helps you quickly highlight or strikethrough text.
+* Options menu to edit or delete your own comments.
+* For outdated comments version number of the topic on which the comment was added, is displayed.
+* On using the filters, the comments on the right panel get filtered according to the selection, and the
 number of comments in the left panel is updated accordingly.
 
 
@@ -214,6 +214,7 @@ a suffix (like filename_1.extension). You also have the option to rename the dup
 * The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar. When you open a map in the map view, the title of the current map is displayed in the center of the main toolbar. If the title is too long, then an ellipsis is displayed, and you can also hover over the title to see the full title in the tool tip.
 
 ### Purging selected versions of files
+
 As you create and maintain your content, many versions might get created for your DITA files in your repository. AEM Guides allows you to purge older versions of your DITA files from the repository and free up disk space.
 
 <img  src="assets/preview-purge-report.png" alt="Preview purge report" width=500>
@@ -248,21 +249,23 @@ A change bar appears in the PDF to indicate the modified, inserted, or deleted c
 ### Native PDF | Variable support for Output Path and PDF File name
 
 Now you can also use the following out-of-box variables to define the Output Path and PDF File. You can use a single or a combination of variables to define these options:
-*	${map_filename}
-*	${map_title}
-*	${preset_name}
-*	${language_code}
-*	${map_parentpath} (Only for Output Path)
-*	${path_after_langfolder} (Only for Output Path)
+* ${map_filename}
+* ${map_title}
+* ${preset_name}
+* ${language_code}
+* ${map_parentpath} (Only for Output Path)
+* ${path_after_langfolder} (Only for Output Path)
 
 ### Native PDF | Generate Table of Contents for DITA maps and reorder page layouts
 
 Now you can also generate the TOC in DITA maps using an advanced PDF setting of the template. You can choose to enable or disable the display of the various page layouts and also reorder their position.
 
 ### Native PDF | Add a custom bookmark in PDF output
+
 Now you can add a custom bookmark on a particular content in your final PDF output for easy navigation. This would be added to the TOC  which is created from the topic or section titles in your DITA map. 
 
 ### Native PDF | Apply custom style on TOC entries and topic content  
+
 AEM Guides provides the feature to apply custom styling on the TOC entries or a particular topic in the PDF output. For example, you can change color of the text in the TOC and the topic's title. You can also apply styles on the entire content within the topic.
 
 
@@ -277,10 +280,10 @@ The bugs fixed in various areas are listed below:
 * Left panel breaks on adding a tab. (11126)
 * Changes in the Web Editor html cause issues with `<dl>` and `<dlentry>`. (11024)
 * Some attributes are not being treated as conditional and causing issues. (10895)
-* Three levels or more nested <indexterm> are not nested in native PDF export. (10799)
+* Three levels or more nested `<indexterm>` are not nested in native PDF export. (10799)
 * The content disappears in the body of a task on switching from Author to Source view. (10735)
 * Review comments are misplaced in a review task. (10625)
-* Editor Preview- <conref> note inside a para tag is not getting displayed in the preview mode. (10559)
+* `<conref>` note inside a para tag is not getting displayed in the preview mode. (10559)
 * Hitting backspace at the end of a list item removes the whole list. (10540)
 * Screen is displayed as blank in Chrome v106 on the drag-drop on any element from UI ( For example, from the Conditions panel). (10524)
 * Auto Indent button is missing from the toolbar in the **Source** view. (10448)
@@ -321,6 +324,7 @@ The bugs fixed in various areas are listed below:
 * The video file is missing from the baseline if the parent folder contains space in the name. (10031)
 
 ### Publishing
+
 * Topic regeneration is not working for some scenarios. (10635)
 * PDF publishing fails on generating the output for a duplicate preset (of an existing preset). (10584)
 * View Log button is not working in case the PDF generation fails for a preset. (10576)
@@ -331,7 +335,7 @@ The bugs fixed in various areas are listed below:
 * Native PDF | Issues occur on rotating the Table header. (10555)
 * Native PDF | Issues occur on removing topics that have processing role='resource-only'. (10554)
 * Native PDF | Empty Keyrefs are displayed in PDF output. (10553)
-* Native PDF | Nested <indexterm> are not nested in native PDF export. (10521)
+* Native PDF | Nested `<indexterm>` are not nested in native PDF export. (10521)
 * Native PDF | Native PDF uses inline style instead of class name for the generated tags. (10498)
 * Native PDF | Nested topicref in appendices are all transformed to h1 in the temporary HTML.( 10454)
 * Native PDF | Not able to hide frontmatter topics from the Table of Contents. (10355)
