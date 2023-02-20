@@ -77,18 +77,19 @@ You can apply tags on an individual topic or use the bulk tagging feature to app
 
 <img  src="assets/web-editor-metadata-panel.png" alt="manage metadata" width=600>
 
-### Revamped UI for the review tasks
+### Revamped UX for the review functionality
 
-Now AEM guides provides an improved UI that helps you review the topics shared for review. In the latest UI, the review task has the following enhancements:
+Now AEM guides provides an improved UX that helps you review the topics shared for review. In the latest experience, the review functionality has the following enhancements:
+
+* Refreshed user interface
 * Conditions panel that allows you to highlight the content as per the available conditions in the topic.
 * Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. 
 * The comments are displayed in the order of the commented text in the document. 
 * Name of the review task is displayed on the review workflow.
 * Select the rootmap for the review task which is used to resolve all the key references and glossary terms used in the review content.
-* Preview mode shows how the content will be displayed after applying all the changes.
 * Contextual toolbar which helps you quickly highlight or strikethrough text.
 * Options menu to edit or delete your own comments.
-* For outdated comments version number of the topic on which the comment was added, is displayed.
+* For outdated comments you have access to side by side view which will help you compare the previous version of the topic with current review version
 * On using the filters, the comments on the right panel get filtered according to the selection, and the
 number of comments in the left panel is updated accordingly.
 
