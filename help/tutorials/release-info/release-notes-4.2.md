@@ -137,7 +137,7 @@ For more details, refer to the *Translate documents from the Web Editor* section
 ### Generate output in various formats from the Web Editor
 
 Now you can easily generate the output for your topics or DITA map from the Web Editor. You can configure various output presets like AEM Site, PDF, HTML5,
-JSON, and custom output and generate the respective outputs. You can define attributes in your DITA topics and the use the condition preset to apply a condition while publishing the output. You can also use the Baseline publishing feature to selectively publish a specific version of your DITA map or topic.
+JSON (It's a headless output format), and custom output. Use these to generate the respective outputs. You can define attributes in your DITA topics and the use the condition preset to apply a condition while publishing the output. You can also use the Baseline publishing feature to selectively publish a specific version of your DITA map or topic.
 
 **Manage Global and Folder Profile output presets**
 
