@@ -1,3 +1,8 @@
+---
+title: Expert Session
+description: Landing page for expert session section.
+
+---
 # Join our monthly Expert sessions and discover the full potential of AEM Guides!
 
 Our monthly expert sessions are designed to help our customers and partners gain valuable insights into AEM Guides. Each session is focused on important features or updates in AEM Guides where our team of experts will guide you through the ins and outs.
