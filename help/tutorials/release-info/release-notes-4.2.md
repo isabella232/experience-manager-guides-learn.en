@@ -69,7 +69,7 @@ You can view the topic list and manage the metadata of all references for the cu
 
 **Generate the Topic List view**
 
-You can generate the Topic List view provides detailed information about your topics, such as the reference type, document state, and author. You can also generate the CSV to download the current snapshot of the topics in the DITA map.
+You can generate the Topic List which provides detailed information about your topics, such as the reference type, document state, and author. You can also generate the CSV to download the current snapshot of the topics in the DITA map.
 
 **Manage metadata and change document state**
 
