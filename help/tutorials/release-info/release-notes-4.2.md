@@ -154,12 +154,12 @@ These global presets appear under the **Output** tab of all related maps. You ca
 
 ### Find and replace the text at map level
 
-You can now search for files within a map that contain specific text. The searched text is highlighted in the files. You can also replace the searched word or phrase with another word or phrase within the files. Select the **Replace single occurrence** icon to replace the current occurrence and the Replace all in File icon to replace all occurrences in the selected file. You can select **Replace All** icon to replace all occurrences of the searched term in all the files.
+You can now search for files within a map that contain specific text. The searched text is highlighted in the files. You can also replace the searched word or phrase with another word or phrase within the files. Select the **Replace single occurrence** icon to replace the current occurrence and the **Replace all in File** icon to replace all occurrences in the selected file. You can select **Replace All** icon to replace all occurrences of the searched term in all the files.
 
 <img src="assets/map-find-replace.png" alt="map find replace" width=600>
 
  
-By default, the options **Checkout file before replace** and **Create new version after replace** are selected, so a file is checked out before you replace the text, and a new version is created after the text is replaced. You can also search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
+By default, the options **Checkout file before replace** and **Create new version after replace** are selected, so a file is checked out before you replace the text, and a new version is created after the text is replaced. You can also search the string in the indirect references within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
 ### Layout view in the Map Editor
 
@@ -205,14 +205,16 @@ Now you can easily delete files (single file at a time) from the **Options** men
 <img src="assets/options-menu-repo-view-file-level.png" alt="file options menu " width=500> 
 
 You can also create a duplicate or a copy of the selected file. By default, the file is created with
-a suffix (like filename_1.extension). You also have the option to rename the duplicate file in the Duplicate Asset prompt.
+a suffix (like filename_1.extension).
 
 
 ### Other Web Editor enhancements
 
 * In AEM Guides you can perform some common operations for images and media files using the context menu. Now you can also You can locate the selected image or media in the repository or view the preview of the file in Assets UI.
 
-* The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar. When you open a map in the map view, the title of the current map is displayed in the center of the main toolbar. If the title is too long, then an ellipsis is displayed, and you can also hover over the title to see the full title in the tool tip.
+* The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar. This helps you identify the folder profile you are working on.
+
+* When you open a map in the map view, the title of the current map is displayed in the center of the main toolbar. This is helpful to let the users know which map is currently open.
 
 ### Purging selected versions of files
 
@@ -228,10 +230,9 @@ Before starting the purge operation, you can preview the report to see the versi
 
 Once the purge operation is complete, you can check the purge report to see the purged files.
 
-### View title in place of GUID in the Oxygen Editor
+### View title in place of UUID in the Oxygen Editor
 
-Now AEM Guides allows you to choose Use Title in Editor and Maps Manager option in Settings and then  you are shown the title of the file on the
-file's tab when opened in the Editor or the DITA Maps Manager. If this is not selected, then the UUID of the file is displayed on the file’s tab.
+Now AEM Guides allows you to choose "Use Title in Editor and Maps Manager" option in Settings. If this is selected the title of the file is displayed in file's tab when opened in the Editor or the DITA Maps Manager. If this is not selected, then the UUID of the file is displayed on the file’s tab.
 
 ### Metadata UI available for PDF Presets
 
