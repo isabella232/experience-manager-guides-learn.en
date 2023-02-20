@@ -73,7 +73,7 @@ You can generate the Topic List view provides detailed information about your to
 
 **Manage metadata and change document state**
 
-Now you can tag your DITA content from the Web editor. You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or a sub-map. You can also change the document state of all selected topics to the next possible common document state.
+You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or a sub-map. You can also change the document state of all selected topics to the next possible common document state.
 
 <img  src="assets/web-editor-metadata-panel.png" alt="manage metadata" width=600>
 
