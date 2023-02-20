@@ -124,13 +124,13 @@ AEM Guides allows you to pass the label of the source file to the target file. T
 
 For example, if you have some source files with the version label Release 1.0 applied to them, then you can also pass on the source label (Release 1.0) to the translated file.
 
-**Dismiss Out of Sync assets**
+**Force sync for out of sync assets**
 
 If you make changes in some of the assets, then AEM Guides marks them to be Out of Sync. You can either re-translate the modified assets or choose to dismiss Out of Sync status. For example, if you have made some very minor changes that really don't need a translation you can mark their status as In Sync.
 
 **View In Progress translation projects for a topic or map**
 
-Some of the references on your translation dashboard might be in progress status. Now AEM Guides provides a feature to help you view the list of all In Progress translation projects (along with the target language) that contain the selected reference.
+Some of the references on your translation dashboard might be in progress. Now AEM Guides provides a feature to help you view the list of all In Progress translation projects (along with the target language) that contain the selected reference.
 
 For more details, refer to the *Translate documents from the Web Editor* section in the Using Adobe Experience Manager Guides guide.
 
