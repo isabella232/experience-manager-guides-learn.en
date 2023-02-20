@@ -42,7 +42,7 @@ breadcrumb-title: AEM Guides Tutorials
   + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
 + Versioning {#versioning}
 + Knowledge Base {#knowledge-base}
-  + Expert Session {#expert-session}
+  + [Expert Session](./knowledge-base/expert-sessions/expert-session.md) 
     + [Manage content using baselines](./knowledge-base/expert-sessions/baselines-dec22.md) 
     + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
     + [Translate content](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
