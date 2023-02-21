@@ -5,9 +5,9 @@ exl-id: c2efa073-15e7-42a0-aaa8-04859b0fdf62
 ---
 # Introduction to the Map Dashboard
 
-The following will provide an overview of the map dashboard’s main features.
+The following will provide an overview of the map dashboard's main features.
 
->[!VIDEO](https://video.tv.adobe.com/v/339040)
+>[!VIDEO](https://video.tv.adobe.com/v/339040?quality=12&learn=on)
 
 ## Open a map in the Map Dashboard
 
@@ -43,7 +43,7 @@ The Topics tab displays a list of all your topics within the map.
 
 ![images/topics.png](images/topics.png)
 
-Selecting a topic’s checkbox allows you to perform additional actions. You can edit it, regenerate it, and show, apply, or hide its tags. 
+Selecting a topic's checkbox allows you to perform additional actions. You can edit it, regenerate it, and show, apply, or hide its tags. 
 
 ### Condition Presets
 
@@ -51,7 +51,7 @@ The Condition Presets tab displays the settings for specific conditional content
 
 ![images/condition-presets.png](images/condition-presets.png)
 
-Here, selecting the checkbox for the Writer Only edition will result in an output that excludes all content with the “audience” attribute that has the “designers” label, and includes all content with the “writers” label. 
+Here, selecting the checkbox for the Writer Only edition will result in an output that excludes all content with the "audience" attribute that has the "designers" label, and includes all content with the "writers" label. 
 
 ### Baselines
 

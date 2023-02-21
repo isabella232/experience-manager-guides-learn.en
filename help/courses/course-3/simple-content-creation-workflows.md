@@ -7,7 +7,7 @@ exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
 
 The AEM Guides Editor has multiple shortcuts that simplify the content creation workflow. These shortcuts allow users to quickly add and modify images, work with multiple topics at once, correct errors, download topic PDFs, and work with versions and labels.
 
->[!VIDEO](https://video.tv.adobe.com/v/342770)
+>[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
 ## Add an image
 
@@ -29,7 +29,7 @@ Images can be added directly from a local drive.
 
 2. Move an image to another location within the topic by dragging and dropping it.
 
-3. Use **Content Properties** on the right side panel to modify an image’s
+3. Use **Content Properties** on the right side panel to modify an image's
 
     - scale
 
@@ -47,7 +47,7 @@ Split View is helpful when comparing topics, copying and pasting between topics,
 
 1. Open two or more related topics.
 
-2. Click on one file’s Title Tab to open the contextual menu.
+2. Click on one file's Title Tab to open the contextual menu.
 
 3. Select [!UICONTROL **Split**].
 

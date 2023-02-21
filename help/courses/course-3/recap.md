@@ -5,7 +5,7 @@ exl-id: 29fe5e78-8787-4f09-a969-60f68e376976
 ---
 # Review
 
->[!VIDEO](https://video.tv.adobe.com/v/342771)
+>[!VIDEO](https://video.tv.adobe.com/v/342771?quality=12&learn=on)
 
 In this course you learned about:
 

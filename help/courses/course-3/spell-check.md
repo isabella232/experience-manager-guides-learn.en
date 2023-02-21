@@ -7,7 +7,7 @@ exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
 
 The AEM Guides Editor has powerful spell check and Find and Replace capabilities.
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 Correct a spelling error
 
@@ -21,7 +21,7 @@ If the correct spelling is not suggested, you can always manually edit the word.
 
 ## Switch to AEM Spell Check
 
-You may want to use a spell check tool other than the browser’s default dictionary.
+You may want to use a spell check tool other than the browser's default dictionary.
 
 1. Navigate to **Editor Settings**.
 
@@ -31,9 +31,9 @@ You may want to use a spell check tool other than the browser’s default dictio
 
 3. There are two options:
 
-    - **Browser Spell Check** — the default setting where spell check uses the browser’s built-in dictionary.
+    - **Browser Spell Check** — the default setting where spell check uses the browser's built-in dictionary.
 
-    - **AEM Spell Check** — use this to build a custom word list using AEM’s custom dictionary. 
+    - **AEM Spell Check** — use this to build a custom word list using AEM's custom dictionary. 
 
 4. Choose **AEM Spell Check**.
 
