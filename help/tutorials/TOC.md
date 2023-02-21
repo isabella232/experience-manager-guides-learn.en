@@ -47,4 +47,3 @@ breadcrumb-title: AEM Guides Tutorials
     + [Translate content](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
     + [Manage content using baselines](./knowledge-base/expert-sessions/baselines-dec22.md) 
     + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
-    
