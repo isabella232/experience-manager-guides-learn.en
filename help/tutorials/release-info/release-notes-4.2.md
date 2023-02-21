@@ -351,4 +351,7 @@ The bugs fixed in various areas are listed below:
 * Unable to delete presets from Output workflow while publishing via Editor. (9100)
 * Peer link is rendered as normal text instead of a link on the generated page. (7774)
 
+### Known issue
+Adobe has identified the following known issue for AEM Guides 4.2 release: 
 
+* Users can perform review operations even after the review task has been completed.
