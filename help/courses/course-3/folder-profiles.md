@@ -9,7 +9,7 @@ AEM provides quick access to configuration tools. By customizing Folder Profiles
 
 Sample files that you may opt to use for this lesson are provided in the file [folderprofiles.zip](assets/folderprofiles.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342758)
+>[!VIDEO](https://video.tv.adobe.com/v/342758?quality=12&learn=on)
 
 ## Access Folder Profiles
 
@@ -88,7 +88,7 @@ Administrative users have rights to update the Conditional Attributes, Authoring
 
 3. Click [!UICONTROL **Edit**] at the top left of the screen.
 
-4. Under Admin Users, either select a user from the dropdown or type a user’s name.
+4. Under Admin Users, either select a user from the dropdown or type a user's name.
 
 5. Click [!UICONTROL **Add**].
 

@@ -9,7 +9,7 @@ Different sets of materials may contain similar information that needs to be cus
 
 Sample files that you may opt to use for this lesson are provided in the file [keys.zip](assets/keys.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342756)
+>[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
 ## Enable Keys
 
@@ -95,7 +95,7 @@ The Keys are resolved.
 
     ![Keydef Toolbar](images/lesson-9/add-icon.png)
 
-    b. In the Insert Element dialog, search and select “topicmeta”.
+    b. In the Insert Element dialog, search and select "topicmeta".
 
 5. Add keywords within the topicmeta.
 
@@ -103,7 +103,7 @@ The Keys are resolved.
 
     ![Keydef Toolbar](images/lesson-9/add-icon.png)
 
-    b. In the Insert Element dialog, search and select “keywords”.
+    b. In the Insert Element dialog, search and select "keywords".
 
 6. Add a keyword within the topicmeta.
 
@@ -111,7 +111,7 @@ The Keys are resolved.
 
     ![Keydef Toolbar](images/lesson-9/add-icon.png)
 
-    b. In the **Insert Element** dialog, search and select “keyword”
+    b. In the **Insert Element** dialog, search and select "keyword"
 
 7. Type the value for the keydef into the keyword.
 

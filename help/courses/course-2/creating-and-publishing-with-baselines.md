@@ -7,7 +7,7 @@ exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
 
 Using a baseline allows you to create a version of your map topics and related reference content. This can be based on a specific date or time, or labels. 
 
->[!VIDEO](https://video.tv.adobe.com/v/338993)
+>[!VIDEO](https://video.tv.adobe.com/v/338993?quality=12&learn=on)
 
 ## Accessing the Baselines Tab in the Map Dashboard
 
@@ -30,11 +30,11 @@ The Baselines tab displays.
 
     ![create-baseline.png](images/create-baseline.png)
 
-    The new baseline’s information displays. Its default name is based on its creation date.
+    The new baseline's information displays. Its default name is based on its creation date.
 
 2. Give your baseline a new name, if needed.
 
-3. Under the “Set the version based on” heading, select the circle for Label. 
+3. Under the "Set the version based on" heading, select the circle for Label. 
     ![set-the-version.png](images/set-the-version.png) 
 
     >[!NOTE]
@@ -49,7 +49,7 @@ Your baseline is created. A table of all of the topics and their associated info
 
 ### Using the Browse All Topics feature 
 
-The Browse All Topics feature allows you to view topic’s information, including the version and label, as well as specify the version used. You can access it by selecting **Browse All Topics** when creating or editing your baseline.
+The Browse All Topics feature allows you to view topic's information, including the version and label, as well as specify the version used. You can access it by selecting **Browse All Topics** when creating or editing your baseline.
 
 ![browse-all-topics.png](images/browse-all-topics.png)
 
@@ -61,7 +61,7 @@ You can also create baselines that are a snapshot in time.
 
     ![create-baseline.png](images/create-baseline.png)
  
-2. Under the “Set the version based on” heading, select the circle for “Version On.”
+2. Under the "Set the version based on" heading, select the circle for "Version On."
     
     ![version-on.png](images/version-on.png)
 
