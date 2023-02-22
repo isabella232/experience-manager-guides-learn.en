@@ -35,7 +35,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
     + [Design a page layout](./native-pdf/design-page-layout.md)
     + [Work with the common content styles](./native-pdf/stylesheet.md)
-    + [Work with heading styles](./native-pdf/stylesheet.md#work-with-heading-styles-heading-styles)
+    + [Work with heading styles](./native-pdf/stylesheet.md#heading-styles)
     + [Work with paragraph styles](./native-pdf/stylesheet.md#work-with-paragraph-styles-paragraph-style)
     + [Work with character styles](./native-pdf/stylesheet.md#work-with-character-styles-char-style)
     + [Customize list style](./native-pdf/stylesheet#customize-list-style-custom-list-style)
