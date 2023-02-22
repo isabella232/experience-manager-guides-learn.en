@@ -22,6 +22,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [February release notes](./release-info/release-notes-2022.2.0.md)
       + [January release notes](./release-info/release-notes-2022.1.0.md)
     + On-prem/Managed Services {#on-prem-release-notes}
+      + [4.2 Release Notes](./release-info/release-notes-4.2.md)
       + [4.1.x Release Notes](./release-info/release-notes-4.1.md)
       + [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -34,6 +35,9 @@ breadcrumb-title: AEM Guides Tutorials
     + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
     + [Design a page layout](./native-pdf/design-page-layout.md)
     + [Work with the common content styles](./native-pdf/stylesheet.md)
+    + [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
+    + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
+    + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
   + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + Translation {#translation}
   + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
