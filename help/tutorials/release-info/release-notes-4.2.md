@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides 4.2 release
 description: Latest release of Adobe Experience Manager Guides
-
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 ---
 # 4.2 release of Adobe Experience Manager Guides (February 2023)
 

@@ -1,8 +1,8 @@
 ---
-title: Native PDF Publish Feature | Apply custom style on TOC entries and topic content 
+title: Native PDF Publish Feature | Apply custom style on TOC entries and topic content
 description: Learn how to create use styleheets and create styles for your content.
+exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 ---
-
 # Apply custom style on TOC entries and topic content 
 
 At times, you might want to apply custom styling on the TOC entries or a particular topic. This can be achieved by associating an `outputclass` attribute with the `<topicref>` element in your DITA map. Also, in case you want to apply a custom format to an entire topic, then that can also be achieved by extending the attribute's style definition in the CSS.
@@ -66,5 +66,3 @@ Finally, you can also apply styles on the entire content within the topic. For t
 Using the above styling attributes, a change bar is added to the left of the *History of flight* topic, as shown below:
 
 <img src="./assets/pdf-output-topic-content.jpg" width=500>
-
-

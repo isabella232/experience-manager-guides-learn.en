@@ -1,8 +1,8 @@
 ---
-title: Native PDF Publish Feature | Use JavaScript to work with content or style 
+title: Native PDF Publish Feature | Use JavaScript to work with content or style
 description: Learn how to create use styleheets and create styles for your content.
+exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 ---
-
 # Use JavaScript to work with content or style 
 
 The Native PDF Publishing feature allows you to run JavaScript to manipulate your content or style applied on content before the final PDF is generated. This feature gives you complete control over how your final output is generated. For example, you may want to add legal notice information to the PDF output, which resides in another PDF. Using JavaScript, you can add the legal notice information once the PDF is created for the base content, but before the final PDF is generated.  
