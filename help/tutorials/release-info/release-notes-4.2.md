@@ -249,12 +249,12 @@ A change bar appears in the PDF to indicate the modified, inserted, or deleted c
 ### Native PDF | Variable support for Output Path and PDF File name
 
 Now you can also use the following out-of-box variables to define the Output Path and PDF File. You can use a single or a combination of variables to define these options:
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath} (Only for Output Path)
-* ${path_after_langfolder} (Only for Output Path)
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}` 
+* `${language_code}` 
+* `${map_parentpath}` (Only for Output Path)
+* `${path_after_langfolder}` (Only for Output Path)
 
 ### Native PDF | Generate Table of Contents for DITA maps and reorder page layouts
 
