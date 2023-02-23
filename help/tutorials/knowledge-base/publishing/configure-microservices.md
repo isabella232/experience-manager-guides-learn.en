@@ -70,8 +70,8 @@ Once you have added the IMS configuration to the environment, perform the follow
 
 1. In you cloud manager Git project code, add the below given two files (For file contents, see [Appendix](#appendix)).
 
-  * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
-  *	`com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
+* `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
+*	`com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 1. Ensure that the newly added files are getting covered by `filter.xml`.
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes on the environment.
@@ -91,6 +91,7 @@ Once this is done, you should be able to use the new microservice-based cloud pu
   "private.key": "$[secret:PRIVATE_KEY]"
 }
 ```
+
 **File**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Content**:
