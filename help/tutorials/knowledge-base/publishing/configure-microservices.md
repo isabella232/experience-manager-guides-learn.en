@@ -21,21 +21,21 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
 1. Switch to **Projects** tab from top.
 
-<img src="assets/projects-tab.png" alt="projects tab" width=600>
+<img src="assets/projects-tab.png" alt="projects tab" width=500>
 
 1. To create a new empty project, select **Empty project** from the **Create new project** dropdown.
 
-<img src="assets/create-new-project.png" alt="create new project" width=600> 
+<img src="assets/create-new-project.png" alt="create new project" width=500> 
 
 1. Select **API** from the **Add to Project** dropdown to add IO Management API to your project.
 
 <img src="assets/add-project.png" alt="add project" width=300> 
 
-<img src="assets/io-management-api.png" alt="io management" width=600>
+<img src="assets/io-management-api.png" alt="io management" width=500>
 
 1. Create a new private/public key pair while adding the API. This will automatically download the private key on your system.
 
-<img src="assets/generate-key-pair.png" alt="generate key pair" width=600> 
+<img src="assets/generate-key-pair.png" alt="generate key pair" width=500> 
 
 1. Save the configured API.
 
@@ -43,11 +43,11 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
  
 1. Go back to **Projects** tab and click **Project overview** on the left. 
 
-<img src="assets/project-overview.png" alt="project overview" width=600> 
+<img src="assets/project-overview.png" alt="project overview" width=500> 
 
 1. Click **Download** button on  the top to download the service JSON.
 
-<img src="assets/download-json.png" alt="download json" width=600> 
+<img src="assets/download-json.png" alt="download json" width=500> 
 
 You have now configured the JWT authentication details and have also downloaded the private key and the service JSON. Keep these two files handy as these files are required in the next section.
 
