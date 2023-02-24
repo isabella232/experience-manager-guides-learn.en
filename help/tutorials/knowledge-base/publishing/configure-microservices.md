@@ -61,6 +61,7 @@ Perform the following steps to add IMS configuration to the environment:
 1. Switch to **Configuration** tab.
 1. Upload the private key and project JSON as shown in  the screenshot  below. Make sure you are using the same names and configuration as highlighted below.
 
+<img src="assets/ims-config-environment.png" alt="ims configurations" width=500>
 
 >[!NOTE]
 >
