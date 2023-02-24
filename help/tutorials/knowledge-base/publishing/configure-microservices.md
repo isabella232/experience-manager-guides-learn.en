@@ -4,11 +4,11 @@ description: Learn how to Configure new microservice-based publishing for AEM Gu
 ---
 # Configure new microservice-based publishing for AEM Guides as a Cloud Service
 
-The new publishing microservice enables users to run large publishing workloads concurrently on AEM Guides as a Cloud Service and  leverage the industry leading Adobe I/O Runtime serverless platform.
+The new publishing microservice enables users to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry leading Adobe I/O Runtime serverless platform.
 
-For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This provides users the capabilities to run multiple publishing request and get performance better than their large on-prem AEM servers.
+For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This provides users the capabilities to run multiple publishing request and get better performance than their large on-prem AEM servers.
 
-As the new cloud publishing service is secured by Adobe IMS JWT based authentication, you  should follow the below given steps to integrate your  environment with Adobe authentication workflows and start using the new cloud based scalable publishing solution.
+As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their  environments with Adobe secure token based authentication workflows and start using the new cloud based scalable publishing solution.
 
 
 ## Create IMS configurations in Adobe Developer Console
@@ -49,7 +49,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
 <img src="assets/download-json.png" alt="download json" width=500> 
 
-You have now configured the JWT authentication details and have also downloaded the private key and the service JSON. Keep these two files handy as these files are required in the next section.
+You have now configured the JWT authentication details and have also downloaded the private key and the service details JSON. Keep these two files handy as these files are required in the next section.
 
 ### Add IMS configuration to the environment
 
