@@ -8,7 +8,7 @@ The new publishing microservice enables users to run large publishing workloads 
 
 For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This provides users the capabilities to run multiple publishing request and get better performance than their large on-prem AEM servers.
 
-As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their  environments with Adobe secure token based authentication workflows and start using the new cloud based scalable publishing solution.
+As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token based authentication workflows and start using the new cloud based scalable publishing solution.
 
 
 ## Create IMS configurations in Adobe Developer Console
@@ -65,7 +65,7 @@ Perform the following steps to add IMS configuration to the environment:
 
 >[!NOTE]
 >
-> You need to open, copy, and  paste the contents of private key and project JSON file to the value column of the  Configuration panel as shown in the above screenshot.
+> You need to open, copy, and  paste the contents of private key and service details JSON file to the value column of the  Configuration panel as shown in the above screenshot.
 
 Once you have added the IMS configuration to the environment, perform the following steps to link these properties with AEM Guides using OSGi: 
 
@@ -73,7 +73,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 
 * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
-1. Ensure that the newly added files are getting covered by `filter.xml`.
+1. Ensure that the newly added files are getting covered by your `filter.xml`.
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes on the environment.
 
