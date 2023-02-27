@@ -1,3 +1,4 @@
+
 # Controlling quality of content within web-editor
 This article gives an overview of validation possibilities within AEM Guides web-editor. 
 By design web-editor leverages the DITA schema setup in the system to enforce users to create DITA compliant content. With this, all the content stored in the sytem is structured, reusable and valid DITA content.
@@ -8,9 +9,13 @@ Beyond support for DITA rules, web-editor also supports validation of content ba
 
     NOTE: Web editor supports ISO Schematron. 
 
+
 ## Knowing how "Schematron" works in web-editor
+
 ### Configuring Schematron rules
 Refer section "Support for Schematron files" in the [User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+
+
 ### Can you run validation manually?
 Yes, as a author/user while creating content you can use the Schematron panel in webeditor to upload a schematron file and run validations on the file open in editor.
 
@@ -25,9 +30,11 @@ Webeditor settings allows the power users to setup Schematron rules/files that w
 
 ![Set rules from web-editor settings](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
+
 ### Supported rules
 Current version of AEM Guides support validation using "Assertion" based rules only. (see [asset vs report](https://schematron.com/document/205.html))
 Any rules based on "Reports" are not supported yet. 
+
 
 ### Samples and more help on Schematron rules
 #### Sample use cases
@@ -71,8 +78,7 @@ Any rules based on "Reports" are not supported yet.
 	```
 
 
-
 #### Resources
- - Understanding  [Schematron basics](https://da2022.xatapult.com/#what-is-schematron)
- - More about [Assertion rules in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
- - [Sample Schematron file](../../../assets/authoring/sample_schematron.sch) 
+- Understanding  [Schematron basics](https://da2022.xatapult.com/#what-is-schematron)
+- More about [Assertion rules in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- [Sample Schematron file](../../../assets/authoring/sample_schematron.sch) 
