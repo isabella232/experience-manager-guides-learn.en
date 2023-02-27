@@ -11,8 +11,9 @@ Create a Java or ECMA based workflow process that performs the operation on the 
 
 ### Create a workflow model
 With the custom workflow process that you created in previous step, create a workflow model and add that process step to it. 
-You need to also add a mandatory process step "*Finalize Post Generation*" as the last step of the workflow
-Refer sample workflow model below:
+ - You need to also add a mandatory process step "*Finalize Post Generation*" as the last step of the workflow. 
+
+Refer sample workflow model shown below:
 
 ![Post generation workflow model](../assets/workflows/pgwf-workflow-model.png)
 
@@ -22,7 +23,7 @@ Post generation workflow is a property that can be configured on any output pres
 ![Post generation workflow on Output Preset](../assets/workflows/pgwf-preset-settings.png)
 
 
-Assuming the selected model should be created beforehand.
+Assuming the selected model is already created.
 
 ### Testing
 Now you can run the publishing using this preset and validate the process step output
@@ -31,4 +32,4 @@ Now you can run the publishing using this preset and validate the process step o
 ## Sample
 For your reference, you can use below package and install it via package manager to test the sample post generation workflow (*as referred in screenshots above*)
 
-[sample ECMA based post generation workflow model](sample-pgwf-ecma-test-wfmetadata.zip)
+[A sample ECMA based post generation workflow model](sample-pgwf-ecma-test-wfmetadata.zip)
