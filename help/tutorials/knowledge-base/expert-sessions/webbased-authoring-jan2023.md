@@ -46,7 +46,7 @@ In this session, you learn about the following:
 
 ## Next expert session 
 
-- **Topic** - Native PDF Publishing *(based on survey results)*
+- **Topic** - [Native PDF publishing essentials](native-pdf-publishing-essentials-feb23.md) 
 - **Scheduled on** - February 23, 2023
 
 ## Contact us
