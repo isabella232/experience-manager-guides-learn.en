@@ -4,11 +4,11 @@ description: Learn how to Configure new microservice-based publishing for AEM Gu
 ---
 # Configure new microservice-based publishing for AEM Guides as a Cloud Service
 
-The new publishing microservice enables users to run large publishing workloads concurrently on AEM Guides as a Cloud Service and  leverage the industry leading Adobe I/O Runtime serverless platform.
+The new publishing microservice enables users to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry leading Adobe I/O Runtime serverless platform.
 
-For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This provides users the capabilities to run multiple publishing request and get performance better than their large on-prem AEM servers.
+For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This provides users the capabilities to run multiple publishing request and get better performance than their large on-prem AEM servers.
 
-As the new cloud publishing service is secured by Adobe IMS JWT based authentication, you  should follow the below given steps to integrate your  environment with Adobe authentication workflows and start using the new cloud based scalable publishing solution.
+As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token based authentication workflows and start using the new cloud based scalable publishing solution.
 
 
 ## Create IMS configurations in Adobe Developer Console
@@ -49,7 +49,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
 <img src="assets/download-json.png" alt="download json" width=500> 
 
-You have now configured the JWT authentication details and have also downloaded the private key and the service JSON. Keep these two files handy as these files are required in the next section.
+You have now configured the JWT authentication details and have also downloaded the private key and the service details JSON. Keep these two files handy as these files are required in the next section.
 
 ### Add IMS configuration to the environment
 
@@ -61,10 +61,11 @@ Perform the following steps to add IMS configuration to the environment:
 1. Switch to **Configuration** tab.
 1. Upload the private key and project JSON as shown in  the screenshot  below. Make sure you are using the same names and configuration as highlighted below.
 
+<img src="assets/ims-config-environment.png" alt="ims configurations" width=500>
 
 >[!NOTE]
 >
-> You need to open, copy, and  paste the contents of private key and project JSON file to the value column of the  Configuration panel as shown in the above screenshot.
+> You need to open, copy, and  paste the contents of private key and service details JSON file to the value column of the  Configuration panel as shown in the above screenshot.
 
 Once you have added the IMS configuration to the environment, perform the following steps to link these properties with AEM Guides using OSGi: 
 
@@ -72,7 +73,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 
 * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
-1. Ensure that the newly added files are getting covered by `filter.xml`.
+1. Ensure that the newly added files are getting covered by your `filter.xml`.
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes on the environment.
 
