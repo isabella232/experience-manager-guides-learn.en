@@ -10,22 +10,24 @@ Beyond support for DITA rules, web-editor also supports validation of content ba
 
 ## Knowing how Schematron works in AEM Guides web-editor
 ### Configuring Schematron rules
-Refer section "Support for Schematron files" in the [User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+Refer section "Support for Schematron files" in the [User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148){:target="_blank"}
 ### Can you run validation manually?
 Yes, as a author/user while creating content you can use the Schematron panel in webeditor to upload a schematron file and run validations on the file open in editor.
+
 ![Choose Schematron file](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
+
 ![Run validation](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
     For this to work, folder profile admin must allow all users to add Schemtron files in Validation panel
 
 ### Enforce validation rules on file save
-Webeditor settings allows the power users to setup Schematron rules/files that will be executed each time a user updates the content. For more details refer section "Validation" in [User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58) 
+Webeditor settings allows the power users to setup Schematron rules/files that will be executed each time a user updates the content. For more details refer section "Validation" in [User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58){:target="_blank"}
 
 ![Set rules from web-editor settings](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 ### Supported rules
 In the current version of AEM Guides we support validation using "Assertion" based rules only.
-Any rules based on "Reports" are not yet supported. (see [asset vs report](https://schematron.com/document/205.html))
+Any rules based on "Reports" are not yet supported. (see [asset vs report](https://schematron.com/document/205.html)){:target="_blank"}
 
 ### Samples and more help on Schematron rules
 #### Sample use cases
@@ -71,4 +73,4 @@ Any rules based on "Reports" are not yet supported. (see [asset vs report](https
 #### Resources
  - Understanding  [Schematron basics](https://da2022.xatapult.com/#what-is-schematron)
  - More about [Assertion rules in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
- - ![Sample Schematron file](../../../assets/authoring/sample_schematron.sch) 
+ - [Sample Schematron file](../../../assets/authoring/sample_schematron.sch) 
