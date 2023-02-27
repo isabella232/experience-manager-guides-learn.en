@@ -1,5 +1,5 @@
 ---
-title: AEM Guides publishing - Post Generation Workflow
+title: Post Generation Workflow
 description: An overview of post generation workflow with an example
 
 ---

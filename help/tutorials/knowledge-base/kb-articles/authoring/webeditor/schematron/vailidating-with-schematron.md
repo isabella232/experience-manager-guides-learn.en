@@ -1,4 +1,3 @@
-
 ---
 title: Schematron support in webeditor
 description: Working with Schematron in webeditor
