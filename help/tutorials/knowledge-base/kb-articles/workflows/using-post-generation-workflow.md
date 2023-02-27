@@ -1,3 +1,9 @@
+---
+title: AEM Guides publishing - Post Generation Workflow
+description: An overview of post generation workflow with an example
+
+---
+
 # AEM Guides publishing - Post Generation Workflow
 
 AEM Guides gives you the flexibility to specify a post-output generation workflow. You can perform some post-processing tasks on the output that gets generated using AEM Guides.
@@ -42,4 +48,4 @@ Now you can run the publishing using this preset and validate the process step o
 
 For your reference, you can use below package and install it via package manager to test the sample post generation workflow (*as referred in screenshots above*)
 
-[A sample ECMA based post generation workflow model](sample-pgwf-ecma-test-wfmetadata.zip)
+[A sample ECMA based post generation workflow model](../assets/workflows/sample-pgwf-ecma-test-wfmetadata.zip)

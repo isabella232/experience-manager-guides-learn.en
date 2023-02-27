@@ -1,4 +1,10 @@
 
+---
+title: Schematron support in webeditor
+description: Working with Schematron in webeditor
+
+---
+
 # Controlling quality of content within web-editor
 
 This article gives an overview of validation possibilities within AEM Guides web-editor. 
