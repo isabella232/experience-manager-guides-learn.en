@@ -21,33 +21,33 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
 1. Switch to **Projects** tab from top.
 
-<img src="assets/projects-tab.png" alt="projects tab" width=500>
+  <img src="assets/projects-tab.png" alt="projects tab" width=500>
 
 1. To create a new empty project, select **Empty project** from the **Create new project** dropdown.
 
-<img src="assets/create-new-project.png" alt="create new project" width=500> 
+  <img src="assets/create-new-project.png" alt="create new project" width=500> 
 
 1. Select **API** from the **Add to Project** dropdown to add IO Management API to your project.
 
-<img src="assets/add-project.png" alt="add project" width=300> 
+  <img src="assets/add-project.png" alt="add project" width=300> 
 
-<img src="assets/io-management-api.png" alt="io management" width=500>
+  <img src="assets/io-management-api.png" alt="io management" width=500>
 
 1. Create a new private/public key pair while adding the API. This will automatically download the private key on your system.
 
-<img src="assets/generate-key-pair.png" alt="generate key pair" width=500> 
+  <img src="assets/generate-key-pair.png" alt="generate key pair" width=500> 
 
 1. Save the configured API.
 
-<img src="assets/save-api.png" alt="save api" width=600> 
+  <img src="assets/save-api.png" alt="save api" width=600> 
  
 1. Go back to **Projects** tab and click **Project overview** on the left. 
 
-<img src="assets/project-overview.png" alt="project overview" width=500> 
+  <img src="assets/project-overview.png" alt="project overview" width=500> 
 
 1. Click **Download** button on  the top to download the service JSON.
 
-<img src="assets/download-json.png" alt="download json" width=500> 
+  <img src="assets/download-json.png" alt="download json" width=500> 
 
 You have now configured the JWT authentication details and have also downloaded the private key and the service details JSON. Keep these two files handy as these files are required in the next section.
 
@@ -61,7 +61,7 @@ Perform the following steps to add IMS configuration to the environment:
 1. Switch to **Configuration** tab.
 1. Upload the private key and project JSON as shown in  the screenshot  below. Make sure you are using the same names and configuration as highlighted below.
 
-<img src="assets/ims-config-environment.png" alt="ims configurations" width=500>
+  <img src="assets/ims-config-environment.png" alt="ims configurations" width=500>
 
 >[!NOTE]
 >
