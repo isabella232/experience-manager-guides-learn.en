@@ -50,8 +50,8 @@ breadcrumb-title: AEM Guides Tutorials
     + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
-	  + Webeditor {#webeditor}
-	    + Schematron {#schematron}
-	      + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-	+ Workflows {#workflows}
-	  + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+      + Webeditor {#webeditor}
+        + Schematron {#schematron}
+          + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+    + Workflows {#workflows}
+      + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
