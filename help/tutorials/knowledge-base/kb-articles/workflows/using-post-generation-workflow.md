@@ -29,5 +29,6 @@ Now you can run the publishing using this preset and validate the process step o
 
 
 ## Sample
-For your reference, you can use below package and install it via package manager to test the sample post generation workflow (as referred in screenshots above)
+For your reference, you can use below package and install it via package manager to test the sample post generation workflow (*as referred in screenshots above*)
+
 [sample ECMA based post generation workflow model](sample-pgwf-ecma-test-wfmetadata.zip)
