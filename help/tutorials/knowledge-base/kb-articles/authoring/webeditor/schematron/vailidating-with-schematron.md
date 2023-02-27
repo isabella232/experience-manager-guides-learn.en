@@ -47,41 +47,41 @@ Any rules based on "Reports" are not supported yet.
 
 - Check if a link is external and if it has scope "external"
     ```
-	<sch:pattern>
-		<sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
-			<sch:assert test="@scope = 'external' and @format = 'html'">
-				All external xref links must be with scope='external' and format='html'
-			</sch:assert>
-		</sch:rule>
-	</sch:pattern>
+    <sch:pattern>
+        <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
+            <sch:assert test="@scope = 'external' and @format = 'html'">
+                All external xref links must be with scope='external' and format='html'
+            </sch:assert>
+        </sch:rule>
+    </sch:pattern>
     ```
 
 - Check if there is atleast one "topicref" in a map or atleast one "li" under a "ul"
     ```
-	<sch:pattern>
-		<sch:rule context="map">
-			<sch:assert test="count(topicref) > 0">
-				There should be atleast one topicref in map
-			</sch:assert>
-		</sch:rule>
+    <sch:pattern>
+        <sch:rule context="map">
+            <sch:assert test="count(topicref) > 0">
+                There should be atleast one topicref in map
+            </sch:assert>
+        </sch:rule>
 
-		<sch:rule context="ul">
-			<sch:assert test="count(li) > 1" >
-				A list must have more than one item.
-			</sch:assert>
-		</sch:rule>
-	</sch:pattern>
+        <sch:rule context="ul">
+            <sch:assert test="count(li) > 1" >
+                A list must have more than one item.
+            </sch:assert>
+        </sch:rule>
+    </sch:pattern>
     ```
 
 - The "indexterm" element should always be present in a "prolog"
     ```
-	<sch:pattern>
-		<sch:rule context="*[contains(@class, ' topic/indexterm ')]">
-			<sch:assert test="ancestor::node()/local-name() = 'prolog'">
-				The indexterm element should be in a prolog.
-			</sch:assert>
-		</sch:rule>
-	</sch:pattern>
+    <sch:pattern>
+        <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
+            <sch:assert test="ancestor::node()/local-name() = 'prolog'">
+                The indexterm element should be in a prolog.
+            </sch:assert>
+        </sch:rule>
+    </sch:pattern>
     ```
 
 #### Resources
