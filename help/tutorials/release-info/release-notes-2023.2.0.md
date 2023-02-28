@@ -66,8 +66,8 @@ You can apply tags on an individual topic or use the bulk tagging feature to app
 
 **Generate the Multimedia  report**
 
-You can generate the multimedia report which contains detailed information about the multimedia used in your references within the current mail. You also have the flexibility to filter and sort the multimedia files in this report.
-You can generate the CSV to download the current snapshot of the topics in the DITA map.
+You can generate the multimedia report which contains detailed information about the multimedia used in your references within the current map. You have the flexibility to filter and sort the multimedia files listed in the report.
+You can also generate the CSV to download the current snapshot of the multimedia used in the DITA map.
 
 <img  src="assets/web-editor-reports-multimedia.png" alt="multimedia report" width=600>
 
