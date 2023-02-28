@@ -23,21 +23,21 @@ Beyond support for DITA rules, web-editor also supports validation of content ba
 Refer section "Support for Schematron files" in the [User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
-### Can you run validation manually?
-
-Yes, as a author/user while creating content you can use the Schematron panel in webeditor to upload a schematron file and run validations on the file open in editor.
-
-![Choose Schematron file](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
-
-![Run validation](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
-
-    For this to work, folder profile admin must allow all users to add Schemtron files in Validation panel
-
 ### Enforce validation rules on file save
 
 Webeditor settings allows the power users to setup Schematron rules/files that will be executed each time a user updates the content. For more details refer section "Validation" in [User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
 ![Set rules from web-editor settings](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+
+
+### Can you run validation manually?
+
+Yes, as a author/user while creating content you can use the Schematron panel in webeditor to upload a schematron file and run validations on the file open in editor.
+
+    For this to work, folder profile admin must allow all users to add Schemtron files in Validation panel. See editor settings (screenshot given above)
+
+![Choose Schematron file](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
+![Run validation](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
 
 ### Supported rules
