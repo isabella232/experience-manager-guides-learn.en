@@ -50,6 +50,7 @@ Any rules based on "Reports" are not supported yet.
 #### Sample use cases
 
 - Check if a link is external and if it has scope "external"
+
     ```
     <sch:pattern>
         <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
@@ -61,6 +62,7 @@ Any rules based on "Reports" are not supported yet.
     ```
 
 - Check if there is atleast one "topicref" in a map or atleast one "li" under a "ul"
+
     ```
     <sch:pattern>
         <sch:rule context="map">
@@ -78,6 +80,7 @@ Any rules based on "Reports" are not supported yet.
     ```
 
 - The "indexterm" element should always be present in a "prolog"
+
     ```
     <sch:pattern>
         <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
