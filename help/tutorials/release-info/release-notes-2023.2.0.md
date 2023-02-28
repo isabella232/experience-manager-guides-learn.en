@@ -150,7 +150,7 @@ a suffix (like `filename_1.extension`).
 
 Now AEM Guides allows you to choose **Use Title in Editor and Maps Manager** option in Settings. If you select this option, the title of the file is displayed on the file's tab when opened in the Editor or the DITA Maps Manager. If you do not select this option, then the UUID of the file is displayed on the file's tab.
 
-### Configure new microservice-based publishing for AEM Guides as a Cloud Service
+### Microservice-based publishing for AEM Guides as a Cloud Service
 
 The new publishing microservice enables you to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry leading Adobe I/O Runtime serverless platform.
 
