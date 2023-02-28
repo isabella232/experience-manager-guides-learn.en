@@ -12,7 +12,12 @@ breadcrumb-title: AEM Guides Tutorials
   + Release Notes {#release-notes}
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+<<<<<<< Updated upstream
       + [Current release notes](./release-info/release-notes-2022.11.0.md) 
+=======
+      + [Current release notes](./release-info/release-notes-2023.2.0.md) 
+      + [November release notes](./release-info/release-notes-2022.11.0.md) 
+>>>>>>> Stashed changes
       + [October release notes](./release-info/release-notes-2022.10.0.md) 
       + [September release notes](./release-info/release-notes-2022.9.0.md) 
       + [August release notes](./release-info/release-notes-2022.8.0.md)
