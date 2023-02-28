@@ -52,5 +52,13 @@ breadcrumb-title: AEM Guides Tutorials
     + [Translate content](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
     + [Manage content using baselines](./knowledge-base/expert-sessions/baselines-dec22.md) 
     + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+    + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
   + Publishing{#publishing}
     + [Configure new microservice-based publishing for AEM Guides as a Cloud Service](./knowledge-base/publishing/configure-microservices.md) 
+  + Articles {#kb-articles}
+    + Authoring {#authoring}
+      + Webeditor {#webeditor}
+        + Schematron {#schematron}
+          + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+    + Workflows {#workflows}
+      + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
