@@ -171,7 +171,7 @@ AEM Guides provides the feature to apply custom styling on the TOC entries or a 
 
 Now you can style the page marker in the foot notes. For example, you can add brackets or change their color. These styles help the users easily identify the page markers in the document.
 
-### Native PDF | Change bar to indicate changed topics in Table of Contents	 
+### Native PDF | Change bar to indicate changed topics in Table of Contents
 
 AEM Guides  now allows you to quickly identify the changed topics in the TOC of the PDF output.  It shows a change bar on the left of the changed topics in the TOC. You can click on the topic in the TOC and view the detailed changes.
 
