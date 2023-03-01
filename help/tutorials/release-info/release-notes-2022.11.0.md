@@ -16,7 +16,7 @@ Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later r
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level:
 
-* Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexin`.
+* Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed || Example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
