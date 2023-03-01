@@ -12,7 +12,8 @@ breadcrumb-title: AEM Guides Tutorials
   + Release Notes {#release-notes}
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
-      + [Current release notes](./release-info/release-notes-2022.11.0.md) 
+      + [Current release notes](./release-info/release-notes-2023.2.0.md) 
+      + [November release notes](./release-info/release-notes-2022.11.0.md) 
       + [October release notes](./release-info/release-notes-2022.10.0.md) 
       + [September release notes](./release-info/release-notes-2022.9.0.md) 
       + [August release notes](./release-info/release-notes-2022.8.0.md)
@@ -52,6 +53,8 @@ breadcrumb-title: AEM Guides Tutorials
     + [Manage content using baselines](./knowledge-base/expert-sessions/baselines-dec22.md) 
     + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
     + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+  + Publishing{#publishing}
+    + [Configure new microservice-based publishing for AEM Guides as a Cloud Service](./knowledge-base/publishing/configure-microservices.md) 
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Webeditor {#webeditor}
