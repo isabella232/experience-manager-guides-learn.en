@@ -17,7 +17,7 @@ As the new cloud publishing service is secured by Adobe IMS JWT based authentica
 
 Perform the following steps to create IMS configurations in Adobe Developer Console:
 
-1. Open Developer console: `https://developer.adobe.com/console`.
+1. Open Developer Console: `https://developer.adobe.com/console`.
 
 1. Switch to **Projects** tab from top.
 
