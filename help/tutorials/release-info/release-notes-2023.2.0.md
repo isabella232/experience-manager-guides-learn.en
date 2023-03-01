@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, February 2023 release
 description: Latest release of Adobe Experience Manager Guides as a Cloud Service
+exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 ---
 # Latest release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -220,4 +221,4 @@ The bugs fixed in various areas are listed below:
 * Native PDF | Adding `xref` to an Image does not render the image on the generated PDF. (11346)
 * Native PDF | Image tag adds display-inline attribute to all the images. (10653)
 * Native PDF | Draft comments are hidden by default in the generated output. (10560) 
-* Native PDF | navtitle is not honored for topichead. (10509) 
+* Native PDF | navtitle is not honored for topichead. (10509)
