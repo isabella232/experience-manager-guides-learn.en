@@ -54,7 +54,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
     + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
   + Publishing{#publishing}
-    + [Configure new microservice-based publishing for AEM Guides as a Cloud Service](./knowledge-base/publishing/configure-microservices.md) 
+    + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Webeditor {#webeditor}
