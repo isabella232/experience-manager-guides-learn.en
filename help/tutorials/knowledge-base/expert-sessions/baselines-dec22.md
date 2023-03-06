@@ -44,11 +44,6 @@ In this session, you learn about the following:
 > - On-prem 4.1 and later
 > - Cloud Services 2211 and later
 
-## Next expert session
-
-- **Topic** - [Author web-based content](webbased-authoring-jan2023.md)
-- **Scheduled on** - January 19, 2023
-
 ## Contact us
 
 For any queries, send us an email at <techcomm@adobe.com>
