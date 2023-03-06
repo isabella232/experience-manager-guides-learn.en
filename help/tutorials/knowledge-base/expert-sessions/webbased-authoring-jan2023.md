@@ -44,11 +44,6 @@ In this session, you learn about the following:
 > - On-prem 4.1.3 or later
 > - Cloud Services 2211 and later
 
-## Next expert session 
-
-- **Topic** - [Native PDF publishing essentials](native-pdf-publishing-essentials-feb23.md) 
-- **Scheduled on** - February 23, 2023
-
 ## Contact us
 
 For any queries, send us an email at <techcomm@adobe.com>

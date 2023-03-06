@@ -44,11 +44,6 @@ In this session, you learn about the following:
 > - On-prem 4.1 or later 
 > - Cloud Services 2207 or later
 
-## Next expert session 
-
-- **Topic** - [Manage content using baselines](baselines-dec22.md) 
-- **Scheduled on** - December 8, 2022
-  
 ## Contact us
 
 For any queries, send us an email at <techcomm@adobe.com>
