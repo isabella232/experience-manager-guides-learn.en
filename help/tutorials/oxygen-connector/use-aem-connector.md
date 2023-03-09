@@ -1,3 +1,10 @@
+---
+title: Oxygen Plugin for Adobe Experience Manager Guides
+description: Learn how to use Oxygen Plugin for Adobe Experience Manager Guides to create and manage your content.
+hide: yes
+hidefromtoc: yes
+---
+
 # Oxygen Plugin for Adobe Experience Manager Guides {#id1645H6010Q5}
 
 The Oxygen Plugin for Adobe Experience Manager Guides \(later referred to as Oxygen Plugin for AEM Guides in the guide\) enables you to connect the Oxygen XML Author with the Adobe Experience Manager \(AEM\) repository for authoring and managing content. You can use the plugin to browse, search and open files; check-out and check-in files; upload folders and files on AEM repository. The AEM Guides panel in the desktop application allows you to mark the desired folders \(from AEM repository\) to the favorite folders list for quick access. Additionally, you can install a package in AEM web interface and open your DITA files in Oxygen XML Author directly from the AEM web interface.
