@@ -1,4 +1,5 @@
 
+
 # FrameMaker Publishing Server (FMPS) and AEM Guides
 
 **AEM Guides integration with FrameMaker Publishing Server could your solution if you looking high quality automated publishing.  
@@ -55,9 +56,9 @@ You can Publish your already created baselines with FMPS2020.0.2 or higher versi
 ## FAQ and Troubleshooting:
 
 - ### FMPS publishing fails with “Timeout Exception”
+
  Check and increase value of “FMPS timeout” (Seconds) in
        /system/console/configMgr/com.adobe.fmdita.config.ConfigManager”
-       .
 
 - ### Unable to get FMPS Preset in dropdown
 
