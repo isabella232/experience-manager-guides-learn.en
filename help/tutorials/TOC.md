@@ -54,6 +54,6 @@ breadcrumb-title: AEM Guides Tutorials
         + Schematron {#schematron}
           + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
     + Publishing {#publishing}
-      + [FMPS and Guides](./knowledge-base/kb-articles/publishing/FMPSandGuides.md)
+      + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
