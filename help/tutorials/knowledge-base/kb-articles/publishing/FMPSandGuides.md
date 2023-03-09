@@ -1,3 +1,4 @@
+
 # FrameMaker Publishing Server (FMPS) and AEM Guides
 
 **AEM Guides integration with FrameMaker Publishing Server could your solution if you looking high quality automated publishing.  
@@ -5,11 +6,11 @@ Below article will help you in Setting up and running FMPS with AEM Guides.**
 
 ## Compatibility of FMPS with AEM Guides :
 
- ### Compatibility with 4.1 AEM Guides : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix) 
+ - ### Compatibility with 4.1 AEM Guides : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix) 
    
- ### Compatibility with 4.0 AEM Guides : [Link](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+-  ### Compatibility with 4.0 AEM Guides : [Link](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
  
- ### Future Release : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+-  ### Future Release : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation:
 
