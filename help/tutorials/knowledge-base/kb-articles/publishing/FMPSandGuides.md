@@ -1,3 +1,8 @@
+---
+title: FMPS and AEM Guides 
+description: Publishing with FMPS using AEM Guides
+
+---
 
 
 # FrameMaker Publishing Server (FMPS) and AEM Guides
