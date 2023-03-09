@@ -42,7 +42,7 @@ From the "Generate PDF using" menu, choose FrameMaker Publishing Server.
 The user can provide "settings File(.sts)" and "ditaval. Filtering will be done using ditaval based on the conditions you supply.
 
 -   **setting file**: FrameMaker /FMPS Publish setting which contains all those settings which you want FMPS to honor while publishing For example: Generating output with the customized template, Generating Marks and Bleeds(PDF), Generating PDF with TOC, index, etc.
--   **FMPS present:** Pre-defined combination of ditaval and settings file, Instead of giving separate ditaval and settings files, the User can pre-create FMPS preset which can be re-used for publishing needs.
+-   **FMPS preset:** Pre-defined combination of ditaval and settings file, Instead of giving separate ditaval and settings files, the User can pre-create FMPS preset which can be re-used for publishing needs.
 
 **Note:** If you don’t select any of the settings or FMPS preset then FMPS will publish with the default system setting.
 
