@@ -1,8 +1,3 @@
----
-title: FMPS and AEM Guides 
-description: Publishing with FMPS using AEM Guides
-
----
 
 
 # FrameMaker Publishing Server (FMPS) and AEM Guides
@@ -88,10 +83,10 @@ There will be ideal fixed header of approx. 3-4 min only while publishing from F
 
 ## Other Resources:
 
-### [FMPS Learn and Support](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS Learn and Support](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-### [AEM Learn and Support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+ [AEM Learn and Support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-### [FrameMaker and FMPS community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
+ [FrameMaker and FMPS community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-### [AEM Guides community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+ [AEM Guides community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
