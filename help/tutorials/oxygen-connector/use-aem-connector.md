@@ -35,18 +35,18 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
     The installation wizard's welcome screen appears.
 
-2.  Click **Next** and browse to location where Oxygen XML Author's .exe file is available.
+1.  Click **Next** and browse to location where Oxygen XML Author's .exe file is available.
 
-3.  Select the file, and click **Open**.
+1.  Select the file, and click **Open**.
 
     The selected file's location is added in the installation wizard.
 
-4.  Click **Next**.
+1.  Click **Next**.
 
-5.  Click **Install**.
+1.  Click **Install**.
 
-6.  Click **Finish** to close the installation wizard.
-7.  Launch Oxygen XML Author.
+1.  Click **Finish** to close the installation wizard.
+1.  Launch Oxygen XML Author.
 
     The AEM Guides panel is displayed in the Oxygen XML Author.
 
@@ -67,7 +67,7 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
 1.  Locate the plugin's .dmg file on your system.
 
-2.  Double-click the .dmg file to open the file content.
+1.  Double-click the .dmg file to open the file content.
 
     The .dmg file contains an aem-connector-x.x folder and a aem-connector-x.x-setup file.
 
@@ -75,10 +75,10 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
     x.x in the filenames is the version number of the plugin.
 
-3.  Copy the aem-connector-x.x folder in the plugins folder of Oxygen XML Author.
-4.  Double-click the aem-connector-x.x-setup file to launch the installer.
+1.  Copy the aem-connector-x.x folder in the plugins folder of Oxygen XML Author.
+1.  Double-click the aem-connector-x.x-setup file to launch the installer.
 
-5.  Launch Oxygen XML Author.
+1.  Launch Oxygen XML Author.
 
     The AEM Guides panel is displayed in the Oxygen XML Author.
 
@@ -96,7 +96,7 @@ As an author, you can open and edit your DITA maps or topics in Oxygen XML Autho
 As an AEM administrator, perform the following steps to install the package:
 
 1.  Get the package's .zip file from your IT team.
-2.  Log into your AEM instance *\(as an administrator\)* and navigate to the CRX Package Manager. The default URL to access the package manager is
+1.  Log into your AEM instance *\(as an administrator\)* and navigate to the CRX Package Manager. The default URL to access the package manager is
 
     ```
     http://<server name>:<port>/crx/packmgr/index.jsp
@@ -106,18 +106,18 @@ As an AEM administrator, perform the following steps to install the package:
 
     ![](images/package-manager.png)
 
-3.  To upload the Oxygen package, click **Upload Package**.
-4.  In the Upload Package dialog, navigate to the Oxygen package file that you downloaded in Step 1 and click OK.
+1.  To upload the Oxygen package, click **Upload Package**.
+1.  In the Upload Package dialog, navigate to the Oxygen package file that you downloaded in Step 1 and click OK.
 
     The package is uploaded on to your AEM instance.
 
-5.  To start the installation process, click **Install**.
+1.  To start the installation process, click **Install**.
 
     ![](images/oxygen-package.png)
 
-6.  In the Install Package dialog, click **Install**.
-7.  After installation completes, click the Home button in the upper-left corner of the CRX Package Manager.
-8.  Select a DITA file in your assets folder.
+1.  In the Install Package dialog, click **Install**.
+1.  After installation completes, click the Home button in the upper-left corner of the CRX Package Manager.
+1.  Select a DITA file in your assets folder.
 
     **Edit in Oxygen** option is available in the toolbar. For more information about using this option, see [Open DITA topic in Oxygen XML Author from AEM web interface](#id182CE0I905Z).
 
@@ -182,7 +182,7 @@ Perform the following steps to configure the connection settings in the Oxygen P
 
     ![](images/Settings.png)
 
-2.  Specify the following details:
+1.  Specify the following details:
     -   **Server URL**: URL of the AEM server, for example:
 
         ```
@@ -206,7 +206,7 @@ Perform the following steps to configure the connection settings in the Oxygen P
     -   **Close File when Checked in**: If selected, closes the files on check-in. Before closing the file, you are shown a pop-up wherein you can specify the version comments.
     -   **Show Checkin Dialog on Closing File**: If selected, you are shown a pop-up on closing a file. From the pop-up, you can choose to check in the file or close the file without checking in.
     -   **Auto-Checkout File when Opened**: If selected, double-clicking on a file automatically checks it out and opens it for editing. In case the file is already checked-out, then it is simply opened up for editing. If this option is not selected, then opening a file on which you don't have a lock opens it up in read-only mode.
-3.  Click **OK**.
+1.  Click **OK**.
 
 ### Preference for profiling attribute customization {#id1827K0D0OHT}
 
@@ -215,22 +215,22 @@ You need to configure the preferences in Oxygen XML Author to use the profiling 
 Perform the following steps to configure profiling attributes:
 
 1.  In Oxygen XML Author, click **Options** \> **Preferences**.
-2.  In the **Document Type Association** tab, select **DITA**, and then click **Extend**.
+1.  In the **Document Type Association** tab, select **DITA**, and then click **Extend**.
 
     ![](images/document_type_association.png)
 
-3.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
+1.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
 
     ![](images/DITA%20Extension.png)
 
-4.  In the **Extensions** tab, make the following changes:
-5.  -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+1.  In the **Extensions** tab, make the following changes:
+1.  -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
 -   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
     The following screenshot shows the configured **Extension** tab for DITA topics:
 
     ![](images/dita-topic-extension-tab.png)
 
-6.  Click **OK** on all dialog boxes to save your changes.
+1.  Click **OK** on all dialog boxes to save your changes.
 
 ### Configure DITA map extension 
 
@@ -239,10 +239,10 @@ The DITA map extension configuration is required to enable opening of map files 
 Perform the following steps to configure the DITA map extension:
 
 1.  In Oxygen XML Author, click**Options** \> **Preferences**.
-2.  In the **Document Type Association** tab, select **DITA Map**, and then click **Extend**.
-3.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
-4.  In the **Extensions** tab, make the following changes:
-5.  -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+1.  In the **Document Type Association** tab, select **DITA Map**, and then click **Extend**.
+1.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
+1.  In the **Extensions** tab, make the following changes:
+1.  -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
 -   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
 -   *\(Optional\)* If you do not want to resolve references while opening a map file, then you need to perform the following additional configuration:
 
@@ -252,7 +252,7 @@ Perform the following steps to configure the DITA map extension:
 
     ![](images/dita-map-extension-tab.png)
 
-6.  Click **OK** on all dialog boxes to save your changes.
+1.  Click **OK** on all dialog boxes to save your changes.
 
 ## Work with Oxygen Plugin for AEM Guides {#id1826JG00WY4}
 
@@ -307,7 +307,7 @@ Once you have connected to the AEM repository, you can open files for editing in
 
 1.  Right-click on a file in the AEM Guides panel that you want to open for editing.
 
-2.  Select **Open** from the context menu.
+1.  Select **Open** from the context menu.
 
     The file is opened in Oxygen XML Author's editor.
 
@@ -328,7 +328,7 @@ If you want to use the editors available in AEM Guides, you can do so by selecti
 
 1.  Right-click on a file in the AEM Guides panel that you want to open for editing.
 
-2.  Select **Open In** from the context menu and choose from the following options:
+1.  Select **Open In** from the context menu and choose from the following options:
 
 -   **Web Topic Editor**: If the file you are opening is a .xml or .dita file, then you can open it for editing in the Web Editor. Choose the **Web Topic Editor** option to open the selected file for editing in the Web Editor.
 
@@ -342,7 +342,7 @@ If you want to use the editors available in AEM Guides, you can do so by selecti
 When you checkout a file, it is stored locally on your system and locked for editing in the AEM repository. Perform the following steps to check-out a file:
 
 1.  Right-click a file in the AEM Guides panel.
-2.  Select one of the following options:
+1.  Select one of the following options:
     -   **Check-out:** Checks out a file from AEM repository and makes it available for editing.
     -   **Check-out with dependents**: Checks out a file with its direct references. You can make changes in parent and child pages using this option. Oxygen Plugin for AEM Guides supports checking out one level of dependents. For example, Map A references Topic A and Topic A references Topic B. Checking out Map A will checkout Topic A regardless of its level in the TOC hierarchy. However, it will not check out Topic B because it is not directly linked from Map A.
     -   **Check-out with read-only dependents**: Checks out a file and downloads its dependents to your local machine as read-only copies. You cannot make any changes in the dependent files.
@@ -367,7 +367,7 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
 1.  Save your file by clicking **File** \> **Save**.
 
-2.  Right-click on a checked-out file and choose from the following two options:
+1.  Right-click on a checked-out file and choose from the following two options:
 
     -   **Check-In**: Checks-in the selected file from your local system into AEM repository.
     -   **Check-In with Dependents:** If you have checked-out a file along with its dependents, then use this option to check in all dependent files in one single operation. On selecting this option, you are shown the Check-In dialog with all dependent files. Click OK to check-in all files at once.
@@ -382,13 +382,13 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
         Similarly, if you have checked-in a dependent file through AEM, the file list is not refreshed in Oxygen Author until you do a folder Refresh and Refresh Checked-Out Files. If you do a Check-in with Dependents with some files checked in through AEM, then you will get an error listing the files that could not be checked in.
 
-3.  \(Optional\) In the Check-In dialog, add a comment in **Version Comments** text box.
+1.  \(Optional\) In the Check-In dialog, add a comment in **Version Comments** text box.
 
     **Note:**
 
     This comment is displayed in the AEM version history of the file.
 
-4.  Click **OK**.
+1.  Click **OK**.
 
 **Note:**
 
@@ -404,7 +404,7 @@ When you have in multiple folders, then it is not easy to find out how many file
 
     ![](images/files-checkedout-view.png)
 
-2.  Right-click on a file in this view to get the following options:
+1.  Right-click on a file in this view to get the following options:
 
     -   [Open](#id195GH0V30KX)
     -   [Open In](#id195GH0V30KX)
@@ -428,7 +428,7 @@ When you have in multiple folders, then it is not easy to find out how many file
 Perform the following steps to upload files or folders:
 
 1.  Right-click a folder in the AEM Guides panel.
-2.  Select one of the following options:
+1.  Select one of the following options:
     -   **Upload File\(s\)**: Select this option to upload single or multiple files to the selected folder in the AEM repository. In the Select files \(s\) to upload dialog, select the files and click **Open**.
     -   **Upload with dependents**: Select this option to upload a DITA file with its dependents. In the Select file to upload dialog, select the files and click **Open**.
     -   **Upload Folder**: Select this option to upload a folder in the AEM repository. In the Choose dialog, select the folder and click **Choose**.
@@ -467,7 +467,7 @@ Perform the following steps to view a file's version history:
 
 1.  Right-click on a file in the AEM Guides panel.
 
-2.  Select **View Versions** from the context menu.
+1.  Select **View Versions** from the context menu.
 
     File's version history is displayed in the Versions dialog.
 
@@ -480,7 +480,7 @@ Perform the following steps to view a file's metadata:
 
 1.  Right-click on a file in the AEM Guides panel.
 
-2.  Select **View Metadata** from the context menu.
+1.  Select **View Metadata** from the context menu.
 
     File's metadata such as the DITA Class, Document State, modification date, size, Title, and UUID are displayed in the Metadata dialog.
 
@@ -494,15 +494,15 @@ You can search for topics in the AEM repository using the Search bar in the AEM 
 Perform the following steps to search topics:
 
 1.  Select a folder in the AEM repository where you want to search a topic.
-2.  Enter the search query \(for example, `introduction`\) in the Search bar of the Oxygen Plugin for AEM Guides.
-3.  Click the search button or press Enter.
+1.  Enter the search query \(for example, `introduction`\) in the Search bar of the Oxygen Plugin for AEM Guides.
+1.  Click the search button or press Enter.
 
     The result is displayed in the Search Results tab as a list with the file path. If there is no matching result for your search query, No results found in <path of the selected folder\> message is displayed.
 
     ![](images/Search.png)
 
-4.  \(Optional\) Double-click a file in the search result to open it in Oxygen XML Author.
-5.  To go back to the AEM Repository view, do one of the following:
+1.  \(Optional\) Double-click a file in the search result to open it in Oxygen XML Author.
+1.  To go back to the AEM Repository view, do one of the following:
     -   To view the AEM Repository view without clearing the search results, click **Browse** tab.
     -   To clear the search results and view the AEM Repository, Click Delete search icon.
 
@@ -524,22 +524,22 @@ Perform the following steps to open a DITA topic in Oxygen XML Author:
 
     If the topic is not checked out, then it is first checked out and then opened in Oxygen in the edit mode.
 
-2.  Select Oxygen XML Author *<version\>* in the **Launch Application** message box. You can select **Remember my choice for AEM links** option to save your preference.
+1.  Select Oxygen XML Author *<version\>* in the **Launch Application** message box. You can select **Remember my choice for AEM links** option to save your preference.
 
 **Edit a DITA topic**
 
 Perform the following steps to edit a DITA topic in Oxygen XML Author:
 
 1.  Select and check-out a topic in your assets.
-2.  Click **Edit in Oxygen** option in the toolbar.
+1.  Click **Edit in Oxygen** option in the toolbar.
 
     **Note:**
 
     If the topic is not checked out, then it is first checked out and then opened in Oxygen in the edit mode.
 
-3.  Select Oxygen XML Author *<version\>* in the **Launch Application** message box. You can select **Remember my choice for AEM links** option to save your preference.
-4.  Edit the topic in Oxygen XML Author.
-5.  Check-in the topic from the Oxygen Plugin for AEM Guides.
+1.  Select Oxygen XML Author *<version\>* in the **Launch Application** message box. You can select **Remember my choice for AEM links** option to save your preference.
+1.  Edit the topic in Oxygen XML Author.
+1.  Check-in the topic from the Oxygen Plugin for AEM Guides.
 
     For more information about checking-in a topic using Oxygen Plugin for AEM Guides, see [Check in a file](#id182CF0J0FHS).
 
@@ -559,18 +559,18 @@ Make sure that you have added the conditional attributes in AEM and have set [Pr
 Perform the following steps to add conditional attributes to your content in Oxygen XML Author:
 
 1.  Check-out and open a topic from the *Oxygen Plugin for AEM Guides*.
-2.  Select the part of the content where you want to apply the conditional attributes.
-3.  Double-click the conditional attribute in the Attributes panel of the Oxygen XML Author.
+1.  Select the part of the content where you want to apply the conditional attributes.
+1.  Double-click the conditional attribute in the Attributes panel of the Oxygen XML Author.
 
     ![](images/attribute-panel.png)
 
-4.  In the **Available** column of the Edit Attribute dialog, select the attribute\(s\) and click **Add**.
+1.  In the **Available** column of the Edit Attribute dialog, select the attribute\(s\) and click **Add**.
 
     The following screen shows `audience` attributes.
 
     ![](images/edit-attributes.png)
 
-5.  Click **OK**.
+1.  Click **OK**.
 
     The attributes are added to the content.
 
@@ -589,7 +589,7 @@ Solution 1:
 
     Click **Options** \> **Preferences** \> **Plugins** and select **Oxygen Plugin for Adobe Experience Manager Guides.**
 
-2.  Relaunch Oxygen XML Author.
+1.  Relaunch Oxygen XML Author.
 
 
 Solution 2:
