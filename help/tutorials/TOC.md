@@ -46,6 +46,8 @@ breadcrumb-title: AEM Guides Tutorials
   + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
   + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
 + Versioning {#versioning}
++ Hidden {#hidden}
+  + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
     + [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md) 
