@@ -630,37 +630,33 @@ Solution
 
 ### AEM Guides panel does not browse to the opened file location { .section}
 
-Issue
-:   When you choose to open a file for editing in Oxygen XML Author from AEM server, the file is opened for editing in Oxygen XML Author. However, AEM Guides panel does not show the location of the file in the navigation tree.
+Issue: When you choose to open a file for editing in Oxygen XML Author from AEM server, the file is opened for editing in Oxygen XML Author. However, AEM Guides panel does not show the location of the file in the navigation tree.
 
-Solution
-:   This issue has been observed in scenarios wherein the file path contains /content/dam twice in it. By default, all assets in AEM are stored under the /content/dam folder. If you upload or create a folder structure that also contains /content/dam in it, then this issue is observed. You can perform all normal operations on such files, however their location within the navigation tree is not shown by default. To access such file in the navigation tree, you have to manually browse to the file’s location. Note that in the navigation tree the duplicate /content/dam path is replaced with /content/assets.
+Solution: This issue has been observed in scenarios wherein the file path contains /content/dam twice in it. By default, all assets in AEM are stored under the /content/dam folder. If you upload or create a folder structure that also contains /content/dam in it, then this issue is observed. You can perform all normal operations on such files, however their location within the navigation tree is not shown by default. To access such file in the navigation tree, you have to manually browse to the file’s location. Note that in the navigation tree the duplicate /content/dam path is replaced with /content/assets.
 
 ### Configure logging { .section}
 
-Issue
-:   By default, the Oxygen Plugin for AEM Guides does not generate any logs, which makes it difficult to debug any error scenario.
+Issue: By default, the Oxygen Plugin for AEM Guides does not generate any logs, which makes it difficult to debug any error scenario.
 
-Solution
-:   Perform the following steps to enable logs generation feature in the Plugin:
+Solution: Perform the following steps to enable logs generation feature in the Plugin:
 
     1.  Browse to the Oxygen XML Author’s install location.
 
-    2.  Open the oxygenAuthor19.1.vmoptions file in a text editor.
+    1.  Open the oxygenAuthor19.1.vmoptions file in a text editor.
 
         **Note:**
 
         The file’s version number might differ based on the version number of the application installed on your system.
 
-    3.  Append the following line in the file:
+    1.  Append the following line in the file:
 
         ```
         -Djava.util.logging.config.file=./log.properties
         ```
 
-    4.  Save and close the file.
+    1.  Save and close the file.
 
-    5.  In the same location, create a file named log.properties with the following content:
+    1.  In the same location, create a file named log.properties with the following content:
 
         ```
         handlers=java.util.logging.FileHandler
@@ -672,9 +668,9 @@ Solution
         java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
         ```
 
-    6.  Save and close the file.
+    1.  Save and close the file.
 
-    7.  Start Oxygen XML Author.
+    1.  Start Oxygen XML Author.
 
 
     The plugin now creates logs in the user’s home directory with the file name aem-pluginX.log \(*where X denotes the rotation number*\).
