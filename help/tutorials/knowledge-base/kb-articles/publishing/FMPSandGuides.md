@@ -7,8 +7,8 @@ description: Publishing with FMPS using AEM Guides
 
 # FrameMaker Publishing Server (FMPS) and AEM Guides
 
-**AEM Guides integration with FrameMaker Publishing Server could your solution if you looking high quality automated publishing.  
-Below article will help you in Setting up and running FMPS with AEM Guides.**
+**AEM Guides integration with FrameMaker Publishing Server could be  your solution if you are  looking for  high quality automated publishing.  
+Below article will help you in setting up and running FMPS with AEM Guides.**
 
 ## Compatibility of FMPS with AEM Guides :
 
@@ -43,20 +43,20 @@ Using FMPS, you may automatically publish **PDF, Responsive HTML5**, and **Epub*
 
 From the "Generate PDF using" menu, choose FrameMaker Publishing Server.
 
-The user can provide "Settings File(.sts)" and "ditaval. Filtering will be done using Ditaval based on the conditions you supply.
+The user can provide "settings File(.sts)" and "ditaval. Filtering will be done using Ditaval based on the conditions you supply.
 
--   **Setting file**: FrameMaker /FMPS Publish setting which contains all those settings which you want FMPS to honour while publishing For example: ,Generating output with customised template ,Generating Marks and Bleeds(PDF) , Generating PDF with TOC , index etc .
--   **FMPS present:** Pre-defined combination of Ditaval and Settings file , Instead of giving separate Ditaval and settings file , User can pre-create FMPS preset which can be re-used for publishing need.
+-   **setting file**: FrameMaker /FMPS Publish setting which contains all those settings which you want FMPS to honour while publishing For example: ,Generating output with customised template ,Generating Marks and Bleeds(PDF) , Generating PDF with TOC , index etc .
+-   **FMPS present:** Pre-defined combination of Ditaval and settings file , Instead of giving separate Ditaval and settings file , User can pre-create FMPS preset which can be re-used for publishing need.
 
-**Note:**  If you don’t select any of Settings or FMPS Preset then FMPS will publish with default system setting.
+**Note:**  If you don’t select any of settings or FMPS Preset then FMPS will publish with default system setting.
 
-If you have selected FMPS Preset and also provided Settings/Ditaval file from AEM then this will conflict and FMPS Preset will be given precedence over custom Settings/Ditaval file.
+If you have selected FMPS Preset and also provided settings/Ditaval file from AEM then this will conflict and FMPS Preset will be given precedence over custom settings/Ditaval file.
 
 ### Baseline Publishing using FMPS:
 
 You can Publish your already created baselines with FMPS2020.0.2 or higher version.
 
-**Sample FMPS Settings file(.sts file) to get started :** [Link](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (unzip this file)
+**Sample FMPS settings file(.sts file) to get started :** [Link](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (unzip this file)
 
 ## FAQ and Troubleshooting:
 
@@ -75,7 +75,7 @@ If you are using UUID then make sure you have Checked “Use UUID based referenc
 
 - ### My settings/Ditaval are not getting applied in final published output
 
-Make sure you are not selecting both Setting/Ditaval file and FMPS Preset parallelly.Verify output manually using FrameMaker
+Make sure you are not selecting both setting/Ditaval file and FMPS Preset parallelly.Verify output manually using FrameMaker
 
 - ### Baseline not getting published from FMPS
 
