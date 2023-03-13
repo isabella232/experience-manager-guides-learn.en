@@ -1,9 +1,9 @@
 ---
-title: Native PDF Publish Feature | Work with change bars  
+title: Native PDF Publish Feature | Work with custom change bars styles  
 description: Learn how to apply styles on change bars.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 ---
-# Work with styles on change bars
+# Work with custom change bars styles
 
 A change bar is a vertical line that visually identifies new or revised content. AEM Guides allows you to show a change bar on the left of the changed content within the topics and also the changed topics in the TOC of the PDF output.  
 

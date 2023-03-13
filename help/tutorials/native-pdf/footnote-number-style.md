@@ -1,8 +1,8 @@
 ---
-title: Native PDF Publish Feature | Apply style on the numbers in footnotes
+title: Native PDF Publish Feature | Use custom styles in footnotes
 description: Learn how to Apply style on the numbers in footnotes.
 ---
-# Apply style on the numbers in footnotes
+# Use custom styles in footnotes
 
 Footnotes are notes placed at the bottom of a page that comments on or cites a reference for a designated part of the text. 
 
