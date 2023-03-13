@@ -70,7 +70,7 @@ You can publish your already created baselines with FMPS2020.0.2 or higher versi
 
 >If you are using UUID, then make sure you have checked "Use UUID based referencing" in FrameMaker Edit Preferences and conversely for non-UUID AEM guides.
 
--   ### My settings/ditaval are not getting applied in the final published output ###
+-   ### My settings/ditaval are not getting applied in the final published output 
 
 >Verify that you are not simultaneously choosing the FMPS preset and the setting/diaval file. Use FrameMaker to manually check output.
 
