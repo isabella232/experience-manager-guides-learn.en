@@ -1,8 +1,6 @@
 ---
 title: Oxygen Plugin for Adobe Experience Manager Guides
 description: Learn how to use Oxygen Plugin for Adobe Experience Manager Guides to create and manage your content.
-hide: yes
-hidefromtoc: yes
 ---
 
 # Oxygen Plugin for Adobe Experience Manager Guides {#id1645H6010Q5}
@@ -13,7 +11,9 @@ The Oxygen Plugin for Adobe Experience Manager Guides \(later referred to as Oxy
 
 The Oxygen Plugin for AEM Guides is made available through your Adobe Software Distribution Portal. Search for "oxygen" in the Experience Manager tab and then download the plugin installer from your [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
-**Note:** Check for the Oxygen Connector version compatibility from the release notes for the specific Adobe Experience Manager Guides.
+>[!NOTE]
+>
+>Check for the Oxygen Connector version compatibility from the release notes for the specific Adobe Experience Manager Guides.
 
 Once you have the installer, install it on your local machine where the Oxygen XML Author is installed. Before you begin the installation process, you must ensure that your system meets the technical requirements to install the Oxygen Plugin for AEM Guides.
 
@@ -32,9 +32,9 @@ Once you have the installer, install it on your local machine where the Oxygen X
 
 ### Install the plugin on Windows 
 
-**Important:**
-
-If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article for uninstallation instructions.
+>[!Important]
+>
+>If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article for uninstallation instructions.
 
 Perform the following steps on the system where Oxygen XML Author is installed:
 
@@ -59,16 +59,16 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
     ![](images/oxygen-aem-connector.png)
 
-    **Note:**
-
-    If you do not see the AEM Guides panel, see the workarounds in the troubleshooting section—[Missing AEM Guides panel](#id192BH200ZAX).
+    >[!NOTE]
+    >
+    >If you do not see the AEM Guides panel, see the workarounds in the troubleshooting section—[Missing AEM Guides panel](#id192BH200ZAX).
 
 
 ### Install the plugin on Mac 
 
-**Important:**
-
-If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article uninstallation instructions.
+>[!Important]
+>
+>If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article uninstallation instructions.
 
 Perform the following steps on the system where Oxygen XML Author is installed:
 
@@ -78,9 +78,9 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
     The .dmg file contains an aem-connector-x.x folder and a aem-connector-x.x-setup file.
 
-    **Note:**
-
-    x.x in the filenames is the version number of the plugin.
+    >[!NOTE]
+    >
+    >x.x in the filenames is the version number of the plugin.
 
 1.  Copy the aem-connector-x.x folder in the plugins folder of Oxygen XML Author.
 1.  Double-click the aem-connector-x.x-setup file to launch the installer.
@@ -91,9 +91,9 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
     ![](images/oxygen-aem-connector-mac.png)
 
-    **Note:**
-
-    If you do not see the AEM Guides panel, see the workarounds in the troubleshooting section—[Missing AEM Guides panel](#id192BH200ZAX).
+    >[!NOTE]
+    >
+    >If you do not see the AEM Guides panel, see the workarounds in the troubleshooting section—[Missing AEM Guides panel](#id192BH200ZAX).
 
 
 ### Install the package for enabling document editing feature from AEM web interface {#id182CE0Q0TY4}
@@ -128,9 +128,9 @@ As an AEM administrator, perform the following steps to install the package:
 
     **Edit in Oxygen** option is available in the toolbar. For more information about using this option, see [Open DITA topic in Oxygen XML Author from AEM web interface](#id182CE0I905Z).
 
-    **Note:**
-
-    The **Edit in Oxygen** option is visible when you select one DITA topic. If you select multiple topics, the option will not be visible.
+    >[!NOTE]
+    >
+    >The **Edit in Oxygen** option is visible when you select one DITA topic. If you select multiple topics, the option will not be visible.
 
 
 ## Configure the Oxygen Plugin for AEM Guides {#id1826KF00AHS}
@@ -147,7 +147,9 @@ JxBrowser is used for SSO Authentication by the Oxygen connector plugin. It is a
 
 Update the given files to configure the web authentication settings in the Oxygen Plugin for AEM Guides:
 
-**Note:** Take a backup of the file before updating it.
+>[!NOTE]
+>
+>Take a backup of the file before updating it.
 
 **For Mac and Oxygen 24.1**
 
@@ -177,9 +179,9 @@ Add the following lines in the oxygenAuthor.bat
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
-**Note:**
-
-You need to run oxygen from oxygenAuthor.sh for Mac and oxygenAuthor.bat for Windows as an administrator.
+>[!NOTE]
+>
+>You need to run oxygen from oxygenAuthor.sh for Mac and oxygenAuthor.bat for Windows as an administrator.
 
 ### General settings 
 
@@ -187,7 +189,7 @@ Perform the following steps to configure the connection settings in the Oxygen P
 
 1.  In the AEM Guides panel, click the settings icon and then select **Settings**.
 
-    ![](images/Settings.png)
+    ![](images/settings.png)
 
 1.  Specify the following details:
     -   **Server URL**: URL of the AEM server, for example:
@@ -198,9 +200,9 @@ Perform the following steps to configure the connection settings in the Oxygen P
 
         In the above URL, specify the host name and port of the server where AEM server is deployed.
 
-        **Important:**
-
-        If your AEM server is deployed on port 80 or 443, then you do not need to specify it in the URL.
+        >[!Important]
+        >
+        >If your AEM server is deployed on port 80 or 443, then you do not need to specify it in the URL.
 
     -   **Authentication:** Choose from **Basic \(Username/Password\)** or **Web Authentication**. In case you select **Basic** authentication you need to enter the **Username** and **Password** in the Preferences dialog.
 
@@ -228,7 +230,7 @@ Perform the following steps to configure profiling attributes:
 
 1.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
 
-    ![](images/DITA%20Extension.png)
+    ![](images/dita-extension.png)
 
 1.  In the **Extensions** tab, make the following changes:
 1.  -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
@@ -280,7 +282,9 @@ The following screen shows the AEM Guides panel.
 -   **Connect**: Select this option to connect to the AEM server. The option is disabled when Oxygen XML Author is connected to the AEM Server.
 -   **Refresh**: Select this option to get the latest status of the files and folder from the AEM repository.
 
-    **Note:** Ensure that you save your files before you refresh them. When you select **Refresh** option, you get a warning to save your files before refreshing them. If you haven't saved your files, you can click **Cancel** and save them.
+    >[!NOTE]
+    >
+    >Ensure that you save your files before you refresh them. When you select **Refresh** option, you get a warning to save your files before refreshing them. If you haven't saved your files, you can click **Cancel** and save them.
 
 -   **Settings**: You can use this option to open the general Preferences dialog of the Plugin.
 -   **Logout**: Select this option to close the AEM server connection. This option is available only if you are using the Web Authentication mode.
@@ -325,9 +329,9 @@ Once you have connected to the AEM repository, you can open files for editing in
 
 If you have selected the **Auto-Checkout File when Opened** option \(in the Preferences dialog\), then on opening a file, the file is automatically checked out and is available for editing. To open a file, you can either double-click on a file name or right-click on the file name and choose **Open** from the context menu. If this option is not selected, then the file is opened in read-only mode.
 
-**Note:**
-
-You can also double-click on a file to open it.
+>[!NOTE]
+>
+>You can also double-click on a file to open it.
 
 ### Open file in AEM Guides' editor {#id195GH0V30KX}
 
@@ -364,9 +368,9 @@ When a file is checked-out, the icon of the file changes to show its locked stat
 
 In the above screenshot, a file checked out by other user is shown with a black colored lock icon \(A\). File checked out by the current user is shown with a green colored lock \(B\).
 
-**Note:**
-
-If the checked-out file is deleted or moved to any other folder in AEM, you get an error message when you check-in the file. Make sure that the checked-out file is not moved or deleted using the AEM web interface.
+>[!NOTE]
+>
+>If the checked-out file is deleted or moved to any other folder in AEM, you get an error message when you check-in the file. Make sure that the checked-out file is not moved or deleted using the AEM web interface.
 
 ### Check in a file {#id182CF0J0FHS}
 
@@ -391,15 +395,15 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
 1.  \(Optional\) In the Check-In dialog, add a comment in **Version Comments** text box.
 
-    **Note:**
-
-    This comment is displayed in the AEM version history of the file.
+    >[!NOTE]
+    >
+    >This comment is displayed in the AEM version history of the file.
 
 1.  Click **OK**.
 
-**Note:**
-
-If the checked-out file is deleted or moved to any other folder in AEM, you get an error message when you check-in the file. Make sure that the checked-out file is not moved or deleted using the AEM web interface.
+>[!NOTE]
+>
+>If the checked-out file is deleted or moved to any other folder in AEM, you get an error message when you check-in the file. Make sure that the checked-out file is not moved or deleted using the AEM web interface.
 
 ### Files Checked-Out in AEM Guides View 
 
@@ -506,7 +510,7 @@ Perform the following steps to search topics:
 
     The result is displayed in the Search Results tab as a list with the file path. If there is no matching result for your search query, No results found in <path of the selected folder\> message is displayed.
 
-    ![](images/Search.png)
+    ![](images/search.png)
 
 1.  \(Optional\) Double-click a file in the search result to open it in Oxygen XML Author.
 1.  To go back to the AEM Repository view, do one of the following:
@@ -517,9 +521,9 @@ Perform the following steps to search topics:
 
 You can open and edit your DITA topic in Oxygen XML Author from the AEM web interface. You need to install a package in AEM to enable this option. For more information about package installation, see [Install the package for enabling document editing feature from AEM web interface](#id182CE0Q0TY4).
 
-**Note:**
-
-The **Edit in Oxygen** option is accessible from various places in AEM: when a topic is selected, when a topic is previewed, or from Topics and Reports tab of DITA map console. If you select multiple topics, then the option is not visible in the toolbar.
+>[!NOTE]
+>
+>The **Edit in Oxygen** option is accessible from various places in AEM: when a topic is selected, when a topic is previewed, or from Topics and Reports tab of DITA map console. If you select multiple topics, then the option is not visible in the toolbar.
 
 **Open a DITA topic**
 
@@ -527,9 +531,9 @@ Perform the following steps to open a DITA topic in Oxygen XML Author:
 
 1.  Select a topic in your assets and click **Edit in Oxygen** option in the toolbar.
 
-    **Note:**
-
-    If the topic is not checked out, then it is first checked out and then opened in Oxygen in the edit mode.
+    >[!NOTE]
+    >
+    >If the topic is not checked out, then it is first checked out and then opened in Oxygen in the edit mode.
 
 1.  Select Oxygen XML Author *<version\>* in the **Launch Application** message box. You can select **Remember my choice for AEM links** option to save your preference.
 
@@ -540,9 +544,9 @@ Perform the following steps to edit a DITA topic in Oxygen XML Author:
 1.  Select and check-out a topic in your assets.
 1.  Click **Edit in Oxygen** option in the toolbar.
 
-    **Note:**
-
-    If the topic is not checked out, then it is first checked out and then opened in Oxygen in the edit mode.
+    >[!NOTE]
+    >
+    >If the topic is not checked out, then it is first checked out and then opened in Oxygen in the edit mode.
 
 1.  Select Oxygen XML Author *<version\>* in the **Launch Application** message box. You can select **Remember my choice for AEM links** option to save your preference.
 1.  Edit the topic in Oxygen XML Author.
@@ -550,18 +554,18 @@ Perform the following steps to edit a DITA topic in Oxygen XML Author:
 
     For more information about checking-in a topic using Oxygen Plugin for AEM Guides, see [Check in a file](#id182CF0J0FHS).
 
-    **Note:**
-
-    Make sure that you check-in the topic using Oxygen Plugin for AEM Guides, if you check-in from the AEM web interface, the changes you make in Oxygen XML Author are not saved in the checked-in version of the topic.
+    >[!NOTE]
+    >
+    >Make sure that you check-in the topic using Oxygen Plugin for AEM Guides, if you check-in from the AEM web interface, the changes you make in Oxygen XML Author are not saved in the checked-in version of the topic.
 
 
 ## Work with attribute profiles {#id1827JA002YK}
 
 AEM Guides allows you to easily create and associate conditional attributes using the relevant DITA attributes. You can define conditional attributes at the global level or folder level. The globally defined conditions are visible across all projects and folder level conditions are visible only in projects created within the specified folder. Content authors can use these conditional attributes to conditionalize content in their DITA topics or maps that they create or use. To know more about how to create conditional attributes in AEM using the AEM Guides, see *Configure conditional attributes for global or folder-level profiles* section in Install and configure Adobe Experience Manager Guides.
 
-**Note:**
-
-Make sure that you have added the conditional attributes in AEM and have set [Preference for profiling attribute customization](#id1827K0D0OHT) before you add conditional attributes to your content.
+>[!NOTE]
+>
+>Make sure that you have added the conditional attributes in AEM and have set [Preference for profiling attribute customization](#id1827K0D0OHT) before you add conditional attributes to your content.
 
 Perform the following steps to add conditional attributes to your content in Oxygen XML Author:
 
@@ -651,9 +655,9 @@ Solution: Perform the following steps to enable logs generation feature in the P
 
     1.  Open the oxygenAuthor19.1.vmoptions file in a text editor.
 
-        **Note:**
-
-        The file's version number might differ based on the version number of the application installed on your system.
+        >[!NOTE]
+        >
+        >The file's version number might differ based on the version number of the application installed on your system.
 
     1.  Append the following line in the file:
 
