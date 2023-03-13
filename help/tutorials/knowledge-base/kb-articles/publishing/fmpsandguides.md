@@ -1,5 +1,5 @@
 ---
-title: Publishing using FMPS in AEM Guides
+title: Publishing using FrameMaker Publishing Server(FMPS) in AEM Guides
 description: Publishing with FMPS using AEM Guides
 
 ---
@@ -41,14 +41,14 @@ Using FMPS, you may automatically publish **PDF, Responsive HTML5**, and **Epub*
 
 From the "Generate PDF using" menu, choose FrameMaker Publishing Server.
 
-The user can provide "settings File(.sts)" and "ditaval". Filtering will be done using ditaval based on the conditions you supply.
+The user can provide "settings File(.sts)" and "ditaval". Filtering is done using ditaval based on the conditions you supply.
 
--   **Setting file**: FrameMaker /FMPS Publish setting which contains all those settings which you want FMPS to honor while publishing For example: Generating output with the customized template, Generating Marks and Bleeds(PDF), Generating PDF with TOC etc.
+-   **Setting file**: A FrameMaker /FMPS Publish setting file that contains all of the settings that you want FMPS to respect when publishing. For instance, creating output with a customised template, creating Marks and Bleeds (PDF), and creating PDF with TOC.
 -   **FMPS preset:** It is pre-defined combination of ditaval and settings file. Instead of giving separate ditaval and settings files, the User can pre-create FMPS preset which can be re-used for publishing needs.
 
-**Note:** The default system setting will be used by FMPS to publish if you don't choose any of the settings or the FMPS preset.
+**Note:** The default system setting is be used by FMPS to publish if you don't choose any of the settings or the FMPS preset.
 
-There will be a conflict if you chose the FMPS preset and also provided custom settings or a ditaval file from AEM. In this case, the FMPS preset will take precedence over the custom settings or ditaval file.
+It is a conflict if you chose the FMPS preset and also provided custom settings or a ditaval file from AEM. In this case, the FMPS preset takes precedence over the custom settings or ditaval file.
 
 ### Baseline Publishing using FMPS:
 
