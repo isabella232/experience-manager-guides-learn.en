@@ -659,38 +659,37 @@ Issue: By default, the Oxygen Plugin for AEM Guides does not generate any logs, 
 
 Solution: Perform the following steps to enable logs generation feature in the Plugin:
 
-    1.  Browse to the Oxygen XML Author's install location.
+1. Browse to the Oxygen XML Author's install location.
 
-    1.  Open the oxygenAuthor19.1.vmoptions file in a text editor.
+1. Open the oxygenAuthor19.1.vmoptions file in a text editor.
 
-        >[!NOTE]
-        >
-        >The file's version number might differ based on the version number of the application installed on your system.
+    >[!NOTE]
+    >
+    >The file's version number might differ based on the version number of the application installed on your system.
 
-    1.  Append the following line in the file:
+1.  Append the following line in the file:
 
         ```java
         -Djava.util.logging.config.file=./log.properties
         ```
 
-    1.  Save and close the file.
+1. Save and close the file.
 
-    1.  In the same location, create a file named log.properties with the following content:
+1. In the same location, create a file named log.properties with the following content:
 
-        ```java
-        handlers=java.util.logging.FileHandler
-        java.util.logging.FileHandler.level = DEBUG
-        java.util.logging.FileHandler.limit = 1048576
-        java.util.logging.FileHandler.count = 5
-        java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-        java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-        java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
-        ```
+    ```java
+    handlers=java.util.logging.FileHandler
+    java.util.logging.FileHandler.level = DEBUG
+    java.util.logging.FileHandler.limit = 1048576
+    java.util.logging.FileHandler.count = 5
+    java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
+    java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+    java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+    ```
 
-    1.  Save and close the file.
+1. Save and close the file.
 
-    1.  Start Oxygen XML Author.
+1. Start Oxygen XML Author.
 
 
-    The plugin now creates logs in the user's home directory with the file name aem-pluginX.log \(*where X denotes the rotation number*\).
-
+The plugin now creates logs in the user's home directory with the file name aem-pluginX.log \(*where X denotes the rotation number*\).
