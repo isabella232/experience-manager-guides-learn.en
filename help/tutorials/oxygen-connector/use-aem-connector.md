@@ -621,8 +621,6 @@ Solution 3:
 Issue
 :   When you run any DITA-OT transformation on files that are processed by the Plugin, the transformation fails with the following error:
 
-    ![](images/proxy-server-path-error-new.png)
-
 Solution
 :   This issue has been fixed by adding a proxy server in-between DITA-OT and the Plugin. This proxy server processes and shares all files requested by DITA-OT for transformations. The default port on which this server has been configured is: `5972`. If you are using this port for some other server, then you can specify a different port for the proxy server.
 
