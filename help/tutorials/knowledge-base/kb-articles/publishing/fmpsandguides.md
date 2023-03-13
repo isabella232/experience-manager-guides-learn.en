@@ -7,7 +7,7 @@ description: Publishing with FMPS using AEM Guides
 # Publishing using FMPS in AEM Guides
 
 AEM Guides integration with FrameMaker Publishing Server could be your solution if you are looking for high-quality automated publishing.  
-Article will help you in setting up and running FMPS with AEM Guides.
+Article helps you in setting up and running FMPS with AEM Guides.
 
 ## Compatibility of FMPS with AEM Guides
 
@@ -16,15 +16,16 @@ Article will help you in setting up and running FMPS with AEM Guides.
 -   Latest Release: [Latest release info](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation
+
 Refer following for AEM Guides and FMPS installation and configuration
 
 ### AEM Guides
 
-Installation and configuration refer: [ 4.1 installtion & configurations ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+Installation and configuration refer: [ 4.1 installation & configurations ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ### FMPS
 
-For FMPS installation you can refer given [Youtube link ](https://www.youtube.com/watch?v=2deelyM5VA8&t) or [FMPS installtion & configuration ](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
+For FMPS installation you can refer given [YouTube link ](https://www.youtube.com/watch?v=2deelyM5VA8&t) or [FMPS installation & configuration ](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
 
 ## Required Configurations
 
@@ -43,11 +44,11 @@ From the "Generate PDF using" menu, choose FrameMaker Publishing Server.
 The user can provide "settings File(.sts)" and "ditaval". Filtering will be done using ditaval based on the conditions you supply.
 
 -   **Setting file**: FrameMaker /FMPS Publish setting which contains all those settings which you want FMPS to honor while publishing For example: Generating output with the customized template, Generating Marks and Bleeds(PDF), Generating PDF with TOC etc.
--   **FMPS preset:** It is pre-defined combination of ditaval and settings file.Instead of giving separate ditaval and settings files, the User can pre-create FMPS preset which can be re-used for publishing needs.
+-   **FMPS preset:** It is pre-defined combination of ditaval and settings file. Instead of giving separate ditaval and settings files, the User can pre-create FMPS preset which can be re-used for publishing needs.
 
-**Note:** If you don’t select any of the settings or FMPS preset then FMPS will publish with the default system setting.
+**Note:** The default system setting will be used by FMPS to publish if you don't choose any of the settings or the FMPS preset.
 
-If you have selected FMPS preset and also provided settings/ditaval file from AEM then this will conflict and FMPS preset will be given precedence over custom settings/ditaval file.
+There will be a conflict if you chose the FMPS preset and also provided custom settings or a ditaval file from AEM. In this case, the FMPS preset will take precedence over the custom settings or ditaval file.
 
 ### Baseline Publishing using FMPS:
 
@@ -57,30 +58,29 @@ You can publish your already created baselines with FMPS2020.0.2 or higher versi
 
 ## FAQ and Troubleshooting:
 
--   #### FMPS publishing fails with “Timeout Exception” ####
+-   ### FMPS publishing fails with “Timeout Exception”
 
 >Check and increase the value of “FMPS timeout” (Seconds) in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager”
 
--   #### Unable to get FMPS preset in the dropdown ####
+-   ### Unable to get FMPS preset in the dropdown
 
 >Make Sure you have a pre-defined FMPS preset created on Server and that your connection settings are correct.
 
--   #### I am getting Blank PDFs when publishing ####
+-   ### I am getting Blank PDFs when publishing
 
->If you are using UUID then make sure you have checked “Use UUID based referencing” in FrameMaker Edit Preferences and vice versa for non-UUID AEM guides.
+>If you are using UUID, then make sure you have checked “Use UUID based referencing” in FrameMaker Edit Preferences and conversely for non-UUID AEM guides.
 
--   #### My settings/ditaval are not getting applied in the final published output ####
+-   ### My settings/ditaval are not getting applied in the final published output ###
 
->Make sure you are not selecting both setting/ditaval file and FMPS preset parallelly. Verify output manually using FrameMaker.
+>Verify that you are not simultaneously choosing the FMPS preset and the setting/diaval file. Use FrameMaker to manually check output.
 
--   #### The baseline not getting published from FMPS ####
+-   ### The baseline not getting published from FMPS
 
 >FMPS2020.0.2 or later versions are compatible with baseline publishing.
->Make sure your baseline was properly created; to check, go to the Map Dashboard-- Topics-- Download  Map and choose "Use Baseline".
+>Make sure that your baseline was properly created; to check, go to the Map Dashboard-- Topics-- Download  Map and choose "Use Baseline".
+-   ### Publish Tasks from FMPS takes more time than other Engines
 
--   #### Publish Tasks from FMPS takes more time than other Engines ####
-
->There will be an ideal fixed header of approx. 3-4 min only while publishing from FMPS than other Engines, if you think it is more than that then check with your FMPS administrator or Contact Adobe Support.
+>When publishing from FMPS, the ideal fixed header time is approximately 3-4 minutes; if you believe it is longer, check with your FMPS administrator or contact Adobe Support.
 
 ## Other Resources:
 
