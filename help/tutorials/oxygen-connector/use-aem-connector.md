@@ -32,7 +32,7 @@ Once you have the installer, install it on your local machine where the Oxygen X
 
 ### Install the plugin on Windows 
 
->[!Important]
+>[!IMPORTANT]
 >
 >If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article for uninstallation instructions.
 
@@ -66,7 +66,7 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
 ### Install the plugin on Mac 
 
->[!Important]
+>[!IMPORTANT]
 >
 >If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article uninstallation instructions.
 
@@ -200,7 +200,7 @@ Perform the following steps to configure the connection settings in the Oxygen P
 
         In the above URL, specify the host name and port of the server where AEM server is deployed.
 
-        >[!Important]
+        >[!IMPORTANT]
         >
         >If your AEM server is deployed on port 80 or 443, then you do not need to specify it in the URL.
 
