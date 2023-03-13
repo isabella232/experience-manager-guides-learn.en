@@ -4,7 +4,7 @@ description: Publishing with FMPS using AEM Guides
 
 ---
 
-# Publishing using FMPS in AEM Guides
+# Publishing using FrameMaker Publishing Server(FMPS) in AEM Guides
 
 AEM Guides integration with FrameMaker Publishing Server could be your solution if you are looking for high-quality automated publishing.  
 Article helps you in setting up and running FMPS with AEM Guides.
@@ -58,9 +58,9 @@ You can publish your already created baselines with FMPS2020.0.2 or higher versi
 
 ## FAQ and Troubleshooting:
 
--   ### FMPS publishing fails with “Timeout Exception”
+-   ### FMPS publishing fails with "Timeout Exception"
 
->Check and increase the value of “FMPS timeout” (Seconds) in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager”
+>Check and increase the value of "FMPS timeout" (Seconds) in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager"
 
 -   ### Unable to get FMPS preset in the dropdown
 
@@ -68,7 +68,7 @@ You can publish your already created baselines with FMPS2020.0.2 or higher versi
 
 -   ### I am getting Blank PDFs when publishing
 
->If you are using UUID, then make sure you have checked “Use UUID based referencing” in FrameMaker Edit Preferences and conversely for non-UUID AEM guides.
+>If you are using UUID, then make sure you have checked "Use UUID based referencing" in FrameMaker Edit Preferences and conversely for non-UUID AEM guides.
 
 -   ### My settings/ditaval are not getting applied in the final published output ###
 
