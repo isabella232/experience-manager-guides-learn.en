@@ -8,20 +8,20 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 A change bar is a vertical line that visually identifies new or revised content. AEM Guides allows you to show a change bar on the left of the changed content within  topics and also the changed topics in the TOC of the PDF output.  
 
 For more details on showing the change bar, see *Create PDF with Change Bar between Published Versions* setting in
-[Publish PDF Output](../web-editor/native-pdf-web-editor.md)
+[Publish PDF Output](../web-editor/native-pdf-web-editor.md).
 
 ## Changed content within topics
 
 The change bar appears on the left of the content in the topics that has been inserted, changed, or deleted. 
 
-You can modify the following styles to show the changed content and aong with the change bars. 
+You can modify the following styles to show the changed content and among with the change bars. 
 
 
 >[!NOTE]
 >
 >These styles are a part of `layout.css` file, and you can edit them as required.
 
-For example, you can use the color attribute in the `.inserted-block` style to define the way your inserted content appears in the publihsed PDF output. 
+For example, you can use the color attribute in the `.inserted-block` style to define the way your inserted content appears in the published PDF output. 
 
 
 ```css
@@ -38,7 +38,7 @@ For example, you can use the color attribute in the `.inserted-block` style to d
 ...
 ```
 
-Similarly, you can use the `.deleted-block` style to define the way your deleted content appears in the publihsed PDF output. 
+Similarly, you can use the `.deleted-block` style to define the way your deleted content appears in the published PDF output. 
 
 ```css
 ...
@@ -88,6 +88,6 @@ For example, you can add a change bar of green color.
 ```
  
 
-This will show a green change bar against all topics in the TOC where some updated have been done. You can click on the changed topic in the TOC and view the detailed changes.
+This shows a green change bar against all topics in the TOC where some updated have been done. You can click the changed topic in the TOC and view the detailed changes.
 
 <img src="./assets/changed-bar-TOC.png" alt="Changed bar TOC" width=500>

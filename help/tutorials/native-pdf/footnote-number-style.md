@@ -21,9 +21,9 @@ content: "(" counter(footnote, decimal) ")";
 ...
 ```
 
-In the given example, you a bracket is added before and after the footnote call and marker: 
+In the given example, a bracket is added before and after the footnote call and marker: 
 
-* Add the suffix "(" and the prefix ")" using the content attribute in the `footnote-call` style which will add the brackets around the footnote number in the topic content. 
-* Add the suffix "(" and the prefix ")" using the content attribute in the `footnote-marker` style which will add the brackets around the footnote number at the bottom of the page. 
+* Add the prefix "(" and the suffix ")" using the content attribute in the `footnote-call` style which will add the brackets around the footnote number in the topic content. 
+* Add the prefix "(" and the suffix ")" using the content attribute in the `footnote-marker` style which will add the brackets around the footnote number at the bottom of the page. 
 
 <img src="./assets/pdf-output-footer-numbers.png" alt= "Footer in PDF output" width=500>
