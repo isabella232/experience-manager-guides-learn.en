@@ -35,10 +35,13 @@ breadcrumb-title: AEM Guides Tutorials
     + [PDF Template](./native-pdf/pdf-template.md)
     + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
     + [Design a page layout](./native-pdf/design-page-layout.md)
-    + [Work with the common content styles](./native-pdf/stylesheet.md)
-    + [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
-    + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
-    + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
+    + Common content styles {#content-styles}
+        + [Work with the common content styles](./native-pdf/stylesheet.md)
+        + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
+        + [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
+        + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
+        + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
+        + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
   + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + Translation {#translation}
   + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
