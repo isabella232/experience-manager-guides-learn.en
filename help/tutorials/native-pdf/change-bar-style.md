@@ -6,8 +6,7 @@ description: Learn how to apply styles on change bars.
 
 A change bar is a vertical line that visually identifies new or revised content. AEM Guides allows you to show a change bar on the left of the changed content within  topics and also the changed topics in the TOC of the PDF output.  
 
-For more details on showing the change bar, see *Create PDF with Change Bar between Published Versions* setting in
-[Publish PDF Output](../web-editor/native-pdf-web-editor.md).
+For more details on showing the change bar, see *Create PDF with Change Bar between Published Versions* setting in [Publish PDF Output](../web-editor/native-pdf-web-editor.md).
 
 ## Changed content within topics
 
