@@ -1,7 +1,6 @@
 ---
 title: Native PDF Publish Feature | Work with custom change bars styles  
 description: Learn how to apply styles on change bars.
-exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 ---
 # Work with custom change bars styles
 
