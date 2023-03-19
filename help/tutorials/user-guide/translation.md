@@ -7,8 +7,8 @@ AEM Guides comes with powerful capabilities that enable you to translate your co
 -   **Machine translation** - This is the default service in AEM wherein the content is immediately translates using the machine translation in real time. Out-of-the-box AEM provides the capability to connect to Microsoft Translator.
 
     >[!NOTE]
->
-> Microsoft Translator is available only as a trial license.
+    >
+    > Microsoft Translator is available only as a trial license.
 
 
 -   **[Best practices for content translation](translation-first-time.md)**  

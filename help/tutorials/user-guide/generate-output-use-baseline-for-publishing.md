@@ -51,8 +51,8 @@ Perform the following steps to create a baseline:
 1.  Click the **Browse All Topics** link to load all topics and media files referred from the DITA map.The UUID of topics and media files is also shown below the topic title or the \(media\) file name.
 
     >[!NOTE]
->
-> If you have a very large set of files in your DITA map, with nested maps and topics, then clicking Browse All Topics could take some time to load all files.
+    >
+    > If you have a very large set of files in your DITA map, with nested maps and topics, then clicking Browse All Topics could take some time to load all files.
 
     The contents of your map are presented in the three sections: the map file, Content \(topic references\), and Referred Content \(nested topics, maps, and other assets\). Once you have all the referenced content available, you can individually select the version of the topic that you want to use in your baseline.
 
@@ -65,8 +65,8 @@ Perform the following steps to create a baseline:
     If the referenced content or assets \(topic, sub-maps, images, or videos\) are not versioned \(such as, newly uploaded content\), then creating a baseline will create a version for such files. However, if your files are versioned, then no incremental version is created for those files. This behavior is controlled by the auto-create version setting, which is enabled by default. This is also required for translating content wherein the translation process expects all files to have a version.
 
     >[!NOTE]
->
-> If you want to specify a different version for any particular resource, you can do so by choosing the desired version from the **Version** drop-down list.
+    >
+    > If you want to specify a different version for any particular resource, you can do so by choosing the desired version from the **Version** drop-down list.
 
 1.  Click **Save**.
 
@@ -125,8 +125,8 @@ Perform the following steps to add a label to multiple topics and referenced con
 1.  On the Baselines page, select a baseline containing the topics and referenced content on which you want to add a label.
 
     >[!NOTE]
->
-> Ensure that your baseline does not have the latest version of any topic or asset. A label can only be added to a versioned topic or asset.
+    >
+    > Ensure that your baseline does not have the latest version of any topic or asset. A label can only be added to a versioned topic or asset.
 
 1.  Click **Add Labels**.
 

@@ -18,8 +18,8 @@ Save All – ![](images/SaveFloppy_icon.svg)
 :   Saves the changes you have made in all opened topics. If you have multiple topics opened in the Web Editor, clicking **Save All** or using the **Crtl**+**S** shortcut keys saves all documents in one click. You do not have to individually save each document.
 
     >[!NOTE]
->
-> The Save operation does not create a new version of your topics. To create a new version, choose Save As New Version.
+    >
+    > The Save operation does not create a new version of your topics. To create a new version, choose Save As New Version.
 
 Save As New Version– ![](images/save-revision-icon.png)
 :   Saves the changes you have made in your topic and also creates a new version of your topic. If you are working on a newly created topic, the version information is shown as **none**.
@@ -49,8 +49,8 @@ Save As New Version– ![](images/save-revision-icon.png)
     ![](images/mouse-hover-on-title_cs.png)
 
     >[!NOTE]
->
-> Once a version of your topic is available, you can also add labels to your topic. These labels can then be used to create a baseline for publishing a specific version of your document. For more information about using labels in your topics, see [Use labels](web-editor-use-label.md#).
+    >
+    > Once a version of your topic is available, you can also add labels to your topic. These labels can then be used to create a baseline for publishing a specific version of your document. For more information about using labels in your topics, see [Use labels](web-editor-use-label.md#).
 
 Undo and Redo – ![](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
 :   Undo or Redo the last action.
@@ -73,8 +73,8 @@ Editor Settings – ![](images/editor_settings_icon.svg)
 :   The Editor Settings are only available to administrative users. Using the preferences, an administrator can configure the following settings:
 
     >[!NOTE]
->
-> If you are updating any default settings, you should reopen documents for the changes to come into effect.
+    >
+    > If you are updating any default settings, you should reopen documents for the changes to come into effect.
 
     -   **General**: The General settings allow you to configure the dictionary to use with the Web Editor. This tab contains three sections: **Spell Check**, **Condition**, and **Authoring**.
 
@@ -103,8 +103,8 @@ Editor Settings – ![](images/editor_settings_icon.svg)
         ![](images/editor-setting-panel.png)
 
         >[!NOTE]
->
-> If a custom panel has been configured, then it also appears in the list of panels. You can toggle the switch to show or hide the custom panel. For more details on the configuration, see the C*onfigure a custom panel in the left panel* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+        >
+        > If a custom panel has been configured, then it also appears in the list of panels. You can toggle the switch to show or hide the custom panel. For more details on the configuration, see the C*onfigure a custom panel in the left panel* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     -   **Elements List**: As an administrator, you can control the list of elements that an author can insert using the [Insert Element](#id204SG30105Z) pop-up, and also define the display name for the element. The Elements List setting allows you to specify the element's name as per DITA specifications and a label that you want to use instead of the DITA defined element name:
 
@@ -147,8 +147,8 @@ User Preferences – ![](images/user_preference_editor_icon.svg)
         The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
         >[!NOTE]
->
-> The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar.
+        >
+        > The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar.
 
     -   **Base Path**: By default, when you access the AEM repository from the Web Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base Path to your working folder and the Repository View then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
 
@@ -156,8 +156,8 @@ User Preferences – ![](images/user_preference_editor_icon.svg)
 
 
     >[!NOTE]
->
-> If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
+    >
+    > If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
 
 Author, Source, and Preview modes
 :   For details about the various authoring and document viewing modes, see [Web Editor views](web-editor-views.md#).
@@ -226,8 +226,8 @@ Insert Image – ![](images/Image_icon.svg)
 :   Inserts an image at the current or next valid location. Click the Insert Image icon to open the Insert Image dialog and then search and select the image you want to insert.
 
     >[!NOTE]
->
-> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the [Upload Assets](#id2057BF0F05Z) workflow.
+    >
+    > You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the [Upload Assets](#id2057BF0F05Z) workflow.
 
     ![](images/insert-image.png)
 
@@ -248,8 +248,8 @@ Insert Image – ![](images/Image_icon.svg)
     You can also add other properties for an image file by selecting the required properties in the **Attributes** field.
 
     >[!NOTE]
->
-> You can also define clickable areas \(image map\) in your image. For more details, see [Insert/Edit Image Map](#id195TEB0005B).
+    >
+    > You can also define clickable areas \(image map\) in your image. For more details, see [Insert/Edit Image Map](#id195TEB0005B).
 
     **Context menu for image or media files**
 
@@ -270,8 +270,8 @@ Insert Multimedia – ![](images/insert-multimedia-icon.svg)
     On selecting the Audio or Video file option, you are shown the repository view to browse and select the desired file. If you choose YouTube or Vimeo, then you get the Insert Multimedia dialog. Paste the link of the video file in the Web Link field and click Insert to add the video at the current or next valid location in your document.
 
     >[!NOTE]
->
-> While adding a YouTube video link, you need to replace the string `watch?v=` with `embed` in the URL. For example, to add a YouTube video link: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, you need to add it as: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. This change ensures that the video gets embedded in the AEM Site and PDF output.
+    >
+    > While adding a YouTube video link, you need to replace the string `watch?v=` with `embed` in the URL. For example, to add a YouTube video link: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, you need to add it as: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. This change ensures that the video gets embedded in the AEM Site and PDF output.
 
     You can also add the Audio or Video File from the Insert Multimedia dialog. Select the Audio/Video File option and click the browse icon to launch the repository view. Select the audio or video file from the repository and click Select to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to see its preview.
 
@@ -300,17 +300,17 @@ Insert Cross Reference – ![](images/Reference_icon.svg)
 
     ![](images/ref-link-uuid_cs.png)
 
-:   >[!NOTE]
->
-> If the **Enable UUIDs** option is not enabled, then the relative path of the referenced content is shown.
+   >[!NOTE]
+    >
+    > If the **Enable UUIDs** option is not enabled, then the relative path of the referenced content is shown.
 
-:   >[!IMPORTANT]
->
-> Even though the relative path of the referenced content is shown in the **Link** property, internally the link is created using the UUID of the referenced content.
+   >[!IMPORTANT]
+    >
+    > Even though the relative path of the referenced content is shown in the **Link** property, internally the link is created using the UUID of the referenced content.
 
     >[!TIP]
->
-> See the References section in the Best practices guide for best practices around referencing content.
+    >
+    > See the References section in the Best practices guide for best practices around referencing content.
 
     **Filter Search**
 
@@ -321,8 +321,8 @@ Insert Cross Reference – ![](images/Reference_icon.svg)
     ![](images/reference-search-filters.png)
 
     >[!NOTE]
->
-> Your system administrator can also configure the text filters and show or hide other filters. For more details see Configure text filters section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >
+    > Your system administrator can also configure the text filters and show or hide other filters. For more details see Configure text filters section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general' are listed. You can also preview the content of the file.
 
@@ -338,8 +338,8 @@ Insert Reusable Content – ![](images/content-reuse-icon.svg)
     Based on the setting for inserting links, you could either see the UUID of the inserted content or the relative path in the Properties panel or the Source code view. The link is always created using the UUID of the referenced content. See Configure UUID-based links in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     >[!NOTE]
->
-> To add content before or after the referred content, use *Alt*+*Left* Arrow or Alt+*Right* Arrow keys to move the cursor to the desired location.
+    >
+    > To add content before or after the referred content, use *Alt*+*Left* Arrow or Alt+*Right* Arrow keys to move the cursor to the desired location.
 
     You can also embed the referred content within the topic by right-clicking on the referred content and choosing **Replace Reference With Content** from the context menu.
 
@@ -347,8 +347,8 @@ Insert Special Characters — ![](images/insert-special-chars-icon.svg)
 :   Inserts special characters in your topic. Click the Insert Special Character icon to open the Insert Special Character dialog.
 
     >[!NOTE]
->
-> AEM Guides provides movable and resizable dialog boxes. Dialogs that have two cross lines at the bottom-right corner can be resized. The cross lines in the Special Character dialog are shown below.
+    >
+    > AEM Guides provides movable and resizable dialog boxes. Dialogs that have two cross lines at the bottom-right corner can be resized. The cross lines in the Special Character dialog are shown below.
 
     ![](images/insert-special-char.png)
 
@@ -417,8 +417,8 @@ Toggle Tags View – ![](images/Label_icon.svg)
 
 
     >[!NOTE]
->
-> If a user enables the Tags View from the Web Editor, it remains enabled even across the sessions. This means that you don't have to enable the Tags View again to access it later.The default value for Tags View for a new user's session is determined by the tagsView property in the ui\_config.json file. For more details, see the *Configure default value for Tags View* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >
+    > If a user enables the Tags View from the Web Editor, it remains enabled even across the sessions. This means that you don't have to enable the Tags View again to access it later.The default value for Tags View for a new user's session is determined by the tagsView property in the ui\_config.json file. For more details, see the *Configure default value for Tags View* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Enable/Disable Track Changes ![](images/track-change-icon.svg)
 :   You can keep a track of all updates made on a document by enabling the Track Changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and green bar is shown for added content. In case there is addition and deletion on the same line, then both green and red bars are shown.
@@ -440,8 +440,8 @@ Enable/Disable Track Changes ![](images/track-change-icon.svg)
     If you want to accept or reject all changes with a single click, select **Accept All** or **Reject All**.
 
     >[!NOTE]
->
-> The Preview mode allows you to view the document with or without the changed content's markups. For more details, see the [Preview](web-editor-views.md#preview-mode-id19AAGL00163) mode.
+    >
+    > The Preview mode allows you to view the document with or without the changed content's markups. For more details, see the [Preview](web-editor-views.md#preview-mode-id19AAGL00163) mode.
 
 Merge – ![](images/merge-icon.svg)
 :   When you work in a multi-author environment, it becomes difficult to track what changes the other authors have made in a topic or map. The Merge feature gives you more control over not only viewing the changes, but also what changes are retained in the latest version of the document.
@@ -522,8 +522,8 @@ Version History – ![](images/version-history-web-editor-ico.svg)
     3.  Choose a version of the topic that you want to revert to in the **Select Version** drop-down list.
 
         >[!NOTE]
->
-> If a version has labels applied to it, they are also shown \(in brackets\) along with the version number.
+        >
+        > If a version has labels applied to it, they are also shown \(in brackets\) along with the version number.
 
         Once you choose a version from the drop-down list, the Revert to Selected Version option is made available. The preview window displays the differences between the current version and the selected version of the topic.
 
@@ -572,16 +572,16 @@ Version Label Management — ![](images/version-label-icon.svg)
         When you choose a different version of the topic from the version list, then the preview panel displays the changes in-between the current version and the selected version of the topic
 
         >[!NOTE]
->
-> If a label is already applied on a version, it is displayed next to the version number in the drop-down list and below the Select Version list. You can remove an existing label by clicking the \(**x**\) icon next to the label.
+        >
+        > If a label is already applied on a version, it is displayed next to the version number in the drop-down list and below the Select Version list. You can remove an existing label by clicking the \(**x**\) icon next to the label.
 
     4.  In case your administrator has defined a list of labels, then you are shown a drop-down list of the labels from where you can choose the labels that you want to apply. You can select multiple labels from the drop-down list.
 
         Else, you are shown a text box, wherein you can enter the labels that you want to add to your topic.
 
         >[!NOTE]
->
-> You cannot apply the same label on multiple versions of a topic. If you try to associate an existing label, then you are given an option to remove it from the existing version and apply it on the selected version of the topic.
+        >
+        > You cannot apply the same label on multiple versions of a topic. If you try to associate an existing label, then you are given an option to remove it from the existing version and apply it on the selected version of the topic.
 
     5.  Click **Add Label**.
 
@@ -628,8 +628,8 @@ Favorites — ![](images/favorite-collections.svg)
 
 
     >[!NOTE]
->
-> To remove an item from the favorites list, click the Options icon next to the file or folder in the Favorites list and choose **Remove from Favorites**.
+    >
+    > To remove an item from the favorites list, click the Options icon next to the file or folder in the Favorites list and choose **Remove from Favorites**.
 
 Repository View – ![](images/Repository_icon.svg)
 :   When you click the Repository View icon, you get a list of files and folders available in DAM.
@@ -691,8 +691,8 @@ Repository View – ![](images/Repository_icon.svg)
     -   **Collapse All**: Collapse all open folders in the repository and show only the root-level folders.
 
         >[!NOTE]
->
-> Use the **\>** icon next to a folder to expand it.
+        >
+        > Use the **\>** icon next to a folder to expand it.
 
     -   **Add to Favorites**: Adds the selected folder to favorites. You can choose to add it to an existing or new favorites collection.
 
@@ -723,8 +723,8 @@ Repository View – ![](images/Repository_icon.svg)
     -   **Check Out**: Get a lock on the selected file for editing. For a locked file, this option changes to **Check In**.
 
         >[!NOTE]
->
-> If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
+        >
+        > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
 
     -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 
@@ -737,8 +737,8 @@ Repository View – ![](images/Repository_icon.svg)
         -   If the file is checked out, you cannot delete it, and an error message is displayed.
 
             >[!NOTE]
->
-> If your administrator has prevented the deletion of checked out files, only then the error message is displayed. For more details, see *Prevent deletion of checked out files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+            >
+            > If your administrator has prevented the deletion of checked out files, only then the error message is displayed. For more details, see *Prevent deletion of checked out files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
         -   If the file is added to a favorites collection, the **Force Delete** dialog is displayed, and you can forcefully delete it.
         -   If the file is referenced from any other file then **Force Delete** dialog with the confirmation message is displayed, and you can forcefully delete the file:
@@ -746,13 +746,13 @@ Repository View – ![](images/Repository_icon.svg)
             ![](images/options-menu-force-delete.png)
 
             >[!NOTE]
->
-> If your administrator has given the file delete permission, then **Force Delete** is enabled. Else, **Force Delete** is disabled and a message is displayed that you do not have permission to delete referenced files. For more details, see *Prevent deletion of referenced files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+            >
+            > If your administrator has given the file delete permission, then **Force Delete** is enabled. Else, **Force Delete** is disabled and a message is displayed that you do not have permission to delete referenced files. For more details, see *Prevent deletion of referenced files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
         -   If you delete a referenced topic and you have opened the file containing references for edit, it will show the broken link for the referenced file.
         >[!NOTE]
->
-> You can also delete the selected file similarly using the Delete key of the keyboard.
+        >
+        > You can also delete the selected file similarly using the Delete key of the keyboard.
 
     -   **Copy**: You can choose from the following options:
 
@@ -882,8 +882,8 @@ Map View — ![](images/map-view-icon.svg)
     -   **Check Out**: Check out the selected file. For a checked out file, this option changes to **Check In**.
 
         >[!NOTE]
->
-> If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
+        >
+        > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
 
     -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
     -   **Copy**: You can choose from the following options:
@@ -907,8 +907,8 @@ Map View — ![](images/map-view-icon.svg)
     -   **Quick Generate**: Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
     >[!NOTE]
->
-> You can also open and edit the properties of selected topics in a DITA map from the **More Options** menu at the bottom of the Map View.
+    >
+    > You can also open and edit the properties of selected topics in a DITA map from the **More Options** menu at the bottom of the Map View.
 
 Outline View — ![](images/outline-icon.svg)
 :   When you click the Outline View icon, you get the hierarchical view of the elements used in the document.
@@ -965,8 +965,8 @@ Reusable Contents — ![](images/content-reuse-icon.png)
     ![](images/uuid-reusable-content-file-title_cs.png)
 
     >[!NOTE]
->
-> You can add multiple files to the reusable content list. Then you can insert the desired content from the Reusable Contents panel into your document.
+    >
+    > You can add multiple files to the reusable content list. Then you can insert the desired content from the Reusable Contents panel into your document.
 
     **Refresh**: Rechecks for all reusable content and displays a fresh list of reusable contents.
 
@@ -977,8 +977,8 @@ Reusable Contents — ![](images/content-reuse-icon.png)
         ![](images/insert-reusable-content_cs.png)
 
         >[!NOTE]
->
-> Note: The **Preview** option is also available in the context menu, which gives you a quick preview of the element before inserting it.
+        >
+        > Note: The **Preview** option is also available in the context menu, which gives you a quick preview of the element before inserting it.
 
     -   Drag-and-drop the reusable content item from the panel at the desired location in your document.
 
@@ -1024,8 +1024,8 @@ Glossary — ![](images/glossary.svg)
     ![](images/glossary-converted-terms-error.png)
 
     >[!NOTE]
->
-> Refresh the topic to view the converted terms.
+    >
+    > Refresh the topic to view the converted terms.
 
 Conditions — ![](images/conditions-icon.svg)
 :   The Conditions panel displays the conditional attributes defined by your administrator in the global or folder-level profile. You can add conditions to your content by simply dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition for easy identification.
@@ -1037,8 +1037,8 @@ Conditions — ![](images/conditions-icon.svg)
     However, in the Code view the conditions are separated using a space delimiter. When you add or edit a condition in Code view, ensure that multiple conditions are separated using a space.
 
     >[!IMPORTANT]
->
-> The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
+    >
+    > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
 
     ![](images/conditional-content-through-panel_cs.png)
 
@@ -1099,8 +1099,8 @@ Subject scheme — ![](images/subject_scheme_panel-icon.svg)
     2.  Save the file with a.ditamap extension and upload it to any folder in DAM.
 
         >[!NOTE]
->
-> You can add a reference to the subject scheme file in the parent DITA map.
+        >
+        > You can add a reference to the subject scheme file in the parent DITA map.
 
         ![](images/subject-scheme-root-map.png)
 
@@ -1144,8 +1144,8 @@ Snippets — ![](images/insert-snippet-icon.svg)
 :   Snippets are small content fragments that can be reused across various topics in your documentation project. The Snippets panel shows a collection of content snippets that you have created. To insert a snippet, drag-and-drop the snippet from the panel to the desired location in your topic. The Snippets panel allows you to add, edit, delete, preview, and insert a snippet.
 
     >[!IMPORTANT]
->
-> The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
+    >
+    > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
     ![](images/snippets-panel_cs.png)
 
@@ -1174,8 +1174,8 @@ Snippets — ![](images/insert-snippet-icon.svg)
 
 
     >[!NOTE]
->
-> From the context menu of a snippet entry, you can also choose to Edit, Delete, get a Preview, or Insert a Snippet.
+    >
+    > From the context menu of a snippet entry, you can also choose to Edit, Delete, get a Preview, or Insert a Snippet.
 
 Templates — ![](images/templates-icon.svg)
 :   The Templates panel is available to only administrators. Using this panel, and administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *Map* and *Topic* type templates.
@@ -1189,8 +1189,8 @@ Templates — ![](images/templates-icon.svg)
     Choose the type of template that you want to create from the **Template** drop-down list. Provide the **Title**, which appears in the Templates panel. The **Name** of the template is auto suggested based on the title, however, you can provide a different file name.
 
     >[!NOTE]
->
-> In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
+    >
+    > In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
 
     Once the template is created, you need to add it to your global or folder-level profile. After the template is added, your authors will start seeing the new template in the topic/map creation process.
 
@@ -1209,8 +1209,8 @@ Find and Replace — ![](images/FindAndReplace_icon.svg)
         -   **Current Map**: To search in the currently opened map
 
             >[!NOTE]
->
-> This option appears if you have already opened a map for editing.
+            >
+            > This option appears if you have already opened a map for editing.
 
         -   **Path**: To search on the selected path
         -   **Select Map**: To search in the selected map
@@ -1238,8 +1238,8 @@ Find and Replace — ![](images/FindAndReplace_icon.svg)
         -   **Current Map**: To search in the currently opened map
 
             >[!NOTE]
->
-> This option appears if you have already opened a map for editing.
+            >
+            > This option appears if you have already opened a map for editing.
 
         -   **Path**: To search on the selected path
         -   **Select Map**: To search in the selected map
@@ -1267,14 +1267,14 @@ Find and Replace — ![](images/FindAndReplace_icon.svg)
     9.  Click **Replace All in File** \( ![](images/replace-all-in-file-icon.svg)\)to replace all occurrences of the searched term in a single file with the replace term in a single click. You be shown a notification after replacing all the occurrences in the selected file.
 
         >[!NOTE]
->
-> Hover over a file from the search result list to see Replace all in File icon on the right of it. You also get the Ignore File icon to remove the file from the search result. The files which you ignore are removed from the list and the searched term is not replaced in them.
+        >
+        > Hover over a file from the search result list to see Replace all in File icon on the right of it. You also get the Ignore File icon to remove the file from the search result. The files which you ignore are removed from the list and the searched term is not replaced in them.
 
     10. Click **Replace All** \( ![](images/replace-all-in-file-icon.svg)\) on the right at the top of the list to replace all occurrences of the searched term in all the files with the replace term in a single click.
 
         >[!NOTE]
->
-> To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Editor Settings**.
+        >
+        > To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Editor Settings**.
 
 
     Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will see "Replace all in progress" status. You can also abort the replace all operation in between or see the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.

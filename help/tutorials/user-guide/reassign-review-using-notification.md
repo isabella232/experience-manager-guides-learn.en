@@ -14,8 +14,8 @@ Perform the following steps to re-assign a review task from the Inbox notificati
 1.  Select the username to whom you want to re-assign the task.
 
     >[!IMPORTANT]
->
-> The reviewer must have the permissions to reassign and should be a part of the user-administrator group.
+    >
+    > The reviewer must have the permissions to reassign and should be a part of the user-administrator group.
 
     ![](images/reassign-user-inbox.png)
 

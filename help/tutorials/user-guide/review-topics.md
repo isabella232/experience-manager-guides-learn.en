@@ -9,20 +9,20 @@ Perform the following steps to review a topic:
     The topic or map link is opened in a browser.
 
     >[!NOTE]
->
-> You can also access the topic review link from your Inbox notifications area in the AEM user interface.
+    >
+    > You can also access the topic review link from your Inbox notifications area in the AEM user interface.
 
 1.  Depending on the way the topic review is initiated, you could see any one of the following two screens:
 
     >[!NOTE]
->
-> The UI may be different if you have created the review in AEM Guides as a Cloud Service November 2022 release or earlier.
+    >
+    > The UI may be different if you have created the review in AEM Guides as a Cloud Service November 2022 release or earlier.
 
 1.  Depending on the way the topic review is initiated, you could see any one of the following two screens:
 
     >[!NOTE]
->
-> The UI may be different if you have created the review in AEM Guides version 4.1 or earlier.
+    >
+    > The UI may be different if you have created the review in AEM Guides version 4.1 or earlier.
 
     The following screen appears when a DITA map is used to initiate the review workflow:
 
@@ -36,8 +36,8 @@ Perform the following steps to review a topic:
     -   **C**: The numbers highlighted by ***F*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to see how many Strikethrough comments have been made in each of the under review topic, click the filter icon and then choose **Review Type** \> **Deletion**.
 
         >[!NOTE]
->
-> On applying the fiters, only the comments which match the selected filters are displayed in the comments panel. The number of filtered comments are shown on the left in the topics panel.
+        >
+        > On applying the fiters, only the comments which match the selected filters are displayed in the comments panel. The number of filtered comments are shown on the left in the topics panel.
 
     -   **D**: A topic that is assigned for review to the current reviewer is shown in black and is clickable. When the reviewer clicks on a topic link that topic is brought to the top of the screen.
     -   **E**: A topic that is not available for review is grayed out. The topic is shown in read-only mode and you are not allowed to add any review comments on such topics.
@@ -55,16 +55,16 @@ Perform the following steps to review a topic:
     ![](images/review-composite-view.png)
 
     >[!NOTE]
->
-> In case of multiple topics, they are shown as one composite document in the document view. The above screenshot highlights two different topics presented one after the other in a single view.
+    >
+    > In case of multiple topics, they are shown as one composite document in the document view. The above screenshot highlights two different topics presented one after the other in a single view.
 
 1.  Open the Comments panel by clicking the **Comments** icon at the top-right corner of the toolbar.
 
     Provide review comments by selecting an appropriate comment type from the toolbar and press Enter to submit your comment.
 
     >[!NOTE]
->
-> The Comments panel shows the comments given on the current topics only. When you move focus to other topic, the comments given on the other topic are shown.
+    >
+    > The Comments panel shows the comments given on the current topics only. When you move focus to other topic, the comments given on the other topic are shown.
 
 1.  Click **Close** button once you complete reviewing the topic. On clicking the **Close** button, you will be redirected to the page from where you accessed the review topic.
 
@@ -125,8 +125,8 @@ Review using the Comments panel
         ![](images/review-comment-options-menu.png)
 
         >[!NOTE]
->
-> The Options menu appears only when you hover over your own comments. It is not displayed for the comments by other reviewers.
+        >
+        > The Options menu appears only when you hover over your own comments. It is not displayed for the comments by other reviewers.
 
     -   All participating users can respond to comments submitted by other users. On a comment, click **Reply**and press Enter to submit a response.
 
@@ -220,8 +220,8 @@ Real-time review
     ![](images/comments-page-review-mode.png)
 
     >[!NOTE]
->
-> When you hover over the Outdated Comment icon, the version number of the topic on which the comment was added, is displayed. For example, if a comment was given on version 1.0, the same is displayed.
+    >
+    > When you hover over the Outdated Comment icon, the version number of the topic on which the comment was added, is displayed. For example, if a comment was given on version 1.0, the same is displayed.
 
 -   Clicking an outdated comment opens the version of that comment in the left panel. The previous version is shown in the left panel and the current version is displayed in the right panel. All comments on the outdated version are imported on the left side. You can compare the previous version with the current version.
 

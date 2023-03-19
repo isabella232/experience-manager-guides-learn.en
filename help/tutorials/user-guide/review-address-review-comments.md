@@ -37,8 +37,8 @@ In the Web Editor mode, the right panel contains the Review and Tracked Changes 
     ![](images/changes-tab_cs.png)
 
     >[!IMPORTANT]
->
-> The import comments feature works only on those documents that have not changed since they were shared for review. If you have made any change after sending the document for review, you will get an alert to **Force Import** comments into your document. However, doing so will result in loss of all updates that you have made in your document. The **Force Import** alert is also shown if the document is created outside and then shared for review. You can go ahead and import the comments.
+    >
+    > The import comments feature works only on those documents that have not changed since they were shared for review. If you have made any change after sending the document for review, you will get an alert to **Force Import** comments into your document. However, doing so will result in loss of all updates that you have made in your document. The **Force Import** alert is also shown if the document is created outside and then shared for review. You can go ahead and import the comments.
 
     As and when you accept or reject a comment, it is removed from the Tracked Changes list. This also serves as an indicator of how many comments need to be addressed in the document.
 

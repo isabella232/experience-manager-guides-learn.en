@@ -17,8 +17,8 @@ Perform the following steps to create a DITAVAL file:
 1.  On the Properties page, specify the **Title** and **Name** for the DITAVAL file.
 
     >[!NOTE]
->
-> The name is automatically suggested based on the Title of your file. If you want to manually specify the file name, then ensure that the Name does not contain any spaces, apostrophe, or braces and ends with .ditaval.
+    >
+    > The name is automatically suggested based on the Title of your file. If you want to manually specify the file name, then ensure that the Name does not contain any spaces, apostrophe, or braces and ends with .ditaval.
 
 1.  Click **Create**. The Topic Created message appears.
 
@@ -64,8 +64,8 @@ Perform the following steps to edit a DITAVAL file:
 1.  Once you have finished editing your DITAVAL file, click **Save**.
 
     >[!NOTE]
->
-> If you close the file without saving, the changes will be lost. If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the **Unsaved Changes** dialog.
+    >
+    > If you close the file without saving, the changes will be lost. If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the **Unsaved Changes** dialog.
 
 
 ## DITAVAL editor views 

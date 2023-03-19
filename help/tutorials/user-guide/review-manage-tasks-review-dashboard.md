@@ -23,8 +23,8 @@ Perform the following steps to access and use the Review Dashboard:
     The Review Dashboard displays the details about the review task such as the task name, who started the review, date when the review was started, due date, status, number of new comments that have not been accepted or rejected by the author, and name of reviewers. The tasks are listed in the order of newly created tasks to older tasks.
 
     >[!NOTE]
->
-> If you click on the Review Task link, the topic or map file sent for review is opened.
+    >
+    > If you click on the Review Task link, the topic or map file sent for review is opened.
 
 1.  Select a review task.
 
@@ -74,8 +74,8 @@ You can perform the following actions under the **Content** tab:
 -   Click **Update** to share the updated version of the topic with the reviewers. The reviewers get an email notification stating that the newer version of topic has been sent for review. The next time a reviewer opens the topic, they see the updated version of the topic.
 
     >[!NOTE]
->
-> In case of an updated version of a topic, the old comments are retained in the newer version as well. Reviewers can also see the differences between the two versions.
+    >
+    > In case of an updated version of a topic, the old comments are retained in the newer version as well. Reviewers can also see the differences between the two versions.
 
 -   Click **Complete** to mark the review task as complete before the due date. When an individual topic's task is marked as Complete, the review of the selected topic is closed. However, in case of topics shared for review through a DITA map, marking the DITA map task as Complete will close the review of all topics within the map that were shared for review.
 
@@ -92,8 +92,8 @@ You can perform the following actions under the **Reviewers** tab:
 -   **Clear Selection**: Deselects the topics selected in the topics list.
 
     >[!NOTE]
->
-> You can also individually select or deselect a topic by clicking on the checkbox next to the topic.
+    >
+    > You can also individually select or deselect a topic by clicking on the checkbox next to the topic.
 
 -   **Add**: Displays the Add Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to add as a reviewer to the selected topics.
 -   **Remove**: Displays the Remove Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to remove as reviewer from the selected topics.

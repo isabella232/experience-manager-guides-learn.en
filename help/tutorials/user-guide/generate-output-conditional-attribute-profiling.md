@@ -17,8 +17,8 @@ To define conditional attributes, perform the following steps:
 1.  Click on the **Folder Profiles** tile and select a Folder Profile.
 
     >[!NOTE]
->
-> You cannot edit the global profile.
+    >
+    > You cannot edit the global profile.
 
 1.  Click on the **Conditional Attributes** tab and click **Edit**.
 

@@ -13,14 +13,14 @@ The Web Editor comes with a range of editing features that let you easily create
     A list of element appears that can be used in the topic. AEM Guides does an intelligent placing of elements as per their valid location in the topic.
 
     >[!NOTE]
->
-> You can also choose which icon to be displayed in the toolbar by configuring the `ui_config.json` file located at - `/etc/designs/fmdita/clientlibs/xmleditor/`. For more information about customizing features, contact your system administrator.
+    >
+    > You can also choose which icon to be displayed in the toolbar by configuring the `ui_config.json` file located at - `/etc/designs/fmdita/clientlibs/xmleditor/`. For more information about customizing features, contact your system administrator.
 
 1.  Once you have finished editing your document, click **Save**.
 
     >[!NOTE]
->
-> If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the Unsaved Changes dialog.
+    >
+    > If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the Unsaved Changes dialog.
 
     Refresh browser while editing the files
     :   AEM Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.

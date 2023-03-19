@@ -23,8 +23,8 @@ Use the bulk tagging feature to apply multiple tags at once. Perform the followi
     ![](images/apply-tags-uuid.png)
 
     >[!NOTE]
->
-> The above screenshot shows a sub-map selected and expanded. On selecting the sub-map, all the topics under the sub-map are also selected.
+    >
+    > The above screenshot shows a sub-map selected and expanded. On selecting the sub-map, all the topics under the sub-map are also selected.
 
 1.  Click **Apply Tags**.
 
@@ -37,8 +37,8 @@ Use the bulk tagging feature to apply multiple tags at once. Perform the followi
     The selected tags are applied on the topics and shown next to the topic title.
 
     >[!NOTE]
->
-> After adding tags to your topics, if you move or delete a topic, then the tags for those topics are also removed. However, that topic remains in the map until you remove it.
+    >
+    > After adding tags to your topics, if you move or delete a topic, then the tags for those topics are also removed. However, that topic remains in the map until you remove it.
 
 
 ## Apply tags on an individual topic 
@@ -83,8 +83,8 @@ Perform the following steps to remove all tags from one or more topics:
 1.  Click **Remove Tags**.
 
     >[!NOTE]
->
-> If the Delete Tags icon is not visible, ensure that you have not enabled the Hide Tags feature.
+    >
+    > If the Delete Tags icon is not visible, ensure that you have not enabled the Hide Tags feature.
 
 1.  On the Confirm Delete dialog, click **OK** to remove tags from the selected topics.
 

@@ -19,8 +19,8 @@ Powerful DITA authoring and content management
 
 
     >[!NOTE]
->
-> Lightweight DITA is still under the proposal state and has not yet become a DITA standard.
+    >
+    > Lightweight DITA is still under the proposal state and has not yet become a DITA standard.
 
 Next-gen collaboration through web-based review
 :   Ensure that multi-author, multi-reviewer distributed teams collaborate smoothly through powerful web-based composite review workflow, minimizing the scope of manual errors in the process.

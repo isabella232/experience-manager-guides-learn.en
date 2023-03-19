@@ -6,8 +6,8 @@ Author
 :   This is a typical What You See is What You Get \(WYSISYG\) view of the Web Editor. You can edit topic as you would do in any regular rich-text editor. In the Author view, you have the options to save a revision of the document, find and replace content, insert element, insert hyperlink, insert content reference, and more.
 
     >[!NOTE]
->
-> When you use the content reference, the referred content is also displayed in Author view in blue color. The referred content is non-editable.
+    >
+    > When you use the content reference, the referred content is also displayed in Author view in blue color. The referred content is non-editable.
 
 Source
 :   The Source view displays the underlying XML that makes up the topic. If you are comfortable working with XML directly, then you should use the Source view. In addition to making regular text edits in this view, you can also add elements and attributes using the Smart Catalog, or find and replace text, elements, or attributes.
@@ -127,8 +127,8 @@ Preview
     4.  Click **Download**.
 
         >[!NOTE]
->
-> Ensure that you have enabled the pop-up window in the browser configuration, else the PDF will not get downloaded.
+        >
+        > Ensure that you have enabled the pop-up window in the browser configuration, else the PDF will not get downloaded.
 
         The PDF is generated and opened in a new tab or you are shown a dialog to save the PDF on your local system.
 

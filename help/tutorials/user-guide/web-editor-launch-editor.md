@@ -27,22 +27,22 @@ Another location from where you can launch the Web Editor is from the AEM Assets
 1.  In the Assets UI, navigate to the topic that you want to edit.
 
     >[!NOTE]
->
-> You can also see the UUID of the topic.
+    >
+    > You can also see the UUID of the topic.
 
     .
 
     ![](images/assets_ui_with_uuid_cs.png)
 
     >[!IMPORTANT]
->
-> Ensure that you have the read and write permissions on the folder that contains the topic you want to edit.
+    >
+    > Ensure that you have the read and write permissions on the folder that contains the topic you want to edit.
 
 1.  To get an exclusive lock on the topic, select the topic and click **Check Out**.
 
     >[!IMPORTANT]
->
-> If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not checkout the file, you will not be able to see the edit option.
+    >
+    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not checkout the file, you will not be able to see the edit option.
 
 1.  Close the asset selection mode and click on the topic you want to edit.
 
@@ -51,8 +51,8 @@ Another location from where you can launch the Web Editor is from the AEM Assets
     You can open the Web Editor from the List view, Card view, and the Preview mode.
 
     >[!IMPORTANT]
->
-> If you want to open multiple topics for editing, select the desired topics from the Asset UI and click Edit. Ensure that your browser does not have pop-up blocker enabled, else only the first topic in the selected list is opened for editing.
+    >
+    > If you want to open multiple topics for editing, select the desired topics from the Asset UI and click Edit. Ensure that your browser does not have pop-up blocker enabled, else only the first topic in the selected list is opened for editing.
 
     ![](images/edit-from-preview_cs.png)
 
@@ -86,8 +86,8 @@ To open the Web Editor from DITA map console, follow these steps:
 1.  The topic is opened in the Web Editor.
 
     >[!IMPORTANT]
->
-> If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not checkout the file, then the document will open in the editor in read-only mode.
+    >
+    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not checkout the file, then the document will open in the editor in read-only mode.
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

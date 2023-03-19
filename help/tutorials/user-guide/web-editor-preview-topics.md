@@ -11,8 +11,8 @@ Perform the following steps to preview a topic:
     A preview of the topic is displayed in the Assets UI.
 
     >[!NOTE]
->
-> You can see the version of the active topic or DITA map in the top right corner of the topic's file tab.
+    >
+    > You can see the version of the active topic or DITA map in the top right corner of the topic's file tab.
 
 
 >[!IMPORTANT]
@@ -28,8 +28,8 @@ Properties
 :   View the properties of the selected topic. Based on your AEM version, you could see properties like metadata, schedule \(de\)activation, references, document state and more.
 
     >[!NOTE]
->
-> A topic's title property is auto-populated from the `title` tag of the DITA topic or map. If you make any change in the title using the properties window that change is lost. If you want to update the title property, you should do it using the Web editor.
+    >
+    > A topic's title property is auto-populated from the `title` tag of the DITA topic or map. If you make any change in the title using the properties window that change is lost. If you want to update the title property, you should do it using the Web editor.
 
     The Properties page contains useful information about the references, such as where a map or topic is being used, or what references are contained in a document. The Properties page lists two types of references for a document - **Used In** and **Outgoing References**.
 
@@ -45,8 +45,8 @@ Conditional Filtering \(A/B\)
 :   **** If your topic has conditional content, then you will see the A/B icon on the toolbar. Clicking on this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
 
     >[!NOTE]
->
-> The conditional content is highlighted using light background color in the Web Editor.
+    >
+    > The conditional content is highlighted using light background color in the Web Editor.
 
     ![](images/conditional-popup_cs.png)
 
@@ -60,8 +60,8 @@ Source
 :   Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and clicking the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
 
     >[!NOTE]
->
-> To get the source code view of a DITA map file, select the file in Assets UI and click Source.
+    >
+    > To get the source code view of a DITA map file, select the file in Assets UI and click Source.
 
     ![](images/xml-source-code-view-from-preview_cs.png)
 
@@ -83,8 +83,8 @@ Share UUID Link
     If you share the link from DITA map console or a file's preview mode, then the user taken to same view of file. However, when you share a map file's link from the Assets UI, then the user is taken to the map's console. Similarly, for a topic or image file, the file's preview is shown.
 
     >[!IMPORTANT]
->
-> The link cannot be used as a reference link in other topic, it only gives direct access to the file in the repository. Also, the link remains valid as long as the file is available in the repository. Even if the file is moved to some other location in the repository, the link remain valid. The link will fail only when the file is deleted from the repository.
+    >
+    > The link cannot be used as a reference link in other topic, it only gives direct access to the file in the repository. Also, the link remains valid as long as the file is available in the repository. Even if the file is moved to some other location in the repository, the link remain valid. The link will fail only when the file is deleted from the repository.
 
 Check Out/Check In
 :   Toggles the Check Out and Check In features. When a file is checked out, the current user gets an exclusive write permission on the file. A checked out file can be opened in the Web Editor for editing. Once you have made the required changes, click the Check In icon to save the file in DAM.
@@ -104,15 +104,15 @@ Check Out/Check In
     ![](images/list-view-settings-check-out_cs.png)
 
     >[!TIP]
->
-> See the Versioning of content section in the Best practices guide for best practices around working with file check-out and check-in.
+    >
+    > See the Versioning of content section in the Best practices guide for best practices around working with file check-out and check-in.
 
 Web-based version difference
 :   If your topic has undergone some changes, you can easily find out the changes made in different versions of that topic. To find out changes in different versions of a topic:
 
     >[!IMPORTANT]
->
-> The method described in the following procedure is only applicable for DITA files. For non-DITA files, use the Timeline view to create versions or restore an existing version of a file.
+    >
+    > The method described in the following procedure is only applicable for DITA files. For non-DITA files, use the Timeline view to create versions or restore an existing version of a file.
 
     1.  Open the topic in Preview mode.
 
@@ -149,30 +149,30 @@ Branch, revert, and subsequent versioning
     Perform the following steps to create a branch, revert to a version, and maintain subsequent versions of a topic:
 
     >[!IMPORTANT]
->
-> The method described in the following procedure is only applicable for DITA files. For non-DITA files, use the Timeline view to create versions or restore an existing version of a file.
+    >
+    > The method described in the following procedure is only applicable for DITA files. For non-DITA files, use the Timeline view to create versions or restore an existing version of a file.
 
     1.  Access the topic in Assets UI.
 
         >[!NOTE]
->
-> You can also open the topic in Preview mode and proceed with Step 3.
+        >
+        > You can also open the topic in Preview mode and proceed with Step 3.
 
     2.  Select the topic for which you want to create a branch.
 
     3.  In the left rail, click **Version History**.
 
         >[!NOTE]
->
-> A list of versions available for the selected topic is displayed. Each version contains the timestamp, user name, version comment, and [label](web-editor-use-label.md#) information.
+        >
+        > A list of versions available for the selected topic is displayed. Each version contains the timestamp, user name, version comment, and [label](web-editor-use-label.md#) information.
 
     4.  Select a version from where you want to create a branch. In the following screenshot, version 1.2 is selected for creating a branch.
 
         ![](images/branching.png)
 
         >[!NOTE]
->
-> The current version of a topic contains *\(Current\)* mentioned next to the version number.
+        >
+        > The current version of a topic contains *\(Current\)* mentioned next to the version number.
 
     5.  Click **Revert to This Version**.
 

@@ -20,8 +20,8 @@ Perform the following steps to create smart tags:
     ![](images/properties-smart-tags.png)
 
     >[!NOTE]
->
-> Besides extracting the keywords through the XML Keyword Extract tool you can also add, delete, or customize the smart tags in the properties page.
+    >
+    > Besides extracting the keywords through the XML Keyword Extract tool you can also add, delete, or customize the smart tags in the properties page.
 
 
 *Contact your customer success team to get this feature enabled in the environment. This is not enabled as a part of the out-of-the-box support.*

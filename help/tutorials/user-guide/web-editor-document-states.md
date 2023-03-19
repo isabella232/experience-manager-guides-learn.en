@@ -27,8 +27,8 @@ To change the state of a document, perform the following steps:
 1.  Select the new state from the **Document State** drop-down.
 
     >[!NOTE]
->
-> You can select only those document states that are allowed in the State Transition section of the Document State profile.
+    >
+    > You can select only those document states that are allowed in the State Transition section of the Document State profile.
 
 1.  Click **Save & Close**.
 
@@ -67,16 +67,16 @@ To use the document approval feature, perform the following steps:
 1.  If your document is ready to be marked as approved, then select a label from the drop-down list and click **Approve**.
 
     >[!NOTE]
->
-> If your administrator has not configured a predefined list of labels, then you are shown a free-form text field to enter a label.
+    >
+    > If your administrator has not configured a predefined list of labels, then you are shown a free-form text field to enter a label.
 
 1.  Once the document is successfully marked as approved, then a **Preview** of the document is shown in the read-only mode.
 
     ![](images/approved-doc-read-only.png)
 
     >[!NOTE]
->
-> In the Preview mode all editing options are removed from the toolbar. In addition, the Author and Source view of the document as also removed from the top navigation.
+    >
+    > In the Preview mode all editing options are removed from the toolbar. In addition, the Author and Source view of the document as also removed from the top navigation.
 
 
 Once a document is marked as approved, it is no longer available for editing. If you want to use the document for the next release, then you need to bring it back to the *Draft* state. To change the document state of an approved document back to *Draft* mode, perform the following steps:

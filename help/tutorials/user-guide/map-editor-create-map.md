@@ -11,8 +11,8 @@ Perform the following steps to create a map file:
 1.  On the Blueprint page, select the type of map templates you want to use and click **Next**.
 
     >[!NOTE]
->
-> The way the topics are referred in a map file depend on the map template. For example, if you select the Map template, then the topic references \(`topicref`\) are used to refer to topics. In case of a Bookmap, topic references are created using the `chapter` element in DITA.
+    >
+    > The way the topics are referred in a map file depend on the map template. For example, if you select the Map template, then the topic references \(`topicref`\) are used to refer to topics. In case of a Bookmap, topic references are created using the `chapter` element in DITA.
 
     ![](images/map-template.png)
 
@@ -37,8 +37,8 @@ Perform the following steps to create a map file:
     You can choose to open the map for editing in the configured map editor, or save the map file in the AEM repository.
 
     >[!NOTE]
->
-> To use the Advanced Map Editor, access the map file in the Web Editor. In case your administrator has configured the Advanced Map Editor as the default editor in the map files, then the map file is opened directly in the Advanced Map Editor for editing. See *Set the Advanced Map Editor as default* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >
+    > To use the Advanced Map Editor, access the map file in the Web Editor. In case your administrator has configured the Advanced Map Editor as the default editor in the map files, then the map file is opened directly in the Advanced Map Editor for editing. See *Set the Advanced Map Editor as default* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
 **Parent topic:**[Work with the Map Editor](map-editor.md)

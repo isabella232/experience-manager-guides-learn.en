@@ -65,8 +65,8 @@ To configure and generate the output using a Map Collection, perform the followi
     -   To generate output of selected maps, select the map files and click **Generate Selected**.
     -   To generate output of all DITA maps with their configured presets, Click **Generate All**.
     >[!IMPORTANT]
->
-> If an output generation process for a preset or DITA map is either in the queue or in progress, you cannot initiate another output generation task for the same preset or map.
+    >
+    > If an output generation process for a preset or DITA map is either in the queue or in progress, you cannot initiate another output generation task for the same preset or map.
 
 
 ## Delete a Map collection or a DITA map from the Map Collection 

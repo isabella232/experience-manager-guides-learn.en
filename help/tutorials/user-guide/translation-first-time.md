@@ -35,8 +35,8 @@ Perform the following steps to configure the human or machine translation servic
     Ensure that there is only one configuration for translation connector in one folder. Multiple folders can be created under /conf, if there are multiple translation connectors. The source language folder must have a cloud configuration selected before starting the translation process.
 
     >[!NOTE]
->
-> See [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM documentation for details on integrating with third-party translation services.
+    >
+    > See [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM documentation for details on integrating with third-party translation services.
 
 1.  Click **Save & Close** to save the updated folder properties.
 
@@ -62,16 +62,16 @@ Perform the following steps to create a translation project:
     A Summary and Details of topics and associated assets is shown.
 
     >[!IMPORTANT]
->
-> The **Target Languages** show only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    >
+    > The **Target Languages** show only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
 
 1.  Select the topics that you want to send for translation.
 
     You can also use the following topic filtering options:
 
     >[!NOTE]
->
-> After applying the required filter, click **Done** in the Filter panel to filter topics based on your selection.
+    >
+    > After applying the required filter, click **Done** in the Filter panel to filter topics based on your selection.
 
     -   **Translation Status**: Choose to filter topics based on their translation status. The available options are: Out of Sync, Missing Copy, In Progress, and In Sync.
     -   **Search**: Enter one or multiple terms to search in the topic titles.
@@ -83,8 +83,8 @@ Perform the following steps to create a translation project:
 1.  From the **Project** list, select **Create a New Translation Project**.
 
     >[!NOTE]
->
-> If you already have a translation project, you can add topics to that project. Select **Add to Existing Translation Project** option from the **Project** list and choose a project from the **Existing Translation Project** list.
+    >
+    > If you already have a translation project, you can add topics to that project. Select **Add to Existing Translation Project** option from the **Project** list and choose a project from the **Existing Translation Project** list.
 
 1.  In the **Project Title** field, enter a title for the project.
 
@@ -105,8 +105,8 @@ Perform the following steps to start the translation job:
 1.  Click the arrow on the **Translation Job** tile, and select **Start** from the list to start the translation workflow.
 
     >[!NOTE]
->
-> If you are using Human translation service, then you need to export the content for translation. Once you have the translated content, then you need to import it back into the translation project.
+    >
+    > If you are using Human translation service, then you need to export the content for translation. Once you have the translated content, then you need to import it back into the translation project.
 
 1.  To view the status of the translation job, click the ellipsis at the bottom of the **Translation Job** tile.
 

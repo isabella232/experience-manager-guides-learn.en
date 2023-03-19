@@ -4,9 +4,7 @@ Most likely you would have a repository of existing DITA content that you would 
 
 >[!IMPORTANT]
 >
->
-
-See [Add digital assets to Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) for detailed information in the supported content upload methods in AEM.
+> See [Add digital assets to Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) for detailed information in the supported content upload methods in AEM.
 
 ## Assets Console user interface 
 

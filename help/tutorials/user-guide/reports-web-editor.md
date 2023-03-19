@@ -28,8 +28,8 @@ You can create a report of the topics by performing the following steps:
     -   **Author** The user who worked last on the topic.
     -   **Parent Map** The list of all maps where the topic is directly referenced.
     >[!NOTE]
->
-> Click **Refresh** to get a fresh list of topics and see any change in your map file or if any reference within your topic file is updated.
+    >
+    > Click **Refresh** to get a fresh list of topics and see any change in your map file or if any reference within your topic file is updated.
 
 1.  Click **Download CSV** to download the current snapshot of the topics in the DITA map. The CSV contains the selected columns and the topics filtered in the **Topic List** view. You can then open this topic list CSV file in any CSV editor.
 
@@ -53,16 +53,16 @@ To view the metadata of your references in the current DITA map, perform the fol
         -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can click the file to edit it.
 
             >[!NOTE]
->
-> A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
+            >
+            > A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
 
         -   **File Name** The name of the file.
         -   **File Location** The complete path of the file.
         -   **Tags** \(selected by default\) Tags applied on the file.
 
             >[!NOTE]
->
-> By default, you can see two tags for a file. To view more tags, click **Show More**. Click **Show Less** to contract the list again.
+            >
+            > By default, you can see two tags for a file. To view more tags, click **Show More**. Click **Show Less** to contract the list again.
 
         -   **Reference Type** The type of reference – direct or indirect
         -   **Document State** \(selected by default\) The current state of the reference file.
@@ -75,8 +75,8 @@ To view the metadata of your references in the current DITA map, perform the fol
 1.  To update metadata, select the files for which you want to update.
 
     >[!NOTE]
->
-> You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
+    >
+    > You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
 
 1.  Select **Manage** from the top.
 
@@ -85,8 +85,8 @@ To view the metadata of your references in the current DITA map, perform the fol
 1.  If you want to add any new tags, select new tags from the dropdown list to apply them to all selected topics. You can also delete any tag by clicking the cross icon near the tag.
 
     >[!NOTE]
->
-> The common tags applied on all the selected topics are listed.
+    >
+    > The common tags applied on all the selected topics are listed.
 
 1.  Select a new document state if you want to change the document state of all the selected references. The dopdown displays the common possible state for all selected topics. For example, if the current state of your topics is In-Review, then you can see Draft, Approved, or Reviewed state.
 1.  Click **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also click **Download Report** to download the metadata CSV from the confirmation dialog. This CSV contains the details of the update status for the selected references.
@@ -111,8 +111,8 @@ The **Multimedia**report provides detailed information about the multimedia used
 1.  You can filter your multimedia based on the **Multimedia Type**, and **Reference Type**. The list of multimedia files is displayed based on your selection in the drop-down. For example, you can choose to display only the audio references in your DITA map, and a file shows only the audio references used in it.
 
     >[!NOTE]
->
-> Depending on the type of multimedia used in your map, Image, Video, and Audio are listed in the **Multimedia Type** drop-down, and Direct or Indirect are listed in the **Reference Type** dropdown.
+    >
+    > Depending on the type of multimedia used in your map, Image, Video, and Audio are listed in the **Multimedia Type** drop-down, and Direct or Indirect are listed in the **Reference Type** dropdown.
 
 1.  You can also use the following filtering options to choose to display the following columns in the list:
 
@@ -123,8 +123,8 @@ The **Multimedia**report provides detailed information about the multimedia used
     -   **Used In** \(selected by default\) The references in which the multimedia has been used. You can click the reference to edit it.
     -   **Reference Type** \(selected by default\) The type of reference - direct or indirect.
     >[!NOTE]
->
-> Click**Refresh**to get a fresh list of multimedia and see any change in your map file or if any multimedia within your DITA map is updated.
+    >
+    > Click**Refresh**to get a fresh list of multimedia and see any change in your map file or if any multimedia within your DITA map is updated.
 
 1.  Click**Download CSV**to download the current snapshot of the multimedia in the DITA map. The CSV contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia CSV file in any CSV editor.
 

@@ -19,8 +19,8 @@ Perform the following steps to build your map file:
 1.  To get an exclusive lock on the map file, select the map file and click **Check Out**.
 
     >[!NOTE]
->
-> Once you have an exclusive lock on a map file, other users would not be able to edit the map. However, they would be able to work on the topics within the map file.
+    >
+    > Once you have an exclusive lock on a map file, other users would not be able to edit the map. However, they would be able to work on the topics within the map file.
 
 1.  With the map file selected, click **Edit**.
 
@@ -31,22 +31,22 @@ Perform the following steps to build your map file:
 1.  Using the **References** rail, navigate to the folder that contains the topics or sub-maps that you want to add.
 
     >[!NOTE]
->
-> You can add topics or sub-maps from any folder in the References rail.
+    >
+    > You can add topics or sub-maps from any folder in the References rail.
 
 1.  To add the first topic to the map, drag-and-drop the topic onto the Basic Map Editor.
 
     >[!NOTE]
->
-> After adding the first link, the Add New Reference link is available when you hover your mouse over an existing topic in the map.
+    >
+    > After adding the first link, the Add New Reference link is available when you hover your mouse over an existing topic in the map.
 
 1.  To add subsequent topics or a sub-map, drag-and-drop the topic or sub-map to the required location in the map.
 
     If you add a sub-map to your DITA map, the sub-map is shown as a link in the DITA map. To view all the topics of the sub-map, click the sub-map link. The content of the sub-map are shown in a new tab.
 
     >[!NOTE]
->
-> If you drop a new topic on an existing topic in the map, you get a message about replacing the topic. Click Yes if you want to replace the topic, click No if you do not want to replace the topic. You can use CTRL+Z and CTRL+Y to undo or redo any change in the map.
+    >
+    > If you drop a new topic on an existing topic in the map, you get a message about replacing the topic. Click Yes if you want to replace the topic, click No if you do not want to replace the topic. You can use CTRL+Z and CTRL+Y to undo or redo any change in the map.
 
 1.  Click **Save**.
 
@@ -121,8 +121,8 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 1.  Select the **Topics** tab to see a list of topics available in the DITA map.
 
     >[!TIP]
->
-> The Topics tab gives you an option to download the map file with its dependents. For more details, see [Export a DITA map file](authoring-download-assets.md#id218UBA00IXA).
+    >
+    > The Topics tab gives you an option to download the map file with its dependents. For more details, see [Export a DITA map file](authoring-download-assets.md#id218UBA00IXA).
 
 1.  In the main toolbar, click **Edit**.
 
@@ -135,8 +135,8 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
     >[!NOTE]
->
-> You can add topics from any folder in the References rail.
+    >
+    > You can add topics from any folder in the References rail.
 
     ![](images/create-reltable.png)
 

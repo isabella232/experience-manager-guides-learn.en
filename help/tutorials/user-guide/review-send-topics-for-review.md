@@ -37,8 +37,8 @@ To create a review task and send topics for review, perform the following steps:
 1.  In the toolbar, click **Create Review Task**. The review task creation page is displayed.
 
     >[!NOTE]
->
-> You can create a review task for only those topics that have a revision. In case the selected topic does not have a revision, you will be shown a prompt.
+    >
+    > You can create a review task for only those topics that have a revision. In case the selected topic does not have a revision, you will be shown a prompt.
 
     ![](images/create-review-task-023.png)
 
@@ -49,8 +49,8 @@ To create a review task and send topics for review, perform the following steps:
     You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only see the user groups in the Assign To field.
 
     >[!NOTE]
->
-> Review workflow is project-specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
+    >
+    > Review workflow is project-specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
 
 1.  Enter a **Description** for the task.
 
@@ -59,16 +59,16 @@ To create a review task and send topics for review, perform the following steps:
 1.  Select the **Due Date** and time to mark the deadline for the review.
 
     >[!NOTE]
->
-> On reaching the deadline, an email is sent to the initiator notifying that the review task has completed. The initiator can extend the deadline of the review task from the [Review Dashboard](review-manage-tasks-review-dashboard.md#).
+    >
+    > On reaching the deadline, an email is sent to the initiator notifying that the review task has completed. The initiator can extend the deadline of the review task from the [Review Dashboard](review-manage-tasks-review-dashboard.md#).
 
 1.  Select the root map from the **Rootmap path**. This rootmap is used to resolve all the key references and glossary terms used in the review content. If you do not select the rootmap then the key references or glossary terms associated with the DITA topic, are not resolved before sending the topic for review.
 
     If you are creating the review for a DITA map, then by default **Rootmap path** is set to that map's path. If you are creating the review for a single or multiple topics, then by default the **Rootmap path** is set to the map defined in the User Preferences.
 
     >[!NOTE]
->
-> The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+    >
+    > The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
 
 1.  As you can assign different reviewers to different topics, **Allow Assignees to Review Any Topic** option controls whether reviewers can review all topics in a review task or only those topics that they are assigned to review.
 
@@ -94,8 +94,8 @@ To create a review task and send topics for review, perform the following steps:
     The version based on the selected option is chosen for the topics.
 
     >[!NOTE]
->
-> You can also manually select the desired version from the **Version** drop-down list of each topic.
+    >
+    > You can also manually select the desired version from the **Version** drop-down list of each topic.
 
 1. Click **Next**.
 
@@ -109,15 +109,15 @@ To create a review task and send topics for review, perform the following steps:
     -   **Clear Selection**: Deselects the topics selected in the topics list.
 
         >[!NOTE]
->
-> You can also individually select or deselect a topic by clicking on the checkbox next to the topic.
+        >
+        > You can also individually select or deselect a topic by clicking on the checkbox next to the topic.
 
     -   **Add**: Displays the Add Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to add as a reviewer to the selected topics.
     -   **Remove**: Displays the Remove Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to remove as reviewer from the selected topics.
 
         >[!NOTE]
->
-> You can also remove a review from a topic by clicking the cross sign in the reviewer's box.
+        >
+        > You can also remove a review from a topic by clicking the cross sign in the reviewer's box.
 
     -   **Re-Assign**: Displays the Re-Assign Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to assign the review task to. This removes all existing reviewers from the selected topics and assigns the newly selected reviewers to those topics.
     -   **Export**: Allows you to export the review task details in a CSV file. The file contains details such as the path and title of the topic, name of reviewer, and version of topics sent for review.
@@ -127,8 +127,8 @@ To create a review task and send topics for review, perform the following steps:
     A confirmation message is displayed when the review task is created successfully. The [Document state](web-editor-document-states.md#) for the topics sent for review is set to In-Review.
 
     >[!NOTE]
->
-> You can also click Notifications bell at the top right of the screen and confirm that the review task has been created successfully. In the Notifications panel, you will find one notification each for the reviewers who were a part of the review task and one notification for the initiator of the review.
+    >
+    > You can also click Notifications bell at the top right of the screen and confirm that the review task has been created successfully. In the Notifications panel, you will find one notification each for the reviewers who were a part of the review task and one notification for the initiator of the review.
 
 
 An email is sent to all reviewers, notifying that they have been assigned a topic or multiple topics for review. The email contains a direct link that they can click and access the topic in a browser window.
@@ -156,8 +156,8 @@ To send one or multiple topics along with the map file for review, perform the f
 1.  Navigate to the required folder in the Assets UI.
 
     >[!NOTE]
->
-> Make sure the view of the console is set to either card view or list view.
+    >
+    > Make sure the view of the console is set to either card view or list view.
 
 1.  Select the map from where you want to send the topics for review.
 
@@ -166,16 +166,16 @@ To send one or multiple topics along with the map file for review, perform the f
 1.  Enter a **Title** for the task and select a DITA **Project** from the drop-down list.
 
     >[!NOTE]
->
-> You can create a review task for only those topics that have a revision. In case your map contains topics that do not have a revision, then you are shown a prompt with a list of such files. Files without a revision are excluded from the review task.
+    >
+    > You can create a review task for only those topics that have a revision. In case your map contains topics that do not have a revision, then you are shown a prompt with a list of such files. Files without a revision are excluded from the review task.
 
 1.  In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review.
 
     You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only see the user groups in the Assign To field.
 
     >[!NOTE]
->
-> Review workflow is project specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
+    >
+    > Review workflow is project specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
 
 1.  Enter a **Description** for the task.
 
@@ -184,8 +184,8 @@ To send one or multiple topics along with the map file for review, perform the f
 1.  Select the **Due Date** and time to mark the deadline for the review.
 
     >[!NOTE]
->
-> On reaching the deadline, an email is sent to the initiator notifying that the review task has completed. The initiator can extend the deadline of the review task from the [Review Dashboard](review-manage-tasks-review-dashboard.md#).
+    >
+    > On reaching the deadline, an email is sent to the initiator notifying that the review task has completed. The initiator can extend the deadline of the review task from the [Review Dashboard](review-manage-tasks-review-dashboard.md#).
 
 1.  As you can assign different reviewers to different topics, **Allow Assignees to Review Any Topic** option controls whether reviewers can review all topics in a review task or only those topics that they are assigned to review.
 
@@ -212,8 +212,8 @@ To send one or multiple topics along with the map file for review, perform the f
     The version based on the selected option is chosen for the topics.
 
     >[!NOTE]
->
-> You can also manually select the desired version from the **Version** drop-down list of each topic.
+    >
+    > You can also manually select the desired version from the **Version** drop-down list of each topic.
 
 1. Click **Next**.
 
@@ -225,8 +225,8 @@ To send one or multiple topics along with the map file for review, perform the f
     -   **Clear Selection**: Deselects the topics selected in the topics list.
 
         >[!NOTE]
->
-> You can also individually select or deselect a topic by clicking on the checkbox next to the topic.
+        >
+        > You can also individually select or deselect a topic by clicking on the checkbox next to the topic.
 
     -   **Add**: Displays the Add Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to add as a reviewer to the selected topics.
     -   **Remove**: Displays the Remove Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to remove as reviewer from the selected topics.
@@ -234,20 +234,20 @@ To send one or multiple topics along with the map file for review, perform the f
     -   **Export**: Allows you to export the review task details in a CSV file. The file contains details such as the path and title of the topic, name of reviewer, and version of topics sent for review.
     -   **Edit Reviewers**: Clicking the ![](images/edit_pencil_icon.svg)icon in the topic list displays the Edit Reviewers dialog. You can add or remove reviewers for the selected topic from this dialog.
     >[!IMPORTANT]
->
-> You must assign at least one reviewer to create the review task.
+    >
+    > You must assign at least one reviewer to create the review task.
 
 1. Click **Create** to create the review task.
 
     A confirmation message is displayed when the review task is created successfully. The [Document state](web-editor-document-states.md#) for the topics sent for review is set to In-Review.
 
     >[!NOTE]
->
-> You can also click Notifications panel at the top right of the interface and confirm that the task has been created successfully. In the Notifications panel, you will find one notification each for the reviews who were a part of the review task and one notification for the initiator of the review.
+    >
+    > You can also click Notifications panel at the top right of the interface and confirm that the task has been created successfully. In the Notifications panel, you will find one notification each for the reviews who were a part of the review task and one notification for the initiator of the review.
 
     >[!IMPORTANT]
->
-> Once you have initiated a review, you must not move or delete the DITA map or topics to a different location. Doing so will result in a break in the review process.
+    >
+    > Once you have initiated a review, you must not move or delete the DITA map or topics to a different location. Doing so will result in a break in the review process.
 
 
 An email is sent to all the reviewers, notifying that they have been assigned topics for review. The email contains a direct link that they can click and access the topic in a browser window. The topics along with the DITA map are opened in the review mode.

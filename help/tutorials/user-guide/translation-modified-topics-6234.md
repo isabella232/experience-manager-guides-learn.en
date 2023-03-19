@@ -13,8 +13,8 @@ Perform the following steps to send a modified topic for re-translation:
     You can see the translation status for each topic. The topics that have another revision of topic available than what was sent for translation, show an **Out of Date** status.
 
     >[!NOTE]
->
-> The translation workflow compares the last saved revision of the topic file in the source language folder with the translated version.
+    >
+    > The translation workflow compares the last saved revision of the topic file in the source language folder with the translated version.
 
     If you click the arrow to see further details. you can see the particular language copy that is out of date.
 
@@ -27,8 +27,8 @@ Perform the following steps to send a modified topic for re-translation:
     You can use the **Dismiss Out of Sync** button to override the Out of Date status for the topics in the DITA map. For example, if you made some changes in the English version of the topic that does not need translation, you can use this button and change the Out of Date status for the selected topic.
 
     >[!NOTE]
->
-> If you click the **Dismiss Out of Sync Status** button, it sets the topic status to Up to Date for the selected Out of Date topics.
+    >
+    > If you click the **Dismiss Out of Sync Status** button, it sets the topic status to Up to Date for the selected Out of Date topics.
 
 1.  Click **Update Language Copies** and configure the translation job.
 
@@ -47,8 +47,8 @@ Perform the following steps to send a modified topic for re-translation:
     You can also view the status of the topic being translated when you click the ellipsis at the bottom of the translation job card.
 
     >[!NOTE]
->
-> If you are using Human translation service, then you need to export the content for translation. Once you have the translated content, then you need to import it back into the translation project.
+    >
+    > If you are using Human translation service, then you need to export the content for translation. Once you have the translated content, then you need to import it back into the translation project.
 
 1. After the translation completes, the status changes to **Ready to Review**. Click the ellipsis to see topic details and do one of the following from the toolbar:
 
@@ -59,8 +59,8 @@ Perform the following steps to send a modified topic for re-translation:
     -   Click **Reject Translation** if you think that the job needs to be re-done. A rejection message is displayed.
 
     >[!NOTE]
->
-> It is important to Accept or Reject the translated asset, else the file stays in the temporary location and does not get copied to DAM.
+    >
+    > It is important to Accept or Reject the translated asset, else the file stays in the temporary location and does not get copied to DAM.
 
 1. Navigate back to the DITA map file in the source language folder in Assets UI. The re-translated topics are now in sync.
 

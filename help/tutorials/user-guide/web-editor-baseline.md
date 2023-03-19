@@ -24,14 +24,14 @@ You can create a baseline from the Web Editor by performing the following steps:
 1.  -   In **Set the latest version based on,** select one of the following options:
 
     1.  **Date** <time stamp\>: Picks the topics' version as on the specified date and time.
-    2.  **Label**: Select this option to pick the topics according to the label applied to them. If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box.
+    1.  **Label**: Select this option to pick the topics according to the label applied to them. If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box.
     When you select **Label,** you can choose the direct and indirect references.
 
     -   For direct references within the DITA map, you are given an option to use the latest version of topics that do not have the specified label applied to them.
 
         >[!NOTE]
->
-> If you enter a label that does not exist and select the option **Do not create a baseline** then the baseline creation fails and gives an error message near the baseline name in the Baseline panel.
+        >
+        > If you enter a label that does not exist and select the option **Do not create a baseline** then the baseline creation fails and gives an error message near the baseline name in the Baseline panel.
 
     -   For indirect references within the DITA map, you are given an additional option to use the latest version of topics that do not have the specified label applied on them. You can also choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
     Once you have selected a label or version as on date, then all referenced topics and media files within the map are selected accordingly. This selection of topics is not shown on the user interface, but it is saved in the backend.
@@ -68,8 +68,8 @@ You can also perform the following operations on the baseline from the Options m
 -   Add, remove, or make changes to existing labels from the **Manage Labels** option. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label drop-down list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
 
     >[!NOTE]
->
-> The process to add or remove labels happens asynchronously, so you can continue working on other files in the Web Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
+    >
+    > The process to add or remove labels happens asynchronously, so you can continue working on other files in the Web Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
 
 -   **Edit properties** of an existing baseline that you have set while creating the baseline.
 -   Export the snapshot of a baseline in a CSV file with the **Export Baseline** option.

@@ -11,8 +11,8 @@ Perform the following steps to generate output for a DITA map:
     ![](images/generate-multiple-outputs-uuid.png)
 
     >[!NOTE]
->
-> If you are generating the AEM Site output, then the publishing process uses the structure defined in the `.ditamap` file to create AEM Site structure.
+    >
+    > If you are generating the AEM Site output, then the publishing process uses the structure defined in the `.ditamap` file to create AEM Site structure.
 
 1.  Click the Generate icon to start the output generation process.
 
@@ -54,8 +54,8 @@ Perform the following steps to regenerate output for a specific topic or a group
 1.  Select the topics that you want to regenerate.
 
     >[!NOTE]
->
-> If you have added new topics to the DITA map, you will not be able to generate those new topics from here. You must first publish the newly added topics by using the DITA map publish function.
+    >
+    > If you have added new topics to the DITA map, you will not be able to generate those new topics from here. You must first publish the newly added topics by using the DITA map publish function.
 
     ![](images/regenerate-topics.png)
 
@@ -103,8 +103,8 @@ Perform the following steps to view the output generation queue:
         For all the tasks, the publishing process creates a log file \(logs.txt\) that can be accessed by clicking the link in the Generated At column. For tasks that have failed or have messages, you can check the log file, which is explained in the section [View and check the log file](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
         >[!NOTE]
->
-> When you click on a link of the generated PDF output, you are asked to download the PDF. This is the default behavior in AEM 6.5 and 6.4.
+        >
+        > When you click on a link of the generated PDF output, you are asked to download the PDF. This is the default behavior in AEM 6.5 and 6.4.
 
 
 ## Cancel an output generation task {#id2061H100T5Z}

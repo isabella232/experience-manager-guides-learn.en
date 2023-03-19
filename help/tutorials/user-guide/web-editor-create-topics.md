@@ -15,8 +15,8 @@ Perform the following steps to create a topic:
     By default, AEM Guides provides the most commonly used DITA topics templates. You can configure more topic templates as per your organizational requirements, see *Configure templates and tags for authoring* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     >[!NOTE]
->
-> In the list view of Assets UI, the DITA topic type is shown in the Type column as Topic, Task, Concept, Reference, Glossentry, or DITAVAL. The DITA map is shown as Map.
+    >
+    > In the list view of Assets UI, the DITA topic type is shown in the Type column as Topic, Task, Concept, Reference, Glossentry, or DITAVAL. The DITA map is shown as Map.
 
 1.  On the Properties page, specify the document **Title**.
 

@@ -28,12 +28,12 @@ Before performing steps in this procedure, ensure that you have created the requ
 1.  From the **Languages** list, select the locale to which you want to translate your project. You can select **All** to translate your project into all the available languages.
 
     >[!NOTE]
->
-> The list contains the language folders along with their language codes. For example, French \(fr\) and German \(de\).
+    >
+    > The list contains the language folders along with their language codes. For example, French \(fr\) and German \(de\).
 
     >[!IMPORTANT]
->
-> Language shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    >
+    > Language shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
 
     ![](images/translation-languages.png)
 
@@ -74,8 +74,8 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   If you already have a translation project, you can add topics to that project. Select Add to **Existing Translation Project** option from the Project list and choose a project from the Existing Translation Project list. You can sort these projects by most recent, ascending, or descending order.
 
         >[!NOTE]
->
-> If your existing project is a scoping project, it has '\(Scoping\)' appended in its name.
+        >
+        > If your existing project is a scoping project, it has '\(Scoping\)' appended in its name.
 
     -   If you need to create the scope for a project to be translated, you can select **Create a new scoping translation project**. This will not send the copies for translation and the original translation status of the files is maintained. There is no impact on the destination language copy of the referred topics which are sent for scoping.
 1.  In the **Project Title** field, enter a title for the project.
@@ -84,8 +84,8 @@ Before performing steps in this procedure, ensure that you have created the requ
     A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details see,[Start the translation job](translation-first-time.md#id225IK030OE8)[translation-first-time.md\#id21BKH0TD0P5](translation-first-time.md#id21BKH0TD0P5).
 
     >[!NOTE]
->
-> If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them.
+    >
+    > If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them.
 
 
 ## Pass the version label to the target version 

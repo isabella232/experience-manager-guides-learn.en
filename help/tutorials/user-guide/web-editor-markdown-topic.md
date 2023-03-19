@@ -35,8 +35,8 @@ Perform the following steps to author a Markdown topic from the Web Editor:
 1.  Click **Preview** on the top-right to preview the topic.
 
     >[!NOTE]
->
-> The Preview mode shows how a topic will be displayed when it is viewed by a user in their browser.
+    >
+    > The Preview mode shows how a topic will be displayed when it is viewed by a user in their browser.
 
 1.  Use **Save as a New Version** in the main toolbar to save the changes you have made in your topic and create a new version of your topic. You can also use **Save All** in the main toolbar to save your changes in all opened topics.
 

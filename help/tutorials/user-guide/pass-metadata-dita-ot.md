@@ -15,8 +15,8 @@ Perform the following steps to pass on the metadata to the output using DITA-OT 
     ****Properties dropdown lists both the custom and the default properties. For example, in the above screenshot author is the custom property while dc:description, dc:language, dc:title, and docstate are the default properties.
 
     >[!NOTE]
->
-> These properties are picked from the metadataList file available at the following location:/libs/fmdita/config/metadataList. By default, there are four properties listed in this file- dc:description, dc:language, dc:title, and docstate.
+    >
+    > These properties are picked from the metadataList file available at the following location:/libs/fmdita/config/metadataList. By default, there are four properties listed in this file- dc:description, dc:language, dc:title, and docstate.
 
     This file can be overlaid at: /apps/fmdita/config/metadataList.
 

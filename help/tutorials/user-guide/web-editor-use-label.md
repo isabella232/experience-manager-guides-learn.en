@@ -17,8 +17,8 @@ Perform the following steps to add a label to your topic:
 1.  Enter a label for the selected version and press Enter. For example, 2.6 Release.
 
     >[!NOTE]
->
-> You cannot add the same label to the different versions of a topic. However, you can add multiple labels to the same version of a topic.
+    >
+    > You cannot add the same label to the different versions of a topic. However, you can add multiple labels to the same version of a topic.
 
     The labels are displayed in the Version History of the selected topic. The following screenshot displays the labels x.x Release and User Guide added to the highlighted version of the topic.
 

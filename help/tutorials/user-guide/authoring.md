@@ -7,7 +7,7 @@ Before you start with the actual content creation, you must familiarize yourself
 Some key concepts of content management in AEM are as follows:
 
 Asset management
-:   AEM Guides uses AEM’s digital asset management \(DAM\) to manage your DITA files. The files that you upload or check into the DAM are stored as digital assets. You can manage and edit your assets in AEM Assets. For more information about asset management, see [Manage assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+:   AEM Guides uses AEM's digital asset management \(DAM\) to manage your DITA files. The files that you upload or check into the DAM are stored as digital assets. You can manage and edit your assets in AEM Assets. For more information about asset management, see [Manage assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 Link management
 :   Move or rename files or change folder structure in the content repository, without worrying about broken references. All references to and from the impacted content are automatically updated. Get warnings when deleting content which is referenced from elsewhere, to prevent unintentional breakages.
@@ -26,9 +26,7 @@ AEM Guides provides three out-of-the-box groups. These groups are: *Authors*, *R
 
 >[!TIP]
 >
->
-
-See the *Permissions*section in the Best practices guide for best practices around setting user permissions.
+> See the *Permissions*section in the Best practices guide for best practices around setting user permissions.
 
 The following table lists various tasks and the groups that can perform those tasks:
 

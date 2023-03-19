@@ -42,14 +42,14 @@ Drag-and-drop with human readable filenames
     With Overwrite existing file\(s\) option, if you choose the option to create a version from the existing working copy, then a new version from the working copy of the document is also created.
 
     >[!NOTE]
->
-> **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded File* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >
+    > **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded File* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     If a file is already checked out for edits by another user, and you attempt to upload and overwrite the existing file, then it fails and displays an error.
 
     >[!NOTE]
->
-> The **Overwrite Checked out File on Upload** feature must be disabled by your administrator. If this feature is enabled, you can overwrite checked-out files. If the feature is not enabled, then a checked out file is prevented from being overwritten. For more details, see *Overwrite Checked out File on Upload* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    
+     The **Overwrite Checked out File on Upload** feature must be disabled by your administrator. If this feature is enabled, you can overwrite checked-out files. If the feature is not enabled, then a checked out file is prevented from being overwritten. For more details, see *Overwrite Checked out File on Upload* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
 :   -   *Drag-and-drop files at different location*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the original file name.
@@ -65,8 +65,8 @@ Drag-and-drop with filenames based on a UUID pattern
     If you select the **Create Version for the Existing Working Copy** option, then a new version from the working copy of the document is created; the new file is uploaded, a new version of the file is also created, and it is made as the working copy of the document.
 
     >[!NOTE]
->
-> **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded file* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    
+     **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded file* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
 :   -   *Drag-and-drop file at different location*: You are given the options to **Overwrite Existing File\(s\)**, **Move File\(s\) to New Location**, and an option to create a version of the existing working copy.
@@ -84,11 +84,11 @@ Drag-and-drop with filenames based on a UUID pattern
 
 AEM Guides comes with the Bulk Move Tool that helps an administrator to move a folder having large number of files from one location to another. This tool can easily move files within one or more folders into a different folder in your AEM repository. One of the major features of this tool is that it not only moves a large number of files, but it also maintains the references to and from the files being moved. You can tweak the number of files that you can move in batches without hampering the authoring and publishing tasks.
 
->[!NOTE]
->
->
+    [!NOTE]
+    
+    
 
-The Bulk Move Tool works only at folder-level. If you want to move individual topic or map files, then use the regular move tool from AEM’s Assets UI.
+The Bulk Move Tool works only at folder-level. If you want to move individual topic or map files, then use the regular move tool from AEM's Assets UI.
 
 Here are some of the features provided by the Bulk Move Tool:
 
@@ -128,7 +128,7 @@ To move files in bulk, perform the following steps:
 
         If you are moving folders with the same name without selecting this option, then the operation will abort with a message.
 
-    -   **Source Path\(s\)**: Specify the location of folders that you want to move. Typically, you will have to copy and paste the source location from the browser’s address bar. You can specify multiple folder locations by clicking the **Add** button.
+    -   **Source Path\(s\)**: Specify the location of folders that you want to move. Typically, you will have to copy and paste the source location from the browser's address bar. You can specify multiple folder locations by clicking the **Add** button.
 
     -   **Destination Path**: Specify the location where you want to move the source folders.
 
@@ -143,9 +143,9 @@ To move files in bulk, perform the following steps:
 
 By default, AEM does not recognize DITA content, thus, it doesn't provide any mechanism to search DITA content within its repository. AEM Guides adds a layer on top of AEM, which enables AEM to understand and process DITA content. The Search DITA content feature in AEM Guides allows you to search for DITA content within AEM repository.
 
->[!NOTE]
->
->
+    [!NOTE]
+    
+    
 
 Your system administrator can configure the **DITA Element** search component and then you can use the feature from the AEM Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
@@ -208,9 +208,9 @@ Deleting files from AEM repository is a restricted feature, which is controlled 
 
 You could also delete files only if you belong to a specific user group that has privileges to delete files.
 
->[!NOTE]
->
->
+    [!NOTE]
+    
+    
 
 For more details on the configurations on file management, see *Prevent deletion of checked out files* and *Prevent deletion of referenced files* sections in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
@@ -224,7 +224,7 @@ If the delete permissions are given to a specific user group, then also the abov
 
 ![](images/allow_unsafe_delete_for_delete_assets_group.PNG)
 
-In this scenario, users won’t be allowed to delete files until all incoming and outgoing references have been removed.
+In this scenario, users won't be allowed to delete files until all incoming and outgoing references have been removed.
 
 ## Work with media files 
 

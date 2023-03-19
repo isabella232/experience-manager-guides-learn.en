@@ -11,14 +11,14 @@ Perform the following steps to build your map file using the Advanced Map Editor
 1.  In the Assets UI, navigate to the map file that you want to edit.
 
     >[!NOTE]
->
-> Ensure that you have not enabled the asset Select mode.
+    >
+    > Ensure that you have not enabled the asset Select mode.
 
 1.  To get an exclusive lock on the map file, select the map file and click **Check Out**.
 
     >[!NOTE]
->
-> Once you have an exclusive lock on a map file, other users would not be able to edit the map. However, they would be able to work on the topics within the map file. If your administrator has configured your Web Editor to checkout files before editing, then you will not be able to edit a file until you check it out. Similarly, if configured, you will be asked to check-in any checked-out a file before closing it
+    >
+    > Once you have an exclusive lock on a map file, other users would not be able to edit the map. However, they would be able to work on the topics within the map file. If your administrator has configured your Web Editor to checkout files before editing, then you will not be able to edit a file until you check it out. Similarly, if configured, you will be asked to check-in any checked-out a file before closing it
 
 1.  With the map file selected, click **Edit Topics**.
 
@@ -133,8 +133,8 @@ Move the Selected Item Up/Down ![](images/arrowup.svg)– / ![](images/arrowdown
 :   Click the up or down arrow icons' to move the topic up or down in the hierarchy.
 
     >[!NOTE]
->
-> You can also drag-and-drop the references to move them in a map.
+    >
+    > You can also drag-and-drop the references to move them in a map.
 
 Lock/Unlock – ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
 :   Gets a lock on the map file and release the lock. If you have unsaved changes in your map file, then at the time of releasing the lock, you are prompted to save the map file. The changes are saved in the current version of the map file.
@@ -164,8 +164,8 @@ View Options—![](images/view-options.svg)
         Shows the filename of the titles of the topics.
 
         >[!NOTE]
->
-> When you hover your pointer over a topic's title, you are shown the file path.
+    >
+    > When you hover your pointer over a topic's title, you are shown the file path.
 
 
 **View topics based on conditional filters**If you have applied any conditions on a topic, a filter icon is displayed on the right of the topic. When you hover your pointer over a filter icon, you are shown the applied condition and its attribute value.
@@ -185,15 +185,15 @@ In addition to organizing topics in the map file, you can also perform the follo
 -   **Copy**: Copy the selected reference from the map file.
 
     >[!NOTE]
->
-> You can show and then select the checkboxes to copy multiple references.
+    >
+    > You can show and then select the checkboxes to copy multiple references.
 
 -   **Paste**: Paste the copied references at the current location in the hierarchy.
 -   **Delete**: Delete the selected references from the map file.
 
     >[!NOTE]
->
-> You can show and then select the checkboxes to delete multiple references.
+    >
+    > You can show and then select the checkboxes to delete multiple references.
 
 
 ## Right Panel in the Map Editor 
@@ -236,8 +236,8 @@ Refresh Navigation Title Attribute – ![](images/navtitle-refresh-icon.svg)
 :   Synchronizes the `title` element of a referenced file in a map with the value specified in its `@navtitle` attribute. You can add different types of reference files in a map, for example topic, reference, task, \(sub\) maps, and so on. Most of these files support the `@navtitle` attribute. If a file contains the `@navtitle` attribute, then the`@navtitle` attribute for the same file in map is updated. In case the `@navtitle` attribute is not present, then the`@navtitle` attribute is added to that reference file and its `title` is also updated to display the `@navtitle`.
 
     >[!NOTE]
->
-> Your administrator can configure auto-adding `@navtitle` attribute to every reference file that you add to a map. For more details about configuring auto-adding `@navtitle` attribute, see *Include @navtitle attribute by default* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >
+    > Your administrator can configure auto-adding `@navtitle` attribute to every reference file that you add to a map. For more details about configuring auto-adding `@navtitle` attribute, see *Include @navtitle attribute by default* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     Click the Refresh Navigation Title Attribute icon to synchronize the `title` element's and `@navtitle` attribute's values.
 
@@ -265,24 +265,24 @@ To edit topics through a DITA map, perform the following steps:
 1.  Select the **Topics** tab to see a list of topics available in the DITA map.
 
     >[!TIP]
->
-> The Topics tab gives you an option to download the map file with its dependents. For more details, see [Export a DITA map file](authoring-download-assets.md#id218UBA00IXA).
+    >
+    > The Topics tab gives you an option to download the map file with its dependents. For more details, see [Export a DITA map file](authoring-download-assets.md#id218UBA00IXA).
 
 1.  In the main toolbar, click **Edit Topics**.
 
     The DITA map opens in the Web Editor.
 
     >[!NOTE]
->
-> You can also select the DITA map file in the Assets UI and click **Edit Topics** in the main toolbar to launch the Web Editor.
+    >
+    > You can also select the DITA map file in the Assets UI and click **Edit Topics** in the main toolbar to launch the Web Editor.
 
     ![](images/web-editor-map-view_cs.png)
 
 1.  \(*Optional*\) You can also select a topic from the map and checkout the file before editing. To checkout file\(s\), select one or more files from the left pane and click **Checkout**. You can also release the lock on any file by selecting the checked out file and clicking on the **Cancel Checkout and Unlock** icon in the Map view.
 
     >[!IMPORTANT]
->
-> If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not checkout the file, then the document will open in the editor in read-only mode.
+    >
+    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not checkout the file, then the document will open in the editor in read-only mode.
 
     The following screenshot highlights the icons for Checkout and Lock \(A\), Cancel Checkout and Unlock \(B\), Save As New Version and Unlock \(C\), Edit \(D\), Preview \(E\), different icons showing different DITA file types \(F\), and files that are checked out \(G\).
 
@@ -325,8 +325,8 @@ You can access a map's preview from:
 -   **Assets UI**: In the Assets UI, navigate to the map location, select the map file, and choose **Preview Map** in the Toolbar. The map's preview is shown in a new tab. You can view the content of all topics in the preview mode. In this view, you cannot edit any topic.
 
     >[!NOTE]
->
-> If the *Preview Map* option is not visible in the main toolbar, it might have moved under the **More** toolbar menu.
+    >
+    > If the *Preview Map* option is not visible in the main toolbar, it might have moved under the **More** toolbar menu.
 
 -   **Advanced Map Editor**: In the Advanced Map Editor, click on the Preview icon to see the preview of the current map.
 
@@ -337,8 +337,8 @@ You can access a map's preview from:
     -   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
         >[!NOTE]
->
-> If you don't have editing rights, then the topic will open in read-only mode.
+        >
+        > If you don't have editing rights, then the topic will open in read-only mode.
 
     -   Jump to the desired topic by clicking on the topic title in the map tree \(in left panel\).
 

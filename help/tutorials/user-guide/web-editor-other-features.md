@@ -103,8 +103,8 @@ File close and save scenarios
     -   **Unlock the File**: If you choose to unlock a file, it will release the lock on your file and the changes are saved in the current version of the file.
 
     >[!NOTE]
->
-> If you deselect the option to unlock the file, you also get an option to close the file without saving the changes.
+    >
+    > If you deselect the option to unlock the file, you also get an option to close the file without saving the changes.
 
     For example, one of the prompts is shown in the following screenshot:
 
@@ -120,8 +120,8 @@ Remember last browsed location
 :   The Web Editor provides a smart file browse dialog. The editor remembers the last used location while inserting a reference or content. The first time you invoke the file browse dialog \(via Insert Reference or Insert Reuse Content\), then you are taken to the location where the current document is saved. In the same session, if you try to insert another reference, then the file browse dialog automatically navigates to the location from where you inserted the last reference.
 
     >[!NOTE]
->
-> In case of an image, audio, or video file, the file browse dialog defaults to the file's location and not the last used location.
+    >
+    > In case of an image, audio, or video file, the file browse dialog defaults to the file's location and not the last used location.
 
 Support for article-based publishing
 :   From the Web Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Web Editor. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).

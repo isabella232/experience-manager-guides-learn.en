@@ -25,8 +25,8 @@ Perform the following steps to download a DITA map file along with its dependent
     -   **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want to download the map file and its contents based on a specific Baseline, select the Baseline from the drop-down list. For more details about working with Baselines, see [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
     -   **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder.
     >[!NOTE]
->
->
+    >
+    >
 
     You can also download the map file without selecting any option. In that case, the last persisted version of the referenced topics and media files are downloaded.
 
@@ -38,9 +38,9 @@ Perform the following steps to download a DITA map file along with its dependent
 
     -   Click **Download Later**to download the map file at a later time. The download link can be accessed from the AEM notification Inbox. Click the generated map notification in the Inbox to download the map in .zip format.
 
->[!NOTE]
->
-> By default, the downloaded maps remain for five days in the AEM notification Inbox.
+    [!NOTE]
+    
+     By default, the downloaded maps remain for five days in the AEM notification Inbox.
 
 ![](images/download-map-inbox.png)
 
