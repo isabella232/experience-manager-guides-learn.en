@@ -44,33 +44,19 @@ The following options are available for the AEM Site output:
 |----------------|-----------|
 |Output Type|The type of output you want to generate. To generate responsive AEM Site output, choose the AEM Site option.|
 |Setting Name|Give a descriptive name for the AEM site settings you are creating. For example, you can specify *Internal customers output* or *end-users output*.|
-|Site Name|A site name where the output is stored in your AEM repository.
-
+|Site Name|A site name where the output is stored in your AEM repository. 
 A node in the AEM repository is created with the name specified here. If you do not specify the Site Name, then the site node is created with the DITA map file name.
-
 The Site Name you specify here is also used as the title in the browser tab.
-
-You can also use variables while setting the Site Name. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#).
-
-|
+You can also use variables while setting the Site Name. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#).|
 |Design|Select the design template that you want to use to generate the output.
-
-For details about how to use custom design templates to generate output, contact your publishing administrator.
-
-|
-|Destination Path|The path within your AEM repository where the output is stored. While generating the final output, the Site Name and Destination Path are combined. For example, if you specify the Site Name as `user-guide` and the Destination Path as `/content/output/aem-guides`, then the final output is generated under the `/content/output/aem-guides/user-guide` node.You can also use variables while setting the Destination Path. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#).
-
-|
+For details about how to use custom design templates to generate output, contact your publishing administrator.|
+|Destination Path|The path within your AEM repository where the output is stored. While generating the final output, the Site Name and Destination Path are combined. For example, if you specify the Site Name as `user-guide` and the Destination Path as `/content/output/aem-guides`, then the final output is generated under the `/content/output/aem-guides/user-guide` node.You can also use variables while setting the Destination Path. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#).|
 |Apply Conditions Using|Select one of the following options:-   **None Applied**: Select this option if you do not want to apply any condition on the published output.
 -   **DITAVal** file: Select DITAVal file\(s\) to generate conditionalized content. You can select multiple DITAVal files using the browse dialog or by typing file path. Use the cross icon near the file name to remove it. DITAVal files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. If the DITAVal file is moved to some other location or is deleted, it is not automatically deleted from the map dashboard. You need to update the location in case files are moved or deleted. You can hover over the file name to see the path in the AEM repository where the file is stored. You can only select DITAVal files and an error is displayed if you select any other file type.
--   **Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](generate-output-use-condition-presets.md#).
-
-|
+-   **Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](generate-output-use-condition-presets.md#).|
 |Existing Output Pages|Select the **Overwrite Content** option to overwrite content in the existing pages. This option only overwrites content present under the content and head nodes of the page. This option enables blended publishing of content. Selecting this option provides an option to select deleting orphan pages from the published output. This is also the *default* option for creating the AEM Site output.
 
-Select the **Delete and Create** option to force delete any existing pages during publishing. This option deletes the page node along with its content and all child pages under it. Use this option if you have changed the design template of your output preset or if you want any extra pages already present in the destination to be removed.
-
-|
+Select the **Delete and Create** option to force delete any existing pages during publishing. This option deletes the page node along with its content and all child pages under it. Use this option if you have changed the design template of your output preset or if you want any extra pages already present in the destination to be removed.|
 |Delete Orphan Site Pages|Selecting the **Overwrite Content** in the **Existing Output Pages** setting presents this option. If you select this option, then all orphan pages are deleted from the published AEM Site. For this feature to run successfully, you must publish the entire DITA map and not use the incremental publishing.
 
 Let's say you have published a DITA map, which contains topics a.dita, b.dita, and c.dita. Before publishing the map again, you removed b.dita topic from the map. Now, if you have selected this option, then all content related to b.dita is removed from the AEM Site output and only a.dita and c.dita are published.
@@ -81,33 +67,23 @@ Also, if there is any referenced content, and that content is removed before rep
 
     >[!NOTE]
     >
-    > Information about deleted orphan pages is also captured in the output generation logs. For more information about accessing the log files, see [View and check the log file](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
-
-|
+    > Information about deleted orphan pages is also captured in the output generation logs. For more information about accessing the log files, see [View and check the log file](generate-output-basic-troubleshooting.md#id1822G0P0CHS).|
 |Clean DITA-OT Temporary Files|Select this option to clean the temporary files generated by DITA-OT. The location where DITA-OT stores temporary files can be found in the output generation log.
 
-If you are experiencing errors while generating output through DITA-OT, you can deselect this option to retain the temporary files. You can then use those files to troubleshoot output generation errors.
-
-|
+If you are experiencing errors while generating output through DITA-OT, you can deselect this option to retain the temporary files. You can then use those files to troubleshoot output generation errors.|
 |Generate Separate PDF for Each Topic|If selected, a PDF is also created for every topic in the DITA map. When you choose this option, a new Split PDF Path option is displayed.In the Split PDF Path field, specify the path to store the PDFs generated for each topic.
 
     >[!NOTE]
     >
-    > AEM Guides uses the DITA-OT plug-in named pdfx to generate PDF for each topic. This plug-in is bundled with the DITA-OT package shipped out-of-the-box. You can customize this plug-in to generate PDF as per your requirements. If you use a custom DITA-OT plug-in, ensure that you integrate the pdfx plug-in to have topic-level PDF generation capability.
-
-|
-|Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.
-
-|
+    > AEM Guides uses the DITA-OT plug-in named pdfx to generate PDF for each topic. This plug-in is bundled with the DITA-OT package shipped out-of-the-box. You can customize this plug-in to generate PDF as per your requirements. If you use a custom DITA-OT plug-in, ensure that you integrate the pdfx plug-in to have topic-level PDF generation capability.|
+|Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.|
 |Use Baseline|If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.
 
     [!IMPORTANT]
     
      When you are generating incremental output for the AEM Site, then the output is created using the current version of the files and not the attached Baseline.
 
-See [Work with Baseline](generate-output-use-baseline-for-publishing.md#) for more detail.
-
-|
+See [Work with Baseline](generate-output-use-baseline-for-publishing.md#) for more detail.|
 |Properties|Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties that you select from the drop-down list are listed below the **Properties** field and are removed from the drop-down list. **Note:** The metadata properties are case-sensitive.
 
 -   If you have selected a Baseline, then the values for the properties are based on the version of the selected Baseline.
@@ -117,16 +93,12 @@ You can also pass on the metadata to the output using DITA-OT publishing. For mo
 
     >[!NOTE]
     >
-    > If you have not defined the `cq:tags` in the **Properties** option, then the values for `cq:tags` are picked from the current working copy even if you have selected a Baseline for publishing.
-
-|
+    > If you have not defined the `cq:tags` in the **Properties** option, then the values for `cq:tags` are picked from the current working copy even if you have selected a Baseline for publishing.|
 |Use Map Properties If Its Missing On Topic|If selected, the properties defined for the map file are also copied into the topics where such properties are not defined. Consider the following points while using this option:
 
 -   Only String, Date, or Long \(singe and multi-valued\) properties can be passed on to the AEM Site pages.
 -   The metadata values for a String type property does not support any special characters \(such as @, \#, " "\).
--   This option should be used along with the Properties option.
-
-|
+-   This option should be used along with the Properties option.|
 
 ## Additional note on AEM Site 
 

@@ -25,9 +25,7 @@ The following options are available for the PDF Output:
 |Convert CYMK to RGB|Select this option to convert CYMK colors to RGB in the generated PDF.|
 |Generate PDF Bookmarks|Create accessible PDF that contains bookmarks.|
 |Destination Path|The path within your AEM repository where the PDF output is stored.|
-|Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.
-
-|
+|Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.|
 
 **Parent topic:**[Generate output of FrameMaker documents](fm-output-generatation.md)
 

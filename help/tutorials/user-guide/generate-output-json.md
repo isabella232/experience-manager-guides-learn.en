@@ -30,29 +30,19 @@ The following options are available for the JSON preset:
 |JSON output options|Description|
 |-------------------|-----------|
 |Output Path|The path within your AEM repository where the JSON output is stored.|
-|Index File|You can give a name for the index file you're creating for the JSON output. By default, it picks the DITA map's file name and adds a suffix \(like `map_filename_index.json`\). You can also use variables while setting the Index File. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#).
-
-|
+|Index File|You can give a name for the index file you're creating for the JSON output. By default, it picks the DITA map's file name and adds a suffix \(like `map_filename_index.json`\). You can also use variables while setting the Index File. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#).|
 |Apply conditions using|Select one of the following options:-   **None applied**: Select this option if you do not want to apply any condition on the published output.
 -   **DITAVAL file**: Select DITAVAL file\(s\) to generate personalized content. You can select multiple DITAVAL files using the browse dialog or by typing file path. Use the cross icon near the file name to remove it. DITAVAL files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. If the DITAVAL file is moved to some other location or is deleted, it is not automatically deleted from the map dashboard. You need to update the location in case files are moved or deleted. You can hover over the file name to see the path in the AEM repository where the file is stored. You can only select DITAVAL files and an error is displayed if you have selected any other file type.
--   **Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. The option is visible if you have added a condition present in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](generate-output-use-condition-presets.md#).
-
-|
+-   **Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. The option is visible if you have added a condition present in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](generate-output-use-condition-presets.md#).|
 |Use Baseline|If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.
 
-See [Work with Baseline](generate-output-use-baseline-for-publishing.md#) for more detail.
-
-|
-|Properties to Propagate in the Output|Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties that you select from the drop-down list are listed below the **Properties** field. **Note:** You can also define custom properties and pass on the metadata to the output using DITA-OT publishing. For more details see, [Work with metadata](metadata-dita.md#).
-
-|
+See [Work with Baseline](generate-output-use-baseline-for-publishing.md#) for more detail.|
+|Properties to Propagate in the Output|Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties that you select from the drop-down list are listed below the **Properties** field. **Note:** You can also define custom properties and pass on the metadata to the output using DITA-OT publishing. For more details see, [Work with metadata](metadata-dita.md#).|
 |Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.
 
 >[!NOTE]
 >
-> For more information about creating a custom post-output generation workflow, see *Customize post-output generation workflow* in the Install and configure Adobe Experience Manager Guides as a Cloud Service guide.
-
-|
+> For more information about creating a custom post-output generation workflow, see *Customize post-output generation workflow* in the Install and configure Adobe Experience Manager Guides as a Cloud Service guide.|
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)
 
