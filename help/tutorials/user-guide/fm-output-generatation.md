@@ -17,9 +17,9 @@ Information in the following sections is for publishers who will use the output 
 
 -   [Generate output of .book or .fm files](fm-output-generate.md#)
 
-	>[!IMPORTANT]
-	>
-	> Features described in this topic are available to users with Publishers or administrator privileges only.
+>[!IMPORTANT]
+>
+> Features described in this topic are available to users with Publishers or administrator privileges only.
 
 -   **[Understanding the output presets](fm-output-understand-presets.md)**  
 
