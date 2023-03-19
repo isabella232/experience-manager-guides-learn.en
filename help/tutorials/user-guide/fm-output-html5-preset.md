@@ -12,9 +12,7 @@ The following options are available for the HTML5 output:
 |Setting Name|Give a descriptive name for the HTML5 output settings you are creating. For example, you can specify *Internal customers output* or *end-users output*.|
 |Settings File|Specify the setting file \(.sts\) location in your AEM repository that should be used to generate the HTML5 output.|
 |Destination Path|The path within your AEM repository where the HTML5 output is stored.|
-|Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.
-
-|
+|Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.|
 
 **Parent topic:**[Generate output of FrameMaker documents](fm-output-generatation.md)
 
