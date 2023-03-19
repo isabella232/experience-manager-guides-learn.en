@@ -10,13 +10,13 @@ You can create the AEM site preset in two ways:
 
 The **General** tab contains the following configurations:
 
--   Site Name
--   Output Path
--   Existing Output Pages
--   Delete Orphan Site Pages
--   Apply Conditions Using \(If the conditions are defined for a map\)
--   Use Baseline \(If a baseline is created for a map\)
--   Post Generation Workflow
+- Site Name
+- Output Path
+- Existing Output Pages
+- Delete Orphan Site Pages
+- Apply Conditions Using \(If the conditions are defined for a map\)
+- Use Baseline \(If a baseline is created for a map\)
+- Post Generation Workflow
 
 **Advanced**
 
@@ -32,9 +32,9 @@ For details, refer to [AEM Site configuration](#id231KIM004X1).
 
 To open output presets for AEM Site, click on a DITA map file from the Assets UI, then click on Output Presets, and then click on the AEM Site output option.In the map dashboard, click **Edit** on the top to update the various configurations, and then click **Save**.
 
-    [!TIP]
-    
-     See the *AEM Site publishing* section in the Best practices guide for best practices around creating AEM Site output.
+    >[!TIP]
+    >
+    > See the *AEM Site publishing* section in the Best practices guide for best practices around creating AEM Site output.
 
 **AEM Site configuration**
 
@@ -44,7 +44,7 @@ The following options are available for the AEM Site output:
 |----------------|-----------|
 |Output Type|The type of output you want to generate. To generate responsive AEM Site output, choose the AEM Site option.|
 |Setting Name|Give a descriptive name for the AEM site settings you are creating. For example, you can specify *Internal customers output* or *end-users output*.|
-|Site Name|A site name where the output is stored in your AEM repository. 
+|Site Name|A site name where the output is stored in your AEM repository.
 A node in the AEM repository is created with the name specified here. If you do not specify the Site Name, then the site node is created with the DITA map file name.
 The Site Name you specify here is also used as the title in the browser tab.
 You can also use variables while setting the Site Name. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#).|
@@ -79,9 +79,9 @@ If you are experiencing errors while generating output through DITA-OT, you can 
 |Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.|
 |Use Baseline|If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.
 
-    [!IMPORTANT]
-    
-     When you are generating incremental output for the AEM Site, then the output is created using the current version of the files and not the attached Baseline.
+    >[!IMPORTANT]
+    >
+    > When you are generating incremental output for the AEM Site, then the output is created using the current version of the files and not the attached Baseline.
 
 See [Work with Baseline](generate-output-use-baseline-for-publishing.md#) for more detail.|
 |Properties|Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties that you select from the drop-down list are listed below the **Properties** field and are removed from the drop-down list. **Note:** The metadata properties are case-sensitive.

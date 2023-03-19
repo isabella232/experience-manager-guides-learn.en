@@ -300,11 +300,11 @@ Insert Cross Reference – ![](images/Reference_icon.svg)
 
     ![](images/ref-link-uuid_cs.png)
 
-   >[!NOTE]
+    >[!NOTE]
     >
     > If the **Enable UUIDs** option is not enabled, then the relative path of the referenced content is shown.
 
-   >[!IMPORTANT]
+    >[!IMPORTANT]
     >
     > Even though the relative path of the referenced content is shown in the **Link** property, internally the link is created using the UUID of the referenced content.
 
