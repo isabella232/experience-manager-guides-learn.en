@@ -29,8 +29,7 @@ If you are experiencing errors while generating output through DITA-OT, you can 
 >
 > For more information about creating a custom post-output generation workflow, see *Customize post-output generation workflow* in Install and configure Adobe Experience Manager Guides as a Cloud Service.|
 |Use Baseline|If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.
-
-See [Work with Baseline](generate-output-use-baseline-for-publishing.md#) for more detail.|
+<br>See [Work with Baseline](generate-output-use-baseline-for-publishing.md#) for more detail.|
 |Properties|Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties that you select from the drop-down list are listed below the **Properties** field and are removed from the drop-down list. Once set, these properties are also copied into the topics within the map. **Note:** You can also pass on the metadata to the output using DITA-OT publishing. For more details see, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#).|
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)
