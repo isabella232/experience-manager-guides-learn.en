@@ -94,7 +94,7 @@ The toolbar in the Advanced Map Editor is similar to the topic Web Editor. The b
 
 The following map-specific operations are also available on the toolbar in the Layout and Author views:
 
-## Layout view {#id205DEC0005Z}
+## Layout view {#id205DEC0005Z_layout_view}
 
 When you open a map for editing it opens the Layout view of the Map Editor.The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
 
@@ -216,9 +216,9 @@ Content Properties
 Map Properties
 :   Displays the Map Properties dialog wherein you can set the attributes and metadata information for the map.
 
-## Author view {#id205DEC0005Z}
+## Author view {#id205DEC0005Z_author_view}
 
-The **Author** view allows you to edit your DITA map in the Web Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. For more details, see [Layout view](#id205DEC0005Z). In addition, you can see the following icons and perform the related tasks from the Author view:
+The **Author** view allows you to edit your DITA map in the Web Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. For more details, see [Layout view](#id205DEC0005Z_layout_view). In addition, you can see the following icons and perform the related tasks from the Author view:
 
 Insert Before/Insert After – ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 :   Displays the Insert Element dialog. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
