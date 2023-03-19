@@ -26,9 +26,7 @@ Perform the following steps to download a DITA map file along with its dependent
     -   **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder.
     >[!NOTE]
     >
-    >
-
-    You can also download the map file without selecting any option. In that case, the last persisted version of the referenced topics and media files are downloaded.
+    > You can also download the map file without selecting any option. In that case, the last persisted version of the referenced topics and media files are downloaded.
 
 1.  After you click the **Download** button, the map download request is queued. You will receive the following notification once the map is ready to download.
 
@@ -38,9 +36,9 @@ Perform the following steps to download a DITA map file along with its dependent
 
     -   Click **Download Later**to download the map file at a later time. The download link can be accessed from the AEM notification Inbox. Click the generated map notification in the Inbox to download the map in .zip format.
 
-    [!NOTE]
-    
-     By default, the downloaded maps remain for five days in the AEM notification Inbox.
+    >[!NOTE]
+    >
+    > By default, the downloaded maps remain for five days in the AEM notification Inbox.
 
 ![](images/download-map-inbox.png)
 

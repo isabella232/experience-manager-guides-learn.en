@@ -48,8 +48,8 @@ Drag-and-drop with human readable filenames
     If a file is already checked out for edits by another user, and you attempt to upload and overwrite the existing file, then it fails and displays an error.
 
     >[!NOTE]
-    
-     The **Overwrite Checked out File on Upload** feature must be disabled by your administrator. If this feature is enabled, you can overwrite checked-out files. If the feature is not enabled, then a checked out file is prevented from being overwritten. For more details, see *Overwrite Checked out File on Upload* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >
+    >The **Overwrite Checked out File on Upload** feature must be disabled by your administrator. If this feature is enabled, you can overwrite checked-out files. If the feature is not enabled, then a checked out file is prevented from being overwritten. For more details, see *Overwrite Checked out File on Upload* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
 :   -   *Drag-and-drop files at different location*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the original file name.
@@ -84,11 +84,9 @@ Drag-and-drop with filenames based on a UUID pattern
 
 AEM Guides comes with the Bulk Move Tool that helps an administrator to move a folder having large number of files from one location to another. This tool can easily move files within one or more folders into a different folder in your AEM repository. One of the major features of this tool is that it not only moves a large number of files, but it also maintains the references to and from the files being moved. You can tweak the number of files that you can move in batches without hampering the authoring and publishing tasks.
 
-    [!NOTE]
-    
-    
-
-The Bulk Move Tool works only at folder-level. If you want to move individual topic or map files, then use the regular move tool from AEM's Assets UI.
+    >[!NOTE]
+    >
+    > The Bulk Move Tool works only at folder-level. If you want to move individual topic or map files, then use the regular move tool from AEM's Assets UI.
 
 Here are some of the features provided by the Bulk Move Tool:
 
@@ -143,11 +141,9 @@ To move files in bulk, perform the following steps:
 
 By default, AEM does not recognize DITA content, thus, it doesn't provide any mechanism to search DITA content within its repository. AEM Guides adds a layer on top of AEM, which enables AEM to understand and process DITA content. The Search DITA content feature in AEM Guides allows you to search for DITA content within AEM repository.
 
-    [!NOTE]
-    
-    
-
-Your system administrator can configure the **DITA Element** search component and then you can use the feature from the AEM Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    >Your system administrator can configure the **DITA Element** search component and then you can use the feature from the AEM Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Using the search feature, you can:
 
@@ -208,11 +204,9 @@ Deleting files from AEM repository is a restricted feature, which is controlled 
 
 You could also delete files only if you belong to a specific user group that has privileges to delete files.
 
-    [!NOTE]
-    
-    
-
-For more details on the configurations on file management, see *Prevent deletion of checked out files* and *Prevent deletion of referenced files* sections in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > For more details on the configurations on file management, see *Prevent deletion of checked out files* and *Prevent deletion of referenced files* sections in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 If your administrator has given the file delete permission to all user, then the following message is displayed when you delete files containing references:
 
