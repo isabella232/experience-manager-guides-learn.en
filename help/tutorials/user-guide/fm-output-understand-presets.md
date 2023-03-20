@@ -1,6 +1,6 @@
 ---
-title: Understanding the output presets
-description: Learn how to Understanding the output presets
+title: Introduction to the output presets
+description: An introduction to the output presets
 ---
 
 # Understanding the output presets {#understanding_output_settings}
