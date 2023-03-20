@@ -602,11 +602,11 @@ This topic covers some of the most common issues that you might face while worki
 
 ### Missing AEM Guides panel {#id192BH200ZAX}
 
-Issue
-:   If you do not see the AEM Guides panel in Oxygen XML Author, try the following solutions:
+**Issue** - If you do not see the AEM Guides panel in Oxygen XML Author, try the following solutions:
 
 Solution 1:
-:   1.  In Oxygen XML Author, enable the plugin.
+
+1.  In Oxygen XML Author, enable the plugin.
 
     Click **Options** \> **Preferences** \> **Plugins** and select **Oxygen Plugin for Adobe Experience Manager Guides.**
 
@@ -614,12 +614,14 @@ Solution 1:
 
 
 Solution 2:
-:   If you still do not see the AEM Guides panel, enable AEM Guides window.
+
+1.  If you still do not see the AEM Guides panel, enable AEM Guides window.
 
     In Oxygen XML Author, Click **Window** \> **Show View** \> **AEM Guides**.
 
 Solution 3:
-:   Uninstall and reinstall the Oxygen Plugin for Adobe Experience Manager Guides.
+
+1.  Uninstall and reinstall the Oxygen Plugin for Adobe Experience Manager Guides.
 
     -   On Windows, uninstall the plugin from **Add or remove Programs** list. Then, reinstall the plugin.
 
@@ -628,25 +630,19 @@ Solution 3:
 
 ### Configure port for DITA-OT transformation 
 
-Issue
-:   When you run any DITA-OT transformation on files that are processed by the Plugin, the transformation fails with the following error:
+**Issue** - When you run any DITA-OT transformation on files that are processed by the Plugin, the transformation fails with the following error:
 
-    ![](images/proxy-server-path-error-new.png)
+![](images/proxy-server-path-error-new.png)
 
-Solution
-:   This issue has been fixed by adding a proxy server in-between DITA-OT and the Plugin. This proxy server processes and shares all files requested by DITA-OT for transformations. The default port on which this server has been configured is: `5972`. If you are using this port for some other server, then you can specify a different port for the proxy server.
+**Solution** - This issue has been fixed by adding a proxy server in-between DITA-OT and the Plugin. This proxy server processes and shares all files requested by DITA-OT for transformations. The default port on which this server has been configured is: `5972`. If you are using this port for some other server, then you can specify a different port for the proxy server.
 
-    Perform the following steps to change the default port of the proxy server:
+Perform the following steps to change the default port of the proxy server:
 
-    1.  Browse to your \(user's\) home directory.
-
-    1.  Create a file named aem\_connector\_proxy.
-
-    1.  Open the file in any text editor and add an available port number in the first line of the file.
-
-    1.  Save and close the file.
-
-    1.  Restart Oxygen XML Author and run the DITA-OT transformation.
+1.  Browse to your \(user's\) home directory.
+1.  Create a file named aem\_connector\_proxy.
+1.  Open the file in any text editor and add an available port number in the first line of the file.
+1.  Save and close the file.
+1.  Restart Oxygen XML Author and run the DITA-OT transformation.
 
 
 ### AEM Guides panel does not browse to the opened file location 
@@ -671,9 +667,9 @@ Solution: Perform the following steps to enable logs generation feature in the P
 
 1.  Append the following line in the file:
 
-        ```java
-        -Djava.util.logging.config.file=./log.properties
-        ```
+    ```java
+    -Djava.util.logging.config.file=./log.properties
+    ```
 
 1. Save and close the file.
 
@@ -690,7 +686,6 @@ Solution: Perform the following steps to enable logs generation feature in the P
     ```
 
 1. Save and close the file.
-
 1. Start Oxygen XML Author.
 
 

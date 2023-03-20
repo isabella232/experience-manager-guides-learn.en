@@ -10,7 +10,6 @@ Once a topic is created, AEM Guides generates a preview of the topic. The Previe
 Perform the following steps to preview a topic:
 
 1.  In the Assets UI, navigate to the topic that you want to view.
-
 1.  Click on the topic you want to view.
 
     A preview of the topic is displayed in the Assets UI.
@@ -24,45 +23,49 @@ Perform the following steps to preview a topic:
 >
 > The positioning of the following features in the Preview toolbar could differ based on your AEM server's setup. Some of the features might be available in the main toolbar, while other could be available under the More menu.
 
-**Features available in preview mode![](images/preview-screen.png)
+**Features available in preview mode** - ![](images/preview-screen.png)
 
-**
-:   **You can perform the following operations from the toolbar in the preview mode:**
+**You can perform the following operations from the toolbar in the preview mode:**
 
-Properties
-:   View the properties of the selected topic. Based on your AEM version, you could see properties like metadata, schedule \(de\)activation, references, document state and more.
+**Properties**
 
-    >[!NOTE]
-    >
-    > A topic's title property is auto-populated from the `title` tag of the DITA topic or map. If you make any change in the title using the properties window that change is lost. If you want to update the title property, you should do it using the Web editor.
+View the properties of the selected topic. Based on your AEM version, you could see properties like metadata, schedule \(de\)activation, references, document state and more.
 
-    The Properties page contains useful information about the references, such as where a map or topic is being used, or what references are contained in a document. The Properties page lists two types of references for a document - **Used In** and **Outgoing References**.
+>[!NOTE]
+>
+> A topic's title property is auto-populated from the `title` tag of the DITA topic or map. If you make any change in the title using the properties window that change is lost. If you want to update the title property, you should do it using the Web editor.
 
-    The **Used In** references list the documents where the current file is being referred or used. The **Outgoing References** lists the documents that are referred in current document.
+The Properties page contains useful information about the references, such as where a map or topic is being used, or what references are contained in a document. The Properties page lists two types of references for a document - **Used In** and **Outgoing References**.
 
-    The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
+The **Used In** references list the documents where the current file is being referred or used. The **Outgoing References** lists the documents that are referred in current document.
 
-    ![](images/used-in-dialog_cs.png)
+The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
 
-    Clicking the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
+![](images/used-in-dialog_cs.png)
 
-Conditional Filtering \(A/B\)
-:   **** If your topic has conditional content, then you will see the A/B icon on the toolbar. Clicking on this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
+Clicking the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
 
-    >[!NOTE]
-    >
-    > The conditional content is highlighted using light background color in the Web Editor.
+**Conditional Filtering \(A/B\)**
 
-    ![](images/conditional-popup_cs.png)
+If your topic has conditional content, then you will see the A/B icon on the toolbar. Clicking on this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
 
-Edit
-:   Open the topic for editing in the Web Editor. The **Edit** option will not be available if your administrator has enabled the **Disable Edit Without Checkout** option. With the option enabled, you will see the **Edit** option only after checking out a topic file.
+>[!NOTE]
+>
+> The conditional content is highlighted using light background color in the Web Editor.
 
-Key Resolution
-:   ****If you want to use a keyspace file for the topic, click the Key Resolution icon. You can then choose a key space from the Key Resolution pop-up.
+![](images/conditional-popup_cs.png)
 
-Source
-:   Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and clicking the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
+**Edit** 
+
+- Open the topic for editing in the Web Editor. The **Edit** option will not be available if your administrator has enabled the **Disable Edit Without Checkout** option. With the option enabled, you will see the **Edit** option only after checking out a topic file.
+
+**Key Resolution** 
+
+- If you want to use a keyspace file for the topic, click the Key Resolution icon. You can then choose a key space from the Key Resolution pop-up.
+
+**Source** 
+
+- Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and clicking the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
 
     >[!NOTE]
     >
@@ -70,50 +73,53 @@ Source
 
     ![](images/xml-source-code-view-from-preview_cs.png)
 
-Share UUID Link
-:   AEM Guides allows you to share the UUID-based links for DITA maps, topics, and image files from the following places:
+**Share UUID Link** 
+
+- AEM Guides allows you to share the UUID-based links for DITA maps, topics, and image files from the following places:
 
     -   Assets UI
     -   DITA map's console
     -   Topic or image's Preview
 
-    A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
+A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
 
-    ![](images/share-uuid-link_cs.png)
+![](images/share-uuid-link_cs.png)
 
-    In the Asset UI, this option is visible when you select a file. While in the Preview mode, this option is available in the main toolbar by default. In a DITA map console, this option is visible in the Output Presets section.
+In the Asset UI, this option is visible when you select a file. While in the Preview mode, this option is available in the main toolbar by default. In a DITA map console, this option is visible in the Output Presets section.
 
-    Once you have copied the URL, the same can be shared with other users to give them direct access to the file. This link remains valid even when the file is moved to some other location in the repository. The only time the link will fail is when the file is deleted from the repository.
+Once you have copied the URL, the same can be shared with other users to give them direct access to the file. This link remains valid even when the file is moved to some other location in the repository. The only time the link will fail is when the file is deleted from the repository.
 
-    If you share the link from DITA map console or a file's preview mode, then the user taken to same view of file. However, when you share a map file's link from the Assets UI, then the user is taken to the map's console. Similarly, for a topic or image file, the file's preview is shown.
+If you share the link from DITA map console or a file's preview mode, then the user taken to same view of file. However, when you share a map file's link from the Assets UI, then the user is taken to the map's console. Similarly, for a topic or image file, the file's preview is shown.
 
-    >[!IMPORTANT]
-    >
-    > The link cannot be used as a reference link in other topic, it only gives direct access to the file in the repository. Also, the link remains valid as long as the file is available in the repository. Even if the file is moved to some other location in the repository, the link remain valid. The link will fail only when the file is deleted from the repository.
+>[!IMPORTANT]
+>
+> The link cannot be used as a reference link in other topic, it only gives direct access to the file in the repository. Also, the link remains valid as long as the file is available in the repository. Even if the file is moved to some other location in the repository, the link remain valid. The link will fail only when the file is deleted from the repository.
 
-Check Out/Check In
-:   Toggles the Check Out and Check In features. When a file is checked out, the current user gets an exclusive write permission on the file. A checked out file can be opened in the Web Editor for editing. Once you have made the required changes, click the Check In icon to save the file in DAM.
+**Check Out/Check In** 
 
-    When you check out a topic, the status of the file is shown as checked out in the card view and in the list view.
+- Toggles the Check Out and Check In features. When a file is checked out, the current user gets an exclusive write permission on the file. A checked out file can be opened in the Web Editor for editing. Once you have made the required changes, click the Check In icon to save the file in DAM.
 
-    Checked out file in the card view:
+When you check out a topic, the status of the file is shown as checked out in the card view and in the list view.
 
-    ![](images/checkout-card-62.png)
+Checked out file in the card view:
 
-    Checked out file in the list view:
+![](images/checkout-card-62.png)
 
-    ![](images/checkout-list-62.png)
+Checked out file in the list view:
 
-    If the Checked Out column is not visible, select **View Settings** under **List View** and select the **Checked Out** status in the **Configure Columns** dialog.
+![](images/checkout-list-62.png)
 
-    ![](images/list-view-settings-check-out_cs.png)
+If the Checked Out column is not visible, select **View Settings** under **List View** and select the **Checked Out** status in the **Configure Columns** dialog.
 
-    >[!TIP]
-    >
-    > See the Versioning of content section in the Best practices guide for best practices around working with file check-out and check-in.
+![](images/list-view-settings-check-out_cs.png)
 
-Web-based version difference
-:   If your topic has undergone some changes, you can easily find out the changes made in different versions of that topic. To find out changes in different versions of a topic:
+>[!TIP]
+>
+> See the Versioning of content section in the Best practices guide for best practices around working with file check-out and check-in.
+
+**Web-based version difference** 
+
+- If your topic has undergone some changes, you can easily find out the changes made in different versions of that topic. To find out changes in different versions of a topic:
 
     >[!IMPORTANT]
     >
@@ -136,8 +142,9 @@ Web-based version difference
         ![](images/version-difference.png)
 
 
-Branch, revert, and subsequent versioning
-:   In a typical authoring environment, you would need to create a new branch of a topic to cater to a specific release. Just like any other version management system, AEM Guides allows you to create a branch from an existing version of a topic, or revert to an older version of a topic. Using the version management features offered by AEM Guides, you can perform the following tasks:
+**Branch, revert, and subsequent versioning** 
+
+- In a typical authoring environment, you would need to create a new branch of a topic to cater to a specific release. Just like any other version management system, AEM Guides allows you to create a branch from an existing version of a topic, or revert to an older version of a topic. Using the version management features offered by AEM Guides, you can perform the following tasks:
 
     -   Create a branch from an existing version of a topic
     -   Create subsequent versions in a new branch

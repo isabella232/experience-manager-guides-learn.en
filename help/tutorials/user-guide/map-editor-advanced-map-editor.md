@@ -46,6 +46,7 @@ Perform the following steps to build your map file using the Advanced Map Editor
     -   **A** - \(*Main toolbar*\): This is similar to the Web Editor's main toolbar. See [Main toolbar](web-editor-features.md#id2051EA0G05Z) in the Web Editor for more details.
 
     -   **B** - \(*Secondary toolbar*\) This is the Secondary toolbar that allows you to work with map files. For more information about the functionalities available through Secondary toolbar, see [Features available in the Advanced Map Editor's toolbar](#id205DEC0005Z).
+    
     -   **C** - \(*Map views*\): Allows you to switch the Map Editor between the Layout, Author, Source and Preview. The **Layout**view allows you to organize the topics in a DITA map. This gives the tree or hierarchical view of the map. The **Author** view allows you to edit the topics in the Map Editor. This also gives the WYSIWYG view of the map file. The **Source** view allows you to work with the underlying XML of the map file. The Preview gives you a consolidated view of all topic and sub-maps within the map file. The **Close** link closes the map file.
 
     -   **D** - \(*Left Panel*\): Gives access to the left panel which gives you access to the Favorites, Repository, Map, Outline and other features. You can expand or collapse it by clicking the Expand Sidebar icon \(![](images/sidebar-expand-icon.svg)\). For more details about the features available in the left panel, see [Left panel](web-editor-features.md#id2051EA0M0HS) in the Web Editor.
@@ -109,68 +110,81 @@ When you open a map for editing it opens the Layout view of the Map Editor.The L
 
 You can perform the following tasks in the Layout view:
 
-Insert Topic Reference – ![](images/insert-topic-reference.svg)
-:   Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click Select to add it to the map.
+**Insert Topic Reference** – ![](images/insert-topic-reference.svg)
 
-    ![](images/insert-topic-reference-dialog.png)
+Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click Select to add it to the map.
 
-Insert Topic Group – ![](images/insert-topic-group.svg)
-:   Insert the `topicgroup` element. For more information about grouping topics, see the [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentation in OASIS DITA Language Specification.
+![](images/insert-topic-reference-dialog.png)
 
-Insert Key Definition – ![](images/Key_icon.svg)
-:   Displays the Insert Keydef dialog. Use this dialog to define any key definition that you want to use in the map.
+**Insert Topic Group** – ![](images/insert-topic-group.svg)
 
-    ![](images/insert-key-definition-dialog.png)
+Insert the `topicgroup` element. For more information about grouping topics, see the [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentation in OASIS DITA Language Specification.
+
+**Insert Key Definition** – ![](images/Key_icon.svg)
+
+Displays the Insert Keydef dialog. Use this dialog to define any key definition that you want to use in the map.
+
+![](images/insert-key-definition-dialog.png)
 
 Insert Before/Insert After – ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
-:   Displays the Insert Element dialog. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
 
-Insert Front Matter - ![](images/frontmatter.svg)
-:   This icon is displayed when you open a bookmap for editing. You can insert components in the beginning of the book like a Table of contents, an Index, and a List of Tables.
+Displays the Insert Element dialog. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
 
-Insert Back Matter -![](images/backmatter.svg)
-:   This icon is displayed when you open a bookmap for editing. You can insert components for a end of the book like an Index, a Glossary, and a List of Figures.
+**Insert Front Matter** - ![](images/frontmatter.svg)
 
-Move the Selected Item Left/Right – ![](images/left-arrow-icon.svg) / ![](images/right-arrow-icon.svg)
-:   Click the left arrow to move the topic towards left side in the hierarchy. This essentially promotes the respective topic one level up in the hierarchy. For example, clicking the left arrow while a child topic is selected make it the sibling of the topic above it. Similarly, if you click the right arrow, the topic is pushed towards the right side making it the child of the topic above it.
+This icon is displayed when you open a bookmap for editing. You can insert components in the beginning of the book like a Table of contents, an Index, and a List of Tables.
 
-Move the Selected Item Up/Down ![](images/arrowup.svg)– / ![](images/arrowdown.svg)
-:   Click the up or down arrow icons' to move the topic up or down in the hierarchy.
+**Insert Back Matter** - ![](images/backmatter.svg)
 
-    >[!NOTE]
-    >
-    > You can also drag-and-drop the references to move them in a map.
+This icon is displayed when you open a bookmap for editing. You can insert components for a end of the book like an Index, a Glossary, and a List of Figures.
 
-Lock/Unlock – ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
-:   Gets a lock on the map file and release the lock. If you have unsaved changes in your map file, then at the time of releasing the lock, you are prompted to save the map file. The changes are saved in the current version of the map file.
+**Move the Selected Item Left/Right** - ![](images/left-arrow-icon.svg) / ![](images/right-arrow-icon.svg)
 
-Merge – ![](images/merge-icon.svg)
-:   For more details about merging content from a different version of the same or a different file, see [Merge](web-editor-features.md#id205DF04E0HS) in the Web Editor.
+Click the left arrow to move the topic towards left side in the hierarchy. This essentially promotes the respective topic one level up in the hierarchy. For example, clicking the left arrow while a child topic is selected make it the sibling of the topic above it. Similarly, if you click the right arrow, the topic is pushed towards the right side making it the child of the topic above it.
 
-Version History— ![](images/version-history-web-editor-ico.svg)
-:   Check the available versions and labels on your active topic, and revert to any version from theeditor itself.
+**Move the Selected Item Up/Down ![](images/arrowup.svg)** - / ![](images/arrowdown.svg)
 
-Version Label— ![](images/version-label-icon.svg)
-:   Displays the version label management dialog. Select a version from the dropdown list. Choose the label you want to apply to the selected version and click **Add Label** to add it.
+Click the up or down arrow icons' to move the topic up or down in the hierarchy.
 
-View Options—![](images/view-options.svg)
-:   Displays a dropdown which gives you the option to Show Line Numbers, Show Check box, and Show FileName.
+>[!NOTE]
+>
+> You can also drag-and-drop the references to move them in a map.
 
-    -   **Show Line Numbers**
+**Lock/Unlock** - ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
 
-        Shows or hides the line number for each topic. The line numbers are shown depending on the level in the hierarchy.
+Gets a lock on the map file and release the lock. If you have unsaved changes in your map file, then at the time of releasing the lock, you are prompted to save the map file. The changes are saved in the current version of the map file.
 
-    -   **Show Check Box**
+**Merge** - ![](images/merge-icon.svg)
 
-        Shows or hides a checkbox for each topic. You can use the checkbox to select the topic\(s\) and perform various tasks using the Options menu. For more details, see the [Options](#id228ID8006H8) menu.
+For more details about merging content from a different version of the same or a different file, see [Merge](web-editor-features.md#id205DF04E0HS) in the Web Editor.
 
-    -   **Show File Name**
+**Version History** - ![](images/version-history-web-editor-ico.svg)
 
-        Shows the filename of the titles of the topics.
+Check the available versions and labels on your active topic, and revert to any version from theeditor itself.
 
-        >[!NOTE]
-    >
-    > When you hover your pointer over a topic's title, you are shown the file path.
+**Version Label** - ![](images/version-label-icon.svg)
+
+Displays the version label management dialog. Select a version from the dropdown list. Choose the label you want to apply to the selected version and click **Add Label** to add it.
+
+**View Options** - ![](images/view-options.svg)
+
+Displays a dropdown which gives you the option to Show Line Numbers, Show Check box, and Show FileName.
+
+-   **Show Line Numbers**
+
+Shows or hides the line number for each topic. The line numbers are shown depending on the level in the hierarchy.
+
+-   **Show Check Box**
+
+Shows or hides a checkbox for each topic. You can use the checkbox to select the topic\(s\) and perform various tasks using the Options menu. For more details, see the [Options](#id228ID8006H8) menu.
+
+-   **Show File Name**
+
+Shows the filename of the titles of the topics.
+
+>[!NOTE]
+>
+> When you hover your pointer over a topic's title, you are shown the file path.
 
 
 **View topics based on conditional filters**If you have applied any conditions on a topic, a filter icon is displayed on the right of the topic. When you hover your pointer over a filter icon, you are shown the applied condition and its attribute value.
@@ -205,55 +219,65 @@ In addition to organizing topics in the map file, you can also perform the follo
 
 The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor.
 
-Content Properties
-:   The Content Properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, see [Content Properties](web-editor-features.md#id228IDB00HMM) in the Web Editor.
+**Content Properties**
 
-    -   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign inline attributes configured by your administrator under the Inline Attributes tab in the editor settings. The **Inline Attributes** defined for a topic are displayed against the topic in the Layout view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
+The Content Properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, see [Content Properties](web-editor-features.md#id228IDB00HMM) in the Web Editor.
 
-        ![](images/layout-inline-attributes.png)
+-   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign inline attributes configured by your administrator under the Inline Attributes tab in the editor settings. The **Inline Attributes** defined for a topic are displayed against the topic in the Layout view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
 
-        For more details, see [Inline Attributes](web-editor-features.md#id228IC0S0UE8) in the Editor Settings.
+    ![](images/layout-inline-attributes.png)
 
-    -   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
+    For more details, see [Inline Attributes](web-editor-features.md#id228IC0S0UE8) in the Editor Settings.
 
-    For more information about the standard topic attributes and metadata, see the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
+-   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
 
-Map Properties
-:   Displays the Map Properties dialog wherein you can set the attributes and metadata information for the map.
+For more information about the standard topic attributes and metadata, see the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
+
+**Map Properties**
+
+Displays the Map Properties dialog wherein you can set the attributes and metadata information for the map.
 
 ## Author view {#id205DEC0005Z_author_view}
 
 The **Author** view allows you to edit your DITA map in the Web Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. For more details, see [Layout view](#id205DEC0005Z_layout_view). In addition, you can see the following icons and perform the related tasks from the Author view:
 
-Insert Before/Insert After – ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
-:   Displays the Insert Element dialog. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
+**Insert Before/Insert After** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Insert Element – ![](images/Add_icon.svg)
-:   Displays the Insert Element dialog. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press Enter to insert the required element. Alternatively, you can click directly on the element to insert it in the map.
+Displays the Insert Element dialog. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
 
-Insert Relationship Table – ![](images/relationship_table_icon.svg)
-:   Inserts a relationship table in the map. As the concept of working with the relationship table is same as explained in the Basic Map Editor section, see [Work with relationship tables in the Basic Map Editor](map-editor-basic-map-editor.md#id1944B0I0COB) for more details.
+**Insert Element** - ![](images/Add_icon.svg)
 
-Insert Reusable Content – ![](images/content-reuse-icon.png)
-:   Displays the Reuse Content dialog. Use this dialog to insert the content that you want to reuse in your map.
+Displays the Insert Element dialog. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press Enter to insert the required element. Alternatively, you can click directly on the element to insert it in the map.
 
-Refresh Navigation Title Attribute – ![](images/navtitle-refresh-icon.svg)
-:   Synchronizes the `title` element of a referenced file in a map with the value specified in its `@navtitle` attribute. You can add different types of reference files in a map, for example topic, reference, task, \(sub\) maps, and so on. Most of these files support the `@navtitle` attribute. If a file contains the `@navtitle` attribute, then the`@navtitle` attribute for the same file in map is updated. In case the `@navtitle` attribute is not present, then the`@navtitle` attribute is added to that reference file and its `title` is also updated to display the `@navtitle`.
+**Insert Relationship Table** - ![](images/relationship_table_icon.svg)
 
-    >[!NOTE]
-    >
-    > Your administrator can configure auto-adding `@navtitle` attribute to every reference file that you add to a map. For more details about configuring auto-adding `@navtitle` attribute, see *Include @navtitle attribute by default* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+Inserts a relationship table in the map. As the concept of working with the relationship table is same as explained in the Basic Map Editor section, see [Work with relationship tables in the Basic Map Editor](map-editor-basic-map-editor.md#id1944B0I0COB) for more details.
 
-    Click the Refresh Navigation Title Attribute icon to synchronize the `title` element's and `@navtitle` attribute's values.
+**Insert Reusable Content** - ![](images/content-reuse-icon.png)
 
-Toggle Tags View – ![](images/Label_icon.svg)
-:   Shows or hides the XML tags. The tags serve as visual cues indicating an element's boundary. In this mode, if you want to insert a topic/map reference, then drag-and-drop the desired file before or after the tag. The horizontal bar is not shown in the Tags View mode.
+Displays the Reuse Content dialog. Use this dialog to insert the content that you want to reuse in your map.
 
-Enable/Disable Track Changes ![](images/track-change-icon.svg)
-:   You can keep a track of all updates made in the map file by enabling the Track Changes mode. After enabling the track changes, all insertions and deletions are captured in the document. For more details, see [Enable/Disable Track Changes](web-editor-features.md#id205DF0203Y4) in the Web Editor.
+**Refresh Navigation Title Attribute** - ![](images/navtitle-refresh-icon.svg)
 
-Create Review Task — ![](images/create-review-task-icon.svg)
-:   You can create a review task of the current topic or map file directly from the Web Editor. Open the file for which you want to create the review task and click Create Review Task to initiate the review creation process. Follow the instructions given in the [Review topics or maps](review.md#) for more details.
+Synchronizes the `title` element of a referenced file in a map with the value specified in its `@navtitle` attribute. You can add different types of reference files in a map, for example topic, reference, task, \(sub\) maps, and so on. Most of these files support the `@navtitle` attribute. If a file contains the `@navtitle` attribute, then the`@navtitle` attribute for the same file in map is updated. In case the `@navtitle` attribute is not present, then the`@navtitle` attribute is added to that reference file and its `title` is also updated to display the `@navtitle`.
+
+>[!NOTE]
+>
+> Your administrator can configure auto-adding `@navtitle` attribute to every reference file that you add to a map. For more details about configuring auto-adding `@navtitle` attribute, see *Include @navtitle attribute by default* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+Click the Refresh Navigation Title Attribute icon to synchronize the `title` element's and `@navtitle` attribute's values.
+
+**Toggle Tags View** - ![](images/Label_icon.svg)
+
+Shows or hides the XML tags. The tags serve as visual cues indicating an element's boundary. In this mode, if you want to insert a topic/map reference, then drag-and-drop the desired file before or after the tag. The horizontal bar is not shown in the Tags View mode.
+
+**Enable/Disable Track Changes** - ![](images/track-change-icon.svg)
+
+You can keep a track of all updates made in the map file by enabling the Track Changes mode. After enabling the track changes, all insertions and deletions are captured in the document. For more details, see [Enable/Disable Track Changes](web-editor-features.md#id205DF0203Y4) in the Web Editor.
+
+**Create Review Task** - ![](images/create-review-task-icon.svg)
+
+You can create a review task of the current topic or map file directly from the Web Editor. Open the file for which you want to create the review task and click Create Review Task to initiate the review creation process. Follow the instructions given in the [Review topics or maps](review.md#) for more details.
 
 ## Edit topics through DITA map {#id17ACJ0F0FHS}
 
@@ -264,9 +288,7 @@ AEM Guides allows authors to open a DITA map in the Web Editor and see the place
 To edit topics through a DITA map, perform the following steps:
 
 1.  In the Assets UI, navigate to the DITA map that contains the topics that you want to edit.
-
 1.  Click on the DITA map to open it in DITA map console.
-
 1.  Select the **Topics** tab to see a list of topics available in the DITA map.
 
     >[!TIP]

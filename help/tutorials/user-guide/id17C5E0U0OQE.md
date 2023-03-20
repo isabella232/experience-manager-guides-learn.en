@@ -35,36 +35,38 @@ Perform the following steps to create a DITAVAL file:
 Perform the following steps to edit a DITAVAL file:
 
 1.  In the Assets UI, navigate to the DITAVAL file that you want to edit.
-
 1.  To get an exclusive lock on the file, select the file and click **Check Out**.
-
 1.  Select the file and click **Edit** to open the file in AEM Guides DITAVAL editor.
 
     The DITAVAL editor allows you to perform the following tasks:
 
-    A: Toggle Left Panel
-    :   Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+    **A: Toggle Left Panel**
 
-    B: Save
-    :   Saves the changes you have made in the file. All your changes are saved in the current version of your file.
+    Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-    C: Add Property
-    :   Add a single property in your DITAVAL file.
+    **B: Save**
 
-        ![](images/ditaval-editor-props.png)
+    Saves the changes you have made in the file. All your changes are saved in the current version of your file.
 
-        The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
+    **C: Add Property**
 
-    :   The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, see the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.md#ditaval-prop) element in OASIS DITA documentation
+    Add a single property in your DITAVAL file.
 
-    D: Add All Properties
-    :   If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
+    ![](images/ditaval-editor-props.png)
 
->[!NOTE]
->
-> If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
+    The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
 
-        ![](images/ditaval-all-props.png)
+    The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, see the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.md#ditaval-prop) element in OASIS DITA documentation
+
+    **D: Add All Properties**
+
+    If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
+
+    >[!NOTE]
+    >
+    > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
+
+    ![](images/ditaval-all-props.png)
 
 1.  Once you have finished editing your DITAVAL file, click **Save**.
 
@@ -77,17 +79,15 @@ Perform the following steps to edit a DITAVAL file:
 
 AEM Guides' DITAVAL editor supports viewing DITAVAL files in two different modes or views:
 
-Author
-:   This is a typical What You See is What You Get \(WYSISYG\) view of the DITAVAL editor. You can add or remove properties using the simple user interface, which presents the properties, its values, and actions in drop-down list. In the Author view, you have the options to insert an individual property and insert all properties with a single click.
+**Author** - This is a typical What You See is What You Get \(WYSISYG\) view of the DITAVAL editor. You can add or remove properties using the simple user interface, which presents the properties, its values, and actions in drop-down list. In the Author view, you have the options to insert an individual property and insert all properties with a single click.
 
-:   You can also find the version of the DITAVAL file that you are currently working on by hovering your pointer over the filename.
+You can also find the version of the DITAVAL file that you are currently working on by hovering your pointer over the filename.
 
-Source
-:   The Source view displays the underlying XML that makes up the DITAVAL file. In addition to making regular text edits in this view, an author can also add or edit properties using the Smart Catalog.
+**Source** - The Source view displays the underlying XML that makes up the DITAVAL file. In addition to making regular text edits in this view, an author can also add or edit properties using the Smart Catalog.
 
-    To invoke the Smart Catalog, place the cursor at the end of any property definition and enter "<". The editor will show a list of all valid XML elements that you can insert at that location.
+To invoke the Smart Catalog, place the cursor at the end of any property definition and enter "<". The editor will show a list of all valid XML elements that you can insert at that location.
 
-    ![](images/ditaval-source-view.png)
+![](images/ditaval-source-view.png)
 
 **Parent topic:**[Author content using AEM Guides](authoring-content-xml-doc.md)
 
