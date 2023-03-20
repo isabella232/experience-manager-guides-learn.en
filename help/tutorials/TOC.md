@@ -60,15 +60,15 @@ breadcrumb-title: AEM Guides Tutorials
       + [Upload files](./user-guide/authoring-upload-existing-files.md)
       + [Manage files and folders](./user-guide/authoring-file-management.md)
       + [Download files](./user-guide/authoring-download-assets.md)
-  +Author Content {#author-content}
+  + Author Content {#author-content}
     + [Author content](./user-guide/authoring-content.md)
-    + [Create and preview topics]{#create-preview-topics}
+    + Create and preview topics {#create-preview-topics}
       + [Create and preview topics](./user-guide/create-preview-topics.md)
       + [Create topics](./user-guide/web-editor-create-topics.md)
       + [Preview a topic](./user-guide/web-editor-preview-topics.md)
-      +[Author content using AEM Guides]{#author-content-aem-guides}
+      + Author content using AEM Guides {#author-content-aem-guides}
         + [Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
-        +[Work with the Web Editor]{#work-with-web-editor}
+        + Work with the Web Editor {#work-with-web-editor}
           + [Work with the Web Editor](./user-guide/web-editor.md)
           + [Launch the Web Editor](./user-guide/web-editor-launch-editor.md)
           + [Know the Web Editor features](./user-guide/web-editor-features.md)
@@ -86,7 +86,7 @@ breadcrumb-title: AEM Guides Tutorials
           + [Create and manage baselines from the Web Editor](./user-guide/web-editor-baseline.md)
           + [Document state](./user-guide/web-editor-document-states.md)
           + [Use labels](./user-guide/web-editor-use-label.md)
-          +Work with the Map Editor {#work-with-map-editor}
+          + Work with the Map Editor {#work-with-map-editor}
             + [Work with the Map Editor](./user-guide/map-editor.md)
             + [Create a map](./user-guide/map-editor-create-map.md)
             + [Create maps based on customized templates](./user-guide/create-maps-customized-templates.md)
