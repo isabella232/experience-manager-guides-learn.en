@@ -50,16 +50,16 @@ breadcrumb-title: AEM Guides Tutorials
   + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
 + User Guide {#user-guide}
   + [Disclaimer](./user-guide/rebranding-disclaimer.md)
-  + [About]{#about-aem-guide}
+  + About {#about-aem-guide}
    + [About Adobe Experience Manager Guides as a Cloud Service](./user-guide/intro.md)
    + [How AEM Guides works](./user-guide/intro-how-dxml-works.md)
    + [Key AEM Guides features](./user-guide/intro-dxml-features.md)
-  +[Manage Content]{#manage-content}
+  + Manage Content {#manage-content}
       + [Manage content](./user-guide/authoring.md)
       + [Upload files](./user-guide/authoring-upload-existing-files.md)
       + [Manage files and folders](./user-guide/authoring-file-management.md)
       + [Download files](./user-guide/authoring-download-assets.md)
-  +[Author Content]{#author-content}
+  +Author Content {#author-content}
     + [Author content](./user-guide/authoring-content.md)
     + [Create and preview topics]{#create-preview-topics}
       + [Create and preview topics](./user-guide/create-preview-topics.md)
@@ -77,7 +77,7 @@ breadcrumb-title: AEM Guides Tutorials
           + [Web Editor views](./user-guide/web-editor-views.md)
           + [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           + [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
-          + [Article-based publishing from the Web Editor]{#article-based-pub}
+          + Article-based publishing from the Web Editor {#article-based-pub}
             + [Article-based publishing from the Web Editor](./user-guide/web-editor-article-publishing.md)
             + [Create output presets from the Web Editor](./user-guide/web-editor-article-publishing-presets.md)
             + [Generate output from the Repository panel or the Map View panel](./user-guide/web-editor-article-publishing-output.md)
@@ -86,7 +86,7 @@ breadcrumb-title: AEM Guides Tutorials
           + [Create and manage baselines from the Web Editor](./user-guide/web-editor-baseline.md)
           + [Document state](./user-guide/web-editor-document-states.md)
           + [Use labels](./user-guide/web-editor-use-label.md)
-          +[Work with the Map Editor]{#work-with-map-editor}
+          +Work with the Map Editor {#work-with-map-editor}
             + [Work with the Map Editor](./user-guide/map-editor.md)
             + [Create a map](./user-guide/map-editor-create-map.md)
             + [Create maps based on customized templates](./user-guide/create-maps-customized-templates.md)
@@ -94,11 +94,11 @@ breadcrumb-title: AEM Guides Tutorials
             + [Work with the Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
             + [Other features in the map editors](./user-guide/map-editor-other-features.md)
             + [DITAVAL editor](./user-guide/id17C5E0U0OQE.md)
-      +[Author content using desktop tools]{#author-using-desktop-tools}
+      + Author content using desktop tools {#author-using-desktop-tools}
         + [Author content using desktop tools](./user-guide/author-desktop-tools.md)
         + [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
         + [Work with Oxygen](./user-guide/author-desktop-oxygen.md)
-  +[Review topics and maps]{#review-topc-maps}
+  + Review topics and maps {#review-topc-maps}
     + [Review topics or maps](./user-guide/review.md)
     + [Create a DITA project](./user-guide/authoring-create-dita-project.md)
     + [Send topics for review](./user-guide/review-send-topics-for-review.md)
@@ -106,17 +106,17 @@ breadcrumb-title: AEM Guides Tutorials
     + [Review topics](./user-guide/review-topics.md)
     + [Address review comments](./user-guide/review-address-review-comments.md)
     + [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
-  +[Manage Metadata]{#manaege-metadata}
+  + Manage Metadata {#manaege-metadata}
     + [Manage metadata](./user-guide/manage-metadata.md)
     + [Work with metadata in AEM](./user-guide/metadata-dita.md)
     + [Smart Tagging](./user-guide/web-editor-smart-tagging.md)
     + [Bulk tagging of DITA content](./user-guide/map-editor-bulk-tagging.md)
-  +[Translate content]{#translate-content}
+  + Translate content {#translate-content}
     + [Translate content](./user-guide/translation.md)
     + [Best practices for content translation](./user-guide/translation-first-time.md)
     + [View translation status](./user-guide/translation-view-trans-state-6234.md)
     + [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
-  +[Output Generation]{#output-gen}
+  + Output Generation {#output-gen}
     + [Output generation](./user-guide/generate-output.md)
     + [Understanding the output presets](./user-guide/generate-output-understand-presets.md)
     + [AEM Site](./user-guide/generate-output-aem-site.md)
@@ -135,13 +135,13 @@ breadcrumb-title: AEM Guides Tutorials
     + [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
     + [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     + [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
-    +[Bulk Activation of Content]{#bulk-activation}
+    + Bulk Activation of Content {#bulk-activation}
       + [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       + [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
       + [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
       + [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
       + [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
-  +[Generate output of FrameMaker Documents]{#generate-fm-output}
+  + Generate output of FrameMaker Documents {#generate-fm-output}
     + [Generate output of FrameMaker documents](./user-guide/fm-output-generatation.md)
     + [Understanding the output presets](./user-guide/fm-output-understand-presets.md)
     + [PDF](./user-guide/fm-output-pdf-preset.md)
@@ -149,7 +149,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [EPUB](./user-guide/fm-output-epub-preset.md)
     + [Generate output of .book or .fm files](./user-guide/fm-output-generate.md)
     + [View the status of the output generation task](./user-guide/fm-output-view-status.md)
-  +[Reports]{#reports-aem-guide}
+  + Reports {#reports-aem-guide}
     + [Reports](./user-guide/reports-intro.md)
     + [DITA map report from the Web Editor](./user-guide/reports-web-editor.md)
     + [DITA map report from the map dashboard](./user-guide/reports-ditamap.md)
