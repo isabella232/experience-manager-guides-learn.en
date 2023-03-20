@@ -9,34 +9,39 @@ This section explains how AEM Guides handles the basic file operations, such as 
 
 ## Copy and paste files 
 
-If the file has human readable filename
-:   -   *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a UUID is also assigned to it. Here, the file name is same as the original file name.
+**If the file has human readable filename**
+
+-   *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a UUID is also assigned to it. Here, the file name is same as the original file name.
 -   *If the file with the same name already exists in the destination folder*: A new copy of the file is created with a suffix \(like filename0.extension\). A UUID is also assigned to the newly created file.
 
 
-If the filename is based on a UUID pattern
-:   -   *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the UUID.
+**If the filename is based on a UUID pattern**
+
+-   *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the UUID.
 -   *If the file with the same name already exists in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it. The file name is same as the UUID.
 
 
 ## Copy and paste folders 
 
-Copy and paste folder at the same location
-:   -   *The folder has files with human readable filenames*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to the files within the folder. However, there is no change in the file names.
+**Copy and paste folder at the same location**
+
+-   *The folder has files with human readable filenames*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to the files within the folder. However, there is no change in the file names.
 
 -   *The folder has files with filenames based on a UUID pattern*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to all files within the new folder. The file names are also changed; the file names are same as the new UUID.
 
 
-Copy and paste folder at different location
-:   -   *The folder has files with human readable filenames*: A new copy of the folder is created and a new UUID is also assigned to all files within the folder at the new location. Here, there is no change in the folder or file names.
+**Copy and paste folder at different location**
+
+-   *The folder has files with human readable filenames*: A new copy of the folder is created and a new UUID is also assigned to all files within the folder at the new location. Here, there is no change in the folder or file names.
 
 -   *The folder has files with filenames based on a UUID pattern*: A new copy of the folder is created with the same name as the original folder. A new UUID is also assigned to all files within the new folder. The file names are also changed; the file names are same as the new UUID.
 
 
 ## Drag-and-drop files 
 
-Drag-and-drop with human readable filenames
-:   -   *Drag-and-drop at the same location*: You are given the options to **Overwrite Existing File\(s\)**, **Keep Both File\(s\)**, and an option to create a version of the existing working copy.
+**Drag-and-drop with human readable filenames**
+
+-   *Drag-and-drop at the same location*: You are given the options to **Overwrite Existing File\(s\)**, **Keep Both File\(s\)**, and an option to create a version of the existing working copy.
 
     ![](images/uuid-human-readable-drag-drop-same-location.PNG)
 
@@ -57,48 +62,45 @@ Drag-and-drop with human readable filenames
     >The **Overwrite Checked out File on Upload** feature must be disabled by your administrator. If this feature is enabled, you can overwrite checked-out files. If the feature is not enabled, then a checked out file is prevented from being overwritten. For more details, see *Overwrite Checked out File on Upload* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
-:   -   *Drag-and-drop files at different location*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the original file name.
+-   *Drag-and-drop files at different location*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the original file name.
 
 
-Drag-and-drop with filenames based on a UUID pattern
-:   -   *Drag-and-drop file at the same location*: You are given the options to **Overwrite Existing File\(s\)** along with the option to create a version of the existing working copy.
+**Drag-and-drop with filenames based on a UUID pattern**
 
-    ![](images/uuid-drag-drop-same-location.PNG)
+*Drag-and-drop file at the same location*: You are given the options to **Overwrite Existing File\(s\)** along with the option to create a version of the existing working copy.
 
-    When the file is overwritten, there is no change in the file name or its UUID.
+![](images/uuid-drag-drop-same-location.PNG)
 
-    If you select the **Create Version for the Existing Working Copy** option, then a new version from the working copy of the document is created; the new file is uploaded, a new version of the file is also created, and it is made as the working copy of the document.
+When the file is overwritten, there is no change in the file name or its UUID.
 
-    >[!NOTE]
-    
-     **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded file* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+If you select the **Create Version for the Existing Working Copy** option, then a new version from the working copy of the document is created; the new file is uploaded, a new version of the file is also created, and it is made as the working copy of the document.
+
+**Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded file* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
-:   -   *Drag-and-drop file at different location*: You are given the options to **Overwrite Existing File\(s\)**, **Move File\(s\) to New Location**, and an option to create a version of the existing working copy.
+*Drag-and-drop file at different location*: You are given the options to **Overwrite Existing File\(s\)**, **Move File\(s\) to New Location**, and an option to create a version of the existing working copy.
 
-    ![](images/uuid-drag-drop-different-location.PNG)
+![](images/uuid-drag-drop-different-location.PNG)
 
-    If you choose the **Overwrite Existing File\(s\)** option, then the file that is being uploaded replaces the existing file at the original location. The UUID is not created or changed.
+If you choose the **Overwrite Existing File\(s\)** option, then the file that is being uploaded replaces the existing file at the original location. The UUID is not created or changed.
 
-    If you choose the **Move File\(s\) to New Location** option, then the existing file is moved to the current location and then it is overwritten with the file being uploaded. Moving a file to the new location does not break any existing references from or to the file.
+If you choose the **Move File\(s\) to New Location** option, then the existing file is moved to the current location and then it is overwritten with the file being uploaded. Moving a file to the new location does not break any existing references from or to the file.
 
-    With replace or moving the files, if you choose the option to create a version from the existing copy, then a new version from the working copy of the document is created; the new file is either replaced at the existing location or moved to the new location.
+With replace or moving the files, if you choose the option to create a version from the existing copy, then a new version from the working copy of the document is created; the new file is either replaced at the existing location or moved to the new location.
 
 
 ## Move files in bulk 
 
 AEM Guides comes with the Bulk Move Tool that helps an administrator to move a folder having large number of files from one location to another. This tool can easily move files within one or more folders into a different folder in your AEM repository. One of the major features of this tool is that it not only moves a large number of files, but it also maintains the references to and from the files being moved. You can tweak the number of files that you can move in batches without hampering the authoring and publishing tasks.
 
-    >[!NOTE]
-    >
-    > The Bulk Move Tool works only at folder-level. If you want to move individual topic or map files, then use the regular move tool from AEM's Assets UI.
+>[!NOTE]
+>
+> The Bulk Move Tool works only at folder-level. If you want to move individual topic or map files, then use the regular move tool from AEM's Assets UI.
 
 Here are some of the features provided by the Bulk Move Tool:
 
 -   You can tweak the number of files to process in each batch. This might require you to run a few tests before arriving at an optimal number that your system can easily handle.
-
 -   Authoring and publishing services run smoothly without any interruption from the move operation.
-
 -   Have compete control over the time interval in-between subsequent \(running of\) batch processes. This time interval ensures that the post-processing operation is completed before starting the next batch of files.
 
     Auto-handling of folders with same name. This feature ensures that even if there are folders with same name being move, they are not overwritten.
@@ -109,16 +111,13 @@ Here are some of the features provided by the Bulk Move Tool:
 You must consider the following points before running the batch process:
 
 -   If you plan to move topics that are currently under review, you must close the review process on all such topics before moving them. Not closing the review task will break the review process.
-
 -   You must run only a single bulk move operation on the system at any time. This ensures proper handling of references to and from the topics being moved.
 
 
 To move files in bulk, perform the following steps:
 
 1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
-
 1.  Select **Guides** from the list of tools.
-
 1.  Click on the **Bulk Move Tool** tile.
 
     The Bulk Move Tool page is displayed.
@@ -146,9 +145,9 @@ To move files in bulk, perform the following steps:
 
 By default, AEM does not recognize DITA content, thus, it doesn't provide any mechanism to search DITA content within its repository. AEM Guides adds a layer on top of AEM, which enables AEM to understand and process DITA content. The Search DITA content feature in AEM Guides allows you to search for DITA content within AEM repository.
 
-    >[!NOTE]
-    >
-    >Your system administrator can configure the **DITA Element** search component and then you can use the feature from the AEM Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+>[!NOTE]
+>
+>Your system administrator can configure the **DITA Element** search component and then you can use the feature from the AEM Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Using the search feature, you can:
 
@@ -209,9 +208,9 @@ Deleting files from AEM repository is a restricted feature, which is controlled 
 
 You could also delete files only if you belong to a specific user group that has privileges to delete files.
 
-    >[!NOTE]
-    >
-    > For more details on the configurations on file management, see *Prevent deletion of checked out files* and *Prevent deletion of referenced files* sections in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+>[!NOTE]
+>
+> For more details on the configurations on file management, see *Prevent deletion of checked out files* and *Prevent deletion of referenced files* sections in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 If your administrator has given the file delete permission to all user, then the following message is displayed when you delete files containing references:
 

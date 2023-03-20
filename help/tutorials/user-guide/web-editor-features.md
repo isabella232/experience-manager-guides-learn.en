@@ -189,7 +189,7 @@ If you press Enter in the note element, a new paragraph is created within the no
 
 You can also add an element between two elements when a blinking block cursor appears.
 
-![](images/Block%20cursor.png)
+![](images/Block-cursor.png)
 
 For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
 
