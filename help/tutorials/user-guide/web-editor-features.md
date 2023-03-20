@@ -558,7 +558,7 @@ Version Label Management — ![](images/version-label-icon.svg)
 
     These labels are shown in the form of a drop-down list to authors wherever they need to specify a label. This ensures that only predefined, consistent labels are used in the system.
 
-    There are different methods through which you can apply labels to your topics - [Version History](web-editor-use-label.md#) panel in Assets UI, [Baselines](generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI, and Web Editor. The Version Label feature in the Web Editor gives authors quick and easy way to assign labels to their topics.
+    There are different methods through which you can apply labels to your topics - [Version History](web-editor-use-label.md#) panel in Assets UI, [Baselines](/help/tutorials/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI, and Web Editor. The Version Label feature in the Web Editor gives authors quick and easy way to assign labels to their topics.
 
     To add labels to your topic from the Web Editor, perform the following steps:
 
