@@ -1,3 +1,8 @@
+---
+title: Other features in the Web Editor
+description: Learn how to Other features in the Web Editor
+---
+
 # Other features in the Web Editor {#id2056B0B0YPF}
 
 There are some other useful features in the Web Editor that you can make use of:

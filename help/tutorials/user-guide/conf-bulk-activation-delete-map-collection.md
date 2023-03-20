@@ -1,3 +1,8 @@
+---
+title: Delete a bulk activation map collection
+description: Learn how to Delete a bulk activation map collection
+---
+
 # Delete a bulk activation map collection {#id214GI40B0XA}
 
 You can delete a bulk activation map collection when it is no longer needed. To delete a bulk activation map collection, perform the following steps:

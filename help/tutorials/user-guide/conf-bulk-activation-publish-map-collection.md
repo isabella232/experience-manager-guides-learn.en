@@ -1,3 +1,8 @@
+---
+title: Activate output
+description: Learn how to Activate output
+---
+
 # Activate output {#id214GGF00V5U}
 
 Once you have created a map collection for bulk activation, the next step is to activate your content on the publishing instance. To activate your content, perform the following steps:

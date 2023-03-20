@@ -1,3 +1,8 @@
+---
+title: Manage metadata
+description: Learn how to Manage metadata
+---
+
 # Manage metadata {#id221EJ0500LI}
 
 Metadata is the description or definition of your content. This metadata is useful for defining your article or a map. For example, the PDF metadata may consist of the properties of a document like a title, author, subject, keywords, and language. AEM Guides provides various tools which can help you define metadata for your content.

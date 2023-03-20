@@ -1,3 +1,8 @@
+---
+title: Translate modified topics
+description: Learn how to Translate modified topics
+---
+
 # Translate modified topics {#id16A5A0B6072}
 
 If you make changes in some of the topics, then those topics require re-translation. You can keep track of modified topics from DITA map. From the source language copy folder, click the DITA map file and click the Translation tab. You can see the status of each topic whether it requires re-translation or not.

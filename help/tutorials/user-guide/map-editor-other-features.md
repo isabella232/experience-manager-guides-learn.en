@@ -1,3 +1,8 @@
+---
+title: Other features in the map editors
+description: Learn how to Other features in the map editors
+---
+
 # Other features in the map editors {#id1942D0T0HUI}
 
 Some common features in the Basic and Advanced Map Editors are:

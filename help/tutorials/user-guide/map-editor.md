@@ -1,3 +1,8 @@
+---
+title: Work with the Map Editor 
+description: Learn how to Work with the Map Editor 
+---
+
 # Work with the Map Editor {#id181OF0M30Y4}
 
 AEM Guides' Map Editor allows you to create and edit map files. Using the Map Editor, you can edit two types of files — DITA map and bookmap. You can create these files using the **Create** \> **DITA Map** workflow. You can also create your own map templates and create maps based on your custom template. For more information about using your custom DITA templates, see *Configure templates and tags for authoring* in Install and configure Adobe Experience Manager Guides as a Cloud Service.

@@ -1,3 +1,8 @@
+---
+title: Create and preview topics
+description: Learn how to Create and preview topics
+---
+
 # Create and preview topics {#id21BQE0RJ042}
 
 AEM Guides comes with a powerful feature to create DITA topics from the Assets UI. You can then preview the topics from the Assets UI. The Preview mode also provides many powerful features to help you perform key operations like view metadata, edit the topic in Web Editor, open the source, and find the web-based version difference.

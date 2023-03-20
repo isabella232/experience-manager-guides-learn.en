@@ -1,3 +1,8 @@
+---
+title: Use HTML5
+description: Learn how to use HTML5
+---
+
 # HTML5 {#id205BE700XO1}
 
 The HTML5 output is generated in a flat folder hierarchy. This implies that the folder structure used by the content in the repository is not replicated in the HTML5 output. The entire content is published in HTML5 output format and saved in a single folder. The file names are also replaced with the UUIDs of the files in the generated output. The only file that doesn't have a UUID-based filename is the index.html file.

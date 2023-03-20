@@ -1,3 +1,8 @@
+---
+title: Translate documents from the Web Editor
+description: Learn how to Translate documents from the Web Editor
+---
+
 # Translate documents from the Web Editor {#id21BKF0Z0YZF}
 
 >[!TIP]

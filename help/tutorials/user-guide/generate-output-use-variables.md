@@ -1,3 +1,8 @@
+---
+title: Use variables for setting the Destination Path, Site Name, or File Name options
+description: Learn how to Use variables for setting the Destination Path, Site Name, or File Name options
+---
+
 # Use variables for setting the Destination Path, Site Name, or File Name options
 
 

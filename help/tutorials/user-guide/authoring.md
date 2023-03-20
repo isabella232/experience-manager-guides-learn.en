@@ -1,3 +1,8 @@
+---
+title: Manage content
+description: Learn how to Manage content
+---
+
 # Manage content {#id164JBG0M0T1}
 
 Before you start with the actual content creation, you must familiarize yourself with some basic concepts of content management in AEM Guides. Then, start with creating different user groups and organizing your assets.

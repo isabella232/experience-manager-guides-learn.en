@@ -1,3 +1,8 @@
+---
+title: Manage Global and Folder Profile output presets
+description: Learn how to Manage Global and Folder Profile output presets
+---
+
 # Manage Global and Folder Profile output presets {#id22BLJ0D0V1U}
 
 The Global and Folder Profile presets are only available to folder-level administrative users.

@@ -1,3 +1,8 @@
+---
+title: Upload files
+description: Learn how to Upload files
+---
+
 # Upload files {#id176FF000JUI}
 
 Most likely you would have a repository of existing DITA content that you would like to use with AEM Guides. For such existing content, you can use any of the following approaches to bulk upload your content into AEM repository:

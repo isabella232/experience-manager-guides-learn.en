@@ -1,3 +1,8 @@
+---
+title: Article-based publishing from the Web Editor
+description: Learn how to Article-based publishing from the Web Editor
+---
+
 # Article-based publishing from the Web Editor {#id218CL05J0M1}
 
 AEM Guides comes with an article-based publishing feature integrated inside the Web Editor that allows the users to publish one or more topics simultaneously.

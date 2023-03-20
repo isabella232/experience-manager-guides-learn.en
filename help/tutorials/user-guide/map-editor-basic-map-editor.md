@@ -1,3 +1,8 @@
+---
+title: Work with the Basic Map Editor
+description: Learn how to Work with the Basic Map Editor
+---
+
 # Work with the Basic Map Editor {#id1942CM005Y4}
 
 The Basic Map Editor provides an easy drag-and-drop feature to add topics from your AEM repository to create the DITA map or bookmap. You can add nested topics, relationship tables \(reltable\), attributes and metadata information, and also validate the map for correctness.

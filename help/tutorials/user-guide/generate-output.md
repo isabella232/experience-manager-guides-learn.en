@@ -1,3 +1,8 @@
+---
+title: Output generation
+description: Learn how to Output generation
+---
+
 # Output generation {#id1645H8040HD}
 
 AEM Guides has built-in publishing capabilities to generate outputs in a variety of industry standard formats. The current version of AEM Guides allows you to generate output in the most widely used formats—AEM Site, PDF, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF publishing, and FMPS.

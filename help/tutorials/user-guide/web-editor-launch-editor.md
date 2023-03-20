@@ -1,3 +1,8 @@
+---
+title: Launch the Web Editor
+description: Learn how to Launch the Web Editor
+---
+
 # Launch the Web Editor {#id2056B0140HS}
 
 You can launch the Web Editor from the following locations:

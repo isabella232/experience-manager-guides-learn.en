@@ -1,3 +1,8 @@
+---
+title: Bulk tagging of DITA content
+description: Learn how to Bulk tagging of DITA content
+---
+
 # Bulk tagging of DITA content {#id179SG0TN05Z}
 
 Tags allow you to group or classify content within your content repository and also in the published output. If you have applied tags on your content, you can easily find related topics within a DITA map that can help you to authoring content. With the published output, end users will be able to locate the right content faster with proper tags in place.

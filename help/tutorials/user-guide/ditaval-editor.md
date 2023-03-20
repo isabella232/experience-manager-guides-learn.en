@@ -1,3 +1,8 @@
+---
+title: Use DITAVAL editor
+description: Learn how to use DITAVAL editor
+---
+
 # DITAVAL editor {#id17C5E0U0OQE}
 
 DITAVAL files are used to generate conditional output. In a single topic, you can add conditions using element attributes to conditionalize content. Then, you create a DITAVAL file wherein you specify the conditions that should be picked up to generate content, and which condition should be left out from the final output.

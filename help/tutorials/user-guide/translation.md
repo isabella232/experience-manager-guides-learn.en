@@ -1,3 +1,8 @@
+---
+title: Translate content
+description: Learn how to Translate content
+---
+
 # Translate content {#id1645H700L67}
 
 AEM Guides comes with powerful capabilities that enable you to translate your content into multiple languages. Both, human and machine translation workflows are supported by AEM Guides.

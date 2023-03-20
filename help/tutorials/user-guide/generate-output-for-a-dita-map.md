@@ -1,3 +1,8 @@
+---
+title: Generate output for a DITA map from the map console
+description: Learn how to Generate output for a DITA map from the map console
+---
+
 # Generate output for a DITA map from the map console {#id1825FG00UHT}
 
 Perform the following steps to generate output for a DITA map:

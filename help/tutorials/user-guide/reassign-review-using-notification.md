@@ -1,3 +1,8 @@
+---
+title: Reassign review task using notification
+description: Learn how to Reassign review task using notification
+---
+
 # Reassign review task using notification {#id21BNH03M0KS}
 
 You can reassign a review task assigned to you, to another user who has been added to the same review project. The review task reassignment can be easily done from the review notification that is delivered in your inbox. However, as a reviewer, you can re-assign a review task only to individual users and not to user groups using notification.

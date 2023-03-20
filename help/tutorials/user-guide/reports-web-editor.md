@@ -1,3 +1,8 @@
+---
+title: DITA map report from the Web Editor
+description: Learn how to DITA map report from the Web Editor
+---
+
 # DITA map report from the Web Editor {#id231HF0Z0NXA}
 
 AEM Guides comes with a feature in the Web Editor that enables you to check the overall integrity of your references and generate reports for them.

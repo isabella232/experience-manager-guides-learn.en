@@ -1,3 +1,8 @@
+---
+title: Address review comments
+description: Learn how to Address review comments
+---
+
 # Address review comments {#id2056B0X0KBI}
 
 As an author, you can address comments in a topic using the Web Editor. The following sections describe ways of editing comments in the Web Editor.

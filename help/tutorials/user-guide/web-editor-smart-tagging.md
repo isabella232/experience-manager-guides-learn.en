@@ -1,3 +1,8 @@
+---
+title: Smart Tagging
+description: Learn how to Smart Tagging
+---
+
 # Smart Tagging {#id216KH0ID0Y8}
 
 >[!IMPORTANT]

@@ -1,3 +1,8 @@
+---
+title: Use Map Collection for output generation
+description: Learn how to Use Map Collection for output generation
+---
+
 # Use condition presets {#id1825FL004PN}
 
 You can define attributes in your DITA topics and the use the condition preset to specify what happens with the attribute in the final output. For example, you can add attributes as version 1.0 and version 2.0 in your content, and use a condition preset to include version 1.0 for release 1.0 and exclude version 2.0. Similarly, you can add attributes as OS Windows and OS Linux to your content, and then include or exclude the relevant content for your final output according to the operating system.

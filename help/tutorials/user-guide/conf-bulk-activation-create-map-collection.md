@@ -1,3 +1,8 @@
+---
+title: Create a bulk activation map collection
+description: Learn how to Create a bulk activation map collection
+---
+
 # Create a bulk activation map collection {#id214GG0E90EV}
 
 To create a bulk activation map collection, perform the following steps:

@@ -1,3 +1,8 @@
+---
+title: Manage publish tasks using the Publish Dashboard
+description: Learn how to Manage publish tasks using the Publish Dashboard
+---
+
 # Manage publish tasks using the Publish Dashboard {#id205CC08305Z}
 
 When you have a large set of publishing tasks running on your system, it becomes practically impossible to check each DITA map individually to monitor its publishing task. AEM Guides gives the administrators and publishers one unified view of all publishing tasks running in the system. A list of all active publishing tasks is available in the Publish Dashboard.

@@ -1,3 +1,8 @@
+---
+title: Custom
+description: Learn how to use Custom output preset
+---
+
 # Custom {#id205BEF00PX0}
 
 The Custom output presets are available for custom DITA-OT plug-ins. You can create a custom DITA-OT output preset to publish output using your custom DITA-OT plug-in.

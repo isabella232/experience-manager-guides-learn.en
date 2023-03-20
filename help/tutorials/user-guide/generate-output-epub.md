@@ -1,3 +1,8 @@
+---
+title: EPUB
+description: Learn how to Use EPUB
+---
+
 # EPUB {#id205BED020YT}
 
 You can create the EPUB preset from the map dashboard.

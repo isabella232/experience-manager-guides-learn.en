@@ -1,3 +1,8 @@
+---
+title: Keyboard shortcuts in the Web Editor
+description: Learn how to Keyboard shortcuts in the Web Editor
+---
+
 # Keyboard shortcuts in the Web Editor {#id2056B0A0WHT}
 
 There are many operations in the Web Editor that you can perform using the keyboard shortcuts. The following table lists these keyboard shortcuts:

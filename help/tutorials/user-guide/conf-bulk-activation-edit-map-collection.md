@@ -1,3 +1,8 @@
+---
+title: Edit a bulk activation map collection
+description: Learn how to Edit a bulk activation map collection
+---
+
 # Edit a bulk activation map collection {#id214GI40B0XA}
 
 You can edit a bulk activation map collection by adding or removing map file or presets from a collection. To edit a bulk activation map collection, perform the following steps:

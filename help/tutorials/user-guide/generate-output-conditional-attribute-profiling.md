@@ -1,3 +1,8 @@
+---
+title: Conditional attribute profiling
+description: Learn how to Conditional attribute profiling
+---
+
 # Conditional attribute profiling {#id1843I0HN0Y4}
 
 At an enterprise level, it is extremely important to ensure that you have a standard tagging system in place. Tags or conditional attributes can be associated with digital assets in the repository, which helps in publishing output based on the chosen conditions. For example, you can create conditional attribute for Windows and Mac content. Then, you add these attributes to the relevant content in your topics. At the time of publishing content, you can choose whether you want to publish Windows or Mac only content.

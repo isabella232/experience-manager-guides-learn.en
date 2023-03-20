@@ -1,3 +1,8 @@
+---
+title: Review topics or maps
+description: Learn how to Review topics or maps
+---
+
 # Review topics or maps {#id1645H6010Q5}
 
 Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also see the comments made by other reviewers.

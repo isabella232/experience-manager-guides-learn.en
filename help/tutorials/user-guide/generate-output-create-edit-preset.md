@@ -1,3 +1,8 @@
+---
+title: Create, edit, duplicate, or remove an output preset
+description: Learn how to Create, edit, duplicate, or remove an output preset
+---
+
 # Create, edit, duplicate, or remove an output preset {#id205BEH0K09Z}
 
 ## Create a custom output preset 

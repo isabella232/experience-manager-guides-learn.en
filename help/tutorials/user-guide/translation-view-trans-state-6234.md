@@ -1,3 +1,8 @@
+---
+title: View translation status
+description: Learn how to View translation status
+---
+
 # View translation status {#id169SEK00KOW}
 
 You can view the translation status and the translated language copies for each topic in a DITA map.

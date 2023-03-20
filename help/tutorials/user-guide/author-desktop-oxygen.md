@@ -1,3 +1,8 @@
+---
+title: Work with Oxygen
+description: Learn how to Work with Oxygen
+---
+
 # Work with Oxygen {#id221BH0V0UE8}
 
 Oxygen XML Author comes with user-friendly authoring features and provides an easy-to-use interface.

@@ -1,3 +1,8 @@
+---
+title: Preview a topic
+description: Learn how to Preview a topic
+---
+
 # Preview a topic {#id1696II000QR}
 
 Once a topic is created, AEM Guides generates a preview of the topic. The Preview mode provides various features that you can use to work with your document.

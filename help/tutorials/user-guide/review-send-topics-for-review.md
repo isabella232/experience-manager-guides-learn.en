@@ -1,3 +1,8 @@
+---
+title: Send topics for review
+description: Learn how to Send topics for review
+---
+
 # Send topics for review {#id199RD0S035Z}
 
 The review workflow creates a multi-reviewer environment wherein the initiator specifies a list of topics for review, add multiple reviewers, and assigns a timeline for the review task. AEM Guides allows users belonging to the Authors and Publishers groups to initiate a review.

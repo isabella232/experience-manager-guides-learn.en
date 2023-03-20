@@ -1,3 +1,8 @@
+---
+title:  Web Editor views
+description: Learn how to  Web Editor views
+---
+
 # Web Editor views {#id204GK0D0V5Z}
 
 AEM Guides' Web Editor supports viewing documents in three different modes or views:

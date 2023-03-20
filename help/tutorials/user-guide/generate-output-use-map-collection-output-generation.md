@@ -1,3 +1,8 @@
+---
+title: Use Map Collection for output generation
+description: Learn how to Use Map Collection for output generation
+---
+
 # Use Map Collection for output generation {#id1723F20G0HS}
 
 In any organization, a product can have multiple types of documentation. As a publishing specialist, you would like to control what output you want to generate for which document. Also, there should be a way to batch publish multiple documents with a single click.

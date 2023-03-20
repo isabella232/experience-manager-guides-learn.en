@@ -1,3 +1,8 @@
+---
+title: Manage review tasks using the Review Dashboard
+description: Learn how to Manage review tasks using the Review Dashboard
+---
+
 # Manage review tasks using the Review Dashboard {#id2056B0Y70X4}
 
 Review management workflow can include a variety of tasks. For example, you may want to add reviewers for a particular topic or extend the deadline for a review. You might also want to mark the review task as complete if you think that all the stakeholders have given their feedback. These tasks can be managed using the Review Dashboard.

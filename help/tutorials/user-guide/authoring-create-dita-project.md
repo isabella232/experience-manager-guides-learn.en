@@ -1,3 +1,8 @@
+---
+title: Create a DITA project
+description: Learn how to Create a DITA project
+---
+
 # Create a DITA project {#id1645HA00NM6}
 
 AEM Guides provides a DITA project template that you can use to create and manage your review tasks.

@@ -1,3 +1,8 @@
+---
+title: Author content using AEM Guides
+description: Learn how to Author content using AEM Guides
+---
+
 # Author content using AEM Guides {#id221EB0P0E20}
 
 AEM Guides comes with the three out-of-the-box editors. you can use them to create, edit, and publish your documents.

@@ -1,3 +1,8 @@
+---
+title: Best practices for content translation
+description: Learn how to Best practices for content translation
+---
+
 # Best practices for content translation {#id1678G0S702F}
 
 Consider the following point for translating content:

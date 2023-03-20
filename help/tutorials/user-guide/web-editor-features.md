@@ -1,3 +1,8 @@
+---
+title: Know the Web Editor features
+description: Learn how to Know the Web Editor features
+---
+
 # Know the Web Editor features {#id176NC500V5Z}
 
 This section walks you through the various features that are available in the Web Editor. We can divide the Web Editor into the following sections or areas:

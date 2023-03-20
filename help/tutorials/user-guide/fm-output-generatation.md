@@ -1,3 +1,8 @@
+---
+title: Generate output of FrameMaker documents
+description: Learn how to Generate output of FrameMaker documents
+---
+
 # Generate output of FrameMaker documents {#id1645H8040HD}
 
 Starting with AEM Guides 1.1, you can also publish FrameMaker documents \(`.book` and `.fm`\) available in your AEM repository. If a book file contains a combination of DITA and FrameMaker documents, AEM Guides allows you to publish such documents as well. FrameMaker documents can be published into the following formats:

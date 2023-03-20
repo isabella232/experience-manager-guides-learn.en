@@ -1,3 +1,8 @@
+---
+title: Document state
+description: Learn how to Document state
+---
+
 # Document state {#id1821HC00URO}
 
 To manage the readiness of the documents, AEM Guides provides document state property to indicate the current state of the document. Document states help you quickly find out whether a document is new, in review, or review completed state.

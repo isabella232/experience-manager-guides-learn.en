@@ -1,3 +1,8 @@
+---
+title: Create maps based on customized templates
+description: Learn how to Create maps based on customized templates
+---
+
 # Create maps based on customized templates {#id225VF0808MP}
 
 You can create customized map templates and use them to create DITA maps along with the topic templates and map templates referenced in the map template

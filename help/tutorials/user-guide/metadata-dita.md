@@ -1,3 +1,8 @@
+---
+title: Work with metadata in AEM
+description: Learn how to Work with metadata in AEM
+---
+
 # Work with metadata in AEM {#id21BJ00QD0XA}
 
 Adobe Experience Manager Assets provides you with the feature to create assets and add metadata to them. You can keep metadata for every asset. You can manage metadata with your assets and also automatically organize and process assets based on their metadata.

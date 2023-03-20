@@ -1,3 +1,8 @@
+---
+title: Generate output of .book or .fm files
+description: Learn how to Generate output of .book or .fm files
+---
+
 # Generate output of .book or .fm files {#generating_output_fm_docs}
 
 Perform the following steps to generate output for FrameMaker documents:

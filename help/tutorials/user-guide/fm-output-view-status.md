@@ -1,3 +1,8 @@
+---
+title: View the status of the output generation task
+description: Learn how to View the status of the output generation task
+---
+
 # View the status of the output generation task {#viewing_output_history}
 
 Once you initiate the output generation task for a FrameMaker document, AEM Guides sends this task to the output generation queue. This queue is updated in real time, showing the status of each output generation task in the queue.

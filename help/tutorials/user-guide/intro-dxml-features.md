@@ -1,3 +1,8 @@
+---
+title: Key AEM Guides features
+description: Learn how to Key AEM Guides features
+---
+
 # Key AEM Guides features {#id167G9I060SI}
 
 Powerful DITA authoring and content management

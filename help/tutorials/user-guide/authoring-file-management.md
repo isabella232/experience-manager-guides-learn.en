@@ -1,3 +1,8 @@
+---
+title: Manage files and folders
+description: Learn how to Manage files and folders
+---
+
 # Manage files and folders {#id2116G0L08XA}
 
 This section explains how AEM Guides handles the basic file operations, such as copy, paste, drag-and-drop, and delete files. The following scenarios are possible:

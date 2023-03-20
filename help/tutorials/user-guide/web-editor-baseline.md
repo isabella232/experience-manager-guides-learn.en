@@ -1,3 +1,8 @@
+---
+title: Create and manage baselines from the Web Editor
+description: Learn how to Create and manage baselines from the Web Editor
+---
+
 # Create and manage baselines from the Web Editor {#id223MB0ZF043}
 
 >[!TIP]
