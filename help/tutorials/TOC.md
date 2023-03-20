@@ -98,7 +98,7 @@ breadcrumb-title: AEM Guides Tutorials
         + [Author content using desktop tools](./user-guide/author-desktop-tools.md)
         + [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
         + [Work with Oxygen](./user-guide/author-desktop-oxygen.md)
-  + Review topics and maps {#review-topc-maps}
+  + Review topics and maps {#review-topic-maps}
     + [Review topics or maps](./user-guide/review.md)
     + [Create a DITA project](./user-guide/authoring-create-dita-project.md)
     + [Send topics for review](./user-guide/review-send-topics-for-review.md)

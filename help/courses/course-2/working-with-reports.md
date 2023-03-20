@@ -21,11 +21,11 @@ You can download sample files for the exercise here.
 
     ![ellipses-9.png](images/ellipses-9.png)
  
-2. Select **[!UICONTROL Upload Assets]**.
+1. Select **[!UICONTROL Upload Assets]**.
 
     ![upload-assets.png](images/upload-assets.png)
  
-3. Select the files you would like to upload to the folder, and select **Upload**.
+1. Select the files you would like to upload to the folder, and select **Upload**.
     
 The DITA files open and you should review them for issues with missing content, conrefs, or cross references.
 
@@ -35,15 +35,15 @@ The DITA files open and you should review them for issues with missing content, 
 
     ![ellipses-9.png](images/ellipses-9.png)
  
-2. Select **Create > Map**.
+1. Select **Create > Map**.
 
     ![create-map.png](images/create-map.png)
 
     The Create New Map dialog displays.
 
-3. In the Template field, select **Bookmap** (or **Map** based on the content type you are creating) from the drop-down menu and give your map a title.
+1. In the Template field, select **Bookmap** (or **Map** based on the content type you are creating) from the drop-down menu and give your map a title.
 
-4. Select **Create**.
+1. Select **Create**.
 
 Your map is created, and the left rail automatically changes from the Repository view to the Map view.
 
@@ -54,22 +54,22 @@ This is the Edit icon, and allows you to open the map in the editor.
 
     ![edit-map.png](images/edit-map.png)
 
-2. Switch back to Repository view by selecting the Repository icon.
+1. Switch back to Repository view by selecting the Repository icon.
 
     ![repository-button.png](images/repository-button.png)
 
-3. Add a topic to the map by dragging and dropping it from the Repository into the map in the editor.
+1. Add a topic to the map by dragging and dropping it from the Repository into the map in the editor.
 The line indicator will show you where your topic will be placed.
 
-4. Continue to add topics as needed.
+1. Continue to add topics as needed.
 
-5. When finished, select **Save As New Version.**
+1. When finished, select **Save As New Version.**
  
     ![save-as-new-version.png](images/save-as-new-version.png)
 
-6. In the *Comments for new Version* field, enter a descriptive comment.
+1. In the *Comments for new Version* field, enter a descriptive comment.
 
-7. Select **Save**. 
+1. Select **Save**. 
 
 ## Generating an AEM Site output
 
@@ -78,16 +78,16 @@ The line indicator will show you where your topic will be placed.
     ![open-map-dashboard.png](images/open-map-dashboard.png)
 
     The Map Dashboard opens in another tab.
-2. In the Output Presets tab, select **AEM Site**.
+1. In the Output Presets tab, select **AEM Site**.
 
     ![aem-site-checkbox](images/aem-site-checkbox.png)
  
-3. Select **Generate**.
+1. Select **Generate**.
 
-4. Navigate to the Outputs page to view the status of your generated outputs.
+1. Navigate to the Outputs page to view the status of your generated outputs.
 If there are errors the Outputs tab may display an orange circle under the Generation Setting column instead of green, indicating that generation is complete.
 
-5. Select the link under the Generation Setting column to open the generated output.
+1. Select the link under the Generation Setting column to open the generated output.
 Review your output for missing content.
 
 ## The Reports tab
@@ -108,9 +108,9 @@ If images are missing from your files a common cause might be that content has b
 
     ![image-ellipsis.png](images/image-ellipsis.png)   
  
-2. Select **[!UICONTROL Upload Assets]**, and select the missing images.
+1. Select **[!UICONTROL Upload Assets]**, and select the missing images.
 
-3. Select **Upload**.
+1. Select **Upload**.
 
 The missing images have been uploaded. Now, a newly generated AEM Site output will display these images, and the Reports tab will no longer display any missing image errors.
 
@@ -126,11 +126,11 @@ In addition to the [!UICONTROL Upload Assets] option, you can upload assets by d
 
     ![reuse-ellipsis.png](images/reuse-ellipsis.png)
  
-2. Select **View in Assets UI**. 
+1. Select **View in Assets UI**. 
 
     ![assets_ui.png](images/assets_ui.png)
  
-3. Drag and drop the file into the folder.
+1. Drag and drop the file into the folder.
 The file is uploaded, and the conref error is resolved.
 
 All the errors have now been resolved. The Reports page will indicate that there are no more errors, and generating an AEM Site results in a complete output with no missing components.

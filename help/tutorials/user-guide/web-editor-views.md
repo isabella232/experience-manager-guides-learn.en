@@ -121,15 +121,15 @@ Preview
 
     1.  Open the topic in Preview mode.
 
-    2.  Click the **Export as PDF** \(![](images/export-as-pdf-icon.svg)\) icon.
+    1.  Click the **Export as PDF** \(![](images/export-as-pdf-icon.svg)\) icon.
 
         The Export as PDF dialog is displayed.
 
         ![](images/export-as-pdf-dialog.png)
 
-    3.  *\(Optional\)* Specify the DITA-OT transformation name and any command-line arguments that you want to use.
+    1.  *\(Optional\)* Specify the DITA-OT transformation name and any command-line arguments that you want to use.
 
-    4.  Click **Download**.
+    1.  Click **Download**.
 
         >[!NOTE]
         >

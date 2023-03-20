@@ -640,13 +640,13 @@ Solution
 
     1.  Browse to your \(user's\) home directory.
 
-    2.  Create a file named aem\_connector\_proxy.
+    1.  Create a file named aem\_connector\_proxy.
 
-    3.  Open the file in any text editor and add an available port number in the first line of the file.
+    1.  Open the file in any text editor and add an available port number in the first line of the file.
 
-    4.  Save and close the file.
+    1.  Save and close the file.
 
-    5.  Restart Oxygen XML Author and run the DITA-OT transformation.
+    1.  Restart Oxygen XML Author and run the DITA-OT transformation.
 
 
 ### AEM Guides panel does not browse to the opened file location 

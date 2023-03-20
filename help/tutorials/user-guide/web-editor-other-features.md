@@ -181,8 +181,8 @@ Auto-generate element ID
     Do the following to automatically generate ID for one or multiple elements:
 
     1.  Open the topic in the Web editor.
-    2.  Select the content on which you want to assign IDs.
-    3.  Right-click and select **Generate IDs from the context menu.**
+    1.  Select the content on which you want to assign IDs.
+    1.  Right-click and select **Generate IDs from the context menu.**
 
         Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
 

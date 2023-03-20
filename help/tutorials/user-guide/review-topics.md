@@ -82,8 +82,7 @@ Document view and topic view
 
     ![](images/switch-document-view.png)
 
-Working with different types of commenting tools
-:   You can add inline comments by highlighting text, striking through text, inserting text, or adding a comment note. The different types of commenting tools provided in the Comments toolbar are described below:
+**Working with different types of commenting tools** - You can add inline comments by highlighting text, striking through text, inserting text, or adding a comment note. The different types of commenting tools provided in the Comments toolbar are described below:
 
 ![](images/comments-toolbar.png)
 
@@ -109,11 +108,10 @@ Contextual toolbar
 
         ![](images/review-quick-launch-toolbar.png)
 
-    2.  Click the **Highlight**or **Strikethrough** icon.
-    3.  You can add comments in the comment panel for the highlight or strikethrough action.
+    1.  Click the **Highlight**or **Strikethrough** icon.
+    1.  You can add comments in the comment panel for the highlight or strikethrough action.
 
-Review using the Comments panel
-:   The Comments panel displays a list of comments given on the current topic. This panel also lists comments from other reviewers, if the topic is sent to multiple reviewers. Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. Each comment displays the name of the reviewer who has added the comment along with the timestamp.
+**Review using the Comments panel** - The Comments panel displays a list of comments given on the current topic. This panel also lists comments from other reviewers, if the topic is sent to multiple reviewers. Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. Each comment displays the name of the reviewer who has added the comment along with the timestamp.
 
     The comments are displayed in the order of the commented text in the document. For example, there is a highlight comment on the first sentence and an insert text comment on the second sentence in the first paragraph then the highlight text comment is displayed before the inserted text comment.
 
@@ -136,10 +134,11 @@ Review using the Comments panel
     -   All participating users can respond to comments submitted by other users. On a comment, click **Reply**and press Enter to submit a response.
 
 
-Preview mode
-:   Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by an author after applying all the changes. For example, all inserted text is shown as normal text and all striked off \(deleted\) text is removed from the content.
+**Preview mode**
 
-:   The following screenshot shows the content in *Review* mode:
+- Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by an author after applying all the changes. For example, all inserted text is shown as normal text and all striked off \(deleted\) text is removed from the content.
+
+- The following screenshot shows the content in *Review* mode:
 
     ![](images/review-author-mode.png)
 
@@ -162,13 +161,13 @@ Add attachments to comments
 
         The file Open dialog appears.
 
-    2.  Select one or multiple files you want to attach.
+    1.  Select one or multiple files you want to attach.
 
         The selected files are shown along with the comment in the Comments panel.
 
-        In the Comments panel you can see the file name and its size. You also have an option to remove a file by clicking the delete icon ![](images/Delete_icon.svg)associated with the file name.
+        In the Comments panel you can see the file name and its size. You also have an option to remove a file by clicking the delete icon ![](images/Delete_icon.svg) associated with the file name.
 
-    3.  Click **Submit**.
+    1.  Click **Submit**.
 
         The attachments are uploaded and added to the comment.
 
@@ -177,21 +176,21 @@ Add attachments to comments
 
     -   By default, only two files attached with a comment are shown. If there are more files, then **View Attachment** button on the right shows the number of all attachments \(which are more than two\) associated with the comment. You can click the number to view all attachments. For example, if you have four attachments with a comment, you will see +2 on the button.
 
-        ![](images/review-view-attachment.png)
+    ![](images/review-view-attachment.png)
 
-    -   Hovering the mouse pointer over an attachment gives the options to download or remove the attachment. Removing the attachment is available only if the current reviewer has added that comment, as shown the following screenshot:
+-   Hovering the mouse pointer over an attachment gives the options to download or remove the attachment. Removing the attachment is available only if the current reviewer has added that comment, as shown the following screenshot:
 
-        ![](images/current-user-comment-options.png)
+    ![](images/current-user-comment-options.png)
 
-        The other reviewers or authors get only the download attachment option.
+    The other reviewers or authors get only the download attachment option.
 
-        ![](images/other-reviewer-download.png)
+    ![](images/other-reviewer-download.png)
 
     -   You can download all attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Download**icon at the comment level.
 
     -   You can also delete the attachments associated with a comment from the **View Attachments**dialog. Select the attachments and click the **Delete** icon.
 
-        ![](images/attach-files-comments-panel.png)
+    ![](images/attach-files-comments-panel.png)
 
 
 Conditions panel
@@ -201,17 +200,17 @@ Conditions panel
 
 :   You can disable **Highlight All Conditions** option and see all the content present in the topic as normal text without any highlights.
 
-    ![](images/review-conditions-panel.png)
+![](images/review-conditions-panel.png)
 
-    You can choose to hide or show a specific condition.
+You can choose to hide or show a specific condition.
 
-    -   If you hide a condition, the content having that condition is not highlighted in the review mode.
-    -   If you show a condition conditionalized content is highlighted in the review mode. For example, in the following screenshot, only the content uses two conditions - `win` and `mac` is highlighted.
+-   If you hide a condition, the content having that condition is not highlighted in the review mode.
+-   If you show a condition conditionalized content is highlighted in the review mode. For example, in the following screenshot, only the content uses two conditions - `win` and `mac` is highlighted.
 
 
-    ![](images/review-condition-normal-mode.png)
+![](images/review-condition-normal-mode.png)
 
-    In the preview mode, the non-conditionalized content and the conditionalized content that uses the two shown conditions - `win` and `mac` is displayed. The remaining conditionalized content for which the conditions are hidden is not displayed.
+In the preview mode, the non-conditionalized content and the conditionalized content that uses the two shown conditions - `win` and `mac` is displayed. The remaining conditionalized content for which the conditions are hidden is not displayed.
 
 Real-time review
 :   The Comments panel updates in real time with comments and the feedback or action taken by the author on the comments.

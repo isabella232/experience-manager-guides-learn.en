@@ -25,7 +25,7 @@ The outline view toggles from expanded to collapsed.
 
 1. Click on any element to jump to that location.
 
-2. Click the [!UICONTROL **Ellipsis**] next to an element to access shortcut options.
+1. Click the [!UICONTROL **Ellipsis**] next to an element to access shortcut options.
 
     ![Context Menu](images/lesson-6/shortcut-options.png)
  
@@ -35,7 +35,7 @@ A new ID can be automatically generated based on system configuration. Using the
 
 1. Click the [!UICONTROL **Ellipsis**] next to any element.
 
-2. Choose **Generate IDs**.
+1. Choose **Generate IDs**.
 
     ![Ellipsis Context Menu](images/lesson-6/ellipsis-popup.png)
  
@@ -47,7 +47,7 @@ Elements can be reordered within the Outline View.
 
 1. Click and drag an element to another location in the Outline View. 
  
-2. Drop the element on top of another element to replace it. This action is indicated by a square box around the element to be replaced.
+1. Drop the element on top of another element to replace it. This action is indicated by a square box around the element to be replaced.
 
     Or
 
@@ -57,13 +57,13 @@ Elements can be reordered within the Outline View.
 
 1. Select the element.
 
-2. Click the [!UICONTROL **Ellipsis**].
+1. Click the [!UICONTROL **Ellipsis**].
 
-3. Select **Rename Element**.
+1. Select **Rename Element**.
 
     ![Rename Element Context Menu](images/lesson-6/rename-before.png)
 
-4. Double-click a new element name.
+1. Double-click a new element name.
 
 The element has now been renamed.
 
@@ -71,9 +71,9 @@ The element has now been renamed.
 
 1. Select the element you want to unwrap.
 
-2. Click the [!UICONTROL **Ellipsis**].
+1. Click the [!UICONTROL **Ellipsis**].
 
-3. Select [!UICONTROL **Unwrap element**].
+1. Select [!UICONTROL **Unwrap element**].
 
 The content remains but the structure has been removed.
 
@@ -83,7 +83,7 @@ The content remains but the structure has been removed.
 
     ![Filters](images/lesson-6/filter-icon.png)
 
-2. Choose either **All** to show all elements or **Broken links** to find and fix broken references.
+1. Choose either **All** to show all elements or **Broken links** to find and fix broken references.
 
 ## Search with Outline View
 
@@ -93,4 +93,4 @@ A search can be restricted and return results based on an element, attribute, or
 
     ![Search Bar](images/lesson-6/search-bar.png)
 
-2. Choose the result that is most relevant to your needs.
+1. Choose the result that is most relevant to your needs.

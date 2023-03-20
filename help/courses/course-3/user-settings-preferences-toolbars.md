@@ -27,7 +27,7 @@ Tags are visual cues indicating an element's boundaries. An element boundary mar
 
     - Drag and drop elements by selecting the tag and dropping the element in a valid location.
 
-2. Click the [!UICONTROL **Toggle Tags View**] icon again to hide tags.
+1. Click the [!UICONTROL **Toggle Tags View**] icon again to hide tags.
 
 Tags disappear allowing you to focus on the text.
 
@@ -41,7 +41,7 @@ Locking (or checking out) a file gives the user exclusive write access on the fi
 
     The file has been checked out and a Lock icon appears beside the file name in the Repository.
 
-2. Click the [!UICONTROL **Unlock**] icon.
+1. Click the [!UICONTROL **Unlock**] icon.
 
     ![Checkin](images/lesson-2/check-in-icon.png)
 
@@ -53,13 +53,13 @@ The Repository updates to show that the file has been checked in.
 
     ![Special](images/lesson-2/special-icon.png)
 
-2. In the Insert Special Character dialog, type the name of the character in the search bar.
+1. In the Insert Special Character dialog, type the name of the character in the search bar.
 
     Alternatively, use the Select Category dropdown to display all characters in a specific category.
 
-3. Select the desired character.
+1. Select the desired character.
 
-4. Click [!UICONTROL **Insert**].
+1. Click [!UICONTROL **Insert**].
 
 The special character is inserted into the text.
 
@@ -83,13 +83,13 @@ You can choose from Light or Dark themes for the editor. Using the Light theme, 
 
     ![User Preferences](images/reuse/user-prefs-icon.png)
 
-2. In the User Preferences dialog, click the [!UICONTROL **Theme**] dropdown.
+1. In the User Preferences dialog, click the [!UICONTROL **Theme**] dropdown.
 
-3. Choose from the available options.
+1. Choose from the available options.
 
     ![Themes](images/lesson-2/themes.png)
 
-4. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 The Editor is updated to display your preferred theme.
 
@@ -101,13 +101,13 @@ You can update the Base Path so that the Repository View shows you the content f
 
     ![User Preferences](images/reuse/user-prefs-icon.png)
 
-2. In the User Preferences dialog, click the [!UICONTROL **Folder**] icon next to the Base Path.
+1. In the User Preferences dialog, click the [!UICONTROL **Folder**] icon next to the Base Path.
 
     ![Base Folder Path](images/lesson-2/base-path-folder-icon.png)
 
-3. In the Select Path dialog, click the checkbox next to a specific folder.
+1. In the Select Path dialog, click the checkbox next to a specific folder.
 
-4. Click [!UICONTROL **Select**].
+1. Click [!UICONTROL **Select**].
 
 The next time you launch the Editor, the Repository will display the files that have been specified in the Base Path.
 
@@ -119,13 +119,13 @@ The Global Profile is a system default. Administrators can create additional Fol
 
     ![User Preferences](images/reuse/user-prefs-icon.png)
 
-2. In the User Preferences dialog, click the [!UICONTROL **Folder Profiles**] dropdown.
+1. In the User Preferences dialog, click the [!UICONTROL **Folder Profiles**] dropdown.
 
     ![Profile List](images/lesson-2/folder-profiles-dropdown.png)
 
-3. Choose a profile from the available options.
+1. Choose a profile from the available options.
 
-4. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 The new Folder Profile is now assigned. It has changed the toolbar options, view modes, and Conditions and Snippets in the left panel. It may also change the visual appearance of content in the Editor.
 
@@ -137,11 +137,11 @@ Editor settings are available to administrative users. These preferences allow y
 
     ![Editor Settings](images/lesson-2/editor-settings-icon.png)
 
-2. In the Editor Settings dialog, click the [!UICONTROL **General**] tab.
+1. In the Editor Settings dialog, click the [!UICONTROL **General**] tab.
 
-3. Select the dictionary you want to work with.
+1. Select the dictionary you want to work with.
 
-4. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 The dictionary updates. Note that switching to AEM Spell Check allows you to use a custom word list.
 
@@ -153,13 +153,13 @@ One of the features you can customize with Editor Settings is Panels. More speci
 
     ![Editor Settings](images/lesson-2/editor-settings-icon.png)
 
-2. In the Editor Settings dialog, click the [!UICONTROL **Panels**] tab.
+1. In the Editor Settings dialog, click the [!UICONTROL **Panels**] tab.
 
-3. Toggle the available Panels to Show or Hide as required.
+1. Toggle the available Panels to Show or Hide as required.
 
     ![Toggle Panel](images/lesson-2/toggle-panels.png)
 
-4. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 The left panel is now configured to show only the panels toggled to Show.
 
@@ -171,15 +171,15 @@ The Elements List allows you to name a specific element and assign it a more hum
 
     ![Editor Settings](images/lesson-2/editor-settings-icon.png)
 
-2. In the Editor Settings dialog, click the [!UICONTROL **Elements List**] tab.
+1. In the Editor Settings dialog, click the [!UICONTROL **Elements List**] tab.
 
-3. Type an **Element name** and a **Label** in the respective fields.
+1. Type an **Element name** and a **Label** in the respective fields.
 
-4. Click the [!UICONTROL **Plus**] icon to add more elements to the list.
+1. Click the [!UICONTROL **Plus**] icon to add more elements to the list.
 
     ![Elements List](images/lesson-2/elements-list.png)
 
-5. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 You can immediately see the change to the Elements List in the existing tags in the Editor. You can also see them in the options provided when you add a new element.
 
@@ -191,11 +191,11 @@ The Attributes List works similarly to the Elements List. From Editor Settings, 
 
     ![Editor Settings](images/lesson-2/editor-settings-icon.png)
 
-2. In the Editor Settings dialog, click the [!UICONTROL **Attributes List**] tab.
+1. In the Editor Settings dialog, click the [!UICONTROL **Attributes List**] tab.
 
-3. Type an **Attribute name** and a **Label** in the respective fields.
+1. Type an **Attribute name** and a **Label** in the respective fields.
 
-4. Click the [!UICONTROL **Plus**] icon to add more attributes to the list.
+1. Click the [!UICONTROL **Plus**] icon to add more attributes to the list.
 
 ## Configure conditions in Editor Settings
 
@@ -205,13 +205,13 @@ The Condition tab allows you to configure several properties.
 
     ![Editor Settings](images/lesson-2/editor-settings-icon.png)
 
-2. In the Editor Settings dialog, click the [!UICONTROL **Condition**] tab.
+1. In the Editor Settings dialog, click the [!UICONTROL **Condition**] tab.
 
-3. Select the checkboxes of the conditions you want to apply.
+1. Select the checkboxes of the conditions you want to apply.
 
     ![Condition Tab](images/lesson-2/condition.png)
 
-4. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 ## Create a publish profile in Editor Settings
 
@@ -221,12 +221,12 @@ Publish profiles can be used to publish the knowledge base. For example, Salesfo
 
     ![Editor Settings](images/lesson-2/editor-settings-icon.png)
 
-2. In the Editor Settings dialog, click the [!UICONTROL **Profiles**] tab.
+1. In the Editor Settings dialog, click the [!UICONTROL **Profiles**] tab.
 
-3. Click the [!UICONTROL **Plus**] icon next to Profiles.
+1. Click the [!UICONTROL **Plus**] icon next to Profiles.
 
-4. Populate the fields as required.
+1. Populate the fields as required.
 
-5. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 A publish profile has been created.

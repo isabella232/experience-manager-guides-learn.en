@@ -47,7 +47,7 @@ The log file that is generated can be opened for review.
 
     ![error-log](images/error-log.png)
  
-2. Scroll through the error log.
+1. Scroll through the error log.
 
 ## Showing and hiding error types
 
@@ -57,7 +57,7 @@ The error log displays each error type in a unique color.
  
 1. **Select** or **deselect** any error type to show or hide highlighting.
 
-2. Navigate errors using the **next** or **previous** buttons (arrows).
+1. Navigate errors using the **next** or **previous** buttons (arrows).
 
 ## Resolving errors
 

@@ -18,7 +18,7 @@ You can access your baselines in the Map Dashboard.
     ![ellipsis-map-dashboard.png](images/ellipsis-map-dashboard.png)
     The Map Dashboard opens in another tab.
 
-2. Select **Baselines**.
+1. Select **Baselines**.
 
     ![baseline-tab.png](images/baseline-tab.png) 
 
@@ -32,18 +32,18 @@ The Baselines tab displays.
 
     The new baseline's information displays. Its default name is based on its creation date.
 
-2. Give your baseline a new name, if needed.
+1. Give your baseline a new name, if needed.
 
-3. Under the "Set the version based on" heading, select the circle for Label. 
+1. Under the "Set the version based on" heading, select the circle for Label. 
     ![set-the-version.png](images/set-the-version.png) 
 
     >[!NOTE]
     >
     >NOTE: The *Use latest version if label is not present* checkbox is selected by default. If this is not selected, and topics or media files without the chosen label exist in your map, the Baseline creation process will fail.
 
-4. Enter the label you would like to use.
+1. Enter the label you would like to use.
 
-5. Select **Save**.
+1. Select **Save**.
 
 Your baseline is created. A table of all of the topics and their associated information displays.
 
@@ -61,17 +61,17 @@ You can also create baselines that are a snapshot in time.
 
     ![create-baseline.png](images/create-baseline.png)
  
-2. Under the "Set the version based on" heading, select the circle for "Version On."
+1. Under the "Set the version based on" heading, select the circle for "Version On."
     
     ![version-on.png](images/version-on.png)
 
-3. Select the calendar icon and specify your desired date and time.
+1. Select the calendar icon and specify your desired date and time.
 
     ![calendar.png](images/calendar.png)
 
-4. Give your baseline a new name if needed.
+1. Give your baseline a new name if needed.
 
-5. Select **Save**.
+1. Select **Save**.
 
 Your baseline is created. A table of all of the topics and their associated information displays.
 
@@ -81,13 +81,13 @@ You may want to assign a new label in bulk to all your map content.
 
 1. Select the baseline for which you would like to add labels.
 
-2. Select **Add Labels**.
+1. Select **Add Labels**.
 
     ![add-labels.png](images/add-labels.png) 
 
     The Add Label dialog displays.
 
-3. Enter the label you want to assign, and select **Add**.
+1. Enter the label you want to assign, and select **Add**.
 
 The label has been added to all topics.
 
@@ -95,25 +95,25 @@ The label has been added to all topics.
 
 1. Navigate to the Output Presets tab in the Map Dashboard.
 
-2. Select the AEM Site checkbox.
+1. Select the AEM Site checkbox.
 
     ![aem-site-checkbox.png](images/aem-site-checkbox.png) 
 
-3. Select **Edit**.
+1. Select **Edit**.
 
     ![edit-aem.png](images/edit-aem.png)
     
     A new page displays.
 
-4. Select the Use Baseline checkbox, and choose the baseline you would like to use from the dropdown.
+1. Select the Use Baseline checkbox, and choose the baseline you would like to use from the dropdown.
 
     ![baseline.png](images/baseline.png)
 
-5. Select **Done**.
+1. Select **Done**.
 
     ![done.png](images/done.png)
 
-6. Select **Generate**.
+1. Select **Generate**.
 
     ![generate.png](images/generate.png)
 
@@ -123,20 +123,20 @@ The label has been added to all topics.
 
 1. Navigate to the Outputs tab in the Map Dashboard.
 
-2. Select the text in the Generation Setting column to open the output.
+1. Select the text in the Generation Setting column to open the output.
     ![aem-site-link.png](images/aem-site-link.png)
 
 ## Removing a baseline
 
 1. In the Baselines tab, select the baseline you would like to remove.
 
-2. Select **Remove**.
+1. Select **Remove**.
 
     ![remove-baseline.png](images/remove-baseline.png)
 
     The Remove Baseline dialog displays.
 
-3. Select **Remove**.
+1. Select **Remove**.
 
 The baseline is removed.
 
@@ -144,11 +144,11 @@ The baseline is removed.
 
 1. In the Baselines tab, select the baseline you would like to duplicate.
 
-2. Select **Duplicate**.
+1. Select **Duplicate**.
 
     ![duplicate.png](images/duplicate.png)
 
-3. Select **Save**.
+1. Select **Save**.
 
     ![save.png](images/save.png)
  
@@ -159,21 +159,21 @@ The duplicate baseline is created.
 You can directly specify the version of a topic used in a baseline.
 
 1. In the Baselines tab, select the baseline you would like to modify.
-2. Select **Edit**.
+1. Select **Edit**.
 
     ![edit-aem.png](images/edit-aem.png)
 
-3. Select **Browse All Topics**.
+1. Select **Browse All Topics**.
 
     ![browse-all-topics.png](images/browse-all-topics.png)
 
     A table of topics and their associated information displays.
 
-4. For the topics you would like to modify, select the desired version from the dropdown under the Version column.
+1. For the topics you would like to modify, select the desired version from the dropdown under the Version column.
 
     ![version-dropdown.png](images/version-dropdown.png)
     
-5. Select **Save**.
+1. Select **Save**.
  
 Your changes have been saved. Your baseline will now use the versions of the topic that you specified.
 
@@ -185,17 +185,17 @@ In this case, we are creating an output preset based on a baseline.
 
 1. Navigate to the Output Presets tab in the Map Dashboard.
 
-2. Select **Create**.
+1. Select **Create**.
 
     ![create-output-preset.png](images/create-output-preset.png)
     
     A new output preset page displays, called New Output.
-3. In the Setting Name field, enter a user-friendly name.
+1. In the Setting Name field, enter a user-friendly name.
 
-4. Select the Use Baseline checkbox, and select the desired baseline from the dropdown menu.
+1. Select the Use Baseline checkbox, and select the desired baseline from the dropdown menu.
     
     ![baseline.png](images/baseline.png) 
 
-5. Select **Done**.
+1. Select **Done**.
  
 Your new output preset has been created, and displays on the output presets page.

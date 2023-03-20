@@ -13,9 +13,9 @@ Correct a spelling error
 
 1. Locate an error in an open topic, shown with a red underline.
 
-2. Press and hold Ctrl + click the secondary mouse button within the word.
+1. Press and hold Ctrl + click the secondary mouse button within the word.
 
-3. Choose the correct spelling from the suggestions.
+1. Choose the correct spelling from the suggestions.
 
 If the correct spelling is not suggested, you can always manually edit the word. 
 
@@ -25,19 +25,19 @@ You may want to use a spell check tool other than the browser's default dictiona
 
 1. Navigate to **Editor Settings**.
 
-2. Select the **General** settings tab. 
+1. Select the **General** settings tab. 
 
     ![Spell Check Config](images/lesson-11/configure-dictionary.png)
 
-3. There are two options:
+1. There are two options:
 
     - **Browser Spell Check** — the default setting where spell check uses the browser's built-in dictionary.
 
     - **AEM Spell Check** — use this to build a custom word list using AEM's custom dictionary. 
 
-4. Choose **AEM Spell Check**.
+1. Choose **AEM Spell Check**.
 
-5. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 Configure a custom dictionary
 
@@ -45,15 +45,15 @@ The Administrator can change the settings so that the AEM dictionary recognizes 
 
 1. Navigate to the **Tools** pane.
 
-2. Log in to **CRXDE Lite**.
+1. Log in to **CRXDE Lite**.
 
     ![AEM UI CRXDE Lite Icon](images/lesson-11/crxde-lite.png)
 
-3. Navigate to the **_/apps/fmdita/config node_**.
+1. Navigate to the **_/apps/fmdita/config node_**.
 
     ![CRXDE Lite Config Node](images/lesson-11/config-node.png)
 
-4. Create a new file.
+1. Create a new file.
 
     a. Right-click on the config folder.
 
@@ -67,13 +67,13 @@ The Administrator can change the settings so that the AEM dictionary recognizes 
 
     d. Click [!UICONTROL **OK**].
 
-5. Open the file.
+1. Open the file.
 
-6. Add a list of words you want to include in your custom dictionary.
+1. Add a list of words you want to include in your custom dictionary.
 
-7. Click [!UICONTROL **Save All**].
+1. Click [!UICONTROL **Save All**].
 
-8. Close the file.
+1. Close the file.
 
 Authors may need to restart their Web Editor session to get the updated custom word list in the AEM Dictionary. 
 
@@ -83,23 +83,23 @@ Authors may need to restart their Web Editor session to get the updated custom w
 
     ![Find Replace Icon](images/lesson-11/find-replace-icon.png)
 
-2. In the bottom toolbar, type a word or phrase.
+1. In the bottom toolbar, type a word or phrase.
 
-3. Click [!UICONTROL **Find**].
+1. Click [!UICONTROL **Find**].
 
-4. If required, type a word to replace the found word.
+1. If required, type a word to replace the found word.
 
-5. Click [!UICONTROL **Replace**].
+1. Click [!UICONTROL **Replace**].
 
 ## Find and Replace across the Repository
 
 1. Navigate to the **Repository**.
 
-2. Click the [!UICONTROL **Find and Replace**] icon at the bottom left of the screen.
+1. Click the [!UICONTROL **Find and Replace**] icon at the bottom left of the screen.
 
-3. Click the [!UICONTROL **Show Settings**] icon.
+1. Click the [!UICONTROL **Show Settings**] icon.
 
-4. Choose either
+1. Choose either
 
     - **Checkout file before replace** — if enabled by an Administrator, the file will be checked out automatically before replacing search terms.
 
@@ -107,14 +107,14 @@ Authors may need to restart their Web Editor session to get the updated custom w
 
     ![Find Replace in Repository](images/lesson-11/repository-find-replace.png)
 
-5. Click the [!UICONTROL **Apply Filter**] icon to select the path in the Repository where you want to perform the search.
+1. Click the [!UICONTROL **Apply Filter**] icon to select the path in the Repository where you want to perform the search.
 
-6. Enter the terms to Find and Replace.
+1. Enter the terms to Find and Replace.
 
-7. If required, select **Create new version after replace**.
+1. If required, select **Create new version after replace**.
 
-8. Click [!UICONTROL **Find**].
+1. Click [!UICONTROL **Find**].
 
-9. Open the desired file and use the arrows to navigate from one found result to the next.
+1. Open the desired file and use the arrows to navigate from one found result to the next.
 
     ![Find Replace Navigation UI](images/lesson-11/find-replace-navigation.png)

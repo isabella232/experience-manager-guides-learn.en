@@ -12,18 +12,18 @@ Web links direct readers to websites for more information, allow them to interac
 ## Inserting a link
 
 1. Select your concept from the Repository and open it in the editor.
-2. Add a string of text to your concept and highlight it, or highlight existing text of choice.
+1. Add a string of text to your concept and highlight it, or highlight existing text of choice.
  
    This highlighted text is where your link will be inserted.
-3. Select the **Insert Cross Reference** button from the toolbar.
+1. Select the **Insert Cross Reference** button from the toolbar.
 
    ![Insert Cross Reference icon](images/lesson-5/insert-crossref-icon.png)
 
    The Reference dialog displays.
 
 
-4. Select **Web Link** from the left menu.
-5. Paste the desired URL, then click **Select**.
+1. Select **Web Link** from the left menu.
+1. Paste the desired URL, then click **Select**.
 
    The link is functional and will open a webpage in a new browser tab when clicked.
 

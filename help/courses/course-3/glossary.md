@@ -15,7 +15,7 @@ Sample files that you may opt to use for this lesson are provided in the file [g
 
 1. Navigate to the **Glossary** panel.
 
-2. Drag and drop the entry from the **Glossary** panel to the desired location in your topic.
+1. Drag and drop the entry from the **Glossary** panel to the desired location in your topic.
 
 If the map contains Glossary entries and is properly configured, topics can be automatically updated to contain abbreviated form.
 
@@ -25,15 +25,15 @@ The correct Root Map must be selected to properly work with a glossary. When a R
 
 1. With a topic open, select **Glossary** from the left panel.
 
-2. Click the [!UICONTROL **User Preferences**] icon on the top toolbar.
+1. Click the [!UICONTROL **User Preferences**] icon on the top toolbar.
 
     ![User Preferences Icon](images/reuse/user-prefs-icon.png)
 
-3. Click the key icon to specify the correct Root Map for working with the glossary.
+1. Click the key icon to specify the correct Root Map for working with the glossary.
 
-4. Click [!UICONTROL **Select**].
+1. Click [!UICONTROL **Select**].
 
-5. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
 The Glossary panel automatically updates.
 
@@ -41,13 +41,13 @@ The Glossary panel automatically updates.
 
 1. Navigate to the **Repository View**.
 
-2. Select the map that has been preconfigured to work with the glossary. 
+1. Select the map that has been preconfigured to work with the glossary. 
 
     ![Pre-config Map Icon](images/lesson-10/preconfig-map.png)
 
-3. Choose the [!UICONTROL **Map View**].
+1. Choose the [!UICONTROL **Map View**].
 
-4. Verify that the Map View displays the required topics.
+1. Verify that the Map View displays the required topics.
 
 ## Preview a Glossentry
 
@@ -55,7 +55,7 @@ Because it is possible to make bulk changes, it can be important to preview a gl
 
 1. Choose **Glossary** from the left panel.
 
-2. Click the contextual menu next to a glossentry and select [!UICONTROL **Preview**].
+1. Click the contextual menu next to a glossentry and select [!UICONTROL **Preview**].
 
 The abbreviated form and the glossary definition both display.
 
@@ -67,14 +67,14 @@ Use the Hotspot tool to create an entire collection of glossary entries from a s
 
     ![Hotspot Icon](images/lesson-10/hotspot-icon.png)
 
-2. Click the [!UICONTROL **Glossary Keys**] dropdown and select only the Keys you wish to apply.
+1. Click the [!UICONTROL **Glossary Keys**] dropdown and select only the Keys you wish to apply.
 
-3. Click the [!UICONTROL **Topics**] dropdown to select the content that should be impacted.
+1. Click the [!UICONTROL **Topics**] dropdown to select the content that should be impacted.
 
-4. Click the [!UICONTROL **Filter Topics by Status**] dropdown to review configured options.
+1. Click the [!UICONTROL **Filter Topics by Status**] dropdown to review configured options.
 
-5. Configure the remaining settings as required.
+1. Configure the remaining settings as required.
 
-6. When finished, click [!UICONTROL **Convert**].
+1. When finished, click [!UICONTROL **Convert**].
 
 The Glossary panel now displays all updated topics and also topics with errors.

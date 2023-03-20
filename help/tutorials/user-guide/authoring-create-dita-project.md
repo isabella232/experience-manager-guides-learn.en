@@ -45,13 +45,13 @@ Perform the following steps to create a DITA project:
 
     1.  Enter or choose a user from the **User** drop-down list.
 
-    2.  Choose a user type - Authors, Reviewers, or Publishers.
+    1.  Choose a user type - Authors, Reviewers, or Publishers.
 
         >[!NOTE]
         >
         >You will see other user types in this drop-down list, but for a DITA project you should only choose from Authors, Reviewers, or Publishers user type. Even if you add a user of a different type, that user will not be able to access any DITA-specific features available in AEM Guides.
 
-    3.  Click **Add**.
+    1.  Click **Add**.
 
         >[!NOTE]
         >

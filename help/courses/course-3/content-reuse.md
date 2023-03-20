@@ -15,17 +15,17 @@ When a change is made to a reusable source topic, the information will update ev
 
 1. Navigate to the **Repository**.
 
-2. Click the **contextual menu** next to the reuse folder.
+1. Click the **contextual menu** next to the reuse folder.
 
-3. Choose **Create > Dita Topic**.
+1. Choose **Create > Dita Topic**.
 
-4. Populate the fields in the Create New Topic dialog. For example:
+1. Populate the fields in the Create New Topic dialog. For example:
 
     ![Confirmation](images/lesson-8/new-topic-dialog.png)
 
-5. Click [!UICONTROL **Create**].
+1. Click [!UICONTROL **Create**].
 
-6. Add content to the topic as required.
+1. Add content to the topic as required.
 
 ## Add a new reusable element to a topic
 
@@ -35,24 +35,24 @@ There are several methods for adding reusable elements. Here, the first workflow
 
 1. Click in the topic at a valid location.
 
-2. Select the **Insert Reusable Content** icon on the top toolbar.
+1. Select the **Insert Reusable Content** icon on the top toolbar.
 
     ![Confirmation](images/lesson-8/insert-reuse-icon.png)
 
-3. In the Reuse Content dialog, click the [!UICONTROL **Folder**] icon.
+1. In the Reuse Content dialog, click the [!UICONTROL **Folder**] icon.
 
-4. Navigate to the required folder.
+1. Navigate to the required folder.
 
-5. Choose a topic with reusable components.
+1. Choose a topic with reusable components.
 For example:
 
     ![Confirmation](images/lesson-8/reusable-topic.png)
 
-6. Click [!UICONTROL **Select**].
+1. Click [!UICONTROL **Select**].
 
-7. Choose a specific component to reuse.
+1. Choose a specific component to reuse.
 
-8. Click [!UICONTROL **Select**].
+1. Click [!UICONTROL **Select**].
 
 The reusable element has now been inserted into the topic.
 
@@ -60,19 +60,19 @@ The reusable element has now been inserted into the topic.
 
 1. Navigate to **Reusable Contents** on the left panel.
 
-2. Click the [!UICONTROL **Add**] icon on the Reusable Contents panel.
+1. Click the [!UICONTROL **Add**] icon on the Reusable Contents panel.
 
     ![Confirmation](images/lesson-8/reuse-contents-icon.png)
 
-3. Navigate to a folder.
+1. Navigate to a folder.
 
-4. Select a specific topic or topics.
+1. Select a specific topic or topics.
 
-5. Click [!UICONTROL **Add**].
+1. Click [!UICONTROL **Add**].
 
-6. From the Reusable Contents panel, expand **Element Overview**.
+1. From the Reusable Contents panel, expand **Element Overview**.
 
-7. Drag and drop an element into the topic at a valid location.
+1. Drag and drop an element into the topic at a valid location.
 
 The reusable element has now been inserted into the topic.
 
@@ -82,12 +82,12 @@ The dlentry you just created is a reusable element. Therefore, it requires an ID
 
 1. Click inside the dlentry. 
 
-2. In the Content Properties panel, click the dropdown under Attribute.
+1. In the Content Properties panel, click the dropdown under Attribute.
 
-3. Select **ID**.
+1. Select **ID**.
 
-4. Type a logical name for the Value.
+1. Type a logical name for the Value.
 
-5. Save or version the topic so the change reflects in the Repository.
+1. Save or version the topic so the change reflects in the Repository.
 
 The ID and value have been assigned to the element.

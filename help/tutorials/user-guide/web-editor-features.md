@@ -457,25 +457,25 @@ Merge – ![](images/merge-icon.svg)
 
     1.  Open a topic in the Web Editor.
 
-    2.  Click **Merge**.
+    1.  Click **Merge**.
 
         The Merge dialog appears.
 
         ![](images/merge-changes-in-topic.png)
 
-    3.  *\(Optional\)* You can also browse and select a new file from some other location in your repository.
+    1.  *\(Optional\)* You can also browse and select a new file from some other location in your repository.
 
-    4.  Select a version of the file with which you want to compare the current version of the file.
+    1.  Select a version of the file with which you want to compare the current version of the file.
 
-    5.  From the Options, choose:
+    1.  From the Options, choose:
 
         -   **Track Changes From Selected Version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
 
         -   **Revert to Selected Version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
 
-    6.  Click **Done**.
+    1.  Click **Done**.
 
-    7.  If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changes feature of the right panel.
+    1.  If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changes feature of the right panel.
 
         You can choose to accept or reject all comments from the Tracked Changes panel or accept or reject individual comment.
 
@@ -486,23 +486,23 @@ Merge – ![](images/merge-icon.svg)
 
     1.  Open a map in the Web Editor.
 
-    2.  Click **Merge**.
+    1.  Click **Merge**.
 
         The Merge dialog appears.
 
         ![](images/merge-changes-in-map.png)
 
-    3.  *\(Optional\)* You can also browse and select a new file from some other location in your repository.
+    1.  *\(Optional\)* You can also browse and select a new file from some other location in your repository.
 
-    4.  Select a version of the file with which you want to compare the current version of the file.
+    1.  Select a version of the file with which you want to compare the current version of the file.
 
-    5.  From the Options, choose:
+    1.  From the Options, choose:
 
         -   **Track Changes From Selected Version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
 
         -   **Revert to Selected Version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
 
-    6.  Click **Done**.
+    1.  Click **Done**.
 
         1.  If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changespanel \(on the right\).
 
@@ -518,13 +518,13 @@ Version History – ![](images/version-history-web-editor-ico.svg)
 
     1.  Open a topic in the Web Editor.
 
-    2.  Click **Version History**.
+    1.  Click **Version History**.
 
         The Version History dialog appears.
 
         ![](images/version-history-dialog-web-editor.png)
 
-    3.  Choose a version of the topic that you want to revert to in the **Select Version** drop-down list.
+    1.  Choose a version of the topic that you want to revert to in the **Select Version** drop-down list.
 
         >[!NOTE]
         >
@@ -534,15 +534,15 @@ Version History – ![](images/version-history-web-editor-ico.svg)
 
         ![](images/version-history-revert-diff-dialog-web-editor.png)
 
-    4.  Click **Revert to Selected Version** to revert your working copy with the selected version of the topic.
+    1.  Click **Revert to Selected Version** to revert your working copy with the selected version of the topic.
 
         The Revert Version dialog appears.
 
         ![](images/version-history-revert-dialog-save-working-copy.png)
 
-    5.  \(*Optional*\) Provide a reason of reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
+    1.  \(*Optional*\) Provide a reason of reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
 
-    6.  Click **Confirm.**
+    1.  Click **Confirm.**
 
         Your working copy of the file is reverted to the selected version. If you chose to create a new version of the currently active working copy, then a new version of the file is also created with all working changes.
 
@@ -564,7 +564,7 @@ Version Label Management — ![](images/version-label-icon.svg)
 
     1.  Open a topic in the Web Editor.
 
-    2.  Click **Version Label**.
+    1.  Click **Version Label**.
 
         The Version Label Management dialog appears.
 
@@ -572,7 +572,7 @@ Version Label Management — ![](images/version-label-icon.svg)
 
         The Version Label Management dialog is split into two parts — the left panel has a list of versions available for the topic along with label drop-down list \(or a text box to enter a label\) and the right panel with a preview of the topic.
 
-    3.  Select a version on which you want to apply labels.
+    1.  Select a version on which you want to apply labels.
 
         When you choose a different version of the topic from the version list, then the preview panel displays the changes in-between the current version and the selected version of the topic
 
@@ -580,7 +580,7 @@ Version Label Management — ![](images/version-label-icon.svg)
         >
         > If a label is already applied on a version, it is displayed next to the version number in the drop-down list and below the Select Version list. You can remove an existing label by clicking the \(**x**\) icon next to the label.
 
-    4.  In case your administrator has defined a list of labels, then you are shown a drop-down list of the labels from where you can choose the labels that you want to apply. You can select multiple labels from the drop-down list.
+    1.  In case your administrator has defined a list of labels, then you are shown a drop-down list of the labels from where you can choose the labels that you want to apply. You can select multiple labels from the drop-down list.
 
         Else, you are shown a text box, wherein you can enter the labels that you want to add to your topic.
 
@@ -588,9 +588,9 @@ Version Label Management — ![](images/version-label-icon.svg)
         >
         > You cannot apply the same label on multiple versions of a topic. If you try to associate an existing label, then you are given an option to remove it from the existing version and apply it on the selected version of the topic.
 
-    5.  Click **Add Label**.
+    1.  Click **Add Label**.
 
-    6.  In the Apply Label confirmation message, select the **Move Label** option to move labels from an existing version to the selected version. If you do not select this option and there are labels that are assigned to a different version of the topic, then they are not moved to the selected topic's version. Such labels are ignored in the label application process.
+    1.  In the Apply Label confirmation message, select the **Move Label** option to move labels from an existing version to the selected version. If you do not select this option and there are labels that are assigned to a different version of the topic, then they are not moved to the selected topic's version. Such labels are ignored in the label application process.
 
 
 Create Review Task — ![](images/create-review-task-icon.svg)
@@ -998,8 +998,8 @@ Glossary — ![](images/glossary.svg)
     Perform the following steps to search text terms and replace them with glossary abbreviations:
 
     1.  Open the DITA topic or map in which you wish to search and convert the text or terms.
-    2.  Select the glossary panel to view the glossary terms present in the root map. You can drag-and-drop these terms to add them to the open topic.
-    3.  Select the **Hotspot** tool \( ![](images/hotspot-icon.svg)\) in the Glossary panel to search and convert specific text terms to linked glossary abbreviations. Also, vice versa you can use it to search glossary abbreviations and convert them to text terms.
+    1.  Select the glossary panel to view the glossary terms present in the root map. You can drag-and-drop these terms to add them to the open topic.
+    1.  Select the **Hotspot** tool \( ![](images/hotspot-icon.svg)\) in the Glossary panel to search and convert specific text terms to linked glossary abbreviations. Also, vice versa you can use it to search glossary abbreviations and convert them to text terms.
 
     ![](images/glossary-hotspot-tool.png)
 
@@ -1101,7 +1101,7 @@ Subject scheme — ![](images/subject_scheme_panel-icon.svg)
 
         ![](images/subject-scheme-panel.png)
 
-    2.  Save the file with a.ditamap extension and upload it to any folder in DAM.
+    1.  Save the file with a.ditamap extension and upload it to any folder in DAM.
 
         >[!NOTE]
         >
@@ -1109,12 +1109,12 @@ Subject scheme — ![](images/subject_scheme_panel-icon.svg)
 
         ![](images/subject-scheme-root-map.png)
 
-    3.  Set the parent map as the root map in the **User Preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel.
+    1.  Set the parent map as the root map in the **User Preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel.
 
         ![](images/subject-scheme-user-preferences.png)
 
-    4.  In the Web Editor, open the file where you want to use the subject scheme definitions.
-    5.  Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
+    1.  In the Web Editor, open the file where you want to use the subject scheme definitions.
+    1.  Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
 
         ![](images/subject-scheme-apply.png)
 
@@ -1206,89 +1206,91 @@ Find and Replace — ![](images/FindAndReplace_icon.svg)
 
 :   ![](images/map-find-replace.png)
 
-    To perform the global search and replace, perform the following steps:
+To perform the global search and replace, perform the following steps:
 
-    1.  Open the global **Find and Replace** panel.
+1.  Open the global **Find and Replace** panel.
 
-    2.  Click the **Look into** dropdown select one of the following options to perform the search.
-        -   **Current Map**: To search in the currently opened map
-
-            >[!NOTE]
-            >
-            > This option appears if you have already opened a map for editing.
-
-        -   **Path**: To search on the selected path
-        -   **Select Map**: To search in the selected map
-    3.  You can click the **Options** dropdown and choose from the following options:
-
-        -   **Checkout File Before Replace**: Select this option if you want to checkout a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to checkout a file before editing. With the backend setting enabled, you should select this option. It will prevent the file checkout dialog from prompting you to checkout every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
-        -   **Whole Word Only**: Select this option if you want to search for the whole search string. For example, if you enter over in the search string, then the search result will return all files containing words like over and overview. If you want to restrict your search to return the exact term that is entered, then select this option.
-        -   **Create New Version After Replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file.
-
-            If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
-
-        -   **Include indirect reference**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
-
-    4.  Enter the search term or text that you want to find.
-
-    5.  Enter the text with which you want to replace the search term.
-
-    6.  Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
-    7.  Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
-
-
-    1.  Open the global **Find and Replace** panel.
-
-    2.  Click the **Look into** dropdown select one of the following options to perform the search.
-        -   **Current Map**: To search in the currently opened map
-
-            >[!NOTE]
-            >
-            > This option appears if you have already opened a map for editing.
-
-        -   **Path**: To search on the selected path
-        -   **Select Map**: To search in the selected map
-    3.  You can click the **Options** dropdown and choose from the following options:
-
-        -   **Checkout File Before Replace**: Select this option if you want to checkout a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to checkout a file before editing. With the backend setting enabled, you should select this option. It will prevent the file checkout dialog from prompting you to checkout every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
-
-        -   **Whole Word Only**: Select this option if you want to search for the whole search string. For example, if you enter over in the search string, then the search result will return all files containing words like over and overview. If you want to restrict your search to return the exact term that is entered, then select this option.
-
-        -   **Create New Version After Replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file.
-
-            If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
-
-        -   **Include indirect reference**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
-
-    4.  Enter the search term or text that you want to find.
-
-    5.  Enter the text with which you want to replace the search term.
-
-    6.  Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
-    7.  Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
-
-    8.  Click **Replace Single Occurrence** \( ![](images/replace-icon.svg)\) to replace the currently highlighted search term in the topic or click Next Match ![](images/next-match-in-search.png) or ![](images/previous-match-in-search.png) Previous Match to move to the next or previous occurrence of the text.
-
-    9.  Click **Replace All in File** \( ![](images/replace-all-in-file-icon.svg)\)to replace all occurrences of the searched term in a single file with the replace term in a single click. You be shown a notification after replacing all the occurrences in the selected file.
+1.  Click the **Look into** dropdown select one of the following options to perform the search.
+    -   **Current Map**: To search in the currently opened map
 
         >[!NOTE]
         >
-        > Hover over a file from the search result list to see Replace all in File icon on the right of it. You also get the Ignore File icon to remove the file from the search result. The files which you ignore are removed from the list and the searched term is not replaced in them.
+        > This option appears if you have already opened a map for editing.
 
-    10. Click **Replace All** \( ![](images/replace-all-in-file-icon.svg)\) on the right at the top of the list to replace all occurrences of the searched term in all the files with the replace term in a single click.
+    -   **Path**: To search on the selected path
+    -   **Select Map**: To search in the selected map
+1.  You can click the **Options** dropdown and choose from the following options:
+
+    -   **Checkout File Before Replace**: Select this option if you want to checkout a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to checkout a file before editing. With the backend setting enabled, you should select this option. It will prevent the file checkout dialog from prompting you to checkout every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+    -   **Whole Word Only**: Select this option if you want to search for the whole search string. For example, if you enter over in the search string, then the search result will return all files containing words like over and overview. If you want to restrict your search to return the exact term that is entered, then select this option.
+    -   **Create New Version After Replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file.
+
+        If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
+
+    -   **Include indirect reference**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
+
+1.  Enter the search term or text that you want to find.
+
+1.  Enter the text with which you want to replace the search term.
+
+1.  Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
+1.  Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
+
+
+1.  Open the global **Find and Replace** panel.
+
+1.  Click the **Look into** dropdown select one of the following options to perform the search.
+
+    -   **Current Map**: To search in the currently opened map
 
         >[!NOTE]
         >
-        > To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Editor Settings**.
+        > This option appears if you have already opened a map for editing.
+
+    -   **Path**: To search on the selected path
+    -   **Select Map**: To search in the selected map
+
+1.  You can click the **Options** dropdown and choose from the following options:
+
+    -   **Checkout File Before Replace**: Select this option if you want to checkout a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to checkout a file before editing. With the backend setting enabled, you should select this option. It will prevent the file checkout dialog from prompting you to checkout every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+
+    -   **Whole Word Only**: Select this option if you want to search for the whole search string. For example, if you enter over in the search string, then the search result will return all files containing words like over and overview. If you want to restrict your search to return the exact term that is entered, then select this option.
+
+    -   **Create New Version After Replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file.
+
+        If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
+
+    -   **Include indirect reference**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
+
+1.  Enter the search term or text that you want to find.
+
+1.  Enter the text with which you want to replace the search term.
+
+1.  Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
+1.  Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
+
+1.  Click **Replace Single Occurrence** \( ![](images/replace-icon.svg)\) to replace the currently highlighted search term in the topic or click Next Match ![](images/next-match-in-search.png) or ![](images/previous-match-in-search.png) Previous Match to move to the next or previous occurrence of the text.
+
+1.  Click **Replace All in File** \( ![](images/replace-all-in-file-icon.svg)\)to replace all occurrences of the searched term in a single file with the replace term in a single click. You be shown a notification after replacing all the occurrences in the selected file.
+
+    >[!NOTE]
+    >
+    > Hover over a file from the search result list to see Replace all in File icon on the right of it. You also get the Ignore File icon to remove the file from the search result. The files which you ignore are removed from the list and the searched term is not replaced in them.
+
+1. Click **Replace All** \( ![](images/replace-all-in-file-icon.svg)\) on the right at the top of the list to replace all occurrences of the searched term in all the files with the replace term in a single click.
+
+    >[!NOTE]
+    >
+    > To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Editor Settings**.
 
 
-    Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will see "Replace all in progress" status. You can also abort the replace all operation in between or see the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
+Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will see "Replace all in progress" status. You can also abort the replace all operation in between or see the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
-    ![](images/replace-all-in-progress.png)
+![](images/replace-all-in-progress.png)
 
-    You can also use the**Find in Map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
+You can also use the**Find in Map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
 
-    ![](images/map-options-menu.png)
+![](images/map-options-menu.png)
 
 ## Content editing area {#id2051EB000UI}
 

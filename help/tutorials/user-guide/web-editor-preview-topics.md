@@ -121,13 +121,13 @@ Web-based version difference
 
     1.  Open the topic in Preview mode.
 
-    2.  In the left rail, click **Version History** and select a version.
+    1.  In the left rail, click **Version History** and select a version.
 
         ![](images/timeline-versions62_cs.png)
 
-    3.  From the listed versions, select the one that you want to use as the base version and click **Preview Version**. The preview of the selected version is shown in the Version Preview window.
+    1.  From the listed versions, select the one that you want to use as the base version and click **Preview Version**. The preview of the selected version is shown in the Version Preview window.
 
-    4.  From the **Show Diff** list, select the version with which you want to compare the base version.
+    1.  From the **Show Diff** list, select the version with which you want to compare the base version.
 
         ![](images/show-diff-list-cropped.png)
 
@@ -163,15 +163,15 @@ Branch, revert, and subsequent versioning
         >
         > You can also open the topic in Preview mode and proceed with Step 3.
 
-    2.  Select the topic for which you want to create a branch.
+    1.  Select the topic for which you want to create a branch.
 
-    3.  In the left rail, click **Version History**.
+    1.  In the left rail, click **Version History**.
 
         >[!NOTE]
         >
         > A list of versions available for the selected topic is displayed. Each version contains the timestamp, user name, version comment, and [label](web-editor-use-label.md#) information.
 
-    4.  Select a version from where you want to create a branch. In the following screenshot, version 1.2 is selected for creating a branch.
+    1.  Select a version from where you want to create a branch. In the following screenshot, version 1.2 is selected for creating a branch.
 
         ![](images/branching.png)
 
@@ -179,17 +179,17 @@ Branch, revert, and subsequent versioning
         >
         > The current version of a topic contains *\(Current\)* mentioned next to the version number.
 
-    5.  Click **Revert to This Version**.
+    1.  Click **Revert to This Version**.
 
         A message appears asking you to confirm the creation of a new branch.
 
-    6.  *\(Optional\)* In the message prompt, you get an option to select the **Save The Current Working Copy As A New Version**. The following two actions are possible based on the selection of this option:
+    1.  *\(Optional\)* In the message prompt, you get an option to select the **Save The Current Working Copy As A New Version**. The following two actions are possible based on the selection of this option:
 
-        -   If you select this option, then a branch is created from version 1.2. And, a new version of the topic is also created from the current working copy of the topic and saved as the next version – 1.4.
+        -   If you select this option, then a branch is created from version 1.1. And, a new version of the topic is also created from the current working copy of the topic and saved as the next version – 1.4.
 
             ![](images/next_version_created_over_working_copy.png)
 
-            Version 1.2 becomes your current working copy of the topic. Any version saved after this is created under the new branch of 1.2. For example, the subsequent version of a new topic in this branch will be saved as 1.2.0.
+            Version 1.2 becomes your current working copy of the topic. Any version saved after this is created under the new branch of 1.1. For example, the subsequent version of a new topic in this branch will be saved as 1.2.0.
 
             ![](images/new_version_in_branch.png)
 
@@ -197,7 +197,7 @@ Branch, revert, and subsequent versioning
 
             ![](images/new_version_without_working_copy.png)
 
-    7.  Click **OK**.
+    1.  Click **OK**.
 
 
     A new branch is created from the selected version of the topic. The above process is also applicable for reverting to a specific version of a topic. Reverting to a specific version technically means that you create a new branch from the selected version and make that version the current working copy of the topic. You can also view the history of files that have been reverted in the Version Revert History report. For more details about this report, see [Reverted files version history report](reports-reverted-file-version-history.md#).

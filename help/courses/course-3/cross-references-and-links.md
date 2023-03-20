@@ -18,7 +18,7 @@ It is possible to create an external cross-reference by dragging and dropping a 
 
 1. Open a file where you want to insert an external cross-reference.
 
-2. Assign an ID to the element to be referenced.
+1. Assign an ID to the element to be referenced.
 
     a. Click inside the element.
 
@@ -28,15 +28,15 @@ It is possible to create an external cross-reference by dragging and dropping a 
 
     d. View the element and its value in **Outline View** if desired.
 
-3. **Save** the topic to ensure the Repository has the updated ID.
+1. **Save** the topic to ensure the Repository has the updated ID.
 
-4. Click the [!UICONTROL **Reference**] icon on the top toolbar.
+1. Click the [!UICONTROL **Reference**] icon on the top toolbar.
 
     ![Toolbar](images/lesson-7/references-icon.png)
 
-5. From the **Content Reference** tab, select the ID and element pairing you want to insert as a cross-reference.
+1. From the **Content Reference** tab, select the ID and element pairing you want to insert as a cross-reference.
 
-6. Click [!UICONTROL **Select**].
+1. Click [!UICONTROL **Select**].
 
 The cross-reference has been added to the topic.
 
@@ -51,9 +51,9 @@ Some modifications can result in broken cross-references. These include deleting
 
 1. Navigate to the **Outline View** on the left panel.
 
-2. Click the [!UICONTROL **Filter**] icon.
+1. Click the [!UICONTROL **Filter**] icon.
 
-3. Select **Broken links**.
+1. Select **Broken links**.
 
     ![Filter Dropdown](images/lesson-7/broken-links.png)
 

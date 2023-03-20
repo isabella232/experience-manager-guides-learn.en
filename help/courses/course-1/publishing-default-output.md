@@ -19,13 +19,13 @@ There are a number of output presets available for you to choose from. This guid
 
    The Map Dashboard opens in another tab.
 
-2. In the Output Presets tab, select AEM Site and PDF.
+1. In the Output Presets tab, select AEM Site and PDF.
 
    ![Output Presets](images/lesson-9/pdf-aem.png)
 
-3. Select **Generate.**
+1. Select **Generate.**
 
-4. Navigate to the Outputs page to view the status of your generated outputs.
+1. Navigate to the Outputs page to view the status of your generated outputs.
 
    A green circle indicates that generation is complete.
 

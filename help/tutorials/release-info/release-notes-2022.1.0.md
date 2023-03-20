@@ -9,8 +9,8 @@ exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 
 Upgrade your current [!DNL Adobe Experience Manager Guides] as a Cloud Service (later referred as [!DNL AEM Guides] as a Cloud Service) setup by performing the following steps:
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment you want to upgrade.
-2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.1.78.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the January release of [!DNL AEM Guides] as a Cloud Service.
+1. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.1.78.
+1. Commit the changes and run the Cloud Services pipeline to upgrade to the January release of [!DNL AEM Guides] as a Cloud Service.
 
 ## Compatibility matrix
 
