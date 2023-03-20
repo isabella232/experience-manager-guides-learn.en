@@ -79,7 +79,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     -   If you need to create the scope for a project to be translated, you can select **Create a new scoping translation project**. This will not send the copies for translation and the original translation status of the files is maintained. There is no impact on the destination language copy of the referred topics which are sent for scoping.
 1.  In the **Project Title** field, enter a title for the project.
-10. Click **Create** to create a new translation project.
+1. Click **Create** to create a new translation project.
 
     A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details see,[Start the translation job](translation-first-time.md#id225IK030OE8)[translation-first-time.md\#id21BKH0TD0P5](translation-first-time.md#id21BKH0TD0P5).
 
