@@ -65,7 +65,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Create and preview topics](./user-guide/create-preview-topics.md)
       + [Create topics](./user-guide/web-editor-create-topics.md)
       + [Preview a topic](./user-guide/web-editor-preview-topics.md)
-      +[Author content using AEM Guides]{author-content-aem-guides}
+      +[Author content using AEM Guides]{#author-content-aem-guides}
         + [Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
         +[Work with the Web Editor]{#work-with-web-editor}
           + [Work with the Web Editor](./user-guide/web-editor.md)
@@ -93,7 +93,7 @@ breadcrumb-title: AEM Guides Tutorials
             + [Work with the Advanced Map Editor](./user-guide/map-editor-advanced-map-editor.md)
             + [Work with the Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
             + [Other features in the map editors](./user-guide/map-editor-other-features.md)
-            + [DITAVAL editor](./user-guide/id17C5E0U0OQE.md#id17C5E0U0OQE)
+            + [DITAVAL editor](./user-guide/id17C5E0U0OQE.md)
       +[Author content using desktop tools]{#author-using-desktop-tools}
         + [Author content using desktop tools](./user-guide/author-desktop-tools.md)
         + [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)

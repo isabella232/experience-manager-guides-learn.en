@@ -1,6 +1,6 @@
 ---
-title: Use Map Collection for output generation
-description: Learn how to Use Map Collection for output generation
+title: Use condition presets
+description: Learn how to Use condition presets
 ---
 
 # Use condition presets {#id1825FL004PN}

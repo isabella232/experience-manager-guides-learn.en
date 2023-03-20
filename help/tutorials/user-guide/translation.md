@@ -1,5 +1,5 @@
 ---
-title: Translate content
+title: Learn how to translate content
 description: Learn how to Translate content
 ---
 

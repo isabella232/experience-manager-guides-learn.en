@@ -1,6 +1,6 @@
 ---
-title: Use Map Collection for output generation
-description: Learn how to Use Map Collection for output generation
+title: Work with Baseline
+description: Learn how to Work wit Baseline
 ---
 
 # Work with Baseline {#id1825FI0J0PF}

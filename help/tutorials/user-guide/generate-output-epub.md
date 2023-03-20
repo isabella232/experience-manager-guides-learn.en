@@ -1,6 +1,6 @@
 ---
-title: EPUB
-description: Learn how to Use EPUB
+title: EPUB Preset
+description: Learn how to Use EPUB Preset
 ---
 
 # EPUB {#id205BED020YT}
