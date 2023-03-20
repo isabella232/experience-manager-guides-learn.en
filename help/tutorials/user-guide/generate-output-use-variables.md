@@ -1,6 +1,7 @@
-# Use variables for setting the Destination Path, Site Name, or File Name options {#id18BUG70K05Z}
+# Use variables for setting the Destination Path, Site Name, or File Name options
 
-While generating outputs in AEM Site or PDFs, you can use variables to define the **Destination Path**, AEM **Site Name**, or PDF **File Name** options. You can use a single or a combination of variables to define theses options.
+
+While generating outputs in AEM Site or PDFs, you can use variables to define the Destination Path, AEM Site Name, or PDF File Name options. You can use a single or a combination of variables to define theses options.
 
 The following table lists the variables that are supported out of the box:
 
@@ -14,6 +15,5 @@ The following table lists the variables that are supported out of the box:
 | `${path_after_langfolder}` | Uses the path of the map file after the language folder to create the destination path.<br><br>Note:<br><br>This variable cannot be used to specify the AEM Site Name or PDF File Name. | **DITA map file name**:<br><br>SampleDita.ditamap<br><br>**DITA map file path**:<br><br>/content/dam/projects/AEM-Guides/en/user-guide/<br><br>**Destination Path** configured as:<br><br>/content/output/sites/ ${path\_after\_langfolder}<br><br>**Final output location**:<br><br>/content/output/sites/ /user-guide/SampleDita.html |
 
 In addition, you can also use the metadata defined for the DITA map or bookmap file as variables. The metadata can be found under the /jcr:content/metadata node of the DITA map or bookmap file. For example, one of the metadata properties define in the /jcr:content/metadata node is `dc:title`. You can specify `${dc:title}` and the title value is used in the final output.
-
 **Parent topic:**[Output generation](generate-output.md)
 
