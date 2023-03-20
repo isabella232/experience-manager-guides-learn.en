@@ -50,10 +50,12 @@ breadcrumb-title: AEM Guides Tutorials
   + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
 + User Guide {#user-guide}
   + [Disclaimer](./user-guide/rebranding-disclaimer.md)
-    + [About Adobe Experience Manager Guides as a Cloud Service](./user-guide/intro.md)
-      + [How AEM Guides works](./user-guide/intro-how-dxml-works.md)
-      + [Key AEM Guides features](./user-guide/intro-dxml-features.md)
-  + [Manage content](./user-guide/authoring.md)
+  + [About]{#About-AEM-Guide}
+   + [About Adobe Experience Manager Guides as a Cloud Service](./user-guide/intro.md)
+   + [How AEM Guides works](./user-guide/intro-how-dxml-works.md)
+   + [Key AEM Guides features](./user-guide/intro-dxml-features.md)
+  +[Manage Content]{#manage-content}
+    + [Manage content](./user-guide/authoring.md)
       + [Upload files](./user-guide/authoring-upload-existing-files.md)
       + [Manage files and folders](./user-guide/authoring-file-management.md)
       + [Download files](./user-guide/authoring-download-assets.md)
