@@ -46,20 +46,13 @@ Perform the following steps to access and use the Review Dashboard:
 
 You can perform the following actions under the **Task** tab:
 
--   -   Modify the title of the task in the **Title** field.
-
+-   Modify the title of the task in the **Title** field.
 -   Add default assignees in the **Assign To** drop-down list. The reviewers you add from here are given access to review all topics that are a part of this review task. You can choose to remove or selectively add more reviewers to specific topics from the [Reviewers tab](#reviewer-tab-id199RF0N0MUI).
-
 -   Update the description of the task in the **Description** field.
-
 -   Modify the **Due Date**. You can prepone or postpone the deadline for the completion of the task.
-
 -   Select the option to restrict users to review only those topics that are assigned to them.
-
 -   Click **Update** to update the modified details.
-
 -   Click **Complete** to mark the review task as complete before the due date. When an individual topic's task is marked as Complete, the review of the selected topic is closed. However, in case of topics shared for review through a DITA map, marking the DITA map task as Complete will close the review of all topics within the map that were shared for review.
-
 -   Click **Duplicate** to create a copy of the review task. The process of creating a duplicate review task is similar to creating a new review task. Once you launch the duplicate task workflow, you are shown the Create Review Task page. You need to provide the new task details as explained in [Send topics for review](review-send-topics-for-review.md#).
 
     If you have selected a review task created out of a DITA map, then you are shown the topics that are a pert of the map. You can then choose the topics that you want to include in the new review task.

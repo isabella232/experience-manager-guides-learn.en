@@ -75,12 +75,11 @@ Perform the following steps to review a topic:
 
 ## Addition features available on the review screen 
 
-Document view and topic view
-:   By default, if multiple topics are shared for review, then a composite document view of topics is shown to the reviewers. In case of a DITA map review, all topics in the map are presented in the form of a single document, resembling a book view. If you want, you can also click on a particular topic and only that topic is then shown on the review screen.
+**Document view and topic view** - By default, if multiple topics are shared for review, then a composite document view of topics is shown to the reviewers. In case of a DITA map review, all topics in the map are presented in the form of a single document, resembling a book view. If you want, you can also click on a particular topic and only that topic is then shown on the review screen.
 
-    When you view a single topic, then you get an additional option to switch back to the document view. In the following screenshot, a particular topic from a map file is opened for review. The highlighted option — **Show Document View** allows user to switch back to the document view of the map file.
+When you view a single topic, then you get an additional option to switch back to the document view. In the following screenshot, a particular topic from a map file is opened for review. The highlighted option — **Show Document View** allows user to switch back to the document view of the map file.
 
-    ![](images/switch-document-view.png)
+![](images/switch-document-view.png)
 
 **Working with different types of commenting tools** - You can add inline comments by highlighting text, striking through text, inserting text, or adding a comment note. The different types of commenting tools provided in the Comments toolbar are described below:
 
@@ -101,38 +100,35 @@ Document view and topic view
 -   **Add Comment**\(![](images/review-comment-icon.svg)\): If you want to add a sticky note type of comment, click the Add Comment icon and enter the comment in the pop-up.
 
 
-Contextual toolbar
-:   You can also highlight or strikethrough text quickly with the contextual toolbar. Perform the following steps to comment using the contextual toolbar:
+**Contextual toolbar**
 
-    1.  Select the text you want to highlight or strike through. The contextual toolbar appears.
+You can also highlight or strikethrough text quickly with the contextual toolbar. Perform the following steps to comment using the contextual toolbar:
 
-        ![](images/review-quick-launch-toolbar.png)
+1.  Select the text you want to highlight or strike through. The contextual toolbar appears.
 
-    1.  Click the **Highlight**or **Strikethrough** icon.
-    1.  You can add comments in the comment panel for the highlight or strikethrough action.
+    ![](images/review-quick-launch-toolbar.png)
+
+1.  Click the **Highlight**or **Strikethrough** icon.
+1.  You can add comments in the comment panel for the highlight or strikethrough action.
 
 **Review using the Comments panel** - The Comments panel displays a list of comments given on the current topic. This panel also lists comments from other reviewers, if the topic is sent to multiple reviewers. Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. Each comment displays the name of the reviewer who has added the comment along with the timestamp.
 
-    The comments are displayed in the order of the commented text in the document. For example, there is a highlight comment on the first sentence and an insert text comment on the second sentence in the first paragraph then the highlight text comment is displayed before the inserted text comment.
+The comments are displayed in the order of the commented text in the document. For example, there is a highlight comment on the first sentence and an insert text comment on the second sentence in the first paragraph then the highlight text comment is displayed before the inserted text comment.
 
-    The tasks that you can perform using the Comments panel are described below:
+The tasks that you can perform using the Comments panel are described below:
 
-    -   Clicking on a comment highlights and shows the corresponding comment's location in the document.
+-   Clicking on a comment highlights and shows the corresponding comment's location in the document.
+-   You can add replies to comments.
+-   You can edit your own comment by clicking on your commented text in the Comments panel and then selecting **Edit**from the Options menu.
+-   You can delete your own comments by clicking on the comment in the Comments panel and then selecting the **Delete** option from the Options menu.
 
-    -   You can add replies to comments.
+    ![](images/review-comment-options-menu.png)
 
-    -   You can edit your own comment by clicking on your commented text in the Comments panel and then selecting **Edit**from the Options menu.
+    >[!NOTE]
+    >
+    > The Options menu appears only when you hover over your own comments. It is not displayed for the comments by other reviewers.
 
-    -   You can delete your own comments by clicking on the comment in the Comments panel and then selecting the **Delete** option from the Options menu.
-
-        ![](images/review-comment-options-menu.png)
-
-        >[!NOTE]
-        >
-        > The Options menu appears only when you hover over your own comments. It is not displayed for the comments by other reviewers.
-
-    -   All participating users can respond to comments submitted by other users. On a comment, click **Reply**and press Enter to submit a response.
-
+-   All participating users can respond to comments submitted by other users. On a comment, click **Reply**and press Enter to submit a response.
 
 **Preview mode**
 
@@ -140,61 +136,59 @@ Contextual toolbar
 
 - The following screenshot shows the content in *Review* mode:
 
-    ![](images/review-author-mode.png)
+![](images/review-author-mode.png)
 
-    The following screenshot shows the content in *Preview* mode:
+The following screenshot shows the content in *Preview* mode:
 
-    ![](images/review-preview-mode.png)
+![](images/review-preview-mode.png)
 
-Add attachments to comments
-:   If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments — Highlight, Strikethrough, Insert Text, or a Comment.
+**Add attachments to comments** -   If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments - Highlight, Strikethrough, Insert Text, or a Comment.
 
-    When you insert any of the comments, the commenting pop-up appears. After providing additional comments or information in the pop-up, you submit it by hitting Enter. Once the comment is added, you get the option to add an attachment to that comment.
+When you insert any of the comments, the commenting pop-up appears. After providing additional comments or information in the pop-up, you submit it by hitting Enter. Once the comment is added, you get the option to add an attachment to that comment.
 
-    ![](images/comment-pop-up-panel.png)
+![](images/comment-pop-up-panel.png)
 
-    In the above screenshot, the document contains the highlight comment's pop-up and the comment is also added in the Comments panel. The file attachment icon ![](images/file-attach-review.svg)is available along with the comment at both the locations.
+In the above screenshot, the document contains the highlight comment's pop-up and the comment is also added in the Comments panel. The file attachment icon ![](images/file-attach-review.svg)is available along with the comment at both the locations.
 
-    Perform the following steps to add attachment to your comment:
+Perform the following steps to add attachment to your comment:
 
-    1.  Click the *Add Attachment* icon ![](images/file-attach-review.svg) on the comment with which you want to add an attachment.
+1.  Click the *Add Attachment* icon ![](images/file-attach-review.svg) on the comment with which you want to add an attachment.
 
-        The file Open dialog appears.
+    The file Open dialog appears.
 
-    1.  Select one or multiple files you want to attach.
+1.  Select one or multiple files you want to attach.
 
-        The selected files are shown along with the comment in the Comments panel.
+    The selected files are shown along with the comment in the Comments panel.
 
-        In the Comments panel you can see the file name and its size. You also have an option to remove a file by clicking the delete icon ![](images/Delete_icon.svg) associated with the file name.
+    In the Comments panel you can see the file name and its size. You also have an option to remove a file by clicking the delete icon ![](images/Delete_icon.svg) associated with the file name.
 
-    1.  Click **Submit**.
+1.  Click **Submit**.
 
-        The attachments are uploaded and added to the comment.
+    The attachments are uploaded and added to the comment.
 
 
-    **Additional notes on working with attachments:**
+**Additional notes on working with attachments:**
 
-    -   By default, only two files attached with a comment are shown. If there are more files, then **View Attachment** button on the right shows the number of all attachments \(which are more than two\) associated with the comment. You can click the number to view all attachments. For example, if you have four attachments with a comment, you will see +2 on the button.
+-   By default, only two files attached with a comment are shown. If there are more files, then **View Attachment** button on the right shows the number of all attachments \(which are more than two\) associated with the comment. You can click the number to view all attachments. For example, if you have four attachments with a comment, you will see +2 on the button.
 
-    ![](images/review-view-attachment.png)
+![](images/review-view-attachment.png)
 
 -   Hovering the mouse pointer over an attachment gives the options to download or remove the attachment. Removing the attachment is available only if the current reviewer has added that comment, as shown the following screenshot:
 
-    ![](images/current-user-comment-options.png)
+![](images/current-user-comment-options.png)
 
-    The other reviewers or authors get only the download attachment option.
+The other reviewers or authors get only the download attachment option.
 
-    ![](images/other-reviewer-download.png)
+![](images/other-reviewer-download.png)
 
-    -   You can download all attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Download**icon at the comment level.
+-   You can download all attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Download**icon at the comment level.
 
-    -   You can also delete the attachments associated with a comment from the **View Attachments**dialog. Select the attachments and click the **Delete** icon.
+-   You can also delete the attachments associated with a comment from the **View Attachments**dialog. Select the attachments and click the **Delete** icon.
 
-    ![](images/attach-files-comments-panel.png)
+![](images/attach-files-comments-panel.png)
 
 
-Conditions panel
-:   If your topic has conditional content, then you will see the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Clicking on **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
+**Conditions panel** -   If your topic has conditional content, then you will see the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Clicking on **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
 
 :   By default **Highlight All Conditions** option is enabled, all conditions are selected, the entire content is displayed, and the conditionalized content is shown as highlighted both in review and preview mode.
 
@@ -212,8 +206,7 @@ You can choose to hide or show a specific condition.
 
 In the preview mode, the non-conditionalized content and the conditionalized content that uses the two shown conditions - `win` and `mac` is displayed. The remaining conditionalized content for which the conditions are hidden is not displayed.
 
-Real-time review
-:   The Comments panel updates in real time with comments and the feedback or action taken by the author on the comments.
+**Real-time review** -   The Comments panel updates in real time with comments and the feedback or action taken by the author on the comments.
 
 -   Multiple reviewers will be able to leave comments or reply to comments simultaneously on the same document. You can find out who is currently reviewing the document by hovering the mouse over the user icon at the top-right corner of the screen.
 
@@ -229,21 +222,20 @@ Real-time review
 
 -   Clicking an outdated comment opens the version of that comment in the left panel. The previous version is shown in the left panel and the current version is displayed in the right panel. All comments on the outdated version are imported on the left side. You can compare the previous version with the current version.
 
-Filter comments
-:   You can filter comments in a document to view specific comments as required. To filter comments, click the **Filter**icon \(![](images/filter-search-icon.svg)\) that appears in the menu on the right of the Search Comments text box in the Comments panel.
+**Filter comments** -   You can filter comments in a document to view specific comments as required. To filter comments, click the **Filter** icon \(![](images/filter-search-icon.svg)\) that appears in the menu on the right of the Search Comments text box in the Comments panel.
 
-    Select one or more of the following filtering options from the **Filter Type** dialog and click **Apply**.
+Select one or more of the following filtering options from the **Filter Type** dialog and click **Apply**.
 
-    -   **Review Type** - Filter on the basis of the comments type – Highlight, Deletion, Insertion, or Comment.
-    -   **Review Status** - Filter on the basis of the status of the comment like Accepted, Rejected, or None.
-    -   **Reviewers** - Filter on the basis of the reviewer's name.
+-   **Review Type** - Filter on the basis of the comments type – Highlight, Deletion, Insertion, or Comment.
+-   **Review Status** - Filter on the basis of the status of the comment like Accepted, Rejected, or None.
+-   **Reviewers** - Filter on the basis of the reviewer's name.
 
-    -   **Versions** - Filter on the basis of the comments received on a particular version of the topic.
+-   **Versions** - Filter on the basis of the comments received on a particular version of the topic.
 
-        On using the filters the comments on the right panel get filtered according to the selection, and the number of comments in the left panel is updated accordingly.
+    On using the filters the comments on the right panel get filtered according to the selection, and the number of comments in the left panel is updated accordingly.
 
 
-    To remove the filter and view all the comments, deselelect all filters from the **Filter Type** dialog and click **Apply**.
+To remove the filter and view all the comments, deselelect all filters from the **Filter Type** dialog and click **Apply**.
 
 **Parent topic:**[Review topics or maps](review.md)
 
