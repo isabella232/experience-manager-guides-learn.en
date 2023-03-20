@@ -54,6 +54,7 @@ breadcrumb-title: AEM Guides Tutorials
    + [About Adobe Experience Manager Guides as a Cloud Service](./user-guide/intro.md)
    + [How AEM Guides works](./user-guide/intro-how-dxml-works.md)
    + [Key AEM Guides features](./user-guide/intro-dxml-features.md)
+  + [Edit topics in the Web Editor](./user-guide/web-editor-edit-topics.md)
   + Manage Content {#manage-content}
       + [Manage content](./user-guide/authoring.md)
       + [Upload files](./user-guide/authoring-upload-existing-files.md)
@@ -70,7 +71,6 @@ breadcrumb-title: AEM Guides Tutorials
         +[Work with the Web Editor]{#work-with-web-editor}
           + [Work with the Web Editor](./user-guide/web-editor.md)
           + [Launch the Web Editor](./user-guide/web-editor-launch-editor.md)
-          + [Edit topics in the Web Editor](./user-guide/web-editor-edit-topics.md)
           + [Know the Web Editor features](./user-guide/web-editor-features.md)
           + [Keyboard shortcuts in the Web Editor](./user-guide/web-editor-keyboard-shortcuts.md)
           + [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
