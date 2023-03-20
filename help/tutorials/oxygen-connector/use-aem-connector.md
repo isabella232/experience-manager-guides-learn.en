@@ -107,7 +107,7 @@ As an AEM administrator, perform the following steps to install the package:
 
     `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-    The Package Manager manages the packages on your local AEM installation. For more information about working with the Package Manager, see [How to Work With Packages](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html) in AEM documentation.
+    The Package Manager manages the packages on your local AEM installation. For more information about working with the Package Manager, see [How to Work With Packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM documentation.
 
     ![](images/package-manager.png)
 
