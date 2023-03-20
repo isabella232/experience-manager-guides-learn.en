@@ -93,7 +93,7 @@ Working with different types of commenting tools
 
     A pop-up appears in the Comments panel wherein you can add your comment for the highlighted content.
 
--   ****Strikethrough**** \(![](images/review-text-strike-through-icon.svg)\): If you want to suggest content removal, you can do so by selecting the content and clicking the Strikethrough icon. Or, select the desired text and click the Delete key:
+-   **Strikethrough** \(![](images/review-text-strike-through-icon.svg)\): If you want to suggest content removal, you can do so by selecting the content and clicking the Strikethrough icon. Or, select the desired text and click the Delete key:
 
     A pop-up appears in the Comments panel wherein you can add your comment for the deleted content.
 
