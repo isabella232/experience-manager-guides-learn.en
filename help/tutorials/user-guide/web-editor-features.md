@@ -19,582 +19,610 @@ The following subsection cover in details the various sections of the Web Editor
 
 The main toolbar is at the top of the Web Editor's interface and it provides file-level features and various authoring modes available in the Web Editor. Features available in the top toolbar are explained as follows:
 
-Save All – ![](images/SaveFloppy_icon.svg)
-:   Saves the changes you have made in all opened topics. If you have multiple topics opened in the Web Editor, clicking **Save All** or using the **Crtl**+**S** shortcut keys saves all documents in one click. You do not have to individually save each document.
+**Save All** - [](images/SaveFloppy_icon.svg)
 
-    >[!NOTE]
-    >
-    > The Save operation does not create a new version of your topics. To create a new version, choose Save As New Version.
+Saves the changes you have made in all opened topics. If you have multiple topics opened in the Web Editor, clicking **Save All** or using the **Crtl**+**S** shortcut keys saves all documents in one click. You do not have to individually save each document.
 
-Save As New Version– ![](images/save-revision-icon.png)
-:   Saves the changes you have made in your topic and also creates a new version of your topic. If you are working on a newly created topic, the version information is shown as **none**.
+>[!NOTE]
+>
+> The Save operation does not create a new version of your topics. To create a new version, choose Save As New Version.
 
-    ![](images/save-all-first-version-none_cs.png)
+**Save As New Version** - [](images/save-revision-icon.png)
 
-    The version number changes with every new version that is created for the topic or map file.
+Saves the changes you have made in your topic and also creates a new version of your topic. If you are working on a newly created topic, the version information is shown as **none**.
 
-    When you choose to save a topic or map using **Save As New Version**, the following dialog appears:
+![](images/save-all-first-version-none_cs.png)
 
-    ![](images/save-as-new-version-dialog.PNG)
+The version number changes with every new version that is created for the topic or map file.
 
-    Enter comments and version labels to identify the changes and click **Save** to create a new version of your file.
+When you choose to save a topic or map using **Save As New Version**, the following dialog appears:
 
-    When you choose the *Save As New Version*, the first version of the topic is created in DAM, which also becomes the currently active version of your topic. Later, if you revert to an older version of the topic, then that becomes your current active version of the topic.
+![](images/save-as-new-version-dialog.PNG)
 
-    If your administrator has pre-configured version labels, then you will see those labels in a drop-down list. You can choose a label from the list of available labels and save your document.
+Enter comments and version labels to identify the changes and click **Save** to create a new version of your file.
 
-    ![](images/web-editor-pre-defined-labels.PNG)
+When you choose the *Save As New Version*, the first version of the topic is created in DAM, which also becomes the currently active version of your topic. Later, if you revert to an older version of the topic, then that becomes your current active version of the topic.
 
-    At the time of saving a topic, you can add a comment specifying the changes that you have made in the topic. This comment is shown in the topic's Version History.
+If your administrator has pre-configured version labels, then you will see those labels in a drop-down list. You can choose a label from the list of available labels and save your document.
 
-    If your topic is under review, your reviewers will get a notification saying that a newer version of the topic is available. They can easily access the latest revision of your document and continue reviewing the latest version of your topic.
+![](images/web-editor-pre-defined-labels.PNG)
 
-    When you hover your pointer over a topic's title, you are shown the file path and the version number.
+At the time of saving a topic, you can add a comment specifying the changes that you have made in the topic. This comment is shown in the topic's Version History.
 
-    ![](images/mouse-hover-on-title_cs.png)
+If your topic is under review, your reviewers will get a notification saying that a newer version of the topic is available. They can easily access the latest revision of your document and continue reviewing the latest version of your topic.
 
-    >[!NOTE]
-    >
-    > Once a version of your topic is available, you can also add labels to your topic. These labels can then be used to create a baseline for publishing a specific version of your document. For more information about using labels in your topics, see [Use labels](web-editor-use-label.md#).
+When you hover your pointer over a topic's title, you are shown the file path and the version number.
 
-Undo and Redo – ![](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
-:   Undo or Redo the last action.
+![](images/mouse-hover-on-title_cs.png)
 
-Delete Element – ![](images/Delete_icon.svg)
-:   Deletes the currently selected element or the element where the cursor is placed.
+>[!NOTE]
+>
+> Once a version of your topic is available, you can also add labels to your topic. These labels can then be used to create a baseline for publishing a specific version of your document. For more information about using labels in your topics, see [Use labels](web-editor-use-label.md#).
 
-Find and Replace – ![](images/FindAndReplace_icon.svg)
-:   The Find and Replace feature is available in Author and Source view modes. The Find and Replace text bar appears at the bottom of the topic editing area. You can use the shortcut keys **CTRL**+**F** to invoke the Find and Replace bar.
+**Undo and Redo** - [](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
 
-    ![](images/find-replace-bar.png)
+Undo or Redo the last action.
 
-    Using the settings icon \(![](images/settings-find-replace-icon.svg)\), you can toggle the **Ignore Case** and **Whole Word Only** search options. To perform the case-insensitive search, turn on \(or select\) the **Ignore Case** option. Else, if you want to perform the case-sensitive search, turn off \(or deselect\) the **Ignore Case** option. You can also choose to search a whole word.
+**Delete Element** - [](images/Delete_icon.svg)
 
-    The search is instantaneous, which means that as you type the search phrase or word in the **Find** field, the term is immediately searched and selected in the topic. Similarly, for replacing a text in your topic, enter the search term and its replacement in the respective fields and click the **Replace** or **Replace All** button.
+Deletes the currently selected element or the element where the cursor is placed.
 
-    In the Source view, the Find and Replace is extremely useful for searching for a specific element or attribute. For example, if you want to replace the value of the `@product` attribute, it can be easily done from the Source view. The Author view does not allow you to search on the basis of an attribute or element. However, you must use caution while using the **Replace All** feature, as it might overwrite the XML code.
+**Find and Replace** - [](images/FindAndReplace_icon.svg)
 
-Editor Settings – ![](images/editor_settings_icon.svg)
-:   The Editor Settings are only available to administrative users. Using the preferences, an administrator can configure the following settings:
+The Find and Replace feature is available in Author and Source view modes. The Find and Replace text bar appears at the bottom of the topic editing area. You can use the shortcut keys **CTRL**+**F** to invoke the Find and Replace bar.
 
-    >[!NOTE]
-    >
-    > If you are updating any default settings, you should reopen documents for the changes to come into effect.
+![](images/find-replace-bar.png)
 
-    -   **General**: The General settings allow you to configure the dictionary to use with the Web Editor. This tab contains three sections: **Spell Check**, **Condition**, and **Authoring**.
+Using the settings icon \(![](images/settings-find-replace-icon.svg)\), you can toggle the **Ignore Case** and **Whole Word Only** search options. To perform the case-insensitive search, turn on \(or select\) the **Ignore Case** option. Else, if you want to perform the case-sensitive search, turn off \(or deselect\) the **Ignore Case** option. You can also choose to search a whole word.
+
+The search is instantaneous, which means that as you type the search phrase or word in the **Find** field, the term is immediately searched and selected in the topic. Similarly, for replacing a text in your topic, enter the search term and its replacement in the respective fields and click the **Replace** or **Replace All** button.
+
+In the Source view, the Find and Replace is extremely useful for searching for a specific element or attribute. For example, if you want to replace the value of the `@product` attribute, it can be easily done from the Source view. The Author view does not allow you to search on the basis of an attribute or element. However, you must use caution while using the **Replace All** feature, as it might overwrite the XML code.
+
+**Editor Settings** - [](images/editor_settings_icon.svg)
+
+The Editor Settings are only available to administrative users. Using the preferences, an administrator can configure the following settings:
+
+>[!NOTE]
+>
+> If you are updating any default settings, you should reopen documents for the changes to come into effect.
+
+-   **General**: The General settings allow you to configure the dictionary to use with the Web Editor. This tab contains three sections: **Spell Check**, **Condition**, and **Authoring**.
 
 ![](images/editor-setting-general.png)
 
-        **Spell Check**: There are two options—**AEM Spell Check** and **Browser Spell Check**. By default, the editor uses the Browser Spell Check feature, wherein the spell-check is performed using the browser's in-build dictionary. You can switch to AEM Spell Check to use AEM's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, see *Customize AEM's default dictionary* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+**Spell Check**: There are two options — **AEM Spell Check** and **Browser Spell Check**. By default, the editor uses the Browser Spell Check feature, wherein the spell-check is performed using the browser's in-build dictionary. You can switch to AEM Spell Check to use AEM's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, see *Customize AEM's default dictionary* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-        **Condition**
+**Condition**
 
-        -   **Highlight Conditional Text in the Author View**: Select this to highlight the conditional text in the author view. The conditional content is highlighted using the color defined for the condition.
+-   **Highlight Conditional Text in the Author View**: Select this to highlight the conditional text in the author view. The conditional content is highlighted using the color defined for the condition.
 
-        -   **Validate with Condition Attributes**: Select this to allow the validation of the values defined for the attributes. This prevents you from adding any incorrect value.
+-   **Validate with Condition Attributes**: Select this to allow the validation of the values defined for the attributes. This prevents you from adding any incorrect value.
 
-        -   **Show the Key with the Title in the Subject Scheme Panel**: Select this to show the keys along with titles in the subject scheme. If you do not select this option only the titles are shown. For example, here the keys 'os', 'audience', and 'other' are also shown along with titles.
+-   **Show the Key with the Title in the Subject Scheme Panel**: Select this to show the keys along with titles in the subject scheme. If you do not select this option only the titles are shown. For example, here the keys 'os', 'audience', and 'other' are also shown along with titles.
 
-            ![](images/subject-scheme-title.png)
+    ![](images/subject-scheme-title.png)
 
-        -   **Show Subject Scheme in the Conditions Panel**: Select this to see a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
+-   **Show Subject Scheme in the Conditions Panel**: Select this to see a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
 
-        **Authoring**
+**Authoring**
 
-        -   **Enable Replace All**: Select this to see Replace All icon in the Find and Replace panel.
+-   **Enable Replace All**: Select this to see Replace All icon in the Find and Replace panel.
 
-    -   **Panels**: This setting controls the panels that are shown in the left panel of the editor. You can toggle the switch to show or hide the desired panel.
+-   **Panels**: This setting controls the panels that are shown in the left panel of the editor. You can toggle the switch to show or hide the desired panel.
 
-        ![](images/editor-setting-panel.png)
+![](images/editor-setting-panel.png)
 
-        >[!NOTE]
-        >
-        > If a custom panel has been configured, then it also appears in the list of panels. You can toggle the switch to show or hide the custom panel. For more details on the configuration, see the C*onfigure a custom panel in the left panel* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+>[!NOTE]
+>
+> If a custom panel has been configured, then it also appears in the list of panels. You can toggle the switch to show or hide the custom panel. For more details on the configuration, see the C*onfigure a custom panel in the left panel* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-    -   **Elements List**: As an administrator, you can control the list of elements that an author can insert using the [Insert Element](#id204SG30105Z) pop-up, and also define the display name for the element. The Elements List setting allows you to specify the element's name as per DITA specifications and a label that you want to use instead of the DITA defined element name:
+-   **Elements List**: As an administrator, you can control the list of elements that an author can insert using the [Insert Element](#id204SG30105Z) pop-up, and also define the display name for the element. The Elements List setting allows you to specify the element's name as per DITA specifications and a label that you want to use instead of the DITA defined element name:
 
-        ![](images/editor-setting-element-list.png)
+![](images/editor-setting-element-list.png)
 
-        In the above screenshot, the `b` element has been given a label of Bold, `codeblock` is given a label of Code Block along with some other elements. If you select the **Use Only Above Elements** option, then only the valid elements \(at current insertion point\) from this list will be shown in the Insert Element pop-up.
+In the above screenshot, the `b` element has been given a label of Bold, `codeblock` is given a label of Code Block along with some other elements. If you select the **Use Only Above Elements** option, then only the valid elements \(at current insertion point\) from this list will be shown in the Insert Element pop-up.
 
-        In the following screenshot, only 3 out of 4 configured elements from the previous screenshot are shown at the current context:
+In the following screenshot, only 3 out of 4 configured elements from the previous screenshot are shown at the current context:
 
-        ![](images/editor-setting-insert-element-list.PNG)
+![](images/editor-setting-insert-element-list.PNG)
 
-    -   **Attributes List**: Similar to the Elements List, you can control the list of attributes and their display names to be displayed in the attributes list of an element. In the following screenshot, only 3 attributes have been configured to be shown in an element's attribute list:
+-   **Attributes List**: Similar to the Elements List, you can control the list of attributes and their display names to be displayed in the attributes list of an element. In the following screenshot, only 3 attributes have been configured to be shown in an element's attribute list:
 
-        ![](images/editor-setting-attributes-list.png)
+![](images/editor-setting-attributes-list.png)
 
-        With this setting, when you try to add an attribute to an element, you only see the list of attributes configured in the list.
+With this setting, when you try to add an attribute to an element, you only see the list of attributes configured in the list.
 
-        ![](images/editor-setting-add-attributes-list.png-to-element.PNG)
+![](images/editor-setting-add-attributes-list.png-to-element.PNG)
 
-    -   **Inline Attributes**: Like the Attributes List, you can control the list of Inline Attributes to be displayed in the attributes list of an element. By default, four Inline Attributes — audience, platform, product, and properties have been configured to be shown in an element's attribute list. You can also add an inline attribute using the **Add** icon on the top. You can also or delete any of the inline attributes using the **Delete**icon.
+-   **Inline Attributes**: Like the Attributes List, you can control the list of Inline Attributes to be displayed in the attributes list of an element. By default, four Inline Attributes — audience, platform, product, and properties have been configured to be shown in an element's attribute list. You can also add an inline attribute using the **Add** icon on the top. You can also or delete any of the inline attributes using the **Delete**icon.
 
-        ![](images/editor-settings-inline-attributes.png)
+![](images/editor-settings-inline-attributes.png)
 
-    -   **Translation**: This tab contains the option to propagate the source labels to the target version.
+-   **Translation**: This tab contains the option to propagate the source labels to the target version.
 
-    -   -   **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
+-   -   **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
 
-        ![](images/editor-setting-translation.png)
+![](images/editor-setting-translation.png)
 
 
-User Preferences – ![](images/user_preference_editor_icon.svg)
-:   The User Preferences are available to all authors. Using the preferences, an author can configure the following settings:
+**User Preferences** - [](images/user_preference_editor_icon.svg)
 
-    ![](images/user_preference_editor.PNG)
+The User Preferences are available to all authors. Using the preferences, an author can configure the following settings:
 
-    -   **Theme**: You can choose from the Light, Lightest, Dark, or Darkest themes for the editor. In case of Lightest theme, the toolbars and panels use more lighter gray color background. In case of Light theme, the toolbars and panels use light gray color background. In case of Darkest theme, the toolbars and panels use more darker black color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
+![](images/user_preference_editor.PNG)
 
-    -   **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
+-   **Theme**: You can choose from the Light, Lightest, Dark, or Darkest themes for the editor. In case of Lightest theme, the toolbars and panels use more lighter gray color background. In case of Light theme, the toolbars and panels use light gray color background. In case of Darkest theme, the toolbars and panels use more darker black color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
 
-        The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+-   **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
 
-        >[!NOTE]
-        >
-        > The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar.
-
-    -   **Base Path**: By default, when you access the AEM repository from the Web Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base Path to your working folder and the Repository View then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
-
-    -   **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
-
+    The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     >[!NOTE]
     >
-    > If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
+    > The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar.
 
-Author, Source, and Preview modes
-:   For details about the various authoring and document viewing modes, see [Web Editor views](web-editor-views.md#).
+-   **Base Path**: By default, when you access the AEM repository from the Web Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base Path to your working folder and the Repository View then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
+
+-   **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+
+
+>[!NOTE]
+>
+> If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
+
+**Author, Source, and Preview modes**
+
+For details about the various authoring and document viewing modes, see [Web Editor views](web-editor-views.md#).
 
 ## Secondary toolbar {#id2051EA0J0Y4}
 
 The secondary toolbar appears when you open a topic for editing in the Web Editor. Features available in the secondary toolbar are explained as follows:
 
-Insert Element – ![](images/Add_icon.svg)
-:   Inserts a valid element at the current or next valid location. If you are working inside a block element like a `note`, then use the Insert Element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
+**Insert Element** - [](images/Add_icon.svg)
 
-    ![](images/note-in-para-insert-element_cs.png)
+Inserts a valid element at the current or next valid location. If you are working inside a block element like a `note`, then use the Insert Element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
-    If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, click the p element \(highlighted in screenshot\) in the elements breadcrumb and click on the Insert Element icon or press ***Alt***+***Enter*** to open the Insert Element pop-up. Then, select the desired element and press Enter to insert the selected element after the note element.
+![](images/note-in-para-insert-element_cs.png)
 
-    You can also add an element between two elements when a blinking block cursor appears.
+If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, click the p element \(highlighted in screenshot\) in the elements breadcrumb and click on the Insert Element icon or press ***Alt***+***Enter*** to open the Insert Element pop-up. Then, select the desired element and press Enter to insert the selected element after the note element.
 
-    ![](images/Block%20cursor.png)
+You can also add an element between two elements when a blinking block cursor appears.
 
-    For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
+![](images/Block%20cursor.png)
 
-    Another way of entering new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose Insert Element to display the Insert Element dialog and choose the element that you want to insert.
+For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
 
-    ![](images/insert-element-before-after.png)
+Another way of entering new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose Insert Element to display the Insert Element dialog and choose the element that you want to insert.
 
-Insert Paragraph – ![](images/Paragraph_icon.svg)
-:   Insert paragraph element at the current or next valid location.
+![](images/insert-element-before-after.png)
 
-Insert/Remove Numbered List – ![](images/TextNumbered_icon.svg)
-:   Creates a numbered list at the current or next valid location. If you are on a numbered list and click this icon, the item is converted into a normal paragraph.
+**Insert Paragraph** - [](images/Paragraph_icon.svg)
 
-Insert/Remove Bulleted List – ![](images/BulletList_icon.svg)
-:   Creates a bulleted list at the current or next valid location. If you are on a bulleted list and click this icon, the item is converted into a normal paragraph.
+Insert paragraph element at the current or next valid location.
 
-Insert Table – ![](images/Table_icon.svg)
-:   Inserts a table at the current or next valid location. Click the Insert Table icon to open the insert Table dialog:
+**Insert/Remove Numbered List** - [](images/TextNumbered_icon.svg)
 
-    ![](images/table-properties.png)
+Creates a numbered list at the current or next valid location. If you are on a numbered list and click this icon, the item is converted into a normal paragraph.
 
-    You can specify the number of rows and columns required in the table. If you want to keep the first row as table header, select the Set First Row As Header option. To add a title to your table, enter it in the Title field.
+**Insert/Remove Bulleted List** - [](images/BulletList_icon.svg)
 
-    Once a table is inserted, you can modify table using the context menu.
+Creates a bulleted list at the current or next valid location. If you are on a bulleted list and click this icon, the item is converted into a normal paragraph.
 
-    ![](images/table-context-menu_cs.png)
+**Insert Table** - [](images/Table_icon.svg)
 
-    Using the table's context menu, you can:
+Inserts a table at the current or next valid location. Click the Insert Table icon to open the insert Table dialog:
 
-    -   Insert cells, rows, or columns
+![](images/table-properties.png)
 
-    -   Merge cells in right and down directions
+You can specify the number of rows and columns required in the table. If you want to keep the first row as table header, select the Set First Row As Header option. To add a title to your table, enter it in the Title field.
 
-    -   Split cells horizontally or vertically
+Once a table is inserted, you can modify table using the context menu.
 
-    -   Delete cells, rows, or columns
+![](images/table-context-menu_cs.png)
 
-    -   Create a snippet from the table
+Using the table's context menu, you can:
 
-    -   Generate IDs
+-   Insert cells, rows, or columns
+
+-   Merge cells in right and down directions
+
+-   Split cells horizontally or vertically
+
+-   Delete cells, rows, or columns
+
+-   Create a snippet from the table
+
+-   Generate IDs
 
 
-    You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**. In the Other Attributes section, select the `@valign` attribute from the attribute drop-down list. From the value drop-down list, select the desired text alignment you want to apply on the selected table cells.
+You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**. In the Other Attributes section, select the `@valign` attribute from the attribute drop-down list. From the value drop-down list, select the desired text alignment you want to apply on the selected table cells.
 
-    ![](images/align-table-cell_cs.png)
+![](images/align-table-cell_cs.png)
 
-Insert Image – ![](images/Image_icon.svg)
-:   Inserts an image at the current or next valid location. Click the Insert Image icon to open the Insert Image dialog and then search and select the image you want to insert.
+**Insert Image** - [](images/Image_icon.svg)
+
+Inserts an image at the current or next valid location. Click the Insert Image icon to open the Insert Image dialog and then search and select the image you want to insert.
+
+>[!NOTE]
+>
+> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the [Upload Assets](#id2057BF0F05Z) workflow.
+
+![](images/insert-image.png)
+
+You can add image/Figure Title and Alternate Text for the image in the Insert Image dialog.
+
+You can search for the required image file by entering the file name in the Type to Search bar at the top and also filter the search results by Path \(to search in\), Collections, File Type, and Tags. Once you have found the required image file, select the file and click Select to insert the image in your document. You can insert various formats of image files, such as `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, and more.
+
+Once you have inserted an image, you can change the height, width, placement, and attributes from the Content Properties panel. Click on an image file and then make changes in the Content Properties panel in the right rail.
+
+![](images/image-properties.png)
+
+The Source field displays the UUID of the inserted image file. You can find the complete path of the inserted image file by hovering the mouse pointer over the Source field. The path is displayed in the tooltip.
+
+You can resize an image by providing either Height or Width value for the image file. The aspect ratio of the image is maintained automatically. If you want, you can also choose not to maintain the aspect ratio of the image file by clicking the lock icon \(of Maintain Aspect Ratio\) and providing Height and Width values.
+
+You can also specify the Placement setting for the image as Inline or Break. In case you choose to use the Break placement option, you can then choose where to align the image \(Left, Center, or Right\).
+
+You can also add other properties for an image file by selecting the required properties in the **Attributes** field.
+
+>[!NOTE]
+>
+> You can also define clickable areas \(image map\) in your image. For more details, see [Insert/Edit Image Map](#id195TEB0005B).
+
+**Context menu for image or media files**
+
+You can also perform some common operations for images and media files using the context menu. Right-click at any place on your image to invoke the context menu.
+
+The context menu provides options to cut, copy, or paste the image or media. You can insert an element before or after the selected element. You also have the option to rename or unwrap an element. You can locate the selected image or media in the repository or view the preview of the file in Assets UI.
+
+The other options in the context menu allow you to copy path, edit an image map, create a snippet, or generate IDs for the selected element.
+
+**Insert Multimedia** - [](images/insert-multimedia-icon.svg)
+
+Inserts different types of multimedia files. Click the Insert Multimedia icon and choose the type of file you want to insert. The supported multimedia formats are:
+
+-   Audio File
+-   Video File
+-   YouTube
+-   Vimeo
+
+On selecting the Audio or Video file option, you are shown the repository view to browse and select the desired file. If you choose YouTube or Vimeo, then you get the Insert Multimedia dialog. Paste the link of the video file in the Web Link field and click Insert to add the video at the current or next valid location in your document.
+
+>[!NOTE]
+>
+> While adding a YouTube video link, you need to replace the string `watch?v=` with `embed` in the URL. For example, to add a YouTube video link: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, you need to add it as: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. This change ensures that the video gets embedded in the AEM Site and PDF output.
+
+You can also add the Audio or Video File from the Insert Multimedia dialog. Select the Audio/Video File option and click the browse icon to launch the repository view. Select the audio or video file from the repository and click Select to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to see its preview.
+
+![](images/insert-multimedia.png)
+
+**Insert Cross Reference** - [](images/Reference_icon.svg)
+
+Insert references of type — Content Reference, Content Key Reference, Key Reference, File Reference, Web Link, or Email Link.
+
+Click the **Select File** icon \(for Content Reference and File Reference\) or **Select Map** icon \(for Content Key Reference and Key Reference\) and select the desired file or content to link to.
+
+![](images/insert-references.png)
+
+A link of the selected reference is added in the document. The context menu on the link gives you the options to:
+
+-   **Insert Element**: Shows a list of valid elements that you can insert at the given context.
+-   **Copy UUID**: Copies the UUID of the inserted reference.
+-   **Copy Path**: Copies the complete path of the inserted reference.
+-   **Create Snippet**: Creates a reusable snippet from the inserted reference.
+-   **Generate IDs**: Generates unique ID for the inserted reference.
+
+You can also search using the UUID of the file that you want to reference. For Content and Key Reference links, enter the UUID of the file that you want to link to, and the file is automatically searched and displayed in the Preview section. When you specify the UUID of the file, you need not explicitly mention the file extension for .xml files. The .xml extension is auto-appended to the UUID.
+
+![](images/insert-content-using-uuid-search.png)
+
+If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will see the UUID of the referenced content in the **Link** property.
+
+![](images/ref-link-uuid_cs.png)
+
+>[!NOTE]
+>
+> If the **Enable UUIDs** option is not enabled, then the relative path of the referenced content is shown.
+
+>[!IMPORTANT]
+>
+> Even though the relative path of the referenced content is shown in the **Link** property, internally the link is created using the UUID of the referenced content.
+
+>[!TIP]
+>
+> See the References section in the Best practices guide for best practices around referencing content.
+
+**Filter Search**
+
+You can search for some text in the files present on the selected path of the AEM repository. For example, 'general' is searched in the below given screenshot. You can also narrow down your search using enhanced filters. You can look for all DITA Files like DITA Topics and DITA Maps present on the selected path.
+
+You can search for Non-DITA Files like the Image Files, Multimedia, and documents in the selected path. You can also search for specific values in the attributes of DITA elements. You can also look for files which are checked out by the specified user.
+
+![](images/reference-search-filters.png)
+
+>[!NOTE]
+>
+> Your system administrator can also configure the text filters and show or hide other filters. For more details see Configure text filters section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general' are listed. You can also preview the content of the file.
+
+**Insert Reusable Content** - [](images/content-reuse-icon.svg)
+
+Reuse content that exists within any other document in your project. You can insert content by directly linking to the content in a file or by using a key reference, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z). When you click the Insert Reusable Content icon, you get the Reuse Content dialog:
+
+![](images/reuse-content-dialog.png)
+
+In the Reuse Content dialog, select DITA file for file references or the DITA map file that contains the key references. Once selected, the topic or key references are shown in the dialog. You can select the ID/key of the topic that you want to insert and click Done to insert the content within your topic.
+
+For inserting Content Reference, you can also enter the UUID of the file and the reusable content from that file is listed in the Preview section.
+
+Based on the setting for inserting links, you could either see the UUID of the inserted content or the relative path in the Properties panel or the Source code view. The link is always created using the UUID of the referenced content. See Configure UUID-based links in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+>[!NOTE]
+>
+> To add content before or after the referred content, use *Alt*+*Left* Arrow or Alt+*Right* Arrow keys to move the cursor to the desired location.
+
+You can also embed the referred content within the topic by right-clicking on the referred content and choosing **Replace Reference With Content** from the context menu.
+
+**Insert Special Characters** -  ![](images/insert-special-chars-icon.svg)
+
+Inserts special characters in your topic. Click the Insert Special Character icon to open the Insert Special Character dialog.
+
+>[!NOTE]
+>
+> AEM Guides provides movable and resizable dialog boxes. Dialogs that have two cross lines at the bottom-right corner can be resized. The cross lines in the Special Character dialog are shown below.
+
+![](images/insert-special-char.png)
+
+In the Insert Special Character dialog, you can search for a special character using its name. All special characters are stored under various categories. Use the Select Category drop-down list and select a category. The special characters available within the selected category are displayed. You can navigate the list of special character using the arrow keys or click on the desired character that you want to insert. The Name and Hex Code of the selected special character are displayed below the list. Click Insert to insert the selected character in your document.
+
+**Insert Keyword** - [](images/Keyword_icon.svg)
+
+Insert keyword defined in your DITA map. Click the Insert Keyword icon to open the Key Reference dialog.
+
+![](images/insert-keyword.png)
+
+The keywords are listed in alphabetical order and you can also search keyword\(s\) by typing a search string in the Search box. The search result will return the keywords containing the string in ID or Value. The keywords defined in your DITA map are listed in this dialog. Choose the keyword that you want to insert and click**Insert**.
+
+You can also change the attributes of the inserted keyword by right-clicking on the keyword and selecting the Attributes option. The Attributes for Keyword dialog opens:
+
+![](images/attributes-for-keyword.png)
+
+You can change the keyword's attributes or add a new attribute to the keyword.
+
+**Insert Snippet** - [](images/insert-snippet-icon.svg)
+
+Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, see [Snippets](#snippets_id20A5D0303XA) later in this guide.
+
+When you click the Insert Snippet icon, you are shown the Insert Snippet catalog. The catalog is context-sensitive, which indicates that it will show the snippets only if they are allowed at the current location.
+
+The following example shows two pre-configured snippets - Warning and Error that can be inserted at the current location in the document.
+
+![](images/insert-snippet.png)
+
+When you choose a snippet from the list, it gets inserted at the current or next valid location in the document. The following screenshot shows the Error snippet inserted in the document:
+
+![](images/error-snippet.png)
+
+**Insert/Edit Image Map** - [](images/imagemap-rectangle.svg)
+
+Inserts an image map on the selected image. An image with clickable areas that link to topics or web pages is called an image map.
+
+Select an image in the current topic and click the Insert/Edit Image Map icon to open the insert Image Map dialog.
+
+![](images/insert-image-map.png)
+
+Choose the preferred shape \(Rectangle ![](images/imagemap-rectangle-toolbar.svg), Circle ![](images/imagemap-circle-toolbar.svg), or Polygon ![](images/imagemap-polygon-toolbr.svg)\) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
+
+![](images/reference-dialog.png)
+
+If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
+
+**Lock/Unlock** - [](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+
+Locks or unlocks the current file. Locking \(or checking\) out a file gives the user exclusive write access on the file. When the file is Unlocked \(or checked-in\), the changes are saved in the current version of the file.
+
+If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can click on the Lock icon to get the lock on all files within the map.
+
+**Toggle Tags View** - [](images/Label_icon.svg)
+
+Tags are visual cues indicating an element's boundaries. An element boundary marks the beginning and end of an element. You can then use these boundaries as a visual cue to place the insertion point or select the text within a boundary. If you want to insert another element before or after an element in the document, you can place the insertion point before or after the opening or closing boundary of the element.
+
+The following screenshot shows a document with Tags View on:
+
+![](images/tags-view.png)
+
+The following operations can be performed in a document with Tags View on:
+
+-   **Select an element**: Click on the opening or closing tag of an element to select its content.
+
+-   **Expand or collapse tags**: Click on the + or - sign in a tag to expand or collapse it.
+
+-   **Use the context menu**: The context menu provides options to cut, copy, or paste the selected element. You can also insert an element before or after the selected element. The other options allow you to Generate ID or open the Properties panel for the selected element.
+
+-   **Drag-and-drop elements**: Select an element's tag and easily drag-and-drop it on your document. If the drop location is a valid location where the element is allowed, the element is placed at the dropped location.
+
+
+>[!NOTE]
+>
+> If a user enables the Tags View from the Web Editor, it remains enabled even across the sessions. This means that you don't have to enable the Tags View again to access it later.The default value for Tags View for a new user's session is determined by the tagsView property in the ui\_config.json file. For more details, see the *Configure default value for Tags View* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+**Enable/Disable Track Changes** ![](images/track-change-icon.svg)
+
+You can keep a track of all updates made on a document by enabling the Track Changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and green bar is shown for added content. In case there is addition and deletion on the same line, then both green and red bars are shown.
+
+The following screenshot highlights the deleted and inserted content along with the change bars:
+
+![](images/track-changes-content.png)
+
+A typical use case for tracking changes in a document can be for doing peer review. You can enable track changes and share your document for review, the reviewer then makes changes with track changes ON. When you receive the document, you should then have a mechanism to view the suggested updates along with a convenient way to accept or reject changes.
+
+AEM Guides provides the Tracked Changes feature that contains information about the updates made in the document. The Tracked Changes feature provides information about what updates were made, who made them, and at what time. Using the Tracked Changes feature, you can also easily accept or reject the suggested updates in the document.
+
+To access the feature, click the Tracked Changes icon in the right panel.
+
+![](images/changes-panel_cs.png)
+
+Clicking on a change selects the changed content in the document. You can accept a change by selecting the Accept Change icon or reject it by selecting the Reject Change.
+
+If you want to accept or reject all changes with a single click, select **Accept All** or **Reject All**.
+
+>[!NOTE]
+>
+> The Preview mode allows you to view the document with or without the changed content's markups. For more details, see the [Preview](web-editor-views.md#preview-mode-id19AAGL00163) mode.
+
+**Merge** - [](images/merge-icon.svg)
+
+When you work in a multi-author environment, it becomes difficult to track what changes the other authors have made in a topic or map. The Merge feature gives you more control over not only viewing the changes, but also what changes are retained in the latest version of the document.
+
+**Merge topic files**
+
+To merge changes in a topic, perform the following steps:
+
+1.  Open a topic in the Web Editor.
+
+1.  Click **Merge**.
+
+    The Merge dialog appears.
+
+    ![](images/merge-changes-in-topic.png)
+
+1.  *\(Optional\)* You can also browse and select a new file from some other location in your repository.
+
+1.  Select a version of the file with which you want to compare the current version of the file.
+
+1.  From the Options, choose:
+
+    -   **Track Changes From Selected Version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
+
+    -   **Revert to Selected Version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
+
+1.  Click **Done**.
+
+1.  If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changes feature of the right panel.
+
+    You can choose to accept or reject all comments from the Tracked Changes panel or accept or reject individual comment.
+
+
+**Merge map files**
+
+To merge changes in a map file, perform the following steps:
+
+1.  Open a map in the Web Editor.
+
+1.  Click **Merge**.
+
+    The Merge dialog appears.
+
+    ![](images/merge-changes-in-map.png)
+
+1.  *\(Optional\)* You can also browse and select a new file from some other location in your repository.
+
+1.  Select a version of the file with which you want to compare the current version of the file.
+
+1.  From the Options, choose:
+
+    -   **Track Changes From Selected Version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
+
+    -   **Revert to Selected Version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
+
+1.  Click **Done**.
+
+    1.  If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changespanel \(on the right\).
+
+        You can choose to accept or reject all changes from the Tracked Changes panel or accept or reject individual change in the map file.
+
+
+**Version History** - [](images/version-history-web-editor-ico.svg)
+
+AEM Guides provides various ways to view the versions created for your topic files and also ways to revert to a specific version. However, most of these features are available outside the Web Editor.
+
+The Version History feature in the Web Editor allows you to not only check the available versions and labels on your active topic, but also gives you the flexibility to revert to any version from the editor itself.
+
+To access the version history and revert to a specific version of your topic, perform the following steps:
+
+1.  Open a topic in the Web Editor.
+
+1.  Click **Version History**.
+
+    The Version History dialog appears.
+
+    ![](images/version-history-dialog-web-editor.png)
+
+1.  Choose a version of the topic that you want to revert to in the **Select Version** drop-down list.
 
     >[!NOTE]
     >
-    > You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the [Upload Assets](#id2057BF0F05Z) workflow.
+    > If a version has labels applied to it, they are also shown \(in brackets\) along with the version number.
 
-    ![](images/insert-image.png)
+    Once you choose a version from the drop-down list, the Revert to Selected Version option is made available. The preview window displays the differences between the current version and the selected version of the topic.
 
-    You can add image/Figure Title and Alternate Text for the image in the Insert Image dialog.
+    ![](images/version-history-revert-diff-dialog-web-editor.png)
 
-    You can search for the required image file by entering the file name in the Type to Search bar at the top and also filter the search results by Path \(to search in\), Collections, File Type, and Tags. Once you have found the required image file, select the file and click Select to insert the image in your document. You can insert various formats of image files, such as `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, and more.
+1.  Click **Revert to Selected Version** to revert your working copy with the selected version of the topic.
 
-    Once you have inserted an image, you can change the height, width, placement, and attributes from the Content Properties panel. Click on an image file and then make changes in the Content Properties panel in the right rail.
+    The Revert Version dialog appears.
 
-    ![](images/image-properties.png)
+    ![](images/version-history-revert-dialog-save-working-copy.png)
 
-    The Source field displays the UUID of the inserted image file. You can find the complete path of the inserted image file by hovering the mouse pointer over the Source field. The path is displayed in the tooltip.
+1.  \(*Optional*\) Provide a reason of reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
 
-    You can resize an image by providing either Height or Width value for the image file. The aspect ratio of the image is maintained automatically. If you want, you can also choose not to maintain the aspect ratio of the image file by clicking the lock icon \(of Maintain Aspect Ratio\) and providing Height and Width values.
+1.  Click **Confirm.**
 
-    You can also specify the Placement setting for the image as Inline or Break. In case you choose to use the Break placement option, you can then choose where to align the image \(Left, Center, or Right\).
+    Your working copy of the file is reverted to the selected version. If you chose to create a new version of the currently active working copy, then a new version of the file is also created with all working changes.
 
-    You can also add other properties for an image file by selecting the required properties in the **Attributes** field.
 
-    >[!NOTE]
-    >
-    > You can also define clickable areas \(image map\) in your image. For more details, see [Insert/Edit Image Map](#id195TEB0005B).
+When you revert to an earlier version, a visual cue is shown indicating that version you are currently working on is not the latest version.
 
-    **Context menu for image or media files**
+![](images/older-version-visual-cue.png)
 
-    You can also perform some common operations for images and media files using the context menu. Right-click at any place on your image to invoke the context menu.
+**Version Label Management** -  ![](images/version-label-icon.svg)
 
-    The context menu provides options to cut, copy, or paste the image or media. You can insert an element before or after the selected element. You also have the option to rename or unwrap an element. You can locate the selected image or media in the repository or view the preview of the file in Assets UI.
+Labels help you identify the stage in which a particular topic is in the DDLC \(Document Development Life Cycle\). For example, when you are working on a topic, you could set the label as "Approved". Once a topic is published and made available to customers, you can assign "Released" label to that topic.
 
-    The other options in the context menu allow you to copy path, edit an image map, create a snippet, or generate IDs for the selected element.
+AEM Guides allows you to specify labels in a free-form text format or use a set of predefined labels. The custom label would allow any author in the system to specify a label as per their choice. This gives flexibility; however, it introduces inconsistent labels in the system. To overcome this issue, administrators can configure a set of predefined labels. For more information about configuring predefined labels, see *Configure and customize the XML Web Editor* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-Insert Multimedia – ![](images/insert-multimedia-icon.svg)
-:   Inserts different types of multimedia files. Click the Insert Multimedia icon and choose the type of file you want to insert. The supported multimedia formats are:
+These labels are shown in the form of a drop-down list to authors wherever they need to specify a label. This ensures that only predefined, consistent labels are used in the system.
 
-    -   Audio File
-    -   Video File
-    -   YouTube
-    -   Vimeo
+There are different methods through which you can apply labels to your topics - [Version History](web-editor-use-label.md#) panel in Assets UI, [Baselines](/help/tutorials/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI, and Web Editor. The Version Label feature in the Web Editor gives authors quick and easy way to assign labels to their topics.
 
-    On selecting the Audio or Video file option, you are shown the repository view to browse and select the desired file. If you choose YouTube or Vimeo, then you get the Insert Multimedia dialog. Paste the link of the video file in the Web Link field and click Insert to add the video at the current or next valid location in your document.
+To add labels to your topic from the Web Editor, perform the following steps:
 
-    >[!NOTE]
-    >
-    > While adding a YouTube video link, you need to replace the string `watch?v=` with `embed` in the URL. For example, to add a YouTube video link: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, you need to add it as: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. This change ensures that the video gets embedded in the AEM Site and PDF output.
+1.  Open a topic in the Web Editor.
 
-    You can also add the Audio or Video File from the Insert Multimedia dialog. Select the Audio/Video File option and click the browse icon to launch the repository view. Select the audio or video file from the repository and click Select to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to see its preview.
+1.  Click **Version Label**.
 
-    ![](images/insert-multimedia.png)
+    The Version Label Management dialog appears.
 
-Insert Cross Reference – ![](images/Reference_icon.svg)
-:   Insert references of type — Content Reference, Content Key Reference, Key Reference, File Reference, Web Link, or Email Link.
+    ![](images/version-label-management-dialog.png)
 
-    Click the **Select File** icon \(for Content Reference and File Reference\) or **Select Map** icon \(for Content Key Reference and Key Reference\) and select the desired file or content to link to.
+    The Version Label Management dialog is split into two parts — the left panel has a list of versions available for the topic along with label drop-down list \(or a text box to enter a label\) and the right panel with a preview of the topic.
 
-    ![](images/insert-references.png)
+1.  Select a version on which you want to apply labels.
 
-    A link of the selected reference is added in the document. The context menu on the link gives you the options to:
-
-    -   **Insert Element**: Shows a list of valid elements that you can insert at the given context.
-    -   **Copy UUID**: Copies the UUID of the inserted reference.
-    -   **Copy Path**: Copies the complete path of the inserted reference.
-    -   **Create Snippet**: Creates a reusable snippet from the inserted reference.
-    -   **Generate IDs**: Generates unique ID for the inserted reference.
-
-    You can also search using the UUID of the file that you want to reference. For Content and Key Reference links, enter the UUID of the file that you want to link to, and the file is automatically searched and displayed in the Preview section. When you specify the UUID of the file, you need not explicitly mention the file extension for .xml files. The .xml extension is auto-appended to the UUID.
-
-    ![](images/insert-content-using-uuid-search.png)
-
-    If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will see the UUID of the referenced content in the **Link** property.
-
-    ![](images/ref-link-uuid_cs.png)
+    When you choose a different version of the topic from the version list, then the preview panel displays the changes in-between the current version and the selected version of the topic
 
     >[!NOTE]
     >
-    > If the **Enable UUIDs** option is not enabled, then the relative path of the referenced content is shown.
+    > If a label is already applied on a version, it is displayed next to the version number in the drop-down list and below the Select Version list. You can remove an existing label by clicking the \(**x**\) icon next to the label.
 
-    >[!IMPORTANT]
-    >
-    > Even though the relative path of the referenced content is shown in the **Link** property, internally the link is created using the UUID of the referenced content.
+1.  In case your administrator has defined a list of labels, then you are shown a drop-down list of the labels from where you can choose the labels that you want to apply. You can select multiple labels from the drop-down list.
 
-    >[!TIP]
-    >
-    > See the References section in the Best practices guide for best practices around referencing content.
-
-    **Filter Search**
-
-:   You can search for some text in the files present on the selected path of the AEM repository. For example, 'general' is searched in the below given screenshot. You can also narrow down your search using enhanced filters. You can look for all DITA Files like DITA Topics and DITA Maps present on the selected path.
-
-    You can search for Non-DITA Files like the Image Files, Multimedia, and documents in the selected path. You can also search for specific values in the attributes of DITA elements. You can also look for files which are checked out by the specified user.
-
-    ![](images/reference-search-filters.png)
+    Else, you are shown a text box, wherein you can enter the labels that you want to add to your topic.
 
     >[!NOTE]
     >
-    > Your system administrator can also configure the text filters and show or hide other filters. For more details see Configure text filters section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    > You cannot apply the same label on multiple versions of a topic. If you try to associate an existing label, then you are given an option to remove it from the existing version and apply it on the selected version of the topic.
 
-    The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general' are listed. You can also preview the content of the file.
+1.  Click **Add Label**.
 
-Insert Reusable Content – ![](images/content-reuse-icon.svg)
-:   Reuse content that exists within any other document in your project. You can insert content by directly linking to the content in a file or by using a key reference, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z). When you click the Insert Reusable Content icon, you get the Reuse Content dialog:
+1.  In the Apply Label confirmation message, select the **Move Label** option to move labels from an existing version to the selected version. If you do not select this option and there are labels that are assigned to a different version of the topic, then they are not moved to the selected topic's version. Such labels are ignored in the label application process.
 
-    ![](images/reuse-content-dialog.png)
 
-    In the Reuse Content dialog, select DITA file for file references or the DITA map file that contains the key references. Once selected, the topic or key references are shown in the dialog. You can select the ID/key of the topic that you want to insert and click Done to insert the content within your topic.
+**Create Review Task** -  ![](images/create-review-task-icon.svg)
 
-    For inserting Content Reference, you can also enter the UUID of the file and the reusable content from that file is listed in the Preview section.
-
-    Based on the setting for inserting links, you could either see the UUID of the inserted content or the relative path in the Properties panel or the Source code view. The link is always created using the UUID of the referenced content. See Configure UUID-based links in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-    >[!NOTE]
-    >
-    > To add content before or after the referred content, use *Alt*+*Left* Arrow or Alt+*Right* Arrow keys to move the cursor to the desired location.
-
-    You can also embed the referred content within the topic by right-clicking on the referred content and choosing **Replace Reference With Content** from the context menu.
-
-Insert Special Characters — ![](images/insert-special-chars-icon.svg)
-:   Inserts special characters in your topic. Click the Insert Special Character icon to open the Insert Special Character dialog.
-
-    >[!NOTE]
-    >
-    > AEM Guides provides movable and resizable dialog boxes. Dialogs that have two cross lines at the bottom-right corner can be resized. The cross lines in the Special Character dialog are shown below.
-
-    ![](images/insert-special-char.png)
-
-    In the Insert Special Character dialog, you can search for a special character using its name. All special characters are stored under various categories. Use the Select Category drop-down list and select a category. The special characters available within the selected category are displayed. You can navigate the list of special character using the arrow keys or click on the desired character that you want to insert. The Name and Hex Code of the selected special character are displayed below the list. Click Insert to insert the selected character in your document.
-
-Insert Keyword – ![](images/Keyword_icon.svg)
-:   Insert keyword defined in your DITA map. Click the Insert Keyword icon to open the Key Reference dialog.
-
-    ![](images/insert-keyword.png)
-
-    The keywords are listed in alphabetical order and you can also search keyword\(s\) by typing a search string in the Search box. The search result will return the keywords containing the string in ID or Value. The keywords defined in your DITA map are listed in this dialog. Choose the keyword that you want to insert and click**Insert**.
-
-    You can also change the attributes of the inserted keyword by right-clicking on the keyword and selecting the Attributes option. The Attributes for Keyword dialog opens:
-
-    ![](images/attributes-for-keyword.png)
-
-    You can change the keyword's attributes or add a new attribute to the keyword.
-
-Insert Snippet – ![](images/insert-snippet-icon.svg)
-:   Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, see [Snippets](#snippets_id20A5D0303XA) later in this guide.
-
-    When you click the Insert Snippet icon, you are shown the Insert Snippet catalog. The catalog is context-sensitive, which indicates that it will show the snippets only if they are allowed at the current location.
-
-    The following example shows two pre-configured snippets - Warning and Error that can be inserted at the current location in the document.
-
-    ![](images/insert-snippet.png)
-
-    When you choose a snippet from the list, it gets inserted at the current or next valid location in the document. The following screenshot shows the Error snippet inserted in the document:
-
-    ![](images/error-snippet.png)
-
-Insert/Edit Image Map – ![](images/imagemap-rectangle.svg)
-:   Inserts an image map on the selected image. An image with clickable areas that link to topics or web pages is called an image map.
-
-    Select an image in the current topic and click the Insert/Edit Image Map icon to open the insert Image Map dialog.
-
-    ![](images/insert-image-map.png)
-
-    Choose the preferred shape \(Rectangle ![](images/imagemap-rectangle-toolbar.svg), Circle ![](images/imagemap-circle-toolbar.svg), or Polygon ![](images/imagemap-polygon-toolbr.svg)\) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
-
-    ![](images/reference-dialog.png)
-
-    If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
-
-Lock/Unlock – ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
-:   Locks or unlocks the current file. Locking \(or checking\) out a file gives the user exclusive write access on the file. When the file is Unlocked \(or checked-in\), the changes are saved in the current version of the file.
-
-    If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can click on the Lock icon to get the lock on all files within the map.
-
-Toggle Tags View – ![](images/Label_icon.svg)
-:   Tags are visual cues indicating an element's boundaries. An element boundary marks the beginning and end of an element. You can then use these boundaries as a visual cue to place the insertion point or select the text within a boundary. If you want to insert another element before or after an element in the document, you can place the insertion point before or after the opening or closing boundary of the element.
-
-    The following screenshot shows a document with Tags View on:
-
-    ![](images/tags-view.png)
-
-    The following operations can be performed in a document with Tags View on:
-
-    -   **Select an element**: Click on the opening or closing tag of an element to select its content.
-
-    -   **Expand or collapse tags**: Click on the + or - sign in a tag to expand or collapse it.
-
-    -   **Use the context menu**: The context menu provides options to cut, copy, or paste the selected element. You can also insert an element before or after the selected element. The other options allow you to Generate ID or open the Properties panel for the selected element.
-
-    -   **Drag-and-drop elements**: Select an element's tag and easily drag-and-drop it on your document. If the drop location is a valid location where the element is allowed, the element is placed at the dropped location.
-
-
-    >[!NOTE]
-    >
-    > If a user enables the Tags View from the Web Editor, it remains enabled even across the sessions. This means that you don't have to enable the Tags View again to access it later.The default value for Tags View for a new user's session is determined by the tagsView property in the ui\_config.json file. For more details, see the *Configure default value for Tags View* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-Enable/Disable Track Changes ![](images/track-change-icon.svg)
-:   You can keep a track of all updates made on a document by enabling the Track Changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and green bar is shown for added content. In case there is addition and deletion on the same line, then both green and red bars are shown.
-
-    The following screenshot highlights the deleted and inserted content along with the change bars:
-
-    ![](images/track-changes-content.png)
-
-    A typical use case for tracking changes in a document can be for doing peer review. You can enable track changes and share your document for review, the reviewer then makes changes with track changes ON. When you receive the document, you should then have a mechanism to view the suggested updates along with a convenient way to accept or reject changes.
-
-    AEM Guides provides the Tracked Changes feature that contains information about the updates made in the document. The Tracked Changes feature provides information about what updates were made, who made them, and at what time. Using the Tracked Changes feature, you can also easily accept or reject the suggested updates in the document.
-
-    To access the feature, click the Tracked Changes icon in the right panel.
-
-    ![](images/changes-panel_cs.png)
-
-    Clicking on a change selects the changed content in the document. You can accept a change by selecting the Accept Change icon or reject it by selecting the Reject Change.
-
-    If you want to accept or reject all changes with a single click, select **Accept All** or **Reject All**.
-
-    >[!NOTE]
-    >
-    > The Preview mode allows you to view the document with or without the changed content's markups. For more details, see the [Preview](web-editor-views.md#preview-mode-id19AAGL00163) mode.
-
-Merge – ![](images/merge-icon.svg)
-:   When you work in a multi-author environment, it becomes difficult to track what changes the other authors have made in a topic or map. The Merge feature gives you more control over not only viewing the changes, but also what changes are retained in the latest version of the document.
-
-    **Merge topic files**
-
-    To merge changes in a topic, perform the following steps:
-
-    1.  Open a topic in the Web Editor.
-
-    1.  Click **Merge**.
-
-        The Merge dialog appears.
-
-        ![](images/merge-changes-in-topic.png)
-
-    1.  *\(Optional\)* You can also browse and select a new file from some other location in your repository.
-
-    1.  Select a version of the file with which you want to compare the current version of the file.
-
-    1.  From the Options, choose:
-
-        -   **Track Changes From Selected Version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
-
-        -   **Revert to Selected Version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
-
-    1.  Click **Done**.
-
-    1.  If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changes feature of the right panel.
-
-        You can choose to accept or reject all comments from the Tracked Changes panel or accept or reject individual comment.
-
-
-    **Merge map files**
-
-    To merge changes in a map file, perform the following steps:
-
-    1.  Open a map in the Web Editor.
-
-    1.  Click **Merge**.
-
-        The Merge dialog appears.
-
-        ![](images/merge-changes-in-map.png)
-
-    1.  *\(Optional\)* You can also browse and select a new file from some other location in your repository.
-
-    1.  Select a version of the file with which you want to compare the current version of the file.
-
-    1.  From the Options, choose:
-
-        -   **Track Changes From Selected Version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
-
-        -   **Revert to Selected Version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
-
-    1.  Click **Done**.
-
-        1.  If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changespanel \(on the right\).
-
-            You can choose to accept or reject all changes from the Tracked Changes panel or accept or reject individual change in the map file.
-
-
-Version History – ![](images/version-history-web-editor-ico.svg)
-:   AEM Guides provides various ways to view the versions created for your topic files and also ways to revert to a specific version. However, most of these features are available outside the Web Editor.
-
-    The Version History feature in the Web Editor allows you to not only check the available versions and labels on your active topic, but also gives you the flexibility to revert to any version from the editor itself.
-
-    To access the version history and revert to a specific version of your topic, perform the following steps:
-
-    1.  Open a topic in the Web Editor.
-
-    1.  Click **Version History**.
-
-        The Version History dialog appears.
-
-        ![](images/version-history-dialog-web-editor.png)
-
-    1.  Choose a version of the topic that you want to revert to in the **Select Version** drop-down list.
-
-        >[!NOTE]
-        >
-        > If a version has labels applied to it, they are also shown \(in brackets\) along with the version number.
-
-        Once you choose a version from the drop-down list, the Revert to Selected Version option is made available. The preview window displays the differences between the current version and the selected version of the topic.
-
-        ![](images/version-history-revert-diff-dialog-web-editor.png)
-
-    1.  Click **Revert to Selected Version** to revert your working copy with the selected version of the topic.
-
-        The Revert Version dialog appears.
-
-        ![](images/version-history-revert-dialog-save-working-copy.png)
-
-    1.  \(*Optional*\) Provide a reason of reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
-
-    1.  Click **Confirm.**
-
-        Your working copy of the file is reverted to the selected version. If you chose to create a new version of the currently active working copy, then a new version of the file is also created with all working changes.
-
-
-    When you revert to an earlier version, a visual cue is shown indicating that version you are currently working on is not the latest version.
-
-    ![](images/older-version-visual-cue.png)
-
-Version Label Management — ![](images/version-label-icon.svg)
-:   Labels help you identify the stage in which a particular topic is in the DDLC \(Document Development Life Cycle\). For example, when you are working on a topic, you could set the label as "Approved". Once a topic is published and made available to customers, you can assign "Released" label to that topic.
-
-    AEM Guides allows you to specify labels in a free-form text format or use a set of predefined labels. The custom label would allow any author in the system to specify a label as per their choice. This gives flexibility; however, it introduces inconsistent labels in the system. To overcome this issue, administrators can configure a set of predefined labels. For more information about configuring predefined labels, see *Configure and customize the XML Web Editor* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-    These labels are shown in the form of a drop-down list to authors wherever they need to specify a label. This ensures that only predefined, consistent labels are used in the system.
-
-    There are different methods through which you can apply labels to your topics - [Version History](web-editor-use-label.md#) panel in Assets UI, [Baselines](/help/tutorials/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI, and Web Editor. The Version Label feature in the Web Editor gives authors quick and easy way to assign labels to their topics.
-
-    To add labels to your topic from the Web Editor, perform the following steps:
-
-    1.  Open a topic in the Web Editor.
-
-    1.  Click **Version Label**.
-
-        The Version Label Management dialog appears.
-
-        ![](images/version-label-management-dialog.png)
-
-        The Version Label Management dialog is split into two parts — the left panel has a list of versions available for the topic along with label drop-down list \(or a text box to enter a label\) and the right panel with a preview of the topic.
-
-    1.  Select a version on which you want to apply labels.
-
-        When you choose a different version of the topic from the version list, then the preview panel displays the changes in-between the current version and the selected version of the topic
-
-        >[!NOTE]
-        >
-        > If a label is already applied on a version, it is displayed next to the version number in the drop-down list and below the Select Version list. You can remove an existing label by clicking the \(**x**\) icon next to the label.
-
-    1.  In case your administrator has defined a list of labels, then you are shown a drop-down list of the labels from where you can choose the labels that you want to apply. You can select multiple labels from the drop-down list.
-
-        Else, you are shown a text box, wherein you can enter the labels that you want to add to your topic.
-
-        >[!NOTE]
-        >
-        > You cannot apply the same label on multiple versions of a topic. If you try to associate an existing label, then you are given an option to remove it from the existing version and apply it on the selected version of the topic.
-
-    1.  Click **Add Label**.
-
-    1.  In the Apply Label confirmation message, select the **Move Label** option to move labels from an existing version to the selected version. If you do not select this option and there are labels that are assigned to a different version of the topic, then they are not moved to the selected topic's version. Such labels are ignored in the label application process.
-
-
-Create Review Task — ![](images/create-review-task-icon.svg)
-:   You can create a review task of the current topic or map file directly from the Web Editor. Open the file for which you want to create the review task and click Create Review Task to initiate the review creation process.
+You can create a review task of the current topic or map file directly from the Web Editor. Open the file for which you want to create the review task and click Create Review Task to initiate the review creation process.
 
 >[!NOTE]
 >
@@ -612,604 +640,616 @@ The left panel is a persistent panel. You can expand or collapse it by clicking 
 
 The left panel gives you access to the following features:
 
-Favorites — ![](images/favorite-collections.svg)
-:   If you work on a set of files or folders, you can add them to your favorite list to access them quickly. The Favorite list shows the list of documents that you have added and other publicly accessible list of favorite documents from the other users.
+**Favorites** -  ![](images/favorite-collections.svg)
 
-    To create a favorite list or collection, click the + icon next to Favorites panel to bring up the New Collection dia log:
+If you work on a set of files or folders, you can add them to your favorite list to access them quickly. The Favorite list shows the list of documents that you have added and other publicly accessible list of favorite documents from the other users.
 
-    ![](images/favorite-new-collection.PNG)
+To create a favorite list or collection, click the + icon next to Favorites panel to bring up the New Collection dia log:
 
-    Enter a title and description for the favorite collection that you want to create. If you select **Public**, then this favorite is shown to other users as well.
+![](images/favorite-new-collection.PNG)
 
-    To add a file to your favorite collection, use any of the following methods:
+Enter a title and description for the favorite collection that you want to create. If you select **Public**, then this favorite is shown to other users as well.
 
-    -   Navigate to the required file or folder in the Repository View, click the *Options* icon to open the context menu, and choose **Add to Favorites**. In the Add to Favorites dialog, you can choose to add the file/folder to an existing favorite or create a new one.
+To add a file to your favorite collection, use any of the following methods:
 
-        ![](images/favorite-add-file-folder.png)
+-   Navigate to the required file or folder in the Repository View, click the *Options* icon to open the context menu, and choose **Add to Favorites**. In the Add to Favorites dialog, you can choose to add the file/folder to an existing favorite or create a new one.
 
-    -   Right-click on a file's tab in the editor to open the context menu. Choose **Add To \> Favorites** to add the file to your favorites list.
+    ![](images/favorite-add-file-folder.png)
 
-        ![](images/favorite-add-from-file-context-menu_cs.png)
+-   Right-click on a file's tab in the editor to open the context menu. Choose **Add To \> Favorites** to add the file to your favorites list.
 
+    ![](images/favorite-add-from-file-context-menu_cs.png)
+
+
+>[!NOTE]
+>
+> To remove an item from the favorites list, click the Options icon next to the file or folder in the Favorites list and choose **Remove from Favorites**.
+
+**Repository View** - [](images/Repository_icon.svg)
+
+When you click the Repository View icon, you get a list of files and folders available in DAM.
+
+75 files are loaded at a time. Each time you click **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
+
+You can easily navigate to the required file within DAM and open it in the Web Editor. If you have the required access to edit the file, then you can do so. Double-clicking on a map file opens it in the [Map View](#id209LE0K0IXA), whereas double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity.
+
+**Filter Search**
+
+The Web Editor provides enhanced filters for searching text. Click the Filter Search \(![](images/filter-search-icon.svg)\)icon to open the filters panel. You can search for a text in the files present on the selected path of the AEM repository. For example, 'general purpose' is searched in the below given screenshot.
+
+![](images/repository-filter-search.png)
+
+You also have the following options to filter the files and to narrow down your search in the AEM repository:
+
+-   **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path.
+-   **Non-DITA Files**: You can search for **Image Files**, **Multimedia**, and **Documents** in the selected path.
+-   **DITA Elements**: You can also search for specific values in the attributes of the specified DITA elements.
+-   **Checked Out By**: You can look for files which are checked out by the specified user.
+-   **Last Modified**: You can look for files that have been last modified after a selected date but before a selected date. You can also look for files that have been last modified in the last 2 hours, last week, last month, or last year.
+-   **Tags**: You can look for files that have specific tags applied on them. You can either type the tag or select it from the dropdown list.
+
+**Note:** Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general purpose' are listed. You can select multiple files from the filtered list to drag and drop them in a map opened for editing.
+
+**Options menu**
+
+In addition to opening files from the left panel, you can also perform many actions using the
+
+Options menu available in the Repository View. You will see different options, depending on whether you choose a folder, topic file, or a media file.
+
+**Options for a folder**
+
+You can perform the following actions using the Options menu available for a *folder* in the Repository View:
+
+![](images/options-menu-folder_cs.PNG)
+
+-   **Create**: Create a new DITA topic, DITA map, or a folder. For more details, see [Create topics from the Repository View](#id204SJ0380Y4).
+-   **Upload Assets**: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+
+    ![](images/upload-assets.png)
+
+    You can select a folder where you want to upload the file and a preview of the image is also shown. If you want to rename the file, you can do so in the file name text box. Click upload to complete the file upload process. If you have dragged and dropped an image file on a topic, then the image file is added in the article, and it is also uploaded.
+
+    If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will see the UUID of the uploaded image in the **Source** property.
+
+    ![](images/uuid-in-source-upload-image_cs.png)
+
+-   **Find Files in Folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
+
+    ![](images/find-files-in-folders-repo-view_cs.png)
+
+    You can also search using the UUID of a file. In that case, the search results display the title of the DITA/XML file and in case of the file is an image file, then the UUID of the file is displayed. In the following search example, the UUID of an image file is searched and the search results display the UUID of the original image file and the topic title of the file where that image is referenced.
+
+    ![](images/uuid-repo-search-image-topic-file_cs.png)
+
+-   **Collapse All**: Collapse all open folders in the repository and show only the root-level folders.
 
     >[!NOTE]
     >
-    > To remove an item from the favorites list, click the Options icon next to the file or folder in the Favorites list and choose **Remove from Favorites**.
+    > Use the **\>** icon next to a folder to expand it.
 
-Repository View – ![](images/Repository_icon.svg)
-:   When you click the Repository View icon, you get a list of files and folders available in DAM.
+-   **Add to Favorites**: Adds the selected folder to favorites. You can choose to add it to an existing or new favorites collection.
 
-    75 files are loaded at a time. Each time you click **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
+-   **Refresh**: Get a fresh list of files and folders from the repository.
+-   **View in Assets UI**: Show the folder contents in the Assets UI.
 
-    You can easily navigate to the required file within DAM and open it in the Web Editor. If you have the required access to edit the file, then you can do so. Double-clicking on a map file opens it in the [Map View](#id209LE0K0IXA), whereas double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity.
+**Options for a file**
 
-    **Filter Search**
+You will see different options in the Options menu depending on whether you select a media file or a DITA file. Some common options available for both media and DITA files are:
 
-    The Web Editor provides enhanced filters for searching text. Click the Filter Search \(![](images/filter-search-icon.svg)\)icon to open the filters panel. You can search for a text in the files present on the selected path of the AEM repository. For example, 'general purpose' is searched in the below given screenshot.
+-   Duplicate
+-   Checkout/Check In
+-   Preview
+-   Delete
+-   Copy
+-   Collapse All
+-   Add to Favorites
+-   Properties
+-   View in Assets UI
 
-    ![](images/repository-filter-search.png)
+![](images/options-menu-repo-view-file-level.png)
 
-    You also have the following options to filter the files and to narrow down your search in the AEM repository:
+The various options in the Options menu are explained below:
 
-    -   **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path.
-    -   **Non-DITA Files**: You can search for **Image Files**, **Multimedia**, and **Documents** in the selected path.
-    -   **DITA Elements**: You can also search for specific values in the attributes of the specified DITA elements.
-    -   **Checked Out By**: You can look for files which are checked out by the specified user.
-    -   **Last Modified**: You can look for files that have been last modified after a selected date but before a selected date. You can also look for files that have been last modified in the last 2 hours, last week, last month, or last year.
-    -   **Tags**: You can look for files that have specific tags applied on them. You can either type the tag or select it from the dropdown list.
+-   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
 
-:   **Note:** Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-    The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general purpose' are listed. You can select multiple files from the filtered list to drag and drop them in a map opened for editing.
-
-    **Options menu**
-
-    In addition to opening files from the left panel, you can also perform many actions using the
-
-    Options menu available in the Repository View. You will see different options, depending on whether you choose a folder, topic file, or a media file.
-
-    **Options for a folder**
-
-    You can perform the following actions using the Options menu available for a *folder* in the Repository View:
-
-    ![](images/options-menu-folder_cs.PNG)
-
-    -   **Create**: Create a new DITA topic, DITA map, or a folder. For more details, see [Create topics from the Repository View](#id204SJ0380Y4).
-    -   **Upload Assets**: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
-
-        ![](images/upload-assets.png)
-
-        You can select a folder where you want to upload the file and a preview of the image is also shown. If you want to rename the file, you can do so in the file name text box. Click upload to complete the file upload process. If you have dragged and dropped an image file on a topic, then the image file is added in the article, and it is also uploaded.
-
-        If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will see the UUID of the uploaded image in the **Source** property.
-
-        ![](images/uuid-in-source-upload-image_cs.png)
-
-    -   **Find Files in Folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
-
-        ![](images/find-files-in-folders-repo-view_cs.png)
-
-        You can also search using the UUID of a file. In that case, the search results display the title of the DITA/XML file and in case of the file is an image file, then the UUID of the file is displayed. In the following search example, the UUID of an image file is searched and the search results display the UUID of the original image file and the topic title of the file where that image is referenced.
-
-        ![](images/uuid-repo-search-image-topic-file_cs.png)
-
-    -   **Collapse All**: Collapse all open folders in the repository and show only the root-level folders.
-
-        >[!NOTE]
-        >
-        > Use the **\>** icon next to a folder to expand it.
-
-    -   **Add to Favorites**: Adds the selected folder to favorites. You can choose to add it to an existing or new favorites collection.
-
-    -   **Refresh**: Get a fresh list of files and folders from the repository.
-    -   **View in Assets UI**: Show the folder contents in the Assets UI.
-
-    **Options for a file**
-
-    You will see different options in the Options menu depending on whether you select a media file or a DITA file. Some common options available for both media and DITA files are:
-
-    -   Duplicate
-    -   Checkout/Check In
-    -   Preview
-    -   Delete
-    -   Copy
-    -   Collapse All
-    -   Add to Favorites
-    -   Properties
-    -   View in Assets UI
-
-    ![](images/options-menu-repo-view-file-level.png)
-
-    The various options in the Options menu are explained below:
-
-    -   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
-
-    -   **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
-    -   **Check Out**: Get a lock on the selected file for editing. For a locked file, this option changes to **Check In**.
-
-        >[!NOTE]
-        >
-        > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
-
-    -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
-
-        ![](images/quick-preview_cs.png)
-
-    -   **Delete**: Use this option to delete the selected file. A confirmation prompt is displayed before deleting the file.
-
-        -   A confirmation prompt is displayed before deleting the file.
-        -   If the file is not referenced from any other file, it is deleted, and a success message is displayed.
-        -   If the file is checked out, you cannot delete it, and an error message is displayed.
-
-            >[!NOTE]
-            >
-            > If your administrator has prevented the deletion of checked out files, only then the error message is displayed. For more details, see *Prevent deletion of checked out files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-        -   If the file is added to a favorites collection, the **Force Delete** dialog is displayed, and you can forcefully delete it.
-        -   If the file is referenced from any other file then **Force Delete** dialog with the confirmation message is displayed, and you can forcefully delete the file:
-
-            ![](images/options-menu-force-delete.png)
-
-            >[!NOTE]
-            >
-            > If your administrator has given the file delete permission, then **Force Delete** is enabled. Else, **Force Delete** is disabled and a message is displayed that you do not have permission to delete referenced files. For more details, see *Prevent deletion of referenced files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-        -   If you delete a referenced topic and you have opened the file containing references for edit, it will show the broken link for the referenced file.
-        >[!NOTE]
-        >
-        > You can also delete the selected file similarly using the Delete key of the keyboard.
-
-    -   **Copy**: You can choose from the following options:
-
-        -   **Copy UUID**: Copy the UUID of the selected file to Clipboard.
-
-        -   **Copy Path**: Copy complete path of the selected file to Clipboard.
-
-    -   **Collapse All**: Collapse all files in the repository. Only the top-level folders in the repository are shown.
-    -   **Add To**: You can choose from the following options:
-        -   **Favorites**: Adds the selected file to favorites. You can choose to add it to an existing or new favorites collection.
-
-        -   **Reusable Contents**: Adds the selected file to the Reusable Contents list in the left panel.
-
-    -   **Properties**: Use this to open the properties page of the selected file. This properties page can also be accessed from the Assets UI by selecting a file and clicking on the Properties icon in the toolbar.
-
-    -   **Open Map Dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
-
-    -   **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
-
-    -   **Quick Generate**: Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
-
-
-Create topics from the Repository View
-:   You can choose to create a new topic, map, or folder from + icon next to the Repository panel or from the context menu of a folder in the Repository View.
-
-:   ***Create a topic***
-
-    When you choose to *create a new topic* from the menu, you get the following dialog:
-
-    ![](images/create-topic-dialog.png)
-
-    In the **Create New Topic** dialog, provide the following details:
-
-    -   A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, and Troubleshooting templates.
-
-        If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder Profile.
-
-    -   Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
-    -   A Title for the topic.
-
-    -   *\(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title.
-
-        In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field as shown in the following screenshot:
-
-        ![](images/new-topic-without-filename.PNG)
-
-
-    When you click **Create**, the topic is created at the specified path. Also, the topic is opened in the Web Editor for editing.
-
-:   ***Create a DITA map***
-
-    When you choose to *create a new DITA map*, you get the following dialog:
-
-    ![](images/create-map-dialog.png)
-
-    In the **Create New Map** dialog, provide the following details:
-
-    -   A template on which the map will be based. For example, for an out-of-the-box setup, you can choose from the Bookmap or DITA map templates.
-
-    -   Path where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field.
-    -   A **Title** for the map.
-
-    -   *\(Optional\)* The file name for the map. The file name is auto-suggested based on the map Title.
-
-        In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
-
-
-    When you click **Create**, the map is created and added within the folder specified in the Path field. Also, the map is opened in the Map View. You can open the map file in the Map Editor and add topic to it. For more information about adding topics to a map file, see [Create a map](map-editor-create-map.md#).
-
-:   ***Create a folder***
-
-    When you choose to *create a new folder*, you get the **Create New Folder** dialog:
-
-    ![](images/new-folder-dialog_cs.png)
-
-    Enter a **Title** for the folder, which is auto-converted into the folder name. Path is where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field. When you click **Create**, the folder is created and added within the folder from where the create folder option was executed.
-
-Map View — ![](images/map-view-icon.svg)
-:   When you click the Map View icon, you get a list of topics within the map file. If you have not opened any map file, then the Map View appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Web Editor. When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
-
-    You can perform the following actions using the Options menu of the map file:
-
-    ![](images/options-menu-map-view_cs.png)
-
-    -   **Edit**: Open the map file for editing in the Advanced Map Editor.
-
-    -   **Select All**: Select all files in the map.
-
-    -   **Clear Selection**: Deselect the selected files in the map.
-
-    -   **Checkout and Lock**: Checkout and get a lock on the selected files in the map.
-
-    -   **Cancel Checkout and Unlock**: Unlocks the map file and makes it available for editing. It does not revert the changes to earlier version.
-
-    -   **Save as New Version and Unlock**: Create a newer version and release the lock on the selected files in the map.
-
-    -   **Preview**: Open a preview of the map file. In this view, all topic files within the map are shown in a single unified page-by-page view.
-
-    -   **Copy**: You can choose from the following options:
-        -   **Copy UUID**: Copy the UUID of the map file to Clipboard.
-        -   **Copy Path**: Copy complete path of the map file to Clipboard.
-
-    -   **Locate in Repository**: Shows the location of the map file in the repository \(or DAM\).
-
-    -   **Add To**: You can choose from the following options:
-        -   **Favorites**: Adds the map file to favorites. You can choose to add it to an existing or new favorites collection.
-
-        -   **Reusable Contents**: Adds the map file to the Reusable Contents list in the left panel.
-
-    -   **Properties**: Use this to open the properties page of the map file. This properties page can also be accessed from the Assets UI by selecting a file and clicking on the Properties icon in the toolbar.
-
-    -   **Open Map Dashboard**: Open the map dashboard.
-
-    -   **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
-
-    -   **Quick Generate**: Generate the output for the selected map file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
-    -   **Close**: Closes the map file.
-
-    The following screenshot shows the Options menu for a file in the DITA Map View:
-
-    ![](images/options-menu-file_cs.PNG)
-
-    You can perform the following actions using the Options menu:
-
-    -   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
-
-    -   **Check Out**: Check out the selected file. For a checked out file, this option changes to **Check In**.
-
-        >[!NOTE]
-        >
-        > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
-
-    -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
-    -   **Copy**: You can choose from the following options:
-        -   **Copy UUID**: Copy the UUID of the selected file to Clipboard.
-        -   **Copy Path**: Copy complete path of the selected file to Clipboard.
-
-    -   **Locate in Repository**: Shows the location of the selected file in the repository \(or DAM\).
-    -   **Expand All**: Expand all topics in the map files.
-
-    -   **Collapse All**: Collapse all topics that are a part of the current map file.
-
-    -   **Add To**: You can choose from the following options:
-        -   **Favorites**: Adds the selected file to favorites. You can choose to add it to an existing or new favorites collection.
-
-        -   **Reusable Contents**: Adds the selected file to the Reusable Contents list in the left panel.
-
-    -   **Properties**: Use this to open the properties page of the selected file. This properties page can also be accessed from the Assets UI by selecting a file and clicking on the Properties icon in the toolbar.
-
-    -   **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
-
-    -   **Quick Generate**: Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+-   **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
+-   **Check Out**: Get a lock on the selected file for editing. For a locked file, this option changes to **Check In**.
 
     >[!NOTE]
     >
-    > You can also open and edit the properties of selected topics in a DITA map from the **More Options** menu at the bottom of the Map View.
+    > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
 
-Outline View — ![](images/outline-icon.svg)
-:   When you click the Outline View icon, you get the hierarchical view of the elements used in the document.
+-   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 
-    ![](images/outline-view_cs.png)
+    ![](images/quick-preview_cs.png)
 
-    The Outline View offers the following features:
+-   **Delete**: Use this option to delete the selected file. A confirmation prompt is displayed before deleting the file.
 
-    -   A tree view of all elements used in the document.
-
-    -   If an element has an ID, it is shown along with the element.
-
-    -   Access Outline View in both Author and Source views.
-
-    -   Use the filter drop-down list to show all elements or only the broken references:
-
-    -   Clicking on an element in the Outline View selects the element's content in the Author or Source view.
-
-        ![](images/select-elemet-content-outline-view_cs.png)
-
-    -   Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you see a square box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
-
-        ![](images/replace-element-outline-view_cs.png)
-
-        If you drag and drop an element, a horizontal bar indicates that the element can be placed at the current location.
-
-        ![](images/drop-element-outline-view_cs.png)
-
-    -   The **Options** menu in the *Outline View* allows you to perform generic operations such as Cut, Copy, Delete, [Generate ID](web-editor-other-features.md#id199RI0YF0YK), Insert element before or after the current element, [Rename or replace an element](web-editor-other-features.md#id199RI0Z0YHT), [Unwrap an element](web-editor-other-features.md#id199RI0ZG0PF), and create a snippet out of the selected element.
-
-    -   Search for an element by its name or attribute value.
-
-
-Reusable Contents — ![](images/content-reuse-icon.png)
-:   One of the main features of DITA is the ability to reuse content. The Reusable Contents panel can store your DITA files from where you generally insert reusable content. Once added, the DITA files remain in the Reusable Contents panel across sessions. This means that you don't have to add your DITA files again to access them later.
-
-    You can simply drag-and-drop reusable content from the panel onto your current topic and it gets inserted easily and quickly. You can also get a preview of the content before inserting it in your document.
-
-    To add a DITA file to your Reusable Contents panel, use any of the following methods:
-
-    -   Click the + icon next to Reusable Contents to open the browse file dialog. Select the file that you want to add and click **Add** to complete the process.
-
-        ![](images/reuse-content-add-dita-file_cs.png)
-
-    -   In the Repository View, click the Options icon of the desired file and choose **Add to Reusable Contents** from the context menu.
-
-    -   Right-click on a file's tab in the editor to open the context menu and choose **Add to Reusable Contents**.
-
-
-    Once the file is added, you can see all reusable content elements from the file in the Reusable Content panel. Reusable content is shown with their IDs and element names.
-
-    When you add a file to the Reusable Contents list, the file's title is shown instead of the UUID of the file. To check the UUID of the file, mouse hover over the file's title and the UUID of the file is displayed in the tooltip.
-
-    ![](images/uuid-reusable-content-file-title_cs.png)
-
-    >[!NOTE]
-    >
-    > You can add multiple files to the reusable content list. Then you can insert the desired content from the Reusable Contents panel into your document.
-
-    **Refresh**: Rechecks for all reusable content and displays a fresh list of reusable contents.
-
-    To insert content from the Reusable Contents panel, use any of the following methods:
-
-    -   Hover the mouse pointer over an element that you want to insert, click on the Options icon, and choose **Insert Reusable Content**.
-
-        ![](images/insert-reusable-content_cs.png)
+    -   A confirmation prompt is displayed before deleting the file.
+    -   If the file is not referenced from any other file, it is deleted, and a success message is displayed.
+    -   If the file is checked out, you cannot delete it, and an error message is displayed.
 
         >[!NOTE]
         >
-        > Note: The **Preview** option is also available in the context menu, which gives you a quick preview of the element before inserting it.
+        > If your administrator has prevented the deletion of checked out files, only then the error message is displayed. For more details, see *Prevent deletion of checked out files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-    -   Drag-and-drop the reusable content item from the panel at the desired location in your document.
+    -   If the file is added to a favorites collection, the **Force Delete** dialog is displayed, and you can forcefully delete it.
+    -   If the file is referenced from any other file then **Force Delete** dialog with the confirmation message is displayed, and you can forcefully delete the file:
 
-
-Glossary — ![](images/glossary.svg)
-:   AEM Guides allows you to easily create and use the glossary type documents. You can create glossary topic files and then include them in a common glossary map. Once this map is added as your root map, the glossary entries are then shown in the Glossary panel.
-
-    ![](images/glossary-panel.png)
-
-    To insert a term from the glossary, simply drag-and-drop the entry from the panel to the desired location in your topic. The Options menu of a glossary term allows you to get a quick **Preview** of the entry term, **Copy Path** of the entry term file, or locate the entry term file in the repository.
-
-    Perform the following steps to search text terms and replace them with glossary abbreviations:
-
-    1.  Open the DITA topic or map in which you wish to search and convert the text or terms.
-    1.  Select the glossary panel to view the glossary terms present in the root map. You can drag-and-drop these terms to add them to the open topic.
-    1.  Select the **Hotspot** tool \( ![](images/hotspot-icon.svg)\) in the Glossary panel to search and convert specific text terms to linked glossary abbreviations. Also, vice versa you can use it to search glossary abbreviations and convert them to text terms.
-
-    ![](images/glossary-hotspot-tool.png)
-
-    You can configure the following settings of the Hotspot tool:
-
-    ![](images/Glossary-search-keys.png)
-
-    -   **Glossary Keys**: Select the glossary keys from the DITA map you want to use for the search in the selected topic. The selected keys will be displayed below. You can remove a selected key by clicking the **Remove** icon.
-
-    -   **Topics**: Choose either the **Current Topic** opened in the Web Editor, all **Opened Topics** in the current map, or the **Current Map** being edited in the Map Editor to search the terms.
-    -   **Filter Topics by Status**: You can choose to limit the search to topics that have the selected document status. The topics can be in Draft, Edit, In-Review, Approved, Reviewed, Done status, or in any one of the state as configured by the organization.
-    -   **Action**: You can choose to either search the glossary keys **Manually for Each Topic** or **Automatically for All Topics**. If you choose **Manually for Each Topic**, it prompts you to confirm before converting each term in every topic. If you choose **Automatically for All Topics**, it converts all terms in all the topics automatically.
-    -   **Convert**: You can either convert a searched **Text to glossary term** or **Glossary term to text.**
-    -   **Options**: You can select from the following options:
-        -   **Case-sensitive Match**: Searches for a term to find the match which has the same casing. For example, 'USB' will not match with 'usb'.
-        -   **Convert Only the First Instance**: If multiple instances of the searched term are present in a topic, only the first instance is converted.
-        -   **Check out File Before Conversion**: The searched file is checked out before the terms are converted.
-        -   **Create a New Version After Conversion**: A new version of the topic is created after the conversion of terms has been completed.
-    -   ******Next** button appears if you select **Manually for each topic** option. Click **Next** to convert the terms for each topic on the basis of the selected settings. It prompts for conversion of terms in each topic and moves to the next file. You can choose to convert a term or skip it and move to the next term.
-
-        ![](images/manual-convert-skip.png)
-
-    -   **Convert** button appears if you select **Automatically for All Topics** option. Select **Convert** to convert all the terms found in the document to linked glossary abbreviations.
-
-    A list of the **Topics Updated** with the converted terms and **Topics with Error** is displayed. Hover over the \( ![](images/info-icon.svg)\) icon near Topics with Error to see the details of the error.
-
-    ![](images/glossary-converted-terms-error.png)
-
-    >[!NOTE]
-    >
-    > Refresh the topic to view the converted terms.
-
-Conditions — ![](images/conditions-icon.svg)
-:   The Conditions panel displays the conditional attributes defined by your administrator in the global or folder-level profile. You can add conditions to your content by simply dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition for easy identification.
-
-    You can also apply multiple conditions on an element by dragging-and-dropping multiple conditions on an element. When you apply multiple conditions on an element, the Properties panel displays the applied conditions separated with a comma.
-
-    ![](images/multiple-conditions-applied_cs.png)
-
-    However, in the Code view the conditions are separated using a space delimiter. When you add or edit a condition in Code view, ensure that multiple conditions are separated using a space.
-
-    >[!IMPORTANT]
-    >
-    > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
-
-    ![](images/conditional-content-through-panel_cs.png)
-
-    To add or define a condition, click the + icon next to Conditions panel to bring up the Define Condition dialog:
-
-    ![](images/conditional-panel-create-cond.png)
-
-    From the Attribute list, select the conditional attribute that you want to define, enter a value for the condition, then specify the label that is displayed in the Conditions panel. You can also define a color for the condition. This color is set as the background color of the content on which the condition is applied
-
-    To edit a condition, choose **Edit** from the Options menu. The Edit Condition dialog appears:
-
-    ![](images/conditional-panel-edit-cond.png)
-
-    Specify the details in the same way as configured while defining a new condition.
-
-Subject scheme — ![](images/subject_scheme_panel-icon.svg)
-:   Subject scheme maps are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Depending upon your requirements, you can create a subject scheme map and reference it within your root map file. AEM Guides allows you to define the nested-level hierarchy of the subject definitions in your subject scheme.
-
-    You can easily create and then use the subject scheme in a subject scheme map. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel. The Subject Scheme panel displays the available subject scheme in a nested or hierarchical manner.
-
-    AEM Guides also supports nested level subject scheme maps, and you can have multiple subject schemes defined under the root subject scheme map.
-
-    The following example shows how to use subject scheme in AEM Guides.
-
-    1.  Create a subject scheme file in a tool of your choice. The following XML code creates subject scheme that binds values for the `platform` attribute.
-
-        ```XML
-        <?xml version="1.0" encoding="UTF-8"?>
-        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
-        <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
-            <title>rw</title>
-            <!-- Define new OS values that are merged with those in the unixOS scheme -->
-            <subjectdef keys="os">
-                <subjectdef keys="linux">    </subjectdef>
-                <subjectdef keys="mswin">    </subjectdef>
-                <subjectdef keys="zos">    </subjectdef>
-            </subjectdef>
-            <!-- Define application values -->
-            <subjectdef keys="app" navtitle="Applications">
-                <subjectdef keys="apacheserv">    </subjectdef>
-                <subjectdef keys="mysql">    </subjectdef>
-            </subjectdef>
-            <!-- Define an enumeration of the platform attribute, equal to       each value in the OS subject. This makes the following values       valid for the platform attribute: linux, mswin, zos -->
-            <enumerationdef>
-                <attributedef name="platform">    </attributedef>
-                <subjectdef keyref="os">    </subjectdef>
-            </enumerationdef>
-            <!-- Define an enumeration of the otherprops attribute, equal to       each value in the application subjects.       This makes the following values valid for the otherprops attribute:       apacheserv, mysql -->
-            <enumerationdef>
-                <attributedef name="otherprops">    </attributedef>
-                <subjectdef keyref="app">    </subjectdef>
-            </enumerationdef>
-        </subjectScheme>
-        ```
-
-        ![](images/subject-scheme-panel.png)
-
-    1.  Save the file with a.ditamap extension and upload it to any folder in DAM.
+        ![](images/options-menu-force-delete.png)
 
         >[!NOTE]
         >
-        > You can add a reference to the subject scheme file in the parent DITA map.
+        > If your administrator has given the file delete permission, then **Force Delete** is enabled. Else, **Force Delete** is disabled and a message is displayed that you do not have permission to delete referenced files. For more details, see *Prevent deletion of referenced files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-        ![](images/subject-scheme-root-map.png)
-
-    1.  Set the parent map as the root map in the **User Preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel.
-
-        ![](images/subject-scheme-user-preferences.png)
-
-    1.  In the Web Editor, open the file where you want to use the subject scheme definitions.
-    1.  Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
-
-        ![](images/subject-scheme-apply.png)
-
-
-:   **Attributes drop-down**
-
-    You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
-
-    ![](images/subject-scheme-attribute-dropdown.png)
-
-    You can also apply values for an attribute by selecting multiple values from the dropdown.
-
-:   **Source View**
-
-    You can also change the values from the attribute's drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
-
-    ![](images/subject-scheme-code-error.png)
-
-:   **View and apply the subject scheme from the Conditions panel**
-
-:   You can also view and apply the subject scheme from the Conditions panel.
-
-    To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
-
-    The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
-
-    ![](images/subject-scheme-condtions-panel.png)
-
-    You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
-
-Snippets — ![](images/insert-snippet-icon.svg)
-:   Snippets are small content fragments that can be reused across various topics in your documentation project. The Snippets panel shows a collection of content snippets that you have created. To insert a snippet, drag-and-drop the snippet from the panel to the desired location in your topic. The Snippets panel allows you to add, edit, delete, preview, and insert a snippet.
-
-    >[!IMPORTANT]
-    >
-    > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
-
-    ![](images/snippets-panel_cs.png)
-
-    To add a snippet, use any of the following methods:
-
-    -   Click the + icon next to Snippets to open the New Snippet dialog.
-
-        ![](images/snippet-new-dialog.png)
-
-        In the New Snippet dialog, provide a title which appears in the Snippets panel, a description, and XML code of the snippet content that you want to create. Click **Create** to save and create the snippet.
-
-    -   In the content editing area, right-click on the element's breadcrumb that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and click **Create** to save the snippet.
-
-    -   In the content editing area, right-click anywhere on the content that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and click **Create** to save the snippet.
-
-        The following screenshot highlights the breadcrumb and the content area from where you can invoke the context menu.
-
-        ![](images/snippet-create-from-breadcrumb-content.png)
-
-
-    To insert a snippet, use any of the following methods:
-
-    -   Select a snippet from the Snippets panel and drag-and-drop it at the desired location in your topic.
-
-    -   Place the insertion point where you want to insert the snippet, from the Options menu of the required snippet, choose Insert Snippet.
-
+    -   If you delete a referenced topic and you have opened the file containing references for edit, it will show the broken link for the referenced file.
 
     >[!NOTE]
     >
-    > From the context menu of a snippet entry, you can also choose to Edit, Delete, get a Preview, or Insert a Snippet.
+    > You can also delete the selected file similarly using the Delete key of the keyboard.
 
-Templates — ![](images/templates-icon.svg)
-:   The Templates panel is available to only administrators. Using this panel, and administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *Map* and *Topic* type templates.
+-   **Copy**: You can choose from the following options:
 
-    ![](images/templates-panel_cs.png)
+    -   **Copy UUID**: Copy the UUID of the selected file to Clipboard.
 
-    To create a template, Click the + icon next to Templates and choose a template that you want to create. If you select **Topic Template**, the Create New Topic Template dialog appears:
+    -   **Copy Path**: Copy complete path of the selected file to Clipboard.
 
-    ![](images/create-new-topic-template.PNG)
+-   **Collapse All**: Collapse all files in the repository. Only the top-level folders in the repository are shown.
+-   **Add To**: You can choose from the following options:
+    -   **Favorites**: Adds the selected file to favorites. You can choose to add it to an existing or new favorites collection.
 
-    Choose the type of template that you want to create from the **Template** drop-down list. Provide the **Title**, which appears in the Templates panel. The **Name** of the template is auto suggested based on the title, however, you can provide a different file name.
+    -   **Reusable Contents**: Adds the selected file to the Reusable Contents list in the left panel.
+
+-   **Properties**: Use this to open the properties page of the selected file. This properties page can also be accessed from the Assets UI by selecting a file and clicking on the Properties icon in the toolbar.
+
+-   **Open Map Dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
+
+-   **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
+
+-   **Quick Generate**: Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+
+
+**Create topics from the Repository View**
+
+You can choose to create a new topic, map, or folder from + icon next to the Repository panel or from the context menu of a folder in the Repository View.
+
+***Create a topic***
+
+When you choose to *create a new topic* from the menu, you get the following dialog:
+
+![](images/create-topic-dialog.png)
+
+In the **Create New Topic** dialog, provide the following details:
+
+-   A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, and Troubleshooting templates.
+
+    If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder Profile.
+
+-   Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
+-   A Title for the topic.
+
+-   *\(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title.
+
+    In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field as shown in the following screenshot:
+
+    ![](images/new-topic-without-filename.PNG)
+
+
+When you click **Create**, the topic is created at the specified path. Also, the topic is opened in the Web Editor for editing.
+
+***Create a DITA map***
+
+When you choose to *create a new DITA map*, you get the following dialog:
+
+![](images/create-map-dialog.png)
+
+In the **Create New Map** dialog, provide the following details:
+
+-   A template on which the map will be based. For example, for an out-of-the-box setup, you can choose from the Bookmap or DITA map templates.
+
+-   Path where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field.
+-   A **Title** for the map.
+
+-   *\(Optional\)* The file name for the map. The file name is auto-suggested based on the map Title.
+
+    In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
+
+
+When you click **Create**, the map is created and added within the folder specified in the Path field. Also, the map is opened in the Map View. You can open the map file in the Map Editor and add topic to it. For more information about adding topics to a map file, see [Create a map](map-editor-create-map.md#).
+
+***Create a folder***
+
+When you choose to *create a new folder*, you get the **Create New Folder** dialog:
+
+![](images/new-folder-dialog_cs.png)
+
+Enter a **Title** for the folder, which is auto-converted into the folder name. Path is where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field. When you click **Create**, the folder is created and added within the folder from where the create folder option was executed.
+
+**Map View** -  ![](images/map-view-icon.svg)
+
+When you click the Map View icon, you get a list of topics within the map file. If you have not opened any map file, then the Map View appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Web Editor. When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+
+You can perform the following actions using the Options menu of the map file:
+
+![](images/options-menu-map-view_cs.png)
+
+-   **Edit**: Open the map file for editing in the Advanced Map Editor.
+
+-   **Select All**: Select all files in the map.
+
+-   **Clear Selection**: Deselect the selected files in the map.
+
+-   **Checkout and Lock**: Checkout and get a lock on the selected files in the map.
+
+-   **Cancel Checkout and Unlock**: Unlocks the map file and makes it available for editing. It does not revert the changes to earlier version.
+
+-   **Save as New Version and Unlock**: Create a newer version and release the lock on the selected files in the map.
+
+-   **Preview**: Open a preview of the map file. In this view, all topic files within the map are shown in a single unified page-by-page view.
+
+-   **Copy**: You can choose from the following options:
+    -   **Copy UUID**: Copy the UUID of the map file to Clipboard.
+    -   **Copy Path**: Copy complete path of the map file to Clipboard.
+
+-   **Locate in Repository**: Shows the location of the map file in the repository \(or DAM\).
+
+-   **Add To**: You can choose from the following options:
+    -   **Favorites**: Adds the map file to favorites. You can choose to add it to an existing or new favorites collection.
+
+    -   **Reusable Contents**: Adds the map file to the Reusable Contents list in the left panel.
+
+-   **Properties**: Use this to open the properties page of the map file. This properties page can also be accessed from the Assets UI by selecting a file and clicking on the Properties icon in the toolbar.
+
+-   **Open Map Dashboard**: Open the map dashboard.
+
+-   **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
+
+-   **Quick Generate**: Generate the output for the selected map file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+-   **Close**: Closes the map file.
+
+The following screenshot shows the Options menu for a file in the DITA Map View:
+
+![](images/options-menu-file_cs.PNG)
+
+You can perform the following actions using the Options menu:
+
+-   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
+
+-   **Check Out**: Check out the selected file. For a checked out file, this option changes to **Check In**.
 
     >[!NOTE]
     >
-    > In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
+    > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
 
-    Once the template is created, you need to add it to your global or folder-level profile. After the template is added, your authors will start seeing the new template in the topic/map creation process.
+-   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
+-   **Copy**: You can choose from the following options:
+    -   **Copy UUID**: Copy the UUID of the selected file to Clipboard.
+    -   **Copy Path**: Copy complete path of the selected file to Clipboard.
 
-    Using the Options menu on an existing template, you can choose to **Edit** or **Duplicate** it. In case of duplication, the template's structure and type \(of document\) is retained and you can reuse it to create another template from it.
+-   **Locate in Repository**: Shows the location of the selected file in the repository \(or DAM\).
+-   **Expand All**: Expand all topics in the map files.
 
-Find and Replace — ![](images/FindAndReplace_icon.svg)
-:   The Find and Replace icon is found at the bottom of the left panel. The Find and Replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can find and replace in all topics of a map as well as topics present in the sub-maps within the map.
+-   **Collapse All**: Collapse all topics that are a part of the current map file.
 
-:   ![](images/map-find-replace.png)
+-   **Add To**: You can choose from the following options:
+    -   **Favorites**: Adds the selected file to favorites. You can choose to add it to an existing or new favorites collection.
+
+    -   **Reusable Contents**: Adds the selected file to the Reusable Contents list in the left panel.
+
+-   **Properties**: Use this to open the properties page of the selected file. This properties page can also be accessed from the Assets UI by selecting a file and clicking on the Properties icon in the toolbar.
+
+-   **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
+
+-   **Quick Generate**: Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+
+>[!NOTE]
+>
+> You can also open and edit the properties of selected topics in a DITA map from the **More Options** menu at the bottom of the Map View.
+
+**Outline View** -  ![](images/outline-icon.svg)
+
+When you click the Outline View icon, you get the hierarchical view of the elements used in the document.
+
+![](images/outline-view_cs.png)
+
+The Outline View offers the following features:
+
+-   A tree view of all elements used in the document.
+
+-   If an element has an ID, it is shown along with the element.
+
+-   Access Outline View in both Author and Source views.
+
+-   Use the filter drop-down list to show all elements or only the broken references:
+
+-   Clicking on an element in the Outline View selects the element's content in the Author or Source view.
+
+    ![](images/select-elemet-content-outline-view_cs.png)
+
+-   Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you see a square box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
+
+    ![](images/replace-element-outline-view_cs.png)
+
+    If you drag and drop an element, a horizontal bar indicates that the element can be placed at the current location.
+
+    ![](images/drop-element-outline-view_cs.png)
+
+-   The **Options** menu in the *Outline View* allows you to perform generic operations such as Cut, Copy, Delete, [Generate ID](web-editor-other-features.md#id199RI0YF0YK), Insert element before or after the current element, [Rename or replace an element](web-editor-other-features.md#id199RI0Z0YHT), [Unwrap an element](web-editor-other-features.md#id199RI0ZG0PF), and create a snippet out of the selected element.
+
+-   Search for an element by its name or attribute value.
+
+
+**Reusable Contents** -  ![](images/content-reuse-icon.png)
+
+One of the main features of DITA is the ability to reuse content. The Reusable Contents panel can store your DITA files from where you generally insert reusable content. Once added, the DITA files remain in the Reusable Contents panel across sessions. This means that you don't have to add your DITA files again to access them later.
+
+You can simply drag-and-drop reusable content from the panel onto your current topic and it gets inserted easily and quickly. You can also get a preview of the content before inserting it in your document.
+
+To add a DITA file to your Reusable Contents panel, use any of the following methods:
+
+-   Click the + icon next to Reusable Contents to open the browse file dialog. Select the file that you want to add and click **Add** to complete the process.
+
+    ![](images/reuse-content-add-dita-file_cs.png)
+
+-   In the Repository View, click the Options icon of the desired file and choose **Add to Reusable Contents** from the context menu.
+
+-   Right-click on a file's tab in the editor to open the context menu and choose **Add to Reusable Contents**.
+
+
+Once the file is added, you can see all reusable content elements from the file in the Reusable Content panel. Reusable content is shown with their IDs and element names.
+
+When you add a file to the Reusable Contents list, the file's title is shown instead of the UUID of the file. To check the UUID of the file, mouse hover over the file's title and the UUID of the file is displayed in the tooltip.
+
+![](images/uuid-reusable-content-file-title_cs.png)
+
+>[!NOTE]
+>
+> You can add multiple files to the reusable content list. Then you can insert the desired content from the Reusable Contents panel into your document.
+
+**Refresh**: Rechecks for all reusable content and displays a fresh list of reusable contents.
+
+To insert content from the Reusable Contents panel, use any of the following methods:
+
+-   Hover the mouse pointer over an element that you want to insert, click on the Options icon, and choose **Insert Reusable Content**.
+
+    ![](images/insert-reusable-content_cs.png)
+
+    >[!NOTE]
+    >
+    > Note: The **Preview** option is also available in the context menu, which gives you a quick preview of the element before inserting it.
+
+-   Drag-and-drop the reusable content item from the panel at the desired location in your document.
+
+
+**Glossary** -  ![](images/glossary.svg)
+
+AEM Guides allows you to easily create and use the glossary type documents. You can create glossary topic files and then include them in a common glossary map. Once this map is added as your root map, the glossary entries are then shown in the Glossary panel.
+
+![](images/glossary-panel.png)
+
+To insert a term from the glossary, simply drag-and-drop the entry from the panel to the desired location in your topic. The Options menu of a glossary term allows you to get a quick **Preview** of the entry term, **Copy Path** of the entry term file, or locate the entry term file in the repository.
+
+Perform the following steps to search text terms and replace them with glossary abbreviations:
+
+1.  Open the DITA topic or map in which you wish to search and convert the text or terms.
+1.  Select the glossary panel to view the glossary terms present in the root map. You can drag-and-drop these terms to add them to the open topic.
+1.  Select the **Hotspot** tool \( ![](images/hotspot-icon.svg)\) in the Glossary panel to search and convert specific text terms to linked glossary abbreviations. Also, vice versa you can use it to search glossary abbreviations and convert them to text terms.
+
+![](images/glossary-hotspot-tool.png)
+
+You can configure the following settings of the Hotspot tool:
+
+![](images/Glossary-search-keys.png)
+
+-   **Glossary Keys**: Select the glossary keys from the DITA map you want to use for the search in the selected topic. The selected keys will be displayed below. You can remove a selected key by clicking the **Remove** icon.
+
+-   **Topics**: Choose either the **Current Topic** opened in the Web Editor, all **Opened Topics** in the current map, or the **Current Map** being edited in the Map Editor to search the terms.
+-   **Filter Topics by Status**: You can choose to limit the search to topics that have the selected document status. The topics can be in Draft, Edit, In-Review, Approved, Reviewed, Done status, or in any one of the state as configured by the organization.
+-   **Action**: You can choose to either search the glossary keys **Manually for Each Topic** or **Automatically for All Topics**. If you choose **Manually for Each Topic**, it prompts you to confirm before converting each term in every topic. If you choose **Automatically for All Topics**, it converts all terms in all the topics automatically.
+-   **Convert**: You can either convert a searched **Text to glossary term** or **Glossary term to text.**
+-   **Options**: You can select from the following options:
+    -   **Case-sensitive Match**: Searches for a term to find the match which has the same casing. For example, 'USB' will not match with 'usb'.
+    -   **Convert Only the First Instance**: If multiple instances of the searched term are present in a topic, only the first instance is converted.
+    -   **Check out File Before Conversion**: The searched file is checked out before the terms are converted.
+    -   **Create a New Version After Conversion**: A new version of the topic is created after the conversion of terms has been completed.
+-   **Next** button appears if you select **Manually for each topic** option. Click **Next** to convert the terms for each topic on the basis of the selected settings. It prompts for conversion of terms in each topic and moves to the next file. You can choose to convert a term or skip it and move to the next term.
+
+    ![](images/manual-convert-skip.png)
+
+-   **Convert** button appears if you select **Automatically for All Topics** option. Select **Convert** to convert all the terms found in the document to linked glossary abbreviations.
+
+A list of the **Topics Updated** with the converted terms and **Topics with Error** is displayed. Hover over the \( ![](images/info-icon.svg)\) icon near Topics with Error to see the details of the error.
+
+![](images/glossary-converted-terms-error.png)
+
+>[!NOTE]
+>
+> Refresh the topic to view the converted terms.
+
+**Conditions** -  ![](images/conditions-icon.svg)
+
+The Conditions panel displays the conditional attributes defined by your administrator in the global or folder-level profile. You can add conditions to your content by simply dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition for easy identification.
+
+You can also apply multiple conditions on an element by dragging-and-dropping multiple conditions on an element. When you apply multiple conditions on an element, the Properties panel displays the applied conditions separated with a comma.
+
+![](images/multiple-conditions-applied_cs.png)
+
+However, in the Code view the conditions are separated using a space delimiter. When you add or edit a condition in Code view, ensure that multiple conditions are separated using a space.
+
+>[!IMPORTANT]
+>
+> The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
+
+![](images/conditional-content-through-panel_cs.png)
+
+To add or define a condition, click the + icon next to Conditions panel to bring up the Define Condition dialog:
+
+![](images/conditional-panel-create-cond.png)
+
+From the Attribute list, select the conditional attribute that you want to define, enter a value for the condition, then specify the label that is displayed in the Conditions panel. You can also define a color for the condition. This color is set as the background color of the content on which the condition is applied
+
+To edit a condition, choose **Edit** from the Options menu. The Edit Condition dialog appears:
+
+![](images/conditional-panel-edit-cond.png)
+
+Specify the details in the same way as configured while defining a new condition.
+
+**Subject scheme** -  ![](images/subject_scheme_panel-icon.svg)
+
+Subject scheme maps are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Depending upon your requirements, you can create a subject scheme map and reference it within your root map file. AEM Guides allows you to define the nested-level hierarchy of the subject definitions in your subject scheme.
+
+You can easily create and then use the subject scheme in a subject scheme map. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel. The Subject Scheme panel displays the available subject scheme in a nested or hierarchical manner.
+
+AEM Guides also supports nested level subject scheme maps, and you can have multiple subject schemes defined under the root subject scheme map.
+
+The following example shows how to use subject scheme in AEM Guides.
+
+1.  Create a subject scheme file in a tool of your choice. The following XML code creates subject scheme that binds values for the `platform` attribute.
+
+    ```XML
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
+    <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
+        <title>rw</title>
+        <!-- Define new OS values that are merged with those in the unixOS scheme -->
+        <subjectdef keys="os">
+            <subjectdef keys="linux">    </subjectdef>
+            <subjectdef keys="mswin">    </subjectdef>
+            <subjectdef keys="zos">    </subjectdef>
+        </subjectdef>
+        <!-- Define application values -->
+        <subjectdef keys="app" navtitle="Applications">
+            <subjectdef keys="apacheserv">    </subjectdef>
+            <subjectdef keys="mysql">    </subjectdef>
+        </subjectdef>
+        <!-- Define an enumeration of the platform attribute, equal to       each value in the OS subject. This makes the following values       valid for the platform attribute: linux, mswin, zos -->
+        <enumerationdef>
+            <attributedef name="platform">    </attributedef>
+            <subjectdef keyref="os">    </subjectdef>
+        </enumerationdef>
+        <!-- Define an enumeration of the otherprops attribute, equal to       each value in the application subjects.       This makes the following values valid for the otherprops attribute:       apacheserv, mysql -->
+        <enumerationdef>
+            <attributedef name="otherprops">    </attributedef>
+            <subjectdef keyref="app">    </subjectdef>
+        </enumerationdef>
+    </subjectScheme>
+    ```
+
+    ![](images/subject-scheme-panel.png)
+
+1.  Save the file with a.ditamap extension and upload it to any folder in DAM.
+
+    >[!NOTE]
+    >
+    > You can add a reference to the subject scheme file in the parent DITA map.
+
+    ![](images/subject-scheme-root-map.png)
+
+1.  Set the parent map as the root map in the **User Preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel.
+
+    ![](images/subject-scheme-user-preferences.png)
+
+1.  In the Web Editor, open the file where you want to use the subject scheme definitions.
+1.  Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
+
+    ![](images/subject-scheme-apply.png)
+
+
+**Attributes drop-down**
+
+You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
+
+![](images/subject-scheme-attribute-dropdown.png)
+
+You can also apply values for an attribute by selecting multiple values from the dropdown.
+
+**Source View**
+
+You can also change the values from the attribute's drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
+
+![](images/subject-scheme-code-error.png)
+
+**View and apply the subject scheme from the Conditions panel**
+
+You can also view and apply the subject scheme from the Conditions panel.
+
+To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
+
+The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
+
+![](images/subject-scheme-condtions-panel.png)
+
+You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
+
+**Snippets** -  ![](images/insert-snippet-icon.svg)
+
+Snippets are small content fragments that can be reused across various topics in your documentation project. The Snippets panel shows a collection of content snippets that you have created. To insert a snippet, drag-and-drop the snippet from the panel to the desired location in your topic. The Snippets panel allows you to add, edit, delete, preview, and insert a snippet.
+
+>[!IMPORTANT]
+>
+> The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
+
+![](images/snippets-panel_cs.png)
+
+To add a snippet, use any of the following methods:
+
+-   Click the + icon next to Snippets to open the New Snippet dialog.
+
+    ![](images/snippet-new-dialog.png)
+
+    In the New Snippet dialog, provide a title which appears in the Snippets panel, a description, and XML code of the snippet content that you want to create. Click **Create** to save and create the snippet.
+
+-   In the content editing area, right-click on the element's breadcrumb that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and click **Create** to save the snippet.
+
+-   In the content editing area, right-click anywhere on the content that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and click **Create** to save the snippet.
+
+    The following screenshot highlights the breadcrumb and the content area from where you can invoke the context menu.
+
+    ![](images/snippet-create-from-breadcrumb-content.png)
+
+
+To insert a snippet, use any of the following methods:
+
+-   Select a snippet from the Snippets panel and drag-and-drop it at the desired location in your topic.
+
+-   Place the insertion point where you want to insert the snippet, from the Options menu of the required snippet, choose Insert Snippet.
+
+
+>[!NOTE]
+>
+> From the context menu of a snippet entry, you can also choose to Edit, Delete, get a Preview, or Insert a Snippet.
+
+**Templates** -  ![](images/templates-icon.svg)
+
+The Templates panel is available to only administrators. Using this panel, and administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *Map* and *Topic* type templates.
+
+![](images/templates-panel_cs.png)
+
+To create a template, Click the + icon next to Templates and choose a template that you want to create. If you select **Topic Template**, the Create New Topic Template dialog appears:
+
+![](images/create-new-topic-template.PNG)
+
+Choose the type of template that you want to create from the **Template** drop-down list. Provide the **Title**, which appears in the Templates panel. The **Name** of the template is auto suggested based on the title, however, you can provide a different file name.
+
+>[!NOTE]
+>
+> In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
+
+Once the template is created, you need to add it to your global or folder-level profile. After the template is added, your authors will start seeing the new template in the topic/map creation process.
+
+Using the Options menu on an existing template, you can choose to **Edit** or **Duplicate** it. In case of duplication, the template's structure and type \(of document\) is retained and you can reuse it to create another template from it.
+
+**Find and Replace** -  ![](images/FindAndReplace_icon.svg)
+
+The Find and Replace icon is found at the bottom of the left panel. The Find and Replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can find and replace in all topics of a map as well as topics present in the sub-maps within the map.
+
+![](images/map-find-replace.png)
 
 To perform the global search and replace, perform the following steps:
 
 1.  Open the global **Find and Replace** panel.
-
 1.  Click the **Look into** dropdown select one of the following options to perform the search.
     -   **Current Map**: To search in the currently opened map
 
@@ -1219,6 +1259,7 @@ To perform the global search and replace, perform the following steps:
 
     -   **Path**: To search on the selected path
     -   **Select Map**: To search in the selected map
+
 1.  You can click the **Options** dropdown and choose from the following options:
 
     -   **Checkout File Before Replace**: Select this option if you want to checkout a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to checkout a file before editing. With the backend setting enabled, you should select this option. It will prevent the file checkout dialog from prompting you to checkout every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
@@ -1230,15 +1271,10 @@ To perform the global search and replace, perform the following steps:
     -   **Include indirect reference**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
 1.  Enter the search term or text that you want to find.
-
 1.  Enter the text with which you want to replace the search term.
-
 1.  Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
 1.  Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
-
-
 1.  Open the global **Find and Replace** panel.
-
 1.  Click the **Look into** dropdown select one of the following options to perform the search.
 
     -   **Current Map**: To search in the currently opened map
@@ -1308,8 +1344,9 @@ The right panel is a persistent panel which contains information about the curre
 
 The right panel gives you access to the following features:
 
-Content Properties — ![](images/content-properties-icon.svg)
-:   You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. You can also add attributes by selecting the attribute from the dropdown list and specifying an attribute's value.
+**Content Properties ** -  ![](images/content-properties-icon.svg)
+
+You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. You can also add attributes by selecting the attribute from the dropdown list and specifying an attribute's value.
 
 >[!NOTE]
 >
@@ -1319,42 +1356,44 @@ If your administrator has created a profile for attributes, then you will get th
 
 ![](images/properties-tab-attributes_cs.png)
 
-File Properties — ![](images/topic-properties-icon.svg)
-:   View the properties of the selected file by clicking the File Properties icon in the right panel. The File Properties has the following two sections:
+**File Properties ** -  ![](images/topic-properties-icon.svg)
 
-:   **General**
+View the properties of the selected file by clicking the File Properties icon in the right panel. The File Properties has the following two sections:
 
-:   The General section gives you access to the following features:
+**General**
 
-    ![](images/file-properties-general.png)
+The General section gives you access to the following features:
 
-    -   **Name**: Displays the filename of the selected topic. The filename is hyperlinked to the properties page of the selected file.
-    -   **ID**: Displays the ID of the selected topic.
-    -   **Metadata Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page.
-    -   **Language**: Shows the language of the topic. It is set from the language field in the properties page.
-    -   **Created On**: Displays date and time on which the topic was created.
-    -   **Checked Out By**: Shows the user who checked out the topic.
-    -   **Document State**: You can select and update the document state of the currently opened topic. For more details, See [Document State](web-editor-document-states.md#)*.*
+![](images/file-properties-general.png)
 
-:   **Note:** You can copy the attribute values of the various fields in the File properties to the clipboard.
+-   **Name**: Displays the filename of the selected topic. The filename is hyperlinked to the properties page of the selected file.
+-   **ID**: Displays the ID of the selected topic.
+-   **Metadata Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page.
+-   **Language**: Shows the language of the topic. It is set from the language field in the properties page.
+-   **Created On**: Displays date and time on which the topic was created.
+-   **Checked Out By**: Shows the user who checked out the topic.
+-   **Document State**: You can select and update the document state of the currently opened topic. For more details, See [Document State](web-editor-document-states.md#)*.*
 
-:   **References**
+**Note:** You can copy the attribute values of the various fields in the File properties to the clipboard.
 
-:   The References section gives you access to the following features:
+**References**
 
-:   ![](images/file-properties-references.png)
+The References section gives you access to the following features:
 
-    -   **Used In**: The Used In references list the documents where the current file is being referred or used.
-    -   **Outgoing Links:** The Outgoing Links lists the documents that are referred to in the current document.
+![](images/file-properties-references.png)
 
-    Mouse hover over the file's reference and get the file path and UUID of the file in the tooltip.
+-   **Used In**: The Used In references list the documents where the current file is being referred or used.
+-   **Outgoing Links:** The Outgoing Links lists the documents that are referred to in the current document.
 
-:   **Note:** All Used In and Outgoing references are hyperlinked to the documents. You can easily open and edit the linked documents.
+Mouse hover over the file's reference and get the file path and UUID of the file in the tooltip.
 
-    In addition to opening files, you can also perform many actions using the **Options** menu in the References section. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to Favorites, Properties, and Open Map dashboard.
+**Note:** All Used In and Outgoing references are hyperlinked to the documents. You can easily open and edit the linked documents.
 
-Review— ![](images/review-icon.svg)
-:   Clicking the Review icon opens the review panel wherein you can create a review task for the currently opened document.
+In addition to opening files, you can also perform many actions using the **Options** menu in the References section. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to Favorites, Properties, and Open Map dashboard.
+
+**Review** -  ![](images/review-icon.svg)
+
+Clicking the Review icon opens the review panel wherein you can create a review task for the currently opened document.
 
 ![](images/review-panel-before-opening.png)
 
@@ -1364,12 +1403,12 @@ Using the review panel, you can view and post replies to the comments given on t
 
 For more information, see [Address review comments](review-address-review-comments.md#).
 
-Tracked Changes— ![](images/track-change-icon.svg)
-:   Using the Tracked Changes feature of the right panel, you can view the information of all updates made in a document. You can also search for any specific updates made to the document.
+**Tracked Changes** -  ![](images/track-change-icon.svg)
+
+Using the Tracked Changes feature of the right panel, you can view the information of all updates made in a document. You can also search for any specific updates made to the document.
 
 >[!NOTE]
 >
 > Tracked Changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the main toolbar. For more details, see [Enable/Disable Track Changes](#id205DF0203Y4).
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

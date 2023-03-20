@@ -62,36 +62,45 @@ The main toolbar in the Basic Map Editor allows you to perform the following tas
 
 ![](images/ditamap-toolbar-actions.png)
 
-A: Search
-:   You can search for and include the required topics from DAM. Clicking on this icon displays the Search dialog:
+**A: Search**
 
-    ![](images/search-dita-map.png)
+You can search for and include the required topics from DAM. Clicking on this icon displays the Search dialog:
 
-    Enter the keywords you want to search for, these keywords are matched in the topic's filename, content, and even attribute values. Once the search results are available, select the desired topic\(s\) and click the Check button to add the selected files at the end of your map structure. You can filter your search results by specifying Modify Date parameters.
+![](images/search-dita-map.png)
 
-B: Group
-:   Click the checkbox to the left of the topics and click Group in the toolbar to group the selected topics. For more information about grouping topics, see the [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentation in OASIS DITA Language Specification.
+Enter the keywords you want to search for, these keywords are matched in the topic's filename, content, and even attribute values. Once the search results are available, select the desired topic\(s\) and click the Check button to add the selected files at the end of your map structure. You can filter your search results by specifying Modify Date parameters.
 
-C: Delete
-:   Click the checkbox to the left of a topic and click Delete in the toolbar to remove the selected topics from the map.
+**B: Group**
+   
+Click the checkbox to the left of the topics and click Group in the toolbar to group the selected topics. For more information about grouping topics, see the [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentation in OASIS DITA Language Specification.
 
-D: Show Numbers/Hide Numbers
-:   Display \(or hide\) numbering for the topics in the map.
+**C: Delete**
 
-E: Validate
-:   Check whether the map is valid or has errors.
+Click the checkbox to the left of a topic and click Delete in the toolbar to remove the selected topics from the map.
 
-F: Default Mode/XML Mode
-:   In the **Default Mode**, clicking a topic link shows the preview of the topic in a new tab. Clicking on the **Default Mode** icon changes its mode to **XML Mode**. In **XML Mode**, clicking anywhere in a topic row shows the underlying XML of topic references within the topic. In the source XML view, there is an **Auto Indent** option that reorganizes the XML code in presentable and easily readable format. In case you are editing a map manually, the source view also performs validation checks. In case your XML contains errors, the same gets highlighted in the **XML Mode** and you are not allowed to save the DITA map file. If you want to view the XML for the entire map, click anywhere outside the topic boundary.
+**D: Show Numbers/Hide Numbers**
 
-:   **Note:** In the Default Mode you can use the keyboard shortcuts to undo \(`Ctrl+z`\) or redo \(`Ctrl+y`\) the last action.
+Display \(or hide\) numbering for the topics in the map.
 
-:   ![](images/dita-map-invalid-source.png)
+**E: Validate**
 
-G: Map Properties
-:   Display the Map Properties dialog wherein you can set the attributes and metadata information for the map. To add an attribute, click the **Add** button at the bottom-left corner of the dialog to get the **Attribute** drop-down list. From the list, select the attribute that you want to add. If the selected attribute has pre-defined values specified in the DTD, then those values would be presented in a new drop-down list. You can select the desired value from the drop-down list. If there is no pre-defined value, then you will be presented a text box to enter a value for the selected attribute.
+Check whether the map is valid or has errors.
 
-    ![](images/map-properties.png)
+**F: Default Mode/XML Mode**
+
+In the **Default Mode**, clicking a topic link shows the preview of the topic in a new tab. Clicking on the **Default Mode** icon changes its mode to **XML Mode**. In **XML Mode**, clicking anywhere in a topic row shows the underlying XML of topic references within the topic. In the source XML view, there is an **Auto Indent** option that reorganizes the XML code in presentable and easily readable format. In case you are editing a map manually, the source view also performs validation checks. In case your XML contains errors, the same gets highlighted in the **XML Mode** and you are not allowed to save the DITA map file. If you want to view the XML for the entire map, click anywhere outside the topic boundary.
+
+
+**Note:** In the Default Mode you can use the keyboard shortcuts to undo \(`Ctrl+z`\) or redo \(`Ctrl+y`\) the last action.
+
+
+![](images/dita-map-invalid-source.png)
+
+**G: Map Properties**
+
+Display the Map Properties dialog wherein you can set the attributes and metadata information for the map. To add an attribute, click the **Add** button at the bottom-left corner of the dialog to get the **Attribute** drop-down list. From the list, select the attribute that you want to add. If the selected attribute has pre-defined values specified in the DTD, then those values would be presented in a new drop-down list. You can select the desired value from the drop-down list. If there is no pre-defined value, then you will be presented a text box to enter a value for the selected attribute.
+
+![](images/map-properties.png)
 
 ## Features available at topic level in the Basic Map Editor 
 
@@ -99,19 +108,24 @@ When you hover your mouse pointer over a topic or a sub-map file in the Basic Ma
 
 ![](images/ditamap-actions.png)
 
-A: Move Left or Move Right
-:   Click the left or right arrow icons' to move the topic left or right. Moving a topic in such a way makes it a child \(nest\) or sibling \(remove nesting\) with respect to the topic above it.
+**A: Move Left or Move Right**
 
-B: Properties
-:   Click the Properties icon to open the Topicref Properties dialog. Using this dialog, you can set the topic attributes and metadata information. For more information about the standard topic attributes and metadata, see the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
+Click the left or right arrow icons' to move the topic left or right. Moving a topic in such a way makes it a child \(nest\) or sibling \(remove nesting\) with respect to the topic above it.
 
-:   ![](images/map-properties-metadata.png)
+**B: Properties**
 
-C: Add New Reference
-:   Click the Add New Reference icon to add a new reference as a sibling of the current topic.
+Click the Properties icon to open the Topicref Properties dialog. Using this dialog, you can set the topic attributes and metadata information. For more information about the standard topic attributes and metadata, see the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
 
-D: Add New Key Definition
-:   Click the Key icon to add a new key definition. Any overridden key or a key that has been already defined in the map appears in red. If you click the Properties icon on a key definition, you get the Keydef Properties dialog.
+
+![](images/map-properties-metadata.png)
+
+**C: Add New Reference**
+
+Click the Add New Reference icon to add a new reference as a sibling of the current topic.
+
+**D: Add New Key Definition**
+
+Click the Key icon to add a new key definition. Any overridden key or a key that has been already defined in the map appears in red. If you click the Properties icon on a key definition, you get the Keydef Properties dialog.
 
 ## Work with relationship tables in the Basic Map Editor {#id1944B0I0COB}
 
@@ -156,14 +170,17 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 You can also perform the following actions from the relationship table editor:
 
-Delete rows or columns
-:   If you want to delete a column from your table, select the checkbox in the column header and click Delete. If you want to remove a row from table, select the checkbox in the first column of the respective row and click Delete.
+**Delete rows or columns**
 
-Delete a topic
-:   If you want to delete a topic from your table, click the cross icon next to the topic.
+If you want to delete a column from your table, select the checkbox in the column header and click Delete. If you want to remove a row from table, select the checkbox in the first column of the respective row and click Delete.
 
-Delete the relationship table
-:   If you want to delete the relationship table, click anywhere outside the relationship table and click Delete.
+**Delete a topic**
+
+If you want to delete a topic from your table, click the cross icon next to the topic.
+
+**Delete the relationship table**
+
+If you want to delete the relationship table, click anywhere outside the relationship table and click Delete.
 
 **Parent topic:**[Work with the Map Editor](map-editor.md)
 
