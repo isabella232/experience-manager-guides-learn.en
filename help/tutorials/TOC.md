@@ -51,9 +51,9 @@ breadcrumb-title: AEM Guides Tutorials
 + User Guide {#user-guide}
   + [Disclaimer](./user-guide/rebranding-disclaimer.md)
   + About {#about-aem-guide}
-   + [About Adobe Experience Manager Guides as a Cloud Service](./user-guide/intro.md)
-   + [How AEM Guides works](./user-guide/intro-how-dxml-works.md)
-   + [Key AEM Guides features](./user-guide/intro-dxml-features.md)
+    + [About Adobe Experience Manager Guides as a Cloud Service](./user-guide/intro.md)
+    + [How AEM Guides works](./user-guide/intro-how-dxml-works.md)
+    + [Key AEM Guides features](./user-guide/intro-dxml-features.md)
   + Manage Content {#manage-content}
       + [Manage content](./user-guide/authoring.md)
       + [Upload files](./user-guide/authoring-upload-existing-files.md)
