@@ -3,7 +3,7 @@ title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, March
 description: Latest release of Adobe Experience Manager Guides as a Cloud Service
 
 ---
-# Latest release of Adobe Experience Manager Guides as a Cloud Service 
+# March release of Adobe Experience Manager Guides as a Cloud Service 
 
 ## Upgrade to the latest release
 
