@@ -53,8 +53,7 @@ AEM Guides as a Cloud Service provides enhancements and new features in the late
 
 AEM Guides now provides the feature to open and play the audio or video files in the Web Editor from the Repository panel. The video or audio files of the current map are also linked from the Metadata or Multimedia reports (available under the **Reports** tab in the Web Editor). You can click an audio or video file from the reports and also quickly play the file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu, you  also have the options to **Download**, change **Play back Speed**, or view **Picture in Picture**.
 
-<img  src =assets/video-web-editor.png alt="play video" width=600>
-
+<img  src ="assets/video-web-editor.png" alt="play video" width=600>
 
 
 ## Fixed issues
@@ -69,7 +68,6 @@ AEM Guides. (11660)
 * Validation error occurs when a map is created using the  template which has a specialized title element. (11212)
 * Some sections of the `<conref>` content are not showing up in generated PDF output. (11131) 
 * Native PDF | footnote present in table header leads to bold and center-aligned text in the corresponding page footer within the PDF output. (10610) 
-    
 >[!NOTE]
 >
 >To reflect this change, delete the PDF folder located at /content/dam/dita-templates and then upgrade to the latest build.
