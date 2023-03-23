@@ -49,9 +49,9 @@ This section lists the compatibility matrix for the software applications suppor
 
 AEM Guides as a Cloud Service provides enhancements and new features in the latest release:
 
-### Generate reports from the Web Editor
+### Open and play video or audio files in the Web Editor
 
-AEM Guides now provides the feature to open and play the audio or video files in the Web Editor from the Repository panel. The video or audio files of the current map are also linked from the Metadata or Multimedia reports (available under the **Reports** tab in the Web Editor). You can click an audio or video file from the reports and also quickly play the file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu, you  also have the options to **Download**, change **Play back Speed**, or view **Picture in Picture**.
+AEM Guides now provides the feature to open and play the audio or video files in the Web Editor. You can change the volume or the view of the video. In the shortcut menu, you  also have the options to **Download**, change **Play back Speed**, or view **Picture in Picture**.
 
 <img  src ="assets/video-web-editor.png" alt="play video" width=600>
 
