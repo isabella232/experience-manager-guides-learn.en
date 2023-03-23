@@ -69,7 +69,8 @@ AEM Guides. (11660)
 * Validation error occurs when a map is created using the  template which has a specialized title element. (11212)
 * Some sections of the `<conref>` content are not showing up in generated PDF output. (11131) 
 * Native PDF | footnote present in table header leads to bold and center-aligned text in the corresponding page footer within the PDF output. (10610) 
-    >[!Note]
-    >
-    > To reflect this change, delete the PDF folder located at /content/dam/dita-templates and then upgrade to the latest build.
+    
+>[!NOTE]
+>
+>To reflect this change, delete the PDF folder located at /content/dam/dita-templates and then upgrade to the latest build.
 
