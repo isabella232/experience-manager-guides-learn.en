@@ -70,5 +70,5 @@ AEM Guides. (11660)
 * Native PDF | footnote present in table header leads to bold and center-aligned text in the corresponding page footer within the PDF output. (10610) 
 >[!NOTE]
 >
->To reflect this change, delete the PDF folder located at /content/dam/dita-templates and then upgrade to the latest build.
+>To reflect the Native PDF change, delete the PDF folder located at /content/dam/dita-templates and then upgrade to the latest build. (10610)
 
