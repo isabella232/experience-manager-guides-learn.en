@@ -60,13 +60,10 @@ AEM Guides now provides the feature to open and play the audio or video files in
 
 The bugs fixed in various areas are listed below:
 
-* Proxy usage connection fails in the Oxygen Plugin for
-AEM Guides. (11660)
 * Download PDF process is not working appropriately in the Web Editor. (11496)
 * JSON output | Map metadata having property value as `"value in spaces and double quotes"` leads to a publishing error. (11438)
 *  Insertion for audio and video multimedia files fails in the YouTube format under the **Insert Multimedia** icon. (11320)
 * Validation error occurs when a map is created using the  template which has a specialized title element. (11212)
-* Some sections of the `<conref>` content are not showing up in generated PDF output. (11131) 
 * Native PDF | footnote present in table header leads to bold and center-aligned text in the corresponding page footer within the PDF output. (10610) 
 >[!NOTE]
 >
