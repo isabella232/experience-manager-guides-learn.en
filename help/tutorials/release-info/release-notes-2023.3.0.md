@@ -35,7 +35,6 @@ This section lists the compatibility matrix for the software applications suppor
 | 2023.03.0 | Not compatible | 2022 or higher |
 | | | |
 
-*Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
 
 ### Oxygen Connector
 
