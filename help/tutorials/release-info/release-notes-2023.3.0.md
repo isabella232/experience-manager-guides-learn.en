@@ -73,5 +73,6 @@ The bugs fixed in various areas are listed below:
 Adobe has identified the following known issue for AEM Guides as a Cloud Service March 2023 release.
 
 * Users are not able to save or create version of a duplicated asset.
+
 Workaround: Before making any changes to the duplicate asset reprocess it from the Assets UI.
 
