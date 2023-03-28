@@ -68,11 +68,11 @@ The bugs fixed in various areas are listed below:
 >
 >To reflect the Native PDF change, delete the PDF folder located at /content/dam/dita-templates and then upgrade to the latest build. (10610)
 
-### Known issue
+### Known issue with workaround
 
 Adobe has identified the following known issue for AEM Guides as a Cloud Service March 2023 release.
 
 * Users are not able to save or create version of a duplicated asset.
 
-Workaround: Before making any changes to the duplicate asset reprocess it from the Assets UI.
+**Workaround**: Before making any changes to the duplicate asset reprocess it from the Assets UI.
 
