@@ -32,16 +32,16 @@ In this session, we will share the out-of-the-box reports available for users. W
 
 ## Key takeaways
 
-In this session, you learn about the following:
+In this session, you learnt about the following:
 - Importance of reports in CCMS
-- Which reports are available out of the box
-- How can you extend reporting capabilities
+- Which reports are available out of the box?
+- How can you extend reporting capabilities?
 - Examples of reporting on content
  
 
 ## Related resources 
 
-- In this session we demonstrated several reports. To create similar reports, refer the steps given in the attached document. [Download PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- In this session, we demonstrated several reports. To create similar reports, refer the steps given in the attached document. [Download PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en) 
  
