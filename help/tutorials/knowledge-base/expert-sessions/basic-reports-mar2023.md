@@ -1,7 +1,6 @@
 ---
 title: Reports in AEM Guides
 description: Learn which all reports are available in AEM to aid users in improving the content quality.
-exl-id: 
 ---
 # Author web-based content
 
