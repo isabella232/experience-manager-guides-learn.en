@@ -49,6 +49,11 @@ In this session, you learn about the following:
 > - On-prem 4.2 or later
 > - Cloud Services 2302 or later
 
+## Next expert session 
+
+- **Topic** - TBD *(awaiting survey results)*
+- **Scheduled on** - April 27, 2023
+
 ## Contact us
 
 For any queries, send us an email at <techcomm@adobe.com>
