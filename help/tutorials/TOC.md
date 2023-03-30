@@ -59,6 +59,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Manage content using baselines](./knowledge-base/expert-sessions/baselines-dec22.md) 
     + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
     + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+    + [Reports in AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
   + Publishing{#publishing}
     + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
   + Articles {#kb-articles}
