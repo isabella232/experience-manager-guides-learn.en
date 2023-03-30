@@ -12,16 +12,21 @@ breadcrumb-title: AEM Guides Tutorials
   + Release Notes {#release-notes}
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
-      + [Current release notes](./release-info/release-notes-2022.11.0.md) 
-      + [October release notes](./release-info/release-notes-2022.10.0.md) 
-      + [September release notes](./release-info/release-notes-2022.9.0.md) 
-      + [August release notes](./release-info/release-notes-2022.8.0.md)
-      + [May release notes](./release-info/release-notes-2022.5.0.md)
-      + [April release notes](./release-info/release-notes-2022.4.0.md)
-      + [March release notes](./release-info/release-notes-2022.3.0.md)
-      + [February release notes](./release-info/release-notes-2022.2.0.md)
-      + [January release notes](./release-info/release-notes-2022.1.0.md)
+      + 2023 Releases{#2023-releases}
+        + [Current release notes](./release-info/release-notes-2023.3.0.md) 
+        + [February release notes](./release-info/release-notes-2023.2.0.md) 
+      + 2022 Releases {#2022-releases}
+        + [November release notes](./release-info/release-notes-2022.11.0.md) 
+        + [October release notes](./release-info/release-notes-2022.10.0.md) 
+        + [September release notes](./release-info/release-notes-2022.9.0.md) 
+        + [August release notes](./release-info/release-notes-2022.8.0.md)
+        + [May release notes](./release-info/release-notes-2022.5.0.md)
+        + [April release notes](./release-info/release-notes-2022.4.0.md)
+        + [March release notes](./release-info/release-notes-2022.3.0.md)
+        + [February release notes](./release-info/release-notes-2022.2.0.md)
+        + [January release notes](./release-info/release-notes-2022.1.0.md)
     + On-prem/Managed Services {#on-prem-release-notes}
+      + [4.2 Release Notes](./release-info/release-notes-4.2.md)
       + [4.1.x Release Notes](./release-info/release-notes-4.1.md)
       + [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -33,7 +38,13 @@ breadcrumb-title: AEM Guides Tutorials
     + [PDF Template](./native-pdf/pdf-template.md)
     + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
     + [Design a page layout](./native-pdf/design-page-layout.md)
-    + [Work with the common content styles](./native-pdf/stylesheet.md)
+    + Common content styles {#content-styles}
+        + [Work with the common content styles](./native-pdf/stylesheet.md)
+        + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
+        + [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
+        + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
+        + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
+        + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
   + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + Translation {#translation}
   + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
@@ -49,6 +60,8 @@ breadcrumb-title: AEM Guides Tutorials
     + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
     + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
     + [Reports in AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+  + Publishing{#publishing}
+    + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Webeditor {#webeditor}

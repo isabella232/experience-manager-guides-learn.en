@@ -1,22 +1,22 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, November 2022 release
-description: Latest release of Adobe Experience Manager Guides as a Cloud Service
+description: November release of Adobe Experience Manager Guides as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 ---
-# Latest release of Adobe Experience Manager Guides as a Cloud Service 
+# November release of Adobe Experience Manager Guides as a Cloud Service 
 
-## Upgrade to the latest release
+## Upgrade to the November release
 
 Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later referred as *AEM Guides as a Cloud Service*) setup by performing the following steps:
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.11.198.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
+3. Commit the changes and run the Cloud Services pipeline to upgrade to the November release of AEM Guides as a Cloud Service.
 
 ## Steps to index the existing content (Only if you are on a version prior to September release of AEM Guides as a Cloud Service)
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level:
 
-* Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexin`.
+* Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed || Example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
@@ -47,7 +47,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 ## New features and enhancements
 
-AEM Guides as a Cloud Service provides enhancements and new features in the latest release:
+AEM Guides as a Cloud Service provides enhancements and new features in the November release:
 
 
 ### Delete files from the repository panel

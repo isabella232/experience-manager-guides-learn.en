@@ -1,7 +1,7 @@
 ---
 title: Expert Session Overview
 description: Landing page for expert session section.
-
+exl-id: 8a4bac35-95c0-4348-90c0-3e6e5ca9de59
 ---
 # Join our monthly Expert sessions and discover the full potential of AEM Guides!
 

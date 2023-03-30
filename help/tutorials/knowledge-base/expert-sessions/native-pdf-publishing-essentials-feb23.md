@@ -1,7 +1,7 @@
 ---
 title: Native PDF publishing essentials
 description: Learn how to publish PDF using native pdf engine in AEM Guides.
-
+exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
 ---
 # Native PDF publishing essentials
 
