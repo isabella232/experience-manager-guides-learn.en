@@ -40,7 +40,7 @@ In this session, you learnt about the following:
 
 ## Related resources 
 
-- [Download PDF](./assets/aem-guides-expert-session-reports-documentation.pdf) to create reports similar to use cases demonstrated in the session.
+- **[Download PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)** to understand the details of reports demonstrated in the session.
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en) 
  
