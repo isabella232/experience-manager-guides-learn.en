@@ -2,19 +2,19 @@
 title: Reports in AEM Guides
 description: Learn which all reports are available in AEM to aid users in improving the content quality.
 ---
-# Author web-based content
+# Reports in AEM Guides
 
 In an organizational setup, you want to verify the overall completeness of your content before you push the documents for consumption by end users. Such a need becomes even more essential in multi-user and large-scale environments where content can be re-used in different contexts hence validating your content or document is a necessity. In the context of structured content, there are some specific types of reports that are commonly needed.
 
 
 ## Session overview
 
-In this session, we will share the out-of-the-box reports available for users. We will broadly cover the following types of Reports:
-- AEM assets reporting capability
+In this session, we showed out-of-the-box reports available for users. We broadly covered following:
 - Document (map) and topic reports
 - Metadata reports and bulk metadata management options
-- View content reuse statistics
-- Content import completeness
+- Content reuse reports
+- Content import correctness
+- Leveraging AEM Assets reporting capability
 
 
 ## Session recording
@@ -34,14 +34,13 @@ In this session, we will share the out-of-the-box reports available for users. W
 
 In this session, you learnt about the following:
 - Importance of reports in CCMS
-- Which reports are available out of the box?
-- How can you extend reporting capabilities?
-- Examples of reporting on content
+- available out of the box reports
+- examples of reporting on content
  
 
 ## Related resources 
 
-- In this session, we demonstrated several reports. To create similar reports, refer the steps given in the attached document. [Download PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- [Download PDF](./assets/aem-guides-expert-session-reports-documentation.pdf) to create reports similar to use cases demonstrated in the session.
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en) 
  
@@ -52,8 +51,8 @@ In this session, you learnt about the following:
 >[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
-> - On-prem 4.2 or later
-> - Cloud Services 2302 or later
+> - On-prem: 4.2 or later
+> - Cloud Services: 2302 or later
 
 
 ## Next expert session 
