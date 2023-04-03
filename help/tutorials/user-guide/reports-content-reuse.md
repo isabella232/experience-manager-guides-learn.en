@@ -37,23 +37,17 @@ Perform the following steps to view the Content Reuse Report:
 
         The Details section contains the following columns:
 
-        Title
-        :   The title of the topic. Clicking on the topic's title link opens the topic preview.
+        - **Title**: The title of the topic. Clicking on the topic's title link opens the topic preview.
 
-        UUID
-        :   The universally unique identifier \(UUID\) of the file.
+        - **UUID**: The universally unique identifier \(UUID\) of the file.
 
-        Size
-        :   Files size in bytes.
+        - **Size**: Files size in bytes.
 
-        Status
-        :   The current state of the document - Draft, In-Review or Reviewed.
+        - **Status**: The current state of the document - Draft, In-Review or Reviewed.
 
-        Number of Times Reused
-        :   Number of times the corresponding topic has been reused. This calculated as sum total of entries in Referenced By columns minus 1.
+        - **Number of Times Reused**: Number of times the corresponding topic has been reused. This calculated as sum total of entries in Referenced By columns minus 1.
 
-        Referenced By
-        :   The topics in which the corresponding topic has been referenced. Here, only the direct \(first level\) references are considered. Multiple topics are separated by comma. The UUID of the referenced file is also mentioned in brackets.Clicking on the topic's title link opens the topic preview.
+        - **Referenced By**: The topics in which the corresponding topic has been referenced. Here, only the direct \(first level\) references are considered. Multiple topics are separated by comma. The UUID of the referenced file is also mentioned in brackets.Clicking on the topic's title link opens the topic preview.
 
 
 >[!NOTE]

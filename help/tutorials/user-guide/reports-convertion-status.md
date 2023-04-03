@@ -33,26 +33,19 @@ Perform the following steps to view the Conversion Status Report:
 
         The report data contains the following columns:
 
-        File Name
-        :   Name of the source file on which the conversion process was executed. Clicking on the File Name link takes you to the source document location.
+        - **File Name**: Name of the source file on which the conversion process was executed. Clicking on the File Name link takes you to the source document location.
 
-        File Type
-        :   Type of the source document, which could be Word, structured HTML, XML, and DocBook.
+        - **File Type**: Type of the source document, which could be Word, structured HTML, XML, and DocBook.
 
-        Added By
-        :   Name of the user who executed the conversion task.
+        - **Added By**: Name of the user who executed the conversion task.
 
-        Date Added
-        :   Date on which the task was executed. Clicking on the Date Added link downloads the log file.
+        - **Date Added**: Date on which the task was executed. Clicking on the Date Added link downloads the log file.
 
-        Path
-        :   Complete path of the source document.
+        - **Path**: Complete path of the source document.
 
-        Status
-        :   Status of the conversion tasks - Success, Failed, Active, or Queued.
+        - **Status**: Status of the conversion tasks - Success, Failed, Active, or Queued.
 
-        Output
-        :   Path of the successfully converted document. Clicking on the Output link takes you to the location where the output is saved.
+        - **Output**: Path of the successfully converted document. Clicking on the Output link takes you to the location where the output is saved.
 
 
 **Parent topic:**[Reports](reports-intro.md)

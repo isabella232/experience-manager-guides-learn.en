@@ -36,23 +36,17 @@ Perform the following steps to access the Revert History report:
 
     The report contains the following details:
 
-    File Name
-    :   The title of the topic. Clicking on the topic's title link opens the topic preview.
+    - **File Name**: The title of the topic. Clicking on the topic's title link opens the topic preview.
 
-    Time Stamp
-    :   The date and time when the topic was reverted to an earlier version.
+    - **Time Stamp**: The date and time when the topic was reverted to an earlier version.
 
-    User
-    :   Name of the user who reverted to an earlier version.
+    - **User**: Name of the user who reverted to an earlier version.
 
-    Revert From
-    :   The original version number of the file from where it was reverted.
+    - **Revert From**: The original version number of the file from where it was reverted.
 
-    Revert To
-    :   The version to which the file was reverted to.
+    - **Revert To**: The version to which the file was reverted to.
 
-    Comment
-    :   Any comment given by the user who reverted the file.
+    - **Comment**: Any comment given by the user who reverted the file.
 
 
 **Parent topic:**[Reports](reports-intro.md)
