@@ -59,6 +59,7 @@ The tight integration of Experience Manager and FrameMaker through a built-in co
 Using the AEM connector in FrameMaker, you can manage your FrameMaker files. The AEM connector allows you to easily upload your DITA and other FrameMaker documents (.book and .fm) on AEM. AEM Guides also allows you to publish FrameMaker documents directly from AEM. In case your FrameMaker book file contains a combination of DITA and .fm files, AEM Guides can publish such documents as well. Currently, you can publish FrameMaker's .book and .fm files into PDF, HTML5, and EPUB formats.
 
 ## Additional resources
+
 Following is a list of other helpful resources of AEM Guides, which are available on the [Learn & Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) page:
 
 * User Guide
