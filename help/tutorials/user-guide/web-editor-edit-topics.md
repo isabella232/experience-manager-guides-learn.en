@@ -27,23 +27,23 @@ The Web Editor comes with a range of editing features that let you easily create
     >
     > If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the Unsaved Changes dialog.
 
-    Refresh browser while editing the files
-    :   AEM Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.
+    **Refresh browser while editing the files**
+    AEM Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.
 
-        Even on refreshing the browser, the views of the left and the right panel are retained in the Web Editor. For example, the active topic in the Repository panel is opened again. The map panel is retained along with the previously opened map.
+    Even on refreshing the browser, the views of the left and the right panel are retained in the Web Editor. For example, the active topic in the Repository panel is opened again. The map panel is retained along with the previously opened map.
 
-        The active topic or DITA map is reopened in the content editing area.
+    The active topic or DITA map is reopened in the content editing area.
 
-        The right panel is also reopened and displays the same view as before the refresh.
+    The right panel is also reopened and displays the same view as before the refresh.
 
-    Working copy indicator
-    :   AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file
+    **Working copy indicator**
+    AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file
 
     <img src="./images/working-copy-text-update-indicator.png" width=400>
 
     AEM Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
-    <img src="./images/insert-special-char.png" width=400>
+    <img src="./images/version-update-indicator.png" width=400>
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

@@ -46,5 +46,9 @@ Perform the following steps to create a topic:
 >
 > If your administrator has configured your Web Editor to check out files before editing, then you will not be able to edit a file until you check it out. Similarly, if configured, you will be asked to check-in any checked-out file before closing it.
 
+>[!IMPORTANT]
+>
+> Once you have created your DITA topic, keep saving the changes to your working copy and create a new version once you have completed the updates to your topic.
+
 **Parent topic:**[Create and preview topics](create-preview-topics.md)
 

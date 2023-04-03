@@ -19,7 +19,7 @@ The following subsection cover in details the various sections of the Web Editor
 
 The main toolbar is at the top of the Web Editor's interface and it provides file-level features and various authoring modes available in the Web Editor. Features available in the top toolbar are explained as follows:
 
-**Save All** - [](images/SaveFloppy_icon.svg)
+**Save All** - ![](images/SaveFloppy_icon.svg)
 
 Saves the changes you have made in all opened topics. If you have multiple topics opened in the Web Editor, clicking **Save All** or using the **Crtl**+**S** shortcut keys saves all documents in one click. You do not have to individually save each document.
 
@@ -27,7 +27,7 @@ Saves the changes you have made in all opened topics. If you have multiple topic
 >
 > The Save operation does not create a new version of your topics. To create a new version, choose Save As New Version.
 
-**Save As New Version** - [](images/save-revision-icon.png)
+**Save As New Version** - ![](images/save-revision-icon.png)
 
 Saves the changes you have made in your topic and also creates a new version of your topic. If you are working on a newly created topic, the version information is shown as **none**.
 
@@ -59,15 +59,15 @@ When you hover your pointer over a topic's title, you are shown the file path an
 >
 > Once a version of your topic is available, you can also add labels to your topic. These labels can then be used to create a baseline for publishing a specific version of your document. For more information about using labels in your topics, see [Use labels](web-editor-use-label.md#).
 
-**Undo and Redo** - [](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
+**Undo and Redo** - ![](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
 
 Undo or Redo the last action.
 
-**Delete Element** - [](images/Delete_icon.svg)
+**Delete Element** - ![](images/Delete_icon.svg)
 
 Deletes the currently selected element or the element where the cursor is placed.
 
-**Find and Replace** - [](images/FindAndReplace_icon.svg)
+**Find and Replace** - ![](images/FindAndReplace_icon.svg)
 
 The Find and Replace feature is available in Author and Source view modes. The Find and Replace text bar appears at the bottom of the topic editing area. You can use the shortcut keys **CTRL**+**F** to invoke the Find and Replace bar.
 
@@ -79,7 +79,7 @@ The search is instantaneous, which means that as you type the search phrase or w
 
 In the Source view, the Find and Replace is extremely useful for searching for a specific element or attribute. For example, if you want to replace the value of the `@product` attribute, it can be easily done from the Source view. The Author view does not allow you to search on the basis of an attribute or element. However, you must use caution while using the **Replace All** feature, as it might overwrite the XML code.
 
-**Editor Settings** - [](images/editor_settings_icon.svg)
+**Editor Settings** - ![](images/editor_settings_icon.svg)
 
 The Editor Settings are only available to administrative users. Using the preferences, an administrator can configure the following settings:
 
@@ -146,7 +146,7 @@ With this setting, when you try to add an attribute to an element, you only see 
 ![](images/editor-setting-translation.png)
 
 
-**User Preferences** - [](images/user_preference_editor_icon.svg)
+**User Preferences** - ![](images/user_preference_editor_icon.svg)
 
 The User Preferences are available to all authors. Using the preferences, an author can configure the following settings:
 
@@ -179,7 +179,7 @@ For details about the various authoring and document viewing modes, see [Web Edi
 
 The secondary toolbar appears when you open a topic for editing in the Web Editor. Features available in the secondary toolbar are explained as follows:
 
-**Insert Element** - [](images/Add_icon.svg)
+**Insert Element** - ![](images/Add_icon.svg)
 
 Inserts a valid element at the current or next valid location. If you are working inside a block element like a `note`, then use the Insert Element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
@@ -197,19 +197,19 @@ Another way of entering new element is by using the context menu. Right-click at
 
 ![](images/insert-element-before-after.png)
 
-**Insert Paragraph** - [](images/Paragraph_icon.svg)
+**Insert Paragraph** - ![](images/Paragraph_icon.svg)
 
 Insert paragraph element at the current or next valid location.
 
-**Insert/Remove Numbered List** - [](images/TextNumbered_icon.svg)
+**Insert/Remove Numbered List** - ![](images/TextNumbered_icon.svg)
 
 Creates a numbered list at the current or next valid location. If you are on a numbered list and click this icon, the item is converted into a normal paragraph.
 
-**Insert/Remove Bulleted List** - [](images/BulletList_icon.svg)
+**Insert/Remove Bulleted List** - ![](images/BulletList_icon.svg)
 
 Creates a bulleted list at the current or next valid location. If you are on a bulleted list and click this icon, the item is converted into a normal paragraph.
 
-**Insert Table** - [](images/Table_icon.svg)
+**Insert Table** - ![](images/Table_icon.svg)
 
 Inserts a table at the current or next valid location. Click the Insert Table icon to open the insert Table dialog:
 
@@ -240,7 +240,7 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 
 ![](images/align-table-cell_cs.png)
 
-**Insert Image** - [](images/Image_icon.svg)
+**Insert Image** - ![](images/Image_icon.svg)
 
 Inserts an image at the current or next valid location. Click the Insert Image icon to open the Insert Image dialog and then search and select the image you want to insert.
 
@@ -278,7 +278,7 @@ The context menu provides options to cut, copy, or paste the image or media. You
 
 The other options in the context menu allow you to copy path, edit an image map, create a snippet, or generate IDs for the selected element.
 
-**Insert Multimedia** - [](images/insert-multimedia-icon.svg)
+**Insert Multimedia** - ![](images/insert-multimedia-icon.svg)
 
 Inserts different types of multimedia files. Click the Insert Multimedia icon and choose the type of file you want to insert. The supported multimedia formats are:
 
@@ -297,7 +297,7 @@ You can also add the Audio or Video File from the Insert Multimedia dialog. Sele
 
 ![](images/insert-multimedia.png)
 
-**Insert Cross Reference** - [](images/Reference_icon.svg)
+**Insert Cross Reference** - ![](images/Reference_icon.svg)
 
 Insert references of type — Content Reference, Content Key Reference, Key Reference, File Reference, Web Link, or Email Link.
 
@@ -347,7 +347,7 @@ You can search for Non-DITA Files like the Image Files, Multimedia, and document
 
 The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general' are listed. You can also preview the content of the file.
 
-**Insert Reusable Content** - [](images/content-reuse-icon.svg)
+**Insert Reusable Content** - ![](images/content-reuse-icon.svg)
 
 Reuse content that exists within any other document in your project. You can insert content by directly linking to the content in a file or by using a key reference, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z). When you click the Insert Reusable Content icon, you get the Reuse Content dialog:
 
@@ -377,7 +377,7 @@ Inserts special characters in your topic. Click the Insert Special Character ico
 
 In the Insert Special Character dialog, you can search for a special character using its name. All special characters are stored under various categories. Use the Select Category drop-down list and select a category. The special characters available within the selected category are displayed. You can navigate the list of special character using the arrow keys or click on the desired character that you want to insert. The Name and Hex Code of the selected special character are displayed below the list. Click Insert to insert the selected character in your document.
 
-**Insert Keyword** - [](images/Keyword_icon.svg)
+**Insert Keyword** - ![](images/Keyword_icon.svg)
 
 Insert keyword defined in your DITA map. Click the Insert Keyword icon to open the Key Reference dialog.
 
@@ -391,7 +391,7 @@ You can also change the attributes of the inserted keyword by right-clicking on 
 
 You can change the keyword's attributes or add a new attribute to the keyword.
 
-**Insert Snippet** - [](images/insert-snippet-icon.svg)
+**Insert Snippet** - ![](images/insert-snippet-icon.svg)
 
 Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, see [Snippets](#snippets_id20A5D0303XA) later in this guide.
 
@@ -405,7 +405,7 @@ When you choose a snippet from the list, it gets inserted at the current or next
 
 ![](images/error-snippet.png)
 
-**Insert/Edit Image Map** - [](images/imagemap-rectangle.svg)
+**Insert/Edit Image Map** - ![](images/imagemap-rectangle.svg)
 
 Inserts an image map on the selected image. An image with clickable areas that link to topics or web pages is called an image map.
 
@@ -419,13 +419,13 @@ Choose the preferred shape \(Rectangle ![](images/imagemap-rectangle-toolbar.svg
 
 If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
 
-**Lock/Unlock** - [](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Lock/Unlock** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
 Locks or unlocks the current file. Locking \(or checking\) out a file gives the user exclusive write access on the file. When the file is Unlocked \(or checked-in\), the changes are saved in the current version of the file.
 
 If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can click on the Lock icon to get the lock on all files within the map.
 
-**Toggle Tags View** - [](images/Label_icon.svg)
+**Toggle Tags View** - ![](images/Label_icon.svg)
 
 Tags are visual cues indicating an element's boundaries. An element boundary marks the beginning and end of an element. You can then use these boundaries as a visual cue to place the insertion point or select the text within a boundary. If you want to insert another element before or after an element in the document, you can place the insertion point before or after the opening or closing boundary of the element.
 
@@ -472,7 +472,7 @@ If you want to accept or reject all changes with a single click, select **Accept
 >
 > The Preview mode allows you to view the document with or without the changed content's markups. For more details, see the [Preview](web-editor-views.md#preview-mode-id19AAGL00163) mode.
 
-**Merge** - [](images/merge-icon.svg)
+**Merge** - ![](images/merge-icon.svg)
 
 When you work in a multi-author environment, it becomes difficult to track what changes the other authors have made in a topic or map. The Merge feature gives you more control over not only viewing the changes, but also what changes are retained in the latest version of the document.
 
@@ -534,7 +534,7 @@ To merge changes in a map file, perform the following steps:
         You can choose to accept or reject all changes from the Tracked Changes panel or accept or reject individual change in the map file.
 
 
-**Version History** - [](images/version-history-web-editor-ico.svg)
+**Version History** - ![](images/version-history-web-editor-ico.svg)
 
 AEM Guides provides various ways to view the versions created for your topic files and also ways to revert to a specific version. However, most of these features are available outside the Web Editor.
 
@@ -665,7 +665,7 @@ To add a file to your favorite collection, use any of the following methods:
 >
 > To remove an item from the favorites list, click the Options icon next to the file or folder in the Favorites list and choose **Remove from Favorites**.
 
-**Repository View** - [](images/Repository_icon.svg)
+**Repository View** - ![](images/Repository_icon.svg)
 
 When you click the Repository View icon, you get a list of files and folders available in DAM.
 

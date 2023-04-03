@@ -18,14 +18,15 @@ Perform the following steps to preview a topic:
     >
     > You can see the version of the active topic or DITA map in the top right corner of the topic's file tab.
 
+    >[!IMPORTANT]
+    >
+    > The positioning of the following features in the Preview toolbar could differ based on your AEM server's setup. Some of the features might be available in the main toolbar, while other could be available under the More menu.
 
->[!IMPORTANT]
->
-> The positioning of the following features in the Preview toolbar could differ based on your AEM server's setup. Some of the features might be available in the main toolbar, while other could be available under the More menu.
+## Features available in preview mode
 
-**Features available in preview mode** - ![](images/preview-screen.png)
+![](images/preview-screen.png)
 
-**You can perform the following operations from the toolbar in the preview mode:**
+You can perform the following operations from the toolbar in the preview mode:
 
 **Properties**
 
