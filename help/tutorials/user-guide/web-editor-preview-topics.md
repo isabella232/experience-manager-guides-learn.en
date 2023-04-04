@@ -143,7 +143,7 @@ If the Checked Out column is not visible, select **View Settings** under **List 
         ![](images/version-difference.png)
 
 
-### Branch, revert, and subsequent versioning {id193PG0Y051X}
+### Branch, revert, and subsequent versioning {#id193PG0Y051X}
 
 - In a typical authoring environment, you would need to create a new branch of a topic to cater to a specific release. Just like any other version management system, AEM Guides allows you to create a branch from an existing version of a topic, or revert to an older version of a topic. Using the version management features offered by AEM Guides, you can perform the following tasks:
 

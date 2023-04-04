@@ -81,7 +81,7 @@ Example
     </mainpubtitle>
     <subtitle>Subtitle</subtitle>
  </pubtitle>
-```
+ ```
 
 >[!NOTE]
 > Only the first occurrence of curly bracket will be replaced with title.
