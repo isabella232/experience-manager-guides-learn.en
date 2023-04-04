@@ -671,7 +671,13 @@ When you click the Repository View icon, you get a list of files and folders ava
 
 75 files are loaded at a time. Each time you click **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
 
-You can easily navigate to the required file within DAM and open it in the Web Editor. If you have the required access to edit the file, then you can do so. Double-clicking on a map file opens it in the [Map View](#id209LE0K0IXA), whereas double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity.
+You can easily navigate to the required file within DAM and open it in the Web Editor. If you have the required access to edit the file, then you can do so.
+
+You can also click and play an audio or video file in the Web Editor. You can change the volume or
+the view of the video. In the shortcut menu you also have the options to download, change playback
+speed, or view picture in picture.
+
+ Double-clicking on a map file opens it in the [Map View](#id209LE0K0IXA), whereas double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity.
 
 **Filter Search**
 
