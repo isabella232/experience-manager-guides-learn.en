@@ -62,6 +62,7 @@ Perform the following steps to create a map template:
     \(Optional\) Add a description.Click **Create**. The map template created message appears. You can then open the map template and edit it. You can add the references for the topic templates, map templates, and also other assets in the map template.
 
 ## Pass on the title defined in the templates
+
 If you want to pass on the title of the topic or map used inside your template to the DITA maps created using that template, use curly brackets around the title.
 
 Example
@@ -72,14 +73,14 @@ Example
     {title}
     </mainpubtitle>
     <subtitle>Subtitle</subtitle>
-</pubtitle>
+ </pubtitle>
 
-The resultant DITA map with title "Rootmap1" will look like as follows:
-`<pubtitle>
+ The resultant DITA map with title "Rootmap1" will look like as follows:
+ <pubtitle>
     <mainpubtitle outputclass="booktitle">Rootmap1
     </mainpubtitle>
     <subtitle>Subtitle</subtitle>
-</pubtitle>
+ </pubtitle>
 ```
 
 >[!NOTE]

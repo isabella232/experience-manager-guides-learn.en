@@ -77,6 +77,10 @@ The following table lists various tasks and the groups that can perform those ta
 |**Features available in DITA map console \(Condition Presets\)**|
 |Create/edit condition preset| | |Yes|
 
+[1](#fnsrc_1) If *Authors* and *Publishers* are invited for a review.
+
+[2](#fnsrc_2) Depending on the rights given to the user in the document state profile.
+
 ## Pre-requisites to content authoring 
 
 **Work with global or folder-level profiles**
@@ -89,10 +93,7 @@ Also, you can delegate the folder-specific configurations to a department or pro
 
 For details on setting up global and folder-level profiles, see *Configure global or folder-level profiles* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
--   **[Upload files](authoring-upload-existing-files.md)**  
--   **[Manage files and folders](authoring-file-management.md)**  
--   **[Download files](authoring-download-assets.md)**  
 
 
-[1](#fnsrc_1) If *Authors* and *Publishers* are invited for a review.[2](#fnsrc_2) Depending on the rights given to the user in the document state profile.
+
 
