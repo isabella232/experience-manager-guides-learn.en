@@ -246,8 +246,7 @@ Inserts an image at the current or next valid location. Click the Insert Image i
 
 >[!NOTE]
 >
-> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the  
-[Upload Assets](#id2057BF0F05Z) workflow.
+> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the  [Upload Assets](#id2057BF0F05Z) workflow.
 
 ![](images/insert-image.png)
 
