@@ -246,7 +246,8 @@ Inserts an image at the current or next valid location. Click the Insert Image i
 
 >[!NOTE]
 >
-> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the [Upload Assets](#id2057BF0F05Z) workflow.
+> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the  
+[Upload Assets](#id2057BF0F05Z) workflow.
 
 ![](images/insert-image.png)
 
@@ -413,8 +414,7 @@ Select an image in the current topic and click the Insert/Edit Image Map icon to
 
 ![](images/insert-image-map.png)
 
-Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.svg), or Polygon ![](images/imagemap-polygon-toolbr.svg) 
-to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
+Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png), or Polygon ![](images/imagemap-polygon-toolbr.png) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
 
 ![](images/reference-dialog.png)
 
@@ -712,7 +712,10 @@ You can perform the following actions using the Options menu available for a *fo
 ![](images/options-menu-folder_cs.PNG)
 
 -   **Create**: Create a new DITA topic, DITA map, or a folder. For more details, see [Create topics from the Repository View](#id204SJ0380Y4).
--   **Upload Assets**: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+
+### Upload assets {#id2057BF0F05Z} 
+
+-   **Upload Assets** : Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
     ![](images/upload-assets.png)
 
