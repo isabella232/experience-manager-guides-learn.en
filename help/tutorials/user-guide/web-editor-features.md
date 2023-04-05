@@ -712,9 +712,7 @@ You can perform the following actions using the Options menu available for a *fo
 
 -   **Create**: Create a new DITA topic, DITA map, or a folder. For more details, see [Create topics from the Repository View](#id204SJ0380Y4).
 
-### Upload assets {#id2057BF0F05Z} 
-
--   **Upload Assets** : Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+-   **Upload Assets** {#id2057BF0F05Z} : Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
     ![](images/upload-assets.png)
 
