@@ -135,13 +135,13 @@ With this setting, when you try to add an attribute to an element, you only see 
 
 ![](images/editor-setting-add-attributes-list.png-to-element.PNG)
 
--   **Inline Attributes**: Like the Attributes List, you can control the list of Inline Attributes to be displayed in the attributes list of an element. By default, four Inline Attributes — audience, platform, product, and properties have been configured to be shown in an element's attribute list. You can also add an inline attribute using the **Add** icon on the top. You can also or delete any of the inline attributes using the **Delete**icon.
+-   **Inline Attributes**: Like the Attributes List, you can control the list of Inline Attributes to be displayed in the attributes list of an element. By default, four Inline Attributes — audience, platform, product, and properties have been configured to be shown in an element's attribute list. You can also add an inline attribute using the **Add** icon on the top. You can also or delete any of the inline attributes using the **Delete** icon.
 
 ![](images/editor-settings-inline-attributes.png)
 
 -   **Translation**: This tab contains the option to propagate the source labels to the target version.
 
--   -   **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
+        -   **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
 
 ![](images/editor-setting-translation.png)
 
@@ -413,7 +413,8 @@ Select an image in the current topic and click the Insert/Edit Image Map icon to
 
 ![](images/insert-image-map.png)
 
-Choose the preferred shape \(Rectangle ![](images/imagemap-rectangle-toolbar.svg), Circle ![](images/imagemap-circle-toolbar.svg), or Polygon ![](images/imagemap-polygon-toolbr.svg)\) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
+Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.svg), or Polygon ![](images/imagemap-polygon-toolbr.svg) 
+to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
 
 ![](images/reference-dialog.png)
 
