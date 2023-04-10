@@ -20,9 +20,7 @@ Perform the following steps to generate output for FrameMaker documents:
 
 >[!NOTE]
 >
-> You can view the current status of the output generation request by clicking on Outputs. For more information, see
-
-[View the status of the output generation task](fm-output-view-status.md#).
+> You can view the current status of the output generation request by clicking on Outputs. For more information, see [View the status of the output generation task](fm-output-view-status.md).
 
 **Parent topic:**[Generate output of FrameMaker documents](fm-output-generatation.md)
 
