@@ -1333,7 +1333,7 @@ Only one replace all operation can be performed at a time in the whole system, a
 
 ![](images/replace-all-in-progress.png)
 
-You can also use the**Find in Map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
+You can also use the **Find in Map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
 
 ![](images/map-options-menu.png)
 
@@ -1353,7 +1353,7 @@ The right panel is a persistent panel which contains information about the curre
 
 The right panel gives you access to the following features:
 
-**Content Properties ** -  ![](images/content-properties-icon.svg)
+**Content Properties** -  ![](images/content-properties-icon.svg)
 
 You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. You can also add attributes by selecting the attribute from the dropdown list and specifying an attribute's value.
 
@@ -1365,7 +1365,7 @@ If your administrator has created a profile for attributes, then you will get th
 
 ![](images/properties-tab-attributes_cs.png)
 
-**File Properties ** -  ![](images/topic-properties-icon.svg)
+**File Properties** -  ![](images/topic-properties-icon.svg)
 
 View the properties of the selected file by clicking the File Properties icon in the right panel. The File Properties has the following two sections:
 

@@ -31,38 +31,38 @@ When you have multiple files opened, then you get more options in the context me
 
 The various options in the context menu are explained below:
 
-:   ***Save***: You can choose from the following options:
+***Save***: You can choose from the following options:
 
 -   **Save**: To save a file without creating a new version, select **Save**. Whenever you create a new topic, a version-less working copy of the topic is created in DAM. Saving your document updates the working copy of your document in DAM. Doing a simple save on this version does not create a new version of a topic. If your topic is under review, saving a topic does not give your reviewers access to your changed topic content.
 
 -   **Save All**: If there are multiple documents opened in the Web Editor, then you also get an option to **Save All** opened documents.
 
 
-:   ***Save As New Version***
+***Save As New Version***
 
 To create a new version of the file, select **Save As New Version**. For more details about **Save** and **Save As New Version**, see [Know the Web Editor features](web-editor-features.md#).
 
-:   ***Copy***: You can choose from the following options:
+***Copy***: You can choose from the following options:
 
 -   **Copy UUID**: To copy the UUID of the currently active file to the Clipboard, select **Copy \> Copy UUID**.
 -   **Copy Path**: To copy the complete path of the currently active file to the Clipboard, select **Copy \> Copy Path**.
 
 
-:   ***Locate In***: You can choose from the following options:
+***Locate In***: You can choose from the following options:
 
 -   **Map**: If you have opened a large DITA map and want to find the exact location of a file in the map, then select **Locate In \> Map**. When you select the Locate in Map option, the file \(from where the option is invoked\) is located and highlighted in the map hierarchy. To be able to use this feature, you must open the map file in the Web Editor. If the Map View is hidden, then invoking this feature will display the Map View and the file is highlighted in the map hierarchy.
 
 -   **Repository**: Similar to Locate in Map, the **Locate In \> Repository** shows the location of the file in the repository \(or DAM\). The Repository View is opened and the selected file is highlighted in the repository. If the file is within a folder, then that folder is expanded to show the selected file's location in the repository.
 
 
-:   ***Add To***: You can choose from the following options:
+***Add To***: You can choose from the following options:
 
--   **Favorites**: To add the selected file to favorite collection, select **Add To \> Favorites**. For more details, see [Favorites](web-editor-features.md#id2056G010YXK).
+-   **Favorites**: To add the selected file to favorite collection, select **Add To \> Favorites**. For more details, see the *Favorites* section in [Left Panel](web-editor-features.md#id2051EA0M0HS).
 
--   **Reusable Contents**: To copy the selected file to the reusable content list, select **Add To \> Reusable Contents**. See [Reusable Contents](web-editor-features.md#id2056G0300L7).
+-   **Reusable Contents**: To copy the selected file to the reusable content list, select **Add To \> Reusable Contents**. For more details, see the *Reusable contents* section in [Left Panel](web-editor-features.md#id2051EA0M0HS).
 
 
-:   ***Properties***
+***Properties***
 
 To see the AEM properties page of the selected file, select **Properties**.
 
@@ -74,11 +74,11 @@ By default, the Web Editor allows you to view one topic at a time. There could b
 
 ![](images/split-editor.png)
 
-:   :   ***Quick Generate***
+***Quick Generate***
 
 Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
-:   :   ***Close***: You can choose from the following options:
+***Close***: You can choose from the following options:
 
 **Close**, **Close Others**, or **Close All**
 
