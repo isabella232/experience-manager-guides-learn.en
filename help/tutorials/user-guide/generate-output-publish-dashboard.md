@@ -13,29 +13,29 @@ The Publish Dashboard gives a complete overview of all publishing tasks currentl
 
 The Publish Dashboard contains the following details:
 
-**Map Title** - The title of a map file that is being currently published or is in the publish queue.
+- **Map Title** - The title of a map file that is being currently published or is in the publish queue.
 
-**File Name** - The file name of the DITA map.
+- **File Name** - The file name of the DITA map.
 
-**Output Preset** - Name of the output preset that is used to generate the output.
+- **Output Preset** - Name of the output preset that is used to generate the output.
 
-**Initiated By** - Username of the user who initiated the publishing task.
+- **Initiated By** - Username of the user who initiated the publishing task.
 
-**Started On** - Date and time when the publishing task was started.
+- **Started On** - Date and time when the publishing task was started.
 
-**Elapsed Time** - Time since when the publishing task is running in the system.
+- **Elapsed Time** - Time since when the publishing task is running in the system.
 
-**Delete icon** - Cancel or terminate a publishing task.
+- **Delete icon** - Cancel or terminate a publishing task.
 
 The left panel in the Publish Dashboard provides the following filtering options:
 
-**Output Preset** - Select one or more output presets for which you want to see the currently active publishing tasks. In the following screenshot, the publishing tasks are filtered to show only those tasks that use the AEM Site output preset:
+- **Output Preset** - Select one or more output presets for which you want to see the currently active publishing tasks. In the following screenshot, the publishing tasks are filtered to show only those tasks that use the AEM Site output preset:
 
 ![](images/publish-dashboard-preset-filter.png)
 
-**Initiated By** - Select a username from the list to show the publishing tasks initiated by the selected user.
+- **Initiated By** - Select a username from the list to show the publishing tasks initiated by the selected user.
 
-**Map** - Select a map file from the list to show the publishing tasks running for the selected map.
+- **Map** - Select a map file from the list to show the publishing tasks running for the selected map.
 
 ## Access the Publish Dashboard {#id205CC100DY4}
 
