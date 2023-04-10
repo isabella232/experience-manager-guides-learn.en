@@ -135,13 +135,13 @@ With this setting, when you try to add an attribute to an element, you only see 
 
 ![](images/editor-setting-add-attributes-list.png-to-element.PNG)
 
--   **Inline Attributes**: Like the Attributes List, you can control the list of Inline Attributes to be displayed in the attributes list of an element. By default, four Inline Attributes — audience, platform, product, and properties have been configured to be shown in an element's attribute list. You can also add an inline attribute using the **Add** icon on the top. You can also or delete any of the inline attributes using the **Delete**icon.
+-   **Inline Attributes**: Like the Attributes List, you can control the list of Inline Attributes to be displayed in the attributes list of an element. By default, four Inline Attributes — audience, platform, product, and properties have been configured to be shown in an element's attribute list. You can also add an inline attribute using the **Add** icon on the top. You can also or delete any of the inline attributes using the **Delete** icon.
 
 ![](images/editor-settings-inline-attributes.png)
 
 -   **Translation**: This tab contains the option to propagate the source labels to the target version.
 
--   -   **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
+        -   **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
 
 ![](images/editor-setting-translation.png)
 
@@ -246,7 +246,7 @@ Inserts an image at the current or next valid location. Click the Insert Image i
 
 >[!NOTE]
 >
-> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the [Upload Assets](#id2057BF0F05Z) workflow.
+> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the  <a href="#id2057BF0F05Z"> Upload Assets </a> workflow.
 
 ![](images/insert-image.png)
 
@@ -413,7 +413,7 @@ Select an image in the current topic and click the Insert/Edit Image Map icon to
 
 ![](images/insert-image-map.png)
 
-Choose the preferred shape \(Rectangle ![](images/imagemap-rectangle-toolbar.svg), Circle ![](images/imagemap-circle-toolbar.svg), or Polygon ![](images/imagemap-polygon-toolbr.svg)\) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
+Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png), or Polygon ![](images/imagemap-polygon-toolbr.png) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
 
 ![](images/reference-dialog.png)
 
@@ -671,7 +671,13 @@ When you click the Repository View icon, you get a list of files and folders ava
 
 75 files are loaded at a time. Each time you click **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
 
-You can easily navigate to the required file within DAM and open it in the Web Editor. If you have the required access to edit the file, then you can do so. Double-clicking on a map file opens it in the [Map View](#id209LE0K0IXA), whereas double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity.
+You can easily navigate to the required file within DAM and open it in the Web Editor. If you have the required access to edit the file, then you can do so.
+
+You can also click and play an audio or video file in the Web Editor. You can change the volume or
+the view of the video. In the shortcut menu you also have the options to download, change playback
+speed, or view picture in picture.
+
+ Double-clicking on a map file opens it in the [Map View](#id209LE0K0IXA), whereas double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity.
 
 **Filter Search**
 
@@ -705,7 +711,10 @@ You can perform the following actions using the Options menu available for a *fo
 ![](images/options-menu-folder_cs.PNG)
 
 -   **Create**: Create a new DITA topic, DITA map, or a folder. For more details, see [Create topics from the Repository View](#id204SJ0380Y4).
--   **Upload Assets**: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+
+
+
+-   **Upload Assets** {#id2057BF0F05Z}: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
     ![](images/upload-assets.png)
 
@@ -1324,7 +1333,7 @@ Only one replace all operation can be performed at a time in the whole system, a
 
 ![](images/replace-all-in-progress.png)
 
-You can also use the**Find in Map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
+You can also use the **Find in Map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
 
 ![](images/map-options-menu.png)
 
@@ -1344,7 +1353,7 @@ The right panel is a persistent panel which contains information about the curre
 
 The right panel gives you access to the following features:
 
-**Content Properties ** -  ![](images/content-properties-icon.svg)
+**Content Properties** -  ![](images/content-properties-icon.svg)
 
 You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. You can also add attributes by selecting the attribute from the dropdown list and specifying an attribute's value.
 
@@ -1356,7 +1365,7 @@ If your administrator has created a profile for attributes, then you will get th
 
 ![](images/properties-tab-attributes_cs.png)
 
-**File Properties ** -  ![](images/topic-properties-icon.svg)
+**File Properties** -  ![](images/topic-properties-icon.svg)
 
 View the properties of the selected file by clicking the File Properties icon in the right panel. The File Properties has the following two sections:
 

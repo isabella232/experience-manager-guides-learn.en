@@ -28,10 +28,3 @@ With AEM Guides, enterprises can deliver seamless and personalized experiences t
 -   Reduced localization time and costs
 
 -   Reduced maintenance overheads
-
-
--   **[How AEM Guides works](intro-how-dxml-works.md)**  
-
--   **[Key AEM Guides features](intro-dxml-features.md)**  
-
-

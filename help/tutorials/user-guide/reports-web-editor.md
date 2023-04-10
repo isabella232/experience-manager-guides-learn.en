@@ -55,7 +55,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 1.  From the **Filters** panel you can filter your topics based on the **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, and Image\) of the reference.
 1.  You can also choose to view only the **Files with no tags** or also choose specific tags from the **Tags** filter to view the files associated with them.
     1.  You can also use the following topic filtering options to choose to display the following columns in the metadata list:
-        -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can click the file to edit it.
+        -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can click the file to edit it.You can also click and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.
 
             >[!NOTE]
             >
@@ -129,9 +129,13 @@ The **Multimedia**report provides detailed information about the multimedia used
     -   **Reference Type** \(selected by default\) The type of reference - direct or indirect.
     >[!NOTE]
     >
-    > Click**Refresh**to get a fresh list of multimedia and see any change in your map file or if any multimedia within your DITA map is updated.
+    > Click **Refresh** to get a fresh list of multimedia and see any change in your map file or if any multimedia within your DITA map is updated.
+1. You can also click and play an audio or video file in the Web Editor. You can change the volume or
+the view of the video. In the shortcut menu you also have the options to download, change playback
+speed, or view picture in picture.
+![](images/video-web-editor.png)
 
-1.  Click**Download CSV**to download the current snapshot of the multimedia in the DITA map. The CSV contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia CSV file in any CSV editor.
+1.  Click **Download CSV** to download the current snapshot of the multimedia in the DITA map. The CSV contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia CSV file in any CSV editor.
 
 **Parent topic:**[Reports](reports-intro.md)
 

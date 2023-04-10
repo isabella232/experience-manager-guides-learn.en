@@ -61,6 +61,45 @@ Perform the following steps to create a map template:
 
     \(Optional\) Add a description.Click **Create**. The map template created message appears. You can then open the map template and edit it. You can add the references for the topic templates, map templates, and also other assets in the map template.
 
+## Pass on the title defined in the templates
+
+If you want to pass on the title of the topic or map used inside your template to the DITA maps created using that template, use curly brackets around the title.
+
+Example
+ 
+ ```XML
+ <pubtitle>
+    <mainpubtitle outputclass="booktitle">
+    {title}
+    </mainpubtitle>
+    <subtitle>Subtitle</subtitle>
+ </pubtitle>
+
+ The resultant DITA map with title "Rootmap1" will look like as follows:
+ <pubtitle>
+    <mainpubtitle outputclass="booktitle">Rootmap1
+    </mainpubtitle>
+    <subtitle>Subtitle</subtitle>
+ </pubtitle>
+ ```
+
+>[!NOTE]
+> Only the first occurrence of curly bracket will be replaced with title.
+
+If you do not use curly brackets around the title the resultant DITA map only the first element will be picked and the nesting of the title will not be picked from the template and it will look as follows:
+
+```XML
+<pubtitle> Rootmap1 </pubtitle>
+```
+
+>[!NOTE]
+> You can also use the curly brackets around the text to pass on its nested structure from the custom templates to your DITA maps.
+
+Example
+
+```XML
+<title>	<sub>		<b>{title}</b>	</sub></title>
+```
 
 ## Use the map template to create new maps 
 
@@ -92,6 +131,7 @@ The map generates all assets which are referred to inside the template folder. S
     >[!NOTE]
     >
     > dita-templates/topics and dita-templates/maps are the default paths in Guides and are configurable.
+
 
     If there is a topic template key definition inside the map template, a new key \(therefore new topic\) is created and referred to in the map.
 

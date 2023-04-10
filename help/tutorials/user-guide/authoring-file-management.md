@@ -103,7 +103,7 @@ Here are some of the features provided by the Bulk Move Tool:
 -   Authoring and publishing services run smoothly without any interruption from the move operation.
 -   Have compete control over the time interval in-between subsequent \(running of\) batch processes. This time interval ensures that the post-processing operation is completed before starting the next batch of files.
 
-    Auto-handling of folders with same name. This feature ensures that even if there are folders with same name being move, they are not overwritten.
+-   Auto-handling of folders with same name. This feature ensures that even if there are folders with same name being move, they are not overwritten.
 
 -   Auto-handling of references to and from the files being moved.
 

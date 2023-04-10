@@ -37,7 +37,7 @@ The Web Editor comes with a range of editing features that let you easily create
     The right panel is also reopened and displays the same view as before the refresh.
 
     **Working copy indicator**
-    AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file
+    AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file.
 
     <img src="./images/working-copy-text-update-indicator.png" width=400>
 

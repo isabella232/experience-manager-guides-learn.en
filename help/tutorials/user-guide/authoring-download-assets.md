@@ -39,7 +39,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
     -   Click **Download** to download the map file in.zip format.
 
-    -   Click **Download Later**to download the map file at a later time. The download link can be accessed from the AEM notification Inbox. Click the generated map notification in the Inbox to download the map in .zip format.
+    -   Click **Download Later** to download the map file at a later time. The download link can be accessed from the AEM notification Inbox. Click the generated map notification in the Inbox to download the map in .zip format.
 
     >[!NOTE]
     >
