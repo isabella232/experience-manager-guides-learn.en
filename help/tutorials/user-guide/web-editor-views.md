@@ -7,7 +7,7 @@ description: Learn how to  Web Editor views
 
 AEM Guides' Web Editor supports viewing documents in three different modes or views:
 
-**Author**
+## Author
 
 This is a typical What You See is What You Get \(WYSISYG\) view of the Web Editor. You can edit topic as you would do in any regular rich-text editor. In the Author view, you have the options to save a revision of the document, find and replace content, insert element, insert hyperlink, insert content reference, and more.
 
@@ -15,7 +15,7 @@ This is a typical What You See is What You Get \(WYSISYG\) view of the Web Edito
 >
 > When you use the content reference, the referred content is also displayed in Author view in blue color. The referred content is non-editable.
 
-**Source**
+## Source
 
 The Source view displays the underlying XML that makes up the topic. If you are comfortable working with XML directly, then you should use the Source view. In addition to making regular text edits in this view, you can also add elements and attributes using the Smart Catalog, or find and replace text, elements, or attributes.
 
@@ -36,7 +36,9 @@ The Source view displays the underlying XML that makes up the topic. If you are 
 
     In the above screenshot, a cross highlight is used to point the line containing erroneous XML.
 
--   The Find and Replace feature allows you to search for any text, element, or attribute in the Source View. For more information, see [Find and Replace](web-editor-features.md#id1995C0N0L5Z).
+-   The Find and Replace feature allows you to search for any text, element, or attribute in the Source View. 
+For more details, see the **Find and Replace** feature description in the [Main toolbar](web-editor-features.md#id#id2051EA0G05Z) section. 
+
 -   The Source View provides many shortcuts to help you quickly navigate and work on a document. The following table lists the supported actions and their shortcut keys:
 
     |To do this|Use this shortcut|
@@ -74,7 +76,7 @@ The Source view displays the underlying XML that makes up the topic. If you are 
     |Recursively find the current word \(in backward direction\)|**Shift**+**Ctrl**+**F3**|
 
 
-**Preview**
+## Preview
 
 Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by a user in their browser. In case of a DITA map, a preview of the map is shown wherein a single composite document of all topics within the map is shown.
 
@@ -84,7 +86,7 @@ The Preview mode gives you the following functionalities:
 -   [View the track changes markups](#id2114BJ00CE8)
 -   [Export a topic as PDF](#id2114BL00B5U)
 
-**View content based on conditional filters**
+### View content based on conditional filters {#id2114BI00VXA}
 
 If you have used conditions in your topic or map, those conditions are shown in the Filters panel. By default, all conditions are selected and the entire content is displayed. If you deselect a condition, then the content having that condition is removed from the view. You can also choose to highlight conditionalized content.
 
@@ -92,7 +94,7 @@ The following image shows a topic that uses two conditions — `Audience` and `P
 
 ![](images/preview-filters.png)
 
-**View the track changes markups**
+### View the track changes markups {#id2114BJ00CE8}
 
 If a document contains track changes markups \(or visual cues\), then you can also preview the document with or without those markups. While previewing a document, the right panel contains the Filters and Tracking options.
 
@@ -109,7 +111,7 @@ There are three **Tracking** options that you can choose from:
     ![](images/preview-map-with-track-changes.PNG)
 
 
-**Export a topic as PDF**
+### Export a topic as PDF {#id2114BL00B5U}
 
 PDF is one of the most common output formats that is used at every possible stage of the document development cycle. AEM Guides provides you the flexibility to generate the PDF of an individual topic or an entire map file. Export as PDF feature allows the Author, Publisher, or an Administrator to easily generate the PDF output for an individual topic. It uses the DITA-OT configurations saved at the folder-level profile to generate the PDF.
 

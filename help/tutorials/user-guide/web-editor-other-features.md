@@ -57,16 +57,20 @@ To create a new version of the file, select **Save As New Version**. For more de
 
 ***Add To***: You can choose from the following options:
 
--   **Favorites**: To add the selected file to favorite collection, select **Add To \> Favorites**. For more details, see the *Favorites* section in [Left Panel](web-editor-features.md#id2051EA0M0HS).
+-   **Favorites**: To add the selected file to favorite collection, select **Add To \> Favorites**. For more details, see the **Favorites** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.
 
--   **Reusable Contents**: To copy the selected file to the reusable content list, select **Add To \> Reusable Contents**. For more details, see the *Reusable contents* section in [Left Panel](web-editor-features.md#id2051EA0M0HS).
+
+
+-   **Reusable Contents**: To copy the selected file to the reusable content list, select **Add To \> Reusable Contents**. For more details, see the **Reusable Contents** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.
+
+
 
 
 ***Properties***
 
 To see the AEM properties page of the selected file, select **Properties**.
 
-:   ***Split***: You can choose from the following options:
+***Split***: You can choose from the following options:
 
 **Up, Down, Left, or Right**
 
