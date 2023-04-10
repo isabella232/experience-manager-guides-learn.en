@@ -19,19 +19,17 @@ You can also use the output presets created for your DITA map to generate output
 
 Perform the following steps to generate output for one or more topics in your DITA map:
 
-1.  In the **Author** tab, select the topic in your DITA map which you want to publish.
+1. In the **Author** tab, select the topic in your DITA map which you want to publish.
 
-1.  Select **Quick Generate** from the Options menu of the selected topic.
-
-![](images/select-topic-options-menu_cs.png)
+1. Select **Quick Generate** from the Options menu of the selected topic.
+ ![](images/select-topic-options-menu_cs.png)
 
 1.  To publish a topic used in a single DITA map, select the output presets of your map which you want to use to publish and click **Generate**.
-
 ![](images/select-preset_cs.png)
 
 1.  You will see the status of the output generation process. To view the output, hover the mouse pointer over the topic and click View Output.
 
-1.  If you have a common topic which is used across multiple topics, select the various DITA maps and also the output presets which you want to use to publish and click **Generate.**
+1. If you have a common topic which is used across multiple topics, select the various DITA maps and also the output presets which you want to use to publish and click **Generate.**
 
     ![](images/select-preset-multiple-maps_cs.png)
 
@@ -42,7 +40,6 @@ Perform the following steps to generate output for one or more topics in your DI
     -   **Map**: Lists the DITA maps which contain the selected topic.
     -   **Status**: Displays the publishing status of each topic.
     To view the output, hover the mouse pointer over the topic and click View Output.
-
     ![](images/output-multiple-maps_cs.png)
 
 

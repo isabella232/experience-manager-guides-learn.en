@@ -13,15 +13,14 @@ Perform the following steps to create a Markdown topic from the Web Editor:
 
 1.  Select a folder in the Repository View.
 1.  Create **Markdown Topic** in one of the following ways:
-1.  1.  Click **Create DITA File** icon on the top-right corner of the Repository Panel and then select **Markdown Topic** from the dropdown.
-
+    1.  Click **Create DITA File** icon on the top-right corner of the Repository Panel and then select **Markdown Topic** from the dropdown.
     ![](images/create-markdown-dita-topic.png)
 
-1.  Select **Create** from the Options menu of the selected folder and then select **Markdown Topic**from the dropdown.
+    1.  Select **Create** from the Options menu of the selected folder and then select **Markdown Topic**from the dropdown.
     ![](images/create-markdown-options-menu.png)
 
 1.  Enter the name and path of the Markdown topic in the **Create New Markdown Topic** dialog.
-1.  ![](images/create-markdown-dialog.png)
+  ![](images/create-markdown-dialog.png)
 
 1.  Click **Create**.
 

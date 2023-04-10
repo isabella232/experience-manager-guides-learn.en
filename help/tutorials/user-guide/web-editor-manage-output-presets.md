@@ -28,7 +28,7 @@ Perform the following steps to create an output preset for the Global and Folder
     >
     > These presets added to the folder profile are independent of the maps, so the map specific configurations are not present for these presets.
 
-1.  You can select the **Generate Preset** icon at the top to generate the output for the maps related to the created output preset. You will see the status of the output generation process. To view the output, hover the mouse pointer over the topic and click**View Output**.
+1.  You can select the **Generate Preset** icon at the top to generate the output for the maps related to the created output preset. You will see the status of the output generation process. To view the output, hover the mouse pointer over the topic and click **View Output**.
 
 >[!NOTE]
 >
