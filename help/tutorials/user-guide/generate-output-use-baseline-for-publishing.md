@@ -79,29 +79,21 @@ Perform the following steps to create a baseline:
 
 You can view the contents of an existing Baseline by clicking on the Baselines tab and selecting the desired Baseline version from the list. The Baselines page is divided into three parts – DITA map file, map's contents or topics, and the referenced content. If your map contains sub-maps, then the topics referenced from the sub-map are also displayed in the Content section. The various columns on the Baseline page are described below:
 
-Name
-:   Lists the DITA map or topic's title or the name of the asset, such as the file name of an image.
+- **Name**: Lists the DITA map or topic's title or the name of the asset, such as the file name of an image.
 
-Kind
-:   Lists the kind or type of asset in the map like DITA map, DITA topic, or image format.
+- **Kind**: Lists the kind or type of asset in the map like DITA map, DITA topic, or image format.
 
-Version
-:   Lists the version of the asset available in the Baseline.
+- **Version**: Lists the version of the asset available in the Baseline.
 
-Version Date and Time
-:   Lists the creation date and time of the asset for the selected version.
+- **Version Date and Time**: Lists the creation date and time of the asset for the selected version.
 
-Latest
-:   Lists whether the latest version of the asset is used in the Baseline.
+- **Latest**: Lists whether the latest version of the asset is used in the Baseline.
 
-Parent Map
-:   If your map file contains sub-maps, then this column contains the name of the map in which a topic is referenced.
+- **Parent Map**: If your map file contains sub-maps, then this column contains the name of the map in which a topic is referenced.
 
-Label
-:   Lists the label\(s\) applied to the version of the topic.
+- **Label**: Lists the label\(s\) applied to the version of the topic.
 
-Referenced By
-:   This column is available for the referenced content only. It indicates the parent topic of the referenced asset. In case an asset is referred by multiple topics, then the topics are separated by comas.
+- **Referenced By**: This column is available for the referenced content only. It indicates the parent topic of the referenced asset. In case an asset is referred by multiple topics, then the topics are separated by comas.
 
 ## Edit, duplicate, or remove Baselines {#id195FI0I0YJL}
 
@@ -143,8 +135,7 @@ Perform the following steps to add a label to multiple topics and referenced con
 
 1.  If you want to apply the label to topics referenced from the sub-maps, then select **Apply Label to Child Maps and Dependents** option.
 
-    1.  Click **Add**.
-
+    - Click **Add**.
         The specified label is added to the DITA map and the referenced topics and content.
 
         ![](images/label-added-baseline-uuid.png)

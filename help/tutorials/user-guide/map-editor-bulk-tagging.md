@@ -26,6 +26,7 @@ Use the bulk tagging feature to apply multiple tags at once. Perform the followi
 1.  Select the topics or sub-map on which you want to apply tags.
 
     ![](images/apply-tags-uuid.png)
+    
 
     >[!NOTE]
     >
