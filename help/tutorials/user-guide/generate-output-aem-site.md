@@ -41,7 +41,7 @@ To open output presets for AEM Site, click on a DITA map file from the Assets UI
 >
 > See the *AEM Site publishing* section in the Best practices guide for best practices around creating AEM Site output.
 
-## AEM Site configuration {id_aem_site_config}
+## AEM Site configuration {#id_aem_site_config}
 
 The following options are available for the AEM Site output:
 
@@ -121,9 +121,11 @@ Perform the following steps to specify the publishing context for cross-linked f
     The context for the dependent topics is now set. You can generate the output for the current map. For more information about generating output, see [Generate output for a DITA map from the map console](generate-output-for-a-dita-map.md#).
 
 ### Blended publishing
+
 AEM Guides supports publishing DITA content within your existing AEM site. For example, if you have an existing site, you can use the AEM Site output to publish only the DITA content on that site. In this process, the existing non-DITA content is not modified by the publishing process. For more information about setting up your site to publish only DITA content, contact your publishing administrator.
 
 ### Publishing `conref`
+
 If you are using `conref` in your content, then it is published as normal or embedded content along with the content in the source \(or referring\) topic. The `conref` content is rendered along with the main content and no separate site page is created for the same. When you search for the content that is referred in the `conref`, then only the main topic or page containing the `conref` content is shown in the search results.
 
 >[!NOTE]
