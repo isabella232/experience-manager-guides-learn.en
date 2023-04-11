@@ -115,7 +115,7 @@ The Editor Settings are only available to administrative users. Using the prefer
 
 >[!NOTE]
 >
-> If a custom panel has been configured, then it also appears in the list of panels. You can toggle the switch to show or hide the custom panel. For more details on the configuration, see the C*onfigure a custom panel in the left panel* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> If a custom panel has been configured, then it also appears in the list of panels. You can toggle the switch to show or hide the custom panel. For more details on the configuration, see the *Configure a custom panel in the left panel* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 -   **Elements List**: As an administrator, you can control the list of elements that an author can insert using the [Insert Element](#id204SG30105Z) pop-up, and also define the display name for the element. The Elements List setting allows you to specify the element's name as per DITA specifications and a label that you want to use instead of the DITA defined element name:
 
@@ -246,7 +246,8 @@ Inserts an image at the current or next valid location. Click the Insert Image i
 
 >[!NOTE]
 >
-> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the  <a href="#id2057BF0F05Z"> Upload Assets </a> workflow.
+> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the **Upload Assets** workflow.  For more details, see the **Upload Assets** workflow in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. 
+
 
 ![](images/insert-image.png)
 
@@ -268,7 +269,8 @@ You can also add other properties for an image file by selecting the required pr
 
 >[!NOTE]
 >
-> You can also define clickable areas \(image map\) in your image. For more details, see [Insert/Edit Image Map](#id195TEB0005B).
+> You can also define clickable areas \(image map\) in your image. 
+For more details, see the **Insert/Edit Image Map** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. 
 
 **Context menu for image or media files**
 
@@ -383,7 +385,7 @@ Insert keyword defined in your DITA map. Click the Insert Keyword icon to open t
 
 ![](images/insert-keyword.png)
 
-The keywords are listed in alphabetical order and you can also search keyword\(s\) by typing a search string in the Search box. The search result will return the keywords containing the string in ID or Value. The keywords defined in your DITA map are listed in this dialog. Choose the keyword that you want to insert and click**Insert**.
+The keywords are listed in alphabetical order and you can also search keyword\(s\) by typing a search string in the Search box. The search result will return the keywords containing the string in ID or Value. The keywords defined in your DITA map are listed in this dialog. Choose the keyword that you want to insert and click **Insert**.
 
 You can also change the attributes of the inserted keyword by right-clicking on the keyword and selecting the Attributes option. The Attributes for Keyword dialog opens:
 
@@ -393,7 +395,7 @@ You can change the keyword's attributes or add a new attribute to the keyword.
 
 **Insert Snippet** - ![](images/insert-snippet-icon.svg)
 
-Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, see [Snippets](#snippets_id20A5D0303XA) later in this guide.
+Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, see the **Snippet** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. 
 
 When you click the Insert Snippet icon, you are shown the Insert Snippet catalog. The catalog is context-sensitive, which indicates that it will show the snippets only if they are allowed at the current location.
 
@@ -677,7 +679,9 @@ You can also click and play an audio or video file in the Web Editor. You can ch
 the view of the video. In the shortcut menu you also have the options to download, change playback
 speed, or view picture in picture.
 
- Double-clicking on a map file opens it in the [Map View](#id209LE0K0IXA), whereas double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity.
+
+
+ Double-clicking on a map file opens it in the **Map View**. For more details, see the **Map View** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. Double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity. 
 
 **Filter Search**
 
@@ -710,11 +714,12 @@ You can perform the following actions using the Options menu available for a *fo
 
 ![](images/options-menu-folder_cs.PNG)
 
--   **Create**: Create a new DITA topic, DITA map, or a folder. For more details, see [Create topics from the Repository View](#id204SJ0380Y4).
+
+-   **Create**: Create a new DITA topic, DITA map, or a folder. For more details, see the  **Create topics from the Repository View** procedure in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.
 
 
 
--   **Upload Assets** {#id2057BF0F05Z}: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+-   **Upload Assets**: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
     ![](images/upload-assets.png)
 
@@ -985,7 +990,11 @@ The Outline View offers the following features:
 
     ![](images/drop-element-outline-view_cs.png)
 
--   The **Options** menu in the *Outline View* allows you to perform generic operations such as Cut, Copy, Delete, [Generate ID](web-editor-other-features.md#id199RI0YF0YK), Insert element before or after the current element, [Rename or replace an element](web-editor-other-features.md#id199RI0Z0YHT), [Unwrap an element](web-editor-other-features.md#id199RI0ZG0PF), and create a snippet out of the selected element.
+-   The **Options** menu in the *Outline View* allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Unwrap an element, and create a snippet out of the selected element.
+
+>[!NOTE]
+>
+>For more details on Generate ID, Insert element before or after the current element, and Unwrap an element, see [Other features in the Web Editor](web-editor-other-features.md#).
 
 -   Search for an element by its name or attribute value.
 

@@ -86,7 +86,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 1.  In the **Project Title** field, enter a title for the project.
 1. Click **Create** to create a new translation project.
 
-    A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details see,[Start the translation job](translation-first-time.md#id225IK030OE8)[translation-first-time.md\#id21BKH0TD0P5](translation-first-time.md#id21BKH0TD0P5).
+    A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details see, [Start the translation job](translation-first-time.md#id225IK030OE8).
 
     >[!NOTE]
     >
@@ -142,7 +142,7 @@ To dismiss the Out of Sync status, perform the following steps:
 
 ## View In Progress translation projects for a map or topic 
 
-Some of the references on your translation dashboard might be in progress status. These references have a **In Progress** link under **Translation Status** column. When you click the ****link the **In Progress Projects** dialog opens. In the dialog, you can see the list of all In Progress translation projects \(along with the target language\) which contain the selected reference.
+Some of the references on your translation dashboard might be in progress status. These references have a **In Progress** link under **Translation Status** column. When you click the link, the **In Progress Projects** dialog opens. In the dialog, you can see the list of all In Progress translation projects \(along with the target language\) which contain the selected reference.
 
 >[!NOTE]
 >
