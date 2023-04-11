@@ -59,7 +59,7 @@ Perform the following steps to create a map template:
     >
     > The file name must have the .ditamap extension.
 
-    \(Optional\) Add a description.Click **Create**. The map template created message appears. You can then open the map template and edit it. You can add the references for the topic templates, map templates, and also other assets in the map template.
+1.  (Optional\) Add a description.Click **Create**. The map template created message appears. You can then open the map template and edit it. You can add the references for the topic templates, map templates, and also other assets in the map template.
 
 ## Pass on the title defined in the templates
 
@@ -103,9 +103,9 @@ Example
 
 ## Use the map template to create new maps 
 
-    >[!NOTE]
-    >
-    > The map template must be configured and made available for authoring by your administrator. For more details, see *Configure authoring templates* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+>[!NOTE]
+>
+> The map template must be configured and made available for authoring by your administrator. For more details, see *Configure authoring templates* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Perform the following steps to create a map using the custom map template:
 
@@ -119,18 +119,18 @@ Perform the following steps to create a map using the custom map template:
     >
     > The file name must have the .ditamap extension.
 
-    Click **Create**. The map created message appears.
+1. Click **Create**. The map created message appears.
 
 
 The map generates all assets which are referred to inside the template folder. Some types of assets that are referred in a map can be as follows:
 
--   If the map contains the reference to a topic template, a copy of it is created inside the folder, in the same hierarchy as in the topics folder in the dita-templates folder.
--   If the map contains the reference to a map template, a copy of it is created inside the folder, in the same hierarchy as in the maps folder in the dita-templates folder.
--   If the map contains the generic reference to a topic or map outside the dita-templates/topics or dita-templates/maps folder, the same is only referred to, and no copy is created.
+-   If the map contains the reference to a topic template, a copy of it is created inside the folder, in the same hierarchy as in the topics folder in the `dita-templates` folder.
+-   If the map contains the reference to a map template, a copy of it is created inside the folder, in the same hierarchy as in the maps folder in the `dita-templates` folder.
+-   If the map contains the generic reference to a topic or map outside the `dita-templates/topics` or `dita-templates/maps` folder, the same is only referred to, and no copy is created.
 
     >[!NOTE]
     >
-    > dita-templates/topics and dita-templates/maps are the default paths in Guides and are configurable.
+    > `dita-templates/topics` and `dita-templates/maps` are the default paths in Guides and are configurable.
 
 
     If there is a topic template key definition inside the map template, a new key \(therefore new topic\) is created and referred to in the map.

@@ -11,7 +11,7 @@ Perform the following steps to create a map file:
 
 1.  In the Assets UI, navigate to the location where you want to create the map file.
 
-1.  **Click **Create** \> **DITA Map**.
+1.  Click **Create** \> **DITA Map**.
 
 1.  On the Blueprint page, select the type of map templates you want to use and click **Next**.
 
@@ -27,7 +27,7 @@ Perform the following steps to create a map file:
 
     If your administrator has configured automatic file name based on UUID setting, then you will not see the option to specify the file name. A UUID-based file name is automatically assigned to the file.
 
-    If the file naming option is available, then also the name is automatically suggested based on the Title of your map. If you want to manually specify the map file name, then ensure that the file name does not contain any spaces, apostrophe, or braces and ends with .ditamap.
+    If the file naming option is available, then also the name is automatically suggested based on the Title of your map. If you want to manually specify the map file name, then ensure that the file name does not contain any spaces, apostrophe, or braces and ends with `.ditamap`.
 
 1.  Click **Create**.
 
