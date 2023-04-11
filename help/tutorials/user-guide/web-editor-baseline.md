@@ -32,13 +32,13 @@ You can create a baseline from the Web Editor by performing the following steps:
         1.  **Date** <time stamp\>: Picks the topics' version as on the specified date and time.
         1.  **Label**: Select this option to pick the topics according to the label applied to them. If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box.       
        When you select **Label,** you can choose the direct and indirect references.
-        * For direct references within the DITA map, you are given an option to use the latest version of topics that do not have the specified label applied to them.
+        -  For direct references within the DITA map, you are given an option to use the latest version of topics that do not have the specified label applied to them.
 
           >[!NOTE]
           >
           > If you enter a label that does not exist and select the option **Do not create a baseline** then the baseline creation fails and gives an error message near the baseline name in the Baseline panel.
         
-        * For indirect references within the DITA map, you are given an additional option to use the latest version of topics that do not have the specified label applied on them. You can also choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
+        -  For indirect references within the DITA map, you are given an additional option to use the latest version of topics that do not have the specified label applied on them. You can also choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
     
       Once you have selected a label or version as on date, then all referenced topics and media files within the map are selected accordingly. This selection of topics is not shown on the user interface, but it is saved in the backend.
 
@@ -48,13 +48,13 @@ You can create a baseline from the Web Editor by performing the following steps:
 
     ![](images/dynamic-baseline.png)
 
-    *    **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** dropdown. You can choose the label\(s\) from the list. The labels selected first are given higher priority over the later ones.
+    -   **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** dropdown. You can choose the label\(s\) from the list. The labels selected first are given higher priority over the later ones.
 1.  **Indirect References**: For indirect references within the DITA map, you are given the following options:
     
-     * **Pick automatically**: You can choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
+     -  **Pick automatically**: You can choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
       
-    * **Use selected label**: You can create a baseline with the selected label defined for a version of topics.
-     * **Use the latest version or the working copy**: Use the latest version of topics that do not have the specified label applied on them, or if no version has been created, then use the working copy of the topics to create the baseline.
+    -  **Use selected label**: You can create a baseline with the selected label defined for a version of topics.
+     -  **Use the latest version or the working copy**: Use the latest version of topics that do not have the specified label applied on them, or if no version has been created, then use the working copy of the topics to create the baseline.
 1. Click **Apply**.
 
 The baseline is created. The baseline creation happens asynchronously, so you can continue working on other files in the Web Editor. Once the baseline is created, a pop-up message is displayed confirming that the baseline has been created, and you also receive an Inbox notification for the same.
