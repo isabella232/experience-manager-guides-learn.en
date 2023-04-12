@@ -1,9 +1,8 @@
 ---
 title: Publishing using FrameMaker Publishing Server(FMPS) in AEM Guides
 description: Publishing with FMPS using AEM Guides
-
+exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 ---
-
 # Publishing using FrameMaker Publishing Server(FMPS) in AEM Guides
 
 AEM Guides integration with FrameMaker Publishing Server could be your solution if you are looking for high-quality automated publishing.  
