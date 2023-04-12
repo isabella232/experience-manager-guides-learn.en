@@ -110,13 +110,13 @@ When you open a map for editing it opens the Layout view of the Map Editor.The L
 
 You can perform the following tasks in the Layout view:
 
-**Insert Topic Reference** – ![](images/insert-topic-reference.svg)
+**Insert Topic Reference** - ![](images/insert-topic-reference.png)
 
-Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click Select to add it to the map.
-
+Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click Select to add it to the map. 
 ![](images/insert-topic-reference-dialog.png)
 
-**Insert Topic Group** – ![](images/insert-topic-group.svg)
+
+**Insert Topic Group** – ![](images/insert-topic-group.png)
 
 Insert the `topicgroup` element. For more information about grouping topics, see the [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentation in OASIS DITA Language Specification.
 
@@ -126,7 +126,7 @@ Displays the Insert Keydef dialog. Use this dialog to define any key definition 
 
 ![](images/insert-key-definition-dialog.png)
 
-Insert Before/Insert After – ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
+**Insert Before/Insert After** – ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
 Displays the Insert Element dialog. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
 
@@ -138,7 +138,7 @@ This icon is displayed when you open a bookmap for editing. You can insert compo
 
 This icon is displayed when you open a bookmap for editing. You can insert components for a end of the book like an Index, a Glossary, and a List of Figures.
 
-**Move the Selected Item Left/Right** - ![](images/left-arrow-icon.svg) / ![](images/right-arrow-icon.svg)
+**Move the Selected Item Left/Right** - ![](images/left-arrow-icon.png) / ![](images/right-arrow-icon.png)
 
 Click the left arrow to move the topic towards left side in the hierarchy. This essentially promotes the respective topic one level up in the hierarchy. For example, clicking the left arrow while a child topic is selected make it the sibling of the topic above it. Similarly, if you click the right arrow, the topic is pushed towards the right side making it the child of the topic above it.
 
@@ -259,7 +259,7 @@ Displays the Reuse Content dialog. Use this dialog to insert the content that yo
 
 **Refresh Navigation Title Attribute** - ![](images/navtitle-refresh-icon.svg)
 
-Synchronizes the `title` element of a referenced file in a map with the value specified in its `@navtitle` attribute. You can add different types of reference files in a map, for example topic, reference, task, \(sub\) maps, and so on. Most of these files support the `@navtitle` attribute. If a file contains the `@navtitle` attribute, then the`@navtitle` attribute for the same file in map is updated. In case the `@navtitle` attribute is not present, then the`@navtitle` attribute is added to that reference file and its `title` is also updated to display the `@navtitle`.
+Synchronizes the `title` element of a referenced file in a map with the value specified in its `@navtitle` attribute. You can add different types of reference files in a map, for example topic, reference, task, \(sub\) maps, and so on. Most of these files support the `@navtitle` attribute. If a file contains the `@navtitle` attribute, then the `@navtitle` attribute for the same file in map is updated. In case the `@navtitle` attribute is not present, then the `@navtitle` attribute is added to that reference file and its `title` is also updated to display the `@navtitle`.
 
 >[!NOTE]
 >

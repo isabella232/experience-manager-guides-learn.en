@@ -84,7 +84,7 @@ You can also perform the following operations on the baseline from the Options m
 
 **Baseline filters**
 
-Using the Filters icon in the**Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
+Using the Filters icon in the **Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
 
 ![](images/baseline-filter.png)
 
