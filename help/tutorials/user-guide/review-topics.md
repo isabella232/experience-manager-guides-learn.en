@@ -21,13 +21,11 @@ Perform the following steps to review a topic:
 
     >[!NOTE]
     >
-    > The UI may be different if you have created the review in AEM Guides as a Cloud Service November 2022 release or earlier.
+    > The UI may be different if you have created the review in:
+     > - AEM Guides as a Cloud Service November 2022 release or earlier
+     > - AEM Guides version 4.1 or earlier
 
-1.  Depending on the way the topic review is initiated, you could see any one of the following two screens:
 
-    >[!NOTE]
-    >
-    > The UI may be different if you have created the review in AEM Guides version 4.1 or earlier.
 
     The following screen appears when a DITA map is used to initiate the review workflow:
 
