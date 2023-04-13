@@ -11,7 +11,7 @@ You can create a DITA project and then use it to initiate your reviews. A projec
 
 You can add team members to a project who could then be assigned various roles – Authors, Reviewers, and Publishers.
 
-Once you have created your DITA project, you can initiate your review from the Web Editor or the Assets UI. For more details, see [Send topics for review.](review-send-topics-for-review.md#).
+Once you have created your DITA project, you can initiate your review from the Web Editor or the Assets UI. For more details, see [Send topics for review](review-send-topics-for-review.md#).
 
 Similarly, whenever an author initiates any review workflow the selected members of the project get an email notification. To configure email notifications, see *Customize email templates* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
@@ -25,7 +25,7 @@ Perform the following steps to create a DITA project:
     http://<server name>:<port>/projects.html
     ```
 
-1.  **Click **Create** \> **Project** to launch the Create Project wizard.
+1.  Click **Create** \> **Project** to launch the Create Project wizard.
 
     ![](images/project-console-63.png)
 

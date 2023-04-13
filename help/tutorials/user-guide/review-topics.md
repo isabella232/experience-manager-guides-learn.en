@@ -119,7 +119,7 @@ The tasks that you can perform using the Comments panel are described below:
 
 -   Clicking on a comment highlights and shows the corresponding comment's location in the document.
 -   You can add replies to comments.
--   You can edit your own comment by clicking on your commented text in the Comments panel and then selecting **Edit**from the Options menu.
+-   You can edit your own comment by clicking on your commented text in the Comments panel and then selecting **Edit** from the Options menu.
 -   You can delete your own comments by clicking on the comment in the Comments panel and then selecting the **Delete** option from the Options menu.
 
     ![](images/review-comment-options-menu.png)
@@ -128,7 +128,7 @@ The tasks that you can perform using the Comments panel are described below:
     >
     > The Options menu appears only when you hover over your own comments. It is not displayed for the comments by other reviewers.
 
--   All participating users can respond to comments submitted by other users. On a comment, click **Reply**and press Enter to submit a response.
+-   All participating users can respond to comments submitted by other users. On a comment, click **Reply** and press Enter to submit a response.
 
 **Preview mode**
 
@@ -181,9 +181,9 @@ The other reviewers or authors get only the download attachment option.
 
 ![](images/other-reviewer-download.png)
 
--   You can download all attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Download**icon at the comment level.
+-   You can download all attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Download** icon at the comment level.
 
--   You can also delete the attachments associated with a comment from the **View Attachments**dialog. Select the attachments and click the **Delete** icon.
+-   You can also delete the attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Delete** icon.
 
 ![](images/attach-files-comments-panel.png)
 
