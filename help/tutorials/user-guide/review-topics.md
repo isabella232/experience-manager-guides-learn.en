@@ -22,8 +22,9 @@ Perform the following steps to review a topic:
     >[!NOTE]
     >
     > The UI may be different if you have created the review in:
-     > - AEM Guides as a Cloud Service November 2022 release or earlier
-     > - AEM Guides version 4.1 or earlier
+    >
+    > - AEM Guides as a Cloud Service November 2022 release or earlier
+    > - AEM Guides version 4.1 or earlier
 
 
 
