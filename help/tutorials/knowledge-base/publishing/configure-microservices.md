@@ -5,6 +5,10 @@ exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 ---
 # Configure new microservice-based publishing for AEM Guides as a Cloud Service
 
+>[!NOTE]
+>
+> For now cloud publishing microservice only supports PDF publishing using Native Publishing or DITA-OT. We will be adding more output types support to the service in future releases
+
 The new publishing microservice enables users to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry leading Adobe I/O Runtime serverless platform.
 
 For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This provides users the capabilities to run multiple publishing request and get performance better than their large on-prem AEM servers.
@@ -97,6 +101,8 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 **File**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Content**:
+- `dxml.use.publish.microservice`: switch to enable PDF Publishing using DITA-OT
+- `dxml.use.publish.microservice.native.pdf`: switch to enable Native PDF publishing
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -104,5 +110,6 @@ Once this is done, you should be able to use the new microservice-based cloud pu
           jcr:primaryType="sling:OsgiConfig"
           dxml.publish.microservice.url="https://adobeioruntime.net/api/v1/web/543112-guidespublisher/default/publishercaller.json"
           dxml.use.publish.microservice="{Boolean}true"
+          dxml.use.publish.microservice.native.pdf="{Boolean}true"
 />
 ```
