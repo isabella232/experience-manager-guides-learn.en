@@ -29,11 +29,11 @@ To change the state of a document, perform the following steps:
 
 1.  In the Assets UI, select one ore more document for which you want to change the document state.
 1.  In the main toolbar, click **Properties**.
-1.  Select the new state from the **Document State** drop-down.
+1.  Select the new state from the **Document State** drop-down. You can select only those document states that are allowed in the State Transition section of the Document State profile.
 
     >[!NOTE]
     >
-    > You can select only those document states that are allowed in the State Transition section of the Document State profile.
+    >Administrators can see all document states and change the document to any possible state.
 
 1.  Click **Save & Close**.
 
