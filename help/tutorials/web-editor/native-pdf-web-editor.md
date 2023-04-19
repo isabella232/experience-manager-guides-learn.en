@@ -88,7 +88,7 @@ From the Output presets, **select PDF** > **Metadata** to add and customize meta
 
    Metadata fields can be directly populated by importing [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) file. You can download a sample XMP file from here.
    
-   [Download]()
+   [Download](assets/SampleXMP.xmp)
 
    Alternatively, you can generate an XMP file using Adobe Acrobat.
    1. Click **File** > **Properties** in Acrobat.
