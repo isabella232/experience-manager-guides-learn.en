@@ -5,13 +5,13 @@ exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 ---
 # Configure new microservice-based publishing for AEM Guides as a Cloud Service
 
->[!NOTE]
->
-> Current version of the Guides Publishing microservice only supports PDF publishing using Native Publishing or DITA-OT. We will be adding support for more output types to the service in future releases.
-
 The new publishing microservice enables users to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry leading Adobe I/O Runtime serverless platform.
 
 For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This provides users the capabilities to run multiple publishing request and get performance better than their large on-prem AEM servers.
+
+>[!NOTE]
+>
+> Presently the microservice-based publishing in AEM Guides only supports PDF output using Native PDF publishing or through DITA-OT. We will be adding microservice-based publishing support for more output types in the future releases.
 
 As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the new cloud based scalable publishing solution.
 
@@ -101,8 +101,8 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 **File**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Content**:
-* `dxml.use.publish.microservice`: switch to enable microservice based PDF Publishing using DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: switch to enable microservice based Native PDF publishing
+* `dxml.use.publish.microservice`: Switch to enable microservice-based PDF publishing using DITA-OT
+* `dxml.use.publish.microservice.native.pdf`: Switch to enable microservice-based Native PDF publishing
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
