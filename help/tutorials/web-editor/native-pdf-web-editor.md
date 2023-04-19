@@ -77,19 +77,34 @@ Use to specify basic output settings, such as specify output path, PDF file name
 
 Metadata is the description or definition of your content. Metadata helps in content management and helps in searching files on the internet. 
 
-Use the Metadata tab to set the title, author, subject, and keywords for the PDF output. This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
+Use the Metadata tab to set the metadat fileds such as title, author, subject, and keywords for the PDF output. This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
 
 **Note**: This metadata overrides the metadata defined at the book level. 
 
 <img src="assets/pdf-metadata.png" alt="metadata tab" width=600>
 
+From the Output presets, **select PDF** > **Metadata** to add and customize metadata options. 
+* **Provide XMP file**
 
-| Setting | Description |
-|---|---|
-|**Title**|Specify a short and clear title to define the document.|
-|**Author**|Specify the names of the author(s) who created the document.  | 
-|**Subject**|Define the subject or collection with which the document is related.|
-|**Keywords**|Use relevant keywords to improve your search engine optimization (SEO) and help the users to find your related content.|
+   Metadata fields can be directly populated by importing [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) file. You can download a sample XMP file from here.
+   
+   [Download]()
+
+   Alternatively, you can generate an XMP file using Adobe Acrobat.
+   1. Click **File** > **Properties** in Acrobat.
+   1. Under **Description**, click **Additional Metadata**.
+   1. From the left panel, select **Advanced**. 
+   1. Click on **Save**.
+
+   XMP file is saved on the device.
+
+* **Provide metadata names and values**
+
+   1. Add name by selecting from the drop-down or add a custom metadata by typing directly in the name field.
+   1. Enter the value for the metadata and click on '+' icon.
+The metadata is added to the list of metadata for the PDF. 
+
+
 
 **Layout**
 
