@@ -982,13 +982,13 @@ The Outline View offers the following features:
 
 -   Clicking on an element in the Outline View selects the element's content in the Author or Source view.The Outline view remains in sync with the Author and Source view. If you make any changes in any view, you can see them in the Outline view. For example, if you add a paragraph or update an element in the Author view, it is shown in the Outline view. 
 
-    ![](images/select-elemet-content-outline-view_cs.png)
+    ![](images/select-element-content-outline-view_cs.png)
 
 -   Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you see a square box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
 
     ![](images/replace-element-outline-view_cs.png)
 
-    If you drag and drop an element, a horizontal bar indicates that the element can be placed at the current location. If the drag and drop is invalid, then an error message is shown to indicate that the operation is not allowed.
+    If you drag and drop an element, a dashed rectangle indicates that the element can be placed at the current location. If the drag and drop is invalid, then an error message is shown to indicate that the operation is not allowed.
 
     ![](images/drop-element-outline-view_cs.png)
 
