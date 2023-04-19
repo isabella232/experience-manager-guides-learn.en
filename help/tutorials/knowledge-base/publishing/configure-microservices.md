@@ -101,8 +101,8 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 **File**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Content**:
-- `dxml.use.publish.microservice`: switch to enable microservice based PDF Publishing using DITA-OT
-- `dxml.use.publish.microservice.native.pdf`: switch to enable microservice based Native PDF publishing
+* `dxml.use.publish.microservice`: switch to enable microservice based PDF Publishing using DITA-OT
+* `dxml.use.publish.microservice.native.pdf`: switch to enable microservice based Native PDF publishing
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
