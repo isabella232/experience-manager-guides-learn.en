@@ -7,7 +7,7 @@ exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 
 >[!NOTE]
 >
-> For now cloud publishing microservice only supports PDF publishing using Native Publishing or DITA-OT. We will be adding more output types support to the service in future releases
+> Current version of the Guides Publishing microservice only supports PDF publishing using Native Publishing or DITA-OT. We will be adding support for more output types to the service in future releases.
 
 The new publishing microservice enables users to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry leading Adobe I/O Runtime serverless platform.
 
@@ -77,7 +77,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 1. In you cloud manager Git project code, add the below given two files (For file contents, see [Appendix](#appendix)).
 
     * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
-     * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
+    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 1. Ensure that the newly added files are getting covered by your `filter.xml`.
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes on the environment.
@@ -101,8 +101,8 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 **File**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Content**:
-- `dxml.use.publish.microservice`: switch to enable PDF Publishing using DITA-OT
-- `dxml.use.publish.microservice.native.pdf`: switch to enable Native PDF publishing
+- `dxml.use.publish.microservice`: switch to enable microservice based PDF Publishing using DITA-OT
+- `dxml.use.publish.microservice.native.pdf`: switch to enable microservice based Native PDF publishing
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
