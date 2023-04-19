@@ -223,11 +223,12 @@ The right panel displays the Content Properties and the Map Properties in the La
 
 The Content Properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, see [Content Properties](web-editor-features.md#id228IDB00HMM) in the Web Editor.
 
--   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign inline attributes configured by your administrator under the Inline Attributes tab in the editor settings. The **Inline Attributes** defined for a topic are displayed against the topic in the Layout view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
+-   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display Attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
 
     ![](images/layout-inline-attributes.png)
 
-    For more details, see [Inline Attributes](web-editor-features.md#id228IC0S0UE8) in the Editor Settings.
+   
+    For more details, see the *Display Attributes* within the *Editor Settings* feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.
 
 -   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
 

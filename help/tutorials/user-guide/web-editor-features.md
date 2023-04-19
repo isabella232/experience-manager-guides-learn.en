@@ -89,27 +89,28 @@ The Editor Settings are only available to administrative users. Using the prefer
 
 -   **General**: The General settings allow you to configure the dictionary to use with the Web Editor. This tab contains three sections: **Spell Check**, **Condition**, and **Authoring**.
 
-![](images/editor-setting-general.png)
+    ![](images/editor-setting-general.png)
 
-**Spell Check**: There are two options — **AEM Spell Check** and **Browser Spell Check**. By default, the editor uses the Browser Spell Check feature, wherein the spell-check is performed using the browser's in-build dictionary. You can switch to AEM Spell Check to use AEM's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, see *Customize AEM's default dictionary* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    -   **Spell Check**: There are two options — **AEM Spell Check** and **Browser Spell Check**. By default, the editor uses the Browser Spell Check feature, wherein the spell-check is performed using the browser's in-build dictionary. You can switch to AEM Spell Check to use AEM's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, see *Customize AEM's default dictionary* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+        
 
-**Condition**
+    -  **Condition**
 
--   **Highlight Conditional Text in the Author View**: Select this to highlight the conditional text in the author view. The conditional content is highlighted using the color defined for the condition.
+        -   **Highlight Conditional Text in the Author View**: Select this to highlight the conditional text in the author view. The conditional content is highlighted using the color defined for the condition.
 
--   **Validate with Condition Attributes**: Select this to allow the validation of the values defined for the attributes. This prevents you from adding any incorrect value.
+        -   **Validate with Condition Attributes**: Select this to allow the validation of the values defined for the attributes. This prevents you from adding any incorrect value.
 
--   **Show the Key with the Title in the Subject Scheme Panel**: Select this to show the keys along with titles in the subject scheme. If you do not select this option only the titles are shown. For example, here the keys 'os', 'audience', and 'other' are also shown along with titles.
+        -  **Show the Key with the Title in the Subject Scheme Panel**: Select this to show the keys along with titles in the subject scheme. If you do not select this option only the titles are shown. For example, here the keys 'os', 'audience', and 'other' are also shown along with titles.
 
-    ![](images/subject-scheme-title.png)
+             ![](images/subject-scheme-title.png)
 
--   **Show Subject Scheme in the Conditions Panel**: Select this to see a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
+        -  **Show Subject Scheme in the Conditions Panel**: Select this to see a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
 
-**Authoring**
+    -  **Authoring**
 
--   **Enable Replace All**: Select this to see Replace All icon in the Find and Replace panel.
+        -   **Enable Replace All**: Select this to see Replace All icon in the Find and Replace panel.
 
--   **Panels**: This setting controls the panels that are shown in the left panel of the editor. You can toggle the switch to show or hide the desired panel.
+**Panels**: This setting controls the panels that are shown in the left panel of the editor. You can toggle the switch to show or hide the desired panel.
 
 ![](images/editor-setting-panel.png)
 
@@ -119,7 +120,7 @@ The Editor Settings are only available to administrative users. Using the prefer
 
 -   **Elements List**: As an administrator, you can control the list of elements that an author can insert using the [Insert Element](#id204SG30105Z) pop-up, and also define the display name for the element. The Elements List setting allows you to specify the element's name as per DITA specifications and a label that you want to use instead of the DITA defined element name:
 
-![](images/editor-setting-element-list.png)
+    ![](images/editor-setting-element-list.png)
 
 In the above screenshot, the `b` element has been given a label of Bold, `codeblock` is given a label of Code Block along with some other elements. If you select the **Use Only Above Elements** option, then only the valid elements \(at current insertion point\) from this list will be shown in the Insert Element pop-up.
 
@@ -135,15 +136,17 @@ With this setting, when you try to add an attribute to an element, you only see 
 
 ![](images/editor-setting-add-attributes-list.png-to-element.PNG)
 
--   **Inline Attributes**: Like the Attributes List, you can control the list of Inline Attributes to be displayed in the attributes list of an element. By default, four Inline Attributes — audience, platform, product, and properties have been configured to be shown in an element's attribute list. You can also add an inline attribute using the **Add** icon on the top. You can also or delete any of the inline attributes using the **Delete** icon.
+-   **Display Attributes**: Like the Attributes List, you can control the list of  attributes to be displayed in the attributes list of an element. By default, four **Display Attributes** — audience, platform, product, and props have been configured to be shown in an element's attribute list. You can also add a display attribute using the **Add** icon on the top. You can also delete any of the display attributes using the **Delete** icon.
 
-![](images/editor-settings-inline-attributes.png)
+The attributes defined for an element are displayed in the Layout and the Outline view.
+
+![](images/editor-settings-display-attributes.png)
 
 -   **Translation**: This tab contains the option to propagate the source labels to the target version.
 
-        -   **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
+    -  **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
 
-![](images/editor-setting-translation.png)
+    ![](images/editor-setting-translation.png)
 
 
 **User Preferences** - ![](images/user_preference_editor_icon.svg)
@@ -971,13 +974,13 @@ The Outline View offers the following features:
 
 -   A tree view of all elements used in the document.
 
--   If an element has an ID, it is shown along with the element.
+-    If an element has an ID, attribute, and text you can see them along with the element.
 
 -   Access Outline View in both Author and Source views.
 
 -   Use the filter drop-down list to show all elements or only the broken references:
 
--   Clicking on an element in the Outline View selects the element's content in the Author or Source view.
+-   Clicking on an element in the Outline View selects the element's content in the Author or Source view.The Outline view remains in sync with the Author and Source view. If you make any changes in any view, you can see them in the Outline view. For example, if you add a paragraph or update an element in the Author view, it is shown in the Outline view. 
 
     ![](images/select-elemet-content-outline-view_cs.png)
 
@@ -985,7 +988,7 @@ The Outline View offers the following features:
 
     ![](images/replace-element-outline-view_cs.png)
 
-    If you drag and drop an element, a horizontal bar indicates that the element can be placed at the current location.
+    If you drag and drop an element, a horizontal bar indicates that the element can be placed at the current location. If the drag and drop is invalid, then an error message is shown to indicate that the operation is not allowed.
 
     ![](images/drop-element-outline-view_cs.png)
 
@@ -995,7 +998,25 @@ The Outline View offers the following features:
 >
 >For more details on Generate ID, Insert element before or after the current element, and Unwrap an element, see [Other features in the Web Editor](web-editor-other-features.md#).
 
--   Search for an element by its name or attribute value.
+**Shortcut menu for the Outline View panel**
+
+You can choose to see the following if the element has them:
+ -  **Show ID**: Shows the id of the element.
+ -  **Show Attribute**: Shows the attribute along with its value.
+ -  **Show Text**: Shows the text. If the text is long, then an ellipsis is displayed.
+
+If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display  attributes configured by your administrator under the **Display Attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view.
+
+
+For more details, see the *Display Attributes* within the *Editor Settings* feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.
+
+**Search feature**
+
+Using the search feature, you can:
+ -  Search for an element by its name or attribute value.
+ -  Search for a string in the id, attribute, or text.  
+You can search for a string in the element if it is shown in the Outline View panel. For example, if the string "Adobe" is present in the text of the element and is shown in the Outline View panel (as you have selected **Show Text** from the top shortcut menu), then the containing element is filtered. But if the text is not shown in the Outline View panel (as you have not selected **Show Text** from the top shortcut menu), then the containing element is not filtered. Similarly, you will find the string in the ID or attributes if you have selected them.
+
 
 
 **Reusable Contents** -  ![](images/content-reuse-icon.png)
