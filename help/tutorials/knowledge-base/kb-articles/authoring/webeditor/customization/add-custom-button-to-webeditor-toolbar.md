@@ -103,6 +103,6 @@ Refer screenshot below to know how it will look like:
 - Sample *ui_config.json* that you can upload to a folder profile: [download sample ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json) 
 
 ```
-Please note this is compatible to AEM Guides version 4.2.
+Please note this is compatible to AEM 6.5 and AEM Guides version 4.2.
 If you are using a different version please add the toolbar button to the *ui_config.json* manually.
 ```
