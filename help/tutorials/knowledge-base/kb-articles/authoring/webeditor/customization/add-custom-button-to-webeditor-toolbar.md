@@ -67,7 +67,7 @@ You may use different library of your choice.
 
 - Under this client library folder create two files as mentioned below:
     - *overrides.js*: which will have the javascript code to handle the on-click event for "insertJIRARef" (use attached package to get the content of this javascript)
-	- *js.txt*: which will include the "overrides.js" to enable this javascript
+    - *js.txt*: which will include the "overrides.js" to enable this javascript
 
 - Save the changes and you should be ready to test.
 
@@ -78,6 +78,7 @@ You may use different library of your choice.
 - From user preferences choose the folder profile in which you added the custom *ui_config.json*. If you added it to the Global profile then you are probably already using that.
 - Open a topic, you will notice the toolbar having a new button "Insert Jira Reference"
 - You can then add prolog section as given below to the topic and try clicking in "Insert Jira Reference" button inside the prolog element "change-request-reference"
+
 ```
 <prolog>
     <change-historylist>
