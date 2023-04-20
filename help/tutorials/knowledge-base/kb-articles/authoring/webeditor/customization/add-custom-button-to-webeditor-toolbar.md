@@ -1,6 +1,6 @@
 ---
-title: Add new custom actionable button in webeditor toolbar
-description: Learn how add a new cusom button in webeditor toolbar and call javascript to custom operate it.
+title: Add custom styles to Guides webeditor 
+description: Learn how add custom styles to change look and feel of the Guides webeditor.
 
 ---
 # Add new custom actionable button in webeditor toolbar
