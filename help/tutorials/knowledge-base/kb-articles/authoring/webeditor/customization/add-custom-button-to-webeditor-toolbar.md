@@ -61,7 +61,8 @@ Use the folder profiles to check the *ui_config.json* under the "XML Editor Conf
 ![Client library settings for webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
-    This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented. You may use different library of your choice.
+    This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented. 
+	You may use different library of your choice.
 ```
 
 - Under this client library folder create two files as mentioned below:
@@ -101,5 +102,6 @@ Refer screenshot below to know how it will look like:
 - Sample *ui_config.json* that you can upload to a folder profile: [download sample ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json) 
 
 ```
-    Please note this is compatible to AEM Guides version 4.2. If you are using a different version please add the toolbar button to the *ui_config.json* manually.
+    Please note this is compatible to AEM Guides version 4.2. 
+	If you are using a different version please add the toolbar button to the *ui_config.json* manually.
 ```
