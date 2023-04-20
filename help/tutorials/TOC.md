@@ -68,6 +68,7 @@ breadcrumb-title: AEM Guides Tutorials
         + Schematron {#schematron}
           + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
     + Publishing {#publishing}
+      + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
 	  + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
     + Workflows {#workflows}
