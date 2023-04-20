@@ -63,13 +63,13 @@ breadcrumb-title: AEM Guides Tutorials
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Webeditor {#webeditor}
-	    + Customizing {#customizing}
-		  + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+        + Customizing {#customizing}
+          + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
         + Schematron {#schematron}
           + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-	  + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
+      + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
