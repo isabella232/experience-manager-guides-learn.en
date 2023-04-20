@@ -5,10 +5,10 @@ description: Learn how add a new cusom button in webeditor toolbar and call java
 ---
 # Add new custom actionable button in webeditor toolbar
 
-In this article we will learn how add a new cusom button in webeditor toolbar and call javascript to perform desired custom operation.
+In this article we will learn how add a new custom button in webeditor toolbar and call javascript to perform desired custom operation.
 
 Adding a actionable button to webeditor involves following steps:
-- Adding the button in the ui_config.json at the position where it is needed
+- Adding the button in the *ui_config.json* at the position where it is needed
 - Registering the button on-click event in the webeditor for user to perform an action when they click it
 
 
@@ -37,9 +37,9 @@ which should then add the "change-request-id" to the prolog:
 ## Implementing this
 
 
-### Add the button in webeditor by configuring it in ui_config.json
+### Add the button in webeditor by configuring it in *ui_config.json*
 
-Use the folder profiles to check the ui_config.json under the "XML Editor Configuration" tab and add the button configuration JSON into the desired section of the "toolbar" group
+Use the folder profiles to check the *ui_config.json* under the "XML Editor Configuration" tab and add the button configuration JSON into the desired section of the "toolbar" group
 
 ```
 {
@@ -56,25 +56,25 @@ Use the folder profiles to check the ui_config.json under the "XML Editor Config
 
 ### Handle the on-click event for the new button
 
-```
-Steps mentioned below are available as package attached in this post
-```
+    NOTE: Steps mentioned below are available as package attached in this post
 
-- After saving the folder profile create a "cq:ClientLibraryFolder" under /apps under a project directory and add properties as shown in the screenshot below:
+
+- After saving the folder profile create a "cq:ClientLibraryFolder" under a project directory (could be under */apps*) and add properties as shown in the screenshot below:
 ![Client library settings for webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
     This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented. You may use different library of your choice.
 
 - Under this client library folder create two files as mentioned below:
-    - overrides.js: which will have the javascript code to handle the on-click event for "insertJIRARef" (use attached package to get the content of this javascript)
-	- js.txt: which will include the "overrides.js" to enable this javascript
+    - *overrides.js*: which will have the javascript code to handle the on-click event for "insertJIRARef" (use attached package to get the content of this javascript)
+	- *js.txt*: which will include the "overrides.js" to enable this javascript
 
-- Save you changes and you should be ready to test.
+- Save the changes and you should be ready to test.
 
 
 ### Testing
+
 - Open web-editor
-- From user preferences choose the folder profile in which you added the custom ui_config.json. If you added it to the Global profile then you are probably already using that.
+- From user preferences choose the folder profile in which you added the custom *ui_config.json*. If you added it to the Global profile then you are probably already using that.
 - Open a topic, you will notice the toolbar having a new button "Insert Jira Reference"
 - You can then add prolog section as given below to the topic and try clicking in "Insert Jira Reference" button inside the prolog element "change-request-reference"
 ```
@@ -90,7 +90,7 @@ Steps mentioned below are available as package attached in this post
 </prolog>
 ```
 
-Refere screenshot below to know how it will look like:
+Refer screenshot below to know how it will look like:
 
 ![Test new button](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
 
@@ -98,5 +98,5 @@ Refere screenshot below to know how it will look like:
 ### Attachments
 
 - Sample clientlibs package which will install the webeditor client library having javascript code for toolbar button action: ![download using this link](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
-- Sample ui_config.json that you can upload to a folder profile: ![download sample ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json) 
-    Please note this is compatible to AEM Guides version 4.2. If you are using a different version please add the toolbar button to the ui_config.json manually.
+- Sample *ui_config.json* that you can upload to a folder profile: ![download sample ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json) 
+    Please note this is compatible to AEM Guides version 4.2. If you are using a different version please add the toolbar button to the *ui_config.json* manually.
