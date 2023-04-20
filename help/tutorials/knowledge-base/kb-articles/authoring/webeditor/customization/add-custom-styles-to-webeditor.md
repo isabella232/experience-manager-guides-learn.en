@@ -1,7 +1,7 @@
 ---
-title: Add custom styles to Guides webeditor 
+title: Add custom styles to Guides webeditor
 description: Learn how add custom styles to change look and feel of the Guides webeditor.
-
+exl-id: 3a9dd701-9d9d-4d7f-bc0c-855904404fd1
 ---
 # Add custom styles to Guides webeditor 
 
