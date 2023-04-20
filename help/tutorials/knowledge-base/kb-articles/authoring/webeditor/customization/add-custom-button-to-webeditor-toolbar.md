@@ -14,11 +14,11 @@ Adding a actionable button to webeditor involves following steps:
 
 ## Implementing by taking an example
 
-Let us understand this with an example where a author wants to add a jira referece to a topic prolog section. The prolog section with embedded jira reference-id may look like below:
+Let us understand this with an example where a author wants to add a jira reference to a topic prolog section. The prolog section with embedded jira reference-id may look like below:
 
 ![Prolog section with JIRA ID reference](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
-The "change-request-id" element that contains the JIRA ID should be retreived from the API (lets say based on a specific JIRA query which is depicted by application). When the user is authoring the prolog section, user should be able to click a button and insert a jira reference id from web-editor toolbar, something like:
+The "change-request-id" element that contains the JIRA ID should be retrieved from the API (lets say based on a specific JIRA query which is depicted by application). When the user is authoring the prolog section, user should be able to click a button and insert a jira reference id from web-editor toolbar, something like:
 
 ![Prolog section - add JIRA reference](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
 
@@ -104,5 +104,5 @@ Refer screenshot below to know how it will look like:
 
 ```
 Please note this is compatible to AEM 6.5 and AEM Guides version 4.2.
-If you are using a different version please add the toolbar button to the *ui_config.json* manually.
+If you are using a different version please add the toolbar button to the ui_config.json manually.
 ```
