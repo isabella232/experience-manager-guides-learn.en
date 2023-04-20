@@ -14,17 +14,15 @@ Adding a actionable button to webeditor involves following steps:
 
 ## Implementing by taking an example
 
-Let us understand this with an example where a author wants to add a jira referece to a topic prolog section. The prolog section with embedded jira reference id may look like below:
+Let us understand this with an example where a author wants to add a jira referece to a topic prolog section. The prolog section with embedded jira reference-id may look like below:
 
 ![Prolog section with JIRA ID reference](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
-The "change-request-id" element that contains the JIRA ID should be retreived from the API (lets say based on a specific JIRA query which is depicted by application). 
-
-When the user is authoring the prolog section, user should be able to click a button and insert a jira reference id from web-editor toolbar, something like:
+The "change-request-id" element that contains the JIRA ID should be retreived from the API (lets say based on a specific JIRA query which is depicted by application). When the user is authoring the prolog section, user should be able to click a button and insert a jira reference id from web-editor toolbar, something like:
 
 ![Prolog section - add JIRA reference](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
 
-And then when you click the button it should show a dialog which should pull the possible options and allow the user to select the desired JIRA ID, something like:
+And when the user clicks the button, it should show a dialog which should pull the possible options and allow the user to select the desired JIRA ID, something like:
 
 ![Prolog section add JIRA ID dialog](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
 
@@ -51,7 +49,7 @@ Use the folder profiles to check the *ui_config.json* under the "XML Editor Conf
 }
 ```
 
-[use this link to learn more about Folder profile and configuring ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en]
+[use this link to learn more about Folder profile and configuring ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### Handle the on-click event for the new button

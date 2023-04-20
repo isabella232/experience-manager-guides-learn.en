@@ -57,7 +57,7 @@ In this session, you learnt about the following:
 
 ## Next expert session 
 
-- **Topic** - TBD *(awaiting survey results)*
+- **Topic** - Content and template setup
 - **Scheduled on** - April 27, 2023
 
 
