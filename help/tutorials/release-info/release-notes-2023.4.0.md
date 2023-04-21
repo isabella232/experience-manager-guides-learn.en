@@ -45,6 +45,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 
 ## New features and enhancements
+
 AEM Guides as a Cloud Service provides enhancements and new features in the latest release:
 
 ### Advanced metadata support in PDF publishing
@@ -63,14 +64,17 @@ AEM Guides provides an improvised Outlook View panel in which you get the hierar
 <img src="assets/select-element-content-outline-view_cs.png" alt=" native pdf metadata">
 
 The Outline View provides the following enhancements:
-*	A shortcut menu is displayed on top of the Outlook View panel. If an element has an ID, attribute, and text, you can see them along with the element.
-*	Using the search feature, you can:
-    *	Search for an element by its name or attribute value.
-    *	Search for a string in the id, attribute, or text.
-*	You can also assign display attributes configured by your administrator under the Display Attributes tab in the editor settings.
+
+* A shortcut menu is displayed on top of the Outlook View panel. If an element has an ID, attribute, and text, you can see them along with the element.
+
+* Using the search feature, you can:
+    * Search for an element by its name or attribute value.
+    * Search for a string in the id, attribute, or text.
+* You can also assign display attributes configured by your administrator under the Display Attributes tab in the editor settings.
 
 
 ### Microservice-based publishing for AEM Guides as a Cloud Service
+
 AEM Guides as a Cloud Service provides the feature to run large publishing workloads concurrently with microservice-based publishing and leverage the industry-leading Adobe I/O Runtime serverless platform.
 
 Now in the April release you can run multiple publishing requests concurrently and generate bulk PDF outputs very efficiently using the microservice-based Native PDF publishing.
