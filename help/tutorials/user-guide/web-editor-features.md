@@ -1005,7 +1005,7 @@ You can choose to see the following if the element has them:
  -  **Show Attribute**: Shows the attribute along with its value.
  -  **Show Text**: Shows the text. If the text is longer than 20 characters, then an ellipsis is displayed.
 
-If a block element has no block element as children then all text is displayed. If it has the first child as a block element then the text of the first child is shown, other wise all text till the first block element child is shown. 
+If a block element has its own text, it is displayed alongside that block element. If it does not have it's own text, the text of the first child element is displayed alongside that block element. 
 
 ![](images/outline-view-block-element.png)
 
