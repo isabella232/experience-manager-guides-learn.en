@@ -1001,9 +1001,9 @@ The Outline View offers the following features:
 **Shortcut menu for the Outline View panel**
 
 You can choose to see the following if the element has them:
- -  **Show ID**: Shows the id of the element.
- -  **Show Attribute**: Shows the attribute along with its value.
- -  **Show Text**: Shows the text. If the text is long, then an ellipsis is displayed.
+-  **Show ID**: Shows the id of the element.
+-  **Show Attribute**: Shows the attribute along with its value.
+-  **Show Text**: Shows the text. If the text is long, then an ellipsis is displayed.
 
 If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display  attributes configured by your administrator under the **Display Attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view.
 
@@ -1013,8 +1013,8 @@ For more details, see the *Display Attributes* within the *Editor Settings* feat
 **Search feature**
 
 Using the search feature, you can:
- -  Search for an element by its name or attribute value.
- -  Search for a string in the id, attribute, or text.  
+-  Search for an element by its name or attribute value.
+-  Search for a string in the id, attribute, or text.  
 You can search for a string in the element if it is shown in the Outline View panel. For example, if the string "Adobe" is present in the text of the element and is shown in the Outline View panel (as you have selected **Show Text** from the top shortcut menu), then the containing element is filtered. But if the text is not shown in the Outline View panel (as you have not selected **Show Text** from the top shortcut menu), then the containing element is not filtered. Similarly, you will find the string in the ID or attributes if you have selected them.
 
 
