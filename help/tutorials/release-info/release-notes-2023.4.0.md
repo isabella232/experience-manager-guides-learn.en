@@ -65,12 +65,9 @@ AEM Guides provides an improvised Outline View panel in which you get the hierar
 
 The Outline View provides the following enhancements:
 
-* View Options dropdown is displayed on top of the Outline View panel. If an element has an ID, attribute, and text, you can select them from the dropdown to display them along with the element.
+* View Options dropdown is displayed on top of the Outline View panel. If an element has an ID, attribute, and text, you can select them from the dropdown to display them along with the element. The attributes which can be displayed in the Outline View panel are determined by the Display Attributes settings that have been configured by your administrator within the **Editor Settings**.
 
-* Using the search feature, you can:
-   * Search for an element by its name or attribute value.
-   * Search for a string in the id, attribute, or text.
-* You can also assign display attributes configured by your administrator under the Display Attributes tab in the editor settings.
+* Using the search feature, you can  you can search for an element by its name, id, text or attribute value. 
 
 
 ### Microservice-based publishing for AEM Guides as a Cloud Service
@@ -99,4 +96,5 @@ The bugs fixed in various areas are listed below:
 
 Adobe has identified the following known issue for AEM Guides as a Cloud Service April 2023 release.
 
+* Native PDF | The old metadata is not populated until the output preset is explicitly opened. 
 
