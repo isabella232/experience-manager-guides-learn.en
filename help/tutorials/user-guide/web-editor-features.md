@@ -998,12 +998,16 @@ The Outline View offers the following features:
 >
 >For more details on Generate ID, Insert element before or after the current element, and Unwrap an element, see [Other features in the Web Editor](web-editor-other-features.md#).
 
-**Shortcut menu for the Outline View panel**
+**View Options for the Outline View panel**
 
 You can choose to see the following if the element has them:
--  **Show ID**: Shows the id of the element.
--  **Show Attribute**: Shows the attribute along with its value.
--  **Show Text**: Shows the text. If the text is long, then an ellipsis is displayed.
+ -  **Show ID**: Shows the id of the element.
+ -  **Show Attribute**: Shows the attribute along with its value.
+ -  **Show Text**: Shows the text. If the text is longer than 20 characters, then an ellipsis is displayed.
+
+If a block element has no block element as children then all text is displayed. If it has the first child as a block element then the text of the first child is shown, other wise all text till the first block element child is shown. 
+
+![](images/outline-view-block-element.png)
 
 If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display  attributes configured by your administrator under the **Display Attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view.
 
@@ -1011,11 +1015,11 @@ If your administrator has created a profile for attributes, then you'll get thos
 For more details, see the *Display Attributes* within the *Editor Settings* feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.
 
 **Search feature**
+Using the search feature, you can search for an element by its name, id, text or attribute value. 
 
-Using the search feature, you can:
--  Search for an element by its name or attribute value.
--  Search for a string in the id, attribute, or text.  
-You can search for a string in the element if it is shown in the Outline View panel. For example, if the string "Adobe" is present in the text of the element and is shown in the Outline View panel (as you have selected **Show Text** from the top shortcut menu), then the containing element is filtered. But if the text is not shown in the Outline View panel (as you have not selected **Show Text** from the top shortcut menu), then the containing element is not filtered. Similarly, you will find the string in the ID or attributes if you have selected them.
+The search is case-insensitive and exactly matches the string. The search results are sorted on the basis of the element's postion in the document. 
+ 
+You can search for a string in the element if it is shown in the Outline View panel. For example, if the string "Adobe" is present in the text of the element and is shown in the Outline View panel (as you have selected **Show Text** from the View Options dropdown), then the containing element is filtered. But if the text is not shown in the Outline View panel (as you have not selected **Show Text** from the the View Options dropdown), then the containing element is not filtered. Similarly, you will find the string in the ID or attributes if you have selected them.
 
 
 
