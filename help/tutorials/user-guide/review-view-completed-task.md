@@ -3,7 +3,7 @@ title: View a completed review task
 description: Learn how to view a completed review task
 ---
 
-# View a completed review task	
+# View a completed review task
 
 You can complete review tasks for those projects for which you are the Author (or initiator). Once a review task is complete, you and all reviewers can access it in read-only mode.
 
@@ -22,12 +22,8 @@ However, you can search or filter any comments. You can also choose to show or h
 As an author you can see the status as closed in the Review panel. You can read a comment but cannot accept or reject a comment. You cannot edit or delete any comments. You also cannot add the reply for the comment. The Outdated Comments icon and the Import Comments into Author View icon are not displayed in a completed review task.
 
 However, you can search or filter any comments. You can download any attachments but cannot upload or delete any attachments for the comments.
- <img src="images/completed-task-author.png" alt=" completed review task author" width=500>
+
+<img src="images/completed-task-author.png" alt=" completed review task author" width=500>
 
 So, both as a reviewer or an author you can view the reviewed content along with the comments, but you cannot make any changes in a completed review task.
-
-
-
-
-
 
