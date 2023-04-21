@@ -37,7 +37,6 @@ breadcrumb-title: AEM Guides Tutorials
   + [Disclaimer](./user-guide/rebranding-disclaimer.md)
   + Introduction {#about-aem-guide}
     + [About Adobe Experience Manager Guides](./user-guide/intro.md)
-      + [Benefits at a glance](./user-guide/intro.md#aem_benefits)
     + [How AEM Guides works](./user-guide/intro-how-dxml-works.md)
     + [Key AEM Guides features](./user-guide/intro-dxml-features.md)
   + Manage Content {#manage-content}
