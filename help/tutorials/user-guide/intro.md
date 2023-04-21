@@ -11,7 +11,7 @@ AEM Guides provides all core CCMS functions, such as authoring, collaboration, r
 
 With AEM Guides, enterprises can deliver seamless and personalized experiences to end users and ensure consistency and uniformity in pre- and post-sales content. Complete control over content integrity can be achieved easily. What's more, localization time and costs also reduce significantly.
 
-## Benefits at a glance {#aem_benefits}
+## Benefits at a glance
 
 -   Uniform pre- and post-purchase content experience for end users
 
