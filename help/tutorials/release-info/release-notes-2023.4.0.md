@@ -57,20 +57,17 @@ AEM Guides now provides advanced support for the metadata which is mapped to the
 You can import a XMP file and AEM Guides can pick the information from the file. You also have the option to provide the metadata names and values using the dropdown. You can also add custom metadata by typing directly in the name field.
  
 
-### Enhanced Outlook View panel
+### Enhanced Outline View panel
 
-AEM Guides provides an improvised Outlook View panel in which you get the hierarchical view of the elements used in the document.
+AEM Guides provides an improvised Outline View panel in which you get the hierarchical view of the elements used in the document.
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" native pdf metadata">
 
 The Outline View provides the following enhancements:
 
-* A shortcut menu is displayed on top of the Outlook View panel. If an element has an ID, attribute, and text, you can see them along with the element.
+* View Options dropdown is displayed on top of the Outline View panel. If an element has an ID, attribute, and text, you can select them from the dropdown to display them along with the element. The attributes which can be displayed in the Outline View panel are determined by the Display Attributes settings that have been configured by your administrator within the **Editor Settings**.
 
-* Using the search feature, you can:
-   * Search for an element by its name or attribute value.
-   * Search for a string in the id, attribute, or text.
-* You can also assign display attributes configured by your administrator under the Display Attributes tab in the editor settings.
+* Using the search feature, you can  you can search for an element by its name, id, text or attribute value. 
 
 
 ### Microservice-based publishing for AEM Guides as a Cloud Service
@@ -86,15 +83,18 @@ For more details, see [Configure new microservice-based publishing for AEM Guide
 The bugs fixed in various areas are listed below:
 
 * Native PDF | Publishing content that has an output class with brackets() leads to a publishing freeze. (11596)
-* Issue occurs on moving (drag and drop) in place of an existing list item with Track Changes on. (DXML-11570)
-* Issue occurs on moving (drag and drop) as a new list item with Track Changes on. (DXML-11569)
-* Indent or outdent list items does not work as expected with Track Changes on. (DXML-11568)
-* Adding content on a line with  Track Changes on, and then turning off Track Changes does not actually turn it off. (DXML-11567)
-* Difficulty in dragging and dropping a list-item, text is moved in place of the list-item. (DXML-11566)
-* On authoring in the element displayed in green (Track Changes,) the new content is displayed as track change even though the track change is disabled. (DXML-7021)
+* Issue occurs on moving (drag and drop) in place of an existing list item with Track Changes on. (11570)
+* Issue occurs on moving (drag and drop) as a new list item with Track Changes on. (11569)
+* Indent or outdent list items does not work as expected with Track Changes on. (11568)
+* Adding content on a line with  Track Changes on, and then turning off Track Changes does not actually turn it off. (11567)
+* Difficulty in dragging and dropping a list-item, text is moved in place of the list-item. (11566)
+* Completed review does not open in read only mode. (11387)
+* Issue occurs in AEM Site search (doesn't work beyond 2-3 level nodes). (11352)
+* On authoring in the element displayed in green (Track Changes,) the new content is displayed as track change even though the track change is disabled. (7021)
 
 ### Known issue with workaround
 
 Adobe has identified the following known issue for AEM Guides as a Cloud Service April 2023 release.
 
+* Native PDF | The old metadata is not populated until the output preset is explicitly opened. 
 

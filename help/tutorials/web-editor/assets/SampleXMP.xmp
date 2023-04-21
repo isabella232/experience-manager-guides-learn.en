@@ -13,7 +13,7 @@
          <xmpRights:WebStatement>Style Reports</xmpRights:WebStatement>
          <pdf:Keywords>"Projects, Schemas, Text formats"</pdf:Keywords>
          <xmp:CreateDate>2023-02-24T15:56:28+05:30</xmp:CreateDate>
-         <xmp:CreatorTool>Adobe RoboHelp 2022.1.187</xmp:CreatorTool>
+         <xmp:CreatorTool>Adobe AEM Guides 2022.1.187</xmp:CreatorTool>
          <xmp:ModifyDate>2023-02-24T15:56:28+05:30</xmp:ModifyDate>
          <dc:title>
             <rdf:Alt>
@@ -27,7 +27,7 @@
          </dc:rights>
          <dc:creator>
             <rdf:Seq>
-               <rdf:li>Pankhuri Saxena</rdf:li>
+               <rdf:li>John Smith</rdf:li>
             </rdf:Seq>
          </dc:creator>
          <dc:description>
