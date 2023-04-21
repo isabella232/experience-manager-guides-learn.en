@@ -113,6 +113,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Review topics](./user-guide/review-topics.md)
     + [Address review comments](./user-guide/review-address-review-comments.md)
     + [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
+    + [View a completed review task](./user-guide/review-view-completed-task.md)
   + Manage Metadata {#manaege-metadata}
     + [Manage metadata](./user-guide/manage-metadata.md)
     + [Work with metadata in AEM](./user-guide/metadata-dita.md)
