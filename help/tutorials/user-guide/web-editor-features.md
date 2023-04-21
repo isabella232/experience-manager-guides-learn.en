@@ -1000,7 +1000,8 @@ The Outline View offers the following features:
 
 **View Options for the Outline View panel**
 
-You can choose to see the following if the element has them:
+Using the View Options dropdown, you can choose to see the following, if the element has them:
+
  -  **Show ID**: Shows the id of the element.
  -  **Show Attribute**: Shows the attribute along with its value.
  -  **Show Text**: Shows the text. If the text is longer than 20 characters, then an ellipsis is displayed.
