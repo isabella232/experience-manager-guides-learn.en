@@ -68,8 +68,8 @@ The Outline View provides the following enhancements:
 * A shortcut menu is displayed on top of the Outlook View panel. If an element has an ID, attribute, and text, you can see them along with the element.
 
 * Using the search feature, you can:
-    * Search for an element by its name or attribute value.
-    * Search for a string in the id, attribute, or text.
+   * Search for an element by its name or attribute value.
+   * Search for a string in the id, attribute, or text.
 * You can also assign display attributes configured by your administrator under the Display Attributes tab in the editor settings.
 
 
