@@ -31,29 +31,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [4.1.x Release Notes](./release-info/release-notes-4.1.md)
       + [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-+ Content Architecture and Use Cases {#content-arch}
-  + [Work with conditional output](./content-architecture/create-and-use-conditions.md)
-  + [Create global keys](./content-architecture/create-global-keys.md)
-+ Configuring {#configuring}
-  + Native PDF Publishing {#config-native-pdf-publish}
-    + [PDF Template](./native-pdf/pdf-template.md)
-    + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
-    + [Design a page layout](./native-pdf/design-page-layout.md)
-    + Common content styles {#content-styles}
-        + [Work with the common content styles](./native-pdf/stylesheet.md)
-        + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
-        + [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
-        + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
-        + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
-        + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
-  + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
-+ Translation {#translation}
-  + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
-+ Web Editor {#web-editor}
-  + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
-  + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
-+ Versioning {#versioning}
-+ Hidden {#hidden}
++ Hidden articles {#hidden}
   + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
 + User Guide {#user-guide}
   + [Disclaimer](./user-guide/rebranding-disclaimer.md)
@@ -164,6 +142,28 @@ breadcrumb-title: AEM Guides Tutorials
     + [Content Reuse Report](./user-guide/reports-content-reuse.md)
     + [Conversion Status Report](./user-guide/reports-convertion-status.md)
     + [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md)
++ Content Architecture and Use Cases {#content-arch}
+  + [Work with conditional output](./content-architecture/create-and-use-conditions.md)
+  + [Create global keys](./content-architecture/create-global-keys.md)
++ Configuring {#configuring}
+  + Native PDF Publishing {#config-native-pdf-publish}
+    + [PDF Template](./native-pdf/pdf-template.md)
+    + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
+    + [Design a page layout](./native-pdf/design-page-layout.md)
+    + Common content styles {#content-styles}
+        + [Work with the common content styles](./native-pdf/stylesheet.md)
+        + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
+        + [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
+        + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
+        + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
+        + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
+  + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
++ Translation {#translation}
+  + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
++ Web Editor {#web-editor}
+  + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
+  + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
++ Versioning {#versioning}
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
     + [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md) 
