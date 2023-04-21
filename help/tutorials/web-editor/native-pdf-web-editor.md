@@ -77,7 +77,7 @@ Use to specify basic output settings, such as specify output path, PDF file name
 
 Metadata is the description or definition of your content. Metadata helps in content management and helps in searching files on the internet. 
 
-Use the Metadata tab to set the metadata fileds ssuch as the author's name, document title, keywords, copyright information, and other data fields for the PDF output. You can also add custom metadata for your PDF output. 
+Use the Metadata tab to set the metadata fileds such as the author's name, document title, keywords, copyright information, and other data fields for the PDF output. You can also add custom metadata for your PDF output. 
 
 This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
 
