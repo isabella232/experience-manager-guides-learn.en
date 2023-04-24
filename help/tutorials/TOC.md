@@ -168,9 +168,6 @@ breadcrumb-title: AEM Guides Tutorials
   + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + Translation {#translation}
   + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
-+ Web Editor {#web-editor}
-  + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
-  + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
 + Versioning {#versioning}
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
