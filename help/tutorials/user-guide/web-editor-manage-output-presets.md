@@ -15,7 +15,7 @@ Perform the following steps to create an output preset for the Global and Folder
 1.  Select the **Edit Topics** option from the **Options** menu of the map file. The map file is opened for editing in the Web Editor.
 1.  In the **Output** tab, select the + icon to create an output preset for your DITA map.
 
-    ![](images/add-global-output-preset.png)
+    ![](images/add-global-output-preset.png){width="350" align="left"}
 
 1.  Enter the following details in the **Add preset** dialog:
     -   Type
