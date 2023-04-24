@@ -23,13 +23,13 @@ An output preset is shown when a map in the XML Editor is opened in the Map Dash
 
 1. Select a baseline output preset. For example, AEM or PDF could be selected if the new preset to create is for a site or to provide Adobe PDF content.
 
-2. Click **Create**.
+1. Click **Create**.
 
-3. If required, select an Output Type.
+1. If required, select an Output Type.
 
-4. Based on the output type further configure the options.
+1. Based on the output type further configure the options.
 
-5. Click **Done**.
+1. Click **Done**.
 
 ## Edit an Output Preset
 
@@ -37,14 +37,14 @@ Output presets are predefined but can be customized as needed.
 
 1. Open the Map Dashboard.
 
-2. Select the **Output Presets** tab.
+1. Select the **Output Presets** tab.
 
-3. Select an output preset.
+1. Select an output preset.
 
-4. Click **Edit**.
+1. Click **Edit**.
 
-5. Modify the settings as required.
+1. Modify the settings as required.
 
     ![Edit-Output-Preset](images/edit-output-preset.png)
  
-6. Click **Done**.
+1. Click **Done**.

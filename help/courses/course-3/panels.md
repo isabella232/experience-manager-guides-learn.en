@@ -15,7 +15,7 @@ Persistent panels such as the left panel are adjustable in size.
 
 1. Position the cursor on the panel border.
 
-2. When the double-headed arrow appears, click and drag inward or outward as required.
+1. When the double-headed arrow appears, click and drag inward or outward as required.
 
 ## Expand or collapse the left panel sidebar
 
@@ -25,7 +25,7 @@ The expanded view displays the names and the icons which appear as Tool Tips in 
 
     ![Expand Sidebar](images/lesson-5/expand-sidebar.png)
 
-2. Click the [!UICONTROL **Sidebar**] icon again to collapse the panel.
+1. Click the [!UICONTROL **Sidebar**] icon again to collapse the panel.
 
     ![Collapse Sidebar](images/lesson-5/collapse-sidebar.png)
  
@@ -35,15 +35,15 @@ On the left panel, Favorites allows you to create a list of specific documents a
 
 1. Select **Favorites** on the left panel.
 
-2. Click the [!UICONTROL **Plus**] icon.
+1. Click the [!UICONTROL **Plus**] icon.
 
     ![Favorites Plus](images/lesson-5/favorites-plus.png)
 
-3. In the New Collection dialog, enter a **Title** and a **Description**. 
+1. In the New Collection dialog, enter a **Title** and a **Description**. 
 
     Note that selecting Public means other users can see this Favorite.
 
-4. Click [!UICONTROL **Create**].
+1. Click [!UICONTROL **Create**].
 
 You have now created a Favorites Collection.
 
@@ -53,19 +53,19 @@ After creating a Collection, you can begin adding Favorites to it.
 
 1. Select **Repository View** on the left panel.
 
-2. Click the [!UICONTROL **Ellipsis**] located next to a topic to access contextual options.
+1. Click the [!UICONTROL **Ellipsis**] located next to a topic to access contextual options.
 
-3. Select **Add to** > **Favorites**.
+1. Select **Add to** > **Favorites**.
 
-4. In the Add to Favorites dialog, choose **New Collection** or **Existing Collection**. 
+1. In the Add to Favorites dialog, choose **New Collection** or **Existing Collection**. 
 
     Here, we will choose to add to an Existing Collection.
  
     ![Favorites Dialog](images/lesson-5/add-to-favorites-dialog.png)
 
-5. If required, select a collection from the dropdown.
+1. If required, select a collection from the dropdown.
 
-6. Click [!UICONTROL **Add**].
+1. Click [!UICONTROL **Add**].
 
 The topic is added to the Favorites Collection you chose. You can view it in the Favorites menu.
 
@@ -75,23 +75,23 @@ Another way to add a topic to your Favorites is from an open topic in the Editor
 
 1. Navigate to the **Repository View**.
 
-2. Double-click a topic to open it.
+1. Double-click a topic to open it.
 
-3. Right-click on the file's **Title tab** in the Editor to access contextual options.
+1. Right-click on the file's **Title tab** in the Editor to access contextual options.
 
-4. Choose **Add to** > **Favorites**.
+1. Choose **Add to** > **Favorites**.
 
     ![Add to Favorites](images/lesson-5/addto-favorites.png)
 
-5. In the Add to Favorites dialog, choose **New Collection** or **Existing Collection**. 
+1. In the Add to Favorites dialog, choose **New Collection** or **Existing Collection**. 
 
     Here, we will choose to add to a New Collection.
 
-6. In the New Collection dialog, enter a **Title** and a **Description**. 
+1. In the New Collection dialog, enter a **Title** and a **Description**. 
 
     Note that selecting **Public** means other users can see this Favorite.
 
-7. Click [!UICONTROL **Create**].
+1. Click [!UICONTROL **Create**].
 
 The new favorite has been created and grouped. You can view it in the Favorites menu.
 
@@ -101,11 +101,11 @@ It is easy to view which topics you have already added to your Favorites Collect
 
 1. Select [!UICONTROL **Favorites**] on the left panel.
 
-2. Under Favorites, click the [!UICONTROL **Arrow**] icon next to a collection to view its contents.
+1. Under Favorites, click the [!UICONTROL **Arrow**] icon next to a collection to view its contents.
 
     ![View Favorites](images/lesson-5/view-favorites.png)
 
-3. Click the [!UICONTROL **Ellipsis**] next to a topic to bring up contextual options, including the option to delete it from the Favorites list.
+1. Click the [!UICONTROL **Ellipsis**] next to a topic to bring up contextual options, including the option to delete it from the Favorites list.
 
 ## Filter a search in Repository View
 
@@ -113,15 +113,15 @@ The enhanced filter in the Repository allows you to search for text with a wide 
 
 1. Navigate to **Repository View**.
 
-2. Click the [!UICONTROL **Filter Search**] icon.
+1. Click the [!UICONTROL **Filter Search**] icon.
 
     ![Repository Filter Icon](images/lesson-5/repository-filter-icon.png)
 
-3. Type text in the selected path or choose a new path if required.
+1. Type text in the selected path or choose a new path if required.
 
     The list of files updates as you type text into the filter.
 
-4. Click the Arrow icon next to a search category to narrow the search further if required.
+1. Click the Arrow icon next to a search category to narrow the search further if required.
 
     ![Filter Criteria](images/lesson-5/filter-criteria.png)
  
@@ -164,21 +164,21 @@ Snippets are small content fragments that can be reused as a starting point for 
 
 1. Open a topic in the Editor.
 
-2. Select an element within the topic.
+1. Select an element within the topic.
 
-3. Click the secondary mouse button within the element.
+1. Click the secondary mouse button within the element.
 
-4. In the resulting menu, choose Create [!UICONTROL **Snippet**].
+1. In the resulting menu, choose Create [!UICONTROL **Snippet**].
 
     ![Create Snippet](images/lesson-5/create-snippet.png)
 
-5. In the New Snippet dialog, add a **Title** and a **Description**.
+1. In the New Snippet dialog, add a **Title** and a **Description**.
 
-6. Edit the Snippet as required. 
+1. Edit the Snippet as required. 
 
     Note that a contextual check will visually notify you if you introduce an error into the content.
 
-7. Click [!UICONTROL **Create**].
+1. Click [!UICONTROL **Create**].
 
 The Snippet is added to the list of available Snippets. It is ready to be dragged and dropped into a valid location in the topic.
 
@@ -200,11 +200,11 @@ Content Properties on the right panel includes specific information about the cu
 
 1. Open a topic in **XML Editor**.
 
-2. Select an **element**.
+1. Select an **element**.
 
     Content Properties displays the element's current Type and Attributes.
 
-3. Type a new **Value** for the element.
+1. Type a new **Value** for the element.
 
     ![New Value](images/lesson-5/new-value.png)
  
@@ -216,31 +216,31 @@ File Properties shows additional information about the entire open topic. Some o
 
 1. Open a topic in the Editor.
 
-2. Click the [!UICONTROL  **File Properties**] icon on the right panel.
+1. Click the [!UICONTROL  **File Properties**] icon on the right panel.
 
     ![File Properties Icon](images/lesson-5/file-properties-icon.png)
 
-3. Set the **Document State** to **Edit**. Note that the References list is currently blank.
+1. Set the **Document State** to **Edit**. Note that the References list is currently blank.
  
     ![No References](images/lesson-5/no-references.png)
 
-4. Close the topic.
+1. Close the topic.
 
-5. Select [!UICONTROL **Repository View**] on the left panel.
+1. Select [!UICONTROL **Repository View**] on the left panel.
 
-6. Open a map.
+1. Open a map.
 
     The view changes to Map View.
 
-7. Click the [!UICONTROL **Edit**] icon.
+1. Click the [!UICONTROL **Edit**] icon.
 
     ![Edit Map Icon](images/lesson-5/edit-map-icon.png)
 
-8. Once the map is open for editing, switch back to **Repository View**.
+1. Once the map is open for editing, switch back to **Repository View**.
 
-9. Drag and drop the topic you are working with into the map.
+1. Drag and drop the topic you are working with into the map.
 
-10. Click the [!UICONTROL **Save**] icon on the top toolbar.
+1. Click the [!UICONTROL **Save**] icon on the top toolbar.
 
 The topic is added to the map. Now when you open the topic and check the File Properties, you can see the References are updated to reflect that the topic is used in the specified map.
 
@@ -252,13 +252,13 @@ The right panel contains a shortcut to kick off a review workflow.
  
     ![Review Icon](images/lesson-5/review-icon.png)
 
-2. Click [!UICONTROL **Create Review**].
+1. Click [!UICONTROL **Create Review**].
  
     ![Create Review](images/lesson-5/create-review.png)
 
-3. In the Create Review Task dialog, populate the fields as required.
+1. In the Create Review Task dialog, populate the fields as required.
 
-4. Click [!UICONTROL **Next**].
+1. Click [!UICONTROL **Next**].
 
 The Review Task is created.
 

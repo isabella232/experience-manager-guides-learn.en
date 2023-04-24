@@ -19,19 +19,19 @@ You can download sample files for the exercise here.
 
 1. Open the topic to modify.
 
-2. Enter the text that is to become conditional. For example, one or more paragraphs, an entire table, a figure, or other content.
+1. Enter the text that is to become conditional. For example, one or more paragraphs, an entire table, a figure, or other content.
 
     ![Presenting-Information](images/presenting-info.png)
  
-3. Select the specific content to assign a conditional attribute to. For example, a single paragraph within the source.
+1. Select the specific content to assign a conditional attribute to. For example, a single paragraph within the source.
 
     ![Template-Choice](images/template-choice.png)
  
-4. In the Right Rail ensure the Properties display.
+1. In the Right Rail ensure the Properties display.
 
-5. Add an attribute for audience, product, or platform.
+1. Add an attribute for audience, product, or platform.
 
-6. Assign a value to the attribute. The content display updates to show conditional markup has been applied.
+1. Assign a value to the attribute. The content display updates to show conditional markup has been applied.
 
     ![Specify-Template](images/specify-template.png)
  
@@ -39,9 +39,9 @@ You can download sample files for the exercise here.
 
 1. Click **Preview**.
 
-2. Under **Filters**, select or deselect the conditions to show or hide.
+1. Under **Filters**, select or deselect the conditions to show or hide.
 
-3. Select or deselect **Highlight conditions text**.
+1. Select or deselect **Highlight conditions text**.
 
     ![Preview-Conditional-Content](images/preview-conditional-content.png)
  
@@ -51,19 +51,19 @@ A condition preset is a collection of properties that define what is to be inclu
 
 1. From the Map Dashboard select the **Condition Presets** tab.
 
-2. Click **Create**.
+1. Click **Create**.
 
-3. Select **Add** (or **Add All**).
+1. Select **Add** (or **Add All**).
 
-4. Name the condition.
+1. Name the condition.
 
-5. Select an attribute, label, and action combination.
+1. Select an attribute, label, and action combination.
  
     ![Create-Condition-Preset](images/create-condition-preset.png)
 
-6. Repeat as required.
+1. Repeat as required.
 
-7. Click **Save**.
+1. Click **Save**.
 
 ## Generating conditional output
 
@@ -73,17 +73,17 @@ Once conditions have been applied to content it can be generated as output. This
 
 1. Select the **Output Presets** tab.
 
-2. Select an output preset.
+1. Select an output preset.
 
-3. Click **Edit**.
+1. Click **Edit**.
 
-4. Under **Apply Condition Using** select a Condition Preset.
+1. Under **Apply Condition Using** select a Condition Preset.
 
     ![Generate-Conditional-Output](images/generate-conditional-output.png)
 
-5. Click **Done**.
+1. Click **Done**.
 
-6. Generate the output preset and review the content.
+1. Generate the output preset and review the content.
 
 ## Generating conditional output using a DITAval file
 
@@ -91,14 +91,14 @@ The DITAval file can be used to publish conditional content. This requires a fil
 
 1. Select the **Output Presets** tab.
 
-2. Select an output preset.
+1. Select an output preset.
 
-3. Click **Edit**.
+1. Click **Edit**.
 
-4. Under Apply Condition Using select a DITAval file.
+1. Under Apply Condition Using select a DITAval file.
 
     ![Generate-Using-DITAval](images/generate-using-ditaval.png)
  
-5. Click **Done**.
+1. Click **Done**.
 
-6. Generate the output preset and review the content.
+1. Generate the output preset and review the content.

@@ -9,8 +9,8 @@ exl-id: 38638080-625c-49c3-9e54-56cc23831546
 
 Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later referred as *AEM Guides as a Cloud Service*) setup by performing the following steps:
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
-2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.10.183.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the October release of AEM Guides as a Cloud Service.
+1. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.10.183.
+1. Commit the changes and run the Cloud Services pipeline to upgrade to the October release of AEM Guides as a Cloud Service.
 
 ## Compatibility matrix
 

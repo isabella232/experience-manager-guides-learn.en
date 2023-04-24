@@ -76,7 +76,7 @@ Your content opens in [!UICONTROL Preview].
 You can edit the hierarchy of topics inside the map.
 
 1. Click a topic's icon to select it.
-2. Use the arrows to demote and promote elements respectively.
+1. Use the arrows to demote and promote elements respectively.
 
    ![Repository icon](images/lesson-8/left-right.png)
 

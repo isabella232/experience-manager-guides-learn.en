@@ -12,7 +12,7 @@ Learn about managing assets, files, and folders in the XML Editor for Experience
 ## Accessing the XML Editor
 
 1. In the login screen, enter your username and password, and select **[!UICONTROL Sign In]**.
-2. Select **[!UICONTROL XML Editor]** from the AEM Navigation page.
+1. Select **[!UICONTROL XML Editor]** from the AEM Navigation page.
 
 ## XML Editor Views
 
@@ -75,7 +75,7 @@ You can return to the XML Editor from any view of the Assets UI.
 
 1. Select the topic you want to edit from the list.
  The topic displays in the Assets UI.
-2. Select **Edit** from the top toolbar.
+1. Select **Edit** from the top toolbar.
  You are returned to the XML Editor.
 
 ### Returning from Card View

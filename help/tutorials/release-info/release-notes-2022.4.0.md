@@ -9,8 +9,8 @@ exl-id: c735ba24-a803-454b-8723-57dacf90061b
 
 Upgrade your current [!DNL Adobe Experience Manager Guides] as a Cloud Service (later referred as *[!DNL AEM Guides] as a Cloud Service*) setup by performing the following steps:
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment you want to upgrade.
-2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.4.133.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the April release of [!DNL AEM Guides] as a Cloud Service.
+1. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2022.4.133.
+1. Commit the changes and run the Cloud Services pipeline to upgrade to the April release of [!DNL AEM Guides] as a Cloud Service.
 
 ## Compatibility matrix
 
@@ -46,8 +46,8 @@ A DITA content key reference inserts a part of content from one topic into anoth
 Now the key references are resolved on the basis of the root map set in the following order of priority: 
 
 1. User Preferences
-2. Map View panel 
-3. Folder Profile
+1. Map View panel 
+1. Folder Profile
 
 For more details, see *Resolve key references* section in the User guide.
 

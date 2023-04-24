@@ -180,8 +180,8 @@ A DITA content key reference inserts a part of content from one topic into anoth
 Now the key references are resolved on the basis of the root map set in the following order of priority: 
 
 1. User Preferences
-2. Map View panel 
-3. Folder Profile
+1. Map View panel 
+1. Folder Profile
 
 For more details, see *Resolve key references* section in the Using Adobe Experience Manager Guides guide.
 

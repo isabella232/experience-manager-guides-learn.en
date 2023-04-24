@@ -35,7 +35,7 @@ Sample files that you may opt to use for this lesson are provided in the file [k
 
     h. Select [!UICONTROL **Extract**] at the top right of the screen.
 
-2. When the extract is complete, click [!UICONTROL **Go to the target folder**].
+1. When the extract is complete, click [!UICONTROL **Go to the target folder**].
 
     ![Confirmation](images/lesson-9/go-to-target.png)
 
@@ -63,9 +63,9 @@ To correctly use Keys, User Preferences must reference a specific map as the Roo
 
     g. **Save** the User Preferences.
 
-2. Navigate to the **Map View**.
+1. Navigate to the **Map View**.
 
-3. Open the specified map.
+1. Open the specified map.
 
 The Keys are resolved.
 
@@ -73,11 +73,11 @@ The Keys are resolved.
 
 1. Open a map with a specified Root Map.
 
-2. Select a Key.
+1. Select a Key.
 
     ![Key Dropdown](images/lesson-9/hybrid-key.png)
 
-3. Insert a new keydef.
+1. Insert a new keydef.
 
     a. Click in a valid location in the map.
 
@@ -89,7 +89,7 @@ The Keys are resolved.
 
     d. Click [!UICONTROL **Insert**].
 
-4. Add topicmeta within the keydef.
+1. Add topicmeta within the keydef.
 
     a. Click the [!UICONTROL **Insert Element**] icon on the top toolbar.
 
@@ -97,7 +97,7 @@ The Keys are resolved.
 
     b. In the Insert Element dialog, search and select "topicmeta".
 
-5. Add keywords within the topicmeta.
+1. Add keywords within the topicmeta.
 
     a. Click the [!UICONTROL **Insert Element**] icon on the top toolbar.
 
@@ -105,7 +105,7 @@ The Keys are resolved.
 
     b. In the Insert Element dialog, search and select "keywords".
 
-6. Add a keyword within the topicmeta.
+1. Add a keyword within the topicmeta.
 
     a. Click the [!UICONTROL **Insert Element**] icon on the top toolbar.
 
@@ -113,7 +113,7 @@ The Keys are resolved.
 
     b. In the **Insert Element** dialog, search and select "keyword"
 
-7. Type the value for the keydef into the keyword.
+1. Type the value for the keydef into the keyword.
 
 In the map, your keydef should now look something like this:
 
@@ -125,16 +125,16 @@ Snippets are small content fragments that can be reused across various topics in
 
 1. Select a keydef element in the map.
 
-2. In the contextual menu, click [!UICONTROL **Create Snippet**].
+1. In the contextual menu, click [!UICONTROL **Create Snippet**].
 
-3. In the New Snippet dialog, add a Title and Description.
+1. In the New Snippet dialog, add a Title and Description.
 You may also wish to remove existing keys or keyword definitions from the Content.
 
-4. Click [!UICONTROL **Create**].
+1. Click [!UICONTROL **Create**].
 
-5. On the left panel, select **Snippets**.
+1. On the left panel, select **Snippets**.
 
-6. Drag and drop the snippet you just created from the Snippets panel to the map.
+1. Drag and drop the snippet you just created from the Snippets panel to the map.
 
-7. Update the keydef as needed using Content Properties.
+1. Update the keydef as needed using Content Properties.
 When saved and refreshed, this set of Keys will be available for any user who has defined a map that contains the same Root Map.

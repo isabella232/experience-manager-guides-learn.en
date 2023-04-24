@@ -1,6 +1,8 @@
 ---
 title: Oxygen Plugin for Adobe Experience Manager Guides
 description: Learn how to use Oxygen Plugin for Adobe Experience Manager Guides to create and manage your content.
+hide: yes
+hidefromtoc: yes
 ---
 
 # Oxygen Plugin for Adobe Experience Manager Guides {#id1645H6010Q5}
@@ -105,11 +107,9 @@ As an AEM administrator, perform the following steps to install the package:
 1.  Get the package's .zip file from your IT team.
 1.  Log into your AEM instance *\(as an administrator\)* and navigate to the CRX Package Manager. The default URL to access the package manager is
 
-    ```
-    http://<server name>:<port>/crx/packmgr/index.jsp
-    ```
+    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-    The Package Manager manages the packages on your local AEM installation. For more information about working with the Package Manager, see [How to Work With Packages](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html) in AEM documentation.
+    The Package Manager manages the packages on your local AEM installation. For more information about working with the Package Manager, see [How to Work With Packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM documentation.
 
     ![](images/package-manager.png)
 
@@ -155,13 +155,25 @@ Update the given files to configure the web authentication settings in the Oxyge
 
 Add the following lines in env.sh
 
-```
---illegal-access=permit\--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED\--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\--add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\--add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED\--add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED\--add-exports=java.desktop/sun.awt=ALL-UNNAMED\--add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
+```java
+--illegal-access=permit\
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED\
+--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\
+--add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\
+--add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED\
+--add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED\
+--add-exports=java.desktop/sun.awt=ALL-UNNAMED\
+--add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
 ```
 
 Add the following lines in the oxygenAuthor.sh
 
-```
+```java
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
@@ -169,13 +181,13 @@ Add the following lines in the oxygenAuthor.sh
 
 Add the following lines in env.bat
 
-```
+```java
 --illegal-access=permit --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED --add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED --add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED --add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
 ```
 
 Add the following lines in the oxygenAuthor.bat
 
-```
+```java
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
@@ -194,7 +206,7 @@ Perform the following steps to configure the connection settings in the Oxygen P
 1.  Specify the following details:
     -   **Server URL**: URL of the AEM server, for example:
 
-        ```
+        ```http
         http[s]://<host>:<port>
         ```
 
@@ -341,22 +353,22 @@ If you want to use the editors available in AEM Guides, you can do so by selecti
 
 1.  Select **Open In** from the context menu and choose from the following options:
 
--   **Web Topic Editor**: If the file you are opening is a .xml or .dita file, then you can open it for editing in the Web Editor. Choose the **Web Topic Editor** option to open the selected file for editing in the Web Editor.
+    - **Web Topic Editor**: If the file you are opening is a .xml or .dita file, then you can open it for editing in the Web Editor. Choose the **Web Topic Editor** option to open the selected file for editing in the Web Editor.
 
--   **Map Dashboard**: You can choose to edit a .ditamap file in the map dashboard wherein you can perform various operations on the map file. These operations depend on the role/group that you belong to.
+    - **Map Dashboard**: You can choose to edit a .ditamap file in the map dashboard wherein you can perform various operations on the map file. These operations depend on the role/group that you belong to.
 
--   **Web DITA Map Editor**: If you want to open the .ditamap file for editing in the Map Editor, then choose this option. Using the DITA Map Editor option, you can add or remove topics, add relationship tables, and perform other operations on your map.
+    - **Web DITA Map Editor**: If you want to open the .ditamap file for editing in the Map Editor, then choose this option. Using the DITA Map Editor option, you can add or remove topics, add relationship tables, and perform other operations on your map.
 
 
 ### Check-out files {#id195HC020TS4}
 
 When you checkout a file, it is stored locally on your system and locked for editing in the AEM repository. Perform the following steps to check-out a file:
 
-1.  Right-click a file in the AEM Guides panel.
-1.  Select one of the following options:
-    -   **Check-out:** Checks out a file from AEM repository and makes it available for editing.
-    -   **Check-out with dependents**: Checks out a file with its direct references. You can make changes in parent and child pages using this option. Oxygen Plugin for AEM Guides supports checking out one level of dependents. For example, Map A references Topic A and Topic A references Topic B. Checking out Map A will checkout Topic A regardless of its level in the TOC hierarchy. However, it will not check out Topic B because it is not directly linked from Map A.
-    -   **Check-out with read-only dependents**: Checks out a file and downloads its dependents to your local machine as read-only copies. You cannot make any changes in the dependent files.
+1. Right-click a file in the AEM Guides panel.
+1. Select one of the following options:
+   -  **Check-out:** Checks out a file from AEM repository and makes it available for editing.
+   -  **Check-out with dependents**: Checks out a file with its direct references. You can make changes in parent and child pages using this option. Oxygen Plugin for AEM Guides supports checking out one level of dependents. For example, Map A references Topic A and Topic A references Topic B. Checking out Map A will checkout Topic A regardless of its level in the TOC hierarchy. However, it will not check out Topic B because it is not directly linked from Map A.
+   -  **Check-out with read-only dependents**: Checks out a file and downloads its dependents to your local machine as read-only copies. You cannot make any changes in the dependent files.
 
 If you have selected the **Open Files on Checkout** option \(in the Preferences dialog\), then on checking out a file, the file is automatically opened for editing.
 
@@ -376,30 +388,30 @@ In the above screenshot, a file checked out by other user is shown with a black 
 
 When you check in a file, the local copy from your system is stored in the AEM repository, and the lock on the file is removed. Perform the following steps to check in a file:
 
-1.  Save your file by clicking **File** \> **Save**.
+1. Save your file by clicking **File** \> **Save**.
 
-1.  Right-click on a checked-out file and choose from the following two options:
+1. Right-click on a checked-out file and choose from the following two options:
 
-    -   **Check-In**: Checks-in the selected file from your local system into AEM repository.
-    -   **Check-In with Dependents:** If you have checked-out a file along with its dependents, then use this option to check in all dependent files in one single operation. On selecting this option, you are shown the Check-In dialog with all dependent files. Click OK to check-in all files at once.
+   -  **Check-In**: Checks-in the selected file from your local system into AEM repository.
+   -  **Check-In with Dependents:** If you have checked-out a file along with its dependents, then use this option to check in all dependent files in one single operation. On selecting this option, you are shown the Check-In dialog with all dependent files. Click OK to check-in all files at once.
 
-        If you have not checked out dependent files and then you choose this option, then only those dependent files that you have \(separately\) checked out will be checked in. You will be shown a list of files that could not be checked in:
+     If you have not checked out dependent files and then you choose this option, then only those dependent files that you have \(separately\) checked out will be checked in. You will be shown a list of files that could not be checked in:
 
-        ![](images/check-in-error.png)
+     ![](images/check-in-error.png)
 
-        It is strongly recommended not to move a file that is checked out. However, if a checked out file is moved to a different location, then you must cancel the checkout on that file. If you want to make updates on that file, then check out the file again, make changes, and then check it back in. If you try to check in a file that has been moved from its original location, then you will get an error.
+     It is strongly recommended not to move a file that is checked out. However, if a checked out file is moved to a different location, then you must cancel the checkout on that file. If you want to make updates on that file, then check out the file again, make changes, and then check it back in. If you try to check in a file that has been moved from its original location, then you will get an error.
 
-        If a dependent file is checked out in AEM, then Check-In with Dependents will not show the dependent file in the Check-In dialog. To get a list of dependent files that are checked out in AEM, you must do a folder Refresh.
+     If a dependent file is checked out in AEM, then Check-In with Dependents will not show the dependent file in the Check-In dialog. To get a list of dependent files that are checked out in AEM, you must do a folder Refresh.
 
-        Similarly, if you have checked-in a dependent file through AEM, the file list is not refreshed in Oxygen Author until you do a folder Refresh and Refresh Checked-Out Files. If you do a Check-in with Dependents with some files checked in through AEM, then you will get an error listing the files that could not be checked in.
+     Similarly, if you have checked-in a dependent file through AEM, the file list is not refreshed in Oxygen Author until you do a folder Refresh and Refresh Checked-Out Files. If you do a Check-in with Dependents with some files checked in through AEM, then you will get an error listing the files that could not be checked in.
 
-1.  \(Optional\) In the Check-In dialog, add a comment in **Version Comments** text box.
+1. \(Optional\) In the Check-In dialog, add a comment in **Version Comments** text box.
 
-    >[!NOTE]
-    >
-    >This comment is displayed in the AEM version history of the file.
+   >[!NOTE]
+   >
+   >This comment is displayed in the AEM version history of the file.
 
-1.  Click **OK**.
+1. Click **OK**.
 
 >[!NOTE]
 >
@@ -409,7 +421,7 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
 When you have in multiple folders, then it is not easy to find out how many files are checked out in one view. AEM Guides provides Files Checked-Out in AEM Guides View that gives one complete snapshot of currently checked-out files. Using this view, you can easily find out which files have been checked by you in AEM repository using AEM Guides. Perform the following steps to access and work with this view:
 
-1.  Click **Window** \> **Show View** \> **Files Checked-Out in AEM Guides**.
+1. Click **Window** \> **Show View** \> **Files Checked-Out in AEM Guides**.
 
     The Files Checked-Out in AEM Guides view is displayed.
 
@@ -592,11 +604,11 @@ This topic covers some of the most common issues that you might face while worki
 
 ### Missing AEM Guides panel {#id192BH200ZAX}
 
-Issue
-:   If you do not see the AEM Guides panel in Oxygen XML Author, try the following solutions:
+**Issue** - If you do not see the AEM Guides panel in Oxygen XML Author, try the following solutions:
 
 Solution 1:
-:   1.  In Oxygen XML Author, enable the plugin.
+
+1.  In Oxygen XML Author, enable the plugin.
 
     Click **Options** \> **Preferences** \> **Plugins** and select **Oxygen Plugin for Adobe Experience Manager Guides.**
 
@@ -604,12 +616,14 @@ Solution 1:
 
 
 Solution 2:
-:   If you still do not see the AEM Guides panel, enable AEM Guides window.
+
+1.  If you still do not see the AEM Guides panel, enable AEM Guides window.
 
     In Oxygen XML Author, Click **Window** \> **Show View** \> **AEM Guides**.
 
 Solution 3:
-:   Uninstall and reinstall the Oxygen Plugin for Adobe Experience Manager Guides.
+
+1.  Uninstall and reinstall the Oxygen Plugin for Adobe Experience Manager Guides.
 
     -   On Windows, uninstall the plugin from **Add or remove Programs** list. Then, reinstall the plugin.
 
@@ -618,25 +632,19 @@ Solution 3:
 
 ### Configure port for DITA-OT transformation 
 
-Issue
-:   When you run any DITA-OT transformation on files that are processed by the Plugin, the transformation fails with the following error:
+**Issue** - When you run any DITA-OT transformation on files that are processed by the Plugin, the transformation fails with the following error:
 
-    ![](images/proxy-server-path-error.png)
+![](images/proxy-server-path-error-new.png)
 
-Solution
-:   This issue has been fixed by adding a proxy server in-between DITA-OT and the Plugin. This proxy server processes and shares all files requested by DITA-OT for transformations. The default port on which this server has been configured is: `5972`. If you are using this port for some other server, then you can specify a different port for the proxy server.
+**Solution** - This issue has been fixed by adding a proxy server in-between DITA-OT and the Plugin. This proxy server processes and shares all files requested by DITA-OT for transformations. The default port on which this server has been configured is: `5972`. If you are using this port for some other server, then you can specify a different port for the proxy server.
 
-    Perform the following steps to change the default port of the proxy server:
+Perform the following steps to change the default port of the proxy server:
 
-    1.  Browse to your \(user's\) home directory.
-
-    2.  Create a file named aem\_connector\_proxy.
-
-    3.  Open the file in any text editor and add an available port number in the first line of the file.
-
-    4.  Save and close the file.
-
-    5.  Restart Oxygen XML Author and run the DITA-OT transformation.
+1.  Browse to your \(user's\) home directory.
+1.  Create a file named aem\_connector\_proxy.
+1.  Open the file in any text editor and add an available port number in the first line of the file.
+1.  Save and close the file.
+1.  Restart Oxygen XML Author and run the DITA-OT transformation.
 
 
 ### AEM Guides panel does not browse to the opened file location 
@@ -651,38 +659,36 @@ Issue: By default, the Oxygen Plugin for AEM Guides does not generate any logs, 
 
 Solution: Perform the following steps to enable logs generation feature in the Plugin:
 
-    1.  Browse to the Oxygen XML Author's install location.
+1. Browse to the Oxygen XML Author's install location.
 
-    1.  Open the oxygenAuthor19.1.vmoptions file in a text editor.
+1. Open the oxygenAuthor19.1.vmoptions file in a text editor.
 
-        >[!NOTE]
-        >
-        >The file's version number might differ based on the version number of the application installed on your system.
+    >[!NOTE]
+    >
+    >The file's version number might differ based on the version number of the application installed on your system.
 
-    1.  Append the following line in the file:
+1.  Append the following line in the file:
 
-        ```
-        -Djava.util.logging.config.file=./log.properties
-        ```
+    ```java
+    -Djava.util.logging.config.file=./log.properties
+    ```
 
-    1.  Save and close the file.
+1. Save and close the file.
 
-    1.  In the same location, create a file named log.properties with the following content:
+1. In the same location, create a file named log.properties with the following content:
 
-        ```
-        handlers=java.util.logging.FileHandler
-        java.util.logging.FileHandler.level = DEBUG
-        java.util.logging.FileHandler.limit = 1048576
-        java.util.logging.FileHandler.count = 5
-        java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-        java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-        java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
-        ```
+    ```java
+    handlers=java.util.logging.FileHandler
+    java.util.logging.FileHandler.level = DEBUG
+    java.util.logging.FileHandler.limit = 1048576
+    java.util.logging.FileHandler.count = 5
+    java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
+    java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+    java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+    ```
 
-    1.  Save and close the file.
+1. Save and close the file.
+1. Start Oxygen XML Author.
 
-    1.  Start Oxygen XML Author.
 
-
-    The plugin now creates logs in the user's home directory with the file name aem-pluginX.log \(*where X denotes the rotation number*\).
-
+The plugin now creates logs in the user's home directory with the file name aem-pluginX.log \(*where X denotes the rotation number*\).

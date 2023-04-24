@@ -15,19 +15,19 @@ You can keep track of all updates made on a document by enabling the Track Chang
 
     ![Track Changes](images/lesson-12/track-changes-icon.png)
 
-2. Make a change in the topic.
+1. Make a change in the topic.
 
     Added content now displays in green with a change bar. Deleted content displays in red with a strikethrough.
 
-3. Select the **Tracked Changes** icon on the right to access the Tracked Changes panel.
+1. Select the **Tracked Changes** icon on the right to access the Tracked Changes panel.
 
     ![Accept/Reject All](images/lesson-12/accept-reject-all.png)
 
-4. Click [!UICONTROL **Save**].
+1. Click [!UICONTROL **Save**].
 
     ![Save Icon](images/lesson-12/save-icon.png)
 
-5. Close the topic.
+1. Close the topic.
 
 Other users are now able to open the topic and view the existing tracked changes. They can accept or reject the changes and add their own.
 
@@ -37,7 +37,7 @@ The search feature is helpful when there are many tracked changes, as scrolling 
 
 1. Select the **Tracked Changes** icon on the right to access the Tracked Changes panel.
 
-2. Type a word or phrase in the Search field.
+1. Type a word or phrase in the Search field.
 The search returns any changes that match the search words.
 
 ## Filter tracked changes
@@ -46,11 +46,11 @@ Multiple tracked changes can also be filtered by insertion, deletion, or reviewe
 
 1. Click the [!UICONTROL **Filter**] icon at the bottom of the Tracked Changes panel.
 
-2. Select the checkboxes for the desired filters.
+1. Select the checkboxes for the desired filters.
 
     ![Filter UI](images/lesson-12/filter.png)
 
-3. Click [!UICONTROL **Apply**].
+1. Click [!UICONTROL **Apply**].
 
 ## Accept or reject tracked changes
 
@@ -58,9 +58,9 @@ Reviewers and Subject Matter Experts can accept or reject other users' changes, 
 
 1. Click the [!UICONTROL **Tracked Changes**] icon on the right to access the Tracked Changes panel.
 
-2. Select a specific change.
+1. Select a specific change.
 
-3. Click the [!UICONTROL **Thumbs Up**] or [!UICONTROL **Thumbs Down**] icon associated with the change to accept or reject it.
+1. Click the [!UICONTROL **Thumbs Up**] or [!UICONTROL **Thumbs Down**] icon associated with the change to accept or reject it.
  
     ![Accept/Reject Single UI](images/lesson-12/accept-reject-single.png)
 
@@ -70,7 +70,7 @@ Reviewers and Subject Matter Experts can accept or reject other users' changes, 
 
     ![Accept/Reject Single UI](images/lesson-12/accept-reject-single.png)
 
-4. [!UICONTROL **Save**] the topic.
+1. [!UICONTROL **Save**] the topic.
 
 ## Work with the Merge feature
 
@@ -78,18 +78,18 @@ When you work in a multi-author environment, it can be difficult to track what c
 
 1. Open a topic in the Web Editor.
 
-2. Click the [!UICONTROL **Merge**] icon on the toolbar.
+1. Click the [!UICONTROL **Merge**] icon on the toolbar.
 
     ![Merge Icon](images/lesson-12/merge-icon.png)
 
-3. In the Merge dialog, select a version of the file with which you want to compare the current version of the file.
+1. In the Merge dialog, select a version of the file with which you want to compare the current version of the file.
 
-4. From the Options, choose:
+1. From the Options, choose:
 
     - **Track Changes From Selected Version**: This option shows all content updates in the form of tracked changes. You can then choose to accept or reject changes in the document one at a time or all at once.
 
     - **Revert to Selected Version**: This option reverts the current version of the document to the selected version. It does not give you any control over what content is accepted or rejected.
 
-5. Click [!UICONTROL **Done**].
+1. Click [!UICONTROL **Done**].
 
 If you selected the **Track Changes From Selected Version option**, then all changes from the selected version appear in the Changes tab of the right panel.

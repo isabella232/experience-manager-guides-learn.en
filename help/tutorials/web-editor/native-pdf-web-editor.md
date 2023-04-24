@@ -67,7 +67,7 @@ Use to specify basic output settings, such as specify output path, PDF file name
 | Setting  | Description|
 | --- | --- |
 |**Output Path**|The path within the AEM repository where the PDF output is stored. Ensure that the output path is not located inside the project folder. If left blank, the output gets generated in the default DITA map output location.<br>You can also use the following out-of-box variables to define the Output Path. You can use a single or a combination of variables to define this option. <br> `${map_filename}`: Uses the DITA map files name to create the destination path. <br> `${map_title}`: Uses the DITA map title to create the destination path. <br>`${preset_name}`: Uses the output preset name to create the destination path. <br> `${language_code}`: Uses the language code where the map file is located to create the destination path. <br> `${map_parentpath}`: Uses the complete path of the map file to create the destination path.  <br>`${path_after_langfolder}`: Uses the path of the map file after the language folder to create the destination path.| 
-|  **PDF File**  | Specify a file name to save the PDF. By default, the PDF file name adds the DITA map name along with the preset name. For example, ditamap is ‘TestMap’ and the name of the preset is ‘preset1’ then the default name of the pdf will be ‘TestMap_preset1.pdf’. <br>You can also use the following out-of-box variables to define the PDF File. You can use a single or a combination of variables to define this option. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`.  |
+|  **PDF File**  | Specify a file name to save the PDF. By default, the PDF file name adds the DITA map name along with the preset name. For example, ditamap is 'TestMap' and the name of the preset is 'preset1' then the default name of the pdf will be 'TestMap_preset1.pdf'. <br>You can also use the following out-of-box variables to define the PDF File. You can use a single or a combination of variables to define this option. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`.  |
 | **Apply Conditions Using** |   For conditionalized content, choose from the below options to generate a PDF output based on those conditions: <br><ul> <li> **None Applied** Select this option if you do not want to apply any condition on the map and source content. <br><li> **Ditaval File** Select a DITAVAL file to generate conditionalized content. To select, click against Condition Preset and locate the file. <br> <li> **Condition Preset** Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul>|
 |  **Use Baseline**  | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish. See [Work with Baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) for more details.  |
 |  **Create PDF with Change Bar between Published Versions**  | Use the following options to create a PDF showing the differences in content between two versions using change bars:   <br><ul><li> **Baseline of the Previous Version** Choose the baseline version which you want to compare with the current version or another baseline. A change bar appears in the PDF to indicate the modified content. A change bar is a vertical line that visually identifies new or revised content. The change bar appears on the left of the content that has been inserted, changed, or deleted. <br> **Note**: If you select **Use Baseline** and choose a baseline to publish, the comparison will be done between the two selected baseline versions. For example, if you choose baseline Version 1.3 under **Use Baseline**, and Version 1.1 under **Baseline of the Previous Version**, the comparison will be done between baseline Version 1.1 and baseline Version 1.3. <br><li> **Show Added Text** Select to show the inserted text in green color and underlined. This option is selected by default. <br> <li> **Show Deleted Text** Select to show the deleted text in red color and marked with a strikethrough. This option is selected by default. <br>**Note** You can also customize the styling of the change bar, inserted content, or deleted content using the stylesheet.<br></ul> |
@@ -77,19 +77,36 @@ Use to specify basic output settings, such as specify output path, PDF file name
 
 Metadata is the description or definition of your content. Metadata helps in content management and helps in searching files on the internet. 
 
-Use the Metadata tab to set the title, author, subject, and keywords for the PDF output. This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
+Use the Metadata tab to set the metadata fileds such as the author's name, document title, keywords, copyright information, and other data fields for the PDF output. You can also add custom metadata for your PDF output. 
+
+This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
 
 **Note**: This metadata overrides the metadata defined at the book level. 
 
 <img src="assets/pdf-metadata.png" alt="metadata tab" width=600>
 
+From the Output presets, **select PDF** > **Metadata** to add and customize metadata options. 
+* **Provide XMP file**
 
-| Setting | Description |
-|---|---|
-|**Title**|Specify a short and clear title to define the document.|
-|**Author**|Specify the names of the author(s) who created the document.  | 
-|**Subject**|Define the subject or collection with which the document is related.|
-|**Keywords**|Use relevant keywords to improve your search engine optimization (SEO) and help the users to find your related content.|
+   Metadata fields can be directly populated by importing [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) file. You can download a sample XMP file from here.
+   
+   [Download](assets/SampleXMP.xmp)
+
+   Alternatively, you can generate an XMP file using Adobe Acrobat.
+   1. Click **File** > **Properties** in Acrobat.
+   1. Under **Description**, click **Additional Metadata**.
+   1. From the left panel, select **Advanced**. 
+   1. Click on **Save**.
+
+   XMP file is saved on the device.
+
+* **Provide metadata names and values**
+
+   1. Add name by selecting from the drop-down or add a custom metadata by typing directly in the name field.
+   1. Enter the value for the metadata and click on '+' icon.
+The metadata is added to the list of metadata for the PDF. 
+
+
 
 **Layout**
 
@@ -98,8 +115,8 @@ Use to set page layouts and specify page view options for PDF output such as Pag
 | Setting  | Description|
 | --- | --- |
 |**PDF Template**|   PDF templates provide a clear structure for defining page layouts, content styling, and applying various settings to your PDF output. Select from the PDF template drop-down options to choose your preferred template.  |
-|  **Page Display**  | Use the Page Display for page view that shows how the PDF is displayed when it is opened. Select from the Page Display drop-down options to choose a preferred view. <br><ul><li> **Default**  Displays as per the default setting of the PDF viewer on a user’s machine.  <br> <li> **Single Page View** Displays one page at a time.   <br> <li> **Single Page Scrolling** Displays a single page in a continuous vertical column.  <br> <li> **Two Page View** Displays two-page spread side-by-side at a time. .<br> <li> **Two Page Scrolling** Displays two-page spread side-by-side with continuous scrolling. </ul> |  
-|  **Zoom**  | Select to resize the page view that shows how the PDF is displayed when it is opened.  <br><ul><li> **Default** Displays as per the default setting of the PDF viewer on a user’s machine    <br> <li> **100%** Makes the page appear in its actual size.     <br> <li> **Fit Page** Makes the page width and height to fit within the document pane.   .<br> <li> **Fit Page Width** Makes the width of the page fill the width of the document pane.  <br> <li> **Fit Page Height** Makes the height of the page fill the height of the document pane. </ul> | 
+|  **Page Display**  | Use the Page Display for page view that shows how the PDF is displayed when it is opened. Select from the Page Display drop-down options to choose a preferred view. <br><ul><li> **Default**  Displays as per the default setting of the PDF viewer on a user's machine.  <br> <li> **Single Page View** Displays one page at a time.   <br> <li> **Single Page Scrolling** Displays a single page in a continuous vertical column.  <br> <li> **Two Page View** Displays two-page spread side-by-side at a time. .<br> <li> **Two Page Scrolling** Displays two-page spread side-by-side with continuous scrolling. </ul> |  
+|  **Zoom**  | Select to resize the page view that shows how the PDF is displayed when it is opened.  <br><ul><li> **Default** Displays as per the default setting of the PDF viewer on a user's machine    <br> <li> **100%** Makes the page appear in its actual size.     <br> <li> **Fit Page** Makes the page width and height to fit within the document pane.   .<br> <li> **Fit Page Width** Makes the width of the page fill the width of the document pane.  <br> <li> **Fit Page Height** Makes the height of the page fill the height of the document pane. </ul> | 
 
 **Security**
 
@@ -118,7 +135,7 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 | --- | --- |
 |**Create accessible (tagged) PDF**|   Select this option to generate a PDF with tags. A tagged PDF makes it easier for screen readers to read and navigate content, hyperlinks, bookmarks, and so on. For example, if a table is tagged, the screen reader will know that it is reading the table and not just lines and text.  |
 |  **Merge PDFs included in the TOC** | Select this option to merge existing PDFs into your output by adding them to your DITA map as a resource file. The PDFs will be inserted at the location represented in the map and the pages will be incremented accordingly. |  
-|  **Embed used fonts** | Select this option when using fonts that may not be installed on end user’s machine. With this option selected, the used fonts get embedded in the PDF, ensuring the user can see the PDF as intended even if the fonts are not installed on their machine. <br> **Note**: A font can be embedded only if it contains a setting by the font vendor that permits it to be embedded. Ensure you have the required setting or license before embedding a font.  | 
+|  **Embed used fonts** | Select this option when using fonts that may not be installed on end user's machine. With this option selected, the used fonts get embedded in the PDF, ensuring the user can see the PDF as intended even if the fonts are not installed on their machine. <br> **Note**: A font can be embedded only if it contains a setting by the font vendor that permits it to be embedded. Ensure you have the required setting or license before embedding a font.  | 
 |  **Use automatic hyphenation** | With automatic hyphenation enabled, words at the end of lines are broken in grammatically correct places with a hyphen. |  
 |  **Enable JavaScript** | Enable this option if you have a JavaScript code that you want to use to transform your content dynamically before generating a PDF. |  
 |  **Embed multimedia files** | Select this option to include any audio, video, and any interactive content to the PDF. |  
@@ -136,14 +153,14 @@ Once you have configured the output preset you can generate output from the Pres
 1. Under the **Author** tab, select the **Repository** View.  
 This opens the Repository panel.  
 
-2. In the Repository panel, open the DITA map file in **Map View**.  
+1. In the Repository panel, open the DITA map file in **Map View**.  
 
-3. In the **Output** tab, click **Presets** to view the Preset panel. 
+1. In the **Output** tab, click **Presets** to view the Preset panel. 
 To create or configure an output preset, see [Create a PDF output preset](#create-output-preset). 
-4. To save your settings, click the **Save All** ![save all](assets/SaveFloppy_icon.svg) icon in the upper-left corner of the standard toolbar in the Output view.    
-5. Click the **Generate Preset** ![generate preset](assets/generate-output.svg) icon on the top bar.
+1. To save your settings, click the **Save All** ![save all](assets/SaveFloppy_icon.svg) icon in the upper-left corner of the standard toolbar in the Output view.    
+1. Click the **Generate Preset** ![generate preset](assets/generate-output.svg) icon on the top bar.
 You can view a progress bar next to the selected output preset in the Output Presets panel. 
-6. Once the output generation is complete, click  **View Output** ![view output](assets/view-output.svg) icon on the top bar to view the output.  
+1. Once the output generation is complete, click  **View Output** ![view output](assets/view-output.svg) icon on the top bar to view the output.  
 A **Success** dialog box is visible at the lower-right corner of the screen.
 If an output is not successful, the below error message is displayed.
 <img src="assets/error-log.png" alt ="error log" width =250>
