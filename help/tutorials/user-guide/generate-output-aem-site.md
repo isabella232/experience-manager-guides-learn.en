@@ -138,7 +138,7 @@ If you are using `conref` in your content, then it is published as normal or emb
 You can search for a string in the AEM Site output. By default, you can search for the string in the titles only. To search for the string in the content or the body of the AEM site output, contact your system administrator to enable the flattening.enabled property. 
  
 
-<img src="images/aem-output-search.png" alt="Search AEM Site output" width="500">
+<img src="images/aem-output-search.png" alt="Search AEM Site output" width="800">
 
 For more details see *Configure flattening of AEM Site node structure* section in the Install and configure Adobe Experience Manager Guides guide.
 
