@@ -9,6 +9,10 @@ The new publishing microservice enables users to run large publishing workloads 
 
 For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This provides users the capabilities to run multiple publishing request and get performance better than their large on-prem AEM servers.
 
+>[!NOTE]
+>
+> Presently the microservice-based publishing in AEM Guides only supports PDF output using Native PDF publishing or through DITA-OT. We will be adding microservice-based publishing support for more output types in the future releases.
+
 As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the new cloud based scalable publishing solution.
 
 
@@ -73,7 +77,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 1. In you cloud manager Git project code, add the below given two files (For file contents, see [Appendix](#appendix)).
 
     * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
-     * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
+    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 1. Ensure that the newly added files are getting covered by your `filter.xml`.
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes on the environment.
@@ -97,6 +101,8 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 **File**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Content**:
+* `dxml.use.publish.microservice`: Switch to enable microservice-based PDF publishing using DITA-OT
+* `dxml.use.publish.microservice.native.pdf`: Switch to enable microservice-based Native PDF publishing
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -104,5 +110,6 @@ Once this is done, you should be able to use the new microservice-based cloud pu
           jcr:primaryType="sling:OsgiConfig"
           dxml.publish.microservice.url="https://adobeioruntime.net/api/v1/web/543112-guidespublisher/default/publishercaller.json"
           dxml.use.publish.microservice="{Boolean}true"
+          dxml.use.publish.microservice.native.pdf="{Boolean}true"
 />
 ```
