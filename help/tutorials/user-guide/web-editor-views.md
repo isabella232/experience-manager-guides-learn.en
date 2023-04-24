@@ -21,18 +21,18 @@ The Source view displays the underlying XML that makes up the topic. If you are 
 
 -   To invoke the Smart Catalog, place the cursor at the end of any element tag where you want to insert the new element and enter "<". The editor shows a list of all valid XML elements that you can insert at that location. Use the arrow keys to select the element that you want to insert and press Enter. When you enter the closing bracket "\> the closing tag for the element is automatically added.
 
-    ![](images/smart-catalog-elements.png)
+    ![](images/smart-catalog-elements.png){width="400" align="left"}
 
 -   You can also change an element easily from the Source view. For example, if you change the opening tag of a `p` element to `note`, then the closing `p` tag is automatically changed to `/note`. In case you replace an element with an incorrect element, then you are immediately shown the Validation Error.
 
 -   If you want to add an attribute to an element, place the cursor inside the element tag and press the Space bar. A list of valid attributes for that element is sown in the Smart Catalog. Use the arrow keys to select the desired element and hit Enter to insert the element. To specify a value for the attribute, enter the equals sign \(=\) and the editor automatically enters the opening and closing quotes "" wherein you can specify the attribute's value.
 
-    ![](images/smart-catalog-attribute.png)
+    ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
 -   In the Source view, there is an Auto Indent option that reorganizes the XML code in presentable and easily readable format. Also, if you select any text and switch from Author to Source or from Source to Author view, the selected text is also highlighted in the other view.
 -   Another powerful feature in the Source view is the XML validation in your document. If you open a document containing invalid XML, it is opened in the Source view with the information about invalid XML. For example, in the following screenshot the exact information about the erroneous XML is given in the Parse Error pop-up.
 
-    ![](images/invalid-topic-xml.png)
+    ![](images/invalid-topic-xml.png){width="650" align="left"}
 
     In the above screenshot, a cross highlight is used to point the line containing erroneous XML.
 
@@ -92,13 +92,13 @@ If you have used conditions in your topic or map, those conditions are shown in 
 
 The following image shows a topic that uses two conditions — `Audience` and `Product`. The conditionalized content is highlighted with yellow background.
 
-![](images/preview-filters.png)
+![](images/preview-filters.png){width="800" align="left"}
 
 ### View the track changes markups {#id2114BJ00CE8}
 
 If a document contains track changes markups \(or visual cues\), then you can also preview the document with or without those markups. While previewing a document, the right panel contains the Filters and Tracking options.
 
-![](images/preview-tracking_cs.png)
+![](images/preview-tracking_cs.png){width="400" align="left"}
 
 There are three **Tracking** options that you can choose from:
 
@@ -108,7 +108,7 @@ There are three **Tracking** options that you can choose from:
 
     The following image shows the preview of a map file with markups:
 
-    ![](images/preview-map-with-track-changes.PNG)
+    ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
 
 
 ### Export a topic as PDF {#id2114BL00B5U}
@@ -130,7 +130,7 @@ To export a topic as PDF, follow these steps:
 
     The Export as PDF dialog is displayed.
 
-    ![](images/export-as-pdf-dialog.png)
+    ![](images/export-as-pdf-dialog.png){width="350" align="left"}
 
 1.  *\(Optional\)* Specify the DITA-OT transformation name and any command-line arguments that you want to use.
 
