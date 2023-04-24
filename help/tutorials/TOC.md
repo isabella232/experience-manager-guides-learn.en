@@ -79,7 +79,7 @@ breadcrumb-title: AEM Guides Tutorials
           + [Work with the Advanced Map Editor](./user-guide/map-editor-advanced-map-editor.md)
           + [Work with the Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
           + [Other features in the map editors](./user-guide/map-editor-other-features.md)
-        + DITAVAL Editor  
+        + DITAVAL Editor {#ditaval-editor}  
           + [Work with the DITAVAL editor](./user-guide/id17C5E0U0OQE.md)
       + Desktop tools for authoring content {#author-using-desktop-tools}
         + [Author content using desktop tools](./user-guide/author-desktop-tools.md)
