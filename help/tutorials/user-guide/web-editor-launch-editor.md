@@ -17,11 +17,11 @@ The following sections cover the details of how you can access and launch the We
 
 When you log into AEM, you are shown the Navigation page:
 
-![](images/web-editor-from-navigation-page_cs.png)
+![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
 
 Clicking on the **XML Editor** link takes you directly to the Web Editor.
 
-![](images/web-editor-launch-page.png)
+![](images/web-editor-launch-page.png){width="800" align="left"}
 
 As you have launched the Web Editor without selecting any file, a blank Web Editor screen is shown. You can open a file for editing from AEM repository or your Favorites collection.
 
@@ -37,7 +37,7 @@ Another location from where you can launch the Web Editor is from the AEM Assets
 
     .
 
-    ![](images/assets_ui_with_uuid_cs.png)
+    ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
     >[!IMPORTANT]
     >
@@ -59,15 +59,15 @@ Another location from where you can launch the Web Editor is from the AEM Assets
     >
     > If you want to open multiple topics for editing, select the desired topics from the Asset UI and click Edit. Ensure that your browser does not have pop-up blocker enabled, else only the first topic in the selected list is opened for editing.
 
-    ![](images/edit-from-preview_cs.png)
+    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
     If you do not want to preview a topic and want to open it directly in the Web Editor, then click the Edit icon in the quick action menu from the card view:
 
-    ![](images/edit-topic-from-quick-action_cs.png)
+    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
 1.  Click **Edit** to open the topic in the Web Editor.
 
-    ![](images/edit-mode.png)
+    ![](images/edit-mode.png){width="800" align="left"}
 
 
 ## DITA map console {#id2056BG090BF}
@@ -86,7 +86,7 @@ To open the Web Editor from DITA map console, follow these steps:
 
 1.  Click **Edit Topic**.
 
-    ![](images/edit-topics-map-console_cs.png)
+    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
 1.  The topic is opened in the Web Editor.
 

@@ -15,19 +15,19 @@ When you open a file in the Web Editor, you can perform various actions from the
 
 You get the following functions in the context menu of an opened media file's tab:
 
-![](images/media-file-context-menu.png)
+![](images/media-file-context-menu.png){width="300" align="left"}
 
 **Single DITA file**
 
 You get the following functions in the context menu of an opened file's tab:
 
-:   ![](images/single-file-context-menu.png)
+:   ![](images/single-file-context-menu.png){width="300" align="left"}
 
 **Multiple files**
 
 When you have multiple files opened, then you get more options in the context menu:
 
-![](images/multiple-files-context-menu.png)
+![](images/multiple-files-context-menu.png){width="550" align="left"}
 
 The various options in the context menu are explained below:
 
@@ -76,7 +76,7 @@ To see the AEM properties page of the selected file, select **Properties**.
 
 By default, the Web Editor allows you to view one topic at a time. There could be instances wherein you would like to see two or more topics at the same time. Splitting the editor's screen allows you to view multiple topics at the same time. For example, if you have two topics - A and B opened in the editor. Right-clicking on topic B and choosing **Split \> Up** divides the editor window into two parts. Topic B is displayed in the upper half and Topic A is displayed in the bottom half. Similarly, you can also split the screen horizontally by selecting **Split \> Left** or **Split \> Right**. The following screenshot of the Web Editor displays topics split horizontally and vertically. In each split, you can have a different view. For example in the following screenshot, the screen 1 is in Source view mode, screen 2 has two documents opened in Author mode, and screen 3 is in the Preview mode. You can move your documents from one screen to the other by dragging the file tab and dropping it on to the screen where you want to place it. Similarly, you can also reorder file tabs by dragging and moving them as per your preference.
 
-![](images/split-editor.png)
+![](images/split-editor.png){width="800" align="left"}
 
 ***Quick Generate***
 
@@ -107,7 +107,7 @@ You may see the following options depending on whether the file is locked/unlock
 
 -   **Unlock and Close**: The lock on the file is released, and the file gets closed.
 
-    ![](images/file-close-unlock-file.png)
+    ![](images/file-close-unlock-file.png){width="400" align="left"}
 
 -   **Save as a New Version**: This will save the changes you have made in your content and create a new version of your file. You can also add labels and comments for the newly saved version. For more information about saving a new version, see [Save As New Version](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -119,7 +119,7 @@ You may see the following options depending on whether the file is locked/unlock
 
 For example, one of the prompts is shown in the following screenshot:
 
-![](images/file-close-save-changes-unlock.png)
+![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
 **Visual cues for broken references** 
 
@@ -153,11 +153,11 @@ For example, one of the prompts is shown in the following screenshot:
 
 - AEM Guides gives you an out-of-the-box support for inserting MathML equations by integration with [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. To insert a MathML equation, click the **Insert Element** icon and type mathml. When you select mathml element from the list, the Insert MathML dialog is displayed:
 
-![](images/insert-mathml-equation.png)
+![](images/insert-mathml-equation.png){width="550" align="left"}
 
 Using the MathML equation tools, create your equation and click Insert to add it to your document. The equation is inserted with light gray background, as shown below:
 
-![](images/sample-mathml-equation.PNG)
+![](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 At any time you can update an equation by right-clicking on an existing equation and selecting **Edit MathML** from the context menu.
 
@@ -169,7 +169,7 @@ At any time you can update an equation by right-clicking on an existing equation
 
 - The Web Editor displays the element's breadcrumb at the top of the topic. If you want to swap or replace an element with another element, then you can do so from the breadcrumb's context menu. For example, you can swap `p` element with `note` or any other valid element at the context.
 
-![](images/rename-element.png)
+![](images/rename-element.png){width="400" align="left"}
 
 On the breadcrumb, right-click on an element's name that you want to replace, then select Rename Element from the context menu. The Rename Element dialog displays all valid elements that are allowed at the current location. From the Rename Element dialog, select the element that you want to use. The original element is replaced with the new element.
 
@@ -190,7 +190,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 - DITA elements that contain line break and spaces are supported and rendered as per their definition in the Author, Source, or Preview modes, and also in the final published output. The following screenshot shows the content within the `msgblock` element wherein the line breaks and spaces \(indentation\) have been preserved:
 
-![](images/new-line-support_cs.png)
+![](images/new-line-support_cs.png){width="500" align="left"}
 
 **Auto-generate element ID** 
 

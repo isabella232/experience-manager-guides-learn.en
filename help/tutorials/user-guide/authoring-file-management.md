@@ -43,7 +43,7 @@ This section explains how AEM Guides handles the basic file operations, such as 
 
 -   *Drag-and-drop at the same location*: You are given the options to **Overwrite Existing File\(s\)**, **Keep Both File\(s\)**, and an option to create a version of the existing working copy.
 
-    ![](images/uuid-human-readable-drag-drop-same-location.PNG)
+    ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
     If you choose the **Overwrite Existing File\(s\)** option, then the file that is being uploaded replaces the current working version of the existing file at the original location. The UUID is not created or changed.
 
@@ -69,7 +69,7 @@ This section explains how AEM Guides handles the basic file operations, such as 
 
 *Drag-and-drop file at the same location*: You are given the options to **Overwrite Existing File\(s\)** along with the option to create a version of the existing working copy.
 
-![](images/uuid-drag-drop-same-location.PNG)
+![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
 When the file is overwritten, there is no change in the file name or its UUID.
 
@@ -80,7 +80,7 @@ If you select the **Create Version for the Existing Working Copy** option, then 
 
 *Drag-and-drop file at different location*: You are given the options to **Overwrite Existing File\(s\)**, **Move File\(s\) to New Location**, and an option to create a version of the existing working copy.
 
-![](images/uuid-drag-drop-different-location.PNG)
+![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
 If you choose the **Overwrite Existing File\(s\)** option, then the file that is being uploaded replaces the existing file at the original location. The UUID is not created or changed.
 
@@ -122,7 +122,7 @@ To move files in bulk, perform the following steps:
 
     The Bulk Move Tool page is displayed.
 
-    ![](images/bulk-move-tool_cs.PNG)
+    ![](images/bulk-move-tool_cs.PNG){width="550" align="center"}
 
 1.  Provide the following details on the Bulk Move Tool page:
 
@@ -138,7 +138,7 @@ To move files in bulk, perform the following steps:
 
     The system starts moving files from the source to destination location. Once the process completes, a summary of the move process is shown at the bottom of the page.
 
-    ![](images/bulk-move-summary.PNG)
+    ![](images/bulk-move-summary.PNG){width="650" align="center"}
 
 
 ## Search DITA content 
@@ -161,17 +161,17 @@ Perform the following steps to search for DITA content within AEM repository:
 
 1.  In the left rail, select **Filters**.
 
-    ![](images/left-rail-filter.png)
+    ![](images/left-rail-filter.png){width="450" align="center"}
 
     The content filtering options are shown in the left rail. You will also find the filtering option—DITA Element, which is used to filter DITA content.
 
-    ![](images/dita-element-search.png)
+    ![](images/dita-element-search.png){width="450" align="center"}
 
 1.  *\(Optional\)* In the **Select Search Directory** field, browse for the location that you want to search in.
 
 1.  In the **DITA Element** filter, provide the **Element Name**, **Attribute**, and a value that you want to search for. For example, to search for documents that have `author` element that is of `@type` creator you need to provide the information as shown in the following screenshot:
 
-    ![](images/search-params.png)
+    ![](images/search-params.png){width="650" align="center"}
 
     The search criteria entered in the **DITA Element** filter is shown at the top of the search bar. The files matching the search criteria are shown in the **Search Results** area.
 
@@ -214,13 +214,13 @@ You could also delete files only if you belong to a specific user group that has
 
 If your administrator has given the file delete permission to all user, then the following message is displayed when you delete files containing references:
 
-![](images/allow_unsafe_delete-force-delete.PNG)
+![](images/allow_unsafe_delete-force-delete.PNG){width="650" align="center"}
 
 In this scenario, you can forcefully delete files without removing the incoming or outgoing references from the files.
 
 If the delete permissions are given to a specific user group, then also the above message will appear for users belonging to that group. However, for other users, the following message is displayed:
 
-![](images/allow_unsafe_delete_for_delete_assets_group.PNG)
+![](images/allow_unsafe_delete_for_delete_assets_group.PNG){width="650" align="center"}
 
 In this scenario, users won't be allowed to delete files until all incoming and outgoing references have been removed.
 
@@ -235,11 +235,11 @@ If your media file has undergone any changes, you can find and preview the files
 1.  In the left rail, click **Version History** and select a version.
 1.  You can also see the thumbnails of the different versions under Version History.
 
-    ![](images/media-version-history-icon.png)
+    ![](images/media-version-history-icon.png){width="800" align="center"}
 
 1.  From the listed versions, select the one that you want to use as the base version and click **Preview Version**. The preview of the selected version is shown in the Version Preview window.
 
-    ![](images/media-version-preview.png)
+    ![](images/media-version-preview.png){width="650" align="center"}
 
 
 **Parent topic:**[Manage content](authoring.md)

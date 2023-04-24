@@ -23,7 +23,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
     The Download Map dialog appears.
 
-    ![](images/download-map.png)
+    ![](images/download-map.png){width="300" align="left"}
 
 1.  Click **Download**. In the Download Map dialog, you can choose the following options:
 
@@ -35,7 +35,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
 1.  After you click the **Download** button, the map download request is queued. You will receive the following notification once the map is ready to download.
 
-    ![](images/download-map-prompt.png)
+    ![](images/download-map-prompt.png){width="550" align="left"}
 
     -   Click **Download** to download the map file in.zip format.
 
@@ -45,7 +45,7 @@ Perform the following steps to download a DITA map file along with its dependent
     >
     > By default, the downloaded maps remain for five days in the AEM notification Inbox.
 
-![](images/download-map-inbox.png)
+![](images/download-map-inbox.png){width="300" align="left"}
 
 Once the map is downloaded, you can select the map and use the Open icon on the top to open the selected report.
 

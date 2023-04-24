@@ -39,11 +39,11 @@ The Web Editor comes with a range of editing features that let you easily create
     **Working copy indicator**
     AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file.
 
-    <img src="./images/working-copy-text-update-indicator.png" width=400>
+    ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
     AEM Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
-    <img src="./images/version-update-indicator.png" width=400>
+    ![](images/version-update-indicator.png){width="550" align="left"}
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

@@ -33,7 +33,7 @@ For more details about using bulk upload feature in FrameMaker, see the section 
 
 In case of any failure to upload one or more files, a prompt is displayed at the end of the upload process with a list of files that failed to upload:
 
-![](images/uuid-files-failed-to-upload_cs.png)
+![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
 For more details about how the various file uploading scenarios, see [Upload DITA content](authoring-file-management.md#).
 

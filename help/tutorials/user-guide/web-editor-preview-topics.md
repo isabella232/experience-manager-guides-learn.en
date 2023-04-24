@@ -24,7 +24,7 @@ Perform the following steps to preview a topic:
 
 ## Features available in preview mode
 
-![](images/preview-screen.png)
+![](images/preview-screen.png){width="800" align="left"}
 
 You can perform the following operations from the toolbar in the preview mode:
 
@@ -42,7 +42,7 @@ The **Used In** references list the documents where the current file is being re
 
 The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
 
-![](images/used-in-dialog_cs.png)
+![](images/used-in-dialog_cs.png){width="800" align="left"}
 
 Clicking the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
 
@@ -54,7 +54,7 @@ If your topic has conditional content, then you will see the A/B icon on the too
 >
 > The conditional content is highlighted using light background color in the Web Editor.
 
-![](images/conditional-popup_cs.png)
+![](images/conditional-popup_cs.png){width="300" align="left"}
 
 **Edit** 
 
@@ -72,7 +72,7 @@ If your topic has conditional content, then you will see the A/B icon on the too
     >
     > To get the source code view of a DITA map file, select the file in Assets UI and click Source.
 
-    ![](images/xml-source-code-view-from-preview_cs.png)
+    ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
 **Share UUID Link** 
 
@@ -84,7 +84,7 @@ If your topic has conditional content, then you will see the A/B icon on the too
 
 A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
 
-![](images/share-uuid-link_cs.png)
+![](images/share-uuid-link_cs.png){width="800" align="left"}
 
 In the Asset UI, this option is visible when you select a file. While in the Preview mode, this option is available in the main toolbar by default. In a DITA map console, this option is visible in the Output Presets section.
 
@@ -104,15 +104,15 @@ When you check out a topic, the status of the file is shown as checked out in th
 
 Checked out file in the card view:
 
-![](images/checkout-card-62.png)
+![](images/checkout-card-62.png){width="300" align="left"}
 
 Checked out file in the list view:
 
-![](images/checkout-list-62.png)
+![](images/checkout-list-62.png){width="550" align="left"}
 
 If the Checked Out column is not visible, select **View Settings** under **List View** and select the **Checked Out** status in the **Configure Columns** dialog.
 
-![](images/list-view-settings-check-out_cs.png)
+![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
 >[!TIP]
 >
@@ -130,17 +130,17 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
     1.  In the left rail, click **Version History** and select a version.
 
-        ![](images/timeline-versions62_cs.png)
+        ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
     1.  From the listed versions, select the one that you want to use as the base version and click **Preview Version**. The preview of the selected version is shown in the Version Preview window.
 
     1.  From the **Show Diff** list, select the version with which you want to compare the base version.
 
-        ![](images/show-diff-list-cropped.png)
+        ![](images/show-diff-list-cropped.png){width="800" align="left"}
 
         The changed content is highlighted in the topic preview. Content highlighted in green signifies the newly added content and content in red is the deleted content.
 
-        ![](images/version-difference.png)
+        ![](images/version-difference.png){width="800" align="left"}
 
 
 ### Branch, revert, and subsequent versioning {#id193PG0Y051X}
@@ -153,7 +153,7 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
     The following illustration shows the typical branching and subsequent versioning system:
 
-    ![](images/branching_illustration.png)
+    ![](images/branching_illustration.png){width="550" align="center"}
 
     For any new topic, the first version is numbered as 1.0. Thereafter, every new version of the topic is saved with an incremental number such as 1.1, 1.2, and so on. Once you create a branch of a topic, a new branch is created taking the version number from where the branch is created and adding a .0 at the end of the version. As seen in the illustration, a new branch is created from version 1.1 of a topic. The new branch is versioned as 1.1.0. Thereafter, every time you save a new version of the topic in this branch, it gets an incremental version number such as 1.1.1, 1.1.2, and so on.
 
@@ -181,7 +181,7 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
     1.  Select a version from where you want to create a branch. In the following screenshot, version 1.2 is selected for creating a branch.
 
-        ![](images/branching.png)
+        ![](images/branching.png){width="300" align="left"}
 
         >[!NOTE]
         >
@@ -195,15 +195,15 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
         -   If you select this option, then a branch is created from version 1.1. And, a new version of the topic is also created from the current working copy of the topic and saved as the next version – 1.4.
 
-            ![](images/next_version_created_over_working_copy.png)
+            ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
 
             Version 1.2 becomes your current working copy of the topic. Any version saved after this is created under the new branch of 1.1. For example, the subsequent version of a new topic in this branch will be saved as 1.2.0.
 
-            ![](images/new_version_in_branch.png)
+            ![](images/new_version_in_branch.png){width="300" align="left"}
 
         -   If you do not select this option, then no new version from the current working copy of the topic is created. A new branch is created from version 1.2 of the topic. Any subsequent version of the topic is saved under the 1.2 branch as 1.2.0, 1.2.1, and so on.
 
-            ![](images/new_version_without_working_copy.png)
+            ![](images/new_version_without_working_copy.png){width="300" align="left"}
 
     1.  Click **OK**.
 
