@@ -178,6 +178,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
   + Publishing{#publishing}
     + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
+    + [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md) 
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Webeditor {#webeditor}
