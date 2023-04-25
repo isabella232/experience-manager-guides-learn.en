@@ -68,4 +68,4 @@ If you are publishing a large map on on-prem then you might have to tweek the Ja
 
 Since we need to gather dependencies to be sent to the serverless architecture for publishing, we run an AEM job on AEM instance for each publishing request.However, the new cloud architecture solely uses AEM jobs in place of AEM workflows as was the case in the old architecture. This change enables our users to individually tweek cloud publishing queue settings without impacting other AEM jobs or workflow configurations.
 
-Details on how to configure the new publish microservice can be found here: [Configure Microservice](/configure-microservices)
+Details on how to configure the new publish microservice can be found here: [Configure Microservice](configure-microservices)
