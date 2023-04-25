@@ -1,5 +1,5 @@
 ---
-title: Publishing microservice performance data
+title: Cloud Publishing Microservice Architecture
 description: Understand how the new microservice enables scalable publishing on AEMaaCS.
 ---
 
@@ -17,20 +17,22 @@ This resource constraint was the main motivation to come up with a dedicated ser
 
 ## Introduction to the new architecture
 
-We are levraging Adobe's cutting edge cloud solutions like App Builder, IO Eventing, IMS to create a serverless offering. These services are itself based on the widely accepted industry standards like Kubernetes, docker etc. 
+We are leveraging Adobe's cutting edge cloud solutions like App Builder, IO Eventing, IMS to create a serverless offering. These services are itself based on the widely accepted industry standards like Kubernetes, docker etc.
 
-Each request to the new publishing microservice is executed on an isolated docker container which runs only one publishing at a time. If users are running multiple publishing then our Adobe's serverless platfom will create multiple containers. This allows us to give the best performance available to our cusotmers without introducing any security risks for our customer's content. These containers will be discarded once the publishing is over thus freeing up any used resources.
+Each request to the new publishing microservice is executed in an isolated docker container which runs only one publishing request at a time. Multiple new containers will be automatically created in case new publishing requests are received. This allows us to give the best performance available to our cusotmers without introducing any security risks for our customer's content. These containers will be discarded once the publishing is over thus freeing up any used resources.
+
+All these communications are secured by the Adobe IMS using JWT based authentication and authorization and are executed over HTTPS.
 
 <img src="assets/architecture.png" alt="projects tab" width=500>
 
 >[!NOTE]
 >
-> We do need to process some part of the publishing request on the AEM server, like dependency list generation etc for which we run an AEM job on the AEM server for each publishing request. However the most exhaustive tasks like running DITA-OT or native engine process have been offloaded to the new App Builder based Serverless platform.
+> We do need to process some part of the publishing request on the AEM server, like dependency list generation etc for which we run an AEM job on the AEM server for each publishing request. However the most exhaustive parts of our publishing process like running DITA-OT or native engine have been offloaded to the new service.
 
 
 ## Running one publishing on cloud vs on-prem
 
-If you are publishing a large map on on-prem then you might have to tweek the Java heap parameters or else you can encounter out of memory errors. On cloud we have taken care of the heap configurations out of the box without you spending time in tweeking these memory parameters.
+If you are publishing a large map on on-prem then you might have to tweek the Java heap parameters or else you can encounter Out-of-memory errors. On cloud we have taken care of the Java heap and other configurations out of the box without you spending time in tweeking these parameters.
 
 ### Cloud
 
