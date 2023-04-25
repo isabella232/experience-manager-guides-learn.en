@@ -16,6 +16,7 @@ We are levraging the cutting edge Adobe cloud solutions like App Builder, IO Eve
 
 This allows us to give the best performance available to our cusotmers without introducing any security risks for our customer's content. If users are running multiple publishing then our Adobe's serverless platfom will create multiple containers. These containers will be discarded once the publishing is over.
 
+<img src="assets/architecture.png" alt="projects tab" width=500>
 
 ## Running one publishing on cloud vs on-prem
 If you are publihing a large map on on-prem then you might have to tweek the heap parameters or else you can encounter out of memory errors. On cloud we have taken care of the heap configurations without spending time in tweeking the memory parameters.
