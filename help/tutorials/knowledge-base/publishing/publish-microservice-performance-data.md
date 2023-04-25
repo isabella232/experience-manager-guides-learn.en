@@ -30,35 +30,39 @@ All these communications are secured by the Adobe IMS using JWT based authentica
 > We do need to process some part of the publishing request on the AEM server, like dependency list generation etc for which we run an AEM job on the AEM server for each publishing request. However the most exhaustive parts of our publishing process like running DITA-OT or native engine have been offloaded to the new service.
 
 
-## Running one publishing on cloud vs on-prem
+## Performance Analysis
+
+In this section we will try to showcase the performance numbers of the new service. Please note since the old cloud architecture was not capable of publishing large maps or to do multiple concurrent publishing hence we are comparing the performace numbers of our service with our on-prem offering.
 
 If you are publishing a large map on on-prem then you might have to tweek the Java heap parameters or else you can encounter Out-of-memory errors. On cloud we have taken care of the Java heap and other configurations out of the box without you spending time in tweeking these parameters.
 
-### Cloud
+### Running one publishing on cloud vs on-prem
 
-If you are executing a single publishing on cloud using the new service then publishing can take a little more time when compared to single cloud/on-prem publishing. This is due to the distributed nature of the new architecture.
+* Cloud
 
-<img src="assets/cloud_single_publish.png" alt="projects tab" width=600>
+    If you are executing a single publishing on cloud using the new service then publishing can take a little more time when compared to single on-prem publishing. This is due to the distributed nature of the new architecture.
 
-### On-prem
+    <img src="assets/cloud_single_publish.png" alt="projects tab" width=600>
 
-Results of single publishing will be better on old cloud architecture or on on-prem as the complete publishing is happening on the same pod/machine where AEM is running.
+* On-prem
 
-<img src="assets/onprem_single_publish.png" alt="projects tab" width=600>
+    Results of single publishing will be better on old cloud architecture or on on-prem as the complete publishing is happening on the same pod/machine where AEM is running.
 
-## Running multiple publishing on cloud vs on-prem
+    <img src="assets/onprem_single_publish.png" alt="projects tab" width=600>
 
-### Cloud
+### Running multiple publishing on cloud vs on-prem
 
-This is the area where the new publishing microservice shines. As you can see from the below image, with the increase in the multiple concurrent publishing jobs, cloud is able to publish them without any significant performance degradation.
+* Cloud
 
-<img src="assets/cloud_bulk_publish.png" alt="projects tab" width=600>
+    This is the area where the new publishing microservice shines. As you can see from the below image, with the increase in the multiple concurrent publishing jobs, cloud is able to publish them without any significant increase in publishing time.
 
-### On-prem
+    <img src="assets/cloud_bulk_publish.png" alt="projects tab" width=600>
 
-Running concurrent publishing on on-prem results in severe performance degradation. This performance drop on on-prem will be even more severe if we try to publish more than 4 large maps simultaneously. If you are using the old cloud architecture then you will encounter pod restarts if you will try to publish many maps concurrently.
+* On-prem
 
-<img src="assets/onprem_bulk_publish.png" alt="projects tab" width=600>
+    Running concurrent publishing on on-prem results in severe performance degradation. This performance drop on will be more severe if we try to publish more than 4 large maps simultaneously.
+
+    <img src="assets/onprem_bulk_publish.png" alt="projects tab" width=600>
 
 ## Additional Benefits
 
