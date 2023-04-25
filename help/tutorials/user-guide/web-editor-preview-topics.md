@@ -1,8 +1,8 @@
 ---
 title: Preview a topic
 description: Learn how to Preview a topic
+exl-id: fb8eb87b-2a98-4540-9329-08a759145497
 ---
-
 # Preview a topic {#id1696II000QR}
 
 Once a topic is created, AEM Guides generates a preview of the topic. The Preview mode provides various features that you can use to work with your document.
@@ -211,4 +211,3 @@ If the Checked Out column is not visible, select **View Settings** under **List 
     A new branch is created from the selected version of the topic. The above process is also applicable for reverting to a specific version of a topic. Reverting to a specific version technically means that you create a new branch from the selected version and make that version the current working copy of the topic. You can also view the history of files that have been reverted in the Version Revert History report. For more details about this report, see [Reverted files version history report](reports-reverted-file-version-history.md#).
 
 **Parent topic:**[Create and preview topics](create-preview-topics.md)
-

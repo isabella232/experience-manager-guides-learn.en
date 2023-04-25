@@ -1,8 +1,8 @@
 ---
 title: Use variables for setting the Destination Path, Site Name, or File Name options
 description: Learn how to Use variables for setting the Destination Path, Site Name, or File Name options
+exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
 ---
-
 # Use variables for setting the Destination Path, Site Name, or File Name options
 
 
@@ -21,4 +21,3 @@ The following table lists the variables that are supported out of the box:
 
 In addition, you can also use the metadata defined for the DITA map or bookmap file as variables. The metadata can be found under the `/jcr:content/metadata` node of the DITA map or bookmap file. For example, one of the metadata properties define in the `/jcr:content/metadata` node is `dc:title`. You can specify `${dc:title}` and the title value is used in the final output.
 **Parent topic:**[Output generation](generate-output.md)
-

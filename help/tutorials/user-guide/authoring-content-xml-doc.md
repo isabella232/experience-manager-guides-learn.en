@@ -1,8 +1,8 @@
 ---
 title: Author content using AEM Guides
 description: Learn how to Author content using AEM Guides
+exl-id: 6a6354ce-29cc-4bd7-8235-579fe3647682
 ---
-
 # Author content using AEM Guides {#id221EB0P0E20}
 
 AEM Guides comes with the three out-of-the-box editors. you can use them to create, edit, and publish your documents.
@@ -19,4 +19,3 @@ AEM Guides comes with the three out-of-the-box editors. you can use them to crea
 
 
 **Parent topic:**[Author content](authoring-content.md)
-

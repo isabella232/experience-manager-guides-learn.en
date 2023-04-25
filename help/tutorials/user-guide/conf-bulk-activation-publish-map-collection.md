@@ -1,8 +1,8 @@
 ---
 title: Activate output
 description: Learn how to Activate output
+exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
 ---
-
 # Activate output {#id214GGF00V5U}
 
 Once you have created a map collection for bulk activation, the next step is to activate your content on the publishing instance. To activate your content, perform the following steps:
@@ -30,4 +30,3 @@ Once you have created a map collection for bulk activation, the next step is to 
 Once the output is activated for the selected map files, the Published column is updated with the current date and time.
 
 **Parent topic:**[Bulk Activation of published content](conf-bulk-activation.md)
-

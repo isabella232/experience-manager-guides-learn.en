@@ -1,8 +1,8 @@
 ---
 title: EPUB
 description: Learn how to EPUB
+exl-id: 5c9d4b78-94bd-46b7-891e-33d7df596ca3
 ---
-
 # EPUB {#id205BB0V0PQZ}
 
 The following options are available for the EPUB output:
@@ -20,4 +20,3 @@ The following options are available for the EPUB output:
 |Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.|
 
 **Parent topic:**[Generate output of FrameMaker documents](fm-output-generatation.md)
-

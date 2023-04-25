@@ -1,8 +1,8 @@
 ---
 title: Create output presets from the Web Editor
 description: Learn how to Create output presets from the Web Editor
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
 ---
-
 # Create output presets from the Web Editor {#id218CL400JW3}
 
 Perform the following steps to create output presets for your DITA map:
@@ -53,4 +53,3 @@ Perform the following steps to create output presets for your DITA map:
 ![](images/edit-preset_cs.png)
 
 **Parent topic:**[Article-based publishing from the Web Editor](web-editor-article-publishing.md)
-

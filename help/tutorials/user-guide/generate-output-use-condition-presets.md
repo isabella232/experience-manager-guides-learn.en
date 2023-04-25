@@ -1,8 +1,8 @@
 ---
 title: Use condition presets
 description: Learn how to Use condition presets
+exl-id: cd8f8196-ba03-4a4b-9ce8-2651de4e5cc2
 ---
-
 # Use condition presets {#id1825FL004PN}
 
 You can define attributes in your DITA topics and the use the condition preset to specify what happens with the attribute in the final output. For example, you can add attributes as version 1.0 and version 2.0 in your content, and use a condition preset to include version 1.0 for release 1.0 and exclude version 2.0. Similarly, you can add attributes as OS Windows and OS Linux to your content, and then include or exclude the relevant content for your final output according to the operating system.
@@ -67,4 +67,3 @@ You can delete one or more condition presets from the **Condition Preset** tab o
 1.  Click **Remove** to confirm the action.
 
 **Parent topic:**[Output generation](generate-output.md)
-

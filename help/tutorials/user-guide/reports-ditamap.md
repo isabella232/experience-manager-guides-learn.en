@@ -1,8 +1,8 @@
 ---
 title: DITA map report from the map dashboard
 description: Learn how to DITA map report from the map dashboard
+exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
 ---
-
 # DITA map report from the map dashboard {#id205BB800EEN}
 
 AEM Guides provides your administrators the reporting capabilities to check the overall integrity of the documentation before it is pushed live or made available to end users. DITA map report from the map dashboard in AEM Guides provides valuable information such as the missing topics, topics with missing elements, UUID of referenced topics and media files,and review status of each topic. A detailed individual topic-level report also provides DITA content-related information such as content references and missing images or cross-references.
@@ -88,4 +88,3 @@ Perform the following steps to generate the CSV of a DITA map report:
 Once the report is downloaded in the Inbox you can also select the report and use the Open icon on the top to open the selected report.
 
 **Parent topic:**[Reports](reports-intro.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Content Reuse Report
 description: Learn how to Content Reuse Report
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
 ---
-
 # Content Reuse Report {#id205BB900OQD}
 
 Another useful report that you can generate is the Content Reuse Report. This report calculates the average content usage percentage, which is very useful for project managers and business owners to see the amount of content that is being reused.
@@ -55,4 +55,3 @@ Perform the following steps to view the Content Reuse Report:
 > You can also export the Content Reuse Report in CSV format. To do so, click the Export to CSV link at the top-left corner of the screen and choose a location to save the CSV file. You can then open this CSV file in any CSV editor.
 
 **Parent topic:**[Reports](reports-intro.md)
-

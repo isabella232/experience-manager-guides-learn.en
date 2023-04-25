@@ -1,8 +1,8 @@
 ---
 title: Manage publish tasks using the Publish Dashboard
 description: Learn how to Manage publish tasks using the Publish Dashboard
+exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
 ---
-
 # Manage publish tasks using the Publish Dashboard {#id205CC08305Z}
 
 When you have a large set of publishing tasks running on your system, it becomes practically impossible to check each DITA map individually to monitor its publishing task. AEM Guides gives the administrators and publishers one unified view of all publishing tasks running in the system. A list of all active publishing tasks is available in the Publish Dashboard.
@@ -80,4 +80,3 @@ Perform the following steps to cancel an output generation task from the Publish
 
 
 **Parent topic:**[Output generation](generate-output.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Keyboard shortcuts in the Web Editor
 description: Learn how to Keyboard shortcuts in the Web Editor
+exl-id: e8be4c83-a236-43c1-b778-c3da92537174
 ---
-
 # Keyboard shortcuts in the Web Editor {#id2056B0A0WHT}
 
 There are many operations in the Web Editor that you can perform using the keyboard shortcuts. The following table lists these keyboard shortcuts:
@@ -31,4 +31,3 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Redo last action|***Ctrl***+**Y**|
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

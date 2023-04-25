@@ -1,8 +1,8 @@
 ---
 title: Custom
 description: Learn how to use Custom output preset
+exl-id: 72e59379-b092-49a2-8cd6-a929fe880750
 ---
-
 # Custom {#id205BEF00PX0}
 
 The Custom output presets are available for custom DITA-OT plug-ins. You can create a custom DITA-OT output preset to publish output using your custom DITA-OT plug-in.
@@ -57,4 +57,3 @@ The following options are available for the Custom output preset:
 | Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties that you select from the drop-down list are listed below the Properties field and are removed from the drop-down list. Once set, these properties are also copied into the topics within the map.<br><br>**Note**: You can also pass on the metadata to the output using DITA-OT publishing. For more details see, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)
-

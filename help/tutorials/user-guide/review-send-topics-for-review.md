@@ -1,8 +1,8 @@
 ---
 title: Send topics for review
 description: Learn how to Send topics for review
+exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
 ---
-
 # Send topics for review {#id199RD0S035Z}
 
 The review workflow creates a multi-reviewer environment wherein the initiator specifies a list of topics for review, add multiple reviewers, and assigns a timeline for the review task. AEM Guides allows users belonging to the Authors and Publishers groups to initiate a review.
@@ -258,4 +258,3 @@ To send one or multiple topics along with the map file for review, perform the f
 An email is sent to all the reviewers, notifying that they have been assigned topics for review. The email contains a direct link that they can click and access the topic in a browser window. The topics along with the DITA map are opened in the review mode.
 
 **Parent topic:**[Review topics or maps](review.md)
-

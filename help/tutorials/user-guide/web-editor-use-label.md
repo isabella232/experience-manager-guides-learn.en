@@ -1,8 +1,8 @@
 ---
 title: Use labels
 description: Learn how to Use labels
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
 ---
-
 # Use labels {#id164JBG0M0T1}
 
 AEM Guides allows you to add labels to different versions of a file. You can use these labels to specify the version that you want to include in a baseline for publishing. For more information about using labels to create a baseline, see [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
@@ -51,4 +51,3 @@ Perform the following steps to delete a label:
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

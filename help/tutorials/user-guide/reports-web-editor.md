@@ -1,8 +1,8 @@
 ---
 title: DITA map report from the Web Editor
 description: Learn how to DITA map report from the Web Editor
+exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
 ---
-
 # DITA map report from the Web Editor {#id231HF0Z0NXA}
 
 AEM Guides comes with a feature in the Web Editor that enables you to check the overall integrity of your references and generate reports for them.
@@ -138,4 +138,3 @@ speed, or view picture in picture.
 1.  Click **Download CSV** to download the current snapshot of the multimedia in the DITA map. The CSV contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia CSV file in any CSV editor.
 
 **Parent topic:**[Reports](reports-intro.md)
-

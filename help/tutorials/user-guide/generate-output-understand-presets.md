@@ -1,8 +1,8 @@
 ---
 title: Understanding the output presets
 description: Learn how to Understanding the output presets
+exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
 ---
-
 # Understanding the output presets {#understanding_output_settings}
 
 AEM Guides supports creating output in the most popular formats like AEM Site, PDF, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF, and FMPS. Using these output formats, you can configure various output presets. An output preset represents a customized output format in which you would like the content to be published.
@@ -30,4 +30,3 @@ The following sections explain the options available for the supported output fo
 
 
 **Parent topic:**[Output generation](generate-output.md)
-

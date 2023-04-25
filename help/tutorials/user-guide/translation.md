@@ -1,8 +1,8 @@
 ---
 title: Learn how to translate content
 description: Learn how to Translate content
+exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
 ---
-
 # Translate content {#id1645H700L67}
 
 AEM Guides comes with powerful capabilities that enable you to translate your content into multiple languages. Both, human and machine translation workflows are supported by AEM Guides.
@@ -20,6 +20,4 @@ AEM Guides comes with powerful capabilities that enable you to translate your co
 
 -   **[View translation status](translation-view-trans-state-6234.md)**  
 
--   **[Translate modified topics](translation-modified-topics-6234.md)**  
-
-
+-   **[Translate modified topics](translation-modified-topics-6234.md)**

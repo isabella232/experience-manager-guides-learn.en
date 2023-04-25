@@ -1,8 +1,8 @@
 ---
 title: Generate output for a DITA map from the map console
 description: Learn how to Generate output for a DITA map from the map console
+exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
 ---
-
 # Generate output for a DITA map from the map console {#id1825FG00UHT}
 
 Perform the following steps to generate output for a DITA map:
@@ -161,4 +161,3 @@ Perform the following steps to remove an output task from the Generated Output l
 
 
 **Parent topic:**[Output generation](generate-output.md)
-

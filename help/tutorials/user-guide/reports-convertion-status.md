@@ -1,8 +1,8 @@
 ---
 title: Conversion Status Report
 description: Learn how to Conversion Status Report
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
 ---
-
 # Conversion Status Report {#id205BBA00WZZ}
 
 AEM Guides provides a robust conversion feature to convert documents of various formats into DITA. The Conversion Status Report provides a consolidated view of all conversion tasks executed by AEM Guides.
@@ -49,4 +49,3 @@ Perform the following steps to view the Conversion Status Report:
 
 
 **Parent topic:**[Reports](reports-intro.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Reverted files version history report
 description: Learn how to Reverted files version history report
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
 ---
-
 # Reverted files version history report {#id205BBC00PRK}
 
 When you are working on multiple simultaneous releases along with multiple authors, your content is bound to have multiple versions. There could be some common information across multiple releases, which different authors could use in their project. To handle such work assignments, authors could end up with multiple versions of files. Such versions could simply be a newer version of a file or a revert to an earlier version. It is a complex task to identify when a file was reverted and why.
@@ -50,4 +50,3 @@ Perform the following steps to access the Revert History report:
 
 
 **Parent topic:**[Reports](reports-intro.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Delete a bulk activation map collection
 description: Learn how to Delete a bulk activation map collection
+exl-id: f857d60b-bde2-4d71-9243-f71d7ee2f0e9
 ---
-
 # Delete a bulk activation map collection {#id214GI40B0XA}
 
 You can delete a bulk activation map collection when it is no longer needed. To delete a bulk activation map collection, perform the following steps:
@@ -25,4 +25,3 @@ You can delete a bulk activation map collection when it is no longer needed. To 
 
 
 **Parent topic:**[Bulk Activation of published content](conf-bulk-activation.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Reassign review task using notification
 description: Learn how to Reassign review task using notification
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
 ---
-
 # Reassign review task using notification {#id21BNH03M0KS}
 
 You can reassign a review task assigned to you, to another user who has been added to the same review project. The review task reassignment can be easily done from the review notification that is delivered in your inbox. However, as a reviewer, you can re-assign a review task only to individual users and not to user groups using notification.
@@ -31,4 +31,3 @@ Once the review task is reassigned, the Assignee column displays the name of the
 The assigned reviewer receives a notification in the Inbox for the re-assigned review task.
 
 **Parent topic:**[Review topics or maps](review.md)
-

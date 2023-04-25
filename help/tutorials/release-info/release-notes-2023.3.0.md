@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, March 2023 release
 description: March release of Adobe Experience Manager Guides as a Cloud Service
-
+exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
 ---
 # March release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -75,4 +75,3 @@ Adobe has identified the following known issue for AEM Guides as a Cloud Service
 * Users are not able to save or create version of a duplicated asset.
 
 **Workaround**: Before making any changes to the duplicate asset reprocess it from the Assets UI.
-

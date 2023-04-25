@@ -1,8 +1,8 @@
 ---
 title: Generate PDF
 description: Learn how to generate PDF output
+exl-id: 799b7875-0de2-40c6-9e7f-7edc79b98a4b
 ---
-
 # PDF {#id205BE600HAH}
 
 You can create the PDF preset in two ways:
@@ -60,4 +60,3 @@ The following options are available for the PDF Output:
 | Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties that you select from the drop-down list are listed below the **Properties** field and are removed from the drop-down list. Once set, these properties are also copied into the topics within the map.<br><br>Note: You can also pass on the metadata to the output using DITA-OT publishing. For more details see, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)
-

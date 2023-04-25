@@ -1,8 +1,8 @@
 ---
 title: JSON
 description: Learn how to use JSON
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
 ---
-
 # JSON {#id231KK0180T4}
 
 You can create the JSON preset from the Web Editor:
@@ -42,4 +42,3 @@ The following options are available for the JSON preset:
 | Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.<br><br>**Note**: For more information about creating a custom post-output generation workflow, see _Customize post-output generation workflow_ in the Install and configure Adobe Experience Manager Guides as a Cloud Service guide. |
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)
-

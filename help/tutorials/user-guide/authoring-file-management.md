@@ -1,8 +1,8 @@
 ---
 title: Manage files and folders
 description: Learn how to Manage files and folders
+exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
 ---
-
 # Manage files and folders {#id2116G0L08XA}
 
 This section explains how AEM Guides handles the basic file operations, such as copy, paste, drag-and-drop, and delete files. The following scenarios are possible:
@@ -243,4 +243,3 @@ If your media file has undergone any changes, you can find and preview the files
 
 
 **Parent topic:**[Manage content](authoring.md)
-

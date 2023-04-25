@@ -1,8 +1,8 @@
 ---
 title: Launch the Web Editor
 description: Learn how to Launch the Web Editor
+exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
 ---
-
 # Launch the Web Editor {#id2056B0140HS}
 
 You can launch the Web Editor from the following locations:
@@ -96,4 +96,3 @@ To open the Web Editor from DITA map console, follow these steps:
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

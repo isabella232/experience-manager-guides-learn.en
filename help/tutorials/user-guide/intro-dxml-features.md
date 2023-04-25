@@ -1,8 +1,8 @@
 ---
 title: Key AEM Guides features
 description: Learn how to Key AEM Guides features
+exl-id: f456741a-b504-4686-8230-64fac0ad8939
 ---
-
 # Key AEM Guides features {#id167G9I060SI}
 
 **Powerful DITA authoring and content management**
@@ -68,4 +68,3 @@ Following is a list of other helpful resources of AEM Guides, which are availabl
 * [Help* Archival Page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (access older release documentation)
 
 **Parent topic:**[About Adobe Experience Manager Guides as a Cloud Service](intro.md)
-

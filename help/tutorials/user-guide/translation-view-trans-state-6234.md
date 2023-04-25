@@ -1,8 +1,8 @@
 ---
 title: View translation status
 description: Learn how to View translation status
+exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
 ---
-
 # View translation status {#id169SEK00KOW}
 
 You can view the translation status and the translated language copies for each topic in a DITA map.
@@ -26,4 +26,3 @@ The Translation tab has following sections:
 -   **Details**: Shows the topic title, type of topic, language code of the topic, source language, version of the source topic, label added to the topic, and translation status.
 
 **Parent topic:**[Translate content](translation.md)
-

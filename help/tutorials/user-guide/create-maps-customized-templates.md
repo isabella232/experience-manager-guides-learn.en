@@ -1,8 +1,8 @@
 ---
 title: Create maps based on customized templates
 description: Learn how to Create maps based on customized templates
+exl-id: 02513148-3876-4549-962a-9984f619030f
 ---
-
 # Create maps based on customized templates {#id225VF0808MP}
 
 You can create customized map templates and use them to create DITA maps along with the topic templates and map templates referenced in the map template
@@ -138,4 +138,3 @@ The map generates all assets which are referred to inside the template folder. S
 -   If another map or topic is created at the same level in the folder, then the names of the newly created assets are appended with 0,1,2, and so on. You can choose to open the map for editing or save the map file in the repository.
 
 **Parent topic:**[Work with the Map Editor](map-editor.md)
-

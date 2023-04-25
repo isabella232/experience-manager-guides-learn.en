@@ -1,8 +1,8 @@
 ---
 title: Bulk tagging of DITA content
 description: Learn how to Bulk tagging of DITA content
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
 ---
-
 # Bulk tagging of DITA content {#id179SG0TN05Z}
 
 Tags allow you to group or classify content within your content repository and also in the published output. If you have applied tags on your content, you can easily find related topics within a DITA map that can help you to authoring content. With the published output, end users will be able to locate the right content faster with proper tags in place.
@@ -100,4 +100,3 @@ Perform the following steps to remove all tags from one or more topics:
 If you have a long list of tags applied on your topics, then you might find it a bit cumbersome to navigate. You can easily hide tags in from your DITA map console view by clicking on the Hide Tags icon. Similarly, when the tags are not visible, clicking on the Show Tags reveals all tags.
 
 **Parent topic:**[Manage metadata](manage-metadata.md)
-

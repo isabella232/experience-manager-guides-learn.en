@@ -1,8 +1,8 @@
 ---
 title: DITAVAL editor
 description: Learn how to DITAVAL editor
+exl-id: 33bcb3f6-2960-4d96-b75f-24baedba4540
 ---
-
 # DITAVAL editor {#id17C5E0U0OQE}
 
 DITAVAL files are used to generate conditional output. In a single topic, you can add conditions using element attributes to conditionalize content. Then, you create a DITAVAL file wherein you specify the conditions that should be picked up to generate content, and which condition should be left out from the final output.
@@ -90,4 +90,3 @@ To invoke the Smart Catalog, place the cursor at the end of any property definit
 ![](images/ditaval-source-view.png)
 
 **Parent topic:**[Author content using AEM Guides](authoring-content-xml-doc.md)
-

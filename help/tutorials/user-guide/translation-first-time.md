@@ -1,8 +1,8 @@
 ---
 title: Best practices for content translation
 description: Learn how to Best practices for content translation
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
 ---
-
 # Best practices for content translation {#id1678G0S702F}
 
 Consider the following point for translating content:
@@ -123,4 +123,3 @@ After the translation completes, the status of the translation job changes to *R
 > If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them.
 
 **Parent topic:**[Translate content](translation.md)
-

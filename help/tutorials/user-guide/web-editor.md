@@ -1,8 +1,8 @@
 ---
 title: Work with the Web Editor
 description: Learn how to Work with the Web Editor
+exl-id: 77d5daa7-4c19-448f-b10e-b52a055467ae
 ---
-
 # Work with the Web Editor {#id181OD0QE05Z}
 
 AEM Guides comes with an easy-to-use web-based Web Editor for creating and editing structured documents. The editor hides all the complexities of the DITA structure from the writer. The editor provides a list of DITA elements that a user would usually need to work within a document.
@@ -39,4 +39,3 @@ Also, the Web Editor is DITA-aware and it supports DITA 1.3, 1.2 standards, ligh
 
 
 **Parent topic:**[Author content using AEM Guides](authoring-content-xml-doc.md)
-

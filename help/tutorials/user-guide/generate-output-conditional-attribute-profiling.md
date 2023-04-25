@@ -1,8 +1,8 @@
 ---
 title: Conditional attribute profiling
 description: Learn how to Conditional attribute profiling
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
 ---
-
 # Conditional attribute profiling {#id1843I0HN0Y4}
 
 At an enterprise level, it is extremely important to ensure that you have a standard tagging system in place. Tags or conditional attributes can be associated with digital assets in the repository, which helps in publishing output based on the chosen conditions. For example, you can create conditional attribute for Windows and Mac content. Then, you add these attributes to the relevant content in your topics. At the time of publishing content, you can choose whether you want to publish Windows or Mac only content.
@@ -51,4 +51,3 @@ The `platform` attribute is stored in the system. Whenever an author decides to 
 ![](images/properties-tab.png)
 
 **Parent topic:**[Output generation](generate-output.md)
-

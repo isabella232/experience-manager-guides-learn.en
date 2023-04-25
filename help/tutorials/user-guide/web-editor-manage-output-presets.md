@@ -1,8 +1,8 @@
 ---
 title: Manage Global and Folder Profile output presets
 description: Learn how to Manage Global and Folder Profile output presets
+exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
 ---
-
 # Manage Global and Folder Profile output presets {#id22BLJ0D0V1U}
 
 The Global and Folder Profile presets are only available to folder-level administrative users.
@@ -46,4 +46,3 @@ You can also perform the following operations on the preset from the Options men
 > When an output preset in Global and Folder Profiles is deleted, it will reflect in all related maps and will not appear under the **Output** tab.
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

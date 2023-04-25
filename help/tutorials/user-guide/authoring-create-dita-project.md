@@ -1,8 +1,8 @@
 ---
 title: Create a DITA project
 description: Learn how to Create a DITA project
+exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
 ---
-
 # Create a DITA project {#id1645HA00NM6}
 
 AEM Guides provides a DITA project template that you can use to create and manage your review tasks.
@@ -69,4 +69,3 @@ Perform the following steps to create a DITA project:
 
 
 **Parent topic:**[Review topics or maps](review.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Pass on the metadata to the output using DITA-OT
 description: Learn how to Pass on the metadata to the output using DITA-OT
+exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
 ---
-
 # Pass on the metadata to the output using DITA-OT {#id21BJ00QD0XA}
 
 Metadata is additional information about the output. In AEM Guides you can pass on the existing metadata or create custom metadata tags. You can pass on metadata to AEM, PDF, HTML5, EPUB, and Custom format outputs using DITA-OT publishing.
@@ -37,4 +37,3 @@ Perform the following steps to pass on the metadata to the output using DITA-OT 
 The selected metadata properties will be passed to the output generated using DITA-OT.
 
 **Parent topic:**[Output generation](generate-output.md)
-

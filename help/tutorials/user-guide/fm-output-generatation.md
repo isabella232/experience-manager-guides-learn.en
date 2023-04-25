@@ -1,8 +1,8 @@
 ---
 title: Generate output of FrameMaker documents
 description: Learn how to Generate output of FrameMaker documents
+exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
 ---
-
 # Generate output of FrameMaker documents {#id1645H8040HD}
 
 Starting with AEM Guides 1.1, you can also publish FrameMaker documents \(`.book` and `.fm`\) available in your AEM repository. If a book file contains a combination of DITA and FrameMaker documents, AEM Guides allows you to publish such documents as well. FrameMaker documents can be published into the following formats:
@@ -36,6 +36,4 @@ Information in the following sections is for publishers who will use the output 
 
 -   **[Generate output of .book or .fm files](fm-output-generate.md)**  
 
--   **[View the status of the output generation task](fm-output-view-status.md)**  
-
-
+-   **[View the status of the output generation task](fm-output-view-status.md)**

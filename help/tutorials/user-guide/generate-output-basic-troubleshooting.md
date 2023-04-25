@@ -1,8 +1,8 @@
 ---
 title: Basic troubleshooting
 description: Learn how to Basic troubleshooting
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
 ---
-
 # Basic troubleshooting {#id1821I0Y0G0A}
 
 While working with AEM Guides, you could encounter errors while publishing or opening your document. Such errors could be in the DITA map, topic, or in AEM Guides process itself. This section provides information about how to access and parse information in the output generation log file. Also, if your DITA topic is too large, then you might see the JSP compilation error. This section also provides information about how to resolve the JSP compilation error.
@@ -84,4 +84,3 @@ Perform the following steps to resolve this issue:
 
 
 **Parent topic:**[Output generation](generate-output.md)
-
