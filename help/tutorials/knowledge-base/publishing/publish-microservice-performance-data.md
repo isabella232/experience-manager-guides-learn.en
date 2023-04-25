@@ -25,7 +25,7 @@ Each request to the new publishing microservice is executed on an isolated docke
 
 >[!NOTE]
 >
-> We do need to process some part of the request on the AEM server itself like dependency list generation etc for which we do run some AEM jobs on the AEM server itself. However the most exhaustive tasks like running DITA-OT process have been offloaded to the new App Builder based Serverless containers.
+> We do need to process some part of the publishing request on the AEM server, like dependency list generation etc for which we run an AEM job on the AEM server for each publishing request. However the most exhaustive tasks like running DITA-OT or native engine process have been offloaded to the new App Builder based Serverless platform.
 
 
 ## Running one publishing on cloud vs on-prem
