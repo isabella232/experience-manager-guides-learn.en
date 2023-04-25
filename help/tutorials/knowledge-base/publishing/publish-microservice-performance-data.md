@@ -27,12 +27,12 @@ All these communications are secured by the Adobe IMS using JWT-based authentica
 
 >[!NOTE]
 >
-> Publishing process have to process some part of the request on the AEM server, like dependency list generation Such steps which are dependent on the content are still executed on the AEM server itself. However the most exhaustive parts of the publishing process like running DITA-OT or native engine have been offloaded to the new service.
+> Publishing process have to process some content dependent part of the request on the AEM server itself, like dependency list generation. However the most exhaustive parts of the publishing process like running DITA-OT or native engine have been offloaded to the new service.
 
 
 ## Performance Analysis
 
-This section, showcases the performance numbers of the microservice. Please note since the old cloud architecture was not capable of publishing large maps or to do multiple concurrent publishing hence this section compares the performance numbers of the microservice with AEM Guides on-prem offering.
+This section, showcases the performance numbers of the microservice. Note since the old cloud architecture was not capable of publishing large maps or to do multiple concurrent publishing hence this section compares the performance numbers of the microservice with AEM Guides on-prem offering.
 
 If you are publishing a large map on on-prem, then you might have to tweak the Java heap parameters or else you can encounter Out-of-memory errors. On cloud, the microservice is already profiled and has optimum Java heap and other configurations set out of the box.
 
