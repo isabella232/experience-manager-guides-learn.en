@@ -5,11 +5,11 @@ description: Understand how the new microservice enables scalable publishing on 
 
 # New Cloud Publishing Microservice Architecture and Performance Data
 
-This article share the insights into the architecture of the new publishing microservice and some performance comparison of the new service with old cloud architecture and AEM Guides on-prem offering.
+This article share the insights into the architecture and some performance numbers of the new cloud publishing microservice.
 
 ## Issues with existing publishing workflows on cloud
 
-DITA Publishing is a resource-intensive process dependent mainly on available system memory and CPU. The need for these resources increases further if we are publishing large maps with many topics or if we are doing multiple parallel publishing.
+DITA Publishing is a resource-intensive process dependent mainly on available system memory and CPU. The need for these resources increases further if publishers are publishing large maps with many topics or if multiple parallel publishing requests are triggered.
 
 If you are not using the new service, then all the publishing happens on the same Kubernetes(k8) pod which is also running the AEM cloud server. A typical k8 pod has a limit on the amount of memory and CPU that it can use. If AEM Guides users are publishing large or parallel workloads, this limit can breach fast. K8 restarts pods which are trying to use more resources than the configured limit which can have serious impact on the AEM cloud instance itself.
 
@@ -32,9 +32,9 @@ All these communications are secured by the Adobe IMS using JWT-based authentica
 
 ## Performance Analysis
 
-In this section, we try to showcase the performance numbers of the new service. Please note since the old cloud architecture was not capable of publishing large maps or to do multiple concurrent publishing hence we are comparing the performace numbers of our service with our on-prem offering.
+This section, showcases the performance numbers of the microservice. Please note since the old cloud architecture was not capable of publishing large maps or to do multiple concurrent publishing hence this section compares the performace numbers of the microservice with AEM Guides on-prem offering.
 
-If you are publishing a large map on on-prem, then you might have to tweak the Java heap parameters or else you can encounter Out-of-memory errors. On cloud, we have taken care of the Java heap and other configurations out of the box without you spending time in tweaking these parameters.
+If you are publishing a large map on on-prem, then you might have to tweak the Java heap parameters or else you can encounter Out-of-memory errors. On cloud, the microservice is already profiled and have optimum Java heap and other configurations set out of the box.
 
 ### Running one publishing on cloud vs on-prem
 
@@ -60,12 +60,12 @@ If you are publishing a large map on on-prem, then you might have to tweak the J
 
 * On-prem
 
-    Running concurrent publishing on on-prem results in severe performance degradation. This performance drop on is more severe if we are publishing more than four large maps simultaneously.
+    Running concurrent publishing on on-prem results in severe performance degradation. This performance drop is more severe if publishers are publishing even more maps simultaneously.
 
     <img src="assets/onprem_bulk_publish.png" alt="projects tab" width=600>
 
 ## Additional Benefits
 
-Since we must gather dependencies to be sent to the serverless architecture for publishing, we run an AEM job on AEM instance for each publishing request. However, the new cloud architecture solely uses AEM jobs in place of AEM workflows as was the case in the old architecture. This change enables our users to individually configure cloud publishing queue settings without impacting other AEM jobs or workflow configurations.
+Some path of each publishing request must run on the AEM instance to fetch correct publishing content to be sent to the microservice. The new cloud architecture uses AEM jobs in place of AEM workflows as was the case in the old architecture. This change enables our users to individually configure cloud publishing queue settings without impacting other AEM jobs or workflow configurations.
 
 Details on how to configure the new publish microservice can be found here: [Configure Microservice](configure-microservices.md)
