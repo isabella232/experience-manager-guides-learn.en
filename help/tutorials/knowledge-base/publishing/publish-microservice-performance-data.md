@@ -23,7 +23,7 @@ Each request to the new publishing microservice is executed in an isolated docke
 
 All these communications are secured by the Adobe IMS using JWT based authentication and authorization and are executed over HTTPS.
 
-<img src="assets/architecture.png" alt="projects tab" width=500>
+<img src="assets/architecture.png" alt="projects tab" width=600>
 
 >[!NOTE]
 >
@@ -38,13 +38,13 @@ If you are publishing a large map on on-prem then you might have to tweek the Ja
 
 If you are executing a single publishing on cloud using the new service then publishing can take a little more time when compared to single cloud/on-prem publishing. This is due to the distributed nature of the new architecture.
 
-<img src="assets/cloud_single_publish.png" alt="projects tab" width=500>
+<img src="assets/cloud_single_publish.png" alt="projects tab" width=600>
 
 ### On-prem
 
 Results of single publishing will be better on old cloud architecture or on on-prem as the complete publishing is happening on the same pod/machine where AEM is running.
 
-<img src="assets/onprem_single_publish.png" alt="projects tab" width=500>
+<img src="assets/onprem_single_publish.png" alt="projects tab" width=600>
 
 ## Running multiple publishing on cloud vs on-prem
 
@@ -52,13 +52,13 @@ Results of single publishing will be better on old cloud architecture or on on-p
 
 This is the area where the new publishing microservice shines. As you can see from the below image, with the increase in the multiple concurrent publishing jobs, cloud is able to publish them without any significant performance degradation.
 
-<img src="assets/cloud_bulk_publish.png" alt="projects tab" width=500>
+<img src="assets/cloud_bulk_publish.png" alt="projects tab" width=600>
 
 ### On-prem
 
 Running concurrent publishing on on-prem results in severe performance degradation. This performance drop on on-prem will be even more severe if we try to publish more than 4 large maps simultaneously. If you are using the old cloud architecture then you will encounter pod restarts if you will try to publish many maps concurrently.
 
-<img src="assets/onprem_bulk_publish.png" alt="projects tab" width=500>
+<img src="assets/onprem_bulk_publish.png" alt="projects tab" width=600>
 
 ## Additional Benefits
 
