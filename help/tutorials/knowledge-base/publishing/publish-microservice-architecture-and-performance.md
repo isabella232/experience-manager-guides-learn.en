@@ -3,7 +3,7 @@ title: Cloud Publishing Microservice Architecture and Performance
 description: Understand how the new microservice enables scalable publishing on AEMaaCS.
 ---
 
-# Cloud Publishing Microservice Architecture and Performance
+# Cloud Publishing Microservice Architecture and Performance Analysis
 
 This article share the insights into the architecture and some performance numbers of the new cloud publishing microservice.
 
@@ -27,7 +27,7 @@ All these communications are secured by the Adobe IMS using JWT-based authentica
 
 >[!NOTE]
 >
-> Publishing process have to process some content dependent part of the request on the AEM server itself, like dependency list generation. However the most exhaustive parts of the publishing process like running DITA-OT or native engine have been offloaded to the new service.
+> Publishing process have to process some content dependent parts of the request on the AEM server itself, like dependency list generation. However the most exhaustive parts of the publishing process like running DITA-OT or native engine have been offloaded to the new service.
 
 
 ## Performance Analysis
