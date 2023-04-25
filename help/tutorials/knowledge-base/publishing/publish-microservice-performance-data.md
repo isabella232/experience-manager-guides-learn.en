@@ -19,7 +19,7 @@ This resource constraint was the main motivation to come up with a dedicated ser
 
 The service is using Adobe's cutting edge cloud solutions like App Builder, IO Eventing, IMS to create a serverless offering. These services are itself based on the widely accepted industry standards like Kubernetes, docker.
 
-Each request to the new publishing microservice is executed in an isolated docker container which runs only one publishing request at a time. Multiple new containers are automatically created in case new publishing requests are received. This single container per request configuration allows us to give the best performance available to our customers without introducing any security risks for their content. These containers are discarded once the publishing is over thus freeing up any used resources.
+Each request to the new publishing microservice is executed in an isolated docker container which runs only one publishing request at a time. Multiple new containers are automatically created in case new publishing requests are received. This single container per request configuration allows the microservice to deliver the best performance to the customers without introducing any security risks. These containers are discarded once the publishing is over thus freeing up any used resources.
 
 All these communications are secured by the Adobe IMS using JWT-based authentication and authorization and are executed over HTTPS.
 
@@ -27,14 +27,14 @@ All these communications are secured by the Adobe IMS using JWT-based authentica
 
 >[!NOTE]
 >
-> Publishing process have to process some part of the request on the AEM server, like dependency list generation Such steps which are dependent on the content are still executed on the AEM server itself. However the most exhaustive parts of our publishing process like running DITA-OT or native engine have been offloaded to the new service.
+> Publishing process have to process some part of the request on the AEM server, like dependency list generation Such steps which are dependent on the content are still executed on the AEM server itself. However the most exhaustive parts of the publishing process like running DITA-OT or native engine have been offloaded to the new service.
 
 
 ## Performance Analysis
 
-This section, showcases the performance numbers of the microservice. Please note since the old cloud architecture was not capable of publishing large maps or to do multiple concurrent publishing hence this section compares the performace numbers of the microservice with AEM Guides on-prem offering.
+This section, showcases the performance numbers of the microservice. Please note since the old cloud architecture was not capable of publishing large maps or to do multiple concurrent publishing hence this section compares the performance numbers of the microservice with AEM Guides on-prem offering.
 
-If you are publishing a large map on on-prem, then you might have to tweak the Java heap parameters or else you can encounter Out-of-memory errors. On cloud, the microservice is already profiled and have optimum Java heap and other configurations set out of the box.
+If you are publishing a large map on on-prem, then you might have to tweak the Java heap parameters or else you can encounter Out-of-memory errors. On cloud, the microservice is already profiled and has optimum Java heap and other configurations set out of the box.
 
 ### Running one publishing on cloud vs on-prem
 
@@ -66,6 +66,6 @@ If you are publishing a large map on on-prem, then you might have to tweak the J
 
 ## Additional Benefits
 
-Some path of each publishing request must run on the AEM instance to fetch correct publishing content to be sent to the microservice. The new cloud architecture uses AEM jobs in place of AEM workflows as was the case in the old architecture. This change enables our users to individually configure cloud publishing queue settings without impacting other AEM jobs or workflow configurations.
+Some path of each publishing request must run on the AEM instance to fetch correct publishing content to be sent to the microservice. The new cloud architecture uses AEM jobs in place of AEM workflows as was the case in the old architecture. This change enables AEM Guides administrators to individually configure cloud publishing queue settings without impacting other AEM jobs or workflow configurations.
 
 Details on how to configure the new publish microservice can be found here: [Configure Microservice](configure-microservices.md)
