@@ -3,12 +3,15 @@ title: Publishing microservice performance data
 description: Understand how the new microservice enables scalable publishing on AEMaaCS.
 ---
 
-# Issues with existing publishing workflows on cloud
+# New Cloud Publishing Microservice Architecture and Performance Data
+
+This article share the insights into the architecture of the new publishing microservice and some performance comparisions of the new service with old cloud architecture and our on-prem offering.
+
+## Issues with existing publishing workflows on cloud
 
 DITA Publishing is a resource intensive process dependent mainly on available system memory and CPU. The need for these resources increases further if we are publishing large maps with many topics or if we are doing muliple parallel publishing.
 
-
-If you are not using the new service then all the publishing happens on the same Kubernetes(k8) pod which is also running the AEM cloud server. A typical k8 pod has a limit on the amount of memory and CPU it can use. If AEM Guides users are publishing large or parallel workloads, this limit can breach fast. K8 restarts pods which are trying to use more resources than the configured limit which can have serious impact on the AEM cloud instance itself. 
+If you are not using the new service then all the publishing happens on the same Kubernetes(k8) pod which is also running the AEM cloud server. A typical k8 pod has a limit on the amount of memory and CPU it can use. If AEM Guides users are publishing large or parallel workloads, this limit can breach fast. K8 restarts pods which are trying to use more resources than the configured limit which can have serious impact on the AEM cloud instance itself.
 
 This resource constraint was the main motivation to come up with a dedicated service which can allow us to run multiple concurrent and large publishing workloads on cloud.
 
@@ -31,7 +34,7 @@ If you are publishing a large map on on-prem then you might have to tweek the Ja
 
 ### Cloud
 
-If you are executing a single publishing on cloud using the new service then publishing can take a little more time when compared to single cloud/on-prem publishing. This is due to the distributed nature of the new architecture. 
+If you are executing a single publishing on cloud using the new service then publishing can take a little more time when compared to single cloud/on-prem publishing. This is due to the distributed nature of the new architecture.
 
 <img src="assets/cloud_single_publish.png" alt="projects tab" width=500>
 
