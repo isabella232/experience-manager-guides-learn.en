@@ -27,7 +27,7 @@ All these communications are secured by the Adobe IMS using JWT-based authentica
 
 >[!NOTE]
 >
-> Publishing process have to execute some content dependent parts of the request on the AEM server itself, like dependency list generation. However the most exhaustive parts of the publishing process like running DITA-OT or native engine have been offloaded to the new service.
+> Publishing process executes some content dependent parts of the request on the AEM server itself, like dependency list generation. However the most exhaustive parts of the publishing process like running DITA-OT or native engine have been offloaded to the new service.
 
 
 ## Performance Analysis
