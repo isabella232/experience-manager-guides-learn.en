@@ -7,6 +7,10 @@ description: Understand how the new microservice enables scalable publishing on 
 
 This article share the insights into the architecture and some performance numbers of the new cloud publishing microservice.
 
+>[!NOTE]
+>
+> Presently the microservice-based publishing in AEM Guides only supports PDF output using Native PDF publishing or through DITA-OT. We will be adding microservice-based publishing support for more output types in the future releases.
+
 ## Issues with existing publishing workflows on cloud
 
 DITA Publishing is a resource-intensive process dependent mainly on available system memory and CPU. The need for these resources increases further if publishers are publishing large maps with many topics or if multiple parallel publishing requests are triggered.
