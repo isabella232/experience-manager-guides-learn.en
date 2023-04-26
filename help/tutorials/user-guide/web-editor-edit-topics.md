@@ -1,8 +1,8 @@
 ---
 title: Edit topics in the Web Editor
 description: Learn how to Edit topics in the Web Editor
+exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
 ---
-
 # Edit topics in the Web Editor {#id2056B040VUI}
 
 The Web Editor comes with a range of editing features that let you easily create or modify your topic files. Broadly, you would perform the following steps to edit a topic in the Web Editor.
@@ -47,4 +47,3 @@ The Web Editor comes with a range of editing features that let you easily create
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

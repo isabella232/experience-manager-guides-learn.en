@@ -1,8 +1,8 @@
 ---
 title: Other features in the map editors
 description: Learn how to Other features in the map editors
+exl-id: ed6f42f6-b95e-4c4d-a648-6f29641a3488
 ---
-
 # Other features in the map editors {#id1942D0T0HUI}
 
 Some common features in the Basic and Advanced Map Editors are:
@@ -34,4 +34,3 @@ This root map will be applicable for all assets \(folders and sub-folders\) asso
 **Topic edit view** - Click on Key Resolution icon while editing a DITA topic and select the DITA file to use for resolving the key references.
 
 **Parent topic:**[Work with the Map Editor](map-editor.md)
-

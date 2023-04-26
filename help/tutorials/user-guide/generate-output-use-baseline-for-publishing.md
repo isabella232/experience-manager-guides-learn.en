@@ -1,8 +1,8 @@
 ---
 title: Work with Baseline
 description: Learn how to Work wit Baseline
+exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
 ---
-
 # Work with Baseline {#id1825FI0J0PF}
 
 The Baseline feature allows you to create a version of your topics and assets that can then be used for publishing or translation. For example, if your DITA map has `topicA` and `imageA`, you can create a Baseline to use the 3rd version of `topicA`, but the 4th version of `ImageA`. Once you have a Baseline in place, you can publish or translate topics of different versions with a single click.
@@ -171,4 +171,3 @@ Perform the following steps to export a translated Baseline:
 
 
 **Parent topic:**[Output generation](generate-output.md)
-

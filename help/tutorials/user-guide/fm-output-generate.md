@@ -1,8 +1,8 @@
 ---
 title: Generate output of .book or .fm files
 description: Learn how to Generate output of .book or .fm files
+exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
 ---
-
 # Generate output of .book or .fm files {#generating_output_fm_docs}
 
 Perform the following steps to generate output for FrameMaker documents:
@@ -23,4 +23,3 @@ Perform the following steps to generate output for FrameMaker documents:
 > You can view the current status of the output generation request by clicking on Outputs. For more information, see [View the status of the output generation task](fm-output-view-status.md).
 
 **Parent topic:**[Generate output of FrameMaker documents](fm-output-generatation.md)
-

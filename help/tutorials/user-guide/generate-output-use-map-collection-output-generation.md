@@ -1,8 +1,8 @@
 ---
 title: Use Map Collection for output generation
 description: Learn how to Use Map Collection for output generation
+exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
 ---
-
 # Use Map Collection for output generation {#id1723F20G0HS}
 
 In any organization, a product can have multiple types of documentation. As a publishing specialist, you would like to control what output you want to generate for which document. Also, there should be a way to batch publish multiple documents with a single click.
@@ -89,4 +89,3 @@ Similar to the way of canceling an output generation task from the [DITA map con
 ![](images/cancel-publish-task-map-collection.png)
 
 **Parent topic:**[Output generation](generate-output.md)
-

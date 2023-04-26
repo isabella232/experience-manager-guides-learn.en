@@ -1,8 +1,8 @@
 ---
 title: Article-based publishing from the Web Editor
 description: Learn how to Article-based publishing from the Web Editor
+exl-id: b827c606-0d4b-4e7b-8a82-75b375dffe1a
 ---
-
 # Article-based publishing from the Web Editor {#id218CL05J0M1}
 
 AEM Guides comes with an article-based publishing feature integrated inside the Web Editor that allows the users to publish one or more topics simultaneously.
@@ -25,4 +25,3 @@ You can also use the output presets created for your DITA map to generate the ou
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

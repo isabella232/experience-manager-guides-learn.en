@@ -1,8 +1,8 @@
 ---
 title: Author content
 description: Learn how to Author content
+exl-id: bba2a7a1-ffbc-4d28-9b70-a0274f03e29b
 ---
-
 # Author content {#id221EAJ0A047}
 
 AEM Guides provides the platform to author content using the easy-to-use user interface. You can create your content, preview it, edit it, save the version, and then share for reviews.
@@ -15,6 +15,4 @@ You can also use desktop tools to create your content. These tools help you to e
 
 -   **[Author content using AEM Guides](authoring-content-xml-doc.md)**  
 
--   **[Author content using desktop tools](author-desktop-tools.md)**  
-
-
+-   **[Author content using desktop tools](author-desktop-tools.md)**

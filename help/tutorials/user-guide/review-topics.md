@@ -1,8 +1,8 @@
 ---
 title: Review topics
 description: Learn how to Review topics
+exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
 ---
-
 # Review topics {#id2056B0W0FBI}
 
 If you are a reviewer, then you receive a review request email with the link to the review topics. Clicking on the link takes you to the review page wherein you can add your feedback on the shared topics.
@@ -237,4 +237,3 @@ Select one or more of the following filtering options from the **Filter Type** d
 To remove the filter and view all the comments, deselelect all filters from the **Filter Type** dialog and click **Apply**.
 
 **Parent topic:**[Review topics or maps](review.md)
-

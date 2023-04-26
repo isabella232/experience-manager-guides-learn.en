@@ -1,8 +1,8 @@
 ---
 title: Create, edit, duplicate, or remove an output preset
 description: Learn how to Create, edit, duplicate, or remove an output preset
+exl-id: 6ed4f028-da96-4383-9d5c-06b94d6661c0
 ---
-
 # Create, edit, duplicate, or remove an output preset {#id205BEH0K09Z}
 
 ## Create a custom output preset 
@@ -70,4 +70,3 @@ Perform the following steps to delete an existing output preset:
 
 
 **Parent topic:**[Output generation](generate-output.md)
-

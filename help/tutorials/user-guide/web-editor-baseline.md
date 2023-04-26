@@ -1,8 +1,8 @@
 ---
 title: Create and manage baselines from the Web Editor
 description: Learn how to Create and manage baselines from the Web Editor
+exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
 ---
-
 # Create and manage baselines from the Web Editor {#id223MB0ZF043}
 
 >[!TIP]
@@ -101,4 +101,3 @@ Using the Filters icon in the **Baseline Filters** panel you can apply filters o
 Once you have edited the baseline, you can click the **Save** button on the top to save the changes to the baseline. You can click the **Reset** button if you don't want to save the change and reset the baseline. When you click the **Reset** button a warning is displayed that your unsaved changes would be lost.
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

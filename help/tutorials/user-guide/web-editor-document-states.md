@@ -1,8 +1,8 @@
 ---
 title: Document state
 description: Learn how to Document state
+exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
 ---
-
 # Document state {#id1821HC00URO}
 
 To manage the readiness of the documents, AEM Guides provides document state property to indicate the current state of the document. Document states help you quickly find out whether a document is new, in review, or review completed state.
@@ -96,4 +96,3 @@ Once a document is marked as approved, it is no longer available for editing. If
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

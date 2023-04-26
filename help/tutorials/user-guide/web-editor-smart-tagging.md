@@ -1,8 +1,8 @@
 ---
 title: Smart Tagging
 description: Learn how to Smart Tagging
+exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
 ---
-
 # Smart Tagging {#id216KH0ID0Y8}
 
 >[!IMPORTANT]
@@ -32,4 +32,3 @@ Perform the following steps to create smart tags:
 *Contact your customer success team to get this feature enabled in the environment. This is not enabled as a part of the out-of-the-box support.*
 
 **Parent topic:**[Manage metadata](manage-metadata.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Manage content
 description: Learn how to Manage content
+exl-id: d2fa31a7-a8ce-4d17-bd4e-0f51ea751dca
 ---
-
 # Manage content {#id164JBG0M0T1}
 
 Before you start with the actual content creation, you must familiarize yourself with some basic concepts of content management in AEM Guides. Then, start with creating different user groups and organizing your assets.
@@ -92,8 +92,3 @@ AEM Guides allows you to configure authoring \(topic or map\) templates, output 
 Also, you can delegate the folder-specific configurations to a department or product administrators to decentralize the administration.
 
 For details on setting up global and folder-level profiles, see *Configure global or folder-level profiles* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-
-
-
-

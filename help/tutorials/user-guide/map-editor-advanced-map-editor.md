@@ -1,8 +1,8 @@
 ---
 title: Work with the Advanced Map Editor
 description: Learn how to Work with the Advanced Map Editor
+exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
 ---
-
 # Work with the Advanced Map Editor {#id1942D0S0IHS}
 
 The Advanced Map Editor comes with intuitive user interface and it is similar to the Web Editor. When you open a map file in the Web Editor, you get an option to edit the map file using the Advanced Map Editor interface. The Advanced Map Editor allows you to add topic references, key references, structure your content and more.
@@ -374,4 +374,3 @@ You can access a map's preview from:
 
 
 **Parent topic:**[Work with the Map Editor](map-editor.md)
-

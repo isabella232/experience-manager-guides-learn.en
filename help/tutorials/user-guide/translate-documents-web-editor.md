@@ -1,8 +1,8 @@
 ---
 title: Translate documents from the Web Editor
 description: Learn how to Translate documents from the Web Editor
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
 ---
-
 # Translate documents from the Web Editor {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -153,4 +153,3 @@ Click the name of the reference in the dialog to open it in preview mode. You ca
 ![](images/translation-in-progress.png)
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

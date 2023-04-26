@@ -1,8 +1,8 @@
 ---
 title: Address review comments
 description: Learn how to Address review comments
+exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
 ---
-
 # Address review comments {#id2056B0X0KBI}
 
 As an author, you can address comments in a topic using the Web Editor. The following sections describe ways of editing comments in the Web Editor.
@@ -55,4 +55,3 @@ In the Web Editor mode, the right panel contains the Review and Tracked Changes 
 
 
 **Parent topic:**[Review topics or maps](review.md)
-

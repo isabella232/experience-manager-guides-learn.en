@@ -1,8 +1,8 @@
 ---
 title: Author Markdown documents
 description: Learn how to Author Markdown documents
+exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
 ---
-
 # Author Markdown documents from the Web Editor {#id223MIE0B079}
 
 Markdown is a lightweight markup language that can help you add formatting elements to plain text documents. AEM Guides provides the feature to create, author, and preview a Markdown \(.md\) topic from the Web Editor. You can also upload the existing Markdown documents and edit them in the Web Editor.
@@ -54,4 +54,3 @@ Perform the following steps to author a Markdown topic from the Web Editor:
 > If you have not saved changes, a popup is displayed, and you are prompted to save your topic before you close it.
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

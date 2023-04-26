@@ -1,8 +1,8 @@
 ---
 title: Bulk Activation of published content
 description: Learn how to Bulk Activation of published content
+exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
 ---
-
 # Bulk Activation of published content {#id214GG080LE8}
 
 In a real word scenario, your authors would have access on the authoring instance of AEM while the actual content gets published onto the publishing instance of AEM. The publishing instances could then be further deployed across different geo-locations. The published output has to move onto these publishing server through different processes. The process of moving content from authoring instance to the publishing instance is termed as activation or replication of content.
@@ -32,4 +32,3 @@ With AEM Guides' Bulk Activation feature, you can quickly and easily activate yo
 
 
 **Parent topic:**[Output generation](generate-output.md)
-

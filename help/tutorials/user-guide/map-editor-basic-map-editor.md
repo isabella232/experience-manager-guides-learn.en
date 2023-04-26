@@ -1,8 +1,8 @@
 ---
 title: Work with the Basic Map Editor
 description: Learn how to Work with the Basic Map Editor
+exl-id: 85194806-db3f-442b-a551-540d148d26ec
 ---
-
 # Work with the Basic Map Editor {#id1942CM005Y4}
 
 The Basic Map Editor provides an easy drag-and-drop feature to add topics from your AEM repository to create the DITA map or bookmap. You can add nested topics, relationship tables \(reltable\), attributes and metadata information, and also validate the map for correctness.
@@ -183,4 +183,3 @@ If you want to delete a topic from your table, click the cross icon next to the 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete.
 
 **Parent topic:**[Work with the Map Editor](map-editor.md)
-

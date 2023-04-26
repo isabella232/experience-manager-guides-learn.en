@@ -1,8 +1,8 @@
 ---
 title: Create a map
 description: Learn how to Create a map
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
 ---
-
 # Create a map {#id176FEN0D05Z}
 
 AEM Guides provides two out-of-the-box map templates - DITA map and Bookmap. You can also create your own map templates and share those with your authors to create map files.
@@ -47,4 +47,3 @@ Perform the following steps to create a map file:
 
 
 **Parent topic:**[Work with the Map Editor](map-editor.md)
-

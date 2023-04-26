@@ -1,8 +1,8 @@
 ---
 title: Use Quick Generate panel
 description: Learn how to Use Quick Generate panel
+exl-id: d48803d9-470c-4679-8def-72b45a85917b
 ---
-
 # Use Quick Generate panel to generate and view output {#id22AKE050F5L}
 
 AEM Guides provides a **Quick Generate** panel integrated inside the Web Editor. This panel allows you to simultaneously generate the output for the output presets created for a DITA map. You can generate the output for one or more presets, or all presets created for a DITA map. You can also use the **Quick Generate** panel to later view the output generated for the presets.
@@ -22,4 +22,3 @@ Perform the following steps to generate the output from the **Quick Generate** p
 1.  Click **View Output** \( ![](images/view-output-icon.svg)\) icon of a specific preset to view the output generated for the preset.
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

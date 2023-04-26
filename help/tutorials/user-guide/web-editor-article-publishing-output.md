@@ -1,8 +1,8 @@
 ---
 title: Generate output from the Repository panel
 description: Learn how to Generate output from the Repository panel
+exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
 ---
-
 # Generate output from the Repository panel or the Map View panel {#id218CL6010AE}
 
 You can also use the output presets created for your DITA map to generate output from the Repository panel or the Map View panel.
@@ -78,4 +78,3 @@ Perform the following steps to generate output for more than one topic in your D
 
 
 **Parent topic:**[Article-based publishing from the Web Editor](web-editor-article-publishing.md)
-

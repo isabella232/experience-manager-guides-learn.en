@@ -1,8 +1,8 @@
 ---
-title:  Web Editor views
+title: Web Editor views
 description: Learn how to  Web Editor views
+exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
 ---
-
 # Web Editor views {#id204GK0D0V5Z}
 
 AEM Guides' Web Editor supports viewing documents in three different modes or views:
@@ -144,4 +144,3 @@ To export a topic as PDF, follow these steps:
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

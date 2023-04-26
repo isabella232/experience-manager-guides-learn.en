@@ -1,8 +1,8 @@
 ---
 title: Upload files
 description: Learn how to Upload files
+exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
 ---
-
 # Upload files {#id176FF000JUI}
 
 Most likely you would have a repository of existing DITA content that you would like to use with AEM Guides. For such existing content, you can use any of the following approaches to bulk upload your content into AEM repository:
@@ -40,4 +40,3 @@ For more details about how the various file uploading scenarios, see [Upload DIT
  In case you use a tool like AEM desktop app or Asset bulk ingestor, then the action to perform on a duplicate file is controlled by a setting in the AEM server. Contact your system administrator to know about this configuration.
 
 **Parent topic:**[Manage content](authoring.md)
-

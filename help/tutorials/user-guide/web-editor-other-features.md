@@ -1,8 +1,8 @@
 ---
 title: Other features in the Web Editor
 description: Learn how to Other features in the Web Editor
+exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
 ---
-
 # Other features in the Web Editor {#id2056B0B0YPF}
 
 There are some other useful features in the Web Editor that you can make use of:
@@ -206,4 +206,3 @@ Do the following to automatically generate ID for one or multiple elements:
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-

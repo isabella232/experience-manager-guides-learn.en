@@ -1,8 +1,8 @@
 ---
 title: Review topics or maps
 description: Learn how to Review topics or maps
+exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
 ---
-
 # Review topics or maps {#id1645H6010Q5}
 
 Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also see the comments made by other reviewers.
@@ -55,6 +55,4 @@ Features available to the *reviewers*:
 
 -   **[Address review comments](review-address-review-comments.md)**  
 
--   **[Manage review tasks using the Review Dashboard](review-manage-tasks-review-dashboard.md)**  
-
-
+-   **[Manage review tasks using the Review Dashboard](review-manage-tasks-review-dashboard.md)**

@@ -1,8 +1,8 @@
 ---
 title: About Adobe Experience Manager Guides
 description: Learn how to About Adobe Experience Manager Guides as a Cloud Service
+exl-id: c55429d9-ce2a-4dbf-b780-377b1372b828
 ---
-
 # About Adobe Experience Manager Guides {#id1645E0A50MY}
 
 Adobe Experience Manager Guides \(referred to as *AEM Guides* later in this guide\) is a powerful, enterprise-grade component content management solution \(CCMS\). It comes in two flavors - on-prem and cloud service. It enables native DITA support in Adobe Experience Manager, empowering AEM to handle DITA-based content creation and delivery. It empowers authors to create content using an easy-to-use built-in web editor.

@@ -1,8 +1,8 @@
 ---
 title: PDF
 description: Learn how to PDF
+exl-id: ece004ed-5233-460b-889d-94e693ceed93
 ---
-
 # PDF {#id205BB0T20RH}
 
 The following options are available for the PDF Output:
@@ -33,4 +33,3 @@ The following options are available for the PDF Output:
 |Run Post Generation Workflow|When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.|
 
 **Parent topic:**[Generate output of FrameMaker documents](fm-output-generatation.md)
-

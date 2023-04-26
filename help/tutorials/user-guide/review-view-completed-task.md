@@ -1,8 +1,8 @@
 ---
 title: View a completed review task
 description: Learn how to view a completed review task
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
 ---
-
 # View a completed review task
 
 You can complete review tasks for those projects for which you are the Author (or initiator). Once a review task is complete, you and all reviewers can access it in read-only mode.
@@ -26,4 +26,3 @@ However, you can search or filter any comments. You can download any attachments
 <img src="images/completed-task-author.png" alt=" completed review task author" width=800>
 
 So, both as a reviewer or an author you can view the reviewed content along with the comments, but you cannot make any changes in a completed review task.
-

@@ -1,8 +1,8 @@
 ---
 title: Manage metadata
 description: Learn how to Manage metadata
+exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
 ---
-
 # Manage metadata {#id221EJ0500LI}
 
 Metadata is the description or definition of your content. This metadata is useful for defining your article or a map. For example, the PDF metadata may consist of the properties of a document like a title, author, subject, keywords, and language. AEM Guides provides various tools which can help you define metadata for your content.
@@ -13,6 +13,4 @@ Adobe Experience Manager Assets provide the support to add, edit, import, or exp
 
 -   **[Smart Tagging](web-editor-smart-tagging.md)**  
 
--   **[Bulk tagging of DITA content](map-editor-bulk-tagging.md)**  
-
-
+-   **[Bulk tagging of DITA content](map-editor-bulk-tagging.md)**
