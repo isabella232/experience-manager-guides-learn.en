@@ -176,15 +176,19 @@ breadcrumb-title: AEM Guides Tutorials
     + [Manage content using baselines](./knowledge-base/expert-sessions/baselines-dec22.md) 
     + [Author web-based content](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
     + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-  + Publishing{#publishing}
-    + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
+    + [Reports in AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+    + [Content and Template setup](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Webeditor {#webeditor}
+        + Customizing {#customizing}
+          + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+          + [Add custom styles to webeditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
         + Schematron {#schematron}
           + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+      + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
