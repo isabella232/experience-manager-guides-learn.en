@@ -36,7 +36,7 @@ All these communications are secured by Adobe IMS using JWT-based authentication
 
 ## Performance Analysis
 
-This section, showcases the performance numbers of the microservice. Since the old cloud architecture had issues in  concurrent publishing or in publishing very large maps hence this section compares the performance numbers of the microservice with AEM Guides on-prem offering.
+This section, showcases the performance numbers of the microservice. This section compares the performance of the microservice with AEM Guides on-prem offering since the old cloud architecture had issues in concurrent publishing or in publishing very large maps.
 
 If you are publishing a large map on on-prem, then you might have to tweak the Java heap parameters or else you can encounter out-of-memory errors. On cloud, the microservice is already profiled and has optimum Java heap and other configurations out of the box.
 
