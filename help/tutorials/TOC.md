@@ -190,5 +190,6 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
+      + [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md) 
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
