@@ -70,6 +70,6 @@ If you are publishing a large map on on-prem, then you might have to tweak the J
 
 ## Additional Benefits
 
-Some path of each publishing request must run on the AEM instance to fetch correct publishing content to be sent to the microservice. The new cloud architecture uses AEM jobs in place of AEM workflows as was the case in the old architecture. This change enables AEM Guides administrators to individually configure cloud publishing queue settings without impacting other AEM jobs or workflow configurations.
+Some part of each publishing request must run on the AEM instance to fetch correct publishing content to be sent to the microservice. The new cloud architecture uses AEM jobs in place of AEM workflows as was the case in the old architecture. This change enables AEM Guides administrators to individually configure cloud publishing queue settings without impacting other AEM jobs or workflow configurations.
 
 Details on how to configure the new publish microservice can be found here: [Configure Microservice](configure-microservices.md)
