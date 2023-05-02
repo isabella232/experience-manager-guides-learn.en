@@ -60,7 +60,7 @@ You can import a XMP file and AEM Guides can pick the information from the file.
 
 ### Enhanced Outline View panel
 
-AEM Guides provides an improvised Outline View panel in which you get the hierarchical view of the elements used in the document.
+AEM Guides provides an improved Outline View panel in which you get the hierarchical view of the elements used in the document.
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" native pdf metadata">
 
