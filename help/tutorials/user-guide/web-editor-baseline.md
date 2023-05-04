@@ -18,7 +18,7 @@ You can create a baseline from the Web Editor by performing the following steps:
 1.  In the Repository panel, open the DITA map file in Map View.
 1.  Click the **Manage** tab. The **Baseline** panel displays the baselines of the DITA map.
 
-    ![](images/baseline-manage.png)
+    ![](images/baseline-manage.png){width="800" align="left"}
 
 1.  On the **Baseline** panel, click + icon at the top-right. You can create a baseline with a specific version of the topics and referenced content available on a specific date and time, or with a label defined for a version of topics.
 1.  Enter a name for the baseline in **Baseline Name**.
@@ -46,7 +46,7 @@ You can create a baseline from the Web Editor by performing the following steps:
 
     Baselines based on labels are updated dynamically. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. For example, if you have used version 1.2 of a topic with Label Release 1.0 for the baseline and later updated version 1.5 with Label Release 1.0, the baseline will be updated dynamically, and version 1.5 will be used.
 
-    ![](images/dynamic-baseline.png)
+    ![](images/dynamic-baseline.png){width="550" align="left"}
 
     -   **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** dropdown. You can choose the label\(s\) from the list. The labels selected first are given higher priority over the later ones.
 1.  **Indirect References**: For indirect references within the DITA map, you are given the following options:
@@ -68,7 +68,7 @@ You can manage your existing baselines using the various features on the Baselin
 -   You can view or edit the contents of an existing baseline by double-clicking the baseline from the list in the Baseline panel. The baseline editing window in the center displays the DITA map file, map's contents or topics, and the referenced content.
 
 
-![](images/baseline-options.png)
+![](images/baseline-options.png){width="550" align="left"}
 
 You can also perform the following operations on the baseline from the Options menu:
 
@@ -86,7 +86,7 @@ You can also perform the following operations on the baseline from the Options m
 
 Using the Filters icon in the **Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
 
-![](images/baseline-filter.png)
+![](images/baseline-filter.png){width="350" align="left"}
 
 -   Filter the files based on filenames, or file location.
 -   Filter the files based on the values for different columns like File Type, Reference Type and so on.

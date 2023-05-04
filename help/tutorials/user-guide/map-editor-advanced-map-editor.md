@@ -27,21 +27,21 @@ Perform the following steps to build your map file using the Advanced Map Editor
 
 1.  With the map file selected, click **Edit Topics**.
 
-    ![](images/edit-map-main-menu.png)
+    ![](images/edit-map-main-menu.png){width="800" align="left"}
 
     Or, you can also select the **Edit Topics** option from the action menu on the map file:
 
-    ![](images/edit-map-action-menu.png)
+    ![](images/edit-map-action-menu.png){width="800" align="left"}
 
     The map file is opened for editing in the in the Web Editor.
 
 1.  Click the **Edit** icon.
 
-    ![](images/edit-map-icon.png)
+    ![](images/edit-map-icon.png){width="550" align="left"}
 
     The map is opened in the Advanced Map Editor interface. If you have opened a new map file, then only the title of the map is shown in the editor.
 
-    ![](images/new-map-file-in-editor.png)
+    ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
     -   **A** - \(*Main toolbar*\): This is similar to the Web Editor's main toolbar. See [Main toolbar](web-editor-features.md#id2051EA0G05Z) in the Web Editor for more details.
 
@@ -63,7 +63,7 @@ Perform the following steps to build your map file using the Advanced Map Editor
 
     The topic is added in the map.
 
-    ![](images/map-editor-add-topic.png)
+    ![](images/map-editor-add-topic.png){width="800" align="left"}
 
 1.  To add subsequent topics or a sub-map, drag-and-drop the topic or sub-map to the required location in the map.
 
@@ -71,15 +71,15 @@ Perform the following steps to build your map file using the Advanced Map Editor
 
     -   The file is added at a location where the horizontal bar appears in the map editing area. In the following screenshot, the *Overview* topic will get added in between the *General Description* and *Launch and Landing Site* topics.
 
-        ![](images/horizontal-line-in-adv-map-editor.png)
+        ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
     -   To replace a topic, place the topic on top, left, or right of the topic that you want to replace. A Vertical bar to the left or right of a topic indicates that it will get replaced with the topic being dropped on it.
 
-        ![](images/vertical-bar-left-right.png)
+        ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
         However, before replacing a topic, you get a confirmation prompt. The topic is replaced only after you give the confirmation.
 
-        ![](images/replace-topic-confirm.png)
+        ![](images/replace-topic-confirm.png){width="300" align="left"}
 
     -   If you add a sub-map to your DITA map, the sub-map is shown as a link in the DITA map. To view all the topics of the sub-map, Crtl+Click the sub-map link. The content of the sub-map are shown in a new tab. Similarly, to open a topic from the DITA map, Crtl+Click the topic link and it opens up in the new tab.
 
@@ -87,7 +87,7 @@ Perform the following steps to build your map file using the Advanced Map Editor
 
     -   To change the position of a topic, select the topic \(by clicking on the topic icon\), then drag-and-drop it at the desired location in the map file. Ensure that the horizontal bar is visible at the location where you want to place the topic. In the following screenshot, the topic *Launch and Landing Site* is being moved after the *Overview* topic.
 
-        ![](images/move-topic-adv-map-editor.png)
+        ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
     -   To check the properties of your map file, right-click anywhere in the map editing area and choose **Properties** from the context menu. Based on your AEM version, you could see properties like metadata, schedule \(de\)activation, references, document state and more.
 
@@ -113,7 +113,7 @@ You can perform the following tasks in the Layout view:
 **Insert Topic Reference** - ![](images/insert-topic-reference.png)
 
 Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click Select to add it to the map. 
-![](images/insert-topic-reference-dialog.png)
+![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
 **Insert Topic Group** – ![](images/insert-topic-group.png)
@@ -124,7 +124,7 @@ Insert the `topicgroup` element. For more information about grouping topics, see
 
 Displays the Insert Keydef dialog. Use this dialog to define any key definition that you want to use in the map.
 
-![](images/insert-key-definition-dialog.png)
+![](images/insert-key-definition-dialog.png){width="300" align="left"}
 
 **Insert Before/Insert After** – ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -193,7 +193,7 @@ Shows the filename of the titles of the topics.
 
 In addition to organizing topics in the map file, you can also perform the following actions using the Options menu available for an element in the Layout view:
 
-![](images/map-editor-options-menu.png)
+![](images/map-editor-options-menu.png){width="650" align="left"}
 
 -   **Add**: You can choose to add a new topic or an empty reference from the Map Editor:
     -   **Empty Reference**: This option allows you to add an empty reference in your DITA map. You can double-click the inserted empty reference later and add the Topic details. For more details, see the [Create a topic](web-editor-features.md#id228ICI0105U) in the Web Editor.
@@ -225,7 +225,7 @@ The Content Properties panel contains information about the type of currently se
 
 -   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display Attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
 
-    ![](images/layout-inline-attributes.png)
+    ![](images/layout-inline-attributes.png){width="650" align="left"}
 
    
     For more details, see the *Display Attributes* within the *Editor Settings* feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.
@@ -304,7 +304,7 @@ To edit topics through a DITA map, perform the following steps:
     >
     > You can also select the DITA map file in the Assets UI and click **Edit Topics** in the main toolbar to launch the Web Editor.
 
-    ![](images/web-editor-map-view_cs.png)
+    ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
 1.  \(*Optional*\) You can also select a topic from the map and checkout the file before editing. To checkout file\(s\), select one or more files from the left pane and click **Checkout**. You can also release the lock on any file by selecting the checked out file and clicking on the **Cancel Checkout and Unlock** icon in the Map view.
 
@@ -314,13 +314,13 @@ To edit topics through a DITA map, perform the following steps:
 
     The following screenshot highlights the icons for Checkout and Lock \(A\), Cancel Checkout and Unlock \(B\), Save As New Version and Unlock \(C\), Edit \(D\), Preview \(E\), different icons showing different DITA file types \(F\), and files that are checked out \(G\).
 
-    ![](images/file-checkout-map-editor.png)
+    ![](images/file-checkout-map-editor.png){width="550" align="left"}
 
 1.  Click on any topic link to open it in the Web Editor for editing.
 
     You can open multiple topics in the editor and each topic is opened in a new tab in the editor. Even if your DITA map contains sub-maps, topics from the sub-maps are also opened in a new tab for editing. If you want to view the topics under a sub-map, you can click and expand the sub-map.
 
-    ![](images/web-editor-multiple-topics.png)
+    ![](images/web-editor-multiple-topics.png){width="800" align="left"}
 
     If you click a map file, the map is opened in a new tab of the web browser.
 
@@ -328,14 +328,14 @@ To edit topics through a DITA map, perform the following steps:
 
     -   You can save them individually. If you click on **Close Without Saving** your topics, you will see a dialog prompting you to save the unsaved topics:
 
-        ![](images/save-multiple-topics.PNG)
+        ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
         You can choose to save all selected topics or deselect the topics that you do not want to save.
 
     -   You can check in the topic using the **Save As New Version and Unlock** button. When you save a revision of the topic, a new revision is created and the lock is also release.
     -   If your administrator has enabled the option of checking in files on close, then you will be shown a prompt to save files whenever the checked out files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of checked-out files that need to be saved. The checked out files are shown with a lock icon:
 
-        ![](images/save-on-close.PNG)
+        ![](images/save-on-close.PNG){width="550" align="left"}
 
         -   Clicking on **Close Without Saving** button closes the files without saving any changes.
 
@@ -358,7 +358,7 @@ You can access a map's preview from:
 
 -   **Advanced Map Editor**: In the Advanced Map Editor, click on the Preview icon to see the preview of the current map.
 
-    ![](images/map-preview-icon.png)
+    ![](images/map-preview-icon.png){width="350" align="left"}
 
     You can perform the following additional tasks in the preview mode:
 

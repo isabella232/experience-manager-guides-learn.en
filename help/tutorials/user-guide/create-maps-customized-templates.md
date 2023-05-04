@@ -27,7 +27,7 @@ Perform the following steps to create a topic template:
 
 1.  In the **Assets UI**, navigate to the dita-templates folder.
 
-    ![](images/dita-templates.png)
+    ![](images/dita-templates.png){width="800" align="left"}
 
 1.  Click **topics** folder to open it.Click **Create \> DITA Template**.
 1.  On the Blueprint page, select **Topic** and then click **Next.**
@@ -49,7 +49,7 @@ Perform the following steps to create a map template:
 1.  Click **maps** folder to open it.
 1.  Click **Create \> DITA Template.**
 
-    ![](images/create-dita-template.png)
+    ![](images/create-dita-template.png){width="300" align="left"}
 
 1.  On the Blueprint page, select **Map** and click **Next**.
 1.  On the Properties page, specify the map template **Title**.
@@ -98,7 +98,11 @@ If you do not use curly brackets around the title the resultant DITA map only th
 Example
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## Use the map template to create new maps 
