@@ -13,8 +13,7 @@ As a reviewer, you can see an indicator in the comments panel to show that the r
 
 However, you can search or filter any comments. You can also choose to show or hide conditions and display conditionalized content accordingly. You can download any attachments but cannot upload or delete any attachments for the comments.
 
-<img src="images/complete-task-reviewer.png" alt="completed review task reviewer" width=800> 
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
  
 ## As an author
@@ -23,6 +22,6 @@ As an author you can see the status as closed in the Review panel. You can read 
 
 However, you can search or filter any comments. You can download any attachments but cannot upload or delete any attachments for the comments.
 
-<img src="images/completed-task-author.png" alt=" completed review task author" width=800>
+![](images/completed-task-author.png){width="800" align="left"}
 
 So, both as a reviewer or an author you can view the reviewed content along with the comments, but you cannot make any changes in a completed review task.

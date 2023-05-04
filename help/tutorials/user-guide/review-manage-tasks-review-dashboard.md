@@ -17,13 +17,13 @@ Perform the following steps to access and use the Review Dashboard:
 
     A Project panel with task tiles is displayed.
 
-    ![](images/review-management.png)
+    ![](images/review-management.png){width="800" align="left"}
 
 1.  Click the three dots in the **Reviews** tile.
 
     The Review Dashboard is displayed. The dashboard lists all review tasks that you have created.
 
-    ![](images/review-dashboard.png)
+    ![](images/review-dashboard.png){width="800" align="left"}
 
     The Review Dashboard displays the details about the review task such as the task name, who started the review, date when the review was started, due date, status, number of new comments that have not been accepted or rejected by the author, and name of reviewers. The tasks are listed in the order of newly created tasks to older tasks.
 
@@ -42,7 +42,7 @@ Perform the following steps to access and use the Review Dashboard:
 
 ## Task tab 
 
-![](images/review-task-page.png)
+![](images/review-task-page.png){width="800" align="left"}
 
 You can perform the following actions under the **Task** tab:
 
@@ -63,7 +63,7 @@ You can perform the following actions under the **Task** tab:
 
 ## Content tab 
 
-![](images/review-content-page.png)
+![](images/review-content-page.png){width="800" align="left"}
 
 You can perform the following actions under the **Content** tab:
 
@@ -82,7 +82,7 @@ You can perform the following actions under the **Content** tab:
 
 ## Reviewers tab {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png)
+![](images/reviewers-tab.png){width="800" align="left"}
 
 You can perform the following actions under the **Reviewers** tab:
 
@@ -103,7 +103,7 @@ You can perform the following actions under the **Reviewers** tab:
 
 From the main Review Dashboard page, if you select a review task and click **Status**, the status report of the review task is shown:
 
-![](images/review-status-report.png)
+![](images/review-status-report.png){width="800" align="left"}
 
 The status report for the review task contains the following details:
 

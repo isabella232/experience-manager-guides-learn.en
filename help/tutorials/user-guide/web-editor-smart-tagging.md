@@ -17,12 +17,12 @@ Perform the following steps to create smart tags:
 1.  Open the topic in Preview mode and select **Reprocess Assets** icon from the main toolbar.
 1.  Select XML Keyword Extract to extract relevant keywords.
 
-    ![](images/smart-tag-reprocess-asset.png)
+    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
 1.  Select the Run Post Process option. A message is displayed on the successful initiation of the tool.
 1.  The tags are automatically extracted and can be seen on the Properties page of the selected topic.
 
-    ![](images/properties-smart-tags.png)
+    ![](images/properties-smart-tags.png){width="800" align="left"}
 
     >[!NOTE]
     >

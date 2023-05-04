@@ -52,7 +52,7 @@ Perform the following steps to edit a DITAVAL file:
 
     Add a single property in your DITAVAL file.
 
-    ![](images/ditaval-editor-props.png)
+    ![](images/ditaval-editor-props.png){width="800" align="left"}
 
     The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
 
@@ -66,7 +66,7 @@ Perform the following steps to edit a DITAVAL file:
     >
     > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
 
-    ![](images/ditaval-all-props.png)
+    ![](images/ditaval-all-props.png){width="800" align="left"}
 
 1.  Once you have finished editing your DITAVAL file, click **Save**.
 
@@ -87,6 +87,6 @@ You can also find the version of the DITAVAL file that you are currently working
 
 To invoke the Smart Catalog, place the cursor at the end of any property definition and enter "<". The editor will show a list of all valid XML elements that you can insert at that location.
 
-![](images/ditaval-source-view.png)
+![](images/ditaval-source-view.png){width="800" align="left"}
 
 **Parent topic:**[Author content using AEM Guides](authoring-content-xml-doc.md)
