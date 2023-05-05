@@ -15,7 +15,7 @@ AEM Guides comes with the three out-of-the-box editors. you can use them to crea
 
 -   **[Work with the Map Editor](map-editor.md)**  
 
--   **[DITAVAL editor](ditaval-editor.md#)**  
+-   **[DITAVAL editor](ditaval-editor.md)**  
 
 
 **Parent topic:**[Author content](authoring-content.md)
