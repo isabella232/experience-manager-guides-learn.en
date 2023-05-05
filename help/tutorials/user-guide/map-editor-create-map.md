@@ -19,7 +19,7 @@ Perform the following steps to create a map file:
     >
     > The way the topics are referred in a map file depend on the map template. For example, if you select the Map template, then the topic references \(`topicref`\) are used to refer to topics. In case of a Bookmap, topic references are created using the `chapter` element in DITA.
 
-    ![](images/map-template.png)
+    ![](images/map-template.png){width="650" align="left"}
 
 1.  On the Properties page, specify the map **Title**.
 
@@ -35,7 +35,7 @@ Perform the following steps to create a map file:
 
     Every new map file that you create from the Assets UI **Create** \> **DITA Map** or the Web Editor is assigned a unique map ID. Also, the new map is saved as the latest working copy in DAM. Until you save a revision of a newly created map, you will not see any version number in the Version History. If you open the map for editing, the version information is shown in the right top corner of the map file's tab:
 
-    ![](images/first-version-map-none.png)
+    ![](images/first-version-map-none.png){width="650" align="left"}
 
     The version information for a newly created map is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. For more information about saving a new version, see [Save As New Version](web-editor-features.md#save-as-new-version-id209ME400GXA).
 

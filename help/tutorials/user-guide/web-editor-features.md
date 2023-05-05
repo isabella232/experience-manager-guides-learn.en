@@ -1002,9 +1002,9 @@ The Outline View offers the following features:
 
 Using the View Options dropdown, you can choose to see the following, if the element has them:
 
- -  **Show ID**: Shows the id of the element.
- -  **Show Attribute**: Shows the attribute along with its value.
- -  **Show Text**: Shows the text. If the text is longer than 20 characters, then an ellipsis is displayed.
+-  **Show ID**: Shows the id of the element.
+-  **Show Attribute**: Shows the attribute along with its value.
+-  **Show Text**: Shows the text. If the text is longer than 20 characters, then an ellipsis is displayed.
 
 If a block element has its own text, it is displayed along with that block element. If it does not have it's own text, the text of the first child element is displayed along with that block element. 
 

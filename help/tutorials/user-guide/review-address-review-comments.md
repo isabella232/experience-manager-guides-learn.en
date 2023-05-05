@@ -13,7 +13,7 @@ An author can address comments in a document from the Web Editor. Visual indicat
 >
 > While addressing review comments \(for an active review document\), ensure that you—do not open the in-review topic in multiple tabs with full tags view enabled, do not switch between the Author and Source view modes.
 
-![](images/comments-page-web-editor_cs.png)
+![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
 In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. The Tracked Changes panel shows the status of all inserted and deleted comments in your document.
 
@@ -35,11 +35,11 @@ In the Web Editor mode, the right panel contains the Review and Tracked Changes 
 
     If you want to incorporate the suggested change \(insertion or deletion\) one at a time, simply right-click on the comment in the content and select Accept Change or Reject Change. Depending on your selection, the comment is accepted or rejected. In case of accepted comment, the content is added in the content; and in case of rejection, it is removed from the content. Also, the status of the comment is changed in the Review panel.
 
-    ![](images/import-comment-accept-web-editor_cs.png)
+    ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
     You can also use the review feature in the right panel to accept or reject comments. Clicking on any comment highlights the comment in the document.
 
-    ![](images/changes-tab_cs.png)
+    ![](images/changes-tab_cs.png){width="800" align="left"}
 
     >[!IMPORTANT]
     >

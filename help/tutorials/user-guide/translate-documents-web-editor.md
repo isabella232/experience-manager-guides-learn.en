@@ -40,7 +40,7 @@ Before performing steps in this procedure, ensure that you have created the requ
     >
     > Language shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
 
-    ![](images/translation-languages.png)
+    ![](images/translation-languages.png){width="350" align="left"}
 
 1.  You can also use the following options:
 
@@ -66,11 +66,11 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   **Target Label**: Label for the selected version of the target file
 1.  Click **Send for Translation** on the top right corner.
 
-    ![](images/translation-send.png)
+    ![](images/translation-send.png){width="800" align="left"}
 
 1.  From the dropdown, select **Create a New Translation Project**.
 
-    ![](images/translation-project-types.png)
+    ![](images/translation-project-types.png){width="350" align="left"}
 
     Besides a new translation project, you also can select from the following options:
 
@@ -101,7 +101,7 @@ To add the source version label in the target copy, your system administrator mu
 
 For example, if you have some source files with the version label `Release 1.0` applied to them, then you can also pass on the source label \(`Release 1.0`\) to the translated file.
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ For example, if you have some source files with the version label `Release 1.0` 
 
 AEM Guides provides the feature to check the differences between the selected version and the last translated source version of the topics. You can choose to translate the **Out of Sync** files based on the changes made.
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 Select the **Show difference**icon \(![](images/show-difference-icon.svg)\) for a topic to see the differences between the last translated version and the current version of the selected file.
 
@@ -121,7 +121,7 @@ Select the **Show difference**icon \(![](images/show-difference-icon.svg)\) for 
 
 The **Version Difference** dialog appears. It shows the **Last translated version** and the **Selected version** number on the left. The preview window displays the differences between the last translated version and the selected version of the topic.
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## Dismiss out of sync assets 
 
@@ -132,7 +132,7 @@ To dismiss the Out of Sync status, perform the following steps:
 1.  Select the out of sync assets for which you want to change the status.
 1.  Select the **Mark In Sync** button \(![](images/translation-mark-in-sync-icon.svg)\) on top. The **Mark In Sync** dialog appears.
 
-    ![](images/translation-mark-in-sync.png)
+    ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1.  Click **Force Sync**. It sets the status to In sync for the selected Out of sync assets.
 
@@ -150,6 +150,6 @@ Some of the references on your translation dashboard might be in progress status
 
 Click the name of the reference in the dialog to open it in preview mode. You can also click the translation project to start the translation.
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

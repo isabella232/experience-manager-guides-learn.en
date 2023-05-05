@@ -36,7 +36,7 @@
             -   [Work with the Advanced Map Editor](map-editor-advanced-map-editor.md)
             -   [Work with the Basic Map Editor](map-editor-basic-map-editor.md)
             -   [Other features in the map editors](map-editor-other-features.md)
-        -   [DITAVAL editor](id17C5E0U0OQE.md#id17C5E0U0OQE)
+        -   [DITAVAL editor](ditaval-editor.md#ditaval-editor)
     -   [Author content using desktop tools](author-desktop-tools.md)
         -   [Work with FrameMaker](author-desktop-framemaker.md)
         -   [Work with Oxygen](author-desktop-oxygen.md)

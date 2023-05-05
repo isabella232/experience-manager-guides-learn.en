@@ -21,7 +21,7 @@ Perform the following steps to create output presets for your DITA map:
 
 1.  In the **Output** tab, select the + icon to create an output preset for your DITA map.
 
-    ![](images/output-tab-preset_cs.png)
+    ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1.  Enter the name of the preset in the Add preset dialog and then click **Add**.
 
@@ -37,19 +37,19 @@ Perform the following steps to create output presets for your DITA map:
     1.  From the **Articles** tab, select the topics for which you wish to generate the output.
 1.  Select the **Generate Preset** icon at the top to generate the output.
 
-    ![](images/add-preset-articles-tab_cs.png)
+    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1.  You will see the status of the output generation process. The **Topics** column lists the topics for which output is being generated while the **Status** column displays the publishing status of each topic.
 
     To view the output, hover the mouse pointer over the topic and click View Output.
 
-    ![](images/add-preset-output-generated_cs.png)
+    ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > You can also Edit, Rename, Duplicate, or Delete an existing output preset from the Options menu.
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **Parent topic:**[Article-based publishing from the Web Editor](web-editor-article-publishing.md)

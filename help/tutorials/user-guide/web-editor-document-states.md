@@ -63,11 +63,11 @@ To use the document approval feature, perform the following steps:
 
 1.  If your document is in the state to be marked as approved, the following dialog appears:
 
-    ![](images/mark-approved-correct-state.png){width="550" align="left"}
+    ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
     If your document cannot be marked as approved, then the following message is displayed:
 
-    ![](images/mark-approved-incorrect-state.png){width="550" align="left"}
+    ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
 
 1.  If your document is ready to be marked as approved, then select a label from the drop-down list and click **Approve**.
 
