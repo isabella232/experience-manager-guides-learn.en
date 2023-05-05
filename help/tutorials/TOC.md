@@ -80,7 +80,7 @@ breadcrumb-title: AEM Guides Tutorials
           + [Work with the Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
           + [Other features in the map editors](./user-guide/map-editor-other-features.md)
         + DITAVAL Editor {#ditaval-editor}  
-          + [Work with the DITAVAL editor](./user-guide/id17C5E0U0OQE.md)
+          + [Work with the DITAVAL editor](./user-guide/ditaval-editor.md)
       + Desktop tools for authoring content {#author-using-desktop-tools}
         + [Author content using desktop tools](./user-guide/author-desktop-tools.md)
         + [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
