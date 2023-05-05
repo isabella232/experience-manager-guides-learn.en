@@ -23,7 +23,7 @@ Consider the following point for translating content:
 
 The following illustration shows an example of a folder structure in AEM when you have globally used content and three language copies.
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## Configure translation service 
 

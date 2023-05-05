@@ -26,14 +26,3 @@ Information in the following sections is for publishers who will use the output 
 >
 > Features described in this topic are available to users with Publishers or administrator privileges only.
 
--   **[Understanding the output presets](fm-output-understand-presets.md)**  
-
--   **[PDF](fm-output-pdf-preset.md)**  
-
--   **[HTML5](fm-output-html5-preset.md)**  
-
--   **[EPUB](fm-output-epub-preset.md)**  
-
--   **[Generate output of .book or .fm files](fm-output-generate.md)**  
-
--   **[View the status of the output generation task](fm-output-view-status.md)**

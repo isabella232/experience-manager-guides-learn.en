@@ -80,7 +80,7 @@ To simplify publishing of complex maps and topics that link to other topics in o
 
 The publishing context allows you to specify which topic has to be used from which map for publishing a specific output. Let's understand this with the help of an example — let's say you have four folders: sample a, sample b, sample c, and sample d. Each folder contains a DITA map — DITA map A, DITA map B, DITA map C, and DITA map D. Cross-map linking will happen when a topic in DITA map A links to a topic in DITA map B, C, or D. In the following screenshot, a sample concept topic contains links \(or references\) to files that are a part of other DITA maps.
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 Now, when you configure the AEM Site publish settings for the map file that contains this topic, you can select which publishing context for the linked content is used while publishing. A publishing context is a combination of DITA map and its output preset. The output preset, in turn, contains a specific version of the content and conditional presets. This entire combination of the DITA map, output preset, \(files\) version, and conditions define the publishing context for a linked map.
 
@@ -137,8 +137,7 @@ If you are using `conref` in your content, then it is published as normal or emb
 
 You can search for a string in the AEM Site output. By default, you can search for the string in the titles only. To search for the string in the content or the body of the AEM site output, contact your system administrator to enable the flattening.enabled property. 
  
-
-<img src="images/aem-output-search.png" alt="Search AEM Site output" width="800">
+![Search AEM Site output](images/aem-output-search.png){width="650" align="left"}
 
 For more details see *Configure flattening of AEM Site node structure* section in the Install and configure Adobe Experience Manager Guides guide.
 

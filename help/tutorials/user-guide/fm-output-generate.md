@@ -11,7 +11,7 @@ Perform the following steps to generate output for FrameMaker documents:
 
     The DITA map console appears showing the list of Output Presets available to generate output.
 
-    ![](images/publish-fm-doc.png)
+    ![](images/publish-fm-doc.png){width="800" align="left"}
 
 1.  Select one or multiple Output Presets that you want to use for generating the output.
 

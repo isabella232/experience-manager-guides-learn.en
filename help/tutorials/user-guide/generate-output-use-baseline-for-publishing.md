@@ -41,7 +41,7 @@ Perform the following steps to create a baseline:
 
     -   **Label**: Select this option to pick the topics according to the label applied to them. Enter a label to filter the list based on the entered string. From the filtered out list, you can choose a label to select topics and other assets having the specified label.
 
-        When you select **Label**, you are also given an additional option to use the latest version of topics that do not have the specified label applied on them. If you do not select this option, and there's any topic or media file that doesn't have the specified label on it, then the baseline creation process will fail. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
+    When you select **Label**, you are also given an additional option to use the latest version of topics that do not have the specified label applied on them. If you do not select this option, and there's any topic or media file that doesn't have the specified label on it, then the baseline creation process will fail. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
 
     -   **Version on** <*time stamp*\>: Picks the topics' version as on the specified date and time. Note that the time that you specify here corresponds to the timezone of your AEM server. If your server is at a different timezone, then the topics will be picked up as per your server's timezone and not your local timezone.
 
@@ -49,7 +49,7 @@ Perform the following steps to create a baseline:
 
 1.  If you want to use a different version for one or more topics, then you can do so by manually selecting those topics. Click **Browse Topic**, select the topic for which you want to use a different version. From the Select a Version drop-down list for the selected topic, select a version of the topic that you want to use in the baseline and click **OK**.
 
-    ![](images/baseline-select-version-drop-down.png)
+    ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
     The information about the topic and it's selected version is stored in the backend. You can repeat this step to change the selected version for multiple topics.
 
@@ -127,7 +127,7 @@ Perform the following steps to add a label to multiple topics and referenced con
 
 1.  Click **Add Labels**.
 
-    ![](images/add-label-baseline-uuid.png)
+    ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
 1.  In the **Add Label** dialog, specify a unique label to associate with this baseline.
 
@@ -138,7 +138,7 @@ Perform the following steps to add a label to multiple topics and referenced con
     - Click **Add**.
         The specified label is added to the DITA map and the referenced topics and content.
 
-        ![](images/label-added-baseline-uuid.png)
+        ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Export translated Baseline {#id196SE600GHS}
@@ -157,7 +157,7 @@ Perform the following steps to export a translated Baseline:
 
 1.  In the **Translation** tab, expand the **Baseline** option available in the left rail.
 
-    ![](images/export-baseline.png)
+    ![](images/export-baseline.png){width="800" align="left"}
 
 1.  Select the **Use Baseline** option and choose the Baseline that you want to export.
 

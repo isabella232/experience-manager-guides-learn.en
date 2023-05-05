@@ -37,7 +37,7 @@ To create a bulk activation map collection, perform the following steps:
 
     The DITA map files are added to your bulk activation map collection.
 
-    ![](images/bulk-activation-collection-created.png)
+    ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 The Maps and Presets tab presents information in the following columns:

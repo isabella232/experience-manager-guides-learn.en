@@ -17,7 +17,7 @@ Perform the following steps to view the Conversion Status Report:
 
     The Conversion Status Report is displayed for all conversion tasks executed on the system.
 
-    ![](images/conversion-status-report.png)
+    ![](images/conversion-status-report.png){width="800" align="left"}
 
 1.  The report page is divided into two parts:
 
@@ -27,7 +27,7 @@ Perform the following steps to view the Conversion Status Report:
 
         The following screenshot displays the report data for conversion tasks that have Failed, Active, and Queued status.
 
-        ![](images/conversion-report-failed-active-queued.png)
+        ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
     -   **Report data:**
 
