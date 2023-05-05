@@ -51,7 +51,7 @@ Perform the following steps to edit a DITAVAL file:
     C: Add Property
     :   Add a single property in your DITAVAL file.
 
-        ![](images/ditaval-editor-props.png)
+        ![](images/ditaval-editor-props-new.png)
 
         The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
 
@@ -87,5 +87,5 @@ Source
 
     To invoke the Smart Catalog, place the cursor at the end of any property definition and enter "<". The editor will show a list of all valid XML elements that you can insert at that location.
 
-    ![](images/ditaval-source-view.png)
+    ![](images/ditaval-source-view-new.png)
 
