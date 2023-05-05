@@ -19,7 +19,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     If the Map Collections link is not available, then select the **Navigation** option in the left rail, and then click **Map Collections**.
 
-    ![](images/access-map-collection-left-rail.png)
+    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
 1.  Enter a Title for your map collection.
 1.  Click **Create**.
@@ -41,8 +41,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     The DITA map files are added to your Map Collection.
 
-
-![](images/maps_presets_62_63.png)
+    ![](images/maps_presets_62_63.png){width="800" align="left"}
 
 The following filtering options and map details are shown on the collection page:
 
@@ -86,6 +85,6 @@ To configure and generate the output using a Map Collection, perform the followi
 
 Similar to the way of canceling an output generation task from the [DITA map console](generate-output-for-a-dita-map.md#id2061H100T5Z) or the [Publish Dashboard](generate-output-publish-dashboard.md#), you can cancel an output generation task from a Map Collection. Access the Outputs tab of a Map Collection, and go to the publish task that you want to cancel, and click the **Cancel This Job** icon to cancel the publish task.
 
-![](images/cancel-publish-task-map-collection.png)
+![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
 **Parent topic:**[Output generation](generate-output.md)

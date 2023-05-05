@@ -9,7 +9,7 @@ When you have a large set of publishing tasks running on your system, it becomes
 
 The Publish Dashboard gives a complete overview of all publishing tasks currently running in the system.
 
-![](images/publish-dashboard.png)
+![](images/publish-dashboard.png){width="800" align="left"}
 
 The Publish Dashboard contains the following details:
 
@@ -31,7 +31,7 @@ The left panel in the Publish Dashboard provides the following filtering options
 
 - **Output Preset** - Select one or more output presets for which you want to see the currently active publishing tasks. In the following screenshot, the publishing tasks are filtered to show only those tasks that use the AEM Site output preset:
 
-![](images/publish-dashboard-preset-filter.png)
+    ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **Initiated By** - Select a username from the list to show the publishing tasks initiated by the selected user.
 
@@ -55,7 +55,7 @@ Perform the following steps to access the Publish Dashboard:
 
     If you click on the File Name link, the DITA map console of the selected map is shown.
 
-    ![](images/publish-dashboard-click-filename-link.png)
+    ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
 
 
 >[!NOTE]
@@ -70,13 +70,13 @@ Perform the following steps to cancel an output generation task from the Publish
 
 1.  From the list of active publishing tasks, click the delete icon of a task that you want to cancel.
 
-    ![](images/publish-dashboard-cancel-task.png)
+    ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
 
 1.  Click **Yes** on the Confirm Cancellation message prompt.
 
     The cancel command is accepted and cancellation is attempted as long as the task remains active. Once the task is successfully terminated, it is removed from the currently active task list. The task's status also gets updated in the DITA map console as Cancelled. In the following screenshot, the *HTML5* task is canceled from the Publish Dashboard and its status is also changed in the DITA map console.
 
-    ![](images/cancelled-output-task.png)
+    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 **Parent topic:**[Output generation](generate-output.md)

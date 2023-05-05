@@ -19,9 +19,10 @@ You can create a report of the topics by performing the following steps:
 1.  Click the **Manage** tab.
 1.  Double-click **Topic List** on the left. The list of topics present in the DITA map is displayed.
 
-    ![](images/web-editor-topiclist-panel.png)
+    ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
 
 1.  From the **Filters** Panel you can filter your topics based on the **Reference type** \(direct or indirect\), **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\) or the **Author** of the topic.
+
 1.  You can also use the following topic filtering options to choose to display the following columns in the list:
 
     -   **Topic** The title of the topic is specified in the DITA map. You can click the topic to edit it.
@@ -50,7 +51,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 1.  Click the **Manage** tab.
 1.  Double-click **Metadata** on the left. The metadata list of all the references in the DITA map is displayed. This includes the media references also.
 
-    ![](images/web-editor-metadata-panel.png)
+    ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1.  From the **Filters** panel you can filter your topics based on the **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, and Image\) of the reference.
 1.  You can also choose to view only the **Files with no tags** or also choose specific tags from the **Tags** filter to view the files associated with them.
@@ -85,7 +86,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 
 1.  Select **Manage** from the top.
 
-    ![](images/web-editor-manage-metadata.png)
+    ![](images/web-editor-manage-metadata.png){width="350" align="left"}
 
 1.  If you want to add any new tags, select new tags from the dropdown list to apply them to all selected topics. You can also delete any tag by clicking the cross icon near the tag.
 
@@ -107,11 +108,11 @@ The **Multimedia**report provides detailed information about the multimedia used
 
     -   When you order by **Multimedia**, the****name of the multimedia is displayed in the first column and then the names of all references in which they have been used, are displayed in another column on the same row. For example, the following screenshot shows the multimedia WarmCoolForC.gif in the first column and three references in which it is used, are displayed in the third column on the same row.
 
-        ![](images/multimedia-report-file-order.png)
+        ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
     -   If you order by **Used In** column, you will see the transposed view wherein the names of the references in which multimedia have been used are listed in the first column while the multimedia names are listed in another column on separate rows. For example, the following screenshot shows the names of three references \(Adjust the seat temperature, Change the seat temperature display, and Crew area\) in the first column and the multimedia WarmCoolForC.gif is displayed in the third column on three separate rows.
 
-        ![](images/multimedia-report-used-in-order.png)
+        ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1.  You can filter your multimedia based on the **Multimedia Type**, and **Reference Type**. The list of multimedia files is displayed based on your selection in the drop-down. For example, you can choose to display only the audio references in your DITA map, and a file shows only the audio references used in it.
 
@@ -130,10 +131,10 @@ The **Multimedia**report provides detailed information about the multimedia used
     >[!NOTE]
     >
     > Click **Refresh** to get a fresh list of multimedia and see any change in your map file or if any multimedia within your DITA map is updated.
-1. You can also click and play an audio or video file in the Web Editor. You can change the volume or
-the view of the video. In the shortcut menu you also have the options to download, change playback
-speed, or view picture in picture.
-![](images/video-web-editor.png)
+
+1.  You can also click and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.
+
+    ![](images/video-web-editor.png){width="800" align="left"}
 
 1.  Click **Download CSV** to download the current snapshot of the multimedia in the DITA map. The CSV contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia CSV file in any CSV editor.
 

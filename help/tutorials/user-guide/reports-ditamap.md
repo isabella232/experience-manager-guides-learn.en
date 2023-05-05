@@ -17,7 +17,7 @@ Perform the following steps to view the DITA Map Report:
 
 1.  Click **Reports**.
 
-    ![](images/reports-page-uuid.png)
+    ![](images/reports-page-uuid.png){width="800" align="left"}
 
     The Reports page is divided into two parts:
 
@@ -29,7 +29,7 @@ Perform the following steps to view the DITA Map Report:
 
         When you click on a topic, a detailed report of the selected topic is displayed.
 
-        ![](images/detailed-report-uuid.png)
+        ![](images/detailed-report-uuid.png){width="800" align="left"}
 
         Items highlighted under **A**, **B**, **C** and **D** are described below:
 
@@ -72,18 +72,18 @@ Perform the following steps to generate the CSV of a DITA map report:
 
 1.  Click **Generate Report** on the top-left to generate the DITA map report.
     
-    ![](images/generate-DITA-map-report.png)
+    ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
 1.  You will receive a notification once the report is ready to download. Click **Download** to download the CSV of the generated report.
 
-    ![](images/download-report-dialog.png)
+    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
     You can also download the CSV of the generated report later from the AEM notification Inbox.
 
     Click the generated report in the Inbox to download the report.
 
-    ![](images/report-inbox--notification.png)
+    ![](images/report-inbox--notification.png){width="300" align="left"}
 
 Once the report is downloaded in the Inbox you can also select the report and use the Open icon on the top to open the selected report.
 

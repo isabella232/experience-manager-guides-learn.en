@@ -17,7 +17,7 @@ Perform the following steps to view the translation status of a DITA map:
     >
     > You can further filter the content on the basis of their Translation Status \(as Out of Sync Missing Copy, In Progress, or In sync\), Source Type \(as All, DITA, DITA map, or Resource\), modification date. You can also enter keywords to search for specific topics.
 
-    ![](images/status-translation-uuid.png)
+    ![](images/status-translation-uuid.png){width="800" align="left"}
 
 
 The Translation tab has following sections:

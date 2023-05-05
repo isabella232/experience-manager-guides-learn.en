@@ -13,7 +13,7 @@ You can access this report from the following places:
 
 -   **Assets UI**: by selecting a file and opening the **Version History** from the left rail. The **Version History** view contains the **Revert Version Logs** link at the bottom of the panel. When you click on this link, the selected file's history of the reverted versions is displayed.
 
-    ![](images/revert-log-from-assets-ui.png)
+    ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 -   **Topic preview**: when you are previewing a topic, there also you can bring up the **Version History** panel from the left rail. You will get a panel similar to the Assets UI from where you can click the **Revert Version Logs** link to access the reverted version history of the active document.
 
@@ -32,7 +32,7 @@ Perform the following steps to access the Revert History report:
 
 1.  Click **Show Logs** to generate the report for the selected file or folder.
 
-    ![](images/revert-version-history-report.png)
+    ![](images/revert-version-history-report.png){width="800" align="left"}
 
     The report contains the following details:
 

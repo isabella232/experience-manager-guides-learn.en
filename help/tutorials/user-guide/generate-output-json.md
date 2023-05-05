@@ -32,7 +32,7 @@ The following options are available for the JSON preset:
 >
 > You can also edit the JSON file in the Web Editor.
 
-| JSON output options | Description |
+| JSON options | Description |
 | --- | --- |
 | Output Path | The path within your AEM repository where the JSON output is stored. |
 | Index File | You can give a name for the index file you're creating for the JSON output. By default, it picks the DITA map's file name and adds a suffix (like `map_filename_index.json`).<br><br>You can also use variables while setting the Index File. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#id18BUG70K05Z). |

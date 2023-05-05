@@ -17,14 +17,14 @@ Once you have created a map collection for bulk activation, the next step is to 
 
 1.  Select the collection that you want to publish and click **Open**.
 
-    ![](images/bulk-activation-collection-open.png)
+    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
 1.  \(*Optional*\) Apply the required filters from the left rail to filter map on the basis of their modified \(status\), output preset, or language:
 1.  Do one of the following:
 
     -   To activate output of selected maps, select the map files and click **Quick Publish**.
     -   To activate output of all DITA maps with their configured presets, select the check-box next to the Map \(column\), and then click **Quick Publish.**
-    ![](images/bulk-activation-collection-quick-publish.png)
+    ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 Once the output is activated for the selected map files, the Published column is updated with the current date and time.

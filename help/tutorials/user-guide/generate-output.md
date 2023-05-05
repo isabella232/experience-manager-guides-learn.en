@@ -38,26 +38,3 @@ Information in the following sections is for publishers who will use the output 
 >
 > Features described in this topic are available to users with Publishers or administrator privileges only.
 
--   **[Understanding the output presets](generate-output-understand-presets.md)**  
-
--   **[Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md)**  
-
--   **[Create, edit, duplicate, or remove an output preset](generate-output-create-edit-preset.md)**  
-
--   **[Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md)**  
-
--   **[Conditional attribute profiling](generate-output-conditional-attribute-profiling.md)**  
-
--   **[Use condition presets](generate-output-use-condition-presets.md)**  
-
--   **[Work with Baseline](generate-output-use-baseline-for-publishing.md)**  
-
--   **[Generate output for a DITA map from the map console](generate-output-for-a-dita-map.md)**  
-
--   **[Use Map Collection for output generation](generate-output-use-map-collection-output-generation.md)**  
-
--   **[Manage publish tasks using the Publish Dashboard](generate-output-publish-dashboard.md)**  
-
--   **[Basic troubleshooting](generate-output-basic-troubleshooting.md)**  
-
--   **[Bulk Activation of published content](conf-bulk-activation.md)**
