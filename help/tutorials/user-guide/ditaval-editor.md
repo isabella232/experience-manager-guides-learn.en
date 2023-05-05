@@ -51,7 +51,7 @@ Perform the following steps to edit a DITAVAL file:
     C: Add Property
     Add a single property in your DITAVAL file.
 
-    ![](images/ditaval-editor-props-new.png)
+    ![](images/ditaval-editor-props.png)
 
     The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
 
@@ -77,13 +77,13 @@ Perform the following steps to edit a DITAVAL file:
 
 AEM Guides' DITAVAL editor supports viewing DITAVAL files in two different modes or views:
 
-Author:   This is a typical What You See is What You Get \(WYSISYG\) view of the DITAVAL editor. You can add or remove properties using the simple user interface, which presents the properties, its values, and actions in drop-down list. In the Author view, you have the options to insert an individual property and insert all properties with a single click.
+**Author**:   This is a typical What You See is What You Get \(WYSISYG\) view of the DITAVAL editor. You can add or remove properties using the simple user interface, which presents the properties, its values, and actions in drop-down list. In the Author view, you have the options to insert an individual property and insert all properties with a single click.
 
 You can also find the version of the DITAVAL file that you are currently working on by hovering your pointer over the filename.
 
-Source:   The Source view displays the underlying XML that makes up the DITAVAL file. In addition to making regular text edits in this view, an author can also add or edit properties using the Smart Catalog.
+**Source**:   The Source view displays the underlying XML that makes up the DITAVAL file. In addition to making regular text edits in this view, an author can also add or edit properties using the Smart Catalog.
 
 To invoke the Smart Catalog, place the cursor at the end of any property definition and enter "<". The editor will show a list of all valid XML elements that you can insert at that location.
 
-![](images/ditaval-source-view-new.png)
+![](images/ditaval-source-view.png)
 
