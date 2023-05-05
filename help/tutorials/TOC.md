@@ -100,7 +100,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Work with metadata in AEM](./user-guide/metadata-dita.md)
     + [Smart Tagging](./user-guide/web-editor-smart-tagging.md)
     + [Bulk tagging of DITA content](./user-guide/map-editor-bulk-tagging.md)
-  + Content translatation {#translate-content}
+  + Content translation {#translate-content}
     + [Translate content](./user-guide/translation.md)
     + [Best practices for content translation](./user-guide/translation-first-time.md)
     + [View translation status](./user-guide/translation-view-trans-state-6234.md)
