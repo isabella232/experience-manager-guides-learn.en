@@ -1,3 +1,8 @@
+---
+title: Uninstall AEM Guides
+description: Learn how to Uninstall AEM Guides
+---
+
 # Uninstall AEM Guides {#id21BHG0C0SXA}
 
 You can uninstall AEM Guides using the CRX Package Manager. During the uninstall, the contents of the repository are reverted to the snapshot made immediately prior to the installation of the package.

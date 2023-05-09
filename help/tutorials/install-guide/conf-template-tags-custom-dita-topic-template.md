@@ -1,3 +1,8 @@
+---
+title: Configure custom DITA topic template
+description: Learn how to Configure custom DITA topic template
+---
+
 # Configure custom DITA topic template {#id16A7G0O02TD}
 
 The AEM Guides comes with the following DITA topic templates:

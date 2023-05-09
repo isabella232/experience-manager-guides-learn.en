@@ -1,3 +1,7 @@
+---
+title: Appendix
+description: Learn how to Prepare InDesign files for conversion
+---
 # Appendix {#id195AD0L60Y4}
 
 ## Prepare InDesign files for conversion {#id195DBF0045Z}

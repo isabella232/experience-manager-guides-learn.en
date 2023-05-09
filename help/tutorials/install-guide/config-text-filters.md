@@ -1,3 +1,8 @@
+---
+title: Configure text filters
+description: Learn how to Configure text filters
+---
+
 # Configure text filters {#id21BPD0FK0XA}
 
 AEM Guides provides the feature to search for text in the files present on the selected path of the AEM repository. You can use filter search to search files from the repository panel or to browse files. While working in the Web Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference.

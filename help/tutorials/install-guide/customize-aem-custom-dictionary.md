@@ -1,8 +1,13 @@
-# Customize AEM’s default dictionary {#id209SD8000WU}
+---
+title: Customize AEM's default dictionary
+description: Learn how to Customize AEM's default dictionary
+---
 
-The Web Editor can be configured to use AEM’s spell checker or the browser’s spell checker. If you choose to work with AEM’s spell checker, then you get the flexibility to define your custom words list. These custom words are then added to the AEM’s dictionary and these words are not flagged \(as incorrect\) in the Web Editor.
+# Customize AEM's default dictionary {#id209SD8000WU}
 
-Perform the following steps to create your custom words list, which are added in AEM’s dictionary:
+The Web Editor can be configured to use AEM's spell checker or the browser's spell checker. If you choose to work with AEM's spell checker, then you get the flexibility to define your custom words list. These custom words are then added to the AEM's dictionary and these words are not flagged \(as incorrect\) in the Web Editor.
+
+Perform the following steps to create your custom words list, which are added in AEM's dictionary:
 
 1.  Log into AEM and open the CRXDE Lite mode.
 

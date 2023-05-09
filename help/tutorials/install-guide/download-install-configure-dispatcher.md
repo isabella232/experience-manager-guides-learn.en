@@ -1,3 +1,8 @@
+---
+title: Configure Dispatcher
+description: Learn how to Configure Dispatcher
+---
+
 # Configure Dispatcher {#id213BCM0M05U}
 
 If you plan to use a Dispatcher on AEM Author instance along with AEM Guides, then you need to perform the following additional configurations to complete the setup:

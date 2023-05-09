@@ -1,3 +1,8 @@
+---
+title: Install packages for Article-based publishing
+description: Learn how to Install packages for Article-based publishing
+---
+
 # Install packages for Article-based publishing {#id21BNL02052Z}
 
 AEM Guides provides a powerful article-based publishing feature integrated with the Web Editor. Using this feature, you can publish one or more topics simultaneously. Once you have opened a map in the Map Editor, you can navigate to the Outputs tab to create a preset, and then choose one or more topics to generate the output. You can use the article-based publishing feature to incrementally generate output of one or more topics or publish your content to a knowledge base platform in an article-by-article fashion. For more details see, *Article-based publishing from the Web Editor section* in the User guide.

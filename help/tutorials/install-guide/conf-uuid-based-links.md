@@ -1,3 +1,8 @@
+---
+title: Configure display of UUID-based links
+description: Learn how to Configure display of UUID-based links 
+---
+
 # Configure display of UUID-based links {#id2035G20M0QN}
 
 By default, when you create a link using the Insert Reference or Insert Reuse Content option in the Web Editor, the link is created using the UUID of the referenced content. The **Link** property \(in Properties panel\) of the referenced content can be configured to show the relative file path of the referenced content or the UUID. This display is controlled by the **Enable UUIDs** option in the configMgr. By default, it is turned ON, which implies that the UUID of the referenced content is shown in the Properties panel.

@@ -1,3 +1,8 @@
+---
+title: Migrate non-DITA content
+description: Learn how to Migrate non-DITA content
+---
+
 # Migrate non-DITA content {#id181AH0R02HT}
 
 This section guides you through the migration process to migrate non-DITA documents into DITA format. AEM Guides provides migration from the following sources:

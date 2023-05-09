@@ -1,3 +1,8 @@
+---
+title: Translate content
+description: Learn how to Translate content
+---
+
 # Translate content {#id181GB0400UI}
 
 Automate the translation of page content, assets, and user-generated content to create and maintain multilingual websites. To automate translation workflows, you integrate translation service providers with AEM and create projects for translating content into multiple languages. AEM supports human and machine translation workflows.

@@ -1,3 +1,8 @@
+---
+title: Configure search for AEM Assets UI
+description: Learn how to Configure search for AEM Assets UI
+---
+
 # Configure search for AEM Assets UI {#id192SC800MY4}
 
 By default, AEM does not recognize DITA content, thus, it doesn't provide any mechanism to search DITA content within its repository. AEM Guides allows you to add the DITA content search capability in AEM repository.

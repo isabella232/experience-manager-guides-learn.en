@@ -1,3 +1,8 @@
+---
+title: Recommendations for performance optimization
+description: Learn the Recommendations for performance optimization
+---
+
 # Recommendations for performance optimization {#id213BD0JG0XA}
 
 ## Configure data store \(Mandatory\) 

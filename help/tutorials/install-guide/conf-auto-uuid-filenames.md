@@ -1,3 +1,8 @@
+---
+title: Configure auto-filenames based on UUID
+description: Learn how to Configure auto-filenames based on UUID
+---
+
 # Configure auto-filenames based on UUID {#id205QG070D5Z}
 
 By default, when a topic or map file is created, authors are given an option to specify the file name as well. Authors are free to assign the file names as per their requirements. However, this can bring in inconsistency and a wide range of files name can be seen in a large documentation system. As an administrator, you can restrict your authors from assigning file names for the files they create in your system. For every new topic or map file, you can choose to assign UUID-based file names automatically.

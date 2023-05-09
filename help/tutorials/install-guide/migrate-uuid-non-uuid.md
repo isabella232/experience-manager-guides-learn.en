@@ -1,3 +1,8 @@
+---
+title: Non-UUID to UUID content migration
+description: Learn how to Non-UUID to UUID content migration
+---
+
 # Non-UUID to UUID content migration {#id226TI0U20XA}
 
 >[!IMPORTANT]

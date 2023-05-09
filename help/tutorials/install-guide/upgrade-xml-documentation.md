@@ -1,3 +1,8 @@
+---
+title: Upgrade Adobe Experience Manager Guides
+description: Learn how to Upgrade Adobe Experience Manager Guides
+---
+
 # Upgrade Adobe Experience Manager Guides {#id224MBE0M0XA}
 
 You can upgrade your current version of AEM Guides to version 4.2.

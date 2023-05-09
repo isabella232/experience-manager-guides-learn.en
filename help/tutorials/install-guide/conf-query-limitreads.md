@@ -1,3 +1,8 @@
+---
+title: Configure the number of LimitReads for a query
+description: Learn how to Configure the number of LimitReads for a query
+---
+
 # Configure the number of LimitReads for a query {#id231RC0HL0ID}
 
 To increase the number of nodes that a query may read at a time, perform the following steps:

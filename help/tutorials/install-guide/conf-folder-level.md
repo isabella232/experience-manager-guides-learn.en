@@ -1,3 +1,8 @@
+---
+title: Configure global or folder-level profiles
+description: Learn how to Configure global or folder-level profiles
+---
+
 # Configure global or folder-level profiles {#id181AH2003PF}
 
 In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will see templates or profiles that are not relevant to them.

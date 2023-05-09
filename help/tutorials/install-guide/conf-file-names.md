@@ -1,3 +1,8 @@
+---
+title: Configure filenames
+description: Learn how to Configure filenames
+---
+
 # Configure filenames {#id214BD010GXA}
 
 This topic covers information about working with filenames for your DITA files. In case of UUID-based systems, you can choose to automatically define UUID-based filename and for regular systems, you can control the list of valid characters allowed in the filenames.

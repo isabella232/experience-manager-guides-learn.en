@@ -1,3 +1,8 @@
+---
+title: Configure document states
+description: Learn how to Configure document states
+---
+
 # Configure document states {#id181GB0400UI}
 
 AEM Guides lets you define the document states for your DITA topics according to your organization's requirements. You can define different states of your document from start to the end. For example, the first state can be Draft and it can move to Review, Approved, Translated, and finally to Published.

@@ -1,3 +1,8 @@
+---
+title: Configure and customize workflows
+description: Learn how to Configure and customize workflows
+---
+
 # Configure and customize workflows {#id181AI0OJ0RO}
 
 Workflows enable you to automate Adobe Experience Manager \(AEM\) activities. A workflow consists of a series of steps that are executed in a specific order. You can define a distinct activity to execute on each step. For example, you can send an email notification to all reviewers in a group when a topic review is created. Or, send a notification to the publisher when an output generation task completes.

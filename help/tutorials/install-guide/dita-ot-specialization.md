@@ -1,3 +1,8 @@
+---
+title: Use custom DITA-OT and DITA specialization
+description: Learn how to Use custom DITA-OT and DITA specialization
+---
+
 # Use custom DITA-OT and DITA specialization {#id181GAJ0005Z}
 
 The DITA Open Toolkit \(DITA-OT\) is a set of Java-based, open-source tools that provide processing for DITA maps and topic content. AEM Guides allows you to easily import and use custom DITA-OT plug-ins. Once imported, AEM Guides can be configured to use the custom DITA-OT plug-in to generate output in any format. At the time of generating the output, simply select the DITA-OT option and AEM Guides uses the custom DITA-OT plug-in to generate the required output.
