@@ -11,7 +11,7 @@ Before you begin the download and installation process, you must ensure that you
 
 -   **[Technical requirements](download-install-technical-requirements.md)**  
 
--   **[Install Adobe Experience Manager](download-install-AEM.md)**  
+-   **[Install Adobe Experience Manager](download-install-aem.md)**  
 
 -   **[Download and install AEM Guides for the first time](download-install-dxml-first-time.md)**  
 

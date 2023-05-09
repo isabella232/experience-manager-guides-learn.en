@@ -156,7 +156,7 @@ breadcrumb-title: AEM Guides Tutorials
   + Download and install {#download-install-aemg}
     + [Overview](./install-guide/download-install.md)
     + [Technical requirements](./install-guide/download-install-technical-requirements.md)
-    + [Install Adobe Experience Manager](./install-guide/download-install-AEM.md)
+    + [Install Adobe Experience Manager](./install-guide/download-install-aem.md)
     + [Download and install AEM Guides for the first time](./install-guide/download-install-dxml-first-time.md)
     + [Configure Dispatcher](./install-guide/download-install-configure-dispatcher.md)
     + [Verify AEM Guides installation](./install-guide/download-install-verify-dxml-installation.md)
