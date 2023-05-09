@@ -89,62 +89,22 @@ Perform the following steps to create a new profile and configure it to use cust
     |**Profile Properties**|
     |Profile Name|Provide a unique name for this profile.|
     |Reuse Output|*\(Optional\)* If your profile is based on an existing profile, then select this option. Selecting this option ensures that AEM Guides does not extract the contents of DITA-OT package again and reuses the existing DITA-OT package.|
-    |Profile Extract Path|*\(Optional\)* Specify the path where DITA-OT is kept on disk. By default, AEM Guides bundles a DITA-OT package in its repository and it is extracted on the disk at this path.
-
->[!NOTE]
->
-> You can define this path using any existing system variable or property. See description the [DITA-OT Environment Variables](#id181NH0YN0AX) property for more information.
-
-|
+    |Profile Extract Path|*\(Optional\)* Specify the path where DITA-OT is kept on disk. By default, AEM Guides bundles a DITA-OT package in its repository and it is extracted on the disk at this path.<br>**Note** You can define this path using any existing system variable or property. See description the [DITA-OT Environment Variables](#id181NH0YN0AX) property for more information.|
     |Assigned Path|\(*Optional*\) Specify the path in your content repository for which this profile is applicable. You can specify multiple locations.|
     |**DITA-OT Properties**|
-    |DITA-OT Timeout|\(*Optional*\) Specify the time \(in seconds\) for which AEM Guides waits for a response from the DITA-OT plug-in. If no response if received in the specified time, AEM Guides terminates the publishing task and the task is flagged as failed. Also, the failure logs are made available in the output generation log file.
-
-Default value: 300 seconds \(5 minutes\)
-
-|
-    |DITA-OT PDF Arguments|Specify the command-line arguments that are processed by the custom DITA-OT plug-in for generating the PDF output. For all custom DITA-OT profiles, specify the following command-line argument:`-lib plugins/org.dita.pdf2.fop/lib/`
-
-|
+    |DITA-OT Timeout|\(*Optional*\) Specify the time \(in seconds\) for which AEM Guides waits for a response from the DITA-OT plug-in. If no response if received in the specified time, AEM Guides terminates the publishing task and the task is flagged as failed. Also, the failure logs are made available in the output generation log file. <br>Default value: 300 seconds \(5 minutes\)|
+    |DITA-OT PDF Arguments|Specify the command-line arguments that are processed by the custom DITA-OT plug-in for generating the PDF output. For all custom DITA-OT profiles, specify the following command-line argument:`-lib plugins/org.dita.pdf2.fop/lib/`|
     |DITA-OT AEM Arguments|\(*Optional*\) Specify the custom command-line arguments that are processed by the custom DITA-OT plug-in for generating the AEM Site output.|
-    |DITA-OT Library Paths|\(*Optional*\) Specify the additional library paths of DITA-OT plug-in.
-
-|
-    |DITA-OT Build XML|\(*Optional*\) Specify the path of the custom Ant build script bundled with the customized DITA-OT plug-in. This path is relative to the DITA-OT directory on your file system.
-
-|
+    |DITA-OT Library Paths|\(*Optional*\) Specify the additional library paths of DITA-OT plug-in.|
+    |DITA-OT Build XML|\(*Optional*\) Specify the path of the custom Ant build script bundled with the customized DITA-OT plug-in. This path is relative to the DITA-OT directory on your file system.|
     |DITA-OT Ant Script Folder|\(Optional\) Specify the path of the DITA-OT Ant script folder. This path is relative to the DITA-OT directory on your file system.|
-    |DITA-OT Environment Variables|*\(Optional\)* Specify environment variables to pass on to the DITA-OT process. By default, AEM Guides adds four variables - `ANT_OPTS`, `ANT_HOME`, `PATH`, and `CLASSPATH`.
-
-You can reuse any of the existing system environment variables or properties for building new environment variables. For example, if you have `JAVA_HOME` system variable defined in your system and you want to define a new environment variable called `JAVA_BIN` that is built using `JAVA_HOME`. Then, you can add the definition of `JAVA_BIN` as:`JAVA_BIN= ${JAVA_HOME}/bin`
-
->[!NOTE]
->
-> You can also use Java system properties to build environment variables. For example, if AEM start script defines a Java system property `java.io.tmpdir` to a temporary directory, you can use this property to define new variable as: `${java.io.tmpdir}/fmdita/dita_ot`.
-
->[!IMPORTANT]
->
-> To reuse any existing system variable or property, it must be enclosed within `${}`.
-
-|
-    |Overwrite DITA-OT Output|*\(Optional\)* If this option is selected, then you can specify the DITA-OT package available on your local system to generate output using DITA-OT. This configuration is set on activation of the ConfigManager.
-
-If you want to specify the path of a DITA-OT package that is stored on AEM server, then deselect this option.
-
-|
+    |DITA-OT Environment Variables|*\(Optional\)* Specify environment variables to pass on to the DITA-OT process. By default, AEM Guides adds four variables - `ANT_OPTS`, `ANT_HOME`, `PATH`, and `CLASSPATH`. <br> You can reuse any of the existing system environment variables or properties for building new environment variables. For example, if you have `JAVA_HOME` system variable defined in your system and you want to define a new environment variable called `JAVA_BIN` that is built using `JAVA_HOME`. Then, you can add the definition of `JAVA_BIN` as:<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Note** You can also use Java system properties to build environment variables. For example, if AEM start script defines a Java system property `java.io.tmpdir` to a temporary directory, you can use this property to define new variable as: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Important** To reuse any existing system variable or property, it must be enclosed within `${}`.|
+    |Overwrite DITA-OT Output|*\(Optional\)* If this option is selected, then you can specify the DITA-OT package available on your local system to generate output using DITA-OT. This configuration is set on activation of the ConfigManager. <br> If you want to specify the path of a DITA-OT package that is stored on AEM server, then deselect this option.|
     |AEM DITA-OT Zip Path/ Local DITA-OT Directory Path|Depending on your selection in the Overwrite DITA-OT Output, specify the complete path where the custom DITA-OT.zip file is stored. This could be the path in your AEM repository or local system.|
     |DITA-OT Plug-in Path|Path of the custom plug-in. This plug-in is integrated automatically with the main DITA-OT package.|
     |Integrate Catalogs|\(*Optional*\) Path of the custom DTD and XSD catalog.xml files in the AEM repository. This should be provided only when the catalogs are missing from the DITA-OT package. These catalogs are automatically integrated with the main DITA-OT as a plug-in.|
     |Add System ID Catalog|\(*Optional*\) Select this option only if there are missing Public ID entries in the catalog or if the DITA files use only the System IDs that are relative to the server path from where they are uploaded.|
-    |DITA-OT Temporary Path|*\(Optional\)* Specify a temporary location where DITA files are copied for processing. Before DITA-OT processes files, they are copied at this temporary location. By default, the temporary storage location is:
-
-`<*AEM-Install*>/crx-quickstart/profiles/ditamaps`
-
->[!NOTE]
->
-> You can define this path using any existing system variable or property. See description the [DITA-OT Environment Variables](#id181NH0YN0AX) property for more information.
-
-|
+    |DITA-OT Temporary Path|*\(Optional\)* Specify a temporary location where DITA files are copied for processing. Before DITA-OT processes files, they are copied at this temporary location. By default, the temporary storage location is: <br> **Note** You can define this path using any existing system variable or property. See description the [DITA-OT Environment Variables](#id181NH0YN0AX) property for more information.|
 
     >[!NOTE]
     >
