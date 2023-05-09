@@ -279,11 +279,11 @@ The following example shows how to move a `title` into a `table`:
 
 **Paragraph style rules**
 
-The `paragraphStyleRule` elements are described below:
+The `<paragraphStyleRule>` elements are described below:
 
 ***`paraRule` element***
 
-The `paraRule` element is mandatory. This specifies the mapping rules for all Paragraph Styles. In an InDesign document, all text is contained within sub-structure of Paragraph Styles, even paragraphs without any style are named `[No paragraph style]`. The square brackets, these indicate a built\]in InDesign style name.
+The `paraRule` element is mandatory. This specifies the mapping rules for all Paragraph Styles. In an InDesign document, all text is contained within sub-structure of Paragraph Styles, even paragraphs without any style are named `[No paragraph style]`. The square brackets, these indicate a built in InDesign style name.
 
 >[!NOTE]
 >
