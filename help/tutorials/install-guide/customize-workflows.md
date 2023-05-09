@@ -54,12 +54,7 @@ You can create this script in the `/etc/workflows/scripts` node. The following t
 |`initiator`|String|User ID of the user initiating the review task.|
 |`operation`|String|A static value set as `AEM_REVIEW`.|
 |`orgTopics`|String|Path of the topics being shared for review. Specify multiple topics separated by comma.|
-|`payloadJson`|JSON object|Specify the following values: -   `base`: path of the parent folder containing the topic sent for review.
-
--   `asset`: path of the topic sent for review.
--   `referrer`: leave it blank.
-
-|
+|`payloadJson`|JSON object|Specify the following values:<br> - `base`: path of the parent folder containing the topic sent for review.<br>- `asset`: path of the topic sent for review. <br>- `referrer`: leave it blank.|
 |`deadline`|String|Specify the time in `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` format.|
 |`title`|String|Enter a title for the review task.|
 |`description`|String|Enter a description for the review task.|
@@ -197,20 +192,6 @@ The following properties govern how AEM Guides executes the post-processing work
 
 |Property|Bundle Name|Description|
 |--------|-----------|-----------|
-|Dynamic Outrefs
-
-|`com.adobe.fmdita.postprocess.PostProcessObservation`
-
-|For all files on which the post-processing has not been performed, it retrieves the outgoing references by parsing the topic files. It is recommended to keep this option disabled since it has a possibility of overloading the system if the number of files to be processed is large.
-
-|
-|Post Process Threads
-
-|`com.adobe.fmdita.config.ConfigManager`
-
-|Sets the number of post-processing threads to be used for post-processing workflow.
-
-The default value is 1.
-
-|
+|Dynamic Outrefs|`com.adobe.fmdita.postprocess.PostProcessObservation`|For all files on which the post-processing has not been performed, it retrieves the outgoing references by parsing the topic files. It is recommended to keep this option disabled since it has a possibility of overloading the system if the number of files to be processed is large.|
+|Post Process Threads|`com.adobe.fmdita.config.ConfigManager`|Sets the number of post-processing threads to be used for post-processing workflow. <br>The default value is 1.|
 
