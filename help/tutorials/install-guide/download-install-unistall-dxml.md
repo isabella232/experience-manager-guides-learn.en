@@ -27,6 +27,7 @@ To clean up the residual files after the uninstall, perform the following steps:
     ```
 
 1.  You can invalidate cache using:
+
     ```http
     http://<host>:<port>/libs/granite/ui/content/dumplibs.rebuild.html?back=true
     ```

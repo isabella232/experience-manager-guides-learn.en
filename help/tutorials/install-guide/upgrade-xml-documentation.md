@@ -44,7 +44,7 @@ Before you start the AEM Guides upgrade process, ensure that you have:
 Before you install version 4.0, perform the following steps:
 
 1.  Ensure at this point AEM Guides is on version 3.8.5.
-2.  Download the upgrade script package. To do so, search for "XML Documentation solution 4.0 Upgrade Package" on [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) which will download a zip file.
+1.  Download the upgrade script package. To do so, search for "XML Documentation solution 4.0 Upgrade Package" on [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) which will download a zip file.
 1.  Upload this package to AEM via Package Manager and install this package.
 1.  Once the upgrade package is installed, run the below given scripts in the same order and follow the given instructions:
 
@@ -54,13 +54,7 @@ This API is designed to assess the current system status and report if the upgra
 
 |End Point|/bin/dxml/upgrade/3xto4x/report|
 |Request Type|**GET** You can use a web browser, where you are logged in to the AEM instance as an administrator.|
-|Expected Response|-   In case all required nodes can be moved, you will get a passed check.
--   In case a node is present at the target location, you will get a relevant error. Clean up the repository \(delete node /var/dxml\) and reinstall the upgrade package and then trigger this endpoint again.
--   **Note:** This is not a common error as the target location is not used earlier by 3.x AEM Guides.
-
--   If this script does not succeed, do not proceed and report to your customer success team.
-
-|
+|Expected Response|-   In case all required nodes can be moved, you will get a passed check. <br>-   In case a node is present at the target location, you will get a relevant error. Clean up the repository \(delete node /var/dxml\) and reinstall the upgrade package and then trigger this endpoint again. <br>**Note:** This is not a common error as the target location is not used earlier by 3.x AEM Guides. <br> -   If this script does not succeed, do not proceed and report to your customer success team.|
 
 **System data migration API**
 
@@ -71,10 +65,7 @@ This API is designed to migrate the system data as mentioned in the [Migration M
 
 |End Point|/bin/dxml/upgrade/3xto4x|
 |Request Type|**POST** This script is a POST request hence should be executed via agents like Postman.|
-|Expected Response|-   Once the migration is successful, you can install XML Documentation solution version 4.0.
--   In case there are errors, restore to the last checkpoint and share the error logs along with API output with your customer success team.
-
-|
+|Expected Response|-   Once the migration is successful, you can install XML Documentation solution version 4.0.<br>-   In case there are errors, restore to the last checkpoint and share the error logs along with API output with your customer success team.|
 
 **Migration Mapping**: The above API migrates all the data under the source location to the target location.
 
@@ -217,8 +208,8 @@ After you install AEM Guides, you may merge the various configurations applicabl
     -   Any components overlayed from/libs/fmditaor/libsshould be compared with the new product code and updates should be done in overlayed files under/apps.
     -   Any clientlib categories used from product, should be reviewed for changes. Any overridden configurations \(examples below\) should be compared with the latest ones so as to get the latest features:
     -   -   elementmapping.xml
--   ui\_config.json\(may have been set in folder profiles\)
--   amended `com.adobe.fmdita.config.ConfigManager`
+    -   ui\_config.json\(may have been set in folder profiles\)
+    -   amended `com.adobe.fmdita.config.ConfigManager`
     -   Check if any of the custom code was using any old paths \(as mentioned in the [Migration Mapping](#id2244LE040XA)section\) - should be updated to the new paths so that the customizations also work as expected.
 1.  Read about any new configurations brought in the current release \(check [Release Notes](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.2.html)\) and see if any functionality is impacted then take appropriate action. An example could be to make use of "Improved file and version handling" introduced in version 4.0, for which you need to enable a configuration.
 
