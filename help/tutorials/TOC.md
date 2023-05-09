@@ -166,7 +166,7 @@ breadcrumb-title: AEM Guides Tutorials
   + [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
   + [User administration and security](./install-guide/user-admin-sec.md)
   + [Use custom DITA-OT and DITA specialization](./install-guide/dita-ot-specialization.md)
-  + [Configure document states](./install-guide/customize_doc_state.md)
+  + [Configure document states](./install-guide/customize-doc-state.md)
   + Content migration {#content-migration}
     + [Migrate existing content](./install-guide/migrate-content.md)
     + [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
