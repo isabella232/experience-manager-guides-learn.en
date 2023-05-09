@@ -188,6 +188,7 @@ breadcrumb-title: AEM Guides Tutorials
   + [Open DITA topic or map files in same tab](./install-guide/open-dita-files-same-tab.md)
   + [Configure a custom panel in the left panel](./install-guide/configure-custom-panel.md)
   + [Configure file auto-save in the Web Editor](./install-guide/auto-save-in-editor.md)
+  + [Configure filters for file browse dialog](./install-guide/conf-custom-file-filters.md)
   + [Configure prompt to save as a new version on close](./install-guide/conf-save-as-new-version-close.md)
   + [Configure prompt to check in a file on close](./install-guide/conf-checkin-file-close.md)
   + [Configure allowed special characters](./install-guide/conf-special-chars.md)
