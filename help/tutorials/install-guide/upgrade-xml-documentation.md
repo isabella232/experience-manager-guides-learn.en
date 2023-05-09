@@ -222,9 +222,9 @@ After you install AEM Guides, you may merge the various configurations applicabl
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level:
 
--   Run a POST request to the server \(with correct authentication\) - http://<server:port\>/bin/guides/map-find/indexing. \(Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed \|\| For example : https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>\)
+-   Run a POST request to the server \(with correct authentication\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed \|\| For example : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
--   The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}\(For example: http://<localhost:8080\>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42\_678\)
+-   The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://<localhost:8080\>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42\_678`\)
 
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 

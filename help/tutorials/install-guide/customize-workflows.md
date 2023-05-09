@@ -86,7 +86,7 @@ For more details about configuring the **Adobe Granite Workflow Purge Configurat
 
 ### Customize email templates 
 
-A number of the AEM Guides workflows make use of email notifications. For example, if you initiate a review task, an email notification is sent to the reviewers. However, to ensure that the email notification is sent, you have to enable this functionality in AEM. To enable email notification in AEM, see the article [Configuring Email Notification](https://docs.adobe.com/docs/en/aem/6-1/administer/operations/notification.html) in AEM documentation.
+A number of the AEM Guides workflows make use of email notifications. For example, if you initiate a review task, an email notification is sent to the reviewers. However, to ensure that the email notification is sent, you have to enable this functionality in AEM. To enable email notification in AEM, see the article [Configuring Email Notification](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en) in AEM documentation.
 
 AEM Guides contains a set of email templates that you can customize. Perform the following steps to customize these templates:
 

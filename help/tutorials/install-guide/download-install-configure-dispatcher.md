@@ -9,7 +9,7 @@ If you plan to use a Dispatcher on AEM Author instance along with AEM Guides, th
 
 >[!NOTE]
 >
-> Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For more details about using Dispatcher, see [Dispatcher Overview](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html).
+> Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For more details about using Dispatcher, see [Dispatcher Overview](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## Enable AllowEncodedSlashes in URLs 
 

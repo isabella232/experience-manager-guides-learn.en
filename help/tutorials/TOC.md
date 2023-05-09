@@ -156,7 +156,7 @@ breadcrumb-title: AEM Guides Tutorials
   + Download and install {#download-install-aemg}
     + [Overview](./install-guide/download-install.md)
     + [Technical requirements](./install-guide/download-install-technical-requirements.md)
-    + [Install Adobe Experience Manager](./install-guide/download-install+AEM.md)
+    + [Install Adobe Experience Manager](./install-guide/download-install-AEM.md)
     + [Download and install AEM Guides for the first time](./install-guide/download-install-dxml-first-time.md)
     + [Configure Dispatcher](./install-guide/download-install-configure-dispatcher.md)
     + [Verify AEM Guides installation](./install-guide/download-install-verify-dxml-installation.md)
@@ -171,7 +171,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Migrate existing content](./install-guide/migrate-content.md)
     + [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
     + [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
-  + Confiure UUID and non-UUID based filenames
+  + Confiure UUID and non-UUID based filenames {#conf-non-uuid-filename}
     + [Configure filenames](./install-guide/conf-file-names.md)
     + [Configure auto-filenames based on UUID](./install-guide/conf-auto-uuid-filenames.md)
     + [Configure Regx for valid file name characters](./install-guide/conf-file-names-valid-regx.md)
@@ -179,7 +179,7 @@ breadcrumb-title: AEM Guides Tutorials
   + Work with topic and map tempaltes {#topic-map-template}
     + [Configure topic and map templates](./install-guide/conf-template-tags.md)
     + [Configure custom DITA topic template](./install-guide/conf-template-tags-custom-dita-topic-template.md)
-    + [Configure custom DITA map template](c./install-guide/onf-template-tags-custom-dita-map-templates.md)
+    + [Configure custom DITA map template](c./install-guide/conf-template-tags-custom-dita-map-templates.md)
   + Work with the Web Editor configurations {#web-editor-configs}
   + [Customize Web Editor](./install-guide/conf-web-editor.md)
   + [Customize toolbar](./install-guide/conf-web-editor-customize-toolbar.md)

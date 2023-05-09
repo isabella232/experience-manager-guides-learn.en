@@ -1,5 +1,5 @@
 ---
-title: Disclaimer
+title: Disclaimer for AEM Guides Installation Guide
 description: This is the Disclaimer article for AEM Guides 
 ---
 

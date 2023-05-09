@@ -1,5 +1,5 @@
 ---
-title: Translate content
+title: Translate content in AEM Guides
 description: Learn how to Translate content
 ---
 
