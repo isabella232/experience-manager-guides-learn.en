@@ -25,9 +25,9 @@ Clicking the **Guides** link takes you directly to the Web Editor.
 
 As you have launched the Web Editor without selecting any file, a blank Web Editor screen is shown. You can open a file for editing from AEM repository or your Favorites collection.
 
-* Click the Guides icon (![](images/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
+-  Click the Guides icon (![](images/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
 
-* The **Close** button  takes you to a destination based on your setup: 
+-  The **Close** button  takes you to a destination based on your setup: 
 
 
 
