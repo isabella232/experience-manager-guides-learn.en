@@ -179,7 +179,7 @@ breadcrumb-title: AEM Guides Tutorials
   + Work with topic and map tempaltes {#topic-map-template}
     + [Configure topic and map templates](./install-guide/conf-template-tags.md)
     + [Configure custom DITA topic template](./install-guide/conf-template-tags-custom-dita-topic-template.md)
-    + [Configure custom DITA map template](c./install-guide/conf-template-tags-custom-dita-map-templates.md)
+    + [Configure custom DITA map template](./install-guide/conf-template-tags-custom-dita-map-templates.md)
   + Work with the Web Editor configurations {#web-editor-configs}
   + [Customize Web Editor](./install-guide/conf-web-editor.md)
   + [Customize toolbar](./install-guide/conf-web-editor-customize-toolbar.md)
