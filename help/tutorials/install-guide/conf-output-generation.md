@@ -43,24 +43,11 @@ To configure AEM Guides to use FMPS, update the following properties of the `com
 
 |Property|Description|
 |--------|-----------|
-|FrameMaker Publishing Server Login Domain|Specify the domain name or the workgroup name on which the FrameMaker Publishing Server is hosted. Based on the FMPS version, provide the domain name as:-   **FMPS 2020**: IP address as 192.168.1.101
--   **FMPS 2019 and earlier**: IP address or the domain name
-
-|
-|FrameMaker Publishing Server URL|Specify the URL of the FrameMaker Publishing Server. Based on the FMPS version, provide the FMPS URL as:-   **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\)
--   **FMPS 2019 and earlier**: `http://<fmps_ip>:<port>/fmserver/v1/`
-
-|
-|FMPS Version|Specify the version number of the FrameMaker Publishing Server. Based on the FMPS version, provide the version information as:-   **FMPS 2020**: 2020
--   **FMPS 2019 and earlier**: 2019 or 2017
-
-|
+|FrameMaker Publishing Server Login Domain|Specify the domain name or the workgroup name on which the FrameMaker Publishing Server is hosted. Based on the FMPS version, provide the domain name as:-   **FMPS 2020**: IP address as 192.168.1.101 <br>- **FMPS 2019 and earlier**: IP address or the domain name|
+|FrameMaker Publishing Server URL|Specify the URL of the FrameMaker Publishing Server. Based on the FMPS version, provide the FMPS URL as:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 and earlier**: `http://<fmps_ip>:<port>/fmserver/v1/`|
+|FMPS Version|Specify the version number of the FrameMaker Publishing Server. Based on the FMPS version, provide the version information as: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 and earlier**: 2019 or 2017|
 |FrameMaker Publishing Server Username and Password|Specify the user name and password to access the FrameMaker Publishing Server.|
-|FMPS Timeout|\(*Optional*\) Specify the time \(in seconds\) for which AEM Guides waits for a response from the FrameMaker Publishing Server. If no response if received in the specified time, AEM Guides terminates the publishing task and the task is flagged as failed.
-
-Default value: 300 seconds \(5 minutes\)
-
-|
+|FMPS Timeout|\(*Optional*\) Specify the time \(in seconds\) for which AEM Guides waits for a response from the FrameMaker Publishing Server. If no response if received in the specified time, AEM Guides terminates the publishing task and the task is flagged as failed. <br> Default value: 300 seconds \(5 minutes\)|
 |External AEM URL|*\(Optional\)* The AEM URL where the FrameMaker Publishing Server will place the generated output files. For example, `http://<server-name>:<port>/`.|
 |AEM Admin Username and Password|*\(Optional\)* The user name and password for an administrator of your AEM setup. This will be used by FrameMaker Publishing Server to communicate with AEM.|
 |FMPS Task Execution Wait Timeout|This setting is applicable only for FMPS 2020. Specify the time \(in seconds\) after which FMPS will stop waiting for this process to execute.|
@@ -96,16 +83,8 @@ Perform the following steps to configure your existing site's template propertie
 
     |Property name|Type|Value|
     |-------------|----|-----|
-    |`topicContentNode`|String|Specify the node name where you would like to publish the DITA content. For example, the default node where AEM Guides publishes DITA content is:
-
-`jcr:content/contentnode`
-
-|
-    |`topicHeadNode`|String|Specify the node name where you would like to store the metadata information of your DITA content. For example, the default node where AEM Guides stores metadata information is:
-
-`jcr:content/headnode`
-
-|
+    |`topicContentNode`|String|Specify the node name where you would like to publish the DITA content. For example, the default node where AEM Guides publishes DITA content is: <br>`jcr:content/contentnode`|
+    |`topicHeadNode`|String|Specify the node name where you would like to store the metadata information of your DITA content. For example, the default node where AEM Guides stores metadata information is: <br>`jcr:content/headnode`|
 
 
 The following screenshot shows the properties added in the default template node of AEM Guides:
@@ -173,15 +152,7 @@ Perform the following steps to specify your own design template to use for AEM S
 
     |Property|Description|
     |--------|-----------|
-    |`landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate`|Specify the `cq:Template` node for these corresponding pages \(landing, search, and topic\). By default the `cq:Template` node for these pages can be found in `/libs/fmdita/templates/default/cqtemplates` node. This node defines the structure and properties of the landing, search, and topic pages.
-
-The `shadowPageTemplate` is used to optimize the chunked content. You need to set the value of this property to: `fmdita/templates/default/cqtemplates/shadowpage`
-
->[!NOTE]
->
-> You must specify a value for the `topicPageTemplate`. The `landingPageTemplate` and `searchPageTemplate` are optional properties. If you do not want the search and landing pages to generate, do not specify these properties.
-
-|
+    |`landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate`|Specify the `cq:Template` node for these corresponding pages \(landing, search, and topic\). By default the `cq:Template` node for these pages can be found in `/libs/fmdita/templates/default/cqtemplates` node. This node defines the structure and properties of the landing, search, and topic pages. <br>The `shadowPageTemplate` is used to optimize the chunked content. You need to set the value of this property to: <br> `fmdita/templates/default/cqtemplates/shadowpage` <br> **Note** You must specify a value for the `topicPageTemplate`. The `landingPageTemplate` and `searchPageTemplate` are optional properties. If you do not want the search and landing pages to generate, do not specify these properties.|
     |`title`|A descriptive name of your design template.|
     |`topicContentNode`|The location of the node that will contain the DITA content in a topic page. Path is relative to the topic page.|
     |`topicHeadNode`|The location of the node that will contain the head values \(or metadata\) derived from the DITA content. Path is relative to topic page.|
@@ -294,7 +265,7 @@ To flatten AEM Site node structure, perform the following steps:
 
     1.  Overlay of the `libs` node in the `apps` node and open the elementmapping.xml file.
 
-    2.  Add the `<flatten>true</flatten>` property in the definition of the element at which you want to flatten the node structure. For example, if you want to flatten the node structure at the `p` element, then add the flatten attribute in the definition of `p` element as shown below:
+    1.  Add the `<flatten>true</flatten>` property in the definition of the element at which you want to flatten the node structure. For example, if you want to flatten the node structure at the `p` element, then add the flatten attribute in the definition of `p` element as shown below:
 
         ```XML
         <ditaelement>
@@ -322,11 +293,11 @@ To flatten AEM Site node structure, perform the following steps:
         http://<server name>:<port>/system/console/configMgr
         ```
 
-    2.  Search for and click on the *com.adobe.dxml.flattening.FlatteningConfigurationService* bundle.
+    1.  Search for and click on the *com.adobe.dxml.flattening.FlatteningConfigurationService* bundle.
 
-    3.  Select the **Property flattening.enabled** option.
+    1.  Select the **Property flattening.enabled** option.
 
-    4.  Click **Save**.
+    1.  Click **Save**.
 
 
 >[!IMPORTANT]
@@ -363,7 +334,7 @@ Perform the following steps to stop the creation of a version for the page\(s\) 
 
 1.  Select**Do Not Create Version for Deleted Pages** option.
 
-        >[!NOTE]
+    >[!NOTE]
     >
     > With this option selected, users will be able to directly delete any page\(s\) without creating any version for them. If the option is not selected, then a version is created before the page\(s\) are deleted.
 
@@ -404,11 +375,11 @@ To add the required metadata in the system, perform the following steps:
 
     1.  From the **Build Form** components list, drag-and-drop **Single Line Text** component onto the form.
 
-    2.  Select the new field to open the **Settings** of the field.
+    1.  Select the new field to open the **Settings** of the field.
 
-    3.  In the **Field Label**, enter the metadata name— Audience.
+    1.  In the **Field Label**, enter the metadata name— Audience.
 
-    4.  In the **Map to Property** setting, specify ./jcr:content/metadata/<name of the metadata\>. For our example, we will set it to ./jcr:content/metadata/audience.
+    1.  In the **Map to Property** setting, specify ./jcr:content/metadata/<name of the metadata\>. For our example, we will set it to ./jcr:content/metadata/audience.
 
     Using these steps, add all required metadata parameters.
 
@@ -538,6 +509,7 @@ A high-level overview of the `elementmapping.xml` structure is explained below:
     Similarly, if there are DITA elements with structural specialization and a component is mapped for structural specialization, then that component is given high priority.
 
 1.  You can use `<attributemap>` in element mapping to map attribute values to the corresponding node properties.
+
 1.  `textprop` can be used for serializing the text content of a DITA element to a node property. In addition, it can be used multiple times in an element tag to serialize the text content at multiple locations in published hierarchy. You can also customize the location and name of the target property. For example:
 
     ```XML
@@ -618,54 +590,18 @@ The following table describes the elements in the DITA element schema:
 |Element|Description|
 |-------|-----------|
 |`<ditaelement>`|The top-level node for each mapping element.|
-|`<class>`|The class attribute of the target DITA element for which you are writing the component.
-
-For example, the class attribute for the DITA topic is:
-
-```XML
-- topic/topic
-```
-
-|
+|`<class>`|The class attribute of the target DITA element for which you are writing the component. <br>For example, the class attribute for the DITA topic is: <br>`topic/topic`|
 |`<componentpath>`|The CRXDE path of the mapped AEM component.|
-|`<type>`|Possible values:
-
--   **COMPOSITE**: Process child elements as well
--   **STANDALONE**: Skips processing of child elements
-
-|
-|`<attributeprop>`|Used for mapping serialized DITA attributes and values to AEM nodes as property. For example, if you have `<note type="Caution">` element and the component that is mapped for this element has `<attributeprop>attr_t</ attributeprop>`, then the node's attribute and value is serialized to `attr_t` property of the corresponding AEM node \( `attr_t->type="caution"`\).
-
-|
-|`<textprop>propname_t</textprop>`|Save the `getTextContent()` output to property defined by `propname_t.`**Note:**  This is an optimized property.
-
-|
-|`<xmlprop>propname_x </xmlprop>`|Save serialized XML of this node to property defined by `propname_x.`**Note:** This is an optimized property.
-
-|
+|`<type>`|Possible values: <br>- **COMPOSITE**: Process child elements as well <br>- **STANDALONE**: Skips processing of child elements|
+|`<attributeprop>`|Used for mapping serialized DITA attributes and values to AEM nodes as property. For example, if you have `<note type="Caution">` element and the component that is mapped for this element has `<attributeprop>attr_t</ attributeprop>`, then the node's attribute and value is serialized to `attr_t` property of the corresponding AEM node \( `attr_t->type="caution"`\).|
+|`<textprop>propname_t</textprop>`|Save the `getTextContent()` output to property defined by `propname_t.` **Note:**  This is an optimized property.|
+|`<xmlprop>propname_x </xmlprop>`|Save serialized XML of this node to property defined by `propname_x.` **Note:** This is an optimized property.|
 |`<xpath>`|If XPath element is provided in the element mapping, then along with element name and class the XPath condition should also be satisfied for the component mapping to be used.|
-|`<target>`|Place for the DITA element in the crx repository at specified location.
-
-Possible values:
-
--   **head**: Under the head node
--   **text**: Under the paragraph node
-
-|
+|`<target>`|Place for the DITA element in the crx repository at specified location. <br>Possible values:<br>- **head**: Under the head node <br>- **text**: Under the paragraph node|
 |`<wrapelement>`|The HTML element to wrap the contents within.|
 |`<wrapclass>`|The element value to the property `wrapclass.`|
 |`<attributemap>`|Container node containing one or more `<attribute>` nodes.|
-|`<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />`|Maps the DITA attributes to AEM properties:
-
--   **`from`**: DITA attribute name
-
--   **`to`**: AEM component property name
--   **`ispath`**: If the attribute is a path value \(for example: *image*\)
--   **`rel`**: If the path is the source or target
-
-**Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'.
-
-|
+|`<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />`|Maps the DITA attributes to AEM properties:<br>- **`from`**: DITA attribute name<br>- **`to`**: AEM component property name <br>- **`ispath`**: If the attribute is a path value \(for example: *image*\)<br>- **`rel`**: If the path is the source or target <br>**Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'.|
 
 **Additional notes**
 
