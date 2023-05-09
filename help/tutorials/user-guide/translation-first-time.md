@@ -98,6 +98,16 @@ Perform the following steps to create a translation project:
 
     A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies area available in the translation project, you can then go ahead and start the translation job.
 
+    ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+The Translation tab has following sections:
+
+-   **Summary**: Shows the number of referenced topics and source language along with its code.
+-   **Details**: Shows the topic title, type of topic, language code of the topic, source language, version of the source topic, label added to the topic, and translation status.
+
+
+
 
 ## Start the translation job {#id225IK030OE8}
 
