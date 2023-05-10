@@ -276,6 +276,7 @@ Before you start the AEM Guides 4.2 upgrade process, ensure that you have:
 
 POST:
 ```
+
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
