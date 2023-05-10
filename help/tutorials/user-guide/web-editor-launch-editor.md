@@ -40,7 +40,7 @@ As you have launched the Web Editor without selecting any file, a blank Web Edit
 
     <details>
 
-    <summary> On-Premise Offering </summary>
+    <summary> On-Premise </summary>
 
     If you're using AEM Guides On-prem Service (4.2.1 and later), click the **Close** button on the right to go back to your current file path in the Assets UI.
 
