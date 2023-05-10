@@ -29,7 +29,7 @@ breadcrumb-title: AEM Guides Tutorials
     + On-prem/Managed Services {#on-prem-release-notes}
       + 4.2 Release {#42-release}
         + What's new {#42-whats-new}
-          + [4.2 What's new](./release-info/release-notes-4.2.md)
+          + [4.2 What's new](./release-info/whats-new-4.2-release.md)
         + Fixed issues {#42-fixed-issues}
           + [4.2 Release Notes](./release-info/release-notes-4.2.md)
       + [4.1.x Release Notes](./release-info/release-notes-4.1.md)
