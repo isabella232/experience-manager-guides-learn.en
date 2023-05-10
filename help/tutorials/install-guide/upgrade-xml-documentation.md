@@ -235,15 +235,15 @@ Perform the following steps for indexing the existing content and use the new fi
 
 ## Upgrade to version 4.2.1 {#upgrade-version-4-2-1}
 
-Upgrading to version 4.2 depends on the current version of AEM Guides.
+Upgrading to version 4.2.1 depends on the current version of AEM Guides.
 
-If you are using version 4.0, 4.1 or 4.1.x, then you can directly upgrade to version 4.2.
+If you are using version 4.1 or 4.1.x, or 4.2 then you can directly upgrade to version 4.2.1.
 
 ****Prerequisites****
 
 Before you start the AEM Guides 4.2 upgrade process, ensure that you have:
 
-1.  Upgraded to AEM Guides version 4.0, 4.1 or 4.1.x.
+1.  Upgraded to AEM Guides version 4.1, 4.1.x, or 4.2.
 1.  Closed all translation tasks.
 1.  Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log.`
 
@@ -251,10 +251,10 @@ Before you start the AEM Guides 4.2 upgrade process, ensure that you have:
 >
 > You should close all active reviews. If the review tasks are not closed while upgrading to 4.2, the older in-progress review tasks keep taking users on the older review pages, and the review tasks created after the upgrade will display the latest updates in the functionality.
 
-## Install version 4.2 {#id2245IK0E0EV}
+## Install version 4.2.1 
 
-1.  Download 4.2 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1.  Install version 4.2 package.
+1.  Download 4.2.1 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1.  Install version 4.2.1 package.
 1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-serverlet).
 
 1.  After you complete the package installation, wait for the following message\(s\) in the logs:
@@ -278,6 +278,7 @@ POST:
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
+
 Response: 
 
 ```
@@ -287,11 +288,14 @@ Response:
 "status": "SCHEDULED"
 }
 ```
+
 In the above response JSON, the key "lockNodePath" holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
 
 Sample log:
 The following is a sample of logs that will appear in log file after you the script. 
-```04.05.2023 14:17:12.876 *INFO* [[0:0:0:0:0:0:0:1] [1683190032736] POST /bin/guides/script/start HTTP/1.1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Acquiring lock for job : translation-map-upgrade
+
+```
+04.05.2023 14:17:12.876 *INFO* [[0:0:0:0:0:0:0:1] [1683190032736] POST /bin/guides/script/start HTTP/1.1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Acquiring lock for job : translation-map-upgrade
 04.05.2023 14:17:12.897 *INFO* [pool-59-thread-1] com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Starting the thread to upgrade translation map from V1 to V2
 04.05.2023 14:17:12.899 *INFO* [pool-59-thread-1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Initiating lock for node : /var/dxml/executor-locks/translation-map-upgrade/1683190032886
 04.05.2023 14:17:12.901 *INFO* [pool-59-thread-1] com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Starting porting of translation map from V1 to V2
@@ -300,11 +304,12 @@ The following is a sample of logs that will appear in log file after you the scr
 04.05.2023 14:17:12.907 *INFO* [pool-59-thread-1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Releasing lock for node : /var/dxml/executor-locks/translation-map-upgrade/1683190032886
 04.05.2023 14:17:12.909 *INFO* [pool-59-thread-1] com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2
 ```
+
 Look for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` and `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` before proceeding to the next steps.
 
 
 
-## After you install version 4.2 {#id2326F02004K}
+## After you install version 4.2.1 
 
 >[!IMPORTANT]
 >
