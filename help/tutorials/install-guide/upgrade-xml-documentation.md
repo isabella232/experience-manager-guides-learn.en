@@ -294,7 +294,7 @@ Response:
 In the above response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
 
 Sample log:
-The following is a sample of logs that will appear in the log file after you post the script. 
+The following is a sample of logs that will appear in the log file after you trigger the script. 
 
 ```
 04.05.2023 14:17:12.876 *INFO* [[0:0:0:0:0:0:0:1] [1683190032736] POST /bin/guides/script/start HTTP/1.1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Acquiring lock for job : translation-map-upgrade
