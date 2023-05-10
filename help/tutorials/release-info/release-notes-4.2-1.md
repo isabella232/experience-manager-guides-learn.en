@@ -1,6 +1,6 @@
 ---
-title: Release Notes | What's New in Adobe Experience Manager Guides 4.2 release
-description: Learn the new and enhanced features in 4.2 releases of Adobe Experience Manager Guides
+title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.2.1 release
+description: Learn about the bug fixes and how to upgrade to  4.2.1 releases of Adobe Experience Manager Guides
 ---
 # 4.2 release of Adobe Experience Manager Guides (February 2023)
 
