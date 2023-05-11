@@ -6,9 +6,7 @@ description: Learn the new and enhanced features in 4.2.1 releases of Adobe Expe
 
 This article covers the new and enhanced features in version 4.2.1 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
->[!NOTE]
->
->For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-4.2.1.md) article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-4.2.1.md) article.
 
 ## Navigate from the Web Editor to the AEM homepage 
 
@@ -27,7 +25,7 @@ AEM Guides now provides advanced support for the metadata which is mapped to the
 
 You can import a XMP file and AEM Guides can pick the information from the file. You also have the option to provide the metadata names and values using the dropdown. You can also add custom metadata by typing directly in the name field.
 
-For more details, see **Metadata** feature description in the [Create a PDF output preset](../web-editor/native-pdf-web-editor.md) section.
+For more details, see **Metadata** feature description in [Create a PDF output preset](../web-editor/native-pdf-web-editor.md).
 
 ### Enhanced Outline View panel
 
@@ -60,6 +58,7 @@ AEM Guides  now allows you to quickly identify the changed topics in the TOC of 
 
 <img src="assets/change-marker-toc.png" alt="Change marker in TOC " width=500> 
 
+For more details, see [Work with custom change bars styles](../native-pdf/change-bar-style.md).
 
 
 
@@ -67,9 +66,12 @@ AEM Guides  now allows you to quickly identify the changed topics in the TOC of 
 
 Now you can style the page marker in the foot notes. For example, you can add brackets or change their color. These styles help the users easily identify the page markers in the document.
 
+For more details, see [Use custom styles in footnotes](../native-pdf/footnote-number-style.md).
+
 ## Open and play video or audio files in the Web Editor
 
 AEM Guides now provides the feature to open and play the audio or video files in the Web Editor. You can change the volume or the view of the video. In the shortcut menu, you  also have the options to **Download**, change **Play back Speed**, or view **Picture in Picture**.
 
 <img  src ="assets/video-web-editor.png" alt="play video" width=600>
 
+For more details, see the Repository View feature description in the [Left Panel](../user-guide/web-editor-features.md) section.

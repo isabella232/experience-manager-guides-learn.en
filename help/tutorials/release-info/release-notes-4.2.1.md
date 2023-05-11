@@ -6,10 +6,12 @@ description: Learn about the bug fixes and how to upgrade to  4.2.1 releases of 
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed version 4.2.1 release of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
+For more information about the new features and enhancements, see [What's new in 4.2.1 release of Adobe Experience Manager Guides](whats-new-4.2.1-release.md).
+
 ## Upgrade to 4.2.1 release of AEM Guides
 
 
-You can easily upgrade your current version of AEM Guides to version 4.2.1 Before you proceed with upgrading to version 4.2 of AEM Guides, you must consider the following points:
+You can easily upgrade your current version of AEM Guides to version 4.2.1 Before you proceed with upgrading to version 4.2.1 of AEM Guides, you must consider the following points:
 You can upgrade your current version of AEM Guides to version 4.2.1
 *   If you are using version 4.1, 4.1.x, or 4.2, then you can directly upgrade to version 4.2.1.
 *   If you are using version 4.0 you need to upgrade to version 4.2 or 4.1 before upgrading to version 4.2.1.
@@ -24,7 +26,7 @@ For details, see [Upgrade instructions](../install-guide/upgrade-xml-documentati
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by AEM Guides 4.2 release. 
+This section lists the compatibility matrix for the software applications supported by AEM Guides 4.2. 1 release. 
 
 ### Adobe Experience Manager
 
