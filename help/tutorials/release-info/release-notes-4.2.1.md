@@ -61,19 +61,19 @@ The bugs fixed in various areas are listed below:
 ### Authoring
 
 * Close button in Web Editor does not lead to AEM Navigation page. (11948)
-*	Sometimes application error occurs on clicking on a DITA map. (11842)
-*	Issue occurs on moving (drag and drop) in place of an existing list item with Track Changes on. (11570)
-*	Issue occurs on moving (drag and drop) as a new list item with Track Changes on. (11569)
-*	Indent or outdent list items does not work as expected with Track Changes on. (11568)
-*	Adding content on a line with Track Changes on, and then turning off Track Changes does not actually turn it off. (11567)
-*	Difficulty in dragging and dropping a list-item, text is moved in place of the list-item. (11566)
-*	On authoring in the element displayed in green (Track Changes,) the new content is displayed as track change even though the track change is disabled. (7021)
-*	The browser (Web Editor) freezes on loading content with custom schema. (11211)
-*	Native PDF | On creating an output preset with “Add to Folder Profile” option, PDF generation fails with a Null Pointer exception. (10950)
-*	Native PDF | Image tag adds display-inline attribute to all the images. (10653)
-*	Insertion for audio and video multimedia files fails in the YouTube format under the **Insert Multimedia** icon. (11320)
-*	Validation error occurs when a map is created using the template which has a specialized title element. (11212)
-*	Web Editor | Non-breaking space is added in XML Editor while editing a topic. (11211)
+* Sometimes application error occurs on clicking on a DITA map. (11842)
+* Issue occurs on moving (drag and drop) in place of an existing list item with Track Changes on. (11570)
+* Issue occurs on moving (drag and drop) as a new list item with Track Changes on. (11569)
+* Indent or outdent list items does not work as expected with Track Changes on. (11568)
+* Adding content on a line with Track Changes on, and then turning off Track Changes does not actually turn it off. (11567)
+* Difficulty in dragging and dropping a list-item, text is moved in place of the list-item. (11566)
+* On authoring in the element displayed in green (Track Changes,) the new content is displayed as track change even though the track change is disabled. (7021)
+* The browser (Web Editor) freezes on loading content with custom schema. (11211)
+* Native PDF | On creating an output preset with “Add to Folder Profile” option, PDF generation fails with a Null Pointer exception. (10950)
+* Native PDF | Image tag adds display-inline attribute to all the images. (10653)
+* Insertion for audio and video multimedia files fails in the YouTube format under the **Insert Multimedia** icon. (11320)
+* Validation error occurs when a map is created using the template which has a specialized title element. (11212)
+* Web Editor | Non-breaking space is added in XML Editor while editing a topic. (11211)
 
 ### Management
 
