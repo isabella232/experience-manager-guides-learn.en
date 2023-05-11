@@ -40,9 +40,9 @@ As you have launched the Web Editor without selecting any file, a blank Web Edit
 
     <details>
 
-    <summary> On-premise </summary>
+    <summary> On-premise Software</summary>
 
-    If you're using AEM Guides On-premise (4.2.1 and later), click the **Close** button on the right to go back to your current file path in the Assets UI.
+    If you're using AEM Guides On-premise Software (4.2.1 and later), click the **Close** button on the right to go back to your current file path in the Assets UI.
 
     </details>
 
