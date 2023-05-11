@@ -16,7 +16,7 @@ Now you can easily navigate from the Web Editor to the AEM Navigation page.
 
 ![](assets/web-editor-launch-page.png){width="800" align="left"}
 
--  Click the **Guides** icon (![](assets/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
+*  Click the **Guides** icon (![](assets/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
 
 
 ## Advanced metadata support in PDF publishing
