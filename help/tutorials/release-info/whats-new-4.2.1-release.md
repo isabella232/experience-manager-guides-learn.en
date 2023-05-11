@@ -6,11 +6,70 @@ description: Learn the new and enhanced features in 4.2.1 releases of Adobe Expe
 
 This article covers the new and enhanced features in version 4.2.1 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
+>[!NOTE]
+>
+>For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-4.2.1.md) article.
 
-## Feature 1
+## Navigate from the Web Editor to the AEM homepage 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Id consectetur purus ut faucibus pulvinar elementum. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Justo nec ultrices dui sapien eget mi. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Amet nulla facilisi morbi tempus iaculis urna id. Rhoncus est pellentesque elit ullamcorper. Varius morbi enim nunc faucibus a pellentesque sit. Ipsum consequat nisl vel pretium lectus quam id leo in. Commodo viverra maecenas accumsan lacus. Metus vulputate eu scelerisque felis imperdiet proin fermentum.
+Now you can easily navigate from the Web Editor to the AEM Navigation page. 
 
-### Feature 2
+![](assets/web-editor-launch-page.png){width="800" align="left"}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Id consectetur purus ut faucibus pulvinar elementum. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Justo nec ultrices dui sapien eget mi. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Amet nulla facilisi morbi tempus iaculis urna id. Rhoncus est pellentesque elit ullamcorper. Varius morbi enim nunc faucibus a pellentesque sit. Ipsum consequat nisl vel pretium lectus quam id leo in. Commodo viverra maecenas accumsan lacus. Metus vulputate eu scelerisque felis imperdiet proin fermentum.
+-  Click the **Guides** icon (![](assets/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
+
+
+## Advanced metadata support in PDF publishing
+
+AEM Guides now provides advanced support for the metadata which is mapped to the metadata in your PDF output. The metadata options include information about the document and its contents, such as the author's name, document title, keywords, copyright information, and other data fields.
+
+<img src="assets/pdf-metadata.png" alt=" native pdf metadata">
+
+You can import a XMP file and AEM Guides can pick the information from the file. You also have the option to provide the metadata names and values using the dropdown. You can also add custom metadata by typing directly in the name field.
+
+For more details, see **Metadata** feature description in the [Create a PDF output preset](../web-editor/native-pdf-web-editor.md) section.
+
+### Enhanced Outline View panel
+
+AEM Guides provides an improved Outline View panel in which you get the hierarchical view of the elements used in the document.
+
+<img src="assets/select-element-content-outline-view_cs.png" alt=" native pdf metadata">
+
+The Outline View provides the following enhancements:
+
+* View Options dropdown is displayed on top of the Outline View panel. If an element has an ID, attribute, and text, you can select them from the dropdown to display them along with the element. The attributes which can be displayed in the Outline View panel are determined by the Display Attributes settings that have been configured by your administrator within the **Editor Settings**.
+
+* Using the search feature, you can  you can search for an element by its name, id, text or attribute value. 
+
+For more details, see the Outline view feature description in the [Left Panel](../user-guide/web-editor-features.md) section.
+
+## Generate the Multimedia report from the Web Editor
+
+AEM Guides provides the feature to generate the reports for your technical documents.  You can use this feature to view the topic list and manage the metadata of your documents. Now you can also see the multimedia used in all references for the current map from the **Reports** tab in the Web Editor. 
+
+You can generate the multimedia report which contains detailed information about the multimedia used in your references within the current map. You have the flexibility to filter and sort the multimedia files listed in the report.
+You can also generate the CSV to download the current snapshot of the multimedia used in the DITA map.
+
+<img  src="assets/web-editor-reports-multimedia.png" alt="multimedia report" width=600>
+
+For more details, see the Generate a multimedia report feature description in the [DITA map report from the Web Editor](../user-guide/reports-web-editor.md) section.
+
+## Native PDF | Change bar to indicate changed topics in Table of Contents
+
+AEM Guides  now allows you to quickly identify the changed topics in the TOC of the PDF output.  It shows a change bar on the left of the changed topics in the TOC. You can click on the topic in the TOC and view the detailed changes.
+
+<img src="assets/change-marker-toc.png" alt="Change marker in TOC " width=500> 
+
+
+
+
+## Native PDF | Style the page marker in footnote component
+
+Now you can style the page marker in the foot notes. For example, you can add brackets or change their color. These styles help the users easily identify the page markers in the document.
+
+## Open and play video or audio files in the Web Editor
+
+AEM Guides now provides the feature to open and play the audio or video files in the Web Editor. You can change the volume or the view of the video. In the shortcut menu, you  also have the options to **Download**, change **Play back Speed**, or view **Picture in Picture**.
+
+<img  src ="assets/video-web-editor.png" alt="play video" width=600>
+
