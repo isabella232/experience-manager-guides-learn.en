@@ -75,7 +75,7 @@ The bugs fixed in various areas are listed below:
 * Native PDF | Image tag adds display-inline attribute to all the images. (10653)
 * Insertion for audio and video multimedia files fails in the YouTube format under the **Insert Multimedia** icon. (11320)
 * Validation error occurs when a map is created using the template which has a specialized title element. (11212)
-* Web Editor | Non-breaking space is added in XML Editor while editing a topic. (11211)
+* Web Editor | Non-breaking space is added in XML Editor while editing a topic. (11786)
 
 ### Management
 
@@ -95,6 +95,7 @@ The bugs fixed in various areas are listed below:
 * Native PDF | Draft comments are hidden by default in the generated output. (10560)
 * Native PDF | navtitle is not honored for topichead. (10509)
 * Native PDF | Adding `xref` to an Image does not render the image on the generated PDF. (11346)
+* Native PDF | footnote present in table header leads to bold and center-aligned text in the corresponding page footer within the PDF output. (10610) 
 
 ### Translation
 
