@@ -42,7 +42,7 @@ Perform the following steps to use FrameMaker's AEM Connector to upload content:
 
 1.  Open the **Connection Manager** dialog.
 
-    ![](assets/fm-aem-connector.png)
+    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
 1.  Enter the following details to connect to the AEM repository:
 
@@ -55,7 +55,7 @@ Perform the following steps to use FrameMaker's AEM Connector to upload content:
 
     Once the connection is successfully established, Assets from the AEM repository are displayed in the Repository Manager window.
 
-    ![](assets/fm-repo-manager.png)
+    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
     Right-clicking on any file or folder allows you to perform related operations. For example, if you right-click on a folder, you get options to upload a file, upload file with dependencies, upload an entire folder and so on.
 

@@ -101,8 +101,8 @@ This API is designed to migrate the system data as mentioned in the [Migration M
 1.  Clear the browser cache after installing the package.
 1.  If a dispatcher is configured on AEM Author instance, perform the following steps:
     -   Ensure the following are handled in dispatcher rules:
-    -   -   The URL pattern /home/users/\*/preferences is whitelisted.
--   The URL pattern /libs/cq/security/userinfo.json is not cached.
+    -   The URL pattern /home/users/\*/preferences is whitelisted.
+    -   The URL pattern /libs/cq/security/userinfo.json is not cached.
 1.  Clear dispatcher cache \(to clear any `clientlibs` cached\).
 
 ## Upgrade to version 4.2 {#id22A3F500SXA}
@@ -198,26 +198,25 @@ After you install AEM Guides, you may merge the various configurations applicabl
 
     Find and make changes \(if necessary\) to the following two launchers \(that should be active\) corresponding to **DAM Update Asset workflow**:
 
-1.  -   Launcher for "*Node Created*" for **DAM Update Asset workflow**- for condition `"jcr:content/jcr:mimeType!=video"`,
--   -   the 'Globbing' value should be:
+1.  Launcher for "*Node Created*" for **DAM Update Asset workflow**- for condition `"jcr:content/jcr:mimeType!=video"`, the 'Globbing' value should be:
 
     ```json
     /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
     ```
 
--   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
--   Launcher for "*Node Modified*" for **DAM Update Asset workflow -** for condition "`jcr:content/jcr:mimeType!=video`",
--   -   the 'Globbing' value should be:
+    -   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
+    -   Launcher for "*Node Modified*" for **DAM Update Asset workflow -** for condition "`jcr:content/jcr:mimeType!=video`",
+    -   -   the 'Globbing' value should be:
 
     ```json
     `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
     ```
 
--   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
+    -   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
 1.  Once the upgrade is complete, ensure any of the customizations/overlays are validated and updated to match the new application code. Some examples are given below:
     -   Any components overlayed from/libs/fmditaor/libsshould be compared with the new product code and updates should be done in overlayed files under/apps.
     -   Any clientlib categories used from product, should be reviewed for changes. Any overridden configurations \(examples below\) should be compared with the latest ones so as to get the latest features:
-    -   -   elementmapping.xml
+    -   elementmapping.xml
     -   ui\_config.json\(may have been set in folder profiles\)
     -   amended `com.adobe.fmdita.config.ConfigManager`
     -   Check if any of the custom code was using any old paths \(as mentioned in the [Migration Mapping](#id2244LE040XA)section\) - should be updated to the new paths so that the customizations also work as expected.
@@ -367,26 +366,23 @@ After you install AEM Guides, you may merge the various configurations applicabl
 
     Find and make changes \(if necessary\) to the following two launchers \(that should be active\) corresponding to **DAM Update Asset workflow**:
 
-1.  -   Launcher for "*Node Created*" for **DAM Update Asset workflow**- for condition `"jcr:content/jcr:mimeType!=video"`,
--   -   the 'Globbing' value should be:
+1.  Launcher for "*Node Created*" for **DAM Update Asset workflow**- for condition `"jcr:content/jcr:mimeType!=video"`, the 'Globbing' value should be:
 
     ```json
     /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
     ```
 
--   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
--   Launcher for "*Node Modified*" for **DAM Update Asset workflow -** for condition "`jcr:content/jcr:mimeType!=video`",
--   -   the 'Globbing' value should be:
+    -   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
+    -   Launcher for "*Node Modified*" for **DAM Update Asset workflow -** for condition "`jcr:content/jcr:mimeType!=video`", the 'Globbing' value should be:
 
     ```json
     `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
     ```
-
--   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
+    -   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
 1.  Once the upgrade is complete, ensure any of the customizations/overlays are validated and updated to match the new application code. Some examples are given below:
     -   Any components overlayed from/libs/fmditaor/libsshould be compared with the new product code and updates should be done in overlayed files under/apps.
     -   Any clientlib categories used from product, should be reviewed for changes. Any overridden configurations \(examples below\) should be compared with the latest ones so as to get the latest features:
-    -   -   elementmapping.xml
+    -   elementmapping.xml
     -   ui\_config.json\(may have been set in folder profiles\)
     -   amended `com.adobe.fmdita.config.ConfigManager`
     -   Check if any of the custom code was using any old paths \(as mentioned in the [Migration Mapping](#id2244LE040XA)section\) - should be updated to the new paths so that the customizations also work as expected.

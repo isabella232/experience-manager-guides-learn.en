@@ -402,15 +402,9 @@ The `mapDoctypeElemRule` element is mandatory. This element's attributes must no
 
 **Element wrapping rules**
 
-See [\#id194CG600NY4](#id194CG600NY4).
+**`elementRules` element** This lists all elements.
 
-**`elementRules` element**
-
-This lists all [\#id194CGC00SHS](#id194CGC00SHS)elements.
-
-**`elementRule` element**
-
-The `elementRule` element is mandatory. These are the mapping rules for all source elements. While an InDesign document does contain unstructured style elements, these are ignored for structured content unless the '***hybrid mode***' processing is enabled.
+**`elementRule` element** The `elementRule` element is mandatory. These are the mapping rules for all source elements. While an InDesign document does contain unstructured style elements, these are ignored for structured content unless the '***hybrid mode***' processing is enabled.
 
 The attributes used in the `elementRule` are explained below:
 

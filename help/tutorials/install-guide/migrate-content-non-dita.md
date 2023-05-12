@@ -111,7 +111,7 @@ The conversion process involves the following actions in the backend:
 -   Creation and validation of individual DITA topics and DITA map files.
 -   Deletion of temporary files.
 
-Broadly, the conversion process requires you to[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) [Prepare InDesign files for conversion](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) and [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)then you need to follow the given procedure of running the conversion process.
+Broadly, the conversion process requires you to [Prepare InDesign files for conversion](appendix.md#id195DBF0045Z) and [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT) then you need to follow the given procedure of running the conversion process.
 
 Perform the following steps to convert your existing InDesign documents into DITA topic type document:
 
@@ -141,7 +141,7 @@ Perform the following steps to convert your existing InDesign documents into DIT
 
         >[!NOTE]
         >
-        > For more information about the structure of `stmap.adobeidml.xml` file and how you can customize it, see the [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT) section [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) in Appendix.
+        > For more information about the structure of `stmap.adobeidml.xml` file and how you can customize it, see the [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT) section in *Appendix*.
 
 1.  Save the `idml2dita_io.xml` file.
 

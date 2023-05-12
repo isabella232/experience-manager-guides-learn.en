@@ -60,7 +60,7 @@ To configure AEM Guides to use FMPS, update the following properties of the `com
 
 If you have an AEM Site that contains DITA content, you can configure your AEM Site output to publish DITA content to a predefined location within your site. For example, in the following screenshot of an AEM Site page, the `ditacontent` node is reserved to store DITA content:
 
-![](assets/publish-in-aem-site.png)
+![](assets/publish-in-aem-site.png){width="300" align="left"}
 
 The remaining nodes in the page are authored directly from the AEM Site editor. Configuring the publish setting to publish DITA content to a predefined location ensures that none of your existing non-DITA content gets modified by the AEM Guides publishing process.
 
@@ -93,7 +93,7 @@ Perform the following steps to configure your existing site's template propertie
 
 The following screenshot shows the properties added in the default template node of AEM Guides:
 
-![](assets/add-content-node.png)
+![](assets/add-content-node.png){width="800" align="left"}
 
 Next time when you publish any DITA content using your site's template configurations, the content gets published into the nodes specified in the `topicContentNode` and `topicHeadNode` properties.
 
@@ -144,7 +144,7 @@ Perform the following steps to specify your own design template to use for AEM S
 
     `/libs/fmdita/config/templates/`
 
-    ![](assets/templates-node.png)
+    ![](assets/templates-node.png){width="300" align="left"}
 
     >[!NOTE]
     >
@@ -255,13 +255,13 @@ To configure the valid special characters in filenames and AEM Site ouput, perfo
 
 When you generate AEM Site output, a node for every element in the topics is created internally. For a DITA map with thousands of topics, this node structure can become too deep. This type of deeply nested node structure can have performance issues for larger sites. The following snapshot displays deeply nested node structure for an AEM Site output:
 
-![](assets/deep-nested-aem-site-node-structure.png)
+![](assets/deep-nested-aem-site-node-structure.png){width="300" align="left"}
 
 In the above snapshot, notice that there is a node is created for every `p` element and its subsequent sub-elements and a similar structure is created for every other element used in the topic.
 
 AEM Guides allows you to configure how AEM Site output's node structure is created internally. You can flatten the node structure at specified elements, which means that you can define an element which will be considered as the main element and all sub-elements within it will be merged with the main element. For example, if you decide to flatten the `p` element, then any element appearing within the `p` element will get merged with the main `p` element. A separate note would not be created for any sub-element within the `p` element. The following snapshot displays the node structure flattened at `p` element:
 
-![](assets/flattened-aem-site-node-structure.png)
+![](assets/flattened-aem-site-node-structure.png){width="300" align="left"}
 
 To flatten AEM Site node structure, perform the following steps:
 
@@ -310,7 +310,7 @@ To flatten AEM Site node structure, perform the following steps:
 
 Now, when you generate the AEM Site output, the nodes within the `p` element are flattened and stored within the `p` element itself. You can find the new flattening properties for the `p` element in CRXDE.
 
-![](assets/flatten-aem-site-note-props-crxde.png)
+![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
 
 **Prevent flattening of AEM Site note structure**
 
@@ -392,7 +392,7 @@ To add the required metadata in the system, perform the following steps:
 
 The new parameter now shows up on the Properties page for all DITA maps.
 
-![](assets/properties-page-custom-metadata.PNG)
+![](assets/properties-page-custom-metadata.PNG){width="650" align="left"}
 
 Next, you need to make the custom metadata available in the DITA map console. Perform the following steps to make the custom metadata available on the DITA map dash board:
 
@@ -421,7 +421,7 @@ Lastly, as a Publisher, you need to include the custom metadata in the published
 
 1.  On the Properties page, specify the value for the custom metadata. For our example, we have specified a value of External for the audience parameter.
 
-    ![](assets/properties-page-custom-metadata-value.png)
+    ![](assets/properties-page-custom-metadata-value.png){width="650" align="left"}
 
 1.  Click **Save & Close**.
 
@@ -433,7 +433,7 @@ Lastly, as a Publisher, you need to include the custom metadata in the published
 
 1.  From the **Properties** drop-down list, select the properties that you want to pass on to the publishing process.
 
-    ![](assets/props-in-publish-output.PNG)
+    ![](assets/props-in-publish-output.PNG){width="650" align="left"}
 
 
 The selected properties/metadata are passed on to the publishing process and are made available in the final output.

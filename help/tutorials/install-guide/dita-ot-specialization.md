@@ -15,7 +15,7 @@ If you want to process Ant parameters while publishing any output, AEM Guides gi
 
 >[!TIP]
 >
-> See [appendix.md\#](appendix.md#)the *DITA-OT Profiles configuration* and *Using custom DITA-OT*[appendix.md\#](appendix.md#) sections in the Best practices guide for best practices around using custom DITA-OT plug-ins.
+> See the *DITA-OT Profiles configuration* and *Using custom DITA-OT* sections in the Best practices guide for best practices around using custom DITA-OT plug-ins.
 
 ## Use custom DITA-OT plug-ins {#id181NH1020L7}
 
@@ -120,7 +120,7 @@ Perform the following steps to create a new profile and configure it to use cust
 
 >[!NOTE]
 >
-> You can export the custom DITA profile as a package and upload on the other AEM Guides instances to save time. For more information, see [appendix.md\#](appendix.md#).
+> You can export the custom DITA profile as a package and upload on the other AEM Guides instances to save time. For more information, see [Appendix](appendix.md).
 
 ## Integrate DITA specialization {#id211MB0E00XA}
 
@@ -183,5 +183,5 @@ Perform the following steps to create a new profile and configure it to use spec
 
 >[!NOTE]
 >
-> You can export the custom DITA profile as a package and upload on the other AEM Guides instances to save time. For more information, see [appendix.md\#](appendix.md#).
+> You can export the custom DITA profile as a package and upload on the other AEM Guides instances to save time. For more information, see [Appendix.md](appendix.md).
 

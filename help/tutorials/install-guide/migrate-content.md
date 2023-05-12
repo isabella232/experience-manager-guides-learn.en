@@ -9,7 +9,7 @@ AEM Guides allows you to convert a variety of structured and unstructured docume
 
 >[!TIP]
 >
-> See the *Content migration and upload*section[appendix.md\#](appendix.md#) in the Best practices guide for best practices around using migrating and uploading existing content.
+> See the *Content migration and upload* section [Appendix.md](appendix.md) in the Best practices guide for best practices around using migrating and uploading existing content.
 
 -   **[Upload existing DITA content](migrate-content-upload-existing-dita-content.md)**  
 

@@ -22,9 +22,12 @@ Perform the following steps to migrate your non-UUID content:
     ```
 
 1.  Install the UUID version of the next major release over non-UUID version. For example, if you are using 4.0 non-UUID build then you need to install UUID version 4.1.
+
 1.  In the Launcher tab, disable the following workflows and any other workflow that runs on /content/dam using launchers in `http://localhost:4502/libs/cq/workflow/content/console.html`:
-1.  -   **DAM Update Asset** workflow
--   **DAM Metadata Writeback** workflow
+
+    -   **DAM Update Asset** workflow
+    -   **DAM Metadata Writeback** workflow
+
 1.  Disable **Enable Post Processing Workflow Launchers** in *com.adobe.fmdita.config.ConfigManager* and disable **Enable Version Postprocessing** in *com.adobe.fmdita.postprocess.version.PostProcessVersionObservation*.
 
     ```http
@@ -41,20 +44,21 @@ Perform the following steps to migrate your non-UUID content:
     >
     >  You can check whether all files in the folder are upgraded properly and all features are working only for that folder.
 
-1.  -   **Parameters for the query:**
+   **Parameters for the query:**
 
--   -   `root`: Root folder where upgrade has to happen \(Use /content/dam for all repository.\)
--   `doReviews`: true/false \(If reviews have to be upgraded or not. Default value is false.\)
--   `doBaselines`: true/false \(If baselines have to upgraded or not. Default value is true.\)
--   `processLevel`: -1\(failed without restore\), 0\(failed with restore\), 1\(failed with errors\), 2\(successfully upgraded\) \(When retrying script after failure, only files with "fmUpgradeStatus" <= processLevel will be processed again, otherwise its ignored. Default value is 1.\)
--   `ignoreImageVersions`: true/false \(Ignores processing of image versions. Default value is false.\)
+    - `root`: Root folder where upgrade has to happen \(Use /content/dam for all repository.\)
+    - `doReviews`: true/false \(If reviews have to be upgraded or not. Default value is false.\)
+    - `doBaselines`: true/false \(If baselines have to upgraded or not. Default value is true.\)
+    - `processLevel`: -1\(failed without restore\), 0\(failed with restore\), 1\(failed with errors\), 2\(successfully upgraded\) \(When retrying script after failure, only files with "fmUpgradeStatus" <= processLevel will be processed again, otherwise its ignored. Default value is 1.\)
+    - `ignoreImageVersions`: true/false \(Ignores processing of image versions. Default value is false.\)
     >[!NOTE]
     >
     > We can run content migration on folder level or the complete content/dam or on the same folder \(rerun migration\).
 
 1.  Once the server is migrated successfully enable the following workflows and post-processing to continue working on the server:
-1. -   **DAM Update Asset** workflow
--   **DAM Metadata** workflow
+
+    -   **DAM Update Asset** workflow
+    -   **DAM Metadata** workflow
 
 >[!NOTE]
 >

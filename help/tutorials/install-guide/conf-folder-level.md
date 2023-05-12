@@ -183,7 +183,7 @@ Perform the following steps to configure standard DITA-supported conditional att
 
     The following screenshot shows the definition for the `platform` attribute with possible values and labels.
 
-    ![](assets/add_profile.png)
+    ![](assets/add_profile.png){width="650" align="left"}
 
 1.  If you want to add more values for the same attribute, click the **+** icon and enter the additional value and label.
 
@@ -256,7 +256,7 @@ Perform the following steps to add the topic or map templates into a folder prof
     >
     > By default, all authoring templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics` and `maps` sub-folders to store the topic and map templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
 
-    ![](assets/search-author-temp.png)
+    ![](assets/search-author-temp.png){width="550" align="left"}
 
 1.  Add the required topic and map templates to your profile.
 
@@ -264,7 +264,7 @@ Perform the following steps to add the topic or map templates into a folder prof
 
     -   Choose **Search or Type** and enter or select the name of a template from the drop-down list. The drop-down list consists of all default templates and any new template that you have created.
 
-        ![](assets/default-template-list.png)
+        ![](assets/default-template-list.png){width="350" align="left"}
 
     -   Click **Browse** and select a template from DAM.
 
@@ -272,7 +272,7 @@ Perform the following steps to add the topic or map templates into a folder prof
 
     The selected templates are added to the template list.
 
-    ![](assets/author-templ-added-list.png)
+    ![](assets/author-templ-added-list.png){width="550" align="left"}
 
     >[!NOTE]
     >
@@ -433,17 +433,13 @@ Using the configuration file in this section, you can create some default snippe
 
 The following details are required to create a snippet:
 
-snippetID
-:   A unique ID for the snippet. It can take an alphanumeric value.
+- **snippetID:**   A unique ID for the snippet. It can take an alphanumeric value.
 
-name
-:   A descriptive name to identify the snippet. This name shows up in the Snippets panel.
+- **name:**   A descriptive name to identify the snippet. This name shows up in the Snippets panel.
 
-description
-:   Add a descriptive information for the snippet.
+- **description:**   Add a descriptive information for the snippet.
 
-value
-:   Provide the XML code of the snippet.
+- **value:**   Provide the XML code of the snippet.
 
 >[!NOTE]
 >

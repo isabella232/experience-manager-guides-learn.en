@@ -23,7 +23,7 @@ By default, your users do not see the **Open in FrameMaker** button on the AEM t
 
 1.  Search for and click on the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
 
-    ![](assets/open-in-fm-toolbar.png)
+    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
 
 1.  Select the **Show Open in FrameMaker Button** option.
 
