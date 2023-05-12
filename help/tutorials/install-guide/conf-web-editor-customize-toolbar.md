@@ -210,7 +210,6 @@ Perform the following steps to remove any unwanted feature from the toolbar:
     `/apps/fmdita/xmleditor/ui_config.json`
 
 1.  Navigate to and open the `ui_config.json` file in the `apps` node for editing.
-
     The `ui_config.json` file has three sections:
 
   - **toolbars:**   This section contains the definition of all features available in the editor's toolbar such as Insert/Remove Numbered List, \(file\) Close, Save, Comments and more.
@@ -222,7 +221,6 @@ Perform the following steps to remove any unwanted feature from the toolbar:
   ```HTML
   "li": "<li><p></p></li>"
   ```
-
 1.  From the toolbars section, remove the entry of the feature that you do not want to expose to your users.
 
 1.  Save the *ui\_config.json* file and reload the Web Editor.
