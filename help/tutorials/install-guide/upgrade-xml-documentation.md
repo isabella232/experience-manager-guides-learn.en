@@ -378,7 +378,9 @@ After you install AEM Guides, you may merge the various configurations applicabl
     ```json
     `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
     ```
-    -   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
+    
+    - `excludeList` should have `"event-user-data:changedByWorkflowProcess"`.
+
 1.  Once the upgrade is complete, ensure any of the customizations/overlays are validated and updated to match the new application code. Some examples are given below:
     -   Any components overlayed from/libs/fmditaor/libsshould be compared with the new product code and updates should be done in overlayed files under/apps.
     -   Any clientlib categories used from product, should be reviewed for changes. Any overridden configurations \(examples below\) should be compared with the latest ones so as to get the latest features:
