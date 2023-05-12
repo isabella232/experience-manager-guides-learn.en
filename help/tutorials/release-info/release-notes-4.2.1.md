@@ -52,8 +52,8 @@ For more details, see the *Technical requirements* section in the Install and co
 
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
 | --- | --- | --- |--- |--- |
-| 4.2.1 (Non-UUID)|  2.1-regular-4 | 2.1-regular-4 |  1.6 | 1.6  |
-| 4.2.1 (UUID) | 2.8-uuid-8 | 2.8-uuid-8  |2.3 | 2.3  |
+| 4.2.1 (Non-UUID)|  2.2-regular-3| 2.2-regular-3 |  1.6 | 1.6  |
+| 4.2.1 (UUID) | 2.9-uuid-2|2.9-uuid-2  |2.3 | 2.3  |
 |  |  |   |  
 
 ## Fixed issues
