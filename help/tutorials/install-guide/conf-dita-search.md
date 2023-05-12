@@ -36,13 +36,13 @@ Perform the following to add DITA content search component in AEM Assets UI:
 
 1.  Drag-and-drop **DITA Element Predicate** at the required location in the search form.
 
-    ![](assets/drag-search-predicate.png)
+    ![](assets/drag-search-predicate.png){width="650" align="left"}
 
 1.  Click **Done** to save your changes.
 
     When you access the Filters option in the Assets UI, you will get the DITA Element search filtering option.
 
-    ![](assets/search-filter-asset-console.png)
+    ![](assets/search-filter-asset-console.png){width="350" align="left"}
 
 
 ## Add UUID-based search component in Assets UI {#id2034F04K05Z}
@@ -81,7 +81,7 @@ Perform the following steps to provide access to the DITA Search feature:
 
 1.  Search for the user group or an individual user to whom you want to give access. For example, to give access to all users in authors group, enter authors in the **Filter Query** field and press **Enter**.
 
-    ![](assets/authors-group-permission.png)
+    ![](assets/authors-group-permission.png){width="350" align="left"}
 
 1.  Select the **authors** group.
 
@@ -93,7 +93,7 @@ Perform the following steps to provide access to the DITA Search feature:
 
 1.  Give the **Read** permission on the search folder.
 
-    ![](assets/read-permission-authors.png)
+    ![](assets/read-permission-authors.png){width="650" align="left"}
 
 1.  Click **Save**.
 

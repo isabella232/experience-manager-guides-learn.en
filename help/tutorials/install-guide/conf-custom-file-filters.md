@@ -46,14 +46,11 @@ Perform the following steps to add your custom file filtering options to the fil
 
     In the above code snippet, the first filter is for DITA Files. The filter definition takes the following parameters:
 
-    title
-    :   The display name of the filter. This title appears as the filtering option in the file browse dialog.
+    - **title:**   The display name of the filter. This title appears as the filtering option in the file browse dialog.
 
-    property
-    :   The property to match in the file's metadata. For example, to allow only those files that have the `dita_class` metadata in their property, the property filter takes "`jcr:content/metadata/dita_class`" as its value.
+    - **property:**   The property to match in the file's metadata. For example, to allow only those files that have the `dita_class` metadata in their property, the property filter takes "`jcr:content/metadata/dita_class`" as its value.
 
-    operation
-    :   Specify "`exists`" to match for existence of the value specified in the property parameter.
+    - **operation:**   Specify "`exists`" to match for existence of the value specified in the property parameter.
 
     The second filter is for Image Files. The parameters are similar to the first filter except the `value` parameter. The `value` parameter takes an array of image types as its value. All file types specified in the value parameter are searched for and shown in the file browse dialog, all other file types are ignored.
 
@@ -61,6 +58,6 @@ Perform the following steps to add your custom file filtering options to the fil
 
     When you launch the file browse dialog, the filter options configured in the ui\_config.json file are shown.
 
-    ![](assets/file-browse-custom-filters.png)
+    ![](assets/file-browse-custom-filters.png){width="300" align="left"}
 
 

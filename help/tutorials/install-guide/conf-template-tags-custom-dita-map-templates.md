@@ -29,7 +29,7 @@ Perform the following steps to add your custom map templates:
 
 1.  On the new template Properties page, enter a **Title** and **Name** for the template.
 
-        >[!NOTE]
+    >[!NOTE]
     >
     > The name is automatically suggested based on the Title of your template. If you want to manually specify the name, then ensure that the Name does not contain any spaces, apostrophe, or braces and ends with .ditamap.
 

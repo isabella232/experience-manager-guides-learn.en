@@ -15,14 +15,14 @@ AEM Guides allows you to configure the default state for the Tags View in the We
 1.  In the **XML Editor UI configuration** section, click the **Download** icon to download the `ui_config.json` file on your local system.
 1.  In the `ui_config.json` file, change the default tags view state by changing the defaultValues section as shown below:
 
-```json
-"defaultValues":
-                {
-                "tagsView": true
-                }
-```
+    ```json
+    "defaultValues":
+                    {
+                    "tagsView": true
+                    }
+    ```
 
-1.) Save the file and upload it.
+1. Save the file and upload it.
 
 >[!NOTE]
 >

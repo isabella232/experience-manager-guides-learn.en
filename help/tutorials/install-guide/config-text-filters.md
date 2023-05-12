@@ -83,11 +83,11 @@ Perform the following steps to configure the text filters:
 
     In the above code snippet, the first filter is for DITA Files. The filter definition takes the following parameters:
 
-    ****Title****: The display name of the filter. This title appears as the filtering option in the file browse dialog.
+    - **Title:** The display name of the filter. This title appears as the filtering option in the file browse dialog.
 
-    ****Property****: The property to match in the file's metadata. For example, to allow only those files that have the dita\_class metadata in their property, the property filter takes "jcr:content/metadata/dita\_class" as its value.
+    - **Property:** The property to match in the file's metadata. For example, to allow only those files that have the dita\_class metadata in their property, the property filter takes "jcr:content/metadata/dita\_class" as its value.
 
-    ****Operation**:** Specify "exists" to match for existence of the value specified in the property parameter
+    - **Operation** Specify "exists" to match for existence of the value specified in the property parameter
 
 1.  Upload the updated ui\_config.json file which contains the added filters.
 

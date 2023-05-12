@@ -21,7 +21,7 @@ Perform the following steps to download and install AEM Guides for the first tim
 
     The Package Manager manages the packages on your local AEM installation. For more information about working with the Package Manager, see [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) in AEM documentation.
 
-    ![](assets/package-manager.png)
+    ![](assets/package-manager.png){width="650" align="left"}
 
 1.  To upload the AEM Guides package, click **Upload Package**.
 
@@ -31,7 +31,7 @@ Perform the following steps to download and install AEM Guides for the first tim
 
 1.  To install the package, click **Install**.
 
-    ![](assets/install-package.png)
+    ![](assets/install-package.png){width="650" align="left"}
 
 1.  In the Install Package dialog, click **Install**.
 

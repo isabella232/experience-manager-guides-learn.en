@@ -21,7 +21,7 @@ Perform the following steps to create your custom words list, which are added in
 
     The following screenshot shows custom words list added to the user\_dictionary.txt file:
 
-    ![](assets/custom-words-list-dictionary.png)
+    ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
 
 1.  Save and close the file.
 

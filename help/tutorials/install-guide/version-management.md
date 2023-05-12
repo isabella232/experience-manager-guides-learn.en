@@ -62,7 +62,7 @@ Perform the following steps to enable these features:
 
 1.  Select the **Disable Edit Without Checkout** option.
 
-    ![](assets/xml-editor-config.png)
+    ![](assets/xml-editor-config.png){width="650" align="left"}
 
     With this option, users will not see the Edit option in the toolbar until they check out a file.
 
@@ -125,7 +125,7 @@ To support this feature, a new index property `drivelock` is added in `oak:index
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png)
+![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
 
 In addition to the new index property, ensure that the following properties are set on `/oak:index/damAssetLucene`:
 
@@ -170,11 +170,11 @@ To define who can delete a file that contains references or is referenced by oth
 
     -   allow\_unsafe\_delete\_for\_all: Give permission to all users to delete files. In this case, if the file\(s\) contain references or is referenced by other files, then also you can forcefully delete such file\(s\). Before deleting the file, you will be shown a prompt with the references, you can cancel the delete operation, remove the references, and then finally delete the file\(s\). Or, you can forcefully delete the file\(s\) without removing the references.
 
-        ![](assets/allow_unsafe_delete-force-delete.PNG)
+        ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
     -   allow\_unsafe\_delete\_for\_delete\_assets\_group: An Administrator or a user belonging to the *delete-assets* group is allowed to delete files. If any other user tries to delete files with any references, then they will not be allowed to delete such files until all references are removed. The following screenshot appears when a user, who does not have permissions, tries to delete files.
 
-        ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG)
+        ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
     -   block\_unsafe\_delete\_for\_all: Disallow all users \(including Administrators\) from deleting files until the references to and from the file\(s\) are removed.
 
@@ -201,7 +201,7 @@ Perform the following steps to purge the older versions:
 
 1.  Enter the following details about the files you want to purge:
 
-    ![](assets/preview-purge-report.png)
+    ![](assets/preview-purge-report.png){width="350" align="left"}
 
 1.  -   **Number of Versions to Retain from the Latest Version**: Enter the number of versions that should be retained and not purged. For example, if we enter 5 then the last 5 versions are retained, and the versions prior to that are qualified to be purged in case other purging conditions are met.
 -   **Retain Versions Created Within Timespan \(In Days\)**: Enter the maximum age of a version in days. The versions older than the given number of days are qualified to be purged in case other purging conditions are met. For example, if we enter 100, all versions created before 100 days are qualified to be purged in case other purging conditions are met.
@@ -222,7 +222,7 @@ Perform the following steps to purge the older versions:
 1.  Download version purge report and check the files and versions that will be purged.
 1.  You can choose to **Cancel Purge** or **Start Purge**.
 
-    ![](assets/download-purge-report.png)
+    ![](assets/download-purge-report.png){width="350" align="left"}
 
     The purging status is displayed.
 
@@ -231,7 +231,5 @@ Perform the following steps to purge the older versions:
 
 >[!NOTE]
 >
-> The report is downloaded at the following location:
-
-/var/dxml/versionpurge
+> The report is downloaded at the following location: /var/dxml/versionpurge
 
