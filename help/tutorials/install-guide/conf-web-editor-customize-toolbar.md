@@ -212,15 +212,16 @@ Perform the following steps to remove any unwanted feature from the toolbar:
 1.  Navigate to and open the `ui_config.json` file in the `apps` node for editing.
     The `ui_config.json` file has three sections:
 
-  - **toolbars:**   This section contains the definition of all features available in the editor's toolbar such as Insert/Remove Numbered List, \(file\) Close, Save, Comments and more.
+- **toolbars:**   This section contains the definition of all features available in the editor's toolbar such as Insert/Remove Numbered List, \(file\) Close, Save, Comments and more.
 
-  - **shortcuts:**   This section contains the definition of keyboard shortcuts assigned to a particular feature in the editor.
+- **shortcuts:**   This section contains the definition of keyboard shortcuts assigned to a particular feature in the editor.
 
-  - **templates:**   This section contains the predefined structure of DITA elements that you can use in your document. By default, the templates section contains template definitions for a paragraph, simple table, table, and body elements. You can create a template definition for any element by adding a valid XML structure for the desired element. For example, if you want to add a `p` element with every new `li` element in a list, you can add the following code at the end of the templates section to achieve this:
+- **templates:**   This section contains the predefined structure of DITA elements that you can use in your document. By default, the templates section contains template definitions for a paragraph, simple table, table, and body elements. You can create a template definition for any element by adding a valid XML structure for the desired element. For example, if you want to add a `p` element with every new `li` element in a list, you can add the following code at the end of the templates section to achieve this:
 
-  ```HTML
-  "li": "<li><p></p></li>"
-  ```
+```HTML
+"li": "<li><p></p></li>"
+```
+
 1.  From the toolbars section, remove the entry of the feature that you do not want to expose to your users.
 
 1.  Save the *ui\_config.json* file and reload the Web Editor.
