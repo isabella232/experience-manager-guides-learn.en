@@ -68,7 +68,7 @@ This API is designed to assess the current system status and report if the upgra
 
 **System data migration API**
 
-This API is designed to migrate the system data as mentioned in the [Migration Mapping](#id2244LE040XA)section.
+This API is designed to migrate the system data as mentioned in the [Migration Mapping](#id2244LE040XA) section.
 
 1.  Do not execute this script if the Check upgrade compatibility API fails \(do not proceed\).
 1.  Once the Check upgrade compatibility API returns success, you can run the upgrade script.
@@ -219,7 +219,7 @@ After you install AEM Guides, you may merge the various configurations applicabl
     -   elementmapping.xml
     -   ui\_config.json\(may have been set in folder profiles\)
     -   amended `com.adobe.fmdita.config.ConfigManager`
-    -   Check if any of the custom code was using any old paths \(as mentioned in the [Migration Mapping](#id2244LE040XA)section\) - should be updated to the new paths so that the customizations also work as expected.
+    -   Check if any of the custom code was using any old paths \(as mentioned in the [Migration Mapping](#id2244LE040XA) section\) - should be updated to the new paths so that the customizations also work as expected.
 1.  Read about any new configurations brought in the current release \(check [Release Notes](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.2.html)\) and see if any functionality is impacted then take appropriate action. An example could be to make use of "Improved file and version handling" introduced in version 4.0, for which you need to enable a configuration.
 
 ## Steps to index the existing content to use the new find and replace: 
@@ -391,7 +391,7 @@ After you install AEM Guides, you may merge the various configurations applicabl
     -   elementmapping.xml
     -   ui\_config.json\(may have been set in folder profiles\)
     -   amended `com.adobe.fmdita.config.ConfigManager`
-    -   Check if any of the custom code was using any old paths \(as mentioned in the [Migration Mapping](#id2244LE040XA)section\) - should be updated to the new paths so that the customizations also work as expected.
+    -   Check if any of the custom code was using any old paths \(as mentioned in the [Migration Mapping](#id2244LE040XA) section\) - should be updated to the new paths so that the customizations also work as expected.
 1.  Read about any new configurations brought in the current release \(check [Release Notes](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.2.html)\) and see if any functionality is impacted then take appropriate action. An example could be to make use of "Improved file and version handling" introduced in version 4.0, for which you need to enable a configuration.
 
 ## Steps to index the existing content to use the new find and replace: 
