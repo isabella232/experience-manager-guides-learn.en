@@ -11,7 +11,7 @@ description: Learn how to Upgrade Adobe Experience Manager Guides
 
 You can upgrade your current version of AEM Guides to version 4.2.1
 -   If you are using version 4.1, 4.1.x, or 4.2, then you can directly upgrade to version 4.2.1.
--   If you are using version 4.0 you need to upgrade to version 4.2 or 4.1 before upgrading to version 4.2.1.
+-   If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.2.1.
 -   If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 -   If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
 
@@ -239,9 +239,13 @@ Upgrading to version 4.2.1 depends on the current version of AEM Guides.
 
 If you are using version 4.1 or 4.1.x, or 4.2 then you can directly upgrade to version 4.2.1.
 
+>[!NOTE]
+>
+>The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
+
 ****Prerequisites****
 
-Before you start the AEM Guides 4.2 upgrade process, ensure that you have:
+Before you start the AEM Guides 4.2.1 upgrade process, ensure that you have:
 
 1.  Upgraded to AEM Guides version 4.1, 4.1.x, or 4.2.
 1.  Closed all translation tasks.
