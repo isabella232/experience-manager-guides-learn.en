@@ -220,7 +220,7 @@ After you install AEM Guides, you may merge the various configurations applicabl
     -   ui\_config.json\(may have been set in folder profiles\)
     -   amended `com.adobe.fmdita.config.ConfigManager`
     -   Check if any of the custom code was using any old paths \(as mentioned in the [Migration Mapping](#id2244LE040XA) section\) - should be updated to the new paths so that the customizations also work as expected.
-1.  Read about any new configurations brought in the current release \(check [Release Notes](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.2.html)\) and see if any functionality is impacted then take appropriate action. An example could be to make use of "Improved file and version handling" introduced in version 4.0, for which you need to enable a configuration.
+1.  Read about any new configurations brought in the current release \(check [Release Notes](../release-info/release-notes-4.2.1.md)\) and see if any functionality is impacted then take appropriate action. An example could be to make use of "Improved file and version handling" introduced in version 4.0, for which you need to enable a configuration.
 
 ## Steps to index the existing content to use the new find and replace: 
 
