@@ -14,7 +14,7 @@ This tutorial helps you to add barcodes on the top of every page in the PDF outp
 To generate the barcode, perform the following steps: 
 
 
-## 1. Add the resource ID to the DITA map
+### Add the resource ID to the DITA map
 
 Add the resource ID element to the DITA map and use it as the content to generate the barcode. 
 
@@ -37,7 +37,7 @@ You can also edit this ID in the authoring mode.
 <img src="./assets/barcode-map.png" alt="Sample output with barcode" width=700>
 
 
-## 2. Add a barcode placeholder to the template header
+### Add a barcode placeholder to the template header
 
 Modify the `Common.plt` file in the **Basic** template to add a barcode after the project title.  
 
@@ -52,7 +52,7 @@ Modify the `Common.plt` file in the **Basic** template to add a barcode after th
 ```
 
 
-## 3. Update the template CSS to render a barcode value
+### Update the template CSS to render a barcode value
 
 Modify the `content.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are available.  For more details, see [Barcode types](#barcode-types).
 
