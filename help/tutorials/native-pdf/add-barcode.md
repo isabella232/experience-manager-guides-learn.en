@@ -13,7 +13,6 @@ This tutorial helps you to add barcodes on the top of every page in the PDF outp
 
 To generate the barcode, perform the following steps: 
 
-
 ### Add a resource ID to the DITA map
 
 Add a resource ID element to the DITA map and use it as the content to generate the barcode. 
