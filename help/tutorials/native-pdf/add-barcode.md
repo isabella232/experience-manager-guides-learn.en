@@ -9,7 +9,7 @@ Barcodes can be useful to include information that can be easily processed by ma
 
 This tutorial helps you to add barcodes on the top of every page in the PDF output. 
 
-## Steps to generate the Barcode
+## Steps to generate a barcode
 To generate the barcode, perform the following steps: 
 
 
@@ -53,7 +53,8 @@ Modify the `Common.plt` file in the **Basic** template to add a barcode after th
 
 ### 3. Update the template CSS to render a barcode value
 
-Modify the `content.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are available.  
+Modify the `content.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are available.  For more details, see [Barcode types](#barcode-types).
+
 
 
 ```css
@@ -67,10 +68,12 @@ Modify the `content.css` file to render a barcode during the PDF generation. Var
 
 Once you have performed the previous steps, you can generate the PDF output with a barcode. 
 
+The following screenshot displays a sample barcode in a PDF output.
+
 <img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700>
 
 
-## Barcode types
+## Barcode types {#barcode-types}
 
 | Type                            | CSS attribute           | Additional attribute(s)    |
 | ------------------------------- | ----------------------- | -------------------------- |
