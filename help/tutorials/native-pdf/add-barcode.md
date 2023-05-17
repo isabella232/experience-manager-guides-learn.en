@@ -10,6 +10,7 @@ Barcodes can be useful to include information that can be easily processed by ma
 This tutorial helps you to add barcodes on the top of every page in the PDF output. 
 
 ## Steps to generate a barcode
+
 To generate the barcode, perform the following steps: 
 
 
