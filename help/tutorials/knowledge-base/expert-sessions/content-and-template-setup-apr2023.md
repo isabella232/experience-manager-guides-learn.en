@@ -57,8 +57,8 @@ In this session, you learnt about the following:
 
 ## Next expert session 
 
-- **Topic** - TBD
-- **Scheduled on** - May 25, 2023
+- **Topic** - Native PDF Publishing - Learning by example (part 1)
+- **Scheduled on** - June 01, 2023
 
 
 ## Contact us
