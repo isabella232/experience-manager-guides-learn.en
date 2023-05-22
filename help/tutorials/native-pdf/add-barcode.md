@@ -13,7 +13,7 @@ Steps to generate a barcode
 
 To generate the barcode, perform the following steps: 
 
-### Add a resource ID to the DITA map
+## Add a resource ID to the DITA map
 
 Add a resource ID element to the DITA map. The resource ID serves as the main input to generate the barcode. 
 
