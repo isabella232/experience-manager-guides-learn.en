@@ -5,9 +5,9 @@ description: Learn how to add barcodes.
 
 # Add a barcode to the PDF output
 
-Barcodes can be useful to include information that can be easily processed by machines. Similarly, QR codes can be used for the links that readers can open with their mobile devices. 
+Barcodes are useful for including information that can be easily processed by machines. Similarly, QR codes are used for the links that readers can open with their mobile devices. 
 
-This tutorial helps you to add barcodes on the top of every page in the PDF output. 
+This tutorial helps you to add barcodes on top of every page in the PDF output. 
 
 ## Steps to generate a barcode
 
@@ -15,7 +15,7 @@ To generate the barcode, perform the following steps:
 
 ### Add a resource ID to the DITA map
 
-Add a resource ID element to the DITA map and use it as the content to generate the barcode. 
+Add a resource ID element to the DITA map. The resource ID serves as the main input to generate the barcode. 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -31,12 +31,12 @@ Add a resource ID element to the DITA map and use it as the content to generate 
 </map>  
 ```
 
-You can also edit this ID in the authoring mode. 
+You can also edit the resource ID in the Authoring mode. 
 
 <img src="./assets/barcode-map.png" alt="Sample output with barcode" width=700>
 
 
-### Add a barcode placeholder to the template header
+### Add a barcode placeholder in the template header
 
 Modify the `Common.plt` file in the **Basic** template to add a barcode after the project title.  
 
@@ -51,9 +51,9 @@ Modify the `Common.plt` file in the **Basic** template to add a barcode after th
 ```
 
 
-### Update the template CSS to render a barcode value
+### Update the template's CSS to render a barcode value
 
-Modify the `content.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are available.  For more details, see [Barcode types](#barcode-types).
+Modify the `content.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are supported.  For more details, see [Barcode types](#barcode-types).
 
 
 
