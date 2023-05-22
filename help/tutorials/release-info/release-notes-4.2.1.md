@@ -62,6 +62,7 @@ The bugs fixed in various areas are listed below:
 
 ### Authoring
 
+* Navtitle is removed from the content on switching from the layout view to the author or source view.(12174)
 * Close button in Web Editor does not lead to AEM Navigation page. (11948)
 * Sometimes application error occurs on clicking on a DITA map. (11842)
 * Issue occurs on moving (drag and drop) in place of an existing list item with Track Changes on. (11570)
