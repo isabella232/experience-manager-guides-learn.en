@@ -2,7 +2,6 @@
 title: Native PDF Publish Feature | Add barcode
 description: Learn how to add barcodes.
 ---
-
 # Add a barcode to the PDF output
 
 Barcodes are useful for including information that can be easily processed by machines. Similarly, QR codes are used for the links that readers can open with their mobile devices. 
@@ -13,7 +12,7 @@ This tutorial helps you to add barcodes on top of every page in the PDF output.
 
 To generate the barcode, perform the following steps: 
 
-## Add a resource ID to the DITA map
+### Add a resource ID to the DITA map
 
 Add a resource ID element to the DITA map. The resource ID serves as the main input to generate the barcode. 
 
