@@ -6,6 +6,8 @@ description: Learn the new and enhanced features in 4.2 releases of Adobe Experi
 
 This article covers the new and enhanced features in version 4.2 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-4.2.md) article.
+
 ## Generate reports from the Web Editor
 
 AEM Guides comes with a feature in the Web Editor that enables you to check the overall completeness of your technical documents and generate reports for them.
