@@ -17,6 +17,8 @@ Now you can easily navigate from the Web Editor to the AEM Navigation page.
 *  Click the **Guides** icon (![](assets/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
 
 
+For more details, see [AEM Navigation page](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ) 
+
 ## Advanced metadata support in PDF publishing
 
 AEM Guides now provides advanced support for the metadata which is mapped to the metadata in your PDF output. The metadata options include information about the document and its contents, such as the author's name, document title, keywords, copyright information, and other data fields.
@@ -39,7 +41,7 @@ The Outline View provides the following enhancements:
 
 * Using the search feature, you can  you can search for an element by its name, id, text or attribute value. 
 
-For more details, see the Outline view feature description in the [Left Panel](../user-guide/web-editor-features.md) section.
+For more details, see the Outline view feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 ## Generate the Multimedia report from the Web Editor
 
@@ -74,4 +76,4 @@ AEM Guides now provides the feature to open and play the audio or video files in
 
 <img  src ="assets/video-web-editor.png" alt="play video" width=600>
 
-For more details, see the Repository View feature description in the [Left Panel](../user-guide/web-editor-features.md) section.
+For more details, see the Repository View feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
