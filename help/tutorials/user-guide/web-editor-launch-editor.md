@@ -17,13 +17,34 @@ The following sections cover the details of how you can access and launch the We
 
 When you log into AEM, you are shown the Navigation page:
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Clicking on the **XML Editor** link takes you directly to the Web Editor.
+Clicking the **Guides** link takes you directly to the Web Editor.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 As you have launched the Web Editor without selecting any file, a blank Web Editor screen is shown. You can open a file for editing from AEM repository or your Favorites collection.
+
+-  Click the **Guides** icon (![](images/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
+
+-  The **Close** button  takes you to a destination based on your setup: 
+
+
+
+    <details>
+        
+    <summary> Cloud Services </summary>
+
+    If you are using Cloud Services, click the **Close** button  to go back to the AEM Navigation page.
+    </details>
+
+    <details>
+
+    <summary> On-premise Software</summary>
+
+    If you're using AEM Guides On-premise Software (4.2.1 and later), click the **Close** button on the right to go back to your current file path in the Assets UI.
+
+    </details>
 
 ## AEM Assets UI {#id2056BG0307U}
 
@@ -47,9 +68,9 @@ Another location from where you can launch the Web Editor is from the AEM Assets
 
     >[!IMPORTANT]
     >
-    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not checkout the file, you will not be able to see the edit option.
+    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not check out the file, you will not be able to see the edit option.
 
-1.  Close the asset selection mode and click on the topic you want to edit.
+1.  Close the asset selection mode and click the topic that you want to edit.
 
     The topic's preview is displayed.
 
@@ -74,7 +95,7 @@ Another location from where you can launch the Web Editor is from the AEM Assets
 
 To open the Web Editor from DITA map console, follow these steps:
 
-1.  In the Assets UI, navigate to and click on the DITA map file that contains the topic you want to edit.
+1.  In the Assets UI, navigate to and click the DITA map file that contains the topic you want to edit.
 
     The DITA map console is displayed.
 
@@ -92,7 +113,7 @@ To open the Web Editor from DITA map console, follow these steps:
 
     >[!IMPORTANT]
     >
-    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not checkout the file, then the document will open in the editor in read-only mode.
+    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not check out the file, then the document opens in the editor in read-only mode.
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

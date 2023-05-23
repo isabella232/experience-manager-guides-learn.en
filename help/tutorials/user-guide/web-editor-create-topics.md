@@ -5,7 +5,9 @@ exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
 ---
 # Create topics {#id2056AL00O5Z}
 
-AEM Guides allows you to create DITA topics of type — topic, task, concept, reference, glossary, DITAVAL, and more. Apart from creating topics based on the out-of-the-box templates, you can also define your custom templates. For more information about using your custom DITA templates, see *Configure templates and tags for authoring* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+AEM Guides allows you to create DITA topics of type — topic, task, concept, reference, glossary, DITAVAL, and more. Apart from creating topics based on the out-of-the-box templates, you can also define your custom templates. These templates must be added to the folder profile to show up in the template selection Blueprint and the Web Editor.
+
+Note that Global and Folder Profile configuration is only available to folder-level administrative users. For the details on setting up global and folder-level profiles, see *Configure authoring templates* in  Install and configure Adobe Experience Manager Guides for your setup.
 
 Perform the following steps to create a topic:
 
@@ -17,7 +19,7 @@ Perform the following steps to create a topic:
 
     ![](images/create_dita_topic.png){width="800" align="left"}
 
-    By default, AEM Guides provides the most commonly used DITA topics templates. You can configure more topic templates as per your organizational requirements, see *Configure templates and tags for authoring* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    By default, AEM Guides provides the most commonly used DITA topics templates. You can configure more topic templates as per your organizational requirements, see *Configure authoring templates* in  Install and configure Adobe Experience Manager Guides for your setup.
 
     >[!NOTE]
     >
