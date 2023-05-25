@@ -89,7 +89,7 @@ The bugs fixed in various areas are listed below:
 - Top menu does not appear when navigating through XML editor. (10868)
 - `conref` in ph tag | The browse dialog shown is incorrect. (9481)
 - Local links to other elements are not resolved in Web Editor. (8790)
-- Support Schematron rules to support matches() function do not work. (11224)
+- Matches() function do not work in schematron feature. (11224)
 
 
 ### Management
