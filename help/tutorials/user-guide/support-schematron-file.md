@@ -23,7 +23,7 @@ Perform the following steps to import the Schematron files:
 1. In the **Upload Assets** dialog, you can change the destination folder in the **Select Asset Folder** field.
 1. Click **Choose Files** and browse to select the Schematron files. You can select one or more Schematron files and then click **Upload**.
 
-## Validating a DITA topic or map with Schematron
+## Validate a DITA topic or map with Schematron
 
 After importing Schematron files, you can edit them in the Web Editor. You can use the Schematron files to validate the topics or a DITA map. For example, you can create the following rules for a DITA map or topic:
 
@@ -37,7 +37,6 @@ When you open a topic in the Web Editor a Schematron Validation panel appears in
 1. Click the Schematron icon (), to open the Schematron panel.
 1. Use Add Schematron File to add Schematron files. 
 1. If the Schematron file has no errors, it is added and listed in the Validation panel. An error message is displayed for the Schematron file containing errors.
-
     >[!NOTE]
     >
     >You can use the cross icon near the Schematron file name to remove it.
@@ -46,7 +45,7 @@ When you open a topic in the Web Editor a Schematron Validation panel appears in
     * If the topic breaks no rules, the validation success message is displayed for the file.
     * If the topic breaks a rule, for example, if it doesn't contain a title and is validated for the above given Schematron, it displays a validation error.
 
-1. Click on the error message to highlight the element containing the error in the opened topic/map.
+1. Click the error message to highlight the element containing the error in the opened topic/map.
 
 The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
 
