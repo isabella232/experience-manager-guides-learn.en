@@ -96,7 +96,7 @@ The bugs fixed in various areas are listed below:
 
 - Reports tab in the Web Editor UI doesn't display the topic list of old DITA maps created before the 4.2 upgrade. (11708)
 
-* The Upload files button functionality in the Assets UI break in 4.2 release. (11633)
+- The Upload files button functionality in the Assets UI break in 4.2 release. (11633)
 
 ### Publishing
 
