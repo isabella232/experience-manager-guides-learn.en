@@ -67,6 +67,7 @@ breadcrumb-title: AEM Guides Tutorials
           + [Keyboard shortcuts in the Web Editor](./user-guide/web-editor-keyboard-shortcuts.md)
           + [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
           + [Web Editor views](./user-guide/web-editor-views.md)
+          + [Support for Schematron files](./user-guide/support-schematron-file.md)
           + [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           + [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
           + Article-based publishing {#article-based-pub}
