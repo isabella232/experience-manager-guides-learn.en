@@ -4,7 +4,7 @@ description: Learn about the bug fixes and how to upgrade to  4.2.1 releases of 
 ---
 # 4.2.1 release of Adobe Experience Manager Guides (May 2023)
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed version 4.2.1 release of Adobe Experience Manager Guides (later referred as *AEM Guides*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.2.1 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
 For more information about the new features and enhancements, see [What's new in 4.2.1 release of Adobe Experience Manager Guides](whats-new-4.2.1-release.md).
 

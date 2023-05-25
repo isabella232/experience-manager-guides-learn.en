@@ -5,7 +5,7 @@ exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 ---
 # 4.2 release of Adobe Experience Manager Guides (February 2023)
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed version 4.2 release of Adobe Experience Manager Guides (later referred as *AEM Guides*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.2 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
 For more information about the new features and enhancements, see [What's new in 4.2 release of Adobe Experience Manager Guides](whats-new-4.2-release.md).
 
