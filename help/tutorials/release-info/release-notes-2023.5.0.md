@@ -117,7 +117,7 @@ The bugs fixed in various areas are listed below:
 
 ### Translation
 
-- With 4.2 upgrade, all the translation content shows Out of Sync or Missing Copy. (11834)
+- Post February cloud release (2302), all the translation content shows Out of Sync or Missing Copy. (11834)
 
 ### Review
 
