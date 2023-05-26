@@ -17,7 +17,37 @@ Upgrade your current AEM Guides as a Cloud Service setup by performing the follo
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.4.249.
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
 
+## Steps to enable the trigger of a script via a servlet
+After you complete the installation, you can choose to HIT the trigger to start the translation job:
 
+POST:
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+Response: 
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+In the above response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
+
+Wait till this job is completed before proceeding to the next steps. 
+
+> [!Note]
+> You should check if the node is still present, and the status of the job.
+>
+
+```
+GET
+http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json
+```
 
 ## Steps to index the existing content (Only if you are on a version prior to May 2023 release of AEM Guides as a Cloud Service)
 
@@ -26,7 +56,7 @@ Perform the following steps for indexing the existing content and using the new 
 -   Ensure that the `damAssetLucene` indexing has been completed. It can take upto a few hours, depending on the amount of data present on the server. You can confirm that the reindexing is completed by checking that the reindex field is set as false in 
 `http://<server:port>/oak:index/damAssetLucene`.  Also, if you have added any customizations in `damAssetLucene`, you may need to apply them again.
 
--  If dita files under `/content/dam` are present in more than than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
+-  If dita files under `/content/dam` are present in more than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
 
 -  Run a POST request to the server (with correct authentication) - `http://<server:port>//bin/guides/reports/upgrade`.
 
@@ -82,7 +112,7 @@ The bugs fixed in various areas are listed below:
 ### Authoring
 
 - Navtitle is removed from the content33 on switching from the layout view to the author or source view. (12174)
-- Sometimes application error occurs on clicking on a DITA map. (11842)
+- Sometimes application error occurs on clicking a DITA map. (11842)
 - Web Editor | Non-breaking space is added in XML Editor while editing a topic. (11786)
 - Asset UI | In the List view, the overlayed available columns are not mergeable. (11528)
 - Keyref is not resolved in the map view. (11490)
