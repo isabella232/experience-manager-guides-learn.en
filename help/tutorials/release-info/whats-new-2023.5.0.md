@@ -92,7 +92,7 @@ Now you can also select the metadata properties of your assets and add them to t
  
 ![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
 
->[!Note]
+>[!NOTE]
 >
 > These properties are set from the Properties page of the DITA map or bookmap file.  
 
