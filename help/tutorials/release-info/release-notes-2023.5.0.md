@@ -18,6 +18,7 @@ Upgrade your current AEM Guides as a Cloud Service setup by performing the follo
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
 
 ## Steps to enable the trigger of a script via a servlet
+
 After you complete the installation, you can choose to HIT the trigger to start the translation job:
 
 POST:
@@ -40,8 +41,8 @@ In the above response JSON, the key `lockNodePath` holds the path to the node cr
 
 Wait till this job is completed before proceeding to the next steps. 
 
-> [!Note]
-> You should check if the node is still present, and the status of the job.
+>[!Note]
+>You should check if the node is still present, and the status of the job.
 >
 
 ```

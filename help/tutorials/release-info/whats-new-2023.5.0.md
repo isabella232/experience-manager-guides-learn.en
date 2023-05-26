@@ -45,9 +45,11 @@ You can also now use the device theme. Using the **User Preferences**, you can c
 ![](assets/device-theme-user-preferences.png){width="550" align="left"}
 
 ## Use Report statements to check for rules in Schematron
+
 AEM Guides also now supports the report statements with the Schematron. A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters.
 
 ## Define abstract patterns
+
 AEM Guides also supports abstract patterns in Schematron. You can define generic abstract patterns and reuse these abstract patterns. Abstract patterns can simplify your Schematron schema and also help you manage and update your validation logic. 
 
 
@@ -69,7 +71,8 @@ For more details, see [AEM Navigation page](../user-guide/web-editor-launch-edit
 Now you can add a watermark to the PDF output of the document which is yet not approved. This watermark does not appear if you generate the PDF for the document in ‘Approved’ docstate. For example, you can add a watermark Draft for your PDF output.
 
 ### Native PDF | Support for language variables in DITA elements
-AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution, and so on. For example, you can have the following ways to present your NOTE in the PDF output:
+
+AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution. For example, you can have the following ways to present your NOTE in the PDF output:
 German: Notiz
 Spanish: Nota
 Native PDF | Support for language variables in your page footer
@@ -77,16 +80,19 @@ You can add a language variable to a running header or footer on the master page
 You can also use it to present the numbers in various languages.
 
 ### Native PDF | Localized prefixes for your TOC
+
 You also have the feature to display localized terms to be used to present the prefixes in your headings. 
 For example, you can have the following ways to present your ‘Chapter’ prefix in the PDF output:
 German: Kapitel
 Spanish: Capítulo
 
 ### Native PDF | Add metadata properties for assets
+
 Metadata is the description or definition of your content. You can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted into your page layout for the PDF output. 
 Now you can also select the metadata properties of your assets and add them to the page layout. Then AEM Guides picks these metadata properties of your assets and publishes them in your PDF output. 
  
 ![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
+
 >[!Note]
 >
 >These properties are set from the Properties page of the DITA map or bookmap file.  
