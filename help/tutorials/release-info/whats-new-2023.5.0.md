@@ -33,10 +33,9 @@ AEM Guides also provides you with the **Options** menu for the **Favorites** pan
   
 ![](assets/favorites-options.png){width="650" align="left"}
 
->[!Note]
-> 
->You can also refresh the list using the **Refresh** icon on the top. 
-
+>[!NOTE]
+>
+> You can also refresh the list using the **Refresh** icon on the top.
 
 ## Switch to the system theme
 
@@ -95,5 +94,5 @@ Now you can also select the metadata properties of your assets and add them to t
 
 >[!Note]
 >
->These properties are set from the Properties page of the DITA map or bookmap file.  
+> These properties are set from the Properties page of the DITA map or bookmap file.  
 

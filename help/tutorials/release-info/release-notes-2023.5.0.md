@@ -41,9 +41,9 @@ In the above response JSON, the key `lockNodePath` holds the path to the node cr
 
 Wait till this job is completed before proceeding to the next steps. 
 
->[!Note]
->You should check if the node is still present, and the status of the job.
+>[!NOTE]
 >
+> You should check if the node is still present, and the status of the job.
 
 ```
 GET
