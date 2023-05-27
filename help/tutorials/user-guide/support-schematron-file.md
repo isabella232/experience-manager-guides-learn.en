@@ -31,7 +31,7 @@ After importing Schematron files, you can edit them in the Web Editor. You can u
 * A short description of a certain length has been added.
 * There should be at least one topicref in the map.
 
-When you open a topic in the Web Editor a Schematron Validation panel appears in the right. Perform the following steps to add and validate a topic or map with a Schematron file:
+When you open a topic in the Web Editor, a Schematron Validation panel appears in the right. Perform the following steps to add and validate a topic or map with a Schematron file:
 ![](images/schematron-validate.png){width="300" align="left"}
 
 1. Click the Schematron icon (), to open the Schematron panel.
@@ -49,17 +49,33 @@ When you open a topic in the Web Editor a Schematron Validation panel appears in
 
 The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
 
-## Use Report statements to check for rules
+## Use Assert and Report statements to check for rules
 
-AEM Guides also supports the report statements. A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters. 
-When you validate your DITA topics with the Schematron, you will get a complete report of the rules where the report statement evaluates to true. So, you'll get a message for the topics where the short description is more than 150 characters. 
+AEM Guides also supports the assert and report statements in Schematron. These statements help you validate your DITA topics.
+
+### Assert statement
+
+An assert statement  generates a message when a test statement evaluates to false. For example, if you want your title to be bold, you can define an assert statement for it.
+
+```XML
+<sch:rule context="title"> 
+    <sch:assert test = "b"> Title should be bold </sch:assert>
+  </sch:rule>
+```
+
+When you validate your DITA topics with the Schematron, you get a message for the topics where the title is not bold.
+
+### Report statement
+
+A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters. 
+When you validate your DITA topics with the Schematron, you get a complete report of the rules where the report statement evaluates to true. So, you get a message for the topics where the short description is more than 150 characters. 
 
  
 ```XML
 <sch:rule context="shortdesc"> 
         <sch:let name="characters" value="string-length(.)"/> 
         <sch:report test="$characters &gt; 150">  
-        You have <sch:value-of select="$characters"/> characters. Short Description characters are more than 150.      
+        The short description has <sch:value-of select="$characters"/> characters. It should contain more than 150 characters.      
         </sch:report>   
     </sch:rule> 
 ```
