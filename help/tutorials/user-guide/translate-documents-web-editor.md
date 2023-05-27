@@ -75,6 +75,11 @@ Before performing steps in this procedure, ensure that you have created the requ
     Besides a new translation project, you also can select from the following options:
 
     -   You can choose to **Create a structure** only for the translation project.
+    -  You can choose to **Create a new XLIFF translation project** to convert the XML content into the XML Localization Interchange File Format (XLIFF). XLIFF is an open XML-based format that is used to standardize the data transfer between various tools used in the content translation process. 
+    In an XLIFF project, the content is exported to the industry standard XLIFF format, which can be provided to Translation vendors. XLIFF format empowers potential reuse of segments that you have already translated during the translation phase.  
+    After the XLIFF content is translated, it can be imported into AEM Guides, creating a translated version of the original DITA project. 
+    >[!Note]
+    > XLIFF export only works with human translation configuration. 
     -   You can select **Create a new multi-lingual translation project** which will include translation jobs for all languages that you have selected for translation. For example, if you have selected French, German, and Spanish it will create a project which contains translation jobs for all three languages.
     -   If you already have a translation project, you can add topics to that project. Select Add to **Existing Translation Project** option from the Project list and choose a project from the Existing Translation Project list. You can sort these projects by most recent, ascending, or descending order.
 
@@ -92,6 +97,28 @@ Before performing steps in this procedure, ensure that you have created the requ
     >
     > If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them.
 
+## Add the translation rules  
+
+AEM Guides allows your administrators to configure the translation rules. The SRX (Segmentation Rules eXchange) format is a standard for exchanging segmentation rules between different users and different translation environments. You can create a folder and add your custom SRX files to it.  
+
+SRX files should be named as `<language-code>.srx`. For example, en-US, or ar-AE.  
+
+>[Note]
+>The title is not case-sensitive, so you can have 'en-US' or 'en-us' or 'EN-us'. Also, AEM guides can resolve '-' (hyphen) or '_' (underscore). So, you can have 'en-US' or 'en_US'. 
+
+Also, you can put these files inside any folder under AEM assets root that is `./content/dam`. 
+
+ 
+
+Once you've created the folder which contains the SRX files, you can add the folder path in the Translation SRX location configuration inside your folder profile.  
+
+It is recommended that for a better performance you should keep only SRX files in the folder that is configured in the folder profile. 
+
+ 
+AEM Guides picks the SRX rules according to the source language of the translation project. It looks for a custom SRX file for a language, and if you do not define a custom SRX file, then it picks the rules as per the out of the box translation rules. 
+
+
+For details on setting up global and folder-level profiles, see *Configure authoring templates* section in Install and configure Adobe Experience Manager Guides as a Cloud Service. 
 
 ## Pass the version label to the target version 
 
