@@ -144,10 +144,10 @@ The **Multimedia**report provides detailed information about the multimedia used
 The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix the broken links here itself.
 The report provides detailed information such as the broken link, link type, files in which reference is used, and the type of files they have been used in. 
 You can view the report for broken links by performing the following steps:
-1. 	In the **Repository** panel, open the DITA map file in Map View.
-1. 	Click the **Manage** tab.
-1. 	Double-click **Broken Links** on the left. The list of broken links or references present in the DITA map is displayed.
-1. 	From the **Filters** panel you can order the list by links or by the names of used in references.
+1. In the **Repository** panel, open the DITA map file in Map View.
+1. Click the **Manage** tab.
+1. Double-click **Broken Links** on the left. The list of broken links or references present in the DITA map is displayed.
+1. From the **Filters** panel you can order the list by links or by the names of used in references.
 
     – 	When you order by **Broken Link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows three broken links in the first column and the reference in which they are used, `TestMap.ditamap` is displayed in the third column on three separate rows.
     ![](images/broken-link-report.png){width="800" align="left"}
