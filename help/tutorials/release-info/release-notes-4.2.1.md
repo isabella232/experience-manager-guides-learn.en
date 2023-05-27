@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.2.1 release
 description: Learn about the bug fixes and how to upgrade to  4.2.1 releases of Adobe Experience Manager Guides
+exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
 ---
 # 4.2.1 release of Adobe Experience Manager Guides (May 2023)
 
@@ -105,5 +106,3 @@ The bugs fixed in various areas are listed below:
 ### Review
 
 * Completed review does not open in read only mode. (11387)
-
-

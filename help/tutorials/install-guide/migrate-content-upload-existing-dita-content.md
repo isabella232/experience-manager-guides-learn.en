@@ -1,8 +1,8 @@
 ---
 title: Upload existing DITA content
 description: Learn how to Upload existing DITA content
+exl-id: 40286134-4b8b-4ee8-aeac-30569582cd4a
 ---
-
 # Upload existing DITA content {#id176FF000JUI}
 
 Most likely you would have a repository of existing DITA content that you would like to use with AEM Guides. For such existing content, you can use any of the following approaches to bulk upload your content into the AEM repository.
@@ -169,4 +169,3 @@ Specify the following parameters to add metadata information:
 
 
 **Parent topic:**[Migrate existing content](migrate-content.md)
-

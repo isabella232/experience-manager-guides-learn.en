@@ -1,8 +1,8 @@
 ---
 title: Upgrade Adobe Experience Manager Guides
 description: Learn how to Upgrade Adobe Experience Manager Guides
+exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
 ---
-
 # Upgrade Adobe Experience Manager Guides {#id224MBE0M0XA}
 
 >[!NOTE]
@@ -411,4 +411,3 @@ Perform the following steps for indexing the existing content and use the new fi
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
 **Parent topic:**[Download and install](download-install.md)
-

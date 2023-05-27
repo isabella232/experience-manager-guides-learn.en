@@ -1,8 +1,8 @@
 ---
 title: Integrate desktop-based XML editors
 description: Learn how to Integrate desktop-based XML editors
+exl-id: 563edb0d-922b-4467-960b-875a62a360c9
 ---
-
 # Integrate desktop-based XML editors {#id181GB01G0HS}
 
 There are a lot of XML editors available on the market, and you could be using one already. Adobe FrameMaker is one of the most powerful XML editors, which comes with AEM connector. Using the AEM connector in FrameMaker, you can easily connect with the AEM repository, check-out and check-in files, and edit files directly in FrameMaker. You can also configure AEM Guides to launch FrameMaker from the Web Editor. Once you have the file opened in FrameMaker, you can edit and check the file back into the AEM repository.
@@ -31,4 +31,3 @@ By default, your users do not see the **Open in FrameMaker** button on the AEM t
 
 
 When you enable the **Show Open in FrameMaker Button** option, then the **Open in FrameMaker** button is shown on selecting any DITA file in the AEM repository. When this option is *not enabled*, the **Open in FrameMaker** button is shown only when you select a .fm or a .book file in the repository.
-

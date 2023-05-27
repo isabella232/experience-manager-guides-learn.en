@@ -1,6 +1,7 @@
 ---
 title: Content and Template setup
 description: Learn what all consideration should be made to setup content and templates in AEM Guides.
+exl-id: c35aa01a-21d8-40ed-bd58-05d1ad613eac
 ---
 # Content and Template setup in AEM Guides
 

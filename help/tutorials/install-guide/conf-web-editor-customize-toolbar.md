@@ -1,8 +1,8 @@
 ---
 title: Customize toolbar
 description: Learn how to Customize toolbar
+exl-id: 2e5d5184-70d6-4a27-bcaf-140fc9bf11fd
 ---
-
 # Customize toolbar {#id172FB00L0V6}
 
 By default, the Web Editor is shipped with the most common editorial features required by any DITA editor. Features such as inserting elements of type list \(numbered or bulleted\), cross-reference, content reference, table, paragraph, and character formatting are available in the editor. In addition to these basic elements, you can customize the Web Editor to insert elements that are used in your authoring environment.
@@ -228,4 +228,3 @@ Perform the following steps to remove any unwanted feature from the toolbar:
 
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-

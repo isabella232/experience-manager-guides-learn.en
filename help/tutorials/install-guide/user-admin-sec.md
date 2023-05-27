@@ -1,8 +1,8 @@
 ---
 title: User administration and security
-description: Learn how User administration and security works 
+description: Learn how User administration and security works
+exl-id: 23480647-9770-4f73-930b-06e8d19a9927
 ---
-
 # User administration and security {#id181AED00G5Z}
 
 To access and configure features in AEM Guides, you need to create users. These users can then be assigned permissions to access all or specific features in AEM Guides. Learn how to configure and maintain user authorization and also understand the theory behind how authentication and authorization works in AEM.
@@ -100,4 +100,3 @@ The following list contains some recommendations and points related to user grou
 -   To give a user rights to change a document state, make sure that you add the user in the state transition section of the document state profile.
 
 [1](#fnsrc_1) If *Authors* and *Publishers* are invited for a review.[2](#fnsrc_2) Depending on the rights given to the user in the document state profile.
-

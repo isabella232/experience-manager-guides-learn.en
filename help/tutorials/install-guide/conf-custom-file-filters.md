@@ -1,8 +1,8 @@
 ---
 title: Configure filters for file browse dialog
 description: Learn how to Configure filters for file browse dialog
+exl-id: ff9d0298-1c83-4b7e-b4b6-770de4ab748f
 ---
-
 # Configure filters for file browse dialog {#id20CIL7009GN}
 
 While working in the Web Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference. The default file browse dialog does not offer any file filtering option. You can add your own filters that would allow you to access the required files easily and quickly.
@@ -59,5 +59,3 @@ Perform the following steps to add your custom file filtering options to the fil
     When you launch the file browse dialog, the filter options configured in the ui\_config.json file are shown.
 
     ![](assets/file-browse-custom-filters.png){width="300" align="left"}
-
-

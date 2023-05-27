@@ -1,6 +1,7 @@
 ---
 title: Appendix
 description: Learn how to Prepare InDesign files for conversion
+exl-id: d543cf0c-556a-44d8-9872-0c4ef1629656
 ---
 # Appendix {#id195AD0L60Y4}
 
@@ -467,4 +468,3 @@ You can also create a separate logger for this script execution, as per the deta
 -   Set it to `DEBUG`
 
 The created log file will record all the information that is related to script execution and is useful in case the browser session timeouts, while triggering the script from the browser.
-

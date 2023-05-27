@@ -1,8 +1,8 @@
 ---
 title: Translate content in AEM Guides
 description: Learn how to Translate content
+exl-id: 0ccef8e9-21f7-4ed9-bb2e-f3b4401c5fb2
 ---
-
 # Translate content {#id181GB0400UI}
 
 Automate the translation of page content, assets, and user-generated content to create and maintain multilingual websites. To automate translation workflows, you integrate translation service providers with AEM and create projects for translating content into multiple languages. AEM supports human and machine translation workflows.
@@ -111,5 +111,3 @@ By default, the post-processing of temporary files option is disabled. You can c
     -   If you want to run the post-processing operation on the temporary files, then *Enable* the **Post-process language copies** option.
 
 1.  Click **Save**.
-
-

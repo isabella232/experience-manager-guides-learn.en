@@ -1,8 +1,8 @@
 ---
 title: Recommendations for performance optimization
 description: Learn the Recommendations for performance optimization
+exl-id: 65097417-f4b3-4247-b919-303b1ba217ad
 ---
-
 # Recommendations for performance optimization {#id213BD0JG0XA}
 
 ## Configure data store \(Mandatory\) 
@@ -119,4 +119,3 @@ This can be done at run time.
 This change reduces the post-processing time on bulk upload of DITA files.
 
 **Parent topic:**[Download and install](download-install.md)
-
