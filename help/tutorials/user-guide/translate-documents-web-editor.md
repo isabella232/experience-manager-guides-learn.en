@@ -79,7 +79,7 @@ Before performing steps in this procedure, ensure that you have created the requ
     In an XLIFF project, the content is exported to the industry standard XLIFF format, which can be provided to Translation vendors. XLIFF format empowers potential reuse of segments that you have already translated during the translation phase.  
     After the XLIFF content is translated, it can be imported into AEM Guides, creating a translated version of the original DITA project. 
 
-        >[!Note]
+        >[!NOTE]
         >
         > XLIFF export only works with human translation configuration. 
 
