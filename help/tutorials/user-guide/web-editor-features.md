@@ -797,7 +797,7 @@ The various options in the Options menu are explained below:
 
     ![](images/rename-move-asset.png){width="550" align="left"}
 
-    >[!Note]
+    >[!NOTE]
     > You can also drag and drop a file to another destination folder. 
 
     **Exclusion scenarios**   
@@ -808,7 +808,7 @@ The various options in the Options menu are explained below:
 
     - If any other user checks out the file, you cannot rename or move it, you will not see the Rename or Move to option for the file. 
 
-    [!NOTE] 
+    >[!NOTE] 
     > If your administrator has given you the permissions on a folder, only then the **Rename** or **Move to** options are displayed. 
 
     <details>
