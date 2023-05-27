@@ -36,7 +36,7 @@ Response:
 }
 ```
 
-In the above response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
+In the previous response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
 
 Wait till this job is completed before proceeding to the next steps. 
 
@@ -49,9 +49,11 @@ GET
 http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json
 ```
 
-## Steps to index the existing content (Only if you are on a version prior to May 2023 release of AEM Guides as a Cloud Service)
+## Steps to post process the existing content to use the broken link report 
 
-Perform the following steps for indexing the existing content and using the new find and replace text at map level:
+(Only if you are on a version prior to May 2023 release of AEM Guides as a Cloud Service)
+
+Perform the following steps for post processing the existing content and using the new broken link report:
 
 -   Ensure that the `damAssetLucene` indexing has been completed. It can take upto a few hours, depending on the amount of data present on the server. You can confirm that the reindexing is completed by checking that the reindex field is set as false in 
 `http://<server:port>/oak:index/damAssetLucene`.  Also, if you have added any customizations in `damAssetLucene`, you may need to apply them again.
@@ -63,7 +65,7 @@ Perform the following steps for indexing the existing content and using the new 
 -  The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
--  Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
+-  Once the job is complete, the previous GET request will respond with success. If job fails for some reason then failure can be seen from server logs.
 
 - Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 2.
 
@@ -83,7 +85,7 @@ Perform the following steps for indexing the existing content and use the new fi
 -   The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
--   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
+-   Once the job is complete, the previous GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
 ## Compatibility matrix
 
