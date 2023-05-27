@@ -757,6 +757,8 @@ You will see different options in the Options menu depending on whether you sele
 -   Duplicate
 -   Checkout/Check In
 -   Preview
+-   Move to
+-   Rename
 -   Delete
 -   Copy
 -   Collapse All
@@ -780,6 +782,42 @@ The various options in the Options menu are explained below:
 -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 
     ![](images/quick-preview_cs.png){width="800" align="left"}
+
+-  **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
+    - You can rename a file of any type. 
+    - You can’t change the extension of a file. 
+    - Two files cannot have the same name. So, you cannot rename a file to a name that already exists. An error is displayed. 
+
+-  **Move to**: Use this option to move the selected file to another folder.  
+   - You can either type the name of the destination folder or choose **Select Path** to select the destination folder.    
+   - You can move a file of any type to any destination within the Content folder. 
+   - Two files cannot have the same name. So, you cannot move a file to a folder where a file with the same name already exists.  
+
+    If you try to move a file to a folder where a file with the same name but a different title exists, the Rename and move file dialog is displayed, and you need to rename the file before moving it. The moved file in the destination folder has the new file name.  
+
+    ![](images/rename-move-asset.png){width="550" align="left"}
+
+    >[!Note]
+    > You can also drag and drop a file to another destination folder. 
+
+    **Exclusion scenarios**   
+
+    AEM Guides doesn’t allow you to rename or move a file in the following scenarios: 
+
+    - You cannot move or rename a file if it’s part of a review or a translation workflow. 
+
+    - If any other user checks out the file, you cannot rename or move it, you will not see the Rename or Move to option for the file. 
+
+    [!NOTE] 
+    > If your administrator has given you the permissions on a folder, only then the **Rename** or **Move to** options are displayed. 
+
+    <details>
+    <summary> Cloud Services </summary>
+
+    Renaming or moving any file does not break any existing references from or to the file, as every file has a unique UUID. 
+    </details>
+
+
 
 -   **Delete**: Use this option to delete the selected file. A confirmation prompt is displayed before deleting the file.
 
