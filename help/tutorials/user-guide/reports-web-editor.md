@@ -149,15 +149,15 @@ You can view the report for broken links by performing the following steps:
 1. Double-click **Broken Links** on the left. The list of broken links or references present in the DITA map is displayed.
 1. From the **Filters** panel you can order the list by links or by the names of used in references.
 
-    – 	When you order by **Broken Link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows three broken links in the first column and the reference in which they are used, `TestMap.ditamap` is displayed in the third column on three separate rows.
+    – When you order by **Broken Link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows three broken links in the first column and the reference in which they are used, `TestMap.ditamap` is displayed in the third column on three separate rows.
     ![](images/broken-link-report.png){width="800" align="left"}
  
-    – 	If you order by **Used In** column, you will see the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `TestMap.ditamap` in the first column and the broken links are displayed in the third column on the same row.
+    – If you order by **Used In** column, you will see the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `TestMap.ditamap` in the first column and the broken links are displayed in the third column on the same row.
     ![](images/broken-link-filter-usedin.png){width="800" align="left"}
-1. 	You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the content references used in it.
+1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the content references used in it.
 
     Depending on the type of references used in your map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, and Multimedia File Reference are listed in the **Link Type** drop-down, and **DITA Topic** or **DITA Map** are listed in the **File Type** dropdown.
-1. 	You can also use the following filtering options to choose to display the following columns in the list:
+1. You can also use the following filtering options to choose to display the following columns in the list:
 
     – **Broken Link** (selected by default) The path of the broken link is specified in the DITA map. 
 
