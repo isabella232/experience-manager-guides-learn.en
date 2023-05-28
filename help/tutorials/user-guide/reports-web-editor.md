@@ -141,7 +141,7 @@ The **Multimedia**report provides detailed information about the multimedia used
 
 ## View and fix the broken links
 
-The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix the broken links here itself.
+The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix the them here itself.
 The report provides detailed information such as the broken link, link type, files in which reference is used, and the type of files they have been used in. 
 You can view the report for broken links by performing the following steps:
 1. In the **Repository** panel, open the DITA map file in Map View.

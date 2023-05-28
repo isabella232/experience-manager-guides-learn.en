@@ -155,6 +155,7 @@ The User Preferences are available to all authors. Using the preferences, an aut
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **Use device theme**: Select this checkbox to allow AEM Guides automatically switch between light and dark themes based on the theme of your device. 
 -   **Theme**: You can choose from the Light, Lightest, Dark, or Darkest themes for the editor. In case of Lightest theme, the toolbars and panels use more lighter gray color background. In case of Light theme, the toolbars and panels use light gray color background. In case of Darkest theme, the toolbars and panels use more darker black color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
 
 -   **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
@@ -665,9 +666,22 @@ To add a file to your favorite collection, use any of the following methods:
     ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+
+
+**Options** menu for Favroties  
+You can also perform many actions using the Options menu available for the Favorites: 
+
+![](images/favorites-options.png){width="400" align="left"}
+- **Rename**: Rename the selected collection. 
+- **Delete**: Delete the selected file.  
+- **Refresh**: Get a fresh list of files and folders from the repository. 
+- **View in Assets UI**: Show the file or folder contents in the Assets UI. 
+
+
 >[!NOTE]
 >
-> To remove an item from the favorites list, click the Options icon next to the file or folder in the Favorites list and choose **Remove from Favorites**.
+> You can also refresh the list using the Refresh icon on the top. 
+
 
 **Repository View** - ![](images/Repository_icon.svg)
 
@@ -1236,6 +1250,61 @@ The following example shows how to use subject scheme in AEM Guides.
 1.  Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
 
     ![](images/subject-scheme-apply.png){width="650" align="left"}
+
+### Handling hierarchical definitions of subject definitions and enumerations 
+
+Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define the subject definition in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
+
+The subject definitions are defined in `subject_scheme_map_1.ditamap`   
+
+ 
+```XML
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+<subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+<title>subject_scheme_map_1</title> 
+<subjectdef keys="os" navtitle="Operating system"> 
+<subjectdef keys="linux" navtitle="Linux"> 
+<subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+<subjectdef keys="suse" navtitle="SuSE Linux"/> 
+</subjectdef> 
+<subjectdef keys="windows" navtitle="Windows"/> 
+<subjectdef keys="zos" navtitle="z/OS"/> 
+</subjectdef> 
+</subjectScheme>  
+
+```
+The enumeration definition is present in subject_scheme_map_2.ditamap 
+
+ ```XML
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+<subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+<title>subject_scheme_map_2</title> 
+<mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+</mapref> 
+<enumerationdef> 
+<attributedef name="platform"> 
+</attributedef> 
+<subjectdef keyref="os"> 
+</subjectdef> 
+</enumerationdef> 
+</subjectScheme>  
+ ``` 
+
+Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
+
+>[!NOTE] 
+>
+> As the `subject_scheme_map_1.ditamap` and `subject_scheme_map_2.ditamap` are referenced with each other hence the subject schemes are getting resolved.  
+
+The subject-enumeration references are resolved in the following order of priority: 
+
+1. Same map 
+1. Referenced map  
+
+ 
+The references are not resolved if the enumeration is not found in the same map and the referenced map. 
 
 
 **Attributes drop-down**
