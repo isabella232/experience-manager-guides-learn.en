@@ -55,10 +55,8 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 Perform the following steps for post processing the existing content and using the new broken link report:
 
--   Ensure that the `damAssetLucene` indexing has been completed. It can take upto a few hours, depending on the amount of data present on the server. You can confirm that the reindexing is completed by checking that the reindex field is set as false in 
-`http://<server:port>/oak:index/damAssetLucene`.  Also, if you have added any customizations in `damAssetLucene`, you may need to apply them again.
 
--  If dita files under `/content/dam` are present in more than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
+-  (Optional) If dita files under `/content/dam` are present in more than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
 
 -  Run a POST request to the server (with correct authentication) - `http://<server:port>//bin/guides/reports/upgrade`.
 
@@ -67,7 +65,7 @@ Perform the following steps for post processing the existing content and using t
 
 -  Once the job is complete, the previous GET request will respond with success. If job fails for some reason then failure can be seen from server logs.
 
-- Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 2.
+- Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
 ## Steps to index the existing content to use the new find and replace and topic list under the Reports tab: 
 
