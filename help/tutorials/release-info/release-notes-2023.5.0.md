@@ -55,7 +55,8 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 Perform the following steps for post processing the existing content and using the new broken link report:
 
-1. (Optional) If dita files under `/content/dam` are present in more than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
+1. (Optional) If there are more than 100,000 dita files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000) and then redeploy.
+
     - Use the instructions given in *Configuration overrides* section in Install and configure Adobe Experience Manager Guides
 as a Cloud Service, to create the configuration file. 
     - In the configuration file, provide the following (property) details to configure the queryLimitReads option:
