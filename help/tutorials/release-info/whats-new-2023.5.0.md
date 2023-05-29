@@ -15,16 +15,23 @@ AEM Guides allows you to check the overall completeness of your technical docume
 
 Once you fix a link, it is not displayed under the list of broken links. Instead, you can see it under the **Topic List** or **Metadata**.  
 
+For more details, see [View and fix broken links](../user-guide/reports-web-editor.md#report-broken-links).
+
 ## Rename and Move files within the Repository view
  
 Now you can also rename or move a file from the repository panel. This feature is very handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the Options menu for the selected file. AEM Guides displays a success message when you move or rename a file. However, you cannot rename a file to a name that already exists. Also, you cannot move a file to a folder where a file with the same name already exists.  
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
+For more details on the Options menu of a file, see the Repository feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+
 ## Handling hierarchical definitions of subject definitions and enumerations 
 
 AEM Guides come with the powerful feature to create Subject scheme maps which are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Now AEM Guides also provides the feature to define the subject definition in a map and the enumeration definitions in another map. You can then add the map reference and use the subject scheme.
 The subject-enumeration references are resolved in the same map or the referenced map. 
+
+For more details, see [Handling hierarchical definitions of subject definitions and enumerations](../user-guide/web-editor-features.md#hierarchichal-subject-scheme) section.
 
 
 ## Options menu for the Favorites panel
@@ -37,21 +44,28 @@ AEM Guides also provides you with the **Options** menu for the **Favorites** pan
 >
 > You can also refresh the list using the **Refresh** icon on the top.
 
+For more details on the Options menu of a Favorites collection, see the Favorites feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
 ## Switch to the system theme
 
 You can also now use the device theme. Using the **User Preferences**, you can configure AEM Guides to automatically switch between light and dark themes based on the theme of your device.  
 
 ![](assets/device-theme-user-preferences.png){width="550" align="left"}
 
+For more details, see the User Preferences feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.
+
 ## Use Report statements to check for rules in Schematron
 
 AEM Guides also now supports the report statements with the Schematron. A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters.
+
+For more details, see [Use Assert and Report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ## Define abstract patterns
 
 AEM Guides also supports abstract patterns in Schematron. You can define generic abstract patterns and reuse these abstract patterns. Abstract patterns can simplify your Schematron schema and also help you manage and update your validation logic. 
 
 
+For more details, see [Define abstract patterns](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
 ## Navigate from the Web Editor to the AEM homepage 
 
 Now you can easily navigate from the Web Editor to the AEM Navigation page. 

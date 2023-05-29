@@ -49,7 +49,7 @@ When you open a topic in the Web Editor, a Schematron Validation panel appears i
 
 The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
 
-## Use Assert and Report statements to check for rules
+## Use Assert and Report statements to check for rules{#schematron-assert-report}
 
 AEM Guides also supports the assert and report statements in Schematron. These statements help you validate your DITA topics.
 
@@ -94,7 +94,7 @@ No one word titles.
 ```
  
 
-## Define abstract patterns 
+## Define abstract patterns{#schematron-abstract-patterns} 
 
 AEM Gudies also supports abstract patterns in Schematron. You can define generic abstract patterns reuse these abstract patterns.  You can create placeholder parameters that specify the actual pattern. 
 

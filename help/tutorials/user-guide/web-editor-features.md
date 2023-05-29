@@ -666,9 +666,7 @@ To add a file to your favorite collection, use any of the following methods:
     ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
-
-
-**Options menu for Favroties collection  
+** Options menu for Favroties collection**  
 You can also perform many actions using the Options menu available for a Favorites collection: 
 
 ![](images/favorites-options.png){width="400" align="left"}
@@ -1251,7 +1249,7 @@ The following example shows how to use subject scheme in AEM Guides.
 
     ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-### Handling hierarchical definitions of subject definitions and enumerations 
+### Handling hierarchical definitions of subject definitions and enumerations{#hierarchichal-subject-scheme} 
 
 Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define the subject definition in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
 
