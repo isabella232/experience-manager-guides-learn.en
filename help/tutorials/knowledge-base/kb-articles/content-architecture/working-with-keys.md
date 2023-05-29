@@ -1,10 +1,10 @@
 ---
-title: Create global keys
-description: How to create global keys to be used across organization content
+title: Working with keys
+description: How to create keys to be used across organization content
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 ---
-# Create global keys
+# Create keys 
 
 Organizations should use keys in cases where they have some resuable and common text, like product name or product pitch, that is used in many places but is prone to change. Using keys for such reusable text allows you to push an update in multiple places by making the change at a single location, such as in the key value.
 

@@ -254,6 +254,6 @@ breadcrumb-title: AEM Guides Tutorials
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
     + Translation {#translation}
       + [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-    + Use Cases {#content-arch}
-      + [Work with conditional output](./knowledge-base/kb-articles/content-architecture/create-and-use-conditions.md)
-      + [Create global keys](./knowledge-base/kb-articles/content-architecture/create-global-keys.md)
+    + Use Cases {#use-cases}
+      + [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+      + [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
