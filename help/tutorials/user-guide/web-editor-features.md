@@ -668,8 +668,8 @@ To add a file to your favorite collection, use any of the following methods:
 
 
 
-**Options** menu for Favroties  
-You can also perform many actions using the Options menu available for the Favorites: 
+**Options menu for Favroties collection  
+You can also perform many actions using the Options menu available for a Favorites collection: 
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **Rename**: Rename the selected collection. 
