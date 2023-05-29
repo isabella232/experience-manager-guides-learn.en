@@ -1,8 +1,8 @@
 ---
 title: Upgrade Adobe Experience Manager Guides
 description: Learn how to Upgrade Adobe Experience Manager Guides
-exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
 ---
+
 # Upgrade Adobe Experience Manager Guides {#id224MBE0M0XA}
 
 >[!NOTE]
@@ -63,17 +63,19 @@ Before you install version 4.0, perform the following steps:
 This API is designed to assess the current system status and report if the upgrade is possible or not. To run this script, trigger the below given endpoint:
 
 |End Point|/bin/dxml/upgrade/3xto4x/report|
+| --- | --- |
 |Request Type|**GET** You can use a web browser, where you are logged in to the AEM instance as an administrator.|
 |Expected Response|-   In case all required nodes can be moved, you will get a passed check. <br>-   In case a node is present at the target location, you will get a relevant error. Clean up the repository \(delete node /var/dxml\) and reinstall the upgrade package and then trigger this endpoint again. <br>**Note:** This is not a common error as the target location is not used earlier by 3.x AEM Guides. <br> -   If this script does not succeed, do not proceed and report to your customer success team.|
 
 **System data migration API**
 
-This API is designed to migrate the system data as mentioned in the [Migration Mapping](#id2244LE040XA) section.
+This API is designed to migrate the system data as mentioned in the **Migration Mapping** section.
 
 1.  Do not execute this script if the Check upgrade compatibility API fails \(do not proceed\).
 1.  Once the Check upgrade compatibility API returns success, you can run the upgrade script.
 
 |End Point|/bin/dxml/upgrade/3xto4x|
+| --- | --- |
 |Request Type|**POST** This script is a POST request hence should be executed via agents like Postman.|
 |Expected Response|-   Once the migration is successful, you can install XML Documentation solution version 4.0.<br>-   In case there are errors, restore to the last checkpoint and share the error logs along with API output with your customer success team.|
 
@@ -411,3 +413,4 @@ Perform the following steps for indexing the existing content and use the new fi
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
 **Parent topic:**[Download and install](download-install.md)
+
