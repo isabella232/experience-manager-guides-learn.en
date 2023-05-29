@@ -1249,88 +1249,88 @@ The following example shows how to use subject scheme in AEM Guides.
 
     ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-### Handling hierarchical definitions of subject definitions and enumerations{#hierarchichal-subject-scheme} 
+    **Handling hierarchical definitions of subject definitions and enumerations**
 
-Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define the subject definition in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
+    Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define the subject definition in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
 
-The subject definitions are defined in `subject_scheme_map_1.ditamap`   
-
- 
-```XML
-<?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-<subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-<title>subject_scheme_map_1</title> 
-<subjectdef keys="os" navtitle="Operating system"> 
-<subjectdef keys="linux" navtitle="Linux"> 
-<subjectdef keys="redhat" navtitle="RedHat Linux"/> 
-<subjectdef keys="suse" navtitle="SuSE Linux"/> 
-</subjectdef> 
-<subjectdef keys="windows" navtitle="Windows"/> 
-<subjectdef keys="zos" navtitle="z/OS"/> 
-</subjectdef> 
-</subjectScheme>  
-
-```
-
-The enumeration definition is present in subject_scheme_map_2.ditamap 
-
-```XML
-<?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-<subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-<title>subject_scheme_map_2</title> 
-<mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-</mapref> 
-<enumerationdef> 
-<attributedef name="platform"> 
-</attributedef> 
-<subjectdef keyref="os"> 
-</subjectdef> 
-</enumerationdef> 
-</subjectScheme>  
-``` 
-
-Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
-
->[!NOTE] 
->
-> As the `subject_scheme_map_1.ditamap` and `subject_scheme_map_2.ditamap` are referenced with each other hence the subject schemes are getting resolved.  
-
-The subject-enumeration references are resolved in the following order of priority: 
-
-1. Same map 
-1. Referenced map  
+    The subject definitions are defined in `subject_scheme_map_1.ditamap`   
 
  
-The references are not resolved if the enumeration is not found in the same map and the referenced map. 
+    ```XML
+    <?xml version="1.0" encoding="UTF-8"?> 
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+    <title>subject_scheme_map_1</title> 
+    <subjectdef keys="os" navtitle="Operating system"> 
+    <subjectdef keys="linux" navtitle="Linux"> 
+    <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+    <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+    </subjectdef> 
+    <subjectdef keys="windows" navtitle="Windows"/> 
+    <subjectdef keys="zos" navtitle="z/OS"/> 
+    </subjectdef> 
+    </subjectScheme>  
+
+    ```
+
+    The enumeration definition is present in    subject_scheme_map_2.ditamap 
+
+    ```XML
+    <?xml version="1.0" encoding="UTF-8"?> 
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+    <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+    <title>subject_scheme_map_2</title> 
+    <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+    </mapref> 
+    <enumerationdef> 
+    <attributedef name="platform"> 
+    </attributedef> 
+    <subjectdef keyref="os"> 
+    </subjectdef> 
+    </enumerationdef> 
+    </subjectScheme>  
+    ``` 
+
+    Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
+
+    >[!NOTE] 
+    >
+    > As the `subject_scheme_map_1.ditamap` and `subject_scheme_map_2.ditamap` are referenced with each other hence the subject schemes are getting resolved.  
+
+    The subject-enumeration references are resolved in the following order of priority: 
+
+    1. Same map 
+    1. Referenced map  
+
+ 
+    The references are not resolved if the enumeration is not found in the same map and the referenced map. 
 
 
-**Attributes drop-down**
+    **Attributes drop-down**
 
-You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
+    You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+    ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-You can also apply values for an attribute by selecting multiple values from the dropdown.
+    You can also apply values for an attribute by selecting multiple values from the dropdown.
 
-**Source View**
+    **Source View**
 
-You can also change the values from the attribute's drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
+    You can also change the values from the attribute's drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+    ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-**View and apply the subject scheme from the Conditions panel**
+    **View and apply the subject scheme from the Conditions panel**
 
-You can also view and apply the subject scheme from the Conditions panel.
+    You can also view and apply the subject scheme from the Conditions panel.
 
-To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
+    To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
 
-The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
+    The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+    ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
+    You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
 
 **Snippets** -  ![](images/insert-snippet-icon.svg)
 

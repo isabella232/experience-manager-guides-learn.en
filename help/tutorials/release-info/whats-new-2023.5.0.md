@@ -23,7 +23,7 @@ Now you can also rename or move a file from the repository panel. This feature i
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
-For more details on the Options menu of a file, see the Repository feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+For more details on the Options menu of a file, see the **Repository view** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 
 ## Handling hierarchical definitions of subject definitions and enumerations 
@@ -31,7 +31,7 @@ For more details on the Options menu of a file, see the Repository feature descr
 AEM Guides come with the powerful feature to create Subject scheme maps which are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Now AEM Guides also provides the feature to define the subject definition in a map and the enumeration definitions in another map. You can then add the map reference and use the subject scheme.
 The subject-enumeration references are resolved in the same map or the referenced map. 
 
-For more details, see [Handling hierarchical definitions of subject definitions and enumerations](../user-guide/web-editor-features.md#hierarchichal-subject-scheme) section.
+For more details on the handling hierarchical definitions of subject definitions and enumerations, see the **Subject scheme** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 
 ## Options menu for the Favorites panel
@@ -44,7 +44,7 @@ AEM Guides also provides you with the **Options** menu for the **Favorites** pan
 >
 > You can also refresh the list using the **Refresh** icon on the top.
 
-For more details on the Options menu of a Favorites collection, see the Favorites feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+For more details on the **Options** menu of a Favorites collection, see the **Favorites** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 ## Switch to the system theme
 
@@ -52,7 +52,7 @@ You can also now use the device theme. Using the **User Preferences**, you can c
 
 ![](assets/device-theme-user-preferences.png){width="550" align="left"}
 
-For more details, see the User Preferences feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.
+For more details, see the **User Preferences** feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.
 
 ## Use Report statements to check for rules in Schematron
 
