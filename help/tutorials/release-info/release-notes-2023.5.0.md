@@ -54,9 +54,14 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 (Only if you are on a version prior to May 2023 release of AEM Guides as a Cloud Service)
 
 Perform the following steps for post processing the existing content and using the new broken link report:
+-(Optional) If dita files under `/content/dam` are present in more than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
+    - Use the instructions given in *Configuration overrides* section in Install and configure Adobe Experience Manager Guides
+as a Cloud Service, to create the configuration file. 
+    - In the configuration file, provide the following (property) details to configure the queryLimitReads option:
 
-
--  (Optional) If dita files under `/content/dam` are present in more than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
+    |PID|Property Key|Property Value|
+    |---|---|---|
+    |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 Default Value: 100000|
 
 -  Run a POST request to the server (with correct authentication) - `http://<server:port>//bin/guides/reports/upgrade`.
 
@@ -65,7 +70,7 @@ Perform the following steps for post processing the existing content and using t
 
 -  Once the job is complete, the previous GET request will respond with success. If job fails for some reason then failure can be seen from server logs.
 
-- Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
+- Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 2.
 
 ## Steps to index the existing content to use the new find and replace and topic list under the Reports tab: 
 
