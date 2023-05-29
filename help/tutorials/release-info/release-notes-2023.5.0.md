@@ -54,23 +54,24 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 (Only if you are on a version prior to May 2023 release of AEM Guides as a Cloud Service)
 
 Perform the following steps for post processing the existing content and using the new broken link report:
--(Optional) If dita files under `/content/dam` are present in more than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
+
+1. (Optional) If dita files under `/content/dam` are present in more than 100,000 nodes, then go to **System Console** > **OSGi Configuration** > **Apache Jackrabbit Query Engine Settings Service**. The parameter name is `queryLimitReads`. By default its value is 100,000. Change it to 200,000 or to an appropriate number of dita files.
     - Use the instructions given in *Configuration overrides* section in Install and configure Adobe Experience Manager Guides
 as a Cloud Service, to create the configuration file. 
     - In the configuration file, provide the following (property) details to configure the queryLimitReads option:
 
-    |PID|Property Key|Property Value|
-    |---|---|---|
-    |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 Default Value: 100000|
+        |PID|Property Key|Property Value|
+        |---|---|---|
+        |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 Default Value: 100000|
 
--  Run a POST request to the server (with correct authentication) - `http://<server:port>//bin/guides/reports/upgrade`.
+1.  Run a POST request to the server (with correct authentication) - `http://<server:port>//bin/guides/reports/upgrade`.
 
--  The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1.  The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
--  Once the job is complete, the previous GET request will respond with success. If job fails for some reason then failure can be seen from server logs.
+1.  Once the job is complete, the previous GET request will respond with success. If job fails for some reason then failure can be seen from server logs.
 
-- Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 2.
+1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
 ## Steps to index the existing content to use the new find and replace and topic list under the Reports tab: 
 
@@ -78,17 +79,14 @@ as a Cloud Service, to create the configuration file.
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level and topic list under the reports tab:
 
--   Ensure that the `damAssetLucene` indexing has been completed. It can take upto a few hours, depending on the amount of data present on the server. You can confirm that the reindexing is completed by checking that the reindex field is set as false in 
-`http://<server:port>/oak:index/damAssetLucene`.  Also, if you have added any customizations in `damAssetLucene`, you may need to apply them again.
+1.   Run a POST request to the server \(with correct authentication\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed \|\| For example : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
--   Run a POST request to the server \(with correct authentication\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed \|\| For example : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. You can also pass a root folder to index the DITA maps of a specific folder (and its subfolders). For example, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Note that if both the paths parameter and root parameter are passed, only the paths parameter is considered. 
 
-- You can also pass a root folder to index the DITA maps of a specific folder (and its subfolders). For example, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Note that if both the paths parameter and root parameter are passed, only the paths parameter is considered. 
-
--   The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1.   The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
--   Once the job is complete, the previous GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
+1.   Once the job is complete, the previous GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
 ## Compatibility matrix
 
