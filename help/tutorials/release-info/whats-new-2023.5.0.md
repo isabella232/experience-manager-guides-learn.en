@@ -72,6 +72,7 @@ AEM Guides also now supports the report statements with the Schematron. A report
 For more details, see [Use Assert and Report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Use Regex expressions
+
 You can also use Regex expressions to define a rule with matches() function and then perform validation using the Schematron file.
 
 For more details, see [Use Regex expresstions](../user-guide/support-schematron-file.md#schematron-assert-report).
