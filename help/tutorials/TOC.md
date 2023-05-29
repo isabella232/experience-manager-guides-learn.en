@@ -184,7 +184,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Migrate existing content](./install-guide/migrate-content.md)
       + [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       + [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
-    + Confiure UUID and non-UUID based filenames {#conf-non-uuid-filename}
+    + Configure UUID and non-UUID based filenames {#conf-non-uuid-filename}
       + [Configure filenames](./install-guide/conf-file-names.md)
       + [Configure auto-filenames based on UUID](./install-guide/conf-auto-uuid-filenames.md)
       + [Configure Regx for valid file name characters](./install-guide/conf-file-names-valid-regx.md)
