@@ -66,6 +66,7 @@ AEM Guides also supports abstract patterns in Schematron. You can define generic
 
 
 For more details, see [Define abstract patterns](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
+
 ## Navigate from the Web Editor to the AEM homepage 
 
 Now you can easily navigate from the Web Editor to the AEM Navigation page. 
