@@ -25,59 +25,6 @@ Now you can also rename or move a file from the repository panel. This feature i
 
 For more details on the Options menu of a file, see the **Repository view** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-
-## Handling hierarchical definitions of subject definitions and enumerations 
-
-AEM Guides come with the powerful feature to create Subject scheme maps which are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Now AEM Guides also provides the feature to define the subject definition in a map and the enumeration definitions in another map. You can then add the map reference and use the subject scheme.
-The subject-enumeration references are resolved in the same map or the referenced map. 
-
-For more details on the handling hierarchical definitions of subject definitions and enumerations, see the **Subject scheme** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
-
-
-## Options menu for the Favorites panel
-
-AEM Guides also provides you with the **Options** menu for the **Favorites** panel. You can rename the selected collection or delete it from the **Options** menu. You can also view the folder contents in the Assets UI. You can select the Refresh option to get a fresh list of files or folders from the repository.   
-  
-![](assets/favorites-options.png){width="650" align="left"}
-
->[!NOTE]
->
-> You can also refresh the list using the **Refresh** icon on the top.
-
-For more details on the **Options** menu of a Favorites collection, see the **Favorites** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
-
-## Switch to the system theme
-
-You can also now use the device theme. Using the **User Preferences**, you can configure AEM Guides to automatically switch between light and dark themes based on the theme of your device.  
-
-![](assets/device-theme-user-preferences.png){width="550" align="left"}
-
-For more details, see the **User Preferences** feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.
-
-## Use Report statements to check for rules in Schematron
-
-AEM Guides also now supports the report statements with the Schematron. A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters.
-
-For more details, see [Use Assert and Report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
-
-## Define abstract patterns
-
-AEM Guides also supports abstract patterns in Schematron. You can define generic abstract patterns and reuse these abstract patterns. Abstract patterns can simplify your Schematron schema and also help you manage and update your validation logic. 
-
-
-For more details, see [Define abstract patterns](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
-
-## Navigate from the Web Editor to the AEM homepage 
-
-Now you can easily navigate from the Web Editor to the AEM Navigation page. 
-
-![](assets/web-editor-launch-page.png){width="800" align="left"}
-
-*  Click the **Guides** icon (![](assets/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
-
-
-For more details, see [AEM Navigation page](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ). 
-
 ## Native PDF enhancements
 
 ### Native PDF | Add a watermark to PDF output for draft documents 
@@ -100,14 +47,77 @@ For example, you can have the following ways to present your ‘Chapter’ prefi
 German: Kapitel
 Spanish: Capítulo
 
-### Native PDF | Add metadata properties for assets
+### Native PDF | Ability to use AEM metadata in PDF layouts
 
-Metadata is the description or definition of your content. You can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted into your page layout for the PDF output. 
-Now you can also select the metadata properties of your assets and add them to the page layout. Then AEM Guides picks these metadata properties of your assets and publishes them in your PDF output. 
+
+Metadata is the description or definition of your content. This metadata is stored in your source DITA map content. 
+
+Now In AEM Guides you can also select the metadata properties of your assets and add them to the page layout. Then AEM Guides picks these metadata properties of your assets and publishes them in your PDF output. 
+
+These properties are set from the **Properties** page of the DITA map or bookmap file.  
  
 ![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> These properties are set from the Properties page of the DITA map or bookmap file.  
+> AEM Guides also supports XPath (XML Path Language) for your DITA maps. You can use XPath to select the nodes or node-sets in an XML document. 
 
+
+## Schematron enhancements
+
+### Use Report statements to check for rules in Schematron
+
+AEM Guides also now supports the report statements with the Schematron. A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters.
+
+For more details, see [Use Assert and Report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
+
+### Use Regex expressions
+You can also use Regex expressions to define a rule with matches() function and then perform validation using the Schematron file.
+
+For more details, see [Use Regex expresstions](../user-guide/support-schematron-file.md#schematron-assert-report).
+
+
+### Define abstract patterns
+
+AEM Guides also supports abstract patterns in Schematron. You can define generic abstract patterns and reuse these abstract patterns. Abstract patterns can simplify your Schematron schema and also help you manage and update your validation logic. 
+
+
+For more details, see [Define abstract patterns](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
+
+## Navigate from the Web Editor to the AEM homepage 
+
+Now you can easily navigate from the Web Editor to the AEM Navigation page. 
+
+![](assets/web-editor-launch-page.png){width="800" align="left"}
+
+*  Click the **Guides** icon (![](assets/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
+
+
+For more details, see [AEM Navigation page](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ). 
+
+## Handling hierarchical definitions of subject definitions and enumerations 
+
+AEM Guides come with the powerful feature to create Subject scheme maps which are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Now AEM Guides also provides the feature to define the subject definition in a map and the enumeration definitions in another map. You can then add the map reference and use the subject scheme.
+The subject-enumeration references are resolved in the same map or the referenced map. 
+
+For more details on the handling hierarchical definitions of subject definitions and enumerations, see the **Subject scheme** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+## Options menu for the Favorites panel
+
+AEM Guides also provides you with the **Options** menu for the **Favorites** panel. You can rename the selected collection or delete it from the **Options** menu. You can also view the folder contents in the Assets UI. You can select the Refresh option to get a fresh list of files or folders from the repository.   
+  
+![](assets/favorites-options.png){width="650" align="left"}
+
+>[!NOTE]
+>
+> You can also refresh the list using the **Refresh** icon on the top.
+
+For more details on the **Options** menu of a Favorites collection, see the **Favorites** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+## Switch to the system theme
+
+You can also now use the device theme. Using the **User Preferences**, you can configure AEM Guides to automatically switch between light and dark themes based on the theme of your device.  
+
+![](assets/device-theme-user-preferences.png){width="550" align="left"}
+
+For more details, see the **User Preferences** feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.

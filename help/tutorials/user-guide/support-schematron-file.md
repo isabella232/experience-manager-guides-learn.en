@@ -81,7 +81,7 @@ When you validate your DITA topics with the Schematron, you get a complete repor
 ```
  
 
-## Use Regex expressions
+## Use Regex expressions{#schematron-regex-espressions}
 
 You can also use Regex expressions to define a rule with matches() function and then perform validation using the Schematron file. 
 
