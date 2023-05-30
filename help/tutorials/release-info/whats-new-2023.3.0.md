@@ -8,7 +8,7 @@ exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
 
 This article covers the new and enhanced features in March 2023 version of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.5.0.md) article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.3.0.md) article.
 
 
 ## Open and play video or audio files in the Web Editor

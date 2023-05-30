@@ -5,7 +5,7 @@ exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
 ---
 # April release of Adobe Experience Manager Guides as a Cloud Service 
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version May 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version April 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
 For more information about the new features and enhancements, see [What's new in April 2023 release of AEM Guides as a Cloud Service](whats-new-2023.4.0.md).
 
