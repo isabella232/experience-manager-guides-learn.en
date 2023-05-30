@@ -3,57 +3,15 @@ title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, Febru
 description: February release of Adobe Experience Manager Guides as a Cloud Service
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 ---
-# February release of Adobe Experience Manager Guides as a Cloud Service 
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version February 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+# What's new in February 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
-For more information about the new features and enhancements, see [What's new in February 2023 release of AEM Guides as a Cloud Service](whats-new-2023.2.0.md).
+This article covers the new and enhanced features in February 2023 version of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-## Upgrade to the February release
-
-Upgrade your current AEM Guides as a Cloud Service setup by performing the following steps:
-1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
-2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.2.235.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the February release of AEM Guides as a Cloud Service.
-
-## Steps to index the existing content (Only if you are on a version prior to September release of AEM Guides as a Cloud Service)
-
-Perform the following steps for indexing the existing content and use the new find and replace text at map level:
-
-* Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`.
-(Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed || Example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
-
-* The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(For example: http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
-
-* Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
-
-## Compatibility matrix
-
-This section lists the compatibility matrix for the software applications supported by AEM Guides as a Cloud Service February 2023 release. 
-
-### FrameMaker and FrameMaker Publishing Server
-
-| AEM Guides as a Cloud Release| FMPS | FrameMaker |
-| --- | --- | --- |
-| 2023.02.0 | Not compatible | 2022 or higher |
-| | | |
-
-*Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
-
-### Oxygen Connector
-
-| AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
-| --- | --- | --- | --- | --- |
-| 2023.02.0| 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 | 
-|  |  |  |  |
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.2.0.md) article.
 
 
-## New features and enhancements
-
-AEM Guides as a Cloud Service provides enhancements and new features in the February release:
-
-### Generate reports from the Web Editor
+## Generate reports from the Web Editor
 
 AEM Guides comes with a feature in the Web Editor that enables you to check the overall completeness of your technical documents and generate reports for them.
 You can view the topic list, manage the metadata, and see the multimedia used in all references for the current map from the
@@ -76,7 +34,7 @@ You can also generate the CSV to download the current snapshot of the multimedia
 
 <img  src="assets/web-editor-reports-multimedia.png" alt="multimedia report" width=600>
 
-### Revamped UX for the review functionality
+## Revamped UX for the review functionality
 
 Now AEM guides provides an improved UX that helps you review the topics shared for review. In the latest experience, the review functionality has the following enhancements:
 
@@ -97,7 +55,7 @@ number of comments in the left panel is updated accordingly.
 
 
 
-### Translation enhancements
+## Translation enhancements
 
 Now you have more user-friendly enhancements in the Translation dashboard which help you easily translate your documents from the Web Editor.
 
@@ -120,7 +78,7 @@ If you make changes in some of the assets, then AEM Guides marks them to be Out 
 Some of the references on your translation dashboard might be in progress. Now AEM Guides provides a feature to help you view the list of all In Progress translation projects (along with the target language) that contain the selected reference.
 
 
-### Generate output in various formats from the Web Editor
+## Generate output in various formats from the Web Editor
 
 Now you can easily generate the output for your topics or DITA map from the Web Editor. You can configure various output presets like AEM Site, PDF, HTML5,
 JSON (a headless output format), and custom output. You can then use these to generate the respective outputs. 
@@ -128,13 +86,13 @@ JSON (a headless output format), and custom output. You can then use these to ge
 You can define attributes in your DITA topics and then use the condition preset to apply a condition while publishing the output. You can also use the Baseline publishing feature to selectively publish a specific version of your DITA map or topic.
 
 
-### Find and replace the text at map level
+## Find and replace the text at map level
 
 AEM Guides allows you to search for files within a map that contain specific text. The searched text is highlighted in the files. Now you can also replace the searched word or phrase with another word or phrase within all the files. You can select **Replace All** icon  on the right at the top of the list to replace all occurrences of the searched term in all the files.
 
 <img src="assets/map-find-replace.png" alt="map find replace" width=600>
 
-### Delete and Duplicate files from the repository panel
+## Delete and Duplicate files from the repository panel
 
 Now you can easily create a duplicate or a copy of a file from the **Options** menu of the selected file in the repository panel. By default, the file is created with
 a suffix (like `filename_1.extension`).
@@ -142,7 +100,7 @@ a suffix (like `filename_1.extension`).
 <img src="assets/options-menu-repo-view-file-level.png" alt="file options menu " width=500> 
 
 
-### Other Web Editor enhancements
+## Other Web Editor enhancements
 
 * In AEM Guides, you can perform some common operations for images and media files using the context menu. Now you can also locate the selected image or media in the repository or view the preview of the file in Assets UI.
 
@@ -151,11 +109,11 @@ a suffix (like `filename_1.extension`).
 * When you open a map in the map view, the title of the current map is displayed in the center of the main toolbar. This is helpful to let the users know which map is currently open.
 
 
-### View title in place of UUID in the Oxygen Editor
+## View title in place of UUID in the Oxygen Editor
 
 Now AEM Guides allows you to choose **Use Title in Editor and Maps Manager** option in Settings. If you select this option, the title of the file is displayed on the file's tab when opened in the Editor or the DITA Maps Manager. If you do not select this option, then the UUID of the file is displayed on the file's tab.
 
-### Microservice-based publishing for AEM Guides as a Cloud Service
+## Microservice-based publishing for AEM Guides as a Cloud Service
 
 The new publishing microservice enables you to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry leading Adobe I/O Runtime serverless platform.
 
@@ -163,66 +121,22 @@ For each publishing request AEM Guides as a Cloud Service runs a separate contai
 
 For more details, see [Configure new microservice-based publishing for AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
-### Native PDF | Add a custom bookmark in PDF output
+## Native PDF | Add a custom bookmark in PDF output
 
 Now you can add a custom bookmark on a particular content in your final PDF output for easy navigation. This would be added to the TOC  which is created from the topic or section titles in your DITA map. 
 
-### Native PDF | Apply custom style on TOC entries and topic content  
+## Native PDF | Apply custom style on TOC entries and topic content  
 
 AEM Guides provides the feature to apply custom styling on the TOC entries or a particular topic in the PDF output. For example, you can change color of the text in the TOC and the topic's title. You can also apply styles on the entire content within the topic.
 
 
-### Native PDF | Style the page marker in footnote component
+## Native PDF | Style the page marker in footnote component
 
 Now you can style the page marker in the foot notes. For example, you can add brackets or change their color. These styles help the users easily identify the page markers in the document.
 
-### Native PDF | Change bar to indicate changed topics in Table of Contents
+## Native PDF | Change bar to indicate changed topics in Table of Contents
 
 AEM Guides  now allows you to quickly identify the changed topics in the TOC of the PDF output.  It shows a change bar on the left of the changed topics in the TOC. You can click on the topic in the TOC and view the detailed changes.
 
 <img src="assets/change-marker-toc.png" alt="Change marker in TOC " width=500> 
 
-## Fixed issues
-
-The bugs fixed in various areas are listed below:
-
-### Authoring
-
-* Changes in the Web Editor html cause issues with `<dl>` and `<dlentry>`. (11024)
-* Some attributes are not being treated as conditional and causing issues. (10895)
-* Three levels or more nested `<indexterm>` are not nested in native PDF export. (10799)
-* The content disappears in the body of a task on switching from Author to Source view. (10735)
-* Review comments are misplaced in a review task. (10625)
-* **Undo** or **Redo** is not working correctly on some files. (10373)
-* Custom metadata is not getting retained on copy and paste action. (10367) 
-* Undo option in XML Editor takes the user to the top of the page. (10091) 
-* Node properties are removed after copy and paste operation of an asset. (10053)
-* mimeType is hardcoded for DITA assets creation and update. (8979)
-* Version creator name in Version History is "fmdita-serviceuser" for the files uploaded via Assets UI. (8910)
-* Content fragments cannot be copied and pasted when AEM Guides is installed on Cloud. (11315)
-* The browser (Web Editor) freezes on loading content with custom schema. (11211)
-
-### Management
-
-* Copying a DITA map Asset (from Asset UI ) causes erroneous baselines in the copied asset. (11218)
-* Warning message is not displayed on the upload of a file that is larger than the limit allowed in AEM (2 GB by default). (10817)
-* Web Editor-Baseline | The behavior of the Latest column is different in the new baseline dashboard within the Web Editor. (10808)
-* Translation | Translation job does not get started due to invalid /libs/fmdita/i18n/ja.json. (10543)
-* Translation | An error occurs in a scoping translation project created from the translation dashboard (Human Translation). (10526)
-* Translation | Post processing is blocked for the entire language folder whose assets are present in an active translation project. (10332)
-* Multiple pop-ups appear for any asset if the version is changed and saved on Baseline editor. (10399)
-* Session Leak occurs at `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
-
-### Publishing
-
-* Topic regeneration is not working for some scenarios. (10635)
-* Publishlistener does not display the requested data in info logs, and it also contains some junk logs.( 10567)
-* Native PDF | On creating an output preset with "Add to Folder Profile" option, PDF generation fails with a Null Pointer exception. (10950)
-* Native PDF | Issues occur on rotating the Table header. (10555)
-* Native PDF | Nested `<indexterm>` are not nested in native PDF export. (10521)
-* Native PDF | Nested topicref in appendices are all transformed to h1 in the temporary HTML. (10454)
-* Baseline publishing fails for PDF generated using FrameMaker Publishing Server 2020. (10551)
-* Native PDF | Adding `xref` to an Image does not render the image on the generated PDF. (11346)
-* Native PDF | Image tag adds display-inline attribute to all the images. (10653)
-* Native PDF | Draft comments are hidden by default in the generated output. (10560) 
-* Native PDF | navtitle is not honored for topichead. (10509)

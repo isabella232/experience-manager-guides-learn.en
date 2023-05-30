@@ -13,13 +13,13 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in May 2023 release AEM Guides provides you the feature to view and fix broken links. This is a very useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
  ![](assets/broken-link-report.png){width="800" align="left"}
 
-Once you fix a link, it is not displayed under the list of broken links. Instead, you can see it under the **Topic List** or **Metadata**.  
+Once you fix a link, it is not displayed under the list of broken links.  
 
 For more details, see [View and fix broken links](../user-guide/reports-web-editor.md#report-broken-links).
 
 ## Rename and Move files within the Repository view
  
-Now you can also rename or move a file from the repository panel. This feature is very handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the Options menu for the selected file. AEM Guides displays a success message when you move or rename a file. However, you cannot rename a file to a name that already exists. Also, you cannot move a file to a folder where a file with the same name already exists.  
+Now you can also rename or move a file from the repository panel. This feature is very handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
@@ -54,7 +54,6 @@ Metadata is the description or definition of your content. This metadata is stor
 
 Now In AEM Guides you can also select the metadata properties of your assets and add them to the page layout. Then AEM Guides picks these metadata properties of your assets and publishes them in your PDF output. 
 
-These properties are set from the **Properties** page of the DITA map or bookmap file.  
  
 ![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
 
@@ -87,7 +86,7 @@ For more details, see [Define abstract patterns](../user-guide/support-schematro
 
 ## Navigate from the Web Editor to the AEM homepage 
 
-Now you can easily navigate from the Web Editor to the AEM Navigation page. 
+Now you can easily navigate from the Web Editor to the AEM home page. 
 
 ![](assets/web-editor-launch-page.png){width="800" align="left"}
 
@@ -98,14 +97,14 @@ For more details, see [AEM Navigation page](../user-guide/web-editor-launch-edit
 
 ## Handling hierarchical definitions of subject definitions and enumerations 
 
-AEM Guides come with the powerful feature to create Subject scheme maps which are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Now AEM Guides also provides the feature to define the subject definition in a map and the enumeration definitions in another map. You can then add the map reference and use the subject scheme.
+AEM Guides come with the powerful feature to create Subject scheme maps which are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Now AEM Guides also allows you to define the subject definition in a map and the enumeration definitions in another map. You can then add the map reference and use the subject scheme.
 The subject-enumeration references are resolved in the same map or the referenced map. 
 
 For more details on the handling hierarchical definitions of subject definitions and enumerations, see the **Subject scheme** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-## Options menu for the Favorites panel
+## Improved Favorites panel
 
-AEM Guides also provides you with the **Options** menu for the **Favorites** panel. You can rename the selected collection or delete it from the **Options** menu. You can also view the folder contents in the Assets UI. You can select the Refresh option to get a fresh list of files or folders from the repository.   
+AEM Guides helps you create a collection or favorite list of your  files and folders and use them easily. Now **Options** menu is also available in the **Favorites** panel. You can rename the selected collection or delete it from the **Options** menu. You can select the **Refresh** option to get a fresh list of files or folders from the repository. You can also view the folder contents in the Assets UI.   
   
 ![](assets/favorites-options.png){width="650" align="left"}
 
