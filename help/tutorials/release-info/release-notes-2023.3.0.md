@@ -12,8 +12,6 @@ For more information about the new features and enhancements, see [What's new in
 
 ## Upgrade to March 2023 release
 
-# March release of Adobe Experience Manager Guides as a Cloud Service 
-
 Upgrade your current AEM Guides as a Cloud Service setup by performing the following steps:
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.3.242.
