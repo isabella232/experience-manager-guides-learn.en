@@ -4,7 +4,7 @@ description: Learn the new and enhanced features in May 2023 release of Adobe Ex
 ---
 # What's new in May 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
-This article covers the new and enhanced features in May 2023 version of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+This article covers the new and enhanced features in version May 2023 version of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.5.0.md) article.
 
