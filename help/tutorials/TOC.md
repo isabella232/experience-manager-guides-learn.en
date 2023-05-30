@@ -18,9 +18,21 @@ breadcrumb-title: AEM Guides Tutorials
           + [May 2023 What's new](./release-info/whats-new-2023.5.0.md)
         + Release notes {#2305-release-notes}
           + [May 2023 Release Notes](./release-info/release-notes-2023.5.0.md)
-        + [April release notes](./release-info/release-notes-2023.4.0.md) 
-        + [March release notes](./release-info/release-notes-2023.3.0.md) 
-        + [February release notes](./release-info/release-notes-2023.2.0.md) 
+      + April Release {#2304-release}
+        + What's new {#2304-whats-new}
+          + [April 2023 What's new](./release-info/whats-new-2023.4.0.md)
+        + Release notes {#2304-release-notes}
+          + [April 2023 Release Notes](./release-info/release-notes-2023.4.0.md)    
+      + March Release {#2303-release}
+        + What's new {#2303-whats-new}
+          + [March 2023 What's new](./release-info/whats-new-2023.3.0.md)
+        + Release notes {#2303-release-notes}
+          + [March 2023 Release Notes](./release-info/release-notes-2023.3.0.md)  
+      + February Release {#2302-release}
+        + What's new {#2302-whats-new}
+          + [February 2023 What's new](./release-info/whats-new-2023.2.0.md)
+        + Release notes {#2305-release-notes}
+          + [February 2023 Release Notes](./release-info/release-notes-2023.2.0.md)      
       + 2022 Releases {#2022-releases}
         + [November release notes](./release-info/release-notes-2022.11.0.md) 
         + [October release notes](./release-info/release-notes-2022.10.0.md) 
@@ -72,7 +84,6 @@ breadcrumb-title: AEM Guides Tutorials
           + [Keyboard shortcuts in the Web Editor](./user-guide/web-editor-keyboard-shortcuts.md)
           + [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
           + [Web Editor views](./user-guide/web-editor-views.md)
-          + [Support for Schematron files](./user-guide/support-schematron-file.md)
           + [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           + [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
           + Article-based publishing {#article-based-pub}
@@ -220,9 +231,6 @@ breadcrumb-title: AEM Guides Tutorials
     + [Translate content](./install-guide/translation.md)
     + [Configure search for AEM Assets UI](./install-guide/conf-dita-search.md)
     + [Appendix](./install-guide/appendix.md)
-+ Content Architecture and Use Cases {#content-arch}
-  + [Work with conditional output](./content-architecture/create-and-use-conditions.md)
-  + [Create global keys](./content-architecture/create-global-keys.md)
 + Configuring {#configuring}
   + Native PDF Publishing {#config-native-pdf-publish}
     + [PDF Template](./native-pdf/pdf-template.md)
@@ -235,9 +243,6 @@ breadcrumb-title: AEM Guides Tutorials
         + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
         + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
         + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
-  + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
-+ Translation {#translation}
-  + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
 + Versioning {#versioning}
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
@@ -259,7 +264,13 @@ breadcrumb-title: AEM Guides Tutorials
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
       + [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md) 
+      + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md)
+      + [Setup a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+    + Translation {#translation}
+      + [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+    + Use Cases {#use-cases}
+      + [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+      + [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
