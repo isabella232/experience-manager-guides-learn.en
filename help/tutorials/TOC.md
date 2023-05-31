@@ -224,9 +224,6 @@ breadcrumb-title: AEM Guides Tutorials
     + [Translate content](./install-guide/translation.md)
     + [Configure search for AEM Assets UI](./install-guide/conf-dita-search.md)
     + [Appendix](./install-guide/appendix.md)
-+ Content Architecture and Use Cases {#content-arch}
-  + [Work with conditional output](./content-architecture/create-and-use-conditions.md)
-  + [Create global keys](./content-architecture/create-global-keys.md)
 + Configuring {#configuring}
   + Native PDF Publishing {#config-native-pdf-publish}
     + [PDF Template](./native-pdf/pdf-template.md)
@@ -239,9 +236,6 @@ breadcrumb-title: AEM Guides Tutorials
         + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
         + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
         + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
-  + [Setup a custom DITA-OT](./configuring/setup-a-custom-dita-ot.md)
-+ Translation {#translation}
-  + [Exclude paragraphs from translation](./translation/exclude-paragraphs-from-translation.md)
 + Versioning {#versioning}
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
@@ -263,7 +257,13 @@ breadcrumb-title: AEM Guides Tutorials
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md) 
       + [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md) 
+      + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md)
+      + [Setup a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+    + Translation {#translation}
+      + [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+    + Use Cases {#use-cases}
+      + [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+      + [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
