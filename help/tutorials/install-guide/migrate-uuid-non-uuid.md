@@ -1,8 +1,8 @@
 ---
 title: Non-UUID to UUID content migration
 description: Learn how to Non-UUID to UUID content migration
+exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
 ---
-
 # Non-UUID to UUID content migration {#id226TI0U20XA}
 
 >[!IMPORTANT]
@@ -63,4 +63,3 @@ Perform the following steps to migrate your non-UUID content:
 >[!NOTE]
 >
 > If some files are not processed or are corrupted before migration, they would remain corrupted even after migration.
-

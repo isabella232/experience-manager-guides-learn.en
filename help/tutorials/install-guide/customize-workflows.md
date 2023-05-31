@@ -1,8 +1,8 @@
 ---
 title: Configure and customize workflows
 description: Learn how to Configure and customize workflows
+exl-id: ef6883f2-93b3-473f-8638-c50b5067a8e8
 ---
-
 # Configure and customize workflows {#id181AI0OJ0RO}
 
 Workflows enable you to automate Adobe Experience Manager \(AEM\) activities. A workflow consists of a series of steps that are executed in a specific order. You can define a distinct activity to execute on each step. For example, you can send an email notification to all reviewers in a group when a topic review is created. Or, send a notification to the publisher when an output generation task completes.
@@ -199,4 +199,3 @@ The following properties govern how AEM Guides executes the post-processing work
 |--------|-----------|-----------|
 |Dynamic Outrefs|`com.adobe.fmdita.postprocess.PostProcessObservation`|For all files on which the post-processing has not been performed, it retrieves the outgoing references by parsing the topic files. It is recommended to keep this option disabled since it has a possibility of overloading the system if the number of files to be processed is large.|
 |Post Process Threads|`com.adobe.fmdita.config.ConfigManager`|Sets the number of post-processing threads to be used for post-processing workflow. <br>The default value is 1.|
-

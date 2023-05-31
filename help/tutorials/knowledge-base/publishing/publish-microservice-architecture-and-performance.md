@@ -1,11 +1,11 @@
 ---
 title: Cloud Publishing Microservice Architecture and Performance
 description: Understand how the new microservice enables scalable publishing on AEMaaCS.
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
 ---
-
 # Cloud Publishing Microservice Architecture and Performance Analysis
 
-This article share the insights into the architecture and some performance numbers of the new cloud publishing microservice.
+This article share the insights into the architecture and performance numbers of the new cloud publishing microservice.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ This resource constraint was the main motivation to come up with a dedicated ser
 
 ## Introduction to the new architecture
 
-The service is using Adobe's cutting edge cloud solutions like App Builder, IO Eventing, IMS to create a serverless offering. These services are itself based on the widely accepted industry standards like Kubernetes, docker.
+The service is using Adobe's cutting edge cloud solutions like App Builder, IO Eventing, IMS to create a serverless offering. These services are itself based on the widely accepted industry standards like Kubernetes and docker.
 
-Each request to the new publishing microservice is executed in an isolated docker container which runs only one publishing request at a time. Multiple new containers are automatically created in case new publishing requests are received. This single container per request configuration allows the microservice to deliver the best performance to the customers without introducing any security risks. These containers are discarded once the publishing is over thus freeing up any used resources.
+Each request to the new publishing microservice is executed in an isolated docker container which runs only one publishing request at a time. Multiple new containers are automatically created in case new publishing requests are received. This single container per request configuration allows the microservice to deliver the best performance to the customers without introducing any security risks. These containers are discarded once the publishing is over thus freeing up any unused resources.
 
 All these communications are secured by Adobe IMS using JWT-based authentication and authorization and are executed over HTTPS.
 
@@ -36,7 +36,7 @@ All these communications are secured by Adobe IMS using JWT-based authentication
 
 ## Performance Analysis
 
-This section, showcases the performance numbers of the microservice. This section compares the performance of the microservice with AEM Guides on-prem offering since the old cloud architecture had issues in concurrent publishing or in publishing very large maps.
+This section showcases the performance numbers of the microservice. It compares the performance of the microservice with AEM Guides on-prem offering since the old cloud architecture had issues in concurrent publishing or in publishing very large maps.
 
 If you are publishing a large map on on-prem, then you might have to tweak the Java heap parameters or else you can encounter out-of-memory errors. On cloud, the microservice is already profiled and has optimum Java heap and other configurations out of the box.
 
@@ -58,13 +58,13 @@ If you are publishing a large map on on-prem, then you might have to tweak the J
 
 * Cloud
 
-    New Publishing Microservice shines in this scenario. As you can see from the below image, with the increase in the multiple concurrent publishing jobs, cloud is able to publish them without any significant increase in publishing time.
+    New publishing microservice shines in this scenario. As you can see from the image below, with the increase in the multiple concurrent publishing jobs, cloud is able to publish them without any significant increase in publishing time.
 
     <img src="assets/cloud_bulk_publish.png" alt="projects tab" width=600>
 
 * On-prem
 
-    Running concurrent publishing on on-prem results in severe performance degradation. This performance drop is more severe if publishers are publishing even more maps simultaneously.
+    Running concurrent publishing on an on-prem server results in severe performance degradation. This performance drop is more severe if publishers are publishing even more maps simultaneously.
 
     <img src="assets/onprem_bulk_publish.png" alt="projects tab" width=600>
 

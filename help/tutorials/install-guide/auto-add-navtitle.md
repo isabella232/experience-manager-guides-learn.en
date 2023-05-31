@@ -1,8 +1,8 @@
 ---
 title: Include @navtitle attribute by default
 description: Learn how to Include @navtitle attribute by default
+exl-id: 3237d69b-445d-4ac7-9284-10af5ca37cdb
 ---
-
 # Include @navtitle attribute by default {#id2115BC0J0XA}
 
 You can add different types of reference files in a map, for example topic, reference, task, \(sub\) maps, and so on. Most of these files support the `@navtitle` attribute. However, not many authors use it consistently. If you want to enforce usage of the `@navtitle` attribute in all referenced files in a map, then you can do so with a simple configuration.
@@ -39,4 +39,3 @@ To include `@navtitle` attribute by default in reference files' properties, perf
 
 
 With this configuration, every reference file that you add to a map will contain the `@navtitle` attribute by default.
-

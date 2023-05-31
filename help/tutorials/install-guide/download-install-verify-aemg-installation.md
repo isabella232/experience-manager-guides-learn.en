@@ -1,8 +1,8 @@
 ---
 title: Verify AEM Guides installation
 description: Learn how to Verify AEM Guides installation
+exl-id: d8d35cd3-7593-4dc8-ba6e-97a5ed02813d
 ---
-
 # Verify AEM Guides installation {#id213BD030FBE}
 
 Once you have installed AEM Guides, you need to verify whether the installation was successful or not. Perform the following steps to verify the installation process:
@@ -27,4 +27,3 @@ Once you have installed AEM Guides, you need to verify whether the installation 
 > There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md#) for details.
 
 **Parent topic:**[Download and install](download-install.md)
-

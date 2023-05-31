@@ -1,8 +1,8 @@
 ---
 title: Configure the number of LimitReads for a query
 description: Learn how to Configure the number of LimitReads for a query
+exl-id: 1c4ef95f-72a5-4e83-8dad-f1bc7fe7d130
 ---
-
 # Configure the number of LimitReads for a query {#id231RC0HL0ID}
 
 To increase the number of nodes that a query may read at a time, perform the following steps:
@@ -25,4 +25,3 @@ To increase the number of nodes that a query may read at a time, perform the fol
 When you increase this attribute value, it helps you generate the report for larger DITA maps.
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-

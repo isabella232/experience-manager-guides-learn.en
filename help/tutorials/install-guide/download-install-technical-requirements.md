@@ -1,8 +1,8 @@
 ---
 title: Technical requirements
-description: Learn the Technical requirements to work with AEM Guides 
+description: Learn the Technical requirements to work with AEM Guides
+exl-id: 980a2c8b-d1ea-4644-8452-4a3e4b304b51
 ---
-
 # Technical requirements {#id213BCG003XA}
 
 Before installing AEM Guides 4.0.2, ensure your system meets the following technical requirements:
@@ -35,4 +35,3 @@ Before installing AEM Guides 4.0.2, ensure your system meets the following techn
 
 
 **Parent topic:**[Download and install](download-install.md)
-

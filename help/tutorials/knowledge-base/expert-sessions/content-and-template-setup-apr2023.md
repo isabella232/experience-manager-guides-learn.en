@@ -1,6 +1,7 @@
 ---
 title: Content and Template setup
 description: Learn what all consideration should be made to setup content and templates in AEM Guides.
+exl-id: c35aa01a-21d8-40ed-bd58-05d1ad613eac
 ---
 # Content and Template setup in AEM Guides
 
@@ -57,8 +58,8 @@ In this session, you learnt about the following:
 
 ## Next expert session 
 
-- **Topic** - TBD
-- **Scheduled on** - May 25, 2023
+- **Topic** - Native PDF Publishing - Learning by example (part 1)
+- **Scheduled on** - June 01, 2023
 
 
 ## Contact us

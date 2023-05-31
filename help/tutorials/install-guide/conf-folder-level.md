@@ -1,8 +1,8 @@
 ---
 title: Configure global or folder-level profiles
 description: Learn how to Configure global or folder-level profiles
+exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
 ---
-
 # Configure global or folder-level profiles {#id181AH2003PF}
 
 In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will see templates or profiles that are not relevant to them.
@@ -471,4 +471,3 @@ In the above example, the "label1" is the identifier for the label sequence and 
 **Rootmap**
 
 If your authors work with a specific root map, then you can browse to and select that rootmap here. Note that you can define the rootmap only for a folder-level profile.
-

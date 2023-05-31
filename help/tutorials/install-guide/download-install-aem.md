@@ -1,8 +1,8 @@
 ---
 title: Install Adobe Experience Manager
 description: Learn how to Install Adobe Experience Manager
+exl-id: e511fb45-18ba-4094-b284-5d83e3825c8e
 ---
-
 # Install Adobe Experience Manager {#id213BCI020E8}
 
 AEM Guides is a plug-in that installs on top of Adobe Experience Manager. Installing AEM requires understanding of some basic AEM concepts and recommended deployment scenarios. The following links will help you get started with AEM installation:
@@ -29,4 +29,3 @@ If you plan to upgrade your AEM instance, then you must follow the given sequenc
 > There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md#) for details.
 
 **Parent topic:**[Download and install](download-install.md)
-

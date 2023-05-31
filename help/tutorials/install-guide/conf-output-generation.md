@@ -1,6 +1,7 @@
 ---
 title: Configure output generation settings
 description: Learn how to Configure output generation settings
+exl-id: 95e8be72-2bba-42c8-8095-5f7f9bedb46f
 ---
 # Configure output generation settings {#id181AI0B0E30}
 
@@ -720,4 +721,3 @@ You can change the maximum number of generated outputs that are displayed in the
 AEM Guides allows you to configure the output generation processes pool size that controls the number of output generation processes that run concurrently. By default, the process pool size is set to number of processing cores available in your system plus one. You might want to change this value to 1 in case you want sequential publishing. In this case, the first publishing task gets executed and the next publishing task is stored in the publishing queue.
 
 To change the output generation processing pool size, update the **Generation Pool Size** setting in the `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` bundle.
-

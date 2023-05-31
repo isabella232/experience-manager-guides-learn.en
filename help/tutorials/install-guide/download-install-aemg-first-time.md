@@ -1,8 +1,8 @@
 ---
 title: Download and install AEM Guides for the first time
 description: Learn how to Download and install AEM Guides for the first time
+exl-id: 0cbe28f3-dd64-4df8-a7c9-2d7abc6c4443
 ---
-
 # Download and install AEM Guides for the first time {#id213BCL00KEV}
 
 Perform the following steps to download and install AEM Guides for the first time on a computer:
@@ -43,4 +43,3 @@ Perform the following steps to download and install AEM Guides for the first tim
 > Perform the installation procedure on all instances of AEM servers in your setup.
 
 **Parent topic:**[Download and install](download-install.md)
-

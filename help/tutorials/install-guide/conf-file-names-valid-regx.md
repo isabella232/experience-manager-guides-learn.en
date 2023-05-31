@@ -1,8 +1,8 @@
 ---
 title: Configure Regx for valid file name characters
 description: Learn how to Configure Regx for valid file name characters
+exl-id: 1720aad9-ae5b-421d-ab59-ba26f70cdfb4
 ---
-
 # Configure Regx for valid file name characters {#id214BD0550E8}
 
 Starting with AEM Guides 3.8 release, as an administrator, you can define a list of valid special characters allowed in file names. In earlier releases, users were allowed to define file names containing special characters such as `@`, `$`, `>`, and more. These special characters resulted in issues while opening topics from DITA Map Dashboard or clicking on topic's link in the TOC, which often resulted in the page not opening because of special characters in the URL.
@@ -39,4 +39,3 @@ To configure regx for valid \(or allowed\) characters in file names, perform the
 > Similar to the list of valid file name characters, you can also specify a list of valid file name character for AEM Site output. For more details, see [Configure valid file names for AEM Site output](conf-file-names-valid-regx-aem-site-output.md#).
 
 **Parent topic:**[Configure filenames](conf-file-names.md)
-

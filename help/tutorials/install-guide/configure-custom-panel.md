@@ -1,8 +1,8 @@
 ---
 title: Configure a custom panel in the left panel
 description: Learn how to Configure a custom panel in the left panel
+exl-id: 09aee704-cd9e-4ad5-b41c-11274b398f86
 ---
-
 # Configure a custom panel in the left panel {#id224JI200Y6F}
 
 Perform the following steps to add a custom panel within the left panel of the Web Editor:
@@ -50,4 +50,3 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 ```
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-
