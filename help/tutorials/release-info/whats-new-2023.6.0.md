@@ -1,16 +1,16 @@
 ---
-title: Release Notes | What's New in in Adobe Experience Manager Guides, May 2023 release
-description: Learn the new and enhanced features in May 2023 release of Adobe Experience Manager Guides as a Cloud Service
+title: Release Notes | What's New in in Adobe Experience Manager Guides, June 2023 release
+description: Learn the new and enhanced features in June 2023 release of Adobe Experience Manager Guides as a Cloud Service
 ---
-# What's new in May 2023 release of Adobe Experience Manager Guides as a Cloud Service
+# What's new in June 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
-This article covers the new and enhanced features in version May 2023 version of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+This article covers the new and enhanced features in version June 2023 version of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.5.0.md) article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.6.0.md) article.
 
 ## Broken Links report in the Web Editor
 
-AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in May 2023 release AEM Guides provides you the feature to view and fix broken links. This is a very useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
+AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in June 2023 release AEM Guides provides you the feature to view and fix broken links. This is a very useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
  ![](assets/broken-link-report.png){width="800" align="left"}
 
 Once you fix a link, it is not displayed under the list of broken links.  

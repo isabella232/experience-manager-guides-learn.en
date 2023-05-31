@@ -1,14 +1,14 @@
 ---
-title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, May 2023 release
-description: Learn about the bug fixes and how to upgrade to  May 2023 release of Adobe Experience Manager Guides as a Cloud Service
+title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, June 2023 release
+description: Learn about the bug fixes and how to upgrade to  June 2023 release of Adobe Experience Manager Guides as a Cloud Service
 ---
-# May release of Adobe Experience Manager Guides as a Cloud Service 
+# June release of Adobe Experience Manager Guides as a Cloud Service 
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version May 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version June23 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more information about the new features and enhancements, see [What's new in May 2023 release of AEM Guides as a Cloud Service](whats-new-2023.5.0.md).
+For more information about the new features and enhancements, see [What's new in June 2023 release of AEM Guides as a Cloud Service](whats-new-2023.6.0.md).
 
-## Upgrade to May 2023 release
+## Upgrade to June 2023 release
 
 Upgrade your current AEM Guides as a Cloud Service setup by performing the following steps:
 
@@ -51,7 +51,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## Steps to post process the existing content to use the broken link report 
 
-(Only if you are on a version prior to May 2023 release of AEM Guides as a Cloud Service)
+(Only if you are on a version prior to June 2023 release of AEM Guides as a Cloud Service)
 
 Perform the following steps for post processing the existing content and using the new broken link report:
 
@@ -91,7 +91,7 @@ Perform the following steps for indexing the existing content and use the new fi
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by AEM Guides as a Cloud Service May 2023 release. 
+This section lists the compatibility matrix for the software applications supported by AEM Guides as a Cloud Service June 2023 release. 
 
 ### FrameMaker and FrameMaker Publishing Server
 
