@@ -59,7 +59,7 @@ Now In AEM Guides you can also select the metadata properties of your assets and
 
 >[!NOTE]
 >
-> AEM Guides also supports metadata properties for your DITA maps. 
+> AEM Guides also supports the metadata properties for your DITA maps. 
 
 ## Schematron enhancements
 
