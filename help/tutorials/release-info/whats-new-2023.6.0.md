@@ -104,11 +104,11 @@ For more details on the handling hierarchical definitions of subject definitions
 ## Support for XLIFF format in translation
 
 AEM Guides also provides the support for XML Localization Interchange File Format (XLIFF) format in translation. Now you can also choose to **Create a new XLIFF translation project** to convert the XML content into the XLIFF format.
-Using this format,  you can export the content to the industry standard XLIFF format, and then provide the same to the translation vendors. 
+Using this format,  you can export the content to the industry standard XLIFF format, and then provide the same to the translation vendors. For more details, see [Create a translation project](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
  ![](assets/translation-project-types.png){width="350" align="left"}
 
-For more details, see [Create a translation project](../user-guide/translate-documents-web-editor.md#create-translation-project).
+
 
 ## Improved Favorites panel
 
