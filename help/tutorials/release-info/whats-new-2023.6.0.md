@@ -103,6 +103,7 @@ The subject-enumeration references are resolved in the same map or the reference
 For more details on the handling hierarchical definitions of subject definitions and enumerations, see the **Subject scheme** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 ## Support for XLIFF format in translation
+
 AEM Guides also provides the support for XML Localization Interchange File Format (XLIFF) format in translation. Now you can also choose to **Create a new XLIFF translation project** to convert the XML content into the XLIFF format.
 Using this format,  you can export the content to the industry standard XLIFF format, and then provide the same to the translation vendors. 
 
