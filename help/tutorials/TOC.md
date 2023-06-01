@@ -236,6 +236,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Native PDF publishing essentials](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
     + [Reports in AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
     + [Content and Template setup](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
+    + [Learning native PDF publishing - part 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Webeditor {#webeditor}
