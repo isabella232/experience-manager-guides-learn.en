@@ -59,8 +59,7 @@ Now In AEM Guides you can also select the metadata properties of your assets and
 
 >[!NOTE]
 >
-> AEM Guides also supports XPath (XML Path Language) for your DITA maps. You can use XPath to select the nodes or node-sets in an XML document. 
-
+> AEM Guides also supports metadata properties for your DITA maps. 
 
 ## Schematron enhancements
 
