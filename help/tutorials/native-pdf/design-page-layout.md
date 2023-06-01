@@ -354,11 +354,11 @@ Each of these field categories contain different variations in which the field i
 
 In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted in your page layout. 
 
-You can also select the metadata properties from your assets and add them to the page layout. The asset metadata is then published your PDF output. These metadata properties of the assets are set from the **Properties** page of the DITA map or bookmap file.
+You can also select the metadata properties from your assets and add them to the page layout. The asset metadata is then published for your PDF output. These metadata properties of the assets are set from the **Properties** page of the DITA map or bookmap file.
 
 >[!NOTE]
 >
-> The metadata fields are displayed according to your selection of asset or map in the From dropdown.
+> The metadata fields are displayed according to your selection of asset or map in the **From** dropdown.
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
