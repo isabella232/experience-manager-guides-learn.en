@@ -102,6 +102,14 @@ The subject-enumeration references are resolved in the same map or the reference
 
 For more details on the handling hierarchical definitions of subject definitions and enumerations, see the **Subject scheme** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
+## Support for XLIFF format in translation
+AEM Guides also provides the support for XML Localization Interchange File Format (XLIFF) format in translation. Now you can also choose to **Create a new XLIFF translation project** to convert the XML content into the XLIFF format.
+Using this format,  you can export the content to the industry standard XLIFF format, and then provide the same to the translation vendors. 
+
+ ![](assets/translation-project-types.png){width="350" align="left"}
+
+For more details, see [Create a translation project](../user-guide/translate-documents-web-editor.md#create-translation-project).
+
 ## Improved Favorites panel
 
 AEM Guides helps you create a collection or favorite list of your  files and folders and use them easily. Now **Options** menu is also available in the **Favorites** panel. You can rename the selected collection or delete it from the **Options** menu. You can select the **Refresh** option to get a fresh list of files or folders from the repository. You can also view the folder contents in the Assets UI.   

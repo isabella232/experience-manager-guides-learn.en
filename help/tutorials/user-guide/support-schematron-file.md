@@ -79,7 +79,9 @@ When you validate your DITA topics with the Schematron, you get a complete repor
         </sch:report>   
     </sch:rule> 
 ```
- 
+>[NOTE]
+>
+> Use only Xpath 2.0 expressions while writing the Schematron rules.
 
 ## Use Regex expressions{#schematron-regex-espressions}
 
