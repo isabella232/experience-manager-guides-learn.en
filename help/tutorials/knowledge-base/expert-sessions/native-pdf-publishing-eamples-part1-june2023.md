@@ -8,7 +8,7 @@ With the Native PDF publishing engine, you can control the content layout of the
 
 ## Session overview
 
-In this session, with help of some examples you learn how to utilize features of Native PDF publishing .
+In this session, with help of some examples you will learn how to utilize features of Native PDF publishing .
 
 ## Session recording
 
