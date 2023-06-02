@@ -176,8 +176,8 @@ You can view the report for broken links by performing the following steps:
     >[!NOTE]
     >
     > When you fix a broken link while you have ordered by Broken Links, the link will be fixed in all the files where it is used (which are grouped in a single row).
-1. You need to update the required reference details in the **Update Link** dialog. The details required in Update Link dialog would depend on the type of reference.
 
+1. You need to update the required reference details in the **Update Link** dialog. The details required in **Update Link** dialog would depend on the type of reference.
     
     Once you fix a link, it is not displayed under the list of broken links. Instead, you can view it under the Topic List or Metadata. 
 

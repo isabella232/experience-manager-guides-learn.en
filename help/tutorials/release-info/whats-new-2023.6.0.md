@@ -27,29 +27,30 @@ For more details on the Options menu of a file, see the **Repository view** feat
 
 ## Native PDF enhancements
 
-### Native PDF | Add a watermark to PDF output for draft documents 
+### Add a watermark to PDF output for draft documents 
 
 Now you can add a watermark to the PDF output of the document which is yet not approved. This watermark does not appear if you generate the PDF for the document in ‘Approved’ docstate. For example, you can add a watermark Draft for your PDF output.
 
 For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Native PDF | Support for language variables in DITA elements
+###  Support for language variables in DITA elements
 
 AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution. For example, you can have the following ways to present your NOTE in the PDF output:
 German: Notiz
 Spanish: Nota
-Native PDF | Support for language variables in your page footer
+
+### Support for language variables in your page footer
 You can add a language variable to a running header or footer on the master page of a document. The variable displays across all body pages of the document that have this master page applied. For example, 1 of 1 page.
 You can also use it to present the numbers in various languages.
 
-### Native PDF | Localized prefixes for your TOC
+### Localized prefixes for your TOC
 
 You also have the feature to display localized terms to be used to present the prefixes in your headings. 
 For example, you can have the following ways to present your ‘Chapter’ prefix in the PDF output:
 German: Kapitel
 Spanish: Capítulo
 
-### Native PDF | Ability to use AEM metadata in PDF layouts
+### Ability to use AEM metadata in PDF layouts
 
 
 Metadata is the description or definition of your content. This metadata is stored in your source DITA map content. 
