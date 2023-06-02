@@ -31,7 +31,7 @@ For more details on the Options menu of a file, see the **Repository view** feat
 
 Now you can add a watermark to the PDF output of the document which is yet not approved. This watermark does not appear if you generate the PDF for the document in ‘Approved’ docstate. For example, you can add a watermark Draft for your PDF output.
 
-For more details, see [Add a watermark to the PDF output for draft documents](../configuring/config-native-pdf-publish/content-styles/use-javascript-content-style.md#watermark-draft-document).
+For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#add-a-watermark-to-the-pdf-output-for-draft-documents-watermark-draft-document).
 
 ### Native PDF | Support for language variables in DITA elements
 
@@ -63,7 +63,7 @@ Now In AEM Guides you can also select the metadata properties of your assets and
 >
 > AEM Guides also supports the metadata properties for your DITA maps. 
 
-For more details, see [Add fields and metadata](../configuring/config-native-pdf-publish/design-page-layout.md#add-fields-metadata).
+For more details, see [Add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata).
 
 
 ## Schematron enhancements
