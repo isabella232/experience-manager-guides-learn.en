@@ -33,13 +33,14 @@ Now you can add a watermark to the PDF output of the document which is yet not a
 
 For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-###  Support for language variables in DITA elements
+### Support for language variables in DITA elements
 
 AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution. For example, you can have the following ways to present your NOTE in the PDF output:
 German: Notiz
 Spanish: Nota
 
 ### Support for language variables in your page footer
+
 You can add a language variable to a running header or footer on the master page of a document. The variable displays across all body pages of the document that have this master page applied. For example, 1 of 1 page.
 You can also use it to present the numbers in various languages.
 

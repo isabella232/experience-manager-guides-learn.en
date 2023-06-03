@@ -168,20 +168,19 @@ You can view the report for broken links by performing the following steps:
     – **File Type** (selected by default) The type of reference – DITA Map or DITA Topic.
     Click **Refresh** to get a fresh list of broken links and view any change in your map file or if any broken link within your DITA map is updated.
 1. You can click on the **Fix link** icon (![](images/fix-broken-link.svg)) to fix the broken link. 
+
     >[!NOTE] 
     >
     > Hover over the broken link path under the Broken Link column to view the Fix link (![](images/fix-broken-link.svg))  icon.
 
     You can fix a link in both views- when you have ordered by **Broken Links** or by **Used In**.
+
     >[!NOTE]
     >
     > When you fix a broken link while you have ordered by Broken Links, the link will be fixed in all the files where it is used (which are grouped in a single row).
 
-1. You need to update the required reference details in the **Update Link** dialog. The details required in **Update Link** dialog would depend on the type of reference.
-    
-    Once you fix a link, it is not displayed under the list of broken links. Instead, you can view it under the Topic List or Metadata. 
-
-
+1. You need to update the required reference details in the **Update Link** dialog. The details required in **Update Link** dialog would depend on the type of reference.     
+Once you fix a link, it is not displayed under the list of broken links. Instead, you can view it under the Topic List or Metadata. 
 
 1. Click **Download CSV** to download the current snapshot of the broken links in the DITA map. The CSV contains the selected columns and the broken links filtered in the Broken Links view. You can then open and view this CSV file in any CSV editor.
 
