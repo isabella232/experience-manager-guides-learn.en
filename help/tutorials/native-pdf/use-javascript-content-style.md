@@ -66,7 +66,7 @@ The output generated using this code, and the template displays the figure title
 
 ## Add a watermark to the PDF output for draft documents {#watermark-draft-document}
 
-You can also use Javascript to add conditional watermarks. These watermarks are added to your document when the defined condition is fulfilled.  
+You can also use JavaScript to add conditional watermarks. These watermarks are added to your document when the defined condition is fulfilled.  
 For example, you can create a JavaScript file with the following code to create a watermark to the PDF output of the document which is not yet approved. This watermark does not appear if you generate the PDF for the document in ‘Approved’ docstate. 
 
 ```css

@@ -2,9 +2,9 @@
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, June 2023 release
 description: Learn about the bug fixes and how to upgrade to  June 2023 release of Adobe Experience Manager Guides as a Cloud Service
 ---
-# June release of Adobe Experience Manager Guides as a Cloud Service 
+# June 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version June 23 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version June 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
 For more information about the new features and enhancements, see [What's new in June 2023 release of AEM Guides as a Cloud Service](whats-new-2023.6.0.md).
 
@@ -14,7 +14,7 @@ Upgrade your current AEM Guides as a Cloud Service setup by performing the follo
 
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.4.249.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the latest release of AEM Guides as a Cloud Service.
+3. Commit the changes and run the Cloud Services pipeline to upgrade to the June 2023 release of AEM Guides as a Cloud Service.
 
 ## Steps to enable the trigger of a script via a servlet
 
