@@ -4,7 +4,7 @@ description: Understand system limits on Publishing on AEM Cloud.
 ---
 
 # Guides Publishing Benchmarks on AEMaaCS
-AEM Guides cloud service has some limits on publishing which Guides team is actively working to remove. 
+AEM Guides cloud service has some limits on publishing which Guides team is actively working to remove.
 
 Guides team has already introduced a more scalable [Publishing microservice](publish-microservice-architecture-and-performance.md). For now it supports only a subset of output types and soon will support other output types as well.
 
@@ -41,6 +41,11 @@ Below are the typlical output generation numbers on AEMaaCS servers. It is expec
 
 ### Custom
 
-    - Map size under test: 400 topics
-    - Time Taken for publishing: 4 minutes
+    - Map size under test: 300 topics
+    - Time Taken for publishing: 5 minutes
     - Published using MicroService: No
+
+>[!NOTE]
+>
+> Custom publishing depends entirely on customer's own transformation. Therefore we have not tested it with very large maps. 
+
