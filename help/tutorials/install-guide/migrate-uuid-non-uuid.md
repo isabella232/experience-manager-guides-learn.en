@@ -1,6 +1,6 @@
 ---
 title: Non-UUID to UUID content migration
-description: Learn how to Non-UUID to UUID content migration
+description: Learn how to migrate Non-UUID to UUID content
 exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
 ---
 # Non-UUID to UUID content migration {#id226TI0U20XA}
@@ -51,6 +51,7 @@ Perform the following steps to migrate your non-UUID content:
     - `doBaselines`: true/false \(If baselines have to upgraded or not. Default value is true.\)
     - `processLevel`: -1\(failed without restore\), 0\(failed with restore\), 1\(failed with errors\), 2\(successfully upgraded\) \(When retrying script after failure, only files with "fmUpgradeStatus" <= processLevel will be processed again, otherwise its ignored. Default value is 1.\)
     - `ignoreImageVersions`: true/false \(Ignores processing of image versions. Default value is false.\)
+    
     >[!NOTE]
     >
     > We can run content migration on folder level or the complete content/dam or on the same folder \(rerun migration\).

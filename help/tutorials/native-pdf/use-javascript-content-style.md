@@ -63,3 +63,35 @@ Next, this script has to be called from a template file that is used to generate
 The output generated using this code, and the template displays the figure title below the image:
 
 <img src="./assets/fig-title-below-image.png" width=500>
+
+## Add a watermark to the PDF output for draft documents {#watermark-draft-document}
+
+You can also use JavaScript to add conditional watermarks. These watermarks are added to your document when the defined condition is fulfilled.  
+For example, you can create a JavaScript file with the following code to create a watermark to the PDF output of the document which is not yet approved. This watermark does not appear if you generate the PDF for the document in ‘Approved’ docstate. 
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+The PDF output generated using this code displays a watermark *Draft* on the cover page of your document:
+
+<img src="./assets/draft-watermark.png" width=500>

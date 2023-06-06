@@ -1,16 +1,20 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, March 2023 release
 description: March release of Adobe Experience Manager Guides as a Cloud Service
-exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
 ---
-# March release of Adobe Experience Manager Guides as a Cloud Service 
 
-## Upgrade to the March release
+# March 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
-Upgrade your current Adobe Experience Manager Guides as a Cloud Service (later referred as *AEM Guides as a Cloud Service*) setup by performing the following steps:
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version March 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+
+For more information about the new features and enhancements, see [What's new in March 2023 release of AEM Guides as a Cloud Service](whats-new-2023.3.0.md).
+
+## Upgrade to March 2023 release
+
+Upgrade your current AEM Guides as a Cloud Service setup by performing the following steps:
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.3.242.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the March release of AEM Guides as a Cloud Service.
+3. Commit the changes and run the Cloud Services pipeline to upgrade to the March 2023 release of AEM Guides as a Cloud Service.
 
 ## Steps to index the existing content (Only if you are on a version prior to September release of AEM Guides as a Cloud Service)
 
@@ -44,34 +48,3 @@ This section lists the compatibility matrix for the software applications suppor
 |  |  |  |  |
 
 
-## New features and enhancements
-
-AEM Guides as a Cloud Service provides enhancements and new features in the March 2023 release:
-
-### Open and play video or audio files in the Web Editor
-
-AEM Guides now provides the feature to open and play the audio or video files in the Web Editor. You can change the volume or the view of the video. In the shortcut menu, you  also have the options to **Download**, change **Play back Speed**, or view **Picture in Picture**.
-
-<img  src ="assets/video-web-editor.png" alt="play video" width=600>
-
-
-## Fixed issues
-
-The bugs fixed in various areas are listed below:
-
-* Download PDF process is not working appropriately in the Web Editor. (11496)
-* JSON output | Map metadata having property value as `"value in spaces and double quotes"` leads to a publishing error. (11438)
-*  Insertion for audio and video multimedia files fails in the YouTube format under the **Insert Multimedia** icon. (11320)
-* Validation error occurs when a map is created using the  template which has a specialized title element. (11212)
-* Native PDF | footnote present in table header leads to bold and center-aligned text in the corresponding page footer within the PDF output. (10610) 
->[!NOTE]
->
->To reflect the Native PDF change, delete the PDF folder located at /content/dam/dita-templates and then upgrade to the latest build. (10610)
-
-### Known issue with workaround
-
-Adobe has identified the following known issue for AEM Guides as a Cloud Service March 2023 release.
-
-* Users are not able to save or create version of a duplicated asset.
-
-**Workaround**: Before making any changes to the duplicate asset reprocess it from the Assets UI.

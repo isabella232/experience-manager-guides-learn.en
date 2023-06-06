@@ -155,6 +155,7 @@ The User Preferences are available to all authors. Using the preferences, an aut
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **Use device theme**: Select this checkbox to allow AEM Guides automatically switch between light and dark themes based on the theme of your device. 
 -   **Theme**: You can choose from the Light, Lightest, Dark, or Darkest themes for the editor. In case of Lightest theme, the toolbars and panels use more lighter gray color background. In case of Light theme, the toolbars and panels use light gray color background. In case of Darkest theme, the toolbars and panels use more darker black color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
 
 -   **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
@@ -665,9 +666,20 @@ To add a file to your favorite collection, use any of the following methods:
     ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+** Options menu for Favroties collection**  
+You can also perform many actions using the Options menu available for a Favorites collection: 
+
+![](images/favorites-options.png){width="400" align="left"}
+- **Rename**: Rename the selected collection. 
+- **Delete**: Delete the selected file.  
+- **Refresh**: Get a fresh list of files and folders from the repository. 
+- **View in Assets UI**: Show the file or folder contents in the Assets UI. 
+
+
 >[!NOTE]
 >
-> To remove an item from the favorites list, click the Options icon next to the file or folder in the Favorites list and choose **Remove from Favorites**.
+> You can also refresh the list using the Refresh icon on the top. 
+
 
 **Repository View** - ![](images/Repository_icon.svg)
 
@@ -757,6 +769,8 @@ You will see different options in the Options menu depending on whether you sele
 -   Duplicate
 -   Checkout/Check In
 -   Preview
+-   Move to
+-   Rename
 -   Delete
 -   Copy
 -   Collapse All
@@ -780,6 +794,42 @@ The various options in the Options menu are explained below:
 -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 
     ![](images/quick-preview_cs.png){width="800" align="left"}
+
+-  **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
+    - You can rename a file of any type. 
+    - You can’t change the extension of a file. 
+    - Two files cannot have the same name. So, you cannot rename a file to a name that already exists. An error is displayed. 
+
+-  **Move to**: Use this option to move the selected file to another folder.  
+   - You can either type the name of the destination folder or choose **Select Path** to select the destination folder.    
+   - You can move a file of any type to any destination within the Content folder. 
+   - Two files cannot have the same name. So, you cannot move a file to a folder where a file with the same name already exists.  
+
+    If you try to move a file to a folder where a file with the same name but a different title exists, the Rename and move file dialog is displayed, and you need to rename the file before moving it. The moved file in the destination folder has the new file name.  
+
+    ![](images/rename-move-asset.png){width="550" align="left"}
+
+    >[!NOTE]
+    > You can also drag and drop a file to another destination folder. 
+
+    **Exclusion scenarios**   
+
+    AEM Guides doesn’t allow you to rename or move a file in the following scenarios: 
+
+    - You cannot move or rename a file if it’s part of a review or a translation workflow. 
+
+    - If any other user checks out the file, you cannot rename or move it, you will not see the Rename or Move to option for the file. 
+
+    >[!NOTE] 
+    > If your administrator has given you the permissions on a folder, only then the **Rename** or **Move to** options are displayed. 
+
+    <details>
+    <summary> Cloud Services </summary>
+
+    Renaming or moving any file does not break any existing references from or to the file, as every file has a unique UUID. 
+    </details>
+
+
 
 -   **Delete**: Use this option to delete the selected file. A confirmation prompt is displayed before deleting the file.
 
@@ -1199,32 +1249,88 @@ The following example shows how to use subject scheme in AEM Guides.
 
     ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+    **Handling hierarchical definitions of subject definitions and enumerations**
 
-**Attributes drop-down**
+    Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define the subject definition in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
 
-You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
+    The subject definitions are defined in `subject_scheme_map_1.ditamap`   
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+ 
+    ```XML
+    <?xml version="1.0" encoding="UTF-8"?> 
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+    <title>subject_scheme_map_1</title> 
+    <subjectdef keys="os" navtitle="Operating system"> 
+    <subjectdef keys="linux" navtitle="Linux"> 
+    <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+    <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+    </subjectdef> 
+    <subjectdef keys="windows" navtitle="Windows"/> 
+    <subjectdef keys="zos" navtitle="z/OS"/> 
+    </subjectdef> 
+    </subjectScheme>  
 
-You can also apply values for an attribute by selecting multiple values from the dropdown.
+    ```
 
-**Source View**
+    The enumeration definition is present in    subject_scheme_map_2.ditamap 
 
-You can also change the values from the attribute's drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
+    ```XML
+    <?xml version="1.0" encoding="UTF-8"?> 
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+    <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+    <title>subject_scheme_map_2</title> 
+    <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+    </mapref> 
+    <enumerationdef> 
+    <attributedef name="platform"> 
+    </attributedef> 
+    <subjectdef keyref="os"> 
+    </subjectdef> 
+    </enumerationdef> 
+    </subjectScheme>  
+    ``` 
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+    Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
 
-**View and apply the subject scheme from the Conditions panel**
+    >[!NOTE] 
+    >
+    > As the `subject_scheme_map_1.ditamap` and `subject_scheme_map_2.ditamap` are referenced with each other hence the subject schemes are getting resolved.  
 
-You can also view and apply the subject scheme from the Conditions panel.
+    The subject-enumeration references are resolved in the following order of priority: 
 
-To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
+    1. Same map 
+    1. Referenced map  
 
-The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
+ 
+    The references are not resolved if the enumeration is not found in the same map and the referenced map. 
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
+    **Attributes drop-down**
+
+    You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
+
+    ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+    You can also apply values for an attribute by selecting multiple values from the dropdown.
+
+    **Source View**
+
+    You can also change the values from the attribute's drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
+
+    ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+    **View and apply the subject scheme from the Conditions panel**
+
+    You can also view and apply the subject scheme from the Conditions panel.
+
+    To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
+
+    The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
+
+    ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+    You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
 
 **Snippets** -  ![](images/insert-snippet-icon.svg)
 
