@@ -6,11 +6,11 @@ description: Understand system limits on Publishing on AEM Cloud.
 # Guides Publishing Benchmarks on AEMaaCS
 AEM Guides cloud service has some limits on publishing which Guides team is actively working to remove.
 
-Guides team has already introduced a more scalable [Publishing microservice](publish-microservice-architecture-and-performance.md). For now it supports only a subset of output types and soon will support other output types as well.
+Guides team has already introduced a more scalable [Publishing microservice](publish-microservice-architecture-and-performance.md). For now, publish microservice supports only a subset of output types and support for other types is in under active development.
 
 ## Numbers
 
-Below are the typlical output generation numbers on AEMaaCS servers. It is expected that customer content will take similar amout of time when executed on customer environments.
+Below are some output generation numbers on AEMaaCS servers.
 
 ### AEM Site
 
@@ -19,7 +19,7 @@ Below are the typlical output generation numbers on AEMaaCS servers. It is expec
     - Published using MicroService: No
 >[!NOTE]
 >
-> AEM Site creates a lot of page objects and keep flattening the same. For this reason it is advisable to not run multiple AEM Site publishing as it can clog the system.
+> AEM Site creates many page objects and keeps flattening the same. For this reason, it is advisable to not run multiple AEM Site publishings as it can clog the system.
 
 ### Native PDF Publishing
 
@@ -47,5 +47,5 @@ Below are the typlical output generation numbers on AEMaaCS servers. It is expec
 
 >[!NOTE]
 >
-> Custom publishing depends entirely on customer's own transformation. Therefore we have not tested it with very large maps. 
+> Custom publishing depends entirely on customer's own transformation.
 
