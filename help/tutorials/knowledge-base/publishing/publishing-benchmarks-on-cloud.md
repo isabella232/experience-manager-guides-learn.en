@@ -4,6 +4,7 @@ description: Understand system limits on Publishing on AEM Cloud.
 ---
 
 # Guides Publishing Benchmarks on AEMaaCS
+
 AEM Guides cloud service has some limits on publishing which Guides team is actively working to remove.
 
 Guides team has already introduced a more scalable [Publishing microservice](publish-microservice-architecture-and-performance.md). For now, publish microservice supports only a subset of output types and support for other types is in under active development.
