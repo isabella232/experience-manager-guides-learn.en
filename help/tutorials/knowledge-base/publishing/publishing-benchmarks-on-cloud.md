@@ -14,36 +14,33 @@ Below are the typlical output generation numbers on AEMaaCS servers. It is expec
 
 ### AEM Site
 
-    - Map Size under test: 2500
+    - Map size under test: 2500 topics
     - Time Taken for publishing: 14 minutes
     - Published using MicroService: No
+>[!NOTE]
+>
+> AEM Site creates a lot of page objects and keep flattening the same. For this reason it is advisable to not run multiple AEM Site publishing as it can clog the system.
 
 ### Native PDF Publishing
 
-    - Map Size under test: 2500
+    - Map size under test: 2500 topics
     - Time Taken for publishing: 13 minutes
     - Published using MicroService: Yes
 
 ### PDF (via DITA-OT)
 
-    - Map Size under test: 12000
+    - Map size under test: 12000 topics
     - Time Taken for publishing: 16 minutes
     - Published using MicroService: Yes
 
 ### HTML
 
-    - Map Size under test: 
-    - Time Taken for publishing:
+    - Map size under test: 2500 topics
+    - Time Taken for publishing: 4 minutes
     - Published using MicroService: No
 
 ### Custom
 
-    - Map Size under test: 2500
-    - Time Taken for publishing: 15 minutes
-    - Published using MicroService: No
-
-### EPUB
-
-    - Map Size under test: 2500
-    - Time Taken for publishing: 15 minutes
+    - Map size under test: 400 topics
+    - Time Taken for publishing: 4 minutes
     - Published using MicroService: No
