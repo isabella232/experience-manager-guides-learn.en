@@ -97,7 +97,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | AEM Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.05.0 | Not compatible | 2022 or higher |
+| 2023.06.0 | Not compatible | 2022 or higher |
 | | | |
 
 
@@ -105,7 +105,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2023.05.0| 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 | 
+| 2023.06.0| 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
