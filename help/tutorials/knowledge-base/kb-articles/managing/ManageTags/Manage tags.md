@@ -2,6 +2,7 @@
 title: Manage tags for DITA files in AEM Guides 
 description: Brief article to tell on managing cq:tags in AEM Guides 
 ---
+
 # How to Add , Remove and Manage  tags  in your  DITA  content 
 
 Tags come useful to categorize your content. If content is properly tagged, then it can help you in locating  exact topics in your ditamap  and end user finds the appropriate content more quickly on your published output 
@@ -33,7 +34,6 @@ You can also remove existing tags which are common in selected files.
 <img title="Manage tags in AEM Guides " alt="Manage Tags in DITA " src="ManageTags.jpg">
 
 ## Troubleshooting and FAQ
-
 
 ## List in manage->metadata is empty or incomplete 
 
