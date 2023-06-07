@@ -15,7 +15,7 @@ Below are some output generation numbers on AEMaaCS servers.
 
 ### AEM Site
 
-    - Map size under test: 2500 topics
+    - Map size under test: 3250 topics
     - Time Taken for publishing: 1 Hour 27 minutes
     - Published using MicroService: No
 >[!NOTE]
