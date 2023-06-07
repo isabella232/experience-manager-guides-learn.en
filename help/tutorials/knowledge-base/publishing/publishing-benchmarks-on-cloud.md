@@ -34,12 +34,12 @@ Below are the output generation numbers on AEMaaCS servers using the latest AEM 
 ### Native PDF Publishing
 
     - Map size under test: 2500 topics
-    - Time Taken for publishing: 14 minutes
+    - Time Taken for publishing: 9 minutes
     - Published using MicroService: Yes
 
 ### PDF (via DITA-OT)
 
-    - Map size under test: 12000 topics
+    - Map size under test: 11000 topics
     - Time Taken for publishing: 16 minutes
     - Published using MicroService: Yes
 
