@@ -5,6 +5,7 @@ description: Brief article to tell on managing cq:tags in AEM Guides
 # How to Add , Remove and Manage  tags  in your  DITA  content 
 
 Tags come useful to categorize your content. If content is properly tagged, then it can help you in locating  exact topics in your ditamap  and end user finds the appropriate content more quickly on your published output 
+
 > **_NOTE:_**  Following article is for AEM Guides Build 4.2 (on-prem) /Feb 2023 (cloud version ) or higher versions
 
 
@@ -20,9 +21,10 @@ Tagging is native AEM feature and your AEM  administrator can help in initial cr
 There are various ways to add tags into your DITA content but we  concentrate to AEM Guides web-editor UI.
 
 ### Steps:
+
 1. Go to repository view in Guides UI
 2. Double-click on ditamap and open in map view
-3.  Go to Manage Tab
+3. Go to Manage Tab
 4. In Manage tab , Go to Metadata option
 5. All your direct and indirect ditamap files list loads here. 
 6. Select one or more files and click on the 'manage' icon. Here you can add tags to selected files.
@@ -30,7 +32,7 @@ You can also remove existing tags which are common in selected files.
 
 <img title="Manage tags in AEM Guides " alt="Manage Tags in DITA " src="ManageTags.jpg">
 
-# Troubleshooting and FAQ
+## Troubleshooting and FAQ
 
 
 ## List in manage->metadata is empty or incomplete 
@@ -44,10 +46,10 @@ You can also remove existing tags which are common in selected files.
 
 
 
-# Other helpful resources
+## Other helpful resources
 
 - [Bulk Tagging using Map Dashboard(Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
--  [Ditamap Reports in web-editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [Ditamap Reports in web-editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [Tagging in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 
