@@ -16,16 +16,18 @@ Below are some output generation numbers on AEMaaCS servers.
 ### AEM Site
 
     - Map size under test: 2500 topics
-    - Time Taken for publishing: 14 minutes
+    - Time Taken for publishing: 1 Hour 27 minutes
     - Published using MicroService: No
 >[!NOTE]
 >
-> AEM Site creates many page objects and keeps flattening the same. For this reason, it is advisable to not run multiple AEM Site publishings as it can clog the system.
+> AEM Site creates many cq:page nodes and flatten them at the same time.
+> For this reason, it is advisable to not run multiple concurrent AEM Site publishings as it can clog the system.
+> AEM Site generation time is also dependent on the template used.
 
 ### Native PDF Publishing
 
     - Map size under test: 2500 topics
-    - Time Taken for publishing: 13 minutes
+    - Time Taken for publishing: 14 minutes
     - Published using MicroService: Yes
 
 ### PDF (via DITA-OT)
@@ -48,5 +50,4 @@ Below are some output generation numbers on AEMaaCS servers.
 
 >[!NOTE]
 >
-> Custom publishing depends entirely on customer's own transformation.
-
+> Custom publishing depends entirely on customer's own transformation logic.
