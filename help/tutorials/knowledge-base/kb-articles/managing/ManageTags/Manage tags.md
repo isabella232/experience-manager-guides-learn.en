@@ -15,20 +15,20 @@ Tags come useful to categorize your content. If content is properly tagged, then
 Tagging is native AEM feature and your AEM  administrator can help in initial creation and configuration of these tags.
 
 
-## Add, Remove and Manage tags in your DITA content 
+## Add, Remove, and Manage tags in your DITA content 
 
-**Any tags created in AEM cq: tags can be added, removed and managed for your DITA contents**
+**Any tags created in AEM cq: tags can be added, removed, and managed for your DITA contents**
 
-There are various ways to add tags into your DITA content but we  concentrate to AEM Guides web-editor UI.
+There are various ways to add tags into your DITA content but this article will concentrate to AEM Guides web-editor UI.
 
 ### Steps:
 
 1. Go to repository view in Guides UI
-2. Double-click on ditamap and open in map view
+2. Double-click ditamap and open in map view
 3. Go to Manage Tab
 4. In Manage tab , Go to Metadata option
 5. All your direct and indirect ditamap files list loads here. 
-6. Select one or more files and click on the 'manage' icon. Here you can add tags to selected files.
+6. Select one or more files and click the 'manage' icon. Here you can add tags to selected files.
 You can also remove existing tags which are common in selected files.
 
 <img title="Manage tags in AEM Guides " alt="Manage Tags in DITA " src="ManageTags.jpg">
