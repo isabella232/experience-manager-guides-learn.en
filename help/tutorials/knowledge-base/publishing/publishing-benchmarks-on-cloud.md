@@ -11,7 +11,11 @@ Guides team has already introduced a more scalable [Publishing microservice](pub
 
 ## Numbers
 
-Below are some output generation numbers on AEMaaCS servers.
+Below are the output generation numbers on AEMaaCS servers using the latest AEM Guide add-on.
+
+>[!NOTE]
+>
+> The below output generation numbers have been recorded by using default DITA-OT with OOTB templates.
 
 ### AEM Site
 
@@ -21,8 +25,11 @@ Below are some output generation numbers on AEMaaCS servers.
 >[!NOTE]
 >
 > AEM Site creates many cq:page nodes and flatten them at the same time.
-> For this reason, it is advisable to not run multiple concurrent AEM Site publishings as it can clog the system.
-> AEM Site generation time is also dependent on the template used.
+> For this reason, it is advisable to avoid running multiple concurrent AEM Site publishings as it can overburden the system.
+
+>[!NOTE]
+>
+> AEM Site generation time is dependent on the template used.
 
 ### Native PDF Publishing
 
