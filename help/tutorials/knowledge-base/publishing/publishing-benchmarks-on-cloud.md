@@ -24,12 +24,12 @@ Below are the output generation numbers on AEMaaCS servers using the latest AEM 
     - Published using MicroService: No
 >[!NOTE]
 >
-> AEM Site creates many cq:page nodes and flattens them at the same time.
+> AEM Site creates many cq:Page nodes and flattens them at the same time.
 > For this reason, it is advisable to avoid running multiple concurrent AEM Site publishings as it can overburden the system.
 
 >[!NOTE]
 >
-> AEM Site generation time is dependent on the template used.
+> AEM Site generation time depends on the template used.
 
 ### Native PDF Publishing
 
