@@ -21,6 +21,8 @@ Below are the output generation numbers on AEM Guides cloud service server.
     DITA-OT version: 3.5.4
 
 
+## Output Generation Numbers
+
 | Output Type   | Map Size (Topic References)  | Execution Time (in Seconds)|
 |---------------|------------------------------|----------------------------|
 | AEM Site      | 3250                         |    5220                    |
