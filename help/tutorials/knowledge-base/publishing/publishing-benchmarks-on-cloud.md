@@ -7,9 +7,9 @@ description: Understand system limits on Publishing on AEM Cloud.
 
 Currently AEM Guides cloud service has some limits on publishing map sizes which Guides team is actively working to resolve.
 
-Guides team has already introduced a scalable [Publishing Microservice](publish-microservice-architecture-and-performance.md) to support large maps and multiple concurrent publishing. For now, this publish microservice supports a subset of output types and support for other types is in under active development and will be available soon.
+Guides team has already introduced a scalable [Publishing Microservice](publish-microservice-architecture-and-performance.md) to support large maps and multiple concurrent publishing. For now, this publish microservice supports a subset of output types and support for other types is in under active development.
 
-To configure the new publishing service for any AEM cloud environment please refer [Configure new microservice-based publishing] (knowledge-base/publishing/configure-microservices.md)
+To configure the new publishing service for any AEM cloud environment refer [Configure new microservice-based publishing] (knowledge-base/publishing/configure-microservices.md)
 
 Below are the output generation numbers on AEM Guides cloud service server.
 
@@ -19,6 +19,8 @@ Below are the output generation numbers on AEM Guides cloud service server.
     Guide Add On Release: 2023.6.0
     AEM Site Template: AEM Guides OOTB template
     DITA-OT version: 3.5.4
+    Publish Workflow Type: Split Publish Workflow
+    Microservice used for : PDF, Native PDF 
 
 
 ## Output Generation Numbers
@@ -36,4 +38,4 @@ Below are the output generation numbers on AEM Guides cloud service server.
 
 -  AEM Site creates many cq:Page nodes and flattens by rendering them individually during generation time. For this reason, it is advisable to avoid running large multiple concurrent AEM Site publishings as it can overburden the system.
 -  AEM Site generation time depends on the template used. Execution time can increase if complex template is used.
--  Custom publishing execution time are for a sample custom output. Custom publishing time solely depends  on customer's own transformation logic.
+-  Custom publishing execution time is for a sample custom output. Custom publishing time solely depends  on customer's own transformation logic.
