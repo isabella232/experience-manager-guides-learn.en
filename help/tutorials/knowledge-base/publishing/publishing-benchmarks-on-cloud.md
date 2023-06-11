@@ -15,12 +15,12 @@ Below are the output generation numbers on AEM Guides cloud service server.
 
 ## Execution Environment
 
-    AEM Release: 2023.6.39380.20230608T144106Z
+    AEM Release: 2023.5.11983.20230511T173830Z
     Guide Add On Release: 2023.6.0
     AEM Site Template: AEM Guides OOTB template
     DITA-OT version: 3.5.4
     Publish Workflow Type: Split Publish Workflow
-    Microservice used for : PDF, Native PDF 
+    Output type supported by microservice: Native PDF, PDF (Dita_OT)
 
 
 ## Output Generation Numbers
@@ -39,3 +39,4 @@ Below are the output generation numbers on AEM Guides cloud service server.
 -  AEM Site creates many cq:Page nodes and flattens by rendering them individually during generation time. For this reason, it is advisable to avoid running large multiple concurrent AEM Site publishings as it can overburden the system.
 -  AEM Site generation time depends on the template used. Execution time can increase if complex template is used.
 -  Custom publishing execution time is for a sample custom output. Custom publishing time solely depends  on customer's own transformation logic.
+
