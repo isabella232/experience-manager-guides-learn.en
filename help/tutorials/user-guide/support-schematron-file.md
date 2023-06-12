@@ -1,8 +1,8 @@
 ---
 title: Support for Schematron files
-description: Learn how to validate your topics with scehmatron 
+description: Learn how to validate your topics with scehmatron
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
 ---
-
 # Support for Schematron files
 
 "Schematron" refers to a rule-based validation language used to define tests for an XML file. Web editor supports Schematron files. You can import the Schematron files and also edit them in Web Editor. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map.
@@ -140,10 +140,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
- 
-
- 
-
- 
-
- 

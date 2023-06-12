@@ -1,8 +1,8 @@
 ---
 title: Guides Publishing Benchmarks on AEMaaCS
 description: Understand system limits on Publishing on AEM Cloud.
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
 ---
-
 # AEM Guides Publishing Benchmarks on AEMaaCS
 
 Currently AEM Guides cloud service has some limits on publishing map sizes which Guides team is actively working to resolve.

@@ -1,8 +1,8 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, February 2023 release
 description: February release of Adobe Experience Manager Guides as a Cloud Service
+exl-id: eced8573-703e-41d0-a7f8-3a74693bbd18
 ---
-
 # What's new in February 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
 This article covers the new and enhanced features in version February 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
@@ -137,5 +137,4 @@ Now you can style the page marker in the foot notes. For example, you can add br
 
 AEM Guides  now allows you to quickly identify the changed topics in the TOC of the PDF output.  It shows a change bar on the left of the changed topics in the TOC. You can click on the topic in the TOC and view the detailed changes.
 
-<img src="assets/change-marker-toc.png" alt="Change marker in TOC " width=500> 
-
+<img src="assets/change-marker-toc.png" alt="Change marker in TOC " width=500>
