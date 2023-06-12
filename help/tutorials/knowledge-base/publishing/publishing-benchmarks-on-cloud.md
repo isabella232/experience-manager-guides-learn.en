@@ -9,7 +9,7 @@ Currently AEM Guides cloud service has some limits on publishing map sizes which
 
 Guides team has already introduced a scalable [Publishing Microservice](publish-microservice-architecture-and-performance.md) to support large maps and multiple concurrent publishing. For now, this microservice supports a subset of output types and support for other types is in under active development.
 
-To configure the new publishing service for any AEM cloud environment refer [Configure new microservice-based publishing](knowledge-base/publishing/configure-microservices.md)
+To configure the new publishing service for any AEM cloud environment refer [Configure new microservice-based publishing](configure-microservices.md)
 
 ## Execution Environment
 
