@@ -49,7 +49,7 @@ When you open a topic in the Web Editor, a Schematron Validation panel appears i
 
 The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
 
-## Use Assert and Report statements to check for rules{#schematron-assert-report}
+## Use assert and report statements to check for rules{#schematron-assert-report}
 
 AEM Guides also supports the assert and report statements in Schematron. These statements help you validate your DITA topics.
 

@@ -1,5 +1,5 @@
 ---
-title: Release Notes | What's New in in Adobe Experience Manager Guides, June 2023 release
+title: Release Notes | What's New in Adobe Experience Manager Guides, June 2023 release
 description: Learn the new and enhanced features in June 2023 release of Adobe Experience Manager Guides as a Cloud Service
 ---
 # What's new in June 2023 release of Adobe Experience Manager Guides as a Cloud Service
@@ -33,23 +33,25 @@ Now you can add a watermark to the PDF output of the document which is yet not a
 
 For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Support for language variables in DITA elements
+### Support for Language variables 
 
-AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution. For example, you can have the following ways to present your NOTE in the PDF output:
+AEM Guides provides support for the language variables. You can create language variables that allow you to generate a localized version of the variable in the PDF generated for the language selected in the output preset.
+
+You can create language variables to be added to the DITA content and the output templates.
+
+#### Language variables in the  DITA content
+
+You can add language variables to your DITA content. These variables are helpful in generating localized labels for elements like note, caution, warning, product name, and brand label. You can update the value for these variables in one or more languages, and then the localized value is automatically generated for other languages in the PDF output.
+For example, you can have the following ways to present your Note in the PDF output:
+English: Note
 German: Notiz
-Spanish: Nota
+Spanish: Nota 
 
-### Support for language variables in your page footer
 
-You can add a language variable to a running header or footer on the master page of a document. The variable displays across all body pages of the document that have this master page applied. For example, 1 of 1 page.
-You can also use it to present the numbers in various languages.
+#### Language variables in the output templates
 
-### Localized prefixes for your TOC
+You can insert a language variable into the page layout that appears across different pages in your localized documents. For example, you can add the language variable for the page-number that appears in the page layout's header area (or any other part). When you include page-number in a header or footer in a page layout, it is repeated on all pages using that page layout.
 
-You also have the feature to display localized terms to be used to present the prefixes in your headings. 
-For example, you can have the following ways to present your ‘Chapter’ prefix in the PDF output:
-German: Kapitel
-Spanish: Capítulo
 
 ### Ability to use AEM metadata in PDF layouts
 
@@ -70,11 +72,11 @@ For more details, see [Add fields and metadata](../native-pdf/design-page-layout
 
 ## Schematron enhancements
 
-### Use Report statements to check for rules in Schematron
+### Use report statements to check for rules in Schematron
 
 AEM Guides also now supports the report statements with the Schematron. A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters.
 
-For more details, see [Use Assert and Report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
+For more details, see [Use assert and report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Use Regex expressions
 
