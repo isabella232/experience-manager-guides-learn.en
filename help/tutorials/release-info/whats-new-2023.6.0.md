@@ -42,7 +42,8 @@ You can create language variables to be added to the DITA content and the output
 #### Language variables in the  DITA content
 
 You can add language variables to your DITA content. These variables are helpful in generating localized labels for elements like note, caution, warning, product name, and brand label. You can update the value for these variables in one or more languages, and then the localized value is automatically generated for other languages in the PDF output.
-For example, you can have the following ways to present your Note in the PDF output:
+For example, you can present a Note in your PDF output in the following ways:
+
 English: Note
 German: Notiz
 Spanish: Nota 
