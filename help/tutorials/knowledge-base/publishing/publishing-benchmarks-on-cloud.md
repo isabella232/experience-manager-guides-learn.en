@@ -22,13 +22,13 @@ To configure the new publishing service for any AEM cloud environment refer [Con
 
 ## Output Generation Numbers
 
-| Output Type   | Map Size (Topic References)  | Execution Time (in Seconds)|
-|---------------|------------------------------|----------------------------|
-| AEM Site      | 3250                         |    5220                    |
-| Native PDF    | 3250                         |    780                     |
-| PDF (DITA-OT) | 11000                        |    960                     |
-| HTML5         | 2500                         |    240                     |
-| Custom        | 300                          |    300                     |
+| Output Type   | Map Size (Topic References)  | Execution Time (in Seconds)|Publishing Microservice|
+|---------------|------------------------------|----------------------------|-----------------------|
+| AEM Site      | 3500                         |    5220                    | No                    |
+| Native PDF    | 3500                         |    780                     | Yes                   |
+| PDF (DITA-OT) | 11000                        |    960                     | Yes                   |
+| HTML5         | 3500                         |    240                     | No                    |
+| Custom        | 300                          |    300                     | No                    |
 
 ## Key points to remember
 
