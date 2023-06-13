@@ -6,7 +6,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.common.SanitizeNodeNameImpl`|`aemsite.DisallowedFileNameChars`|Add characters that you want to replace with an underscore in the AEM Site output file names. \n **Default value**: `'<\>\`@$`|
+|`com.adobe.fmdita.common.SanitizeNodeNameImpl`|`aemsite.DisallowedFileNameChars`|Add characters that you want to replace with an underscore in the AEM Site output file names. \n **Default value**: ``'<\>\`@$``|
 
 **Parent topic:**[Configure filenames](conf-file-names.md)
 

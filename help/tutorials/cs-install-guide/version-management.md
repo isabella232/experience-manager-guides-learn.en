@@ -18,13 +18,9 @@ To enable the **Create new version for uploaded file** option, perform the follo
 1.  In the configuration file, provide the following \(property\) details to configure the **Create new version for uploaded file** option:
 
 
-|PID|Property Key|Property Value|
-|---|------------|--------------|
-|`com.adobe.fmdita.confi g.ConfigManager`|`create.ver.new.content`|Boolean \(true/false\).
-
-**Default value**: `true`
-
-|
+    |PID|Property Key|Property Value|
+    |---|------------|--------------|
+    |`com.adobe.fmdita.confi g.ConfigManager`|`create.ver.new.content`|Boolean \(true/false\).\n **Default value**: `true` |
 
 >[!NOTE]
 >
@@ -40,21 +36,13 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.autocheckout`|Boolean \(true/false\).
-
-**Default value**: `false`
-
-|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.autocheckout`|Boolean \(true/false\).\n **Default value**: `false`|
 
 In addition, you can also configure to show a warning message whenever a checked out file is closed without saving or checking it back into the repository.
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.checkin`|Boolean \(true/false\).
-
-**Default value**: `false`
-
-|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.checkin`|Boolean \(true/false\).\n **Default value**: `false`|
 
 >[!NOTE]
 >
@@ -74,11 +62,7 @@ To allow users to overwrite the file on upload that has been checked out by them
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.confi g.ConfigManager`|`overwrite.checkout.onupload`|Boolean \(true/false\).
-
-**Default value**: `false`
-
-|
+|`com.adobe.fmdita.confi g.ConfigManager`|`overwrite.checkout.onupload`|Boolean \(true/false\).\n **Default value**: `false` |
 
 >[!NOTE]
 >
@@ -90,11 +74,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.preventcheckedoutcontentdeletion`|Boolean \(true/false\).
-
-**Default value**: `true`
-
-|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.preventcheckedoutcontentdeletion`|Boolean \(true/false\). \n **Default value**: `true`|
 
 ## Prevent deletion of referenced files 
 
@@ -111,17 +91,8 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`block.unsafe.delete`|Possible values are:
-
--   allow\_unsafe\_delete\_for\_all
--   allow\_unsafe\_delete\_for\_delete\_assets\_group
--   block\_unsafe\_delete\_for\_all
-
-**Default value**: `allow_unsafe_delete_for_delete_assets_group`
-
-The details of these constants is given below.
-
-|
+|`com.adobe.fmdita.config.ConfigManager`|`block.unsafe.delete`|Possible values are: \n -   allow\_unsafe\_delete\_for\_all \n -   allow\_unsafe\_delete\_for\_delete\_assets\_group \n -   block\_unsafe\_delete\_for\_all \n **Default value**: `allow_unsafe_delete_for_delete_assets_group` \n 
+The details of these constants is given below.|
 
 Depending on who you want to give access for deletion, specify one of the following constants:
 
@@ -186,7 +157,5 @@ Perform the following steps to purge the older versions:
 
 >[!NOTE]
 >
-> The report is downloaded at the following location:
-
-/var/dxml/versionpurge
+> The report is downloaded at the following location: `/var/dxml/versionpurge`
 

@@ -13,6 +13,7 @@ To hide the **Manage** tab in the Web Editor, perform the following steps:
 1.  Click on **XML Editor Configuration**.
 1.  Click on **Edit** icon on the top.
 1.  Download the `ui\_config.json` file.Remove the following code snippet from the downloaded file:
+
     ```json
     {
         "component":"tab",

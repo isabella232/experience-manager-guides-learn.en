@@ -68,9 +68,7 @@ You can also use customized DITA Open Toolkit \(DITA-OT\) plug-ins with the AEM 
 
 >[!TIP]
 >
->
-
-See the *AEM Site publishing* section in the Best practices guide for best practices around creating AEM Site output.
+> See the *AEM Site publishing* section in the Best practices guide for best practices around creating AEM Site output.
 
 ### Customize design template for generating output {#customize_xml-add-on}
 
@@ -149,7 +147,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.common.SanitizeNodeNameImpl`|`aemsite.DisallowedFileNameChars`|Ensure that the property is set to `'<>`@$`. You can add more special characters to this list.|
+|`com.adobe.fmdita.common.SanitizeNodeNameImpl`|`aemsite.DisallowedFileNameChars`|Ensure that the property is set to ``'<>`@$``. You can add more special characters to this list.|
 
 You can also configure the other properties such as use lower case in filenames, separator to handle invalid characters, and maximum number of characters allowed in the filenames. To configure these properties, add the following key value pairs in the configuration file:
 

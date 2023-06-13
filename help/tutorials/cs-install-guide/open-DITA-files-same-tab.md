@@ -6,11 +6,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.openinsametab`|Boolean \(true/false\).
-
-**Default value**: `false`
-
-|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.openinsametab`|Boolean \(true/false\). \n **Default value**: `false`|
 
 This setting impacts the following places from where you can access the topic or map files:
 

@@ -37,11 +37,7 @@ To hide the Translation tab on the DITA map dashboard, perform the following ste
 
     |PID|Property Key|Property Value|
     |---|------------|--------------|
-    |`com.adobe.fmdita.config.ConfigManager`|`hide.tabs.translation`|Boolean \( true/ false\).
-
- **Default value**: `true`
-
-|
+    |`com.adobe.fmdita.config.ConfigManager`|`hide.tabs.translation`|Boolean \( true/ false\).\n **Default value**: `true`|
 
     >[!NOTE]
     >
@@ -56,14 +52,7 @@ Based on the translation workflow used in your setup, the component-based transl
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`component.translation`|Boolean:
-
- -   If you are using human translation, then *Disable* \( `false`\) the **Component-Based Translation Workflow** option.
-
--   If you are using machine translation, then *Enable \( `true`\)* the **Component-Based Translation Workflow** option.
-
-
-|
+|`com.adobe.fmdita.config.ConfigManager`|`component.translation`|Boolean: \n -   If you are using human translation, then *Disable* \( `false`\) the **Component-Based Translation Workflow** option. \n -   If you are using machine translation, then *Enable \( `true`\)* the **Component-Based Translation Workflow** option.|
 
 >[!NOTE]
 >
@@ -81,14 +70,5 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`postprocess.temporary.langcopies`|Boolean:
-
- -   If you do not want to run the post-processing operation on the temporary files, then *Disable* \( false\) the **Post-process language copies** option.
-
--   If you want to run the post-processing operation on the temporary files, then *Enable* \( true\) the **Post-process language copies** option.
-
-
- **Default value**: false
-
-|
+|`com.adobe.fmdita.config.ConfigManager`|`postprocess.temporary.langcopies`|Boolean: \n -   If you do not want to run the post-processing operation on the temporary files, then *Disable* \( false\) the **Post-process language copies** option.\n -   If you want to run the post-processing operation on the temporary files, then *Enable* \( true\) the **Post-process language copies** option.\n **Default value**: false|
 
