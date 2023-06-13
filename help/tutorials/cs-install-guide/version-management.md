@@ -91,8 +91,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`block.unsafe.delete`|Possible values are: \n -   allow\_unsafe\_delete\_for\_all \n -   allow\_unsafe\_delete\_for\_delete\_assets\_group \n -   block\_unsafe\_delete\_for\_all \n **Default value**: `allow_unsafe_delete_for_delete_assets_group` \n 
-The details of these constants is given below.|
+|`com.adobe.fmdita.config.ConfigManager`|`block.unsafe.delete`|Possible values are: \n -  allow\_unsafe\_delete\_for\_all \n -   allow\_unsafe\_delete\_for\_delete\_assets\_group \n -  block\_unsafe\_delete\_for\_all \n **Default value**: `allow_unsafe_delete_for_delete_assets_group` \n The details of these constants is given below.|
 
 Depending on who you want to give access for deletion, specify one of the following constants:
 
