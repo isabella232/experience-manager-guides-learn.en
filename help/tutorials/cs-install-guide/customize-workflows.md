@@ -28,51 +28,18 @@ AEM Guides allows you to customize the default review workflow. You can use the 
 
 When you are creating a custom review workflow, the first task is to set the required metadata needed by the Create Review process. To do so, you can create an ECMA script. A sample of the ECMA script that assigns the metadata is given below:
 
-```
+```javascript
 var workflowdata=workItem.getWorkflowData();
-```
-
-```
 workflowdata.getMetaDataMap().put("initiator","admin");
-```
-
-```
 workflowdata.getMetaDataMap().put("operation","AEM_REVIEW");
-```
-
-```
 workflowdata.getMetaDataMap().put("orgTopics","/content/dam/xml-solution/review.xml");
-```
-
-```
 workflowdata.getMetaDataMap().put("payloadJson","{\"base\":\"/content/dam/xml-solution\",\"asset\":[\"/content/dam/xml-solution/review.xml\"],\"referrer\":\""}");
-```
-
-```
 workflowdata.getMetaDataMap().put("deadline","2017-06-27T13:19:00.000+05:30");
-```
-
-```
 workflowdata.getMetaDataMap().put("title","Review through custom workflow");
-```
-
-```
 workflowdata.getMetaDataMap().put("description","Initiate this review process using the AEM workflow");
-```
-
-```
 workflowdata.getMetaDataMap().put("assignee","user-one", "user-two");
-```
-
-```
 workflowdata.getMetaDataMap().put("status","1");
-```
-
-```
 workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
-```
-
-```
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 ```
 
@@ -83,12 +50,7 @@ You can create this script in the `/etc/workflows/scripts` node. The following t
 |`initiator`|String|User ID of the user initiating the review task.|
 |`operation`|String|A static value set as `AEM_REVIEW`.|
 |`orgTopics`|String|Path of the topics being shared for review. Specify multiple topics separated by comma.|
-|`payloadJson`|JSON object|Specify the following values: -   `base`: path of the parent folder containing the topic sent for review.
-
--   `asset`: path of the topic sent for review.
--   `referrer`: leave it blank.
-
-|
+|`payloadJson`|JSON object|Specify the following values: -   `base`: path of the parent folder containing the topic sent for review. \n -   `asset`: path of the topic sent for review. \n -   `referrer`: leave it blank.|
 |`deadline`|String|Specify the time in `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` format.|
 |`title`|String|Enter a title for the review task.|
 |`description`|String|Enter a description for the review task.|
@@ -158,75 +120,24 @@ To make use of the output generation metadata, you can create an ECMA script or 
 >
 > You can create this script in the ``/etc/workflows/scripts`` node.
 
-```
+```javascript
 var session = workflowSession.getSession(); // Obtain session object to read/write the repository.
-```
-
-```
 var payload = workItem.getWorkflowData().getPayload().toString(); // Get the workflow payload (the ditamap file on which the generation was triggered)
-```
-
-```
 var metadata = workItem.getWorkflowData().getMetaDataMap(); // Get the workflow metadata object
-```
-
-```
 var generatedPath = metadata.get("generatedPath"); // supplied by AEM Guides
-```
-
-```
 var username = metadata.get("initiator"); // supplied by AEM Guides
-```
-
-```
 var successful = metadata.get("isSuccess"); // supplied by AEM Guides
-```
-
-```
 var title = metadata.get("outputTitle"); // supplied by AEM Guides
-```
-
-```
 var subject = "Output Generation Finished";
-```
-
-```
 var message = "Generation of output " + title + " just finished " + 
-```
-
-```
 (successful ? "successfully. " : "unsuccessfully. ");
-```
-
-```
     message += "It was triggered by " + username;    
-```
-
-```
 if (successful) {
-```
-
-```
     message += "<br/><br/>The path to the generated output is " + 
-```
-
-```
 generatedPath;
-```
-
-```
 }
-```
-
-```
 /*
-```
-
-```
     MailerAPI.sendMail("dl-docs-authors", subject, message);
-```
-
-```
 */
 ```
 

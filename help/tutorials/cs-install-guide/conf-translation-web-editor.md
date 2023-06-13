@@ -12,21 +12,22 @@ To hide the **Manage** tab in the Web Editor, perform the following steps:
 1.  Click on the **Global Profile** tile.
 1.  Click on **XML Editor Configuration**.
 1.  Click on **Edit** icon on the top.
-1.  Download the ui\_config.json file.Remove the following code snippet from the downloaded file:
-1.  ```
-{
-						"component":"tab",
-						"id":"workflow",
-						"title":"Manage",
-						"on-click":"APP_MODE_CHANGE",
-						"items":[
-						{
-						"component":"label",
-						"label":"Manage"
-						}
-						]
-						},
-```
+1.  Download the `ui\_config.json` file.Remove the following code snippet from the downloaded file:
+    ```json
+    {
+        "component":"tab",
+        "id":"workflow",
+        "title":"Manage",
+        "on-click":"APP_MODE_CHANGE",
+        "items":
+        [
+            {
+                "component":"label",
+                "label":"Manage"
+            }
+        ]
+    },
+    ```
 
 1.  Upload the updated ui\_config.json file.
 
