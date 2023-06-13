@@ -12,11 +12,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`valid.characters`|The value is a regex pattern. It must have three basic characters and the list must start with a hyphen \(-\).
-
-**Default value**: \[-a-zA-Z0-9\_\]
-
-|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`valid.characters`|The value is a regex pattern. It must have three basic characters and the list must start with a hyphen \(-\).\n **Default value**: \[-a-zA-Z0-9\_\]|
 
 >[!NOTE]
 >

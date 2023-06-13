@@ -203,7 +203,7 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
     >
     > The specialized DTD file should be a part of the custom code deployment. DTDs under /apps are part of the product deployment and hence it is overwritten with installation of any new release. It is recommended to add specialized DTD under /var/dxml/dita\_resources within the project folder, and include the DTD/catalog path in the DITA profile.For more information, see [Integrate DITA specialization](dita-ot-specialization.md#id211MB0E00XA).
 
-2.  Use the Package Manager to download /libs/fmdita/config/condAttrList.xml file:
+1.  Use the Package Manager to download /libs/fmdita/config/condAttrList.xml file:
 
 1.  Create a copy of the condAttrList.xml file at the following location in your Cloud Manager's Git repository:
 
