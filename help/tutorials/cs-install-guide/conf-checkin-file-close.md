@@ -6,11 +6,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.checkin`|Boolean \( true/ false\).
-
- **Default value**: false
-
-|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.checkin`|Boolean \( true/ false\).\n **Default value**: false |
 
 When this configuration is enabled, the **Unlock the File** checkbox is selected by default in the dialog box.
 

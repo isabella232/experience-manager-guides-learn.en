@@ -6,11 +6,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.uniquefilenames`|Boolean \(true/false\).
-
-**Default value**: false
-
-|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.uniquefilenames`|Boolean \(true/false\).\n **Default value**: false |
 
 >[!NOTE]
 >

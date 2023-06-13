@@ -30,7 +30,7 @@ Perform the following steps to patch any broken references, using the patch scri
 
 1.  Run the patch script `[/bin/fmdita/validatebtree?operation=patch]` to fix the broken references. The script execution takes a few minutes and prints the logs as it progresses. Once the execution completes, it prints "`Done`" at the end.
 
-    >[!NOTE]
+   >[!NOTE]
    >
    > It is recommended that you copy and save the logs for reference purpose.
 
@@ -328,7 +328,7 @@ The following example shows how to move a `title` into a `table`:
 
 The `paragraphStyleRule` elements are described below:
 
-***`paraRule` element***
+*** `paraRule` element***
 
 The `paraRule` element is mandatory. This specifies the mapping rules for all Paragraph Styles. In an InDesign document, all text is contained within sub-structure of Paragraph Styles, even paragraphs without any style are named `[No paragraph style]`. The square brackets, these indicate a built\]in InDesign style name.
 
