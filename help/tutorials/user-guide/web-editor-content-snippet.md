@@ -19,7 +19,7 @@ Perform the following steps to create a content snippet generator and insert it 
 1. Select the template which maps with your data source from the **Data mapping template** dropdown.
 The out-of-the-box templates for the selected data source are displayed in the drop-down. For example, you can view the “sql-table” template for datasource named “PostgreSQL” datasource.
 
-    > [!NOTE] 
+    >[!NOTE] 
     >  
     > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
 1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. 
@@ -34,7 +34,7 @@ The out-of-the-box templates for the selected data source are displayed in the d
  ![](images/add-content-snippet-generator.png){width="800" align="left"}
     1. To save the results of the query, enter the name of the generator and then click **ADD**.   A new content snippet generator is added to the list.
 
-    > [!NOTE]
+    >[!NOTE]
     >
     > You need to follow the file naming convention for the name of the new content generator. You cannot have a space in the name of the content snippet generator. Also, you cannot save a new content generator with the name of an existing content generator. An error occurs.  
 
