@@ -179,6 +179,8 @@ breadcrumb-title: AEM Guides Tutorials
     + [Reports in AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
+      + Reports {#reports}
+        + [Manage Tags for your DITA content](./knowledge-base/kb-articles/authoring/reports/Manage-tags.md)
       + Webeditor {#webeditor}
         + Customizing {#customizing}
           + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
