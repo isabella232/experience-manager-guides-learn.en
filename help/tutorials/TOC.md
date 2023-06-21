@@ -255,6 +255,8 @@ breadcrumb-title: AEM Guides Tutorials
     + [Learning native PDF publishing - part 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
+      + Reports {#reports}
+        + [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
       + Webeditor {#webeditor}
         + Customizing {#customizing}
           + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
