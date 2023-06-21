@@ -35,11 +35,11 @@ You can also remove existing tags which are common in selected files.
 
 ## Troubleshooting and FAQ
 
-## List in manage->metadata is empty or incomplete 
+### List in manage->metadata is empty or incomplete 
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgrade instructions(Index your content)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgrade instructions(Index your content)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)`
 
-## Custom metadata is not coming up in list 
+### Custom metadata is not coming up in list 
 
 `Only Tags present in cq:tags can be managed from here and custom metadata is not supported`
 
