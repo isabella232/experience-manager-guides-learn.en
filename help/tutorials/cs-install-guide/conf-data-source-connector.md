@@ -159,10 +159,10 @@ For example, save as `sqqlite.json`.
 
 AEM Guides allows you to customize some values in the configuration file to meet the user’s needs.
 
-|Property Name|	Description|
+|Property Name| Description|
 |---|---|
-|configName|	The user can specify a configuration name to help identify the connector|
-|templateFolders|	List of Folders from where templates will be fetched|
+|configName| The user can specify a configuration name to help identify the connector|
+|templateFolders| List of Folders from where templates will be fetched|
 
 Other fields are customized based on the config class selected to run the Connector.
 

@@ -46,7 +46,7 @@ The out-of-the-box templates for the selected data source are displayed in the d
 Right-click on a content snippet generator to open the Options. Using the options, you can perform the following operations:
 * **Insert**: Use this option to insert the selected content snippet generator into the topic opened for editing in the Web Editor. As the data is inserted as a snippet, you can also edit the data within your topic in the Web Editor.
 
-    > [!NOTE]
+    >[!NOTE]
     > 
     > Insert option appears only while you are editing a topic.
 
