@@ -1,6 +1,6 @@
 ---
 title: Configure custom DITA map template
-description: Learn how to Configure custom DITA map template
+description: Learn how to configure custom DITA map template
 exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
 ---
 # Configure custom DITA map template {#id1774F04F05Z}
@@ -44,6 +44,6 @@ Next time you create a new map, your template shows up in the Blueprint page. Fo
 
 >[!TIP]
 >
-> See [appendix.md\#](appendix.md#)the *Custom templates* section in the Best practices guide for best practices around using custom map templates.
+> See the *Custom templates* section in the Best practices guide for best practices around using custom map templates.
 
-**Parent topic:**[Configure topic and map templates](conf-template-tags.md)
+**Parent topic:** [Configure topic and map templates](conf-template-tags.md)
