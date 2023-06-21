@@ -60,10 +60,22 @@ The following filtering options and map details are shown on the collection page
 
 To configure and generate the output using a Map Collection, perform the following steps:
 
-1.  Open the Map Collection.
+1.  Open the Map Collection.You can view the various output presets like the AEM Site, PDF,  HTML5, EPUB, and Custom presets. You can also view the global and folder profile presets created by your administrator. 
+
+    The ![](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
 1.  \(Optional\) Do any of the following based on your requirement:
     -   Apply Filters from the left rail to filter the modified maps, output preset, or language.
     -   If required, click **Edit** and change the desired output by turning the sliding button on or off.
+
+        
+ 
+        >[!NOTE] 
+        >  
+        > By default, any new preset is disabled. 
+        
+    -   You can select **Enable/Disable folder profile presets** for a DITA map to select all the folder profiles for it in one go. 
+
+
 1.  Do one of the following:
 
     -   To generate output of selected maps, select the map files and click **Generate Selected**.
