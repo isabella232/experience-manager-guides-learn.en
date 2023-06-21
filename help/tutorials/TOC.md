@@ -180,7 +180,7 @@ breadcrumb-title: AEM Guides Tutorials
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Reports {#reports}
-        + [Manage Tags for your DITA content](./knowledge-base/kb-articles/authoring/reports/Manage-tags.md)
+        + [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
       + Webeditor {#webeditor}
         + Customizing {#customizing}
           + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
