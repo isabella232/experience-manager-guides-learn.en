@@ -10,9 +10,9 @@ AEM Guides provides the feature to connect with your data source. You can fetch 
 Perform the following steps to create a content snippet generator and insert it in your topic:
 
 1. Select **Data Sources** ![](images/data-source-icon.svg)   in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
-    >[NOTE]
+    >[!NOTE]
     >
-    >You will see the data sources for which your administrator has configured the connector. For more details, view [Configure a data source connector](../cs-install-guide/conf-data-source-connector.md). 
+    > You will see the data sources for which your administrator has configured the connector. For more details, view [Configure a data source connector](../cs-install-guide/conf-data-source-connector.md). 
     
 1. Select a data source to view the content snippet generators available for the selected data source.
 ![](images/code-snippet-generator.png){width="300" align="left"}
@@ -30,8 +30,8 @@ The out-of-the-box templates for the selected data source are displayed in the d
 
    1. The preview shows how the data will be displayed when inserted into the content. The preview displays a small fraction of the data in the format of the selected template. 
    For example:
-      *	If you’ve selected the sql-table template, you can view the SQL data in a tabular format. 
-      *	If you’ve selected the jira-ordered-list template, you can view an ordered list for the Jira issues.
+     * If you’ve selected the sql-table template, you can view the SQL data in a tabular format. 
+     * If you’ve selected the jira-ordered-list template, you can view an ordered list for the Jira issues.
 
     1. The source view shows the data in the DITA source view. 
  ![](images/add-content-snippet-generator.png){width="800" align="left"}
@@ -46,7 +46,7 @@ The out-of-the-box templates for the selected data source are displayed in the d
 Right-click on a content snippet generator to open the Options. Using the options, you can perform the following operations:
 * **Insert**: Use this option to insert the selected content snippet generator into the topic opened for editing in the Web Editor. As the data is inserted as a snippet, you can also edit the data within your topic in the Web Editor.
 
-    > [!Note]
+    > [!NOTE]
     > 
     > Insert option appears only while you are editing a topic.
 
