@@ -10,7 +10,10 @@ AEM Guides provides the feature to connect with your data source. You can fetch 
 Perform the following steps to create a content snippet generator and insert it in your topic:
 
 1. Select **Data Sources** ![](images/data-source-icon.svg)   in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
- 
+    >[NOTE]
+    >
+    >You will see the data sources for which your administrator has configured the connector. For more details, view [Configure a data source connector](../cs-install-guide/conf-data-source-connector.md). 
+    
 1. Select a data source to view the content snippet generators available for the selected data source.
 ![](images/code-snippet-generator.png){width="300" align="left"}
 1. Select **Add** to add a new content snippet generator. The **Add content snippet generator** panel opens.
