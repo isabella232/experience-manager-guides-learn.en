@@ -1,6 +1,6 @@
 ---
 title: Configure custom DITA map template
-description: Learn how to Configure custom DITA map template
+description: Learn how to configure custom DITA map template
 exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
 ---
 # Configure custom DITA map template {#id1774F04F05Z}
