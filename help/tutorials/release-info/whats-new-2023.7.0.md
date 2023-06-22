@@ -25,7 +25,7 @@ The review panel displays the review tasks in the Author view. You can easily vi
 ![](assets/active-review-task-comments.png){width="800" align="left"} 
 For more details, view the **Review** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-	
+
 ## Connect to a data source and insert data into your topics
 
 AEM Guides provides the feature to connect with your data source.  You can fetch your data, insert it into your topics, and edit it. Connecting to a data source automatically helps you to keep your information updated. This feature is very handy and saves your time and effort.  You can create a content snippet generator for a data source and reuse it within your topics.
