@@ -58,7 +58,7 @@ Now you can also add labels to the different versions while checking in a file i
 
 >[!NOTE]
 >
-> These labels are displayed in the AEM version history of the file. For more details, view Check in a file procedure under the Work with Oxygen Plugin for AEM Guides section.
+> These labels are displayed in the AEM version history of the file. For more details, view Check in a file procedure under the [Work with Oxygen Plugin for AEM Guides](../oxygen-connector/use-aem-connector.md) section.
 
 
 ## Ability to access temporary HTML files while generating the native PDF output
