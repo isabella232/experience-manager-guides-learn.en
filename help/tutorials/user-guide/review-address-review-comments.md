@@ -15,13 +15,23 @@ An author can address comments in a document from the Web Editor. Visual indicat
 
 ![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
-In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. The Tracked Changes panel shows the status of all inserted and deleted comments in your document.
+In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. The **Tracked Changes** panel shows the status of all inserted and deleted comments in your document.
 
--   **A**: Select a review project to see review comments. If your topic has been shared for review in multiple review tasks, you will see those tasks listed in this drop-down.
+-   **A**: Select a review task to see review comments. If your topic has been shared for review in multiple review tasks, you will see those tasks listed in this drop-down.
 
     When you select a review task from the list, you get to see the comments made by reviewers in that task. You can address the review comments independently in tasks, which mean that any update on a comment is visible to reviewers of that respective task only.
 
--   **B:** Each **Review Project** is created on a specific version of the document. The **Review Version** displays the version associated with the selected review project. This helps you to keep a track of the version that you had shared for review.
+-   **B:** The **Review details** are listed. Each **Review Project** is created on a specific version of the document. The **Review Version** displays the version associated with the selected review project. This helps you to keep a track of the version that you had shared for review.
+    Select **Review details** ![](images/active-review-info-icon.svg)in the **Comments** panel to view more information about the review task:
+
+    - Name of the project
+    - Review version
+    - Status
+    
+    >[!NOTE]
+    >
+    > If the root map of your review task is different from the authoring root map, it displays the
+    information about it to indicate that the authoring and the review root map don’t match.
 
 -   **C**: If you have updated your topic after initiating the review, then clicking on Revert Topic to Review Version icon reverts your working copy back to the version that was shared for review. This makes it easier for you to incorporate the review feedback directly in the version that was shared for review. After incorporating the feedback, you can save changes in the reverted version or create a new revision of your topic. If you choose to create a new revision of your topic, then a new branch is created from the topic version that was shared for review. For example, if you shared version `1.2` of a topic for review while the current authoring version is `1.3`, then you can use this icon to switch back to version `1.2` for incorporating review comments. If you choose to create a new revision after incorporating changes to version `1.2`, then a new branch with version `1.2.0` is created for the topic.
 

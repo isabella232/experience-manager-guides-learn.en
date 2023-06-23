@@ -13,6 +13,9 @@ breadcrumb-title: AEM Guides Tutorials
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       + 2023 Releases {#2023-releases}
+        + July Release {#2307-release}      
+            + [What's new](./release-info/whats-new-2023.7.0.md)
+            + [Release Notes](./release-info/release-notes-2023.7.0.md)
         + June Release {#2306-release}      
             + [What's new](./release-info/whats-new-2023.6.0.md)
             + [Release Notes](./release-info/release-notes-2023.6.0.md)
