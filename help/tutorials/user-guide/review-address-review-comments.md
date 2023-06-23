@@ -13,7 +13,7 @@ An author can address comments in a document from the Web Editor. Visual indicat
 >
 > While addressing review comments \(for an active review document\), ensure that you—do not open the in-review topic in multiple tabs with full tags view enabled, do not switch between the Author and Source view modes.
 
-![](images/comments-page-web-editor_cs.png){width="650" align="left"}
+![](images/comments-page-web-editor_cs.png){width="800" align="left"}
 
 In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. The **Tracked Changes** panel shows the status of all inserted and deleted comments in your document.
 

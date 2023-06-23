@@ -1409,7 +1409,7 @@ To view the review comments in the active review tasks that are present in your 
     - Select ![](images/filter-search-icon.svg)  to open the **Filter** dialog. You can select all or only specific projects. The selected projects are listed in the **Review** panel.
  ![](images/active-review-select-project.png){width="300" align="left"}
 
-By default the **Tasks initiated by me** option is enabled. It allows you to view only the tasks that you’ve initiated. 
+    By default the **Tasks initiated by me** option is enabled. It allows you to view only the tasks that you’ve initiated. 
 
 1. By default, in your review project you will view a flat list of topics that have comments associated with them. Apply the required filters from the left rail to filter the topics based on the review comments present in them:
 
@@ -1422,8 +1422,7 @@ By default the **Tasks initiated by me** option is enabled. It allows you to vie
 
 >[!NOTE]
 > 
-> The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel.
-
+> The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel. 
 For more information, view [Address review comments](review-address-review-comments.md#).
 
 **Find and Replace** -  ![](images/FindAndReplace_icon.svg)
