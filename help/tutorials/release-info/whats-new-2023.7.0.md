@@ -10,22 +10,19 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 ## Connect to a data source and insert data into your topics
 
-AEM Guides provides the feature to connect with your data source.  You can fetch your data, insert it into your topics, and edit it. Connecting to a data source automatically helps you to keep your information updated. This feature is handy and saves your time and effort.  You can create a content snippet generator for a data source and reuse it within your topics.
+AEM Guides provides the feature to connect with your data source.  You can fetch your data, insert it into your topics, and edit it. Connecting to a data source automatically helps you to keep your information updated. You can create a content snippet generator for a data source and reuse it within your topics.
 
 >[!NOTE]
 >
 > Now, AEM Guides allows your administrator to configure the out-of-the-box connectors for JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases. They can also add other connectors by extending the default interfaces.
 
-You can view the configured connectors listed under the Data Sources panel in the Web Editor.
+You can view the configured connectors listed under the **Data Sources** panel in the Web Editor.
  
 ![](assets/code-snippet-generator.png){width="300" align="left"}
 
 
-You can connect to the data source, run a data query, and apply an out-of-the-box template to the results.  You can preview a snapshot of the data that results from the SQL query.   Save the results of the query as a content generator. AEM Guides also allows gives you the options to insert, edit, delete, or duplicate a content snippet generator.
- 
-Once you have created a content snippet generator, you can reuse it to insert the data into any topics. You can also edit your query or change the template and insert the data in your topic.
+You can connect to the data source from the Web Editor, run a data query, and save the results of the query as a content generator.  Once you have created a content snippet generator, you can reuse it to insert the data into any topics. 
 
-![](assets/add-content-snippet-generator.png){width="800" align="left"}
 For more details, view [Insert a content snippet from your data source](../user-guide/web-editor-content-snippet.md).
 
 
