@@ -119,17 +119,13 @@ The bugs fixed in various areas are listed below:
 - Upload files in Oxygen Plugin for AEM Guides is not working in cloud services if you have ! in the file name. (12207)
 - DITA map publishing is very slow with editable template. (12075)
 - Global Profile UI config does not match with Folder Profile. (11970)
-
-
-
-
+- Content references are broken when DITA files are copied and pasted. (11959)
+- Not able to edit content fragment in column view with AEM Guides installed. (7342)
+- In the DITA map asset properties, "Title" is overwritten by the `<title>` element of the map. (10702)
 
 ### Publishing
 
-- TOC or structure is not displayed correctly in the native PDF output. (11969)
-- Content references are broken when DITA files are copied and pasted. (11959)
+- Navtitle, topicmeta and topichead not working properly in frontmatter and backmatter (11969)
 - Approval workflow does not work when docstate is changed to "end state" from File properties of the right panel. (11026)
-- In the DITA map asset properties, "Title" is overwritten by the `<title>` element of the map. (10702)
-- Not able to edit content fragment in column view with AEM Guides installed. (7342)
 
 
