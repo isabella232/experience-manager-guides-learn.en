@@ -31,7 +31,7 @@ In the Web Editor mode, the right panel contains the Review and Tracked Changes 
     >[!NOTE]
     >
     > If the root map of your review task is different from the authoring root map, it displays the
-    information about it to indicate that the authoring and the review root map don’t match.
+    information about it to indicate that the authoring and the review root map don't match.
 
 -   **C**: If you have updated your topic after initiating the review, then clicking on Revert Topic to Review Version icon reverts your working copy back to the version that was shared for review. This makes it easier for you to incorporate the review feedback directly in the version that was shared for review. After incorporating the feedback, you can save changes in the reverted version or create a new revision of your topic. If you choose to create a new revision of your topic, then a new branch is created from the topic version that was shared for review. For example, if you shared version `1.2` of a topic for review while the current authoring version is `1.3`, then you can use this icon to switch back to version `1.2` for incorporating review comments. If you choose to create a new revision after incorporating changes to version `1.2`, then a new branch with version `1.2.0` is created for the topic.
 

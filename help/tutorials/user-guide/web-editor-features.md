@@ -1393,14 +1393,14 @@ Using the Options menu on an existing template, you can choose to **Edit** or **
 **Review** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Guides provides the feature to display all the review tasks in your projects. You can view all the review projects and the active review tasks within the review projects, that you're part of from the **Review** panel.  You can then open the review tasks to view the comments of the various reviewers. 
-The review panel displays the review tasks in the Author view. As an author, you can address the comments in a topic using the Web Editor. 
+The review panel displays the review tasks. As an author, you can address the comments in a topic using the Web Editor. 
 
 
 To view the review comments in the active review tasks that are present in your projects, perform the following steps:
 
-1.	Select Review ![](images/active-review-tasklist-icon.svg)   on the left panel. The **Review** panel opens.  All the review projects and the active review tasks within the review projects, that you're part of are displayed
-1.	Select a review project from the list to open it. 
-1.	You can also filter your projects in the following ways:
+1. Select Review ![](images/active-review-tasklist-icon.svg)   on the left panel. The **Review** panel opens.  All the review projects and the active review tasks within the review projects, that you're part of are displayed
+1. Select a review project from the list to open it. 
+1. You can also filter your projects in the following ways:
 
     - Enter the search term or text you want to find in the title of the project. Then press Enter to perform the search. For example, you can search all projects with the term 'space' in the title.
 
@@ -1411,8 +1411,8 @@ By default the Tasks initiated by me option is enabled. It allows you to view on
 
     - **View all topics**: Lists all topics present in the projects.
     - **View topics with comments**: List only the topics containing review comments.
-1..	You can also enter the search term or text you want to find in the topic's title or file path. The topics which contain the term in the title or the file path are listed. 
-1.	Double-click any topic to open it in the author view. You can view the comments in the comments panel.
+1. You can also enter the search term or text you want to find in the topic's title or file path. The topics which contain the term in the title or the file path are listed. 
+1. Double-click any topic to open it in the author view. You can view the comments in the **Comments** panel.
 ![](images/active-review-task-comments.png){width="800" align="left"} 
 
 
