@@ -5,7 +5,10 @@ exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
 ---
 # Address review comments {#id2056B0X0KBI}
 
-As an author, you can address comments in a topic using the Web Editor. The following sections describe ways of editing comments in the Web Editor.
+
+As an author, you can address comments in a topic using the Web Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+The following sections describe ways of editing comments in the Web Editor.
 
 An author can address comments in a document from the Web Editor. Visual indicators are provided indicating whether comments that were inserted \(text\), deleted or highlighted. Also the type of comment is mentioned at the top of every comment entry.
 
@@ -15,18 +18,17 @@ An author can address comments in a document from the Web Editor. Visual indicat
 
 ![](images/comments-page-web-editor_cs.png){width="800" align="left"}
 
-In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. The **Tracked Changes** panel shows the status of all inserted and deleted comments in your document.
+In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. The **Tracked Changes** panel shows the status of all inserted and deleted comments in your document.
 
 -   **A**: Select a review task to see review comments. If your topic has been shared for review in multiple review tasks, you will see those tasks listed in this drop-down.
 
     When you select a review task from the list, you get to see the comments made by reviewers in that task. You can address the review comments independently in tasks, which mean that any update on a comment is visible to reviewers of that respective task only.
 
--   **B:** The **Review details** are listed. Each **Review Project** is created on a specific version of the document. The **Review Version** displays the version associated with the selected review project. This helps you to keep a track of the version that you had shared for review.
-    Select **Review details** ![](images/active-review-info-icon.svg)in the **Comments** panel to view more information about the review task:
+-   **B:**  Select **Review details** ![](images/active-review-info-icon.svg) in the **Comments** panel to view more information about the review task:
 
-    - Name of the project
-    - Review version
-    - Status
+    - **Name**: Name of the review task .
+    - **Review Version**: Dispalys the version associated with the selected review task. This helps you to keep a track of the version that you had shared for review
+    - **Status**: Current status of the review task.
     
     >[!NOTE]
     >
