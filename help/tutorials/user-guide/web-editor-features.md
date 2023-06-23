@@ -1423,7 +1423,7 @@ To view the review comments in the active review tasks that are present in your 
 >[!NOTE]
 > 
 > The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel. 
-For more information, view [Address review comments](review-address-review-comments.md#).
+> For more information, view [Address review comments](review-address-review-comments.md#).
 
 **Find and Replace** -  ![](images/FindAndReplace_icon.svg)
 
