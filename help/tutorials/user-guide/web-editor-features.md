@@ -1398,8 +1398,9 @@ The review panel displays the review tasks. As an author, you can address the co
 
 To view the review comments in the active review tasks that are present in your projects, perform the following steps:
 
-1. Select Review ![](images/active-review-tasklist-icon.svg)   on the left panel. The **Review** panel opens.  All the review projects and the active review tasks within the review projects, that you're part of are displayed
-1. Select a review project from the list to open it. 
+1. Select Review ![](images/active-review-tasklist-icon.svg)   on the left panel. The **Review** panel opens.  All the review projects and the active review tasks within the review projects, that you're part of are displayed.
+![](images/web-editor-review-panel.png){width="300" align="left"}
+1. Select a review project and then select a review task from the list to open it. 
 1. You can also filter your projects in the following ways:
 
     - Enter the search term or text you want to find in the title of the project. Then press Enter to perform the search. For example, you can search all projects with the term 'space' in the title.
