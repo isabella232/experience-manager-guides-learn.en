@@ -10,7 +10,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 ## Connect to a data source and insert data into your topics
 
-Now you can quickly connect to your data sources from AEM Guides. Connecting to a data source enables you to keep your information in sync, and any updates to the data are reflected automatically. This feature  helps you save time and effort to manually add or copy the data. 
+Now you can quickly connect to your data sources using out-of-the-box connectors from AEM Guides. Connecting to a data source enables you to keep your information in sync with the source, and any updates to the data are reflected automatically, making AEM Guides a true content hub. This feature helps you save time and effort to manually add or copy the data.
 
 Now, AEM Guides allows your administrator to configure the out-of-the-box connectors for JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases. They can also add other connectors by extending the default interfaces.
 
