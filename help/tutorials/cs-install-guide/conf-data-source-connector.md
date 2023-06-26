@@ -5,9 +5,7 @@ description: Learn how to configure a data source connector
 
 # Configure a data source connector 
 
-AEM Guides provides out-of-the-box connectors for JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases. You can also add other connectors by extending the default interfaces.
-
-The following configuration helps you to easily add the various data sources. Once added, you can view the data sources in the Web Editor. 
+AEM Guides provides out-of-the-box connectors for JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases. You can also add other connectors by extending the default interfaces. The following configuration helps you to easily add the various data sources. Once added, you can view the data sources in the Web Editor. 
 
 Perform the following steps to configure a data source connector and then use it from the Web Editor:
 
