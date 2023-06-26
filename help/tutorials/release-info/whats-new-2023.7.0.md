@@ -4,13 +4,13 @@ description: Learn the new and enhanced features in July 2023 release of Adobe E
 ---
 # What's new in July 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
-This article covers the new and enhanced features in version July 2023 version of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+This article covers the new and enhanced features in July 2023 version of Adobe Experience Manager Guides (later referred to as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.7.0.md) article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view the [Release notes](release-notes-2023.7.0.md) article.
 
 ## Connect to a data source and insert data into your topics
 
-Now you can quickly connect to your data sources from AEM Guides. Connecting to a data source helps you to keep your information in sync and any updates to the data are reflected automatically. This feature helps you save your time and effort of manually adding or copying the data. 
+Now you can quickly connect to your data sources from AEM Guides. Connecting to a data source enables you to keep your information in sync, and any updates to the data are reflected automatically. This feature  helps you save time and effort to manually add or copy the data. 
 
 Now, AEM Guides allows your administrator to configure the out-of-the-box connectors for JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases. They can also add other connectors by extending the default interfaces.
 
@@ -18,9 +18,9 @@ Once added, you can view the configured connectors listed under the **Data Sourc
  
 ![](assets/code-snippet-generator.png){width="300" align="left"}
 
-You can create a content snippet generator to fetch the data from a connected data source . You can then insert the data into your topics, and edit it. 
+You can create a content snippet generator to fetch the data from a connected data source. You can then insert the data into your topics and edit it. 
 
-Once you have created a content snippet generator, you can reuse it to insert the data into any topics. 
+Once you have created a content snippet generator, you can reuse it to insert the data into any topic. 
 
 For more details, view [Insert a content snippet from your data source](../user-guide/web-editor-content-snippet.md).
 
@@ -30,7 +30,7 @@ For more details, view [Insert a content snippet from your data source](../user-
 
 Now AEM Guides makes your reviews more seamless. It provides the Reviews panel within the Web Editor. The Reviews panel displays all the review projects and the active review tasks within the review projects that you're part of.  
 
-As an author this feature helps you to easily open the review tasks, view the comments, and also quickly address the comments in a centralized view. 
+As an author, this feature helps you easily open the review tasks, view the comments, and quickly address the comments in a centralized view. 
 ![](assets/active-review-task-comments.png){width="800" align="left"} 
 For more details, view the **Review** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
@@ -50,18 +50,18 @@ For more details, view [Use Map Collection for output generation](../user-guide/
 
 Now AEM Guides allows you to download the temporary HTML files created while generating the native PDF output. In the output preset settings, select the option to download the temporary files.  AEM Guides then allows you to download the temporary files created while generating the output using that preset. 
 
-This features enables better insights into the generation process with access to interim styles and layouts and helps you correct or change your CSS styles according to your requirements. 
+This feature enables better insights into the generation process with access to interim styles and layouts and helps you correct or change your CSS styles according to your requirements. 
 
 ![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
 ## Microservice-based publishing to generate HTML5 and Custom output
 
-The new publishing microservice enables you to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry leading Adobe I/O Runtime serverless platform. Now using the microservice, you can also generate the HTML5 and the Custom output.
+The new publishing microservice enables you to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry-leading Adobe I/O Runtime serverless platform. Now using the microservice, you can also generate the HTML5 and the Custom output.
 You can run multiple publishing requests and get an improved performance to generate these output formats.
 For more details, view [Configure microservice-based publishing for AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
 
 ## View AEM Guides version details in the About information
 
-Now along with the AEM **About** information, you can also view the AEM Guides version details. You can view the current version details in the **About** option of the **Help** present on the AEM Navigation page. 
+Now along with the AEM **About** information, you can also view the AEM Guides version details. You can view the current version details in the **About** option of the **Help** on the AEM Navigation page. 
 
 ![](assets/about-aem-help.png)(width="800" align="left")
