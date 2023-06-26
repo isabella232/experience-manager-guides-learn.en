@@ -3,11 +3,11 @@ title: Insert a content snippet from your data source
 description: Learn how to insert a content snippet from your data source
 ---
 
-# Insert a content snippet generator from your data source
+# Insert a content snippet from your data source
 
-AEM Guides provides the feature to connect with your data source. You can fetch your data, insert it into your topics, and edit it. You can easily create a content snippet generator and reuse it within your topics. 
+AEM Guides provides the feature to connect with your data source. You can fetch your data, insert it into your topics, and edit it. You can easily create a content snippet using the content snippet generator and reuse it within your topics. 
 
-Perform the following steps to create a content snippet generator and insert it in your topic:
+Perform the following steps to create a content snippet using the content snippet generator and insert it in your topic:
 
 1. Select **Data Sources** ![](images/data-source-icon.svg)   in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
     >[!NOTE]
@@ -44,7 +44,7 @@ The out-of-the-box templates for the selected data source are displayed in the d
 ## Options for a content snippet generator
 
 Right-click on a content snippet generator to open the Options. Using the options, you can perform the following operations:
-* **Insert**: Use this option to insert the selected content snippet generator into the topic opened for editing in the Web Editor. As the data is inserted as a snippet, you can also edit the data within your topic in the Web Editor.
+* **Insert**: Use this option to insert the selected content snippet into the topic opened for editing in the Web Editor. As the data is inserted as a snippet, you can also edit the data within your topic in the Web Editor.
 
     >[!NOTE]
     > 
