@@ -52,6 +52,8 @@ This feature enables better insights into the generation process with access to 
 
 ![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
+For more details, view [Create a PDF output preset](../web-editor/native-pdf-web-editor.md#create-output-preset).  
+
 ## Microservice-based publishing to generate HTML5 and Custom output
 
 The new publishing microservice enables you to run large publishing workloads concurrently on AEM Guides as a Cloud Service and leverage the industry-leading Adobe I/O Runtime serverless platform. Now using the microservice, you can also generate the HTML5 and the Custom output.
