@@ -25,7 +25,6 @@ The out-of-the-box templates for the selected data source are displayed in the d
     >[!NOTE] 
     >  
     > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
-
 1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. 
 1. You can view the data in the preview or the DITA source view. 
 
