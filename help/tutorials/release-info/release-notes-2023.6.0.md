@@ -147,6 +147,7 @@ The bugs fixed in various areas are listed below:
 - Native PDF | Unable to save the PDF template settings. (10751)
 - Native PDF | The text extends beyond the column width on including multiple xrefs. (10876)
 - Native PDF | `<note>``</note>` element does not generate extra span title of its type. (10549)
+- Native PDF | The language metadata cannot be set in the generated PDF to comply with WCAG 2.0. (12407)
 
 
 
