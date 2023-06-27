@@ -268,7 +268,7 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Configure auto-filenames based on UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
       +   [Configure Regx for valid file name characters](./cs-install-guide/conf-file-names-valid-regx.md)
       +   [Configure valid file names for AEM Site output](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-    + [Configure topic and map templates] {config-topic-map-temp-cs}
+    + Configure topic and map templates {#config-topic-map-temp-cs}
       +   [Configure topic and map templates](./cs-install-guide/conf-template-tags.md)
       +   [Configure custom DITA topic template](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
       +   [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
