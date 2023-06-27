@@ -277,7 +277,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
       + [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       + [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
-      + [Open DITA topic or map files in same tab](./cs-install-guide/open-DITA-files-same-tab.md)
+      + [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
       + [Configure a custom panel in the left panel](./cs-install-guide/configure-custom-panel.md)
       + [Configure file auto-save in the Web Editor](./cs-install-guide/auto-save-in-editor.md)
       + [Configure prompt to save as a new version on close](./cs-install-guide/conf-save-as-new-version-close.md)
