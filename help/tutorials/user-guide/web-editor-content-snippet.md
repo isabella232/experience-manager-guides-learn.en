@@ -9,7 +9,7 @@ AEM Guides provides the feature to connect with your data source. You can fetch 
 
 Perform the following steps to create a content snippet using the content snippet generator and insert it in your topic:
 
-1. Select **Data Sources** ![](images/data-source-icon.svg)   in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
+1. Select **Data Sources** ![](images/data-source-icon.svg)   in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. For more details, view [Configure a data source connector](../cs-install-guide/conf-data-source-connector.md). 
     >[!NOTE]
     >
     > You will see the data sources for which your administrator has configured the connector. 
