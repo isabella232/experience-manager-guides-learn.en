@@ -20,9 +20,7 @@ Once added, you can view the configured connectors listed under the **Data Sourc
 
 You can create a content snippet generator to fetch the data from a connected data source. You can then insert the data into your topics and edit it. 
 
-Once you have created a content snippet generator, you can reuse it to insert the data into any topic. 
-
-For more details, view [Insert a content snippet from your data source](../user-guide/web-editor-content-snippet.md).
+Once you have created a content snippet generator, you can reuse it to insert the data into any topic. For more details, view [Insert a content snippet from your data source](../user-guide/web-editor-content-snippet.md).
 
 
 

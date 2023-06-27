@@ -145,6 +145,7 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 |  **Show Watermark** | Select this option to render MathML equations present in your content. The equations will be ignored otherwise. | 
 |  **Enable MathML equations** | Select this option to render MathML equations present in your content. The equations will be ignored otherwise by default.  | 
 |  **PDF conformance** | It is the standard to which you intend to save your PDF to ensure it is compliant. Select from the dropdown to choose from the list of available PDF standards. For more details about the supported standards, see [About PDF standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). | 
+|**Download temporary files**|Select this option if you want to download the interim HTML files created while generating the Native PDF output. You can later download the temporary files after generating the output.  |
 
 ## Generate a PDF output {#generate-pdf-output} 
 
@@ -166,3 +167,12 @@ If an output is not successful, the below error message is displayed.
 <img src="assets/error-log.png" alt ="error log" width =250>
 
 To view the error log, click **Dismiss**, hover over the selected preset tab, and click ![options](assets/options.svg) **Options** > **View Log**.
+
+### Download temporary files after generating the Native PDF output
+
+If you select the **Download temporary files** option in the Advanced settings, you can also download the interim HTML files created while generating the Native PDF output. Once you’ve generated the output, you can download the temporary files using the **Download temporary files** icon on the top bar. This feature helps you view your interim HTML styles and layouts and helps you correct or change your CSS styles according to your requirements.
+
+
+>NOTE
+>
+> The **Download temporary files** icon appears only if you have generated the last PDF output using the preset wherein you have selected the option in the **Advanced** tab. 
