@@ -1,10 +1,11 @@
 ---
-title: Release Notes | What's New in in Adobe Experience Manager Guides, June 2023 release
+title: Release Notes | What's New in Adobe Experience Manager Guides, June 2023 release
 description: Learn the new and enhanced features in June 2023 release of Adobe Experience Manager Guides as a Cloud Service
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
 ---
 # What's new in June 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
-This article covers the new and enhanced features in version June 2023 version of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+This article covers the new and enhanced features in version June 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.6.0.md) article.
 
@@ -33,11 +34,15 @@ Now you can add a watermark to the PDF output of the document which is yet not a
 
 For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Support for language variables in DITA elements
+### Support for Language variables in DITA elements 
 
-AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution. For example, you can have the following ways to present your NOTE in the PDF output:
+AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution. 
+For example, you can have the following ways to present your NOTE in the PDF output:
+
 German: Notiz
-Spanish: Nota
+
+Spanish: Nota 
+
 
 ### Support for language variables in your page footer
 
@@ -46,13 +51,14 @@ You can also use it to present the numbers in various languages.
 
 ### Localized prefixes for your TOC
 
-You also have the feature to display localized terms to be used to present the prefixes in your headings. 
-For example, you can have the following ways to present your ‘Chapter’ prefix in the PDF output:
+You also have the feature to display localized terms to be used to present the prefixes in your headings.
+For example, you can have the following ways to present your 'Chapter' prefix in the PDF output:
+
 German: Kapitel
+
 Spanish: Capítulo
 
 ### Ability to use AEM metadata in PDF layouts
-
 
 Metadata is the description or definition of your content. This metadata is stored in your source DITA map content. 
 
@@ -70,11 +76,11 @@ For more details, see [Add fields and metadata](../native-pdf/design-page-layout
 
 ## Schematron enhancements
 
-### Use Report statements to check for rules in Schematron
+### Use report statements to check for rules in Schematron
 
 AEM Guides also now supports the report statements with the Schematron. A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters.
 
-For more details, see [Use Assert and Report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
+For more details, see [Use assert and report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Use Regex expressions
 

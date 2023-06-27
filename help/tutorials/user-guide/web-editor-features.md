@@ -1390,6 +1390,41 @@ Once the template is created, you need to add it to your global or folder-level 
 
 Using the Options menu on an existing template, you can choose to **Edit** or **Duplicate** it. In case of duplication, the template's structure and type \(of document\) is retained and you can reuse it to create another template from it.
 
+**Review** -  ![](images/active-review-tasklist-icon.svg)
+
+AEM Guides provides the feature to display all the review tasks in your projects. You can view all the review projects and the active review tasks within the review projects, that you're part of from the **Review** panel.  You can then open the review tasks to view the comments of the various reviewers. 
+The review panel displays the review tasks. As an author, you can address the comments in a topic using the Web Editor. 
+
+
+To view the review comments in the active review tasks that are present in your projects, perform the following steps:
+
+1. Select Review ![](images/active-review-tasklist-icon.svg)   on the left panel. The **Review** panel opens.  All the review projects and the active review tasks within the review projects, that you're part of are displayed.
+
+    ![](images/web-editor-review-panel.png){width="300" align="left"}
+1. Select a review project and then select a review task from the list to open it. 
+1. You can also filter your projects in the following ways:
+
+    - Enter the search term or text you want to find in the title of the project. Then press Enter to perform the search. For example, you can search all projects with the term 'space' in the title.
+
+    - Select ![](images/filter-search-icon.svg)  to open the **Filter** dialog. You can select all or only specific projects. The selected projects are listed in the **Review** panel.
+    ![](images/active-review-select-project.png){width="300" align="left"}
+
+       The **Tasks initiated by me** option is enabled by default. It allows you to view only the tasks that you’ve initiated. 
+
+1. By default, in your review project you will view a flat list of topics that have comments associated with them. Apply the required filters from the left rail to filter the topics based on the review comments present in them:
+
+    - **View all topics**: Lists all topics present in the projects.
+    - **View topics with comments**: List only the topics containing review comments.
+1. You can also enter the search term or text you want to find in the topic's title or file path. The topics which contain the term in the title or the file path are listed. 
+1. Double-click any topic to open it in the author view. You can view the comments in the **Comments** panel.
+![](images/active-review-task-comments.png){width="800" align="left"} 
+
+
+    >[!NOTE]
+    > 
+    > The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel. 
+    > For more information about how to address the comments, view [Address review comments](review-address-review-comments.md#).
+
 **Find and Replace** -  ![](images/FindAndReplace_icon.svg)
 
 The Find and Replace icon is found at the bottom of the left panel. The Find and Replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can find and replace in all topics of a map as well as topics present in the sub-maps within the map.

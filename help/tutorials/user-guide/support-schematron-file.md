@@ -1,8 +1,8 @@
 ---
 title: Support for Schematron files
-description: Learn how to validate your topics with scehmatron 
+description: Learn how to validate your topics with scehmatron
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
 ---
-
 # Support for Schematron files
 
 "Schematron" refers to a rule-based validation language used to define tests for an XML file. Web editor supports Schematron files. You can import the Schematron files and also edit them in Web Editor. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map.
@@ -49,7 +49,7 @@ When you open a topic in the Web Editor, a Schematron Validation panel appears i
 
 The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
 
-## Use Assert and Report statements to check for rules{#schematron-assert-report}
+## Use assert and report statements to check for rules{#schematron-assert-report}
 
 AEM Guides also supports the assert and report statements in Schematron. These statements help you validate your DITA topics.
 
@@ -140,10 +140,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
- 
-
- 
-
- 
-
- 

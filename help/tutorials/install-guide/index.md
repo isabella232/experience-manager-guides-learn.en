@@ -14,7 +14,7 @@
 -   [Non-UUID to UUID content migration](migrate-uuid-non-uuid.md)
 -   [User administration and security](user-admin-sec.md)
 -   [Use custom DITA-OT and DITA specialization](dita-ot-specialization.md)
--   [Configure document states](customize_doc_state.md)
+-   [Configure document states](customize-doc-state.md)
 -   [Migrate existing content](migrate-content.md)
     -   [Upload existing DITA content](migrate-content-upload-existing-dita-content.md)
     -   [Migrate non-DITA content](migrate-content-non-dita.md)

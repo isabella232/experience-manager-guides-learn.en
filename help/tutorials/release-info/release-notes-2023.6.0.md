@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, June 2023 release
 description: Learn about the bug fixes and how to upgrade to  June 2023 release of Adobe Experience Manager Guides as a Cloud Service
+exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
 ---
 # June 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -146,6 +147,7 @@ The bugs fixed in various areas are listed below:
 - Native PDF | Unable to save the PDF template settings. (10751)
 - Native PDF | The text extends beyond the column width on including multiple xrefs. (10876)
 - Native PDF | `<note>``</note>` element does not generate extra span title of its type. (10549)
+- Native PDF | The language metadata cannot be set in the generated PDF to comply with WCAG 2.0. (12407)
 
 
 
