@@ -141,7 +141,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Work with Baseline](./user-guide/generate-output-use-baseline-for-publishing.md)
     + [Generate output for a DITA map from the map console](./user-guide/generate-output-for-a-dita-map.md)
     + [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
-    + Use native PDF publising feature {#web-editor}
+    + Use native PDF publishing feature {#web-editor}
       + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
       + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
     + [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
@@ -152,7 +152,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
       + [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
       + [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
-  + Output generatation of FrameMaker Documents {#generate-fm-output}
+  + Output generation of FrameMaker Documents {#generate-fm-output}
     + [Generate output of FrameMaker documents](./user-guide/fm-output-generatation.md)
     + Supported presets {#fm-docs-generating-presets}
       + [Presets for generating FrameMaker documents](./user-guide/fm-output-understand-presets.md)
@@ -248,7 +248,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Appendix](./install-guide/appendix.md)
   + Cloud Services {#cs-ig}
     + [About this guide](./cs-install-guide/introduction.md)
-    + Deploy and configure AEM Guides as Clous Service {#deploy-conf-aemg-cs}
+    + Deploy and configure AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
       +   [Download and install](./cs-install-guide/download-install.md)
       +   [Deploy AEM Guides module](./cs-install-guide/download-install-dxml-first-time.md)
       +   [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
@@ -312,10 +312,10 @@ breadcrumb-title: AEM Guides Tutorials
     + [Learning native PDF publishing - part 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
-      + Webeditor {#webeditor}
+      + Web Editor {#webeditor}
         + Customizing {#customizing}
           + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-          + [Add custom styles to webeditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+          + [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
         + Schematron {#schematron}
           + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
     + Publishing {#publishing}
@@ -323,7 +323,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md) 
       + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md)
-      + [Setup a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+      + [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
     + Translation {#translation}
