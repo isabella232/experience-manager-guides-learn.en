@@ -7,6 +7,7 @@ breadcrumb-title: AEM Guides Tutorials
 # Tutorials for [!DNL Adobe Experience Manager Guides] {#tutorials}
 
 + [Tutorials for [!DNL AEM Guides]](overview.md)
++ [Disclaimer](./user-guide/rebranding-disclaimer.md)
 + Release Information {#release-info}
   + [[!DNL AEM Guides] releases](./release-info/latest-release-info.md) 
   + Release Notes {#release-notes}
@@ -50,7 +51,6 @@ breadcrumb-title: AEM Guides Tutorials
       + [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + User Guide {#user-guide}
-  + [Disclaimer](./user-guide/rebranding-disclaimer.md)
   + Introduction {#about-aem-guide}
     + [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     + [!DNL AEM Guides] working and key features {#aemg-works-features}
@@ -170,7 +170,6 @@ breadcrumb-title: AEM Guides Tutorials
     + [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md)
 + Installation and configuration Guide {#install-guide}
   + On-premise {#on-prem-ig}
-    + [Disclaimer](./install-guide/rebranding-disclaimer.md)
     + [About this guide](./install-guide/introduction.md)
     + Download, install, and upgrade {#download-install-upgrade-aemg}
       + [Overview](./install-guide/download-install.md)
@@ -247,6 +246,11 @@ breadcrumb-title: AEM Guides Tutorials
     + Work with AEM Assets search {#aem-asset-search}
       + [Configure search for AEM Assets UI](./install-guide/conf-dita-search.md)
     + [Appendix](./install-guide/appendix.md)
+  + Cloud Services {#cs-ig}
+    [About this guide](./cs-install-guide/introduction.md)
+    + Deploy and configure AEM Guides as Clous Service {#deploy-conf-aemg-cs}
+      + [Deploy AEM Guides module](./cs-install-guide/download-install-dxml-first-time.md)
+      + [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
     + [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md) 
