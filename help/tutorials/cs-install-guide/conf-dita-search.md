@@ -182,7 +182,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`dita.serialization`|Boolean \(true/false\).\n **Default value**: `false`|
+|`com.adobe.fmdita.config.ConfigManager`|`dita.serialization`|Boolean \(true/false\).<br> **Default value**: `false`|
 
 Perform the following steps to run the metadata extraction workflow:
 
@@ -221,7 +221,7 @@ Perform the following steps to exclude the temporary translation folder from the
 
     |Property name|Type|Value|
     |-------------|----|-----|
-    |excludedPaths|String\[\]|Add the following value to this property:\n `/content/dam/projects/translation\_output` |
+    |excludedPaths|String\[\]|Add the following value to this property:<br> `/content/dam/projects/translation\_output` |
 
 1.  Navigate to the lucene node available at the following location:
 
@@ -231,6 +231,6 @@ Perform the following steps to exclude the temporary translation folder from the
 
     |Property name|Type|Value|
     |-------------|----|-----|
-    |excludedPaths|String\[\]|Add the following values to this property:\n `/content/dam/projects/translation\_output`|
+    |excludedPaths|String\[\]|Add the following values to this property:<br> `/content/dam/projects/translation\_output`|
 
 

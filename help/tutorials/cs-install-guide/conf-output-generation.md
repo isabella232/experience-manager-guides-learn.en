@@ -49,8 +49,8 @@ Perform the following steps to configure your existing site's template propertie
 
     |Property name|Type|Value|
     |-------------|----|-----|
-    |`topicContentNode`|String|Specify the node name where you would like to publish the DITA content. For example, the default node where AEM Guides publishes DITA content is: \n `jcr:content/contentnode`|
-    |`topicHeadNode`|String|Specify the node name where you would like to store the metadata information of your DITA content. For example, the default node where AEM Guides stores metadata information is: \n `jcr:content/headnode`|
+    |`topicContentNode`|String|Specify the node name where you would like to publish the DITA content. For example, the default node where AEM Guides publishes DITA content is: <br> `jcr:content/contentnode`|
+    |`topicHeadNode`|String|Specify the node name where you would like to store the metadata information of your DITA content. For example, the default node where AEM Guides stores metadata information is: <br> `jcr:content/headnode`|
 
 
 Next time when you publish any DITA content using your site's template configurations, the content gets published into the nodes specified in the `topicContentNode` and `topicHeadNode` properties.
@@ -101,7 +101,7 @@ Perform the following steps to specify your own design template to use for AEM S
 
     |Property|Description|
     |--------|-----------|
-    |`landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate`|Specify the `cq:Template` node for these corresponding pages \(landing, search, and topic\). By default the `cq:Template` node for these pages can be found in `/libs/fmdita/templates/default/cqtemplates` node. This node defines the structure and properties of the landing, search, and topic pages.\n The `shadowPageTemplate` is used to optimize the chunked content. You need to set the value of this property to: `fmdita/templates/default/cqtemplates/shadowpage` \n **Note:** You must specify a value for the `topicPageTemplate`. The `landingPageTemplate` and `searchPageTemplate` are optional properties. If you do not want the search and landing pages to generate, do not specify these properties.|
+    |`landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate`|Specify the `cq:Template` node for these corresponding pages \(landing, search, and topic\). By default the `cq:Template` node for these pages can be found in `/libs/fmdita/templates/default/cqtemplates` node. This node defines the structure and properties of the landing, search, and topic pages.<br> The `shadowPageTemplate` is used to optimize the chunked content. You need to set the value of this property to: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Note:** You must specify a value for the `topicPageTemplate`. The `landingPageTemplate` and `searchPageTemplate` are optional properties. If you do not want the search and landing pages to generate, do not specify these properties.|
     |`title`|A descriptive name of your design template.|
     |`topicContentNode`|The location of the node that will contain the DITA content in a topic page. Path is relative to the topic page.|
     |`topicHeadNode`|The location of the node that will contain the head values \(or metadata\) derived from the DITA content. Path is relative to topic page.|
@@ -134,7 +134,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`aemsite.pagetitle`|Boolean \(true/false\). In case you want to generate output using the page title, then set this property to true. By default, it is set to use the file name.\n **Default value**: false |
+|`com.adobe.fmdita.config.ConfigManager`|`aemsite.pagetitle`|Boolean \(true/false\). In case you want to generate output using the page title, then set this property to true. By default, it is set to use the file name.<br> **Default value**: false |
 
 ### Configure filename sanitization rules for creating topics and publishing AEM Site output {#id2164D0KD0XA}
 
@@ -158,9 +158,9 @@ You can also configure the other properties such as use lower case in filenames,
 
 |Property Key|Property Value|
 |------------|--------------|
-|`nodename.uselower`|Boolean \(true/false\).\n **Default value**: true |
-|`nodename.separator`|Any character. \n **Default value**: \_ *\(underscore\)*|
-|`nodename.maxlength`|Integer value.\n **Default value**: 50|
+|`nodename.uselower`|Boolean \(true/false\).<br> **Default value**: true |
+|`nodename.separator`|Any character. <br> **Default value**: \_ *\(underscore\)*|
+|`nodename.maxlength`|Integer value.<br> **Default value**: 50|
 
 ### Configure flattening of AEM Site node structure 
 
@@ -203,7 +203,7 @@ To flatten AEM Site node structure, perform the following steps:
 
     |PID|Property Key|Property Value|
     |---|------------|--------------|
-    |`com.adobe.dxml.flattening.FlatteningConfigurationService`|`flattening.enabled`|Boolean \(true/false\).\n **Default value**: `false`|
+    |`com.adobe.dxml.flattening.FlatteningConfigurationService`|`flattening.enabled`|Boolean \(true/false\).<br> **Default value**: `false`|
 
 
 Now, when you generate the AEM Site output, the nodes within the `p` element are flattened and stored within the `p` element itself. You can find the new flattening properties for the `p` element in CRXDE.
@@ -249,7 +249,7 @@ Perform the following steps to stop the creation of a version for the page\(s\) 
 
     |PID|Property Key|Property Value|
     |---|------------|--------------|
-    |`com.adobe.fmdita.confi g.ConfigManager`|`no.version.creation.on.deletion`|Boolean \(true/false\).\n **Default value**: `true` |
+    |`com.adobe.fmdita.confi g.ConfigManager`|`no.version.creation.on.deletion`|Boolean \(true/false\).<br> **Default value**: `true` |
 
     >[!NOTE]
     >
@@ -541,18 +541,18 @@ The following table describes the elements in the DITA element schema:
 |Element|Description|
 |-------|-----------|
 |`<ditaelement>`|The top-level node for each mapping element.|
-|`<class>`|The class attribute of the target DITA element for which you are writing the component.\n For example, the class attribute for the DITA topic is: \n `- topic/topic`|
+|`<class>`|The class attribute of the target DITA element for which you are writing the component.<br> For example, the class attribute for the DITA topic is: <br> `- topic/topic`|
 |`<componentpath>`|The CRXDE path of the mapped AEM component.|
-|`<type>`|Possible values:\n -   **COMPOSITE**: Process child elements as well \n -   **STANDALONE**: Skips processing of child elements|
+|`<type>`|Possible values:<br> -   **COMPOSITE**: Process child elements as well <br> -   **STANDALONE**: Skips processing of child elements|
 |`<attributeprop>`|Used for mapping serialized DITA attributes and values to AEM nodes as property. For example, if you have `<note type="Caution">` element and the component that is mapped for this element has `<attributeprop>attr_t</ attributeprop>`, then the node's attribute and value is serialized to `attr_t` property of the corresponding AEM node \( `attr_t->type="caution"`\).|
-|`<textprop>propname_t</textprop>`|Save the `getTextContent()` output to property defined by `propname_t.` \n **Note:** This is an optimized property.|
-|`<xmlprop>propname_x </xmlprop>`|Save serialized XML of this node to property defined by `propname_x.\n `**Note:** This is an optimized property.|
+|`<textprop>propname_t</textprop>`|Save the `getTextContent()` output to property defined by `propname_t.` <br> **Note:** This is an optimized property.|
+|`<xmlprop>propname_x </xmlprop>`|Save serialized XML of this node to property defined by `propname_x.<br> `**Note:** This is an optimized property.|
 |`<xpath>`|If XPath element is provided in the element mapping, then along with element name and class the XPath condition should also be satisfied for the component mapping to be used.|
-|`<target>`|Place for the DITA element in the crx repository at specified location.\n Possible values: \n - **head**: Under the head node \n - **text**: Under the paragraph node|
+|`<target>`|Place for the DITA element in the crx repository at specified location.<br> Possible values: <br> - **head**: Under the head node <br> - **text**: Under the paragraph node|
 |`<wrapelement>`|The HTML element to wrap the contents within.|
 |`<wrapclass>`|The element value to the property `wrapclass.`|
 |`<attributemap>`|Container node containing one or more `<attribute>` nodes.|
-|`<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />`|Maps the DITA attributes to AEM properties: \n -   **`from`**: DITA attribute name \n -   **`to`**: AEM component property name \n -   **`ispath`**: If the attribute is a path value \(for example: *image*\) \n -   **`rel`**: If the path is the source or target \n **Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'. |
+|`<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />`|Maps the DITA attributes to AEM properties: <br> -   **`from`**: DITA attribute name <br> -   **`to`**: AEM component property name <br> -   **`ispath`**: If the attribute is a path value \(for example: *image*\) <br> -   **`rel`**: If the path is the source or target <br> **Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'. |
 
 **Additional notes**
 
@@ -635,8 +635,8 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`output.history.purgeperiod`|Specify the number of days after which the output history along with output logs are purged. If you want to disable this feature, then set this property to 0.Everyday at the specified time the purging process is executed on outputs generated before the number of days specified in this property. \n **Default value**: 5|
-|`output.history.purgetime`|Specify the time when the purging process is initiated. \n **Default value**: 0:00 \(or 12:00 midnight\)|
+|`com.adobe.fmdita.config.ConfigManager`|`output.history.purgeperiod`|Specify the number of days after which the output history along with output logs are purged. If you want to disable this feature, then set this property to 0.Everyday at the specified time the purging process is executed on outputs generated before the number of days specified in this property. <br> **Default value**: 5|
+|`output.history.purgetime`|Specify the time when the purging process is initiated. <br> **Default value**: 0:00 \(or 12:00 midnight\)|
 
 ## Change the recently generated outputs list limit {#id1679JH0H0O2}
 
@@ -646,7 +646,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`output.historylimit`|Integer value.\n **Default value**: 25|
+|`com.adobe.fmdita.config.ConfigManager`|`output.historylimit`|Integer value.<br> **Default value**: 25|
 
 >[!TIP]
 >

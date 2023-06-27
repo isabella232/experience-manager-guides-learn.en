@@ -25,7 +25,7 @@ To enable the **Create new version for uploaded file** option, perform the follo
 
     |PID|Property Key|Property Value|
     |---|------------|--------------|
-    |`com.adobe.fmdita.confi g.ConfigManager`|`create.ver.new.content`|Boolean \(true/false\).\n **Default value**: `true` |
+    |`com.adobe.fmdita.confi g.ConfigManager`|`create.ver.new.content`|Boolean \(true/false\).<br> **Default value**: `true` |
 
 >[!NOTE]
 >
@@ -41,13 +41,13 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.autocheckout`|Boolean \(true/false\).\n **Default value**: `false`|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.autocheckout`|Boolean \(true/false\).<br> **Default value**: `false`|
 
 In addition, you can also configure to show a warning message whenever a checked out file is closed without saving or checking it back into the repository.
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.checkin`|Boolean \(true/false\).\n **Default value**: `false`|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.checkin`|Boolean \(true/false\).<br> **Default value**: `false`|
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ To allow users to overwrite the file on upload that has been checked out by them
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.confi g.ConfigManager`|`overwrite.checkout.onupload`|Boolean \(true/false\).\n **Default value**: `false` |
+|`com.adobe.fmdita.confi g.ConfigManager`|`overwrite.checkout.onupload`|Boolean \(true/false\).<br> **Default value**: `false` |
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.preventcheckedoutcontentdeletion`|Boolean \(true/false\). \n **Default value**: `true`|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.preventcheckedoutcontentdeletion`|Boolean \(true/false\). <br> **Default value**: `true`|
 
 ## Prevent deletion of referenced files 
 
@@ -96,7 +96,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`block.unsafe.delete`|Possible values are: \n -  allow\_unsafe\_delete\_for\_all \n -   allow\_unsafe\_delete\_for\_delete\_assets\_group \n -  block\_unsafe\_delete\_for\_all \n **Default value**: `allow_unsafe_delete_for_delete_assets_group` \n The details of these constants is given below.|
+|`com.adobe.fmdita.config.ConfigManager`|`block.unsafe.delete`|Possible values are: <br> -  allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> -  block\_unsafe\_delete\_for\_all <br> **Default value**: `allow_unsafe_delete_for_delete_assets_group` <br> The details of these constants is given below.|
 
 Depending on who you want to give access for deletion, specify one of the following constants:
 
