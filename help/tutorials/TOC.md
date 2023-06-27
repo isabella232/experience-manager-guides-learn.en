@@ -141,7 +141,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Work with Baseline](./user-guide/generate-output-use-baseline-for-publishing.md)
     + [Generate output for a DITA map from the map console](./user-guide/generate-output-for-a-dita-map.md)
     + [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
-    + Use native PDF publising feature {#web-editor}
+    + Use native PDF publishing feature {#web-editor}
       + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
       + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
     + [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
@@ -152,7 +152,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
       + [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
       + [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
-  + Output generatation of FrameMaker Documents {#generate-fm-output}
+  + Output generation of FrameMaker Documents {#generate-fm-output}
     + [Generate output of FrameMaker documents](./user-guide/fm-output-generatation.md)
     + Supported presets {#fm-docs-generating-presets}
       + [Presets for generating FrameMaker documents](./user-guide/fm-output-understand-presets.md)
@@ -248,7 +248,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Appendix](./install-guide/appendix.md)
   + Cloud Services {#cs-ig}
     + [About this guide](./cs-install-guide/introduction.md)
-    + Deploy and configure AEM Guides as Clous Service {#deploy-conf-aemg-cs}
+    + Deploy and configure AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
       +   [Download and install](./cs-install-guide/download-install.md)
       +   [Deploy AEM Guides module](./cs-install-guide/download-install-dxml-first-time.md)
       +   [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
@@ -256,23 +256,26 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Upgrade AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
       +   [Configuration overrides](./cs-install-guide/download-install-additional-config-override.md)
       +   [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
-    +   [User administration and security](./cs-install-guide/user-admin-sec.md)
-    +   [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md)
-    +   [Configure document states](./cs-install-guide/customize-doc-state.md)
-    + Migrate content {#migrate-con-cs}
+    + Work with user groups and security {#user-group-sec-cs}
+      +   [User administration and security](./cs-install-guide/user-admin-sec.md)
+    + Content migrate {#migrate-con-cs}
       +   [Migrate existing content](./cs-install-guide/migrate-content.md)
       +   [Upload existing DITA content](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
       +   [Migrate non-DITA content](./cs-install-guide/migrate-content-non-dita.md)
-    + Configure filenames and Regx for valid filenames {#config-filename-cs}
+    + Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs}
+      +   [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md) 
+    + Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs}
       +   [Configure filenames](./cs-install-guide/conf-file-names.md)
       +   [Configure auto-filenames based on UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
       +   [Configure Regx for valid file name characters](./cs-install-guide/conf-file-names-valid-regx.md)
       +   [Configure valid file names for AEM Site output](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-    + Configure topic and map templates {#config-topic-map-temp-cs}
+    + Work with topic and map templates {#topic-map-template-cs}
       +   [Configure topic and map templates](./cs-install-guide/conf-template-tags.md)
       +   [Configure custom DITA topic template](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
       +   [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-    + Customize and configure Web Editor {#cus-conf-web-editor-cs}
+    + Work with document states {#doc-state-cs}
+       +   [Configure document states](./cs-install-guide/customize-doc-state.md)
+    + Work with the Web Editor configurations {#web-editor-configs-cs}
       + [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       + [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
       + [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
@@ -293,12 +296,18 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configure a data source connector](./cs-install-guide/conf-data-source-connector.md)
       + [Set the Advanced Map Editor as default](./cs-install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./cs-install-guide/auto-add-navtitle.md)
-    +   [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level.md)
-    +   [Version management](./cs-install-guide/version-management.md)
-    +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-    +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
-    +   [Translate content](./cs-install-guide/translation.md)
-    +   [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
+    + Work with global and folder-level profiles {#global-folder-profiles-cs}
+      +   [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level.md)
+    + Configure versions {#version-mgt-cs}
+      +   [Version management](./cs-install-guide/version-management.md)
+    + Work with output generation settings {#output-gen-config-cs} 
+      +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+    + Work with custom workflows {#custom-workflow-cs}
+      +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
+    + Work with translation configurations {#translate-config-cs}
+      +   [Translate content](./cs-install-guide/translation.md)
+    + Work with AEM Assets search {#aem-asset-search-cs}
+      +   [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
     +   [Appendix](./cs-install-guide/appendix.md)
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
@@ -312,10 +321,10 @@ breadcrumb-title: AEM Guides Tutorials
     + [Learning native PDF publishing - part 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
-      + Webeditor {#webeditor}
+      + Web Editor {#webeditor}
         + Customizing {#customizing}
           + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-          + [Add custom styles to webeditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+          + [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
         + Schematron {#schematron}
           + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
     + Publishing {#publishing}
@@ -323,7 +332,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md) 
       + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md)
-      + [Setup a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+      + [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
     + Translation {#translation}

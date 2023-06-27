@@ -13,7 +13,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.classes`|Specify a comma separated list of elements. \n **Default value**: `"topic, section, table, simpletable, fig, image, ul, ol"`|
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.classes`|Specify a comma separated list of elements. <br> **Default value**: `"topic, section, table, simpletable, fig, image, ul, ol"`|
 
 To configure a pattern for auto-generated ID create a configuration file with the following properties:
 

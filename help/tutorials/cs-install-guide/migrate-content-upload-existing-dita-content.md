@@ -15,7 +15,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`uuid.regex`|String specifying the regex for UUID filename pattern. \n If a file doesn't follow the specified pattern, a UUID is added to the file's property and all references to the file are updated with the UUID assigned to the file. \n **Default value**: `"^GUID-(?<id>.*)"` |
+|`com.adobe.fmdita.config.ConfigManager`|`uuid.regex`|String specifying the regex for UUID filename pattern. <br> If a file doesn't follow the specified pattern, a UUID is added to the file's property and all references to the file are updated with the UUID assigned to the file. <br> **Default value**: `"^GUID-(?<id>.*)"` |
 
 ## Use curl commands 
 

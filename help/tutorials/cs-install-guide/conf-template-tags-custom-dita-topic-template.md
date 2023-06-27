@@ -53,7 +53,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`topic.templates`|Specify a location to store custom templates.\n If the specified location exists in DAM, then all default map and topic templates are copied into that folder. If the location does not exist, then the folder is created with all default map and topic templates.|
+|`com.adobe.fmdita.config.ConfigManager`|`topic.templates`|Specify a location to store custom templates.<br> If the specified location exists in DAM, then all default map and topic templates are copied into that folder. If the location does not exist, then the folder is created with all default map and topic templates.|
 
 **Parent topic:**[Configure topic and map templates](conf-template-tags.md)
 

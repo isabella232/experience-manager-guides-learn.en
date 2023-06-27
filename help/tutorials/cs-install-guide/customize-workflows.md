@@ -55,7 +55,7 @@ You can create this script in the `/etc/workflows/scripts` node. The following t
 |`initiator`|String|User ID of the user initiating the review task.|
 |`operation`|String|A static value set as `AEM_REVIEW`.|
 |`orgTopics`|String|Path of the topics being shared for review. Specify multiple topics separated by comma.|
-|`payloadJson`|JSON object|Specify the following values: -   `base`: path of the parent folder containing the topic sent for review. \n -   `asset`: path of the topic sent for review. \n -   `referrer`: leave it blank.|
+|`payloadJson`|JSON object|Specify the following values: -   `base`: path of the parent folder containing the topic sent for review. <br> -   `asset`: path of the topic sent for review. <br> -   `referrer`: leave it blank.|
 |`deadline`|String|Specify the time in `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` format.|
 |`title`|String|Enter a title for the review task.|
 |`description`|String|Enter a description for the review task.|

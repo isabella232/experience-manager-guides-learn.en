@@ -11,7 +11,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.uuid`|Boolean \(true/false\). If you want to show the relative path of the linked content, then set this property to false. \n **Default value**: true |
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.uuid`|Boolean \(true/false\). If you want to show the relative path of the linked content, then set this property to false. <br> **Default value**: true |
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
 

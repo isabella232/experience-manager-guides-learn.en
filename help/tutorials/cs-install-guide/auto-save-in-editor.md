@@ -13,7 +13,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.autosave`|Boolean \(true/false\).\n **Default value**: false |
+|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.autosave`|Boolean \(true/false\).<br> **Default value**: false |
 |`xmleditor.autosaveinterval`|Specify the time interval in seconds to trigger the auto-save feature.|
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
