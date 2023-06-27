@@ -35,7 +35,7 @@ The out-of-the-box templates for the selected data source are displayed in the d
 
     1. The source view shows the data in the DITA source view. 
  ![](images/add-content-snippet-generator.png){width="800" align="left"}
-    1. To save the results of the query, enter the name of the generator and then click **ADD**.   A new content snippet generator is added to the list.
+1. To save the results of the query, enter the name of the generator and then click **ADD**.   A new content snippet generator is added to the list.
 
     >[!NOTE]
     >
