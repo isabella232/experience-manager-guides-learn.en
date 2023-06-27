@@ -11,7 +11,7 @@ For each publishing request AEM Guides as a Cloud Service runs a separate contai
 
 >[!NOTE]
 >
-> Presently the microservice-based publishing in AEM Guides only supports PDF output using Native PDF publishing or through DITA-OT. We will be adding microservice-based publishing support for more output types in the future releases.
+> Microservice based publishing in AEM Guides supports PDF (both Native and DITA-OT based), HTML5 and CUSTOM output preset types.
 
 As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the new cloud based scalable publishing solution.
 
@@ -84,6 +84,18 @@ Once you have added the IMS configuration to the environment, perform the follow
 
 Once this is done, you should be able to use the new microservice-based cloud publishing.
 
+## FAQs
+
+- Can we generate one key and use it on all environment?
+    - Yes, you can generate one private key and use it for all environments. But you have to configure environment variable for all environments (use same key)
+- If we commit the configurations to enable microservice, will the publishing process work on my local with same codebase?
+    - No, if the flag "dxml.use.publish.microservice" is set to "true" then it will always look for microservice configs. On your local if you enable microservice then publishing will not work – you will have to set the flag to false on your local.
+- How much memory is allocated to the DITA process when using microservice base publishing? And will this be driven via DITA profile ant parameters?
+    - With microservice based publishing:
+        - Total memory available on the container is 8 GB, out of which 6 GB is allocated to the DITA-OT process
+        - The memory allocation is not driven through DITA profile ant parameters. 6 GB is pre-allocated (which is not configurable)
+
+
 ## Appendix {#appendix}
 
 **File**: 
@@ -101,7 +113,7 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 **File**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Content**:
-* `dxml.use.publish.microservice`: Switch to enable microservice-based PDF publishing using DITA-OT
+* `dxml.use.publish.microservice`: Switch to enable microservice-based publishing using DITA-OT
 * `dxml.use.publish.microservice.native.pdf`: Switch to enable microservice-based Native PDF publishing
 
 ```
