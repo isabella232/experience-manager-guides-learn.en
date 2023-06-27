@@ -321,6 +321,8 @@ breadcrumb-title: AEM Guides Tutorials
     + [Learning native PDF publishing - part 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
+      + Reports {#reports}
+        + [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
       + Web Editor {#webeditor}
         + Customizing {#customizing}
           + [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
@@ -332,6 +334,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md) 
       + [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md)
+      + [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       + [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
     + Workflows {#workflows}
       + [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
