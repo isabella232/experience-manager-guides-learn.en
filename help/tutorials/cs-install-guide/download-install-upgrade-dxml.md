@@ -1,3 +1,8 @@
+---
+title: Upgrade AEM Guides
+description: Learn how to Upgrade AEM Guides
+---
+
 # Upgrade AEM Guides {#id213BD050YPH}
 
 1.  Access your Cloud Manager's Git repository.

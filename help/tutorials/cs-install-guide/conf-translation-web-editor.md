@@ -1,3 +1,8 @@
+---
+title: Configure Translation feature in the Web Editor
+description: Learn how to Configure Translation feature in the Web Editor
+---
+
 # Configure Translation feature in the Web Editor {#id21BONI0J0YR}
 
 The Web editor provides a powerful translation feature to translate your content into multiple languages.

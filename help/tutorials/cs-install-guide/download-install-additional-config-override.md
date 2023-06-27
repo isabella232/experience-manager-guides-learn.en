@@ -1,8 +1,13 @@
+---
+title: Configuration overrides
+description: Learn how to Configuration overrides
+---
+
 # Configuration overrides {#id216IFC003XA}
 
 For making any configuration updates, the following generic approach should be used:
 
-1.  Access your Cloud Manager’s Git repository.
+1.  Access your Cloud Manager's Git repository.
 
 1.  Create a new JSON file at the following location:
 

@@ -1,3 +1,8 @@
+---
+title: Configure filters for file browse dialog
+description: Learn how to Configure filters for file browse dialog
+---
+
 # Configure filters for file browse dialog {#id20CIL7009GN}
 
 While working in the Web Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference. The default file browse dialog does not offer any file filtering option. You can add your own filters that would allow you to access the required files easily and quickly.
@@ -17,21 +22,21 @@ Perform the following steps to add your custom file filtering options to the fil
 
     ```
     "browseFilters": [
-    					{
-    					"title": "DITA Files",
-    					"property": "jcr:content/metadata/dita_class",
-    					"operation": "exists"
-    					},
-    					{
-    					"title": "Image Files",
-    					"property": "jcr:content/metadata/dc:format",
-    					"value": [
-    					"image/jpeg",
-    					"image/gif",
-    					"image/png"
-    					]
-    					}
-    					]
+                        {
+                        "title": "DITA Files",
+                        "property": "jcr:content/metadata/dita_class",
+                        "operation": "exists"
+                        },
+                        {
+                        "title": "Image Files",
+                        "property": "jcr:content/metadata/dc:format",
+                        "value": [
+                        "image/jpeg",
+                        "image/gif",
+                        "image/png"
+                        ]
+                        }
+                        ]
     ```
 
     In the above code snippet, the first filter is for DITA Files. The filter definition takes the following parameters:

@@ -1,3 +1,8 @@
+---
+title: Configure custom DITA map template
+description: Learn how to Configure custom DITA map template
+---
+
 # Configure custom DITA map template {#id1774F04F05Z}
 
 AEM Guides comes with two out-of-the-box map templates — DITA map and Bookmap. You can create maps based on these templates; or, you can define your own map templates that can then be used to create new maps.

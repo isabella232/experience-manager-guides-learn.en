@@ -1,3 +1,8 @@
+---
+title: User administration and security
+description: Learn how User administration and security work
+---
+
 # User administration and security {#id181AED00G5Z}
 
 To access and configure features in the AEM Guides, you need to create users. These users can then be assigned permissions to access all or specific features in the AEM Guides. Learn how to configure and maintain user authorization and also understand the theory behind how authentication and authorization works in AEM.

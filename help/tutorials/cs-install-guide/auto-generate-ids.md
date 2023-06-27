@@ -1,3 +1,8 @@
+---
+title: Auto-generate element IDs
+description: Learn how to Auto-generate element IDs
+---
+
 # Auto-generate element IDs {#id20CIL40016I}
 
 AEM Guides generates a document ID for any new document that you create. For example, when you create a DITA map, an ID like `map.ditamap_random_digits` is assigned to the map's ID. You can also define elements on which an ID is automatically generated and assigned.

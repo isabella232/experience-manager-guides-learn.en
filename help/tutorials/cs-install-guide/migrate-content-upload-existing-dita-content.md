@@ -1,3 +1,8 @@
+---
+title: Upload existing DITA content
+description: Learn how to Upload existing DITA content
+---
+
 # Upload existing DITA content {#id176FF000JUI}
 
 Most likely you would have a repository of existing DITA content that you would like to use with the AEM Guides. For such existing content, you can use any of the supported methods explained in [Add digital assets to Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).

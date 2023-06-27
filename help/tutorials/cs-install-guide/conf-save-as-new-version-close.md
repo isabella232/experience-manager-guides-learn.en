@@ -1,3 +1,8 @@
+---
+title: Configure prompt to save as a new version on close
+description: Learn how to Configure prompt to save as a new version on close
+---
+
 # Configure prompt to save as a new version on close {#id222HBI00XXA}
 
 When the user tries to close a file that is opened in the Web Editor using the **Close** button on the file's tab or the **Close** option in the Options menu, a dialog appears if the file has unsaved data or an unsaved version. The user is prompted to save the file as a new version if the version is not saved.

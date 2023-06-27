@@ -1,3 +1,8 @@
+---
+title: Configure filenames
+description: Learn how to Configure filenames
+---
+
 # Configure filenames {#id214BD010GXA}
 
 This topic covers information about working with filenames for your DITA files. You can define filename patterns and also control the list of valid characters allowed in the filenames.

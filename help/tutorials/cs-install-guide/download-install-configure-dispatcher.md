@@ -1,3 +1,8 @@
+---
+title: Configure Dispatcher
+description: Learn how to Configure Dispatcher
+---
+
 # Configure Dispatcher {#id213BCM0M05U}
 
 Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For more details, refer to [Dispatcher in the Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).

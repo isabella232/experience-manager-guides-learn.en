@@ -1,3 +1,8 @@
+---
+title: Appendix
+description: Learn how to prepare InDesign documents for migration
+---
+
 # Appendix {#id195AD0L60Y4}
 
 ## Troubleshooting AEM Guides 

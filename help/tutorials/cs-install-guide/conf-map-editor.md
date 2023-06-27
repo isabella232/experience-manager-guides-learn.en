@@ -1,3 +1,8 @@
+---
+title: Set the Advanced Map Editor as default
+description: Learn how to Set the Advanced Map Editor as default
+---
+
 # Set the Advanced Map Editor as default {#id181AI0003PN}
 
 AEM Guides comes with a Basic Map Editor and an Advanced Map Editor. The Basic Map Editor gives you all necessary features to create your map file. The Advanced Map Editor is much more feature rich and it is integrated within the Web Editor. The Advanced Map Editor allows authors to create and edit DITA map files with an easy-to-use interface.

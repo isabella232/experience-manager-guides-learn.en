@@ -1,3 +1,8 @@
+---
+title: Download and install
+description: Learn how to Download and install
+---
+
 # Download and install {#id1645E0O04MK}
 
 The AEM Guides is made available through GitHub repository. You can download the AEM Guides from the GitHub repository and install it.

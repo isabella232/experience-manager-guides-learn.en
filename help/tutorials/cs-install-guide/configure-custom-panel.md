@@ -1,3 +1,8 @@
+---
+title: Configure a custom panel in the left panel
+description: Learn how to Configure a custom panel in the left panel
+---
+
 # Configure a custom panel in the left panel {#id224JI200Y6F}
 
 Perform the following steps to add a custom panel within the left panel of the Web Editor:

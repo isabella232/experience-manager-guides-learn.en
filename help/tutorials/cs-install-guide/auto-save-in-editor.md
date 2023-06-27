@@ -1,3 +1,8 @@
+---
+title: Configure file auto-save in the Web Editor
+description: Learn how to Configure file auto-save in the Web Editor
+---
+
 # Configure file auto-save in the Web Editor {#id199CC0J0M5Z}
 
 One of the most common features in the browser-based editor it the ability to save data after a specific period of time. The AEM Guides Web Editor also supports auto-saving of topic and map files at the specified time interval. When this feature is triggered, the working copy of the topic or map is saved. A new version of the topic or map is not created. To create a new version, you have to click the Save Revision icon in the Web Editor's toolbar.

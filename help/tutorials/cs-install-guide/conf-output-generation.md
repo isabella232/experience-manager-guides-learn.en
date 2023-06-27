@@ -1,3 +1,8 @@
+---
+title: Configure output generation settings
+description: Learn how to Configure output generation settings
+---
+
 # Configure output generation settings {#id181AI0B0E30}
 
 AEM Guides comes with a lot of configuration options for you to customize the output generation process. This topic covers all configurations and customizations that would help you set up your output generation process.

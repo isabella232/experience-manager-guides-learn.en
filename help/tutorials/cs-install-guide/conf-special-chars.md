@@ -1,10 +1,15 @@
+---
+title: Configure allowed special characters
+description: Learn how to Configure allowed special characters
+---
+
 # Configure allowed special characters {#id20CIL600035}
 
 The Web Editor allows you to insert some special characters out-of-the-box. However, you can customize the list of special characters that your authors can insert in their documents. If you customize the special characters list, then it overwrites the default set of special characters. Only those special characters that you add in your configuration are made available to the authors.
 
 Perform the following steps to overwrite the default list of special characters:
 
-1.  Create `symbols.json` file at the following location in your Cloud Manager’s Git repository:
+1.  Create `symbols.json` file at the following location in your Cloud Manager's Git repository:
 
     ```
     /apps/fmdita/xmleditor/
