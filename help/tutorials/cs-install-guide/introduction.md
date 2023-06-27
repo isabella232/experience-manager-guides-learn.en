@@ -28,7 +28,7 @@ The information in this guide is organized as follows:
 
 -   [Use custom DITA-OT and DITA specialization](dita-ot-specialization.md#): This topic explains how to configure custom DITA-OT plug-ins and use DITA specialization.
 
--   [Configure document states](customize_doc_state.md#): This topic explains how to configure custom states for your DITA documents.
+-   [Configure document states](customize-doc-state.md#): This topic explains how to configure custom states for your DITA documents.
 
 -   [Migrate existing content](migrate-content.md#): This topic describes how to on-board your existing content on AEM repository.
 

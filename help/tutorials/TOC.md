@@ -258,7 +258,7 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
     +   [User administration and security](./cs-install-guide/user-admin-sec.md)
     +   [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md)
-    +   [Configure document states](./cs-install-guide/customize_doc_state.md)
+    +   [Configure document states](./cs-install-guide/customize-doc-state.md)
     + Migrate content {#migrate-con-cs}
       +   [Migrate existing content](./cs-install-guide/migrate-content.md)
       +   [Upload existing DITA content](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
