@@ -1,7 +1,7 @@
 ---
 title: Use custom DITA-OT and DITA specialization
 description: Learn how to Use custom DITA-OT and DITA specialization
---- 
+---
 
 # Use custom DITA-OT and DITA specialization {#id181GAJ0005Z}
 
