@@ -121,7 +121,6 @@ The bugs fixed in various areas are listed below:
 - Global Profile UI config does not match with Folder Profile. (11970)
 - Content references are broken when DITA files are copied and pasted. (11959)
 - Not able to edit content fragment in column view with AEM Guides installed. (7342)
-- In the DITA map asset properties, "Title" is overwritten by the `<title>` element of the map. (10702)
 - Content is lost when an unwrapped xref is under a sub element tags. (12532)
 
 ### Publishing
