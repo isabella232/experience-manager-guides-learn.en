@@ -290,6 +290,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Install packages for Article-based publishing](./cs-install-guide/configure-article-based-publishing.md)
       + [Configure single topic PDF generation](./cs-install-guide/conf-pdf-generation-dita-ot.md)
       + [Configure Translation feature in the Web Editor](./cs-install-guide/conf-translation-web-editor.md)
+      + [Configure a data source connector](./cs-install-guide/conf-data-source-connector.md)
       + [Set the Advanced Map Editor as default](./cs-install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./cs-install-guide/auto-add-navtitle.md)
     +   [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level.md)
