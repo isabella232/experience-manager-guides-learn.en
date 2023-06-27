@@ -18,6 +18,8 @@ Upgrade your current AEM Guides as a Cloud Service setup by performing the follo
 
 ## Steps to enable the trigger of a script via a servlet
 
+(Only if you are on a version prior to June 2023 release of AEM Guides as a Cloud Service)
+
 After you complete the installation, you can choose to HIT the trigger to start the translation job:
 
 POST:
@@ -76,7 +78,7 @@ as a Cloud Service, to create the configuration file.
 
 ## Steps to index the existing content to use the new find and replace and topic list under the Reports tab: 
 
-(Only if you are on a version prior to September 2022 release of AEM Guides as a Cloud Service)
+(Only if you are on a version prior to June 2023 release of AEM Guides as a Cloud Service)
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level and topic list under the reports tab:
 
@@ -125,7 +127,6 @@ The bugs fixed in various areas are listed below:
 
 ### Publishing
 
-- Navtitle, topicmeta and topichead not working properly in frontmatter and backmatter (11969)
 - Approval workflow does not work when docstate is changed to "end state" from File properties of the right panel. (11026)
 
 
