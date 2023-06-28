@@ -86,14 +86,14 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 
 ## FAQs
 
-- Can we generate one key and use it on all environment?
-    - Yes, you can generate one private key and use it for all environments. But you have to configure environment variable for all environments (use same key)
-- If we commit the configurations to enable microservice, will the publishing process work on my local with same codebase?
-    - No, if the flag "dxml.use.publish.microservice" is set to "true" then it will always look for microservice configs. On your local if you enable microservice then publishing will not work – you will have to set the flag to false on your local.
-- How much memory is allocated to the DITA process when using microservice base publishing? And will this be driven via DITA profile ant parameters?
-    - With microservice based publishing:
-        - Total memory available on the container is 8 GB, out of which 6 GB is allocated to the DITA-OT process
-        - The memory allocation is not driven through DITA profile ant parameters. 6 GB is pre-allocated (which is not configurable)
+1. Can we generate one key and use it on all environment?
+    * Yes, you can generate one private key and use it for all environments. But you have to configure environment variable for all environments (use same key)
+1. If we commit the configurations to enable microservice, will the publishing process work on my local with same codebase?
+    * No, if the flag "dxml.use.publish.microservice" is set to "true" then it will always look for microservice configs. On your local if you enable microservice then publishing will not work – you will have to set the flag to false on your local.
+1. How much memory is allocated to the DITA process when using microservice base publishing? And will this be driven via DITA profile ant parameters?
+    * With microservice based publishing:
+        * Total memory available on the container is 8 GB, out of which 6 GB is allocated to the DITA-OT process
+        * The memory allocation is not driven through DITA profile ant parameters. 6 GB is pre-allocated (which is not configurable)
 
 
 ## Appendix {#appendix}
