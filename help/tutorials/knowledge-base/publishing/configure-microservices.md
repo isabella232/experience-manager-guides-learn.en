@@ -11,7 +11,7 @@ For each publishing request AEM Guides as a Cloud Service runs a separate contai
 
 >[!NOTE]
 >
-> Microservice based publishing in AEM Guides supports PDF (both Native and DITA-OT based), HTML5, and CUSTOM output preset types.
+> Microservice-based publishing in AEM Guides supports PDF (both Native and DITA-OT based), HTML5, and CUSTOM types of output presets.
 
 As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the new cloud based scalable publishing solution.
 
@@ -86,14 +86,12 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 
 ## FAQs
 
-1. Can we generate one key and use it on all environment?
-    * Yes, you can generate one private key and use it for all environments. But you have to configure environment variable for all environments (use same key)
-1. If we commit the configurations to enable microservice, will the publishing process work on my local with same codebase?
-    * No, if the flag "dxml.use.publish.microservice" is set to "true" then it will always look for microservice configs. On your local if you enable microservice then publishing will not work – you will have to set the flag to false on your local.
-1. How much memory is allocated to the DITA process when using microservice base publishing? And will this be driven via DITA profile ant parameters?
-    * With microservice based publishing:
-        * Total memory available on the container is 8 GB, out of which 6 GB is allocated to the DITA-OT process
-        * The memory allocation is not driven through DITA profile ant parameters. 6 GB is pre-allocated (which is not configurable)
+1. Can we generate one key and use it on all environments?
+    * Yes, you can generate one private key and use it for all environments, but you have to configure environment variables for all environments and use same key.
+1. If we commit the configurations to enable microservice, will the publishing process work on my local with the same codebase?
+    * No, if the flag `dxml.use.publish.microservice` is set to `true` then it will always look for microservice configurations. You will have to set `dxml.use.publish.microservice` to `false` for the publishing to work on your local.
+1. How much memory is allocated to the DITA process when using microservice base publishing? Will this be driven via DITA profile ant parameters?
+    * With microservice-based publishing, memory allocation is not driven through DITA profile ant parameters. Total memory available on the service container is 8 GB, out of which 6 GB is allocated to the DITA-OT process
 
 
 ## Appendix {#appendix}
