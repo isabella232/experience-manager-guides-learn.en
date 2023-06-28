@@ -11,7 +11,7 @@ For each publishing request AEM Guides as a Cloud Service runs a separate contai
 
 >[!NOTE]
 >
-> Microservice based publishing in AEM Guides supports PDF (both Native and DITA-OT based), HTML5 and CUSTOM output preset types.
+> Microservice based publishing in AEM Guides supports PDF (both Native and DITA-OT based), HTML5, and CUSTOM output preset types.
 
 As the new cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the new cloud based scalable publishing solution.
 
