@@ -208,7 +208,7 @@ After you install AEM Guides, you may merge the various configurations applicabl
 
     -   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
     -   Launcher for "*Node Modified*" for **DAM Update Asset workflow -** for condition "`jcr:content/jcr:mimeType!=video`",
-    -   -   the 'Globbing' value should be:
+    -   the 'Globbing' value should be:
 
     ```json
     `/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original`
