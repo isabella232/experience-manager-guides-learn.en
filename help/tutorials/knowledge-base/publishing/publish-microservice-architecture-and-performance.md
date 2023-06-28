@@ -9,7 +9,7 @@ This article share the insights into the architecture and performance numbers of
 
 >[!NOTE]
 >
-> Presently the microservice-based publishing in AEM Guides only supports PDF output using Native PDF publishing or through DITA-OT. AEM Guides will be adding microservice-based publishing support for more output types in the future releases.
+> Microservice-based publishing in AEM Guides supports PDF (both Native and DITA-OT based), HTML5, and CUSTOM output preset types.
 
 ## Issues with existing publishing workflows on cloud
 
