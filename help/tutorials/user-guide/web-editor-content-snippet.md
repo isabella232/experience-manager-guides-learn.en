@@ -10,6 +10,7 @@ AEM Guides provides the feature to connect with your data source. You can fetch 
 Perform the following steps to create a content snippet using the content snippet generator and insert it in your topic:
 
 1. Select **Data Sources** ![](images/data-source-icon.svg)   in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. For more details, view [Configure a data source connector](../cs-install-guide/conf-data-source-connector.md). 
+
     >[!NOTE]
     >
     > You will see the data sources for which your administrator has configured the connector. 
@@ -22,10 +23,12 @@ Perform the following steps to create a content snippet using the content snippe
 1. Select the template which maps with your data source from the **Data mapping template** dropdown.
 The out-of-the-box templates for the selected data source are displayed in the drop-down. For example, you can view the “sql-table” template for datasource named “PostgreSQL” datasource.
 
-    >[!NOTE] 
-    >  
-    > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
+     >[!NOTE] 
+     >  
+     > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
+
 1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. 
+
 1. You can view the data in the preview or the DITA source view. 
 
    1. The preview shows how the data will be displayed when inserted into the content. The preview displays a small fraction of the data in the format of the selected template. 
