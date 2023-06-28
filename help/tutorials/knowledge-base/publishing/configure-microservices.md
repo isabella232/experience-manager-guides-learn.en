@@ -86,11 +86,11 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 
 ## FAQs
 
-1. Can we generate one key and use it on all environments?
+1. Can a single key be used on multiple cloud environments?
     * Yes, you can generate one private key and use it for all environments, but you have to configure environment variables for all environments and use same key.
 1. If we commit the configurations to enable microservice, will the publishing process work on my local with the same codebase?
-    * No, if the flag `dxml.use.publish.microservice` is set to `true` then it will always look for microservice configurations. You will have to set `dxml.use.publish.microservice` to `false` for the publishing to work on your local.
-1. How much memory is allocated to the DITA process when using microservice base publishing? Will this be driven via DITA profile ant parameters?
+    * No, if the flag `dxml.use.publish.microservice` is set to `true` then it always look for microservice configurations. You have to set `dxml.use.publish.microservice` to `false` for the publishing to work on your local.
+1. How much memory is allocated to the DITA process when using microservice base publishing? Is this driven via DITA profile ant parameters?
     * With microservice-based publishing, memory allocation is not driven through DITA profile ant parameters. Total memory available on the service container is 8 GB, out of which 6 GB is allocated to the DITA-OT process
 
 
