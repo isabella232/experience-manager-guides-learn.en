@@ -211,7 +211,7 @@ After you install AEM Guides, you may merge the various configurations applicabl
     -   -   the 'Globbing' value should be:
 
     ```json
-    `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+    `/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original`
     ```
 
     -   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
