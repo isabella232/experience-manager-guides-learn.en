@@ -258,9 +258,9 @@ and set the following properties in the node:
         <properties jcr:primaryType="nt:unstructured">
           <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
         </properties>
-      </dam:Asset>
-    </indexRules>
-  </damAssetLucene>    
+        </dam:Asset>
+      </indexRules>
+    </damAssetLucene>    
     ```
 
 
