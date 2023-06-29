@@ -234,6 +234,43 @@ Perform the following steps for indexing the existing content and use the new fi
 
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
+If you are facing an issue, you can try the following workaround:
+
+1. In the damAssetLucene  oak index, add the boolean property `indexNodeName` as `true` in the node.
+`/oak:index/damAssetLucene/indexRules/dam:Asset`
+1. Add a new node with the name excerpt under the node.
+
+    `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
+and set the following properties in the node:
+
+    ```
+    name - rep:excerpt
+    propertyIndex - {Boolean}true
+    notNullCheckEnabled - {Boolean}true
+    ```
+
+    The structure of `damAssetLucene` should look something like:
+
+    ```
+    <damAssetLucene compatVersion="{Long}2" async="async, nrt" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+    <indexRules jcr:primaryType="nt:unstructured">
+      <dam:Asset indexNodeName="{Boolean}true" jcr:primaryType="nt:unstructured">
+        <properties jcr:primaryType="nt:unstructured">
+          <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+        </properties>
+      </dam:Asset>
+    </indexRules>
+  </damAssetLucene>    
+    ```
+
+
+(along with other existing nodes and properties)
+
+1. Reindex the `damAssetLucene` index (by setting the reindex flag as `true` under
+and wait for it to be `false` again (this indicates the reindexing is complete). Note that it may take a few hours depending on size of the index.
+1. Run the indexing script again by performing the previous steps.
+
+
 ## Upgrade to version 4.2.1 {#upgrade-version-4-2-1}
 
 Upgrading to version 4.2.1 depends on the current version of AEM Guides.
