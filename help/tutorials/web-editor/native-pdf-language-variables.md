@@ -131,7 +131,7 @@ Besides the value you assign to a language variable, you can also use HTML tags 
 
 Similarly, you can add language variables and format other fields listed in the Insert Fields feature of the page layouts. For more details on adding fields, view [Add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata). 
 
--	You can also add localized images in the values. For example, you can add an image icon in the chapter-number language and get localized images of the icon in the PDF output. 
+- You can also add localized images in the values. For example, you can add an image icon in the chapter-number language and get localized images of the icon in the PDF output. 
 
     For English, the variable value for an image can be like `<img src="banner-en.jpg">`, and for the same variable in German, it can be `<img src="banner-de.jpg">`. So, it picks up the images depending on the language.
 
