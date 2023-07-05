@@ -53,15 +53,22 @@ You can also create new language variables. For example, you can create a user v
 
 ### Add a new language variable 
 
-1.	In the Web Editor, go to the Output tab.
-1.	Select **Language Variables** <img src="./assets/language-variables.svg" width="25"> in the left panel.
-1.	Select **Edit** to open the **Language Variables** window. The application and the user variables present in the selected language are listed in alphabetical order. The values are displayed according to the selected language. For example, if you select the French language, “Tip” is displayed as “Conseil.” 
-1.	From the **Language** dropdown, select the desired language in which you want to edit a variable.
-Note: If you do not view the desired languages, enable the desired language from the **Language Variable Settings**. Select Settings <img src="./assets/settings-icon.svg" width="25">  to open the **Language Variables Settings** dialog.
-1.	Enter the variable name in the **Name** column and its value in the **Value** column.
-Note: You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the Publisher in bold.
+1. In the Web Editor, go to the Output tab.
+1. Select **Language Variables** <img src="./assets/language-variables.svg" width="25"> in the left panel.
+1. Select **Edit** to open the **Language Variables** window. The application and the user variables present in the selected language are listed in alphabetical order. The values are displayed according to the selected language. For example, if you select the French language, “Tip” is displayed as “Conseil.” 
+1. From the **Language** dropdown, select the desired language in which you want to edit a variable.
 
-1.	Select **Add Language Variable** <img src="./assets/add-language-variable.svg" width="25"> to add a new language variable to the selected language. Adding a variable to one language automatically adds it to all languages. You cannot create a variable with the same name as an existing variable. An error is displayed. 
+   > [!NOTE]
+   >
+   > If you do not view the desired languages, enable the desired language from the **Language Variable Settings**. Select Settings <img src="./assets/settings-icon.svg" width="25">  to open the **Language Variables Settings** dialog.
+
+1. Enter the variable name in the **Name** column and its value in the **Value** column.
+
+   > [!NOTE]
+   >
+   > You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the Publisher in bold.
+
+1. Select **Add Language Variable** <img src="./assets/add-language-variable.svg" width="25"> to add a new language variable to the selected language. Adding a variable to one language automatically adds it to all languages. You cannot create a variable with the same name as an existing variable. An error is displayed. 
 
   >[!NOTE]
   >
@@ -89,14 +96,16 @@ The following screenshot shows the author and the brand name localized in the PD
  
 
 To insert a language variable like your `copyright-label` in the header area, perform the following steps:
-1.	Open the required page layout for editing.
+
+1. Open the required page layout for editing.
 
 >[!NOTE]
 >
 > View [Customize a page layout](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) section for opening a page layout for customization or editing.:
-1.	Select the header to make it active to insert a variable.
-1.	Select **Insert Variable**  <img src="./assets/insert-language-variable.svg" width="25"> in the toolbar. 
-1.	In the **Insert Variable** pop-up, select the name of the language variable to be inserted and click **Insert** to insert it in the header area.
+
+1. Select the header to make it active to insert a variable.
+1. Select **Insert Variable**  <img src="./assets/insert-language-variable.svg" width="25"> in the toolbar. 
+1. In the **Insert Variable** pop-up, select the name of the language variable to be inserted and click **Insert** to insert it in the header area.
 
 >[!NOTE]
 >
