@@ -143,7 +143,6 @@ breadcrumb-title: AEM Guides Tutorials
     + [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
     + Use native PDF publishing feature {#web-editor}
       + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
-      + [ Support for language variables](./web-editor/native-pdf-language-variables.md)
       + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
     + [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     + [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
@@ -233,6 +232,7 @@ breadcrumb-title: AEM Guides Tutorials
         + [PDF Template](./native-pdf/pdf-template.md)
         + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         + [Design a page layout](./native-pdf/design-page-layout.md)
+        + [ Support for language variables](./native-pdf/native-pdf-language-variables.md)
         + Common content styles {#content-styles}
             + [Work with the common content styles](./native-pdf/stylesheet.md)
             + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
