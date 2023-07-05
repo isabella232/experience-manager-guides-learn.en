@@ -7,11 +7,11 @@ exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
 
 This article covers the new and enhanced features in version June 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.6.0.md) article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.6.0.md).
 
 ## Broken Links report in the Web Editor
 
-AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in June 2023 release AEM Guides provides you the feature to view and fix broken links. This is a very useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
+AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in June 2023 release AEM Guides provides you the feature to view and fix broken links. This is a  useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
  ![](assets/broken-link-report.png){width="800" align="left"}
 
 Once you fix a link, it is not displayed under the list of broken links.  
@@ -20,7 +20,7 @@ For more details, see [View and fix broken links](../user-guide/reports-web-edit
 
 ## Rename and Move files within the Repository view
  
-Now you can also rename or move a file from the repository panel. This feature is very handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
+Now you can also rename or move a file from the repository panel. This feature is handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
