@@ -58,15 +58,15 @@ You can also create new language variables. For example, you can create a user v
 1. Select **Edit** to open the **Language Variables** window. The application and the user variables present in the selected language are listed in alphabetical order. The values are displayed according to the selected language. For example, if you select the French language, “Tip” is displayed as “Conseil.” 
 1. From the **Language** dropdown, select the desired language in which you want to edit a variable.
 
-   > [!NOTE]
+   >[!NOTE]
    >
    > If you do not view the desired languages, enable the desired language from the **Language Variable Settings**. Select Settings <img src="./assets/settings-icon.svg" width="25">  to open the **Language Variables Settings** dialog.
 
 1. Enter the variable name in the **Name** column and its value in the **Value** column.
 
-   > [!NOTE]
+   >[!NOTE]
    >
-   > You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the Publisher in bold.
+   >You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the Publisher in bold.
 
 1. Select **Add Language Variable** <img src="./assets/add-language-variable.svg" width="25"> to add a new language variable to the selected language. Adding a variable to one language automatically adds it to all languages. You cannot create a variable with the same name as an existing variable. An error is displayed. 
 
@@ -79,7 +79,8 @@ You can also create new language variables. For example, you can create a user v
 Hover over the variable to view the **Options** menu for it.
  
 <img width="550" src="./assets/language-variable-user-options.png"> 
-You can preview both application and user variables. To view how the variable’s value is displayed in the output, select **Preview** from the **Options** menu of the selected variable. 
+
+You can preview both application and user variables. To view how the variable's value is displayed in the output, select **Preview** from the **Options** menu of the selected variable. 
 You can also choose to **Delete** or **Duplicate** the user variables. Deleting a variable from one language automatically deletes it from all languages.
 
 ### Edit or revert the application variables
@@ -110,7 +111,9 @@ To insert a language variable like your `copyright-label` in the header area, pe
 >[!NOTE]
 >
 > You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list. 
-The selected language variable is inserted in the header area. The following screenshot shows the value for the `copyright-label` added in the header area.
+> The selected language variable is inserted in the header area. 
+
+The following screenshot shows the value for the `copyright-label` added in the header area.
 
 <img src="./assets/language-variable-header.png" width="550">
  
