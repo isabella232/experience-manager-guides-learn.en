@@ -1,7 +1,6 @@
 ---
 title: Native PDF | Support for language variables
 description: Use language variables in the PDF output and output templates
-
 ---
 
 # Support for language variables
