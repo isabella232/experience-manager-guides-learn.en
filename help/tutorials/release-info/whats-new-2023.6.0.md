@@ -34,29 +34,26 @@ Now you can add a watermark to the PDF output of the document which is yet not a
 
 For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Support for Language variables in DITA elements 
+### Support for language variables
 
-AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution. 
-For example, you can have the following ways to present your NOTE in the PDF output:
+AEM Guides provides support for language variables. You can use language variables to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output.
+You can add the language variables or the localized version of the labels to the appropriate sections in your PDF output and in the output templates.
+ 
+#### Language variables in the PDF output 
 
-German: Notiz
+You can use the language variables to define localized labels for elements like Note, Caution, and Warning. You can update the value for these variables in one or more languages, and then the localized value is automatically picked in the PDF output. 
+For example, you can present the label Note in your PDF output in the following ways:
+ 
+- English: Note
+- French: Remarque
+- German: Hinweis 
+ 
+#### Language variables in the output templates
 
-Spanish: Nota 
+If you wanted to create the PDF output in various languages, you had to create different PDF templates containing localized text for each language. Now with the language variables feature, you only need to create the template once. Then for any static text you need to localize, you can create corresponding language variables and use them in your template.
+You can create language variables for longer text, such as a whole sentence or even a paragraph. You can also apply styles and use HTML markup to format these language variables.
 
-
-### Support for language variables in your page footer
-
-You can add a language variable to a running header or footer on the master page of a document. The variable displays across all body pages of the document that have this master page applied. For example, 1 of 1 page.
-You can also use it to present the numbers in various languages.
-
-### Localized prefixes for your TOC
-
-You also have the feature to display localized terms to be used to present the prefixes in your headings.
-For example, you can have the following ways to present your 'Chapter' prefix in the PDF output:
-
-German: Kapitel
-
-Spanish: Capítulo
+For more details, view [Support for language variables](../web-editor/native-pdf-language-variables.md).
 
 ### Ability to use AEM metadata in PDF layouts
 

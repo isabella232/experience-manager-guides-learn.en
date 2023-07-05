@@ -143,6 +143,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
     + Use native PDF publishing feature {#web-editor}
       + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
+      + [ Support for language variables](./web-editor/native-pdf-language-variables.md)
       + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
     + [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     + [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
