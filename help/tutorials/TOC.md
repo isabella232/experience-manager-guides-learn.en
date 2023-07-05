@@ -232,7 +232,7 @@ breadcrumb-title: AEM Guides Tutorials
         + [PDF Template](./native-pdf/pdf-template.md)
         + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         + [Design a page layout](./native-pdf/design-page-layout.md)
-        + [ Support for language variables](./native-pdf/native-pdf-language-variables.md)
+        + [Support for language variables](./native-pdf/native-pdf-language-variables.md)
         + Common content styles {#content-styles}
             + [Work with the common content styles](./native-pdf/stylesheet.md)
             + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
