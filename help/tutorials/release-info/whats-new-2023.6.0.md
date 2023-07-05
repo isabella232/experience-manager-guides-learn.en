@@ -44,9 +44,9 @@ You can add the language variables or the localized version of the labels to the
 You can use the language variables to define localized labels for elements like Note, Caution, and Warning. You can update the value for these variables in one or more languages, and then the localized value is automatically picked in the PDF output. 
 For example, you can present the label Note in your PDF output in the following ways:
  
-- English: Note
-- French: Remarque
-- German: Hinweis 
+* English: Note
+* French: Remarque
+* German: Hinweis 
  
 #### Language variables in the output templates
 
