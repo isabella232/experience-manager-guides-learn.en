@@ -230,11 +230,17 @@ Perform the following steps for indexing the existing content and use the new fi
 
 -   Run a POST request to the server \(with correct authentication\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed \|\| For example : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
--   The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+-   The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point -
+
+ `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
-If you are facing an issue, you can try the following workaround:
+If the upgrade job fails and the error log shows the following error:
+
+  "The *query* read or traversed more than *100000 nodes*. To avoid affecting other tasks, processing was stopped."
+
+This could happen because the index is not properly set up for the query used in the upgrade. You can try the following workaround:
 
 1. In the damAssetLucene  oak index, add the boolean property `indexNodeName` as `true` in the node.
 `/oak:index/damAssetLucene/indexRules/dam:Asset`
@@ -264,7 +270,7 @@ and set the following properties in the node:
     ```
 
 
-(along with other existing nodes and properties)
+    (along with other existing nodes and properties)
 
 1. Reindex the `damAssetLucene` index (by setting the reindex flag as `true` under
 and wait for it to be `false` again (this indicates the reindexing is complete). Note that it may take a few hours depending on size of the index.
