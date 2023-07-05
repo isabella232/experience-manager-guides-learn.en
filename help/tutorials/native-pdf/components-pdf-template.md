@@ -133,7 +133,7 @@ To customize a style, follow the below steps:
 
 1. To customize a style, double-click a style or click the > icon before a style to view and customize it using the Styles editor.
 
-for details about working with the most common styles, see [Work with the common content styles](stylesheet.md)
+For details about working with the most common styles, see [Work with the common content styles](stylesheet.md).
 
 ## Work with resources {#work-with-resources}
 
