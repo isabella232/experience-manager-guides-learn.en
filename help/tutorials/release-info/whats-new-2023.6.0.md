@@ -53,7 +53,7 @@ For example, you can present the label Note in your PDF output in the following 
 If you wanted to create the PDF output in various languages, you had to create different PDF templates containing localized text for each language. Now with the language variables feature, you only need to create the template once. Then for any static text you need to localize, you can create corresponding language variables and use them in your template.
 You can create language variables for longer text, such as a whole sentence or even a paragraph. You can also apply styles and use HTML markup to format these language variables.
 
-For more details, view [Support for language variables](../web-editor/native-pdf-language-variables.md).
+For more details, view [Support for language variables](../native-pdf/native-pdf-language-variables.md).
 
 ### Ability to use AEM metadata in PDF layouts
 
