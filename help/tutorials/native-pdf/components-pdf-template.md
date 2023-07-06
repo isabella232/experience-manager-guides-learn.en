@@ -30,16 +30,19 @@ Contents (TOC), index, blank page, Front Matter Pages, Back Matter Pages, List o
 1. To create a new page layout, do one of the following:
 
    * Hover over **Page Layouts** and click the (*Options* icon) **...** and choose **New Page Layout**.
+
    * In the **Templates** panel, click the **+** icon next to **Templates** and choose **Page Layout** from the context menu.
+
       
       This opens the Add Layout dialog.
       
       <img src="assets/add-layout-2.png" alt="Add Layout dialog" width="250">
+      
 1. Specify a name for the new page layout.
     >[!NOTE]
     >
     >Avoid using any special characters when naming a page layout. A space in the name is replaced with an underscore "_".
-    
+
 1. Click **Done**.
    
    The new layout is created and added under Page Layouts.
