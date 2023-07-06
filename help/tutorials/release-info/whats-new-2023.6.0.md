@@ -7,11 +7,11 @@ exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
 
 This article covers the new and enhanced features in version June 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.6.0.md) article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.6.0.md).
 
 ## Broken Links report in the Web Editor
 
-AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in June 2023 release AEM Guides provides you the feature to view and fix broken links. This is a very useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
+AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in June 2023 release AEM Guides provides you the feature to view and fix broken links. This is a  useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
  ![](assets/broken-link-report.png){width="800" align="left"}
 
 Once you fix a link, it is not displayed under the list of broken links.  
@@ -20,7 +20,7 @@ For more details, see [View and fix broken links](../user-guide/reports-web-edit
 
 ## Rename and Move files within the Repository view
  
-Now you can also rename or move a file from the repository panel. This feature is very handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
+Now you can also rename or move a file from the repository panel. This feature is handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
@@ -34,29 +34,26 @@ Now you can add a watermark to the PDF output of the document which is yet not a
 
 For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Support for Language variables in DITA elements 
+### Support for language variables
 
-AEM Guides provides support for the language variables. These variables are very useful to generate localized strings for elements like note, tip, warning, caution. 
-For example, you can have the following ways to present your NOTE in the PDF output:
+AEM Guides provides support for language variables. You can use language variables to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output.
+You can add the language variables or the localized version of the labels to the appropriate sections in your PDF output and in the output templates.
+ 
+#### Language variables in the PDF output 
 
-German: Notiz
+You can use the language variables to define localized labels for elements like Note, Caution, and Warning. You can update the value for these variables in one or more languages, and then the localized value is automatically picked in the PDF output. 
+For example, you can present the label Note in your PDF output in the following ways:
+ 
+* English: Note
+* French: Remarque
+* German: Hinweis 
+ 
+#### Language variables in the output templates
 
-Spanish: Nota 
+If you wanted to create the PDF output in various languages, you had to create different PDF templates containing localized text for each language. Now with the language variables feature, you only need to create the template once. Then for any static text you need to localize, you can create corresponding language variables and use them in your template.
+You can create language variables for longer text, such as a whole sentence or even a paragraph. You can also apply styles and use HTML markup to format these language variables.
 
-
-### Support for language variables in your page footer
-
-You can add a language variable to a running header or footer on the master page of a document. The variable displays across all body pages of the document that have this master page applied. For example, 1 of 1 page.
-You can also use it to present the numbers in various languages.
-
-### Localized prefixes for your TOC
-
-You also have the feature to display localized terms to be used to present the prefixes in your headings.
-For example, you can have the following ways to present your 'Chapter' prefix in the PDF output:
-
-German: Kapitel
-
-Spanish: Capítulo
+For more details, view [Support for language variables](../native-pdf/native-pdf-language-variables.md).
 
 ### Ability to use AEM metadata in PDF layouts
 

@@ -176,3 +176,10 @@ If you select the **Download temporary files** option in the Advanced settings, 
 >[!NOTE]
 >
 > The **Download temporary files**  ![download temporary files](assets/native-pdf-download-temporary-files-icon.svg) icon appears only if you have generated the last PDF output using the preset wherein you have selected the option in the **Advanced** tab. 
+
+
+
+### Use language variables 
+
+AEM Guides also provides the support for language variables. Select **Language Variables** <img src="./assets/language-variables.svg" width="25">  in the left panel to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output. For more details, see [Support for language variables](../native-pdf/native-pdf-language-variables.md).
+

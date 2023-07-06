@@ -11,7 +11,7 @@ A PDF template has four components: Page Layouts, Stylesheets, Resources, and Se
 ## Create and customize page layouts {#create-customize-page-layout}
 
 Settings in the Page Layouts component allow you to design the structure of a page by defining the header, footer, and content area on a page. Using the WYSIWYG page layout editor, you can create a page layout for different sections in a PDF, such as the front and back cover pages, chapter, Table of
-Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), glossary, or create a layout for a custom page. In the PDF template Settings, you can assign a page layout with different sections within a PDF, which are then used to generate the PDF output.  
+Contents (TOC), index, blank page, Front Matter Pages, Back Matter Pages, List of Figures (LOF), List of Tables (LOT), glossary, or create a layout for a custom page. In the PDF template Settings, you can assign a page layout with different sections within a PDF, which are then used to generate the PDF output.  
 
 ### Create a new page layout {#create-page-layout}
 
@@ -20,11 +20,11 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
    >There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
 
 1. In the Web Editor, go to the **Output** tab.
-1. Expand the left sidebar and click on **Templates**.
+1. Expand the left sidebar and click **Templates**.
 1. Open the template that you want to work with.
     >[!NOTE]
     >
-    >You can open a template by double-clicking on its name or clicking the > icon next to its name.
+    >You can open a template by double-clicking its name or clicking the > icon next to its name.
 1. To create a new page layout, do one of the following:
    * Hover over **Page Layouts** and click the (*Options* icon) **...** and choose **New Page Layout**.
    * In the **Templates** panel, click the **+** icon next to **Templates** and choose **Page Layout** from the context menu.
@@ -42,7 +42,7 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
 
 ### Duplicate a page layout {#duplicate-page-layout}
 
-1. In the **Templates** section of the template that you want to duplicate, double-click on **Page Layouts** or click the **>** icon before **Page Layouts**.
+1. In the **Templates** section of the template that you want to duplicate, double-click  **Page Layouts** or click the **>** icon before **Page Layouts**.
 
    This displays the list of page layouts within the template.
    
@@ -55,11 +55,11 @@ Contents (TOC), index, blank page, List of Figures (LOF), List of Tables (LOT), 
 
 ### Customize a page layout {#customize-page-layout}
 
-1. In the **Templates** section of the template that you want to edit, double-click on **Page Layouts** or click the **>** icon before **Page Layouts**.
+1. In the **Templates** section of the template that you want to edit, double-click **Page Layouts** or click the **>** icon before **Page Layouts**.
 
    This displays the list of page layouts within the template.
 1. To customize any page layout, do one of the following:
-   * Double-click on any page layout.
+   * Double-click any page layout.
    * Hover over any page layout and click the (*Options* icon) **...** and select **Edit** from the context menu.
 
    This opens the page layout editor for customization.
@@ -99,7 +99,7 @@ Typically, you will create a new style when you want to associate a custom style
 
 
 To create a new style, follow the below steps:
-1. Right click on any style and choose New Style from the context menu.
+1. Right click any style and choose New Style from the context menu.
 
    This opens the Add Style dialog.
    
@@ -118,22 +118,22 @@ To create a new style, follow the below steps:
 Once you have created a new CSS file with default styles or want to customize styles in an existing CSS file, you can use the styles editor to do so.
 
 To customize a style, follow the below steps:
-1. Double-click on **Stylesheets** or click the **>** icon before **Stylesheets**.
+1. Double-click **Stylesheets** or click the **>** icon before **Stylesheets**.
 
    This displays the default (Content and Layout) and custom CSS files.
 1. Open a stylesheet for editing.
    
    To open stylesheet for editing, do one of the following:
-   * Double-click on the stylesheet name.
+   * Double-click the stylesheet name.
    * Hover over the stylesheet name and click the (Options icon) ... and choose Edit.
    
    This opens the stylesheet for editing and displays the list of styles in the Styles panel.
 
    <img src="assets/customize-style.png" alt="Customize style" width="450">
 
-1. To customize a style, double-click on a style or click the > icon before a style to view and customize it using the Styles editor.
+1. To customize a style, double-click a style or click the > icon before a style to view and customize it using the Styles editor.
 
-for details about working with the most common styles, see [Work with the common content styles](stylesheet.md)
+For details about working with the most common styles, see [Work with the common content styles](stylesheet.md).
 
 ## Work with resources {#work-with-resources}
 
@@ -167,7 +167,7 @@ To configure, click **Settings** in the **Templates** panel to view the followin
 
 Set the basic configuration settings for starting a chapter from odd or even page, the TOC structure, and define the leader line format for the TOC entries. You can define the following setting:
 
-* **Always start chapter from**: Allows you to define how each chapter is published in the final PDF. You can choose from a **New Page**, **Odd Page**, or **Even Page** options. If you choose to start a new chapter from an odd page, then a blank page is inserted after a chapter that ends on an odd page. For example, if your chapter ends on page number 15, then the publishing process will insert a blank 16<sup>th</sup> page so that the new chapter can start from the 17<sup>th</sup> page. 
+* **Start any new chapter from**: Allows you to define how each chapter is published in the final PDF. You can choose from a **New Page**, **Odd Page**, **Even Page**,  or **Current Page**  options. If you choose to start a new chapter from an odd page, then a blank page is inserted after a chapter that ends on an odd page. For example, if your chapter ends on page number 15, then the publishing process will insert a blank 16<sup>th</sup> page so that the new chapter can start from the 17<sup>th</sup> page.  If you choose the **Current Page** option, then all chapters are published in continuation without any page breaks. For example, if a chapter ends in the middle of page 15, then the next chapter is also started from the 15th page itself.   
 
 * **Start each topic from a new page**:  If you want each topic within your chapter to start from a new page, then select **Start each topic from a new page** option. If you want to keep your topics in continuation without any page gaps, then deselect this option.
 
@@ -192,43 +192,73 @@ Set the basic configuration settings for starting a chapter from odd or even pag
     >[!NOTE]
     >
     >If you are a CSS developer, then you can define the leader format directly in the CSS file as well. 
+    
 * **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Page Layouts**
 
-The Page Layouts settings give you complete control over specifying which page layout is to be used for a specific section of your document. For example, to select a layout for the Table of Contents, click the dropdown menu under the TOC field and select the layout you have designed to generate the TOC. 
+   The Page Layouts settings give you complete control over specifying which page layout is to be used for a specific section of your document. For example, to select a layout for the Table of Contents, click the dropdown menu under the TOC field and select the layout you have designed to generate the TOC. 
 
-The following settings are available under the Page Layout section:
+   It is important to note that the bookmap settings take a precedence over the page layout settings.
 
-<img src="assets/template-page-layout.png" alt="Page layouts" width="550">
+   The following settings are available under the Page Layout section:
+
+   <img src="assets/template-page-layout.png" alt="Page layouts" width="550">
 
 
-**Default Page Layout**: Select a page layout that acts as the default layout for all pages in your PDF. This is the base page layout that is applied on those sections or topics where you have not created a dedicated page layout. 
+   **Default Page Layout**: Select a page layout that acts as the default layout for all pages in your PDF. This is the base page layout that is applied on those sections or topics where you have not created a dedicated page layout. 
 
-**Page layout for different sections**: You can choose to map a page layout with the following sections of your PDF output: 
+   **Page layout for different sections**: You can map a page layout with the following sections of your PDF output. If you have designed a page layout for the related section, then select it from the drop-down list. If no page layouts have been created for a specfic sections, then the default page layout is applied. 
+
+* **Chapters & Topics**: You can specify the page layout for the for the Chapter & Topics. The selected layout will be applied to all the Chapters and Topics. 
+
+* **TOC**: If you have designed the TOC page layout, select **TOC** in the drop-down list, and all TOC pages in your document will have the TOC page layout. 
+
+* **List of Figures and List of Tables**: You can also specify the page layout for figures and tables. The selected layout will be applied to all the Figures and Tables. 
+
+* **Index and Glossary**:  If you have designed a Index page layout, map it to the Index option. If you have a Glossary page layout, then map it to the Glossary option. 
+
+* **Front Matter Pages and Back Matter Pages**: These page layouts define the styling for front or back matter pages in your book. If you've designed the front matter  layout, map it to the **Front Matter Pages** option. When you select the front matter layout from the dropdown, the front matter layout is applied to all topics present in the front matter. 
+
+   If you've designed the back matter layout, map it to the **Back Matter Pages** option. When you select the back matter layout from the dropdown, the back matter layout is applied to all topics present in the back matter. 
+
+   **Front Matter Pages** is also used as a fallback layout for the **TOC**, **List of Figures**, and List of Tables.  Similarly, **Back Matter Pages** is also used as a fallback layout for the **Index** and **Glossary** layouts. If you have not selected the layout for these, the selected Front or Back Matter Pages layout is applied.  If you have not selected the Front or Back Matter Pages layout, the default page layout is applied to them.
+
+* **Page Layout for Empty Pages**:    You can also specify the page layout for the empty pages. The selected layout will be applied to all empty pages. For example, if you have designed a Blank page layout for all empty pages, then select **Blank** in the drop-down list, and all empty pages in your document will have the Blank page layout.
+
+* **Cover Page and Back Page**: If you have designed a cover page layout, then map it to the **Cover Page** option. Similarly, if you have a back page layout, then map it to the **Back Page** option. If no cover or back page layouts have been created, then the default page layout is applied. 
+
+
+
+For more information on page layouts, see [Design a page layout](design-page-layout.md).
+
+**Page Order**
+
+   You can enable or disable the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
+
+<img src="assets/page-order-advance-settings.png" alt="Page layouts" width="550">
+
 * TOC
+* Chapters & Topics
 * List of Figures
 * List of Tables
-* Chapters & Topics
 * Index
 * Glossary
 
-If you do not want to show a particular section in your PDF output, then you can disable that by turning the toggle switch to off. 
+If you do not want to show a particular section in your PDF output, you can disable that by turning the toggle switch off. 
 
-**Chapter & Topics** layout is always enabled and **Glossary** layout is always disabled by default. You cannot toggle them.
-
-You can also define the order in which these different sections as generated in your PDF. If you want to change the default order of these pages, hover on the left of a page layout and click on  the dotted bars icon to drag and drop the page layout at the desired location. 
-Your PDF will contain the enabled page layouts in the order you have organized them here.
-
-**Page Layout for Empty Pages**:    You can also specify the page layout for the empty pages. The selected layout will be applied to all empty pages. For example, if you have designed a Blank page layout for all empty pages, then select **Blank** in the drop-down list, and all empty pages in your document will have the Blank page layout.
-
-**Cover Page and Back Page**: If you have designed a cover page layout, then map it to the **Cover Page** option. Similarly, if you have a back page layout, then map it to the **Back Page** option. If no cover or back page layouts have been created, then the default page layout is applied. 
+You can also define the order in which these different sections as generated in your PDF. To change the default order of these pages, select the dotted bars to drag and drop the page layout at the desired location. 
 
 >[!NOTE]
 >
->The bookmap settings take a precedence over the page layout settings.
+> These order and inclusion settings apply only to a DITA map. For a bookmap, these settings are not applicable. The pages in a bookmap are displayed as per the order of the sections in the bookmap.
 
-For more information on page layouts, see [Design a page layout](design-page-layout.md).
+
+Your PDF will contain the enabled page layouts in the order you have organized them here.
+**Chapter & Topics** layout is always enabled and **Glossary** layout is always disabled by default. You cannot toggle them.
+
+
+
 
 **Print**
 
