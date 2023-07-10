@@ -118,28 +118,94 @@ To move files in bulk, perform the following steps:
 
 1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
 1.  Select **Guides** from the list of tools.
-1.  Click on the **Bulk Move Tool** tile.
+1.  Click on the **Bulk Move Tool** tile. 
+1. The Bulk Move Tool page is displayed based on your setup. Provide the following details on the **Bulk Move Tool** page:
 
-    The Bulk Move Tool page is displayed.
+    <details>
+        
+    <summary> On-premise UUID Software </summary>
 
-    ![](images/bulk-move-tool_cs.PNG){width="550" align="center"}
+    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
-1.  Provide the following details on the Bulk Move Tool page:
+    > [!TIP]
+    >
+    > Select <img src="images/info-icon.svg" width="25">   near any field  to view more details about it. 
+    
 
-    -   **Add Suffix to Duplicate Files**: In case you are moving folders that have same name, then you must select this option. For example, in the above screenshot, the **Source Path** contains the name of folders to move. The folder named topic exists at two different locations — test-A and test-B. When you select this option, then the folders will move successfully. The first moved folder will be named topic whereas the second folder will be named topic0. The move operation adds a suffix in sequential series \(0, 1, 2, and so on\) to the folders with the same name.
+    -   **Add suffix to duplicate folders**: In case you are moving folders that have same name, then you must select this option. For example, in the previous screenshot, the **Source path** contains the name of folders to move. The folder named topic exists at two different locations — test-A and test-B. When you select this option, then the folders will move successfully. The first moved folder will be named topic whereas the second folder will be named topic0. The move operation adds a suffix in sequential series \(0, 1, 2, and so on\) to the folders with the same name.
 
         If you are moving folders with the same name without selecting this option, then the operation will abort with a message.
 
-    -   **Source Path\(s\)**: Specify the location of folders that you want to move. Typically, you will have to copy and paste the source location from the browser's address bar. You can specify multiple folder locations by clicking the **Add** button.
+    -   **Source path\(s\)**: Specify the location of folders that you want to move. 
+        -	Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and click **Select** to complete the process. 
 
-    -   **Destination Path**: Specify the location where you want to move the source folders.
+        -	You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
 
-1.  Click **Bulk Move**.
+            The selected folders are listed along with their path. Hover over the folder tag to view the complete path.
+        - You can also remove any folder by clicking **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
 
-    The system starts moving files from the source to destination location. Once the process completes, a summary of the move process is shown at the bottom of the page.
 
-    ![](images/bulk-move-summary.PNG){width="650" align="center"}
+    -   **Destination path**: Specify the location where you want to move the source folders.
 
+        - Select  **Browse Folder** <img src="images/browse-folder-icon.svg" width="25"> to open the browse file dialog. Select the location where you want to move the source folders. and click Select to complete the process.
+        - You can also type or copy and paste the destination path. 
+
+        The selected folder is displayed along with its path in the text box. 
+
+
+    -   Click **Bulk move**.
+
+        The system starts moving files from the source to destination location. Once the process completes, a summary of the move process is shown at the right of the page.
+
+        ![](images/bulk-move-summary-uuid.png){width="650" align="center"}
+
+    </details>
+
+    <details>
+        
+    <summary> On-premise non-UUID Software </summary>
+
+    ![](images/bulk-move-tool-non-uuid.png){width="650" align="center"}
+
+    > [!TIP]
+    >
+    > Select <img src="images/info-icon.svg" width="25">   near any field  to view more details about it. 
+
+    - **Batch size**: Specify the number of files to move in a single batch. The default values if 50 files.
+    - **Sleep interval**: Specify the time in seconds that the process will wait before starting the next batch. During this sleep time interval, the system fixes the references to and from the moved files. The default sleep interval is 60 seconds.
+
+
+    -   **Add suffix to duplicate folders**: In case you are moving folders that have same name, then you must select this option. For example, in the above screenshot, the **Source Path** contains the name of folders to move. The folder named topic exists at two different locations — test-A and test-B. When you select this option, then the folders will move successfully. The first moved folder will be named topic whereas the second folder will be named topic0. The move operation adds a suffix in sequential series \(0, 1, 2, and so on\) to the folders with the same name.
+
+        If you are moving folders with the same name without selecting this option, then the operation will abort with a message.
+
+    -  **Update references of checked out files**: If you are moving folders containing checked out files, then it is recommended to select this option. If you select this option, then all files that are checked out will be saved and checked in with a new revision. This new revision is then moved to the destination location.  
+
+        If you do not select this option, then the checked out files are moved to the destination folder in the same checked out status. However, there could be some loss of data in this moving process.
+    
+
+     -   **Source path\(s\)**: Specify the location of folders that you want to move. 
+        
+            - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and click **Select** to complete the process. 
+
+            - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
+
+                The selected folders are listed along with their path. Hover over the folder tag to view the complete path.
+            - You can also remove any folder by clicking **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
+
+
+    -   **Destination path**: Specify the location where you want to move the source folders.
+
+        - Select  **Browse Folder** <img src="images/browse-folder-icon.svg" width="25"> to open the browse file dialog. Select the location where you want to move the source folders. and click Select to complete the process.
+        - You can also type or copy and paste the destination path. 
+
+             The selected folder is displayed along with its path in the text box. 
+             
+    -   Click **Bulk move**.     
+
+         The system starts moving files from the source to destination location. Once the process completes, a summary of the move process is shown at the right of the page.
+        ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
+ </details>
 
 ## Search DITA content 
 
