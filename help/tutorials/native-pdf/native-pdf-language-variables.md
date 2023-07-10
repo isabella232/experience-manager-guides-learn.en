@@ -99,18 +99,18 @@ To insert a language variable like your `copyright-label` in the header area, pe
 
 1. Open the required page layout for editing.
 
->[!NOTE]
->
-> View [Customize a page layout](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) section for opening a page layout for customization or editing.:
+    >[!NOTE]
+    >
+    > View [Customize a page layout](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) section for opening a page layout for customization or editing.
 
 1. Select the header to make it active to insert a variable.
 1. Select **Insert Variable**  <img src="./assets/insert-language-variable.svg" width="25"> in the toolbar. 
 1. In the **Insert Variable** pop-up, select the name of the language variable to be inserted and click **Insert** to insert it in the header area.
 
->[!NOTE]
->
-> You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list. 
-> The selected language variable is inserted in the header area. 
+    >[!NOTE]
+    >
+    > You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list. 
+    > The selected language variable is inserted in the header area. 
 
 The following screenshot shows the value for the `copyright-label` added in the header area.
 
