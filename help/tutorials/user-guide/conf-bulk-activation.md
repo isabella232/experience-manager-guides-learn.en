@@ -13,9 +13,11 @@ In a real word scenario, your authors would have access on the authoring instanc
 
 With AEM Guides' Bulk Activation feature, you can quickly and easily activate your content from authoring to publishing instance. The Bulk activation feature gives you the flexibility to:
 
--   Add one more multiple maps \(to a map collection\) to a single activation task
+-   Add one or more multiple maps \(to a map collection\) to a single activation task
 
--   Select one of multiple output presets that you would like to publish
+-   Select one or multiple output presets that you would like to publish. You can add AEM Site, PDF, Native PDF, HTML5, Custom, and
+JSON output presets.
+
 
 -   Define locales in which the output has to be activated
 

@@ -48,7 +48,9 @@ The Maps and Presets tab presents information in the following columns:
 -   **UUID**: Shows the unique identifier associated with the file.
 
 -   **Language**: Shows the language code of the DITA map.
--   **Preset**: Shows the output preset type configured on the map file.
+-   **Preset**: Shows the title of the output preset configured on the map file. It also displays the icons of the type of output presets. 
+
+    The small ![](images/global-preset-icon.svg) icon indicates a folder profile level preset.
 -   **Modified**: Indicates if the DITA map is updated after last publication. Based on this information, you can decide if you want to activate the output for this DITA map or not.
 -   **Generated**: Shows the date and time of the last generated output.
 -   **Published**: Shows the date and time of the last published \(or activated\) output. If you click on the link, the Activation Results page is displayed with information about the root path where the content is activated.
