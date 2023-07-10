@@ -140,7 +140,7 @@ To move files in bulk, perform the following steps:
        
          - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and click **Select** to complete the process. 
 
-        -	You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
+        - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
 
             The selected folders are listed along with their path. Hover over the folder tag to view the complete path.
         - You can also remove any folder by clicking **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
