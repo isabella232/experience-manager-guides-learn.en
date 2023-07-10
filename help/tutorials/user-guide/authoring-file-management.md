@@ -123,7 +123,7 @@ To move files in bulk, perform the following steps:
 
     <details>
         
-    <summary> On-premise UUID Software </summary>
+    <summary> On-premise UUID-based file system </summary>
 
     ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -164,7 +164,7 @@ To move files in bulk, perform the following steps:
 
     <details>
         
-    <summary> On-premise non-UUID Software </summary>
+    <summary> On-premise non-UUID-based file system </summary>
 
     ![](images/bulk-move-tool-non-uuid.png){width="650" align="center"}
 
