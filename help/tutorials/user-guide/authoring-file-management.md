@@ -127,7 +127,7 @@ To move files in bulk, perform the following steps:
 
     ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
-    > [!TIP]
+    >[!TIP]
     >
     > Select <img src="images/info-icon.svg" width="25">   near any field  to view more details about it. 
     
@@ -137,7 +137,8 @@ To move files in bulk, perform the following steps:
         If you are moving folders with the same name without selecting this option, then the operation will abort with a message.
 
     -   **Source path\(s\)**: Specify the location of folders that you want to move. 
-        -	Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and click **Select** to complete the process. 
+       
+         - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and click **Select** to complete the process. 
 
         -	You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
 
@@ -167,7 +168,7 @@ To move files in bulk, perform the following steps:
 
     ![](images/bulk-move-tool-non-uuid.png){width="650" align="center"}
 
-    > [!TIP]
+    >[!TIP]
     >
     > Select <img src="images/info-icon.svg" width="25">   near any field  to view more details about it. 
 
@@ -175,7 +176,7 @@ To move files in bulk, perform the following steps:
     - **Sleep interval**: Specify the time in seconds that the process will wait before starting the next batch. During this sleep time interval, the system fixes the references to and from the moved files. The default sleep interval is 60 seconds.
 
 
-    -   **Add suffix to duplicate folders**: In case you are moving folders that have same name, then you must select this option. For example, in the above screenshot, the **Source Path** contains the name of folders to move. The folder named topic exists at two different locations — test-A and test-B. When you select this option, then the folders will move successfully. The first moved folder will be named topic whereas the second folder will be named topic0. The move operation adds a suffix in sequential series \(0, 1, 2, and so on\) to the folders with the same name.
+    -   **Add suffix to duplicate folders**: In case you are moving folders that have same name, then you must select this option. For example, in the previous screenshot, the **Source Path** contains the name of folders to move. The folder named topic exists at two different locations — test-A and test-B. When you select this option, then the folders will move successfully. The first moved folder will be named topic whereas the second folder will be named topic0. The move operation adds a suffix in sequential series \(0, 1, 2, and so on\) to the folders with the same name.
 
         If you are moving folders with the same name without selecting this option, then the operation will abort with a message.
 
