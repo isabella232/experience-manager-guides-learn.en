@@ -112,7 +112,7 @@ Perform the following steps to create a topic using the topic generator:
 1. Select a data source to view the content snippet generators and the topic generators available for the selected data source.
  
     ![](images/data-sources.png){width="300" align="left"}
-2. Select **Add** ![](images/Add_icon.svg) and select **Topic generator** from the dropdown to add a new topic generator. The **Add topic generator** panel opens.
+1. Select **Add** ![](images/Add_icon.svg) and select **Topic generator** from the dropdown to add a new topic generator. The **Add topic generator** panel opens.
 
 
 
