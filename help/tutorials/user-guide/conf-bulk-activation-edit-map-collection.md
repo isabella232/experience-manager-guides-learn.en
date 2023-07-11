@@ -23,7 +23,9 @@ You can edit a bulk activation map collection by adding or removing map file or 
     You can view the various types of output presets along with their icons such as AEM Site, PDF, Native PDF, HTML5, Custom, and JSON output
 .
     
-    The ![](images/global-preset-icon.svg) icon indicates a folder profile level preset
+    >[!NOTE]
+    >
+    > The small ![](images/global-preset-icon.svg) icon indicates a folder profile level preset.
    
 
 1.  Use the slider to turn on of off the desired output preset that you want to activate or deactivate.
