@@ -144,7 +144,7 @@ Perform the following steps to create a topic using the topic generator:
     ![](images/topic-generator-output-configuration.png){width="300" align="left"}
  
      1. Enter the **Output path** details where you want to save your topics.
-     1.	In the **Topic naming convention**, you can enter a value or a variable with velocity tags. The new topics will follow the convention. For example, you can enter the `$key` to create topics based on Jira keys.
+     1. In the **Topic naming convention**, you can enter a value or a variable with velocity tags. The new topics will follow the convention. For example, you can enter the `$key` to create topics based on Jira keys.
      1. Enable the option **Generate a map** if you want to create a map that contains all the generated topics.      
      1. Enter the name of the new DITA map.
     
@@ -170,7 +170,7 @@ Perform the following steps to create a topic using the topic generator:
 
    ![](images/edit-topic-generator.png){width="650" align="left"}
     
-   >[!NOTE]
+    >[!NOTE]
     >
     > If the topics already exist, then the generator updates the data in the existing topics.
 
