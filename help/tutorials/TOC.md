@@ -218,6 +218,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configure text filters](./install-guide/config-text-filters.md)
       + [Configure the number of LimitReads for a query](./install-guide/conf-query-limitreads.md)
       + [Install packages for Article-based publishing](./install-guide/configure-article-based-publishing.md)
+      + [Configure a data source connector](./install-guide/conf-data-source-connector.md)
       + [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
     + Work with global and folder-level profiles {#global-folder-profiles}
