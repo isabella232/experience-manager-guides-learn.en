@@ -304,6 +304,18 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Version management](./cs-install-guide/version-management.md)
     + Work with output generation settings {#output-gen-config-cs} 
       +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+      + Native PDF Publishing {#config-native-pdf-publish-cs}
+        + [PDF Template](./native-pdf/pdf-template.md)
+        + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
+        + [Design a page layout](./native-pdf/design-page-layout.md)
+        + [Support for language variables](./native-pdf/native-pdf-language-variables.md)
+        + Common content styles {#content-styles}
+            + [Work with the common content styles](./native-pdf/stylesheet.md)
+            + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
+            + [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
+            + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
+            + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
+            + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
     + Work with custom workflows {#custom-workflow-cs}
       +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config-cs}
