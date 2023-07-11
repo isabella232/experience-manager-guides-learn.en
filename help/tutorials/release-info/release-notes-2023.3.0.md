@@ -46,3 +46,24 @@ This section lists the compatibility matrix for the software applications suppor
 | --- | --- | --- | --- | --- |
 | 2023.03.0| 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 | 
 |  |  |  |  |
+
+## Fixed issues
+
+The bugs fixed in various areas are listed below:
+
+* Download PDF process is not working appropriately in the Web Editor. (11496)
+* JSON output | Map metadata having property value as `"value in spaces and double quotes"` leads to a publishing error. (11438)
+*  Insertion for audio and video multimedia files fails in the YouTube format under the **Insert Multimedia** icon. (11320)
+* Validation error occurs when a map is created using the  template which has a specialized title element. (11212)
+* Native PDF | footnote present in table header leads to bold and center-aligned text in the corresponding page footer within the PDF output. (10610) 
+>[!NOTE]
+>
+>To reflect the Native PDF change, delete the PDF folder located at /content/dam/dita-templates and then upgrade to the latest build. (10610)
+
+### Known issue with workaround
+
+Adobe has identified the following known issue for AEM Guides as a Cloud Service March 2023 release.
+
+* Users are not able to save or create version of a duplicated asset.
+
+**Workaround**: Before making any changes to the duplicate asset reprocess it from the Assets UI.
