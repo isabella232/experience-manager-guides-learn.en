@@ -16,11 +16,10 @@ AEM Guides allows you to configure the title for Check in and Check out icons in
 
     ```json
     //Change title to "Check out" instead of "Lock"
-   
             "title": "Check out"
-    //Change title to "Check in" instead of "@checkOutBy"
-   
-            "title": "Check in"
+
+    //Change title to "Check in" instead of "@checkOutBy
+             "title": "Check in"
     ```
 
 1. Save the file and upload it.
