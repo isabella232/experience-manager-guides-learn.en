@@ -427,15 +427,13 @@ If areas overlap, you can bring the shape forward or send it backward by clickin
 **Check out/Check in** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
 Checks out or check in the current file. Checking out a file gives the user exclusive write access to the file. When the file is checked-in, the changes are saved in the current version of the file.
+
 If you are in the Map View and you expand the parent map, you can check out all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Check out**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
  
 The tooltip for Check in/Check out is determined by the title property in the `ui_config.json` file.
 
 For more details, view [Configure the title for Check in and Check out icons](../install-guide/conf-checkin-checkout-title.md).
 
-Locks or unlocks the current file. Locking \(or checking\) out a file gives the user exclusive write access on the file. When the file is Unlocked \(or checked-in\), the changes are saved in the current version of the file.
-
-If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can click on the Lock icon to get the lock on all files within the map.
 
 **Toggle Tags View** - ![](images/Label_icon.svg)
 
