@@ -16,9 +16,11 @@ Select **Data Sources** ![](images/data-source-icon.svg) in the left panel to vi
 > You will see the data sources for which your administrator has configured the connector. 
 
 
-## Show Tile/List View  
+## Show List View or Tile View  
 
-You can choose to view the various data sources in the form of a list or as tiles. Select a data source to view the content snippet generators and the topic generators available for the selected data source.
+You can toggle between the List View or Tile view to view the various data sources in the form of a list or as tiles. 
+
+Select a data source to view the content snippet generators and the topic generators available for the selected data source.
 
 ### List View  ![](images/data-sources-list-view-icon.svg) 
 
@@ -29,7 +31,9 @@ You can choose to view the various data sources in the form of a list or as tile
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
- 
+> [!NOTE]
+>
+> List View and  
 
 You can use the data from data sources in two ways:
 - Insert a content snippet
