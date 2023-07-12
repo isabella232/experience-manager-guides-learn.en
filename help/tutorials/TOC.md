@@ -205,6 +205,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Customize Web Editor](./install-guide/conf-web-editor.md)
       + [Customize toolbar](./install-guide/conf-web-editor-customize-toolbar.md)
       + [Configure default value for the Tags View](./install-guide/configure-default-value-tags-view.md)
+      + [Configure the title for Check in and Check out icons](./install-guide/conf-checkin-checkout-title.md)
       + [Configure display of UUID-based links](./install-guide/conf-uuid-based-links.md)
       + [Open DITA topic or map files in same tab](./install-guide/open-dita-files-same-tab.md)
       + [Configure a custom panel in the left panel](./install-guide/configure-custom-panel.md)
