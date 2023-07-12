@@ -18,7 +18,7 @@ Select **Data Sources** ![](images/data-source-icon.svg) in the left panel to vi
 
 ## Show List View or Tile View  
 
-You can toggle between the List View or Tile view to view the various data sources in the form of a list or as tiles. 
+You can toggle between the List View or Tile View to view the various data sources in the form of a list or as tiles. 
 
 Select a data source to view the content snippet generators and the topic generators available for the selected data source.
 
