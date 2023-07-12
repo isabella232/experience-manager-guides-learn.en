@@ -31,10 +31,6 @@ Select a data source to view the content snippet generators and the topic genera
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
-> [!NOTE]
->
-> List View and  
-
 You can use the data from data sources in two ways:
 - Insert a content snippet
 - Create a topic 
