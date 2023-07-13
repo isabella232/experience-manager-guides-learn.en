@@ -1004,6 +1004,7 @@ You can perform the following actions using the Options menu:
     -   **Copy UUID**: Copy the UUID of the selected file to Clipboard.
     -   **Copy Path**: Copy complete path of the selected file to Clipboard.
 
+    
 -   **Locate in Repository**: Shows the location of the selected file in the repository \(or DAM\).
 -   **Expand All**: Expand all topics in the map files.
 
