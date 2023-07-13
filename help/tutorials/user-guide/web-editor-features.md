@@ -432,7 +432,7 @@ If you are in the Map View and you expand the parent map, you can check out all 
  
 The tooltip for Check in/Check out is determined by the title property in the `ui_config.json` file.
 
-For more details, view [Configure the title for Check in and Check out icons](../install-guide/conf-checkin-checkout-title.md).
+For more details, view [Configure the title for Check in and Check out icons](../install-guide/conf-checkin-checkout-title.md) in the On-premise Installation and configuration Guide.
 
 
 **Toggle Tags View** - ![](images/Label_icon.svg)
