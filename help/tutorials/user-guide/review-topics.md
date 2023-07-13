@@ -37,16 +37,21 @@ Perform the following steps to review a topic:
     -   **A**: The name of the review task.
     -   **B**: Click the Topics View icon to show or hide the topics panel.
 
-    -   **C**: The numbers highlighted by ***F*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to see how many Strikethrough comments have been made in each of the under review topic, click the filter icon and then choose **Review Type** \> **Deletion**.
+    -   **C**: You can search for the required topic by entering the file name in the search bar.
+    
+        Select  ![](images/view-options.svg) near the search bar to  choose to view all topics or view topics with comments. By default, you can view all topics present in the review task.
+ 
+
+    -   **D**: The numbers highlighted by ***F*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to see how many Strikethrough comments have been made in each of the under review topic, click the filter icon and then choose **Review Type** \> **Deletion**.
 
         >[!NOTE]
         >
         > On applying the fiters, only the comments which match the selected filters are displayed in the comments panel. The number of filtered comments are shown on the left in the topics panel.
 
-    -   **D**: A topic that is assigned for review to the current reviewer is shown in black and is clickable. When the reviewer clicks on a topic link that topic is brought to the top of the screen.
-    -   **E**: A topic that is not available for review is grayed out. The topic is shown in read-only mode and you are not allowed to add any review comments on such topics.
+    -   **E**: A topic that is assigned for review to the current reviewer is shown in black and is clickable. When the reviewer clicks on a topic link that topic is brought to the top of the screen.
+    -   **F**: A topic that is not available for review is grayed out. The topic is shown in read-only mode and you are not allowed to add any review comments on such topics.
 
-    -   **F**: Number of comments received on a topic. This number changes based on the filter that you apply.
+    -   **G**: Number of comments received on a topic. This number changes based on the filter that you apply.
 
     All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the review is not allowed to review are not shown.
 
