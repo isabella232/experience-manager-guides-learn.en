@@ -288,20 +288,20 @@ You can also create custom page layouts and publish them as static pages in the 
  
 Perform the following steps to add a custom page layout:
 
-1.	Select **Add** ![](assets/add-icon.svg) to add a new page layout. Add page layout panel opens.
-2.	Select the page layout from the list and click Add. The new page layout is added to the list of page layouts.
+1. Select **Add** ![](assets/add-icon.svg) to add a new page layout. Add page layout panel opens.
+2. Select the page layout from the list and click Add. The new page layout is added to the list of page layouts.
 
 You can also perform the following actions:
 
-*	Select the dotted bars to drag and drop the page layout at the desired location.
+* Select the dotted bars to drag and drop the page layout at the desired location.
 
-*	Select **Remove Layout** ![](assets/delete-icon.svg)  to remove a layout.
+* Select **Remove Layout** ![](assets/delete-icon.svg)  to remove a layout.
 
-*	You can also merge a static page with the previous page or the next page. 
+* You can also merge a static page with the previous page or the next page. 
 
-*	You can also add a custom layout multiple times and order them. This helps you publish the static content accordingly. 
+* You can also add a custom layout multiple times and order them. This helps you publish the static content accordingly. 
 
-      For example, you can use a custom layout to publish a static warning multiple times within the PDF output.
+   For example, you can use a custom layout to publish a static warning multiple times within the PDF output.
 
 
 
@@ -337,20 +337,20 @@ For example, you can use View details on {chapter}. If the Chapter name is “Ge
 
 AEM Guides provides the following out-of-the-box variables:
 
-*	{title}: Creates a cross-reference to the title of the topic. For example, Useful Links.
-*	{page} Adds a cross-reference to the page numbers. For example, See on page 1.
-*	{description}: Adds a cross-reference to the text of the description.
-*	{chapter}: Adds a cross-reference to the chapter numbers. For example, See on Chapter 1.
-*	{bookmarkText}: Creates a cross-reference to the bookmarked text. For example, stop_words.
-*	{captionText}: Functions like a heading of an image. Creates a cross-reference to the image in your topic and shows the text of the caption for the image. For example, Airflow.
-*	{figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number tags that you’ve defined for figure numbers.  
-*	{table}: Adds a cross-reference to the table number. Picks the table number from the auto number tags you’ve defined for table numbers. 
+* {title}: Creates a cross-reference to the title of the topic. For example, Useful Links.
+* {page} Adds a cross-reference to the page numbers. For example, See on page 1.
+* {description}: Adds a cross-reference to the text of the description.
+* {chapter}: Adds a cross-reference to the chapter numbers. For example, See on Chapter 1.
+* {bookmarkText}: Creates a cross-reference to the bookmarked text. For example, stop_words.
+* {captionText}: Functions like a heading of an image. Creates a cross-reference to the image in your topic and shows the text of the caption for the image. For example, Airflow.
+* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number tags that you’ve defined for figure numbers.  
+* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number tags you’ve defined for table numbers. 
    
-      For example, you can use View “{table}” on page {page}. The cross reference in the output contains the auto-generated table number and its page number, “View Table 1 on page 5”.
+   For example, you can use View {table} on page {page}. The cross reference in the output contains the auto-generated table number and its page number, “View Table 1 on page 5”.
 
-      >[!NOTE] 
-      >
-      >You can create auto number styles for caption and figcaption tags. 
+   >[!NOTE] 
+   >
+   >You can create auto number styles for caption and figcaption tags. 
 
 
 
