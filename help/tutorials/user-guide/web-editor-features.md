@@ -790,12 +790,15 @@ The various options in the Options menu are explained below:
 -   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
 
 -   **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
--   **Check Out**: Get a lock on the selected file for editing. For a locked file, this option changes to **Check In**.
+-   **Check Out**: Get a lock on the selected file for editing. 
 
     >[!NOTE]
     >
     > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
 
+    For a locked file, this option changes to **Check In**.
+
+    When you check in a file, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
 -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 
     ![](images/quick-preview_cs.png){width="800" align="left"}
