@@ -151,7 +151,7 @@ Update the given files to configure the web authentication settings in the Oxyge
 >
 >Take a backup of the file before updating it.
 
-**For Mac and Oxygen 24.1**
+**For Mac and Oxygen 25**
 
 Add the following lines in env.sh
 
@@ -177,7 +177,7 @@ Add the following lines in the oxygenAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**For Windows and Oxygen 24.1**
+**For Windows and Oxygen 25**
 
 Add the following lines in env.bat
 
