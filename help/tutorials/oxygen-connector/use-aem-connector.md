@@ -21,13 +21,13 @@ Once you have the installer, install it on your local machine where the Oxygen X
 
 ### Technical requirements 
 
--   Oxygen XML Author version 24.1
+-   Oxygen XML Author version 25
 
 -   Adobe Experience Manager Guides version 3.4 or higher
 
 -   Adobe Experience Manager version 6.5 with Service Pack 10, 11, 12, and 13
 
--   Operating system supported by Oxygen XML Author version 24.1
+-   Operating system supported by Oxygen XML Author version 25
 
 -   Java Development Kit
     -   Oracle SE 8 JRE 1.8
