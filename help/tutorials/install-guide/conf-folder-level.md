@@ -13,7 +13,9 @@ Also, you can delegate the folder-specific configurations to a department or pro
 
 Using the Folder Profiles tile in the Guides settings, you can configure settings under the following tabs:
 
--   **General**: The general tab is available when you are configuring folder-level \(or project/product\) settings. You can configure settings such as the folder paths on which the settings will be applicable and users who will have administrative rights to create or update configurations.
+![](assets/folder-profile-tabs.png)
+
+-   **General**: The general tab is only available when you are configuring folder-level \(or project/product\) settings. You can configure settings such as the folder paths on which the settings will be applicable and users who will have administrative rights to create or update configurations.
 
 -   **Conditional Attributes**: Use this tab to configure conditional attributes at global or folder-level. A conditional attribute is a combination of the attribute name and value, and you can also define a label for it. You can use the standard DITA attributes or your own custom attributes. The conditional attributes that you define at the global level are made available to all users across projects. In case you have defined folder-level conditional attributes, then they are merged with the globally defined conditional attributes.
 
@@ -85,6 +87,8 @@ Perform the following steps to configure the global profile:
 
     For the first time the Folder Profiles page is shown with only the Global Profile tile.
 
+    ![](assets/folder-profile-global.png)
+
 1.  Click on the **Global Profile** tile.
 
 1.  To configure **Conditional Attributes**, see [Configure conditional attributes for global or folder-level profiles](#id1889D0I305Z).
@@ -111,6 +115,8 @@ Perform the following steps to configure a folder-level profile:
     For the first time, the Folder Profiles page is shown with the default Global Profile tile only.
 
 1.  Click **Create**.
+
+    ![](assets/create-folder-profile.png)
 
 1.  Enter the following details in the **Create Folder Profile** dialog:
     -   Name of the folder profile.
