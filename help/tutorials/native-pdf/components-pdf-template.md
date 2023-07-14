@@ -172,7 +172,7 @@ using the template.
 
 To configure, click **Settings** in the **Templates** panel to view the following options:
 
-**General**
+### General
 
 Set the basic configuration settings for starting a chapter from odd or even page, the TOC structure, and define the leader line format for the TOC entries. You can define the following setting:
 
@@ -204,7 +204,7 @@ Set the basic configuration settings for starting a chapter from odd or even pag
     
 * **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
-**Page Layouts**
+### Page Layouts
 
    The Page Layouts settings give you complete control over specifying which page layout is to be used for a specific section of your document. For example, to select a layout for the Table of Contents, click the dropdown menu under the TOC field and select the layout you have designed to generate the TOC. 
 
@@ -241,7 +241,7 @@ Set the basic configuration settings for starting a chapter from odd or even pag
 
 For more information on page layouts, see [Design a page layout](design-page-layout.md).
 
-**Page Order**
+### Page Order
 
    You can enable or disable the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
 
@@ -266,10 +266,47 @@ You can also define the order in which these different sections as generated in 
 Your PDF will contain the enabled page layouts in the order you have organized them here.
 **Chapter & Topics** layout is always enabled and **Glossary** layout is always disabled by default. You cannot toggle them.
 
+**Merge pages**
+
+   By default, all sections begin on a new page. You can select the **Previous Page** or **Next Page** option from the Merge With dropdown to merge a section to its previous or next page. This will publish the section in continuation with its previous section in the PDF output. There will be no page break in between.
+
+   >[!NOTE]
+   >
+   > This setting applies only to the section and not its components.  For example, if you select the **Previous Page** option for **Chapters & Topics**, the **Chapters and Topics** section merges with the previous page. The various chapters and topics are published as per the **General** settings.
+
+When you merge a section to its previous page or next page, the content is merged, and the style of the target section is applied. 
+
+For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**s. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
+
+The merge option works recursively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
+
+
+**Static pages**
+
+The various page layouts help you design the output of the various sections. These sections are generated from the DITA map while you publish the output.
+You can also create custom page layouts and publish them as static pages in the PDF output. This helps you to add any static content like Notes. 
+ 
+Perform the following steps to add a custom page layout:
+
+1.	Select **Add** ![](assets/add-icon.svg) to add a new page layout. Add page layout panel opens.
+2.	Select the page layout from the list and click Add. The new page layout is added to the list of page layouts.
+
+You can also perform the following actions:
+
+*	Select the dotted bars to drag and drop the page layout at the desired location.
+
+*	Select **Remove Layout** ![](assets/delete-icon.svg)  to remove a layout.
+
+*	You can also merge a static page with the previous page or the next page. 
+
+*	You can also add a custom layout multiple times and order them. This helps you publish the static content accordingly. 
+
+      For example, you can use a custom layout to publish a static warning multiple times within the PDF output.
 
 
 
-**Print**
+
+### Print
 
 Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
 
@@ -290,6 +327,34 @@ Configure the print production settings to assign printer marks, select color mo
 
    <!--For more information on applying these print settings, see *Printing preferences*.-->
 
-**Cross references**
+### Cross references
 
-Use the Cross-reference tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more. <!--For more information, see *Format cross-references*.-->
+Use the Cross-reference tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
+
+You can also use variables to define a cross-reference.  When you use a variable, its value is picked from the properties. You can use a single or a combination of variables to define a cross-reference. You can also use a combination of a string and a variable. 
+
+For example, you can use View details on {chapter}. If the Chapter name is “General settings,” the cross-reference in the output is “View details on General settings.” 
+
+AEM Guides provides the following out-of-the-box variables:
+
+*	{title}: Creates a cross-reference to the title of the topic. For example, Useful Links.
+*	{page} Adds a cross-reference to the page numbers. For example, See on page 1.
+*	{description}: Adds a cross-reference to the text of the description.
+*	{chapter}: Adds a cross-reference to the chapter numbers. For example, See on Chapter 1.
+*	{bookmarkText}: Creates a cross-reference to the bookmarked text. For example, stop_words.
+*	{captionText}: Functions like a heading of an image. Creates a cross-reference to the image in your topic and shows the text of the caption for the image. For example, Airflow.
+*	{figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number tags that you’ve defined for figure numbers.  
+*	{table}: Adds a cross-reference to the table number. Picks the table number from the auto number tags you’ve defined for table numbers. 
+   
+      For example, you can use View “{table}” on page {page}. The cross reference in the output contains the auto-generated table number and its page number, “View Table 1 on page 5”.
+
+      >[!NOTE] 
+      >
+      >You can create auto number styles for caption and figcaption tags. 
+
+
+
+
+
+
+ <!--For more information, see *Format cross-references*.-->

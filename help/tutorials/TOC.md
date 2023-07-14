@@ -242,6 +242,7 @@ breadcrumb-title: AEM Guides Tutorials
             + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
             + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
             + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
+        + [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
     + Work with custom workflows {#custom-workflow}
       + [Configure and customize workflows](./install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config}
