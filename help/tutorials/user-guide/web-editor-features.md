@@ -429,6 +429,10 @@ If areas overlap, you can bring the shape forward or send it backward by clickin
 Checks out or checks in the current file. Checking out a file gives the user exclusive write access to the file. When the file is checked-in, the changes are saved in the current version of the file.
 
 If you are in the Map View and you expand the parent map, you can check out all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Check out**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
+
+>[!NOTE]
+>
+> When you check in a file that has any unsaved changes, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
  
 The tooltip for Check in/Check out is determined by the title property in the `ui_config.json` file.
 
@@ -798,7 +802,7 @@ The various options in the Options menu are explained below:
 
     For a locked file, this option changes to **Check In**.
 
-    When you check in a file, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
+    When you check in a file that has any unsaved changes, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
 -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 
     ![](images/quick-preview_cs.png){width="800" align="left"}

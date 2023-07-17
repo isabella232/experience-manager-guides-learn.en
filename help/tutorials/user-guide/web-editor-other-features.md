@@ -113,13 +113,13 @@ You may see the following options depending on whether the file is locked/unlock
 
 -   **Unlock the File**: If you choose to unlock a file, it will release the lock on your file and the changes are saved in the current version of the file.
 
->[!NOTE]
->
-> If you deselect the option to unlock the file, you also get an option to close the file without saving the changes.
+    >[!NOTE]
+    >
+    > If you deselect the option to unlock the file, you also get an option to close the file without saving the changes.
 
-For example, one of the prompts is shown in the following screenshot:
+    For example, one of the prompts is shown in the following screenshot:
 
-![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+    ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
 **Visual cues for broken references** 
 
