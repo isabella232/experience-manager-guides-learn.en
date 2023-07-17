@@ -4,6 +4,7 @@ description: Learn how to implement references by adding and applying citations 
 ---
 
 # Add citations into your content
+
 Citations are references to the source or credits to the author added to the content. Add the citations to your project and apply them to your content. You can add these citations from any source of books, websites, and journals. Citations are only visible in PDF outputs. You can find the catalog for them at the end of the PDF. For some scenarios, it’s mandatory to add citations. There are three main reasons to include citations in your content.
 
 * To credit the authors of the source information, you use for your content.
@@ -103,9 +104,10 @@ Hover over the name of the citation from the list. Select     ![](images/options
 You can preview the content and format of the citation in the preview box.
 1. Click anywhere on the screen to close the preview box.
 
-<image src="images/citation-preview.png" width="550">
+    <image src="images/citation-preview.png" width="550">
 
 ## Insert a citation
+
 You can insert a citation to a topic.
  1. Select the topic in the repository panel, then double-click to open it in editing window. 
  1. Put the cursor at the location in the topic where you want to add the citation.
@@ -162,6 +164,7 @@ The selected citation is deleted from the project.
 From the  toolbar, sort and search for citations according to the sources to use in your topic.
 
 ### Filter
+
 To filter the citation source list, select **Filter** ![](images/filter-search-icon.svg) ficon next to the search bar. Select the source options from the drop-down to filter the citation list. It allows both single and multiple selections. 
 
 * **All Sources**: It shows a complete list of citations, including all the sources.
@@ -173,6 +176,7 @@ To filter the citation source list, select **Filter** ![](images/filter-search-i
 * **Journal**: It shows the list of citations sourced from journals.
 
 ### Search
+
 Search the citation for your content.
 
 1. In the left panel, click Citations.
