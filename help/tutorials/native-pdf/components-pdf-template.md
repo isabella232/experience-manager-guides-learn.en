@@ -243,9 +243,9 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 
 ### Page Order
 
-   You can enable or disable the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
+   You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
 
-<img src="assets/page-order-advance-settings.png" alt="Page layouts" width="550">
+
 
 * TOC
 * Chapters & Topics
@@ -253,32 +253,35 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 * List of Tables
 * Index
 * Glossary
+* Citation
 
-If you do not want to show a particular section in your PDF output, you can disable that by turning the toggle switch off. 
+   <img src="assets/page-order-advance-settings.png" alt="Page layouts" width="550">
 
-You can also define the order in which these different sections as generated in your PDF. To change the default order of these pages, select the dotted bars to drag and drop the page layout at the desired location. 
+   If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off. 
 
->[!NOTE]
->
-> These order and inclusion settings apply only to a DITA map. For a bookmap, these settings are not applicable. The pages in a bookmap are displayed as per the order of the sections in the bookmap.
-
-
-Your PDF will contain the enabled page layouts in the order you have organized them here.
-**Chapter & Topics** layout is always enabled and **Glossary** layout is always disabled by default. You cannot toggle them.
-
-**Merge pages**
-
-   By default, all sections begin on a new page. You can select the **Previous Page** or **Next Page** option from the Merge With dropdown to merge a section to its previous or next page. This will publish the section in continuation with its previous section in the PDF output. There will be no page break in between.
+   You can also define the order in which these different sections as generated in your PDF. To change the default order of these sections, select the dotted bars to drag and drop the sections at the desired location. 
 
    >[!NOTE]
    >
-   > This setting applies only to the section and not its components.  For example, if you select the **Previous Page** option for **Chapters & Topics**, the **Chapters and Topics** section merges with the previous page. The various chapters and topics are published as per the **General** settings.
+   > The order and inclusion settings apply only to a DITA map. For a bookmap, these settings are not applicable. The pages in a bookmap are displayed as per the order of the sections in the bookmap.
 
-When you merge a section to its previous page or next page, the content is merged, and the style of the target section is applied. 
 
-For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**s. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
+.
+   **Chapter & Topics** layout is always enabled and **Glossary** layout is always disabled by default. You cannot toggle them.
 
-The merge option works recursively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
+**Merge pages**
+
+   By default, all sections begin on a new page. Select the **Previous Page** or **Next Page** option from the **Merge With** dropdown to merge a section with a previous or next page. This will publish the section in continuation with the selected page in the PDF output. With this, there will be no page break in between.
+
+   >[!NOTE]
+   >
+   > This setting applies only to the section and not its components.  For example, if you select the **Previous Page** option for **Chapters & Topics**, the **Chapters and Topics** section merges with the previous page. The various chapters and topics are published as per the **General** settings.For example, if in **Start any new chapter from setting**, you select **Odd Page**, then a blank page is inserted after a chapter that ends on an odd page. 
+
+   When you merge a section to its previous page or next page, the content is merged, and the style of the target section in which the content is merged is applied. 
+
+   For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**s. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
+
+   The merge option works recursively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
 
 
 **Static pages**
@@ -290,6 +293,7 @@ Perform the following steps to add a custom page layout:
 
 1. Select **Add** ![](assets/add-icon.svg) to add a new page layout. Add page layout panel opens.
 2. Select the page layout from the list and click Add. The new page layout is added to the list of page layouts.
+
 
 You can also perform the following actions:
 
