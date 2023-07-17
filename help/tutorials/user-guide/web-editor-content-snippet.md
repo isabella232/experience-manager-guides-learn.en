@@ -5,7 +5,7 @@ description: Learn how to insert a content snippet from your data source
 
 # Use data from your data source
 
-A **data source** is a location or system where you can store and manage the data for your organization. AEM Guides provides the feature to connect with your data source and use the data from them. 
+A **data source** is a system where you store and manage the data for your organization. These are your systems of record like JIRA, SQL Databases, PIM, or PLM. AEM Guides provides the feature to connect with your data source and use the data from them.
 
 ## Data Sources panel
 

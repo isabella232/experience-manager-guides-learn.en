@@ -3,7 +3,7 @@ title: Add citations into to your content
 description: Learn how to implement references by adding and applying citations to your content.
 ---
 
-
+# Add citations into your content
 Citations are references to the source or credits to the author added to the content. Add the citations to your project and apply them to your content. You can add these citations from any source of books, websites, and journals. Citations are only visible in PDF outputs. You can find the catalog for them at the end of the PDF. For some scenarios, it’s mandatory to add citations. There are three main reasons to include citations in your content.
 
 * To credit the authors of the source information, you use for your content.
