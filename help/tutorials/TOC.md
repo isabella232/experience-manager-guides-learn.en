@@ -79,6 +79,7 @@ breadcrumb-title: AEM Guides Tutorials
           + [Web Editor views](./user-guide/web-editor-views.md)
           + [Support for Schematron files](./user-guide/support-schematron-file.md)
           + [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
+          + [Add citations into your content](./user-guide/web-editor-apply-citations.md)
           + [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
           + [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
           + Article-based publishing {#article-based-pub}
