@@ -995,16 +995,14 @@ You can perform the following actions using the Options menu:
 
 -   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
 
--   **Check Out**: Check out the selected file. 
+-   **Check Out**: Check out the selected file. For a checked out file, this option changes to **Check In**.
+    
 
 
     >[!NOTE]
     >
-    > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
-
-    For a checked out file, this option changes to **Check In**.
-    
-    When you check in a file, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
+    > * If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
+    > * When you check in a file, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
 
 -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 -   **Copy**: You can choose from the following options:
