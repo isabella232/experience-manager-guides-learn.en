@@ -25,7 +25,7 @@ Select a data source to view the content snippet generators and the topic genera
 ### List View  ![](images/data-sources-list-view-icon.svg) 
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
- 
+
  
 ### Tile View   ![](images/data-sources-tile-view-icon.svg) 
 

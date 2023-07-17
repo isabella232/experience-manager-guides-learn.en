@@ -116,7 +116,6 @@ You can insert a citation to a topic.
 
 You can insert a citation to the topic in the following ways: 
 * From the main toolbar 
-![](){width="300" align="left"}
 * From the left panel
 
 |**From the main toolbar** |**From the left panel**|
