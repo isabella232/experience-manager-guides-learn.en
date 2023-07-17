@@ -21,13 +21,13 @@ To add a citation to the project, follow these steps:
 
 1. Select the **Citations** icon in the left panel.
 The **Citations** panel opens.
-<img src="images/citation-panel.png" alt="Add citation from citation panel" width=300>
+![](images/citation-panel.png){width="300" align="left"}
 
 1. In the **Citations** panel, select ![](images/Add_icon.svg) and then select **New Citation**.
 The **Add Citation** dialog box opens.
 
-    <img src="images/citation-add.png" alt="Add citation from citation panel" width=550>
-
+    ![](images/citation-add.png){width="300" align="left"}
+   
 
 1. Fill in the fields in the **Add Citation** dialog box.
    
@@ -104,7 +104,9 @@ Hover over the name of the citation from the list. Select     ![](images/options
 You can preview the content and format of the citation in the preview box.
 1. Click anywhere on the screen to close the preview box.
 
-    <image src="images/citation-preview.png" width="550">
+    ![](images/citation-preview.png){width="550" align="left"}
+
+  
 
 ## Insert a citation
 
@@ -113,10 +115,11 @@ You can insert a citation to a topic.
  1. Put the cursor at the location in the topic where you want to add the citation.
 
 You can insert a citation to the topic in the following ways: 
-* From the Main toolbar 
+* From the main toolbar 
+![](){width="300" align="left"}
 * From the left panel
 
-|**From the Main toolbar** |**From the left panel**|
+|**From the main toolbar** |**From the left panel**|
 |---|---|
 |<ol> <li> In the main toolbar, select **Citations**. <li>In the **Citations** dialog, choose the citation. You can also select multiple citations. <li> Click **Done**. <br> The selected citation is added at the cursor location in your topic. <br> Alternatively, press Ctrl+5. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.<br> Press the upward and downward arrow keys to navigate through the list of citations. Press `Enter` to insert a citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon in the main toolbar.</ol>|<ol><li> In the left panel, select **Citations**. <li> Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.  <li> To select multiple citations, double-click the citation text and choose the citations. <li>Select **Done** to add them to the topic. <br> You can also select **Insert** from  ![](images/options.svg) **Options** to insert a Citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon  in the main toolbar.</ol>|
 
