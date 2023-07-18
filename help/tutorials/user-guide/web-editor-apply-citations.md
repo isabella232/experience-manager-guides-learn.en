@@ -125,7 +125,7 @@ You can insert a citation to the topic in the following ways:
     ![](images/citation-panel-insert.png)
 
 
-> [!NOTE]
+>[!NOTE]
 > 
 >To view the **Citations** icon from the left panel, your system administrator must select the **Citations** option in the **Panels** tab in **Editor Settings**.
 
@@ -144,10 +144,10 @@ Your system administrator can change the style of citations from the **Citations
 
 The following options are available in the dropdown:
 
-|MLA |APA| Chicago | IEEE | AHA
+|MLA |APA| Chicago | IEEE | AHA|
 |---|---|---|---|---|
 |Who uses it? <ul><li> Literature <li> Foreign Languages <li> Communications <li> Religious Studies <li> Philosophy</ul>|Who uses it? <ul><li> Psychology <li> Education <li>Business or Economics <li> Nursing <li> Linguistic Studies</ul>|Who uses it? <ul> <li> History <li>Art History <li>Fine Arts <li> Anthropology<li>Business</ul>| Who uses it? <ul> <li>Engineering <li>Computer Science <li>Information Science</ul>| Who uses it? <li> Books <li> Music <li> Videos |
-| Example:<br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, vol 16, 2010, Amsterdam.| Example: <br> Crawford, C., J., & , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289| Example: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*. 505-16, 2010. |Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010. | Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010.
+| Example:<br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, vol 16, 2010, Amsterdam.| Example: <br> Crawford, C., J., & , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289| Example: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*. 505-16, 2010. |Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010. | Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010.|
 
 ## Delete a citation
 
