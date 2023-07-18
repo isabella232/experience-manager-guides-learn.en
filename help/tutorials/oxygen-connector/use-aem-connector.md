@@ -21,13 +21,13 @@ Once you have the installer, install it on your local machine where the Oxygen X
 
 ### Technical requirements 
 
--   Oxygen XML Author version 25
+-   Oxygen XML Author version 25.1
 
 -   Adobe Experience Manager Guides version 3.4 or higher
 
 -   Adobe Experience Manager version 6.5 with Service Pack 10, 11, 12, and 13
 
--   Operating system supported by Oxygen XML Author version 25
+-   Operating system supported by Oxygen XML Author version 25.1
 
 -   Java Development Kit
     -   Oracle SE 8 JRE 1.8
@@ -151,7 +151,7 @@ Update the given files to configure the web authentication settings in the Oxyge
 >
 >Take a backup of the file before updating it.
 
-**For Mac and Oxygen 25**
+**For Mac and Oxygen 25.1**
 
 Add the following lines in env.sh
 
@@ -177,7 +177,7 @@ Add the following lines in the oxygenAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**For Windows and Oxygen 25**
+**For Windows and Oxygen 25.1**
 
 Add the following lines in env.bat
 
@@ -405,12 +405,12 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
      Similarly, if you have checked-in a dependent file through AEM, the file list is not refreshed in Oxygen Author until you do a folder Refresh and Refresh Checked-Out Files. If you do a Check-in with Dependents with some files checked in through AEM, then you will get an error listing the files that could not be checked in.
 
-1. \(Optional\) In the Check-In dialog, add a comment in **Version Comments** text box.
+1. \(Optional\) In the **Check-In** or the **Check-in with Dependents** dialog, add a comment in **Version Comments** text box.
 
    >[!NOTE]
    >
    >This comment is displayed in the AEM version history of the file.
-1. Add label(s) in the **Label** text box. Enter a label and press Enter. For example, *2307 Release*.
+1. Add label(s) in the **Label** text box in the **Check-In** or the **Check-in with Dependents** dialog . Enter a label and press Enter. For example, *2307 Release*.
 
     If your administrator has predefined a list of labels and uploaded them in the `label.json` file, then those labels are displayed as a dropdown. You can choose one or more labels from the dropdown.
 

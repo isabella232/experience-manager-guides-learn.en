@@ -78,7 +78,7 @@ Once the file is imported successfully, you can view the references in the citat
 >
 > A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
 
-### Edit a citation
+## Edit a citation
 
 To edit the citation, follow these steps:
 
@@ -107,7 +107,9 @@ You can preview the content and format of the citation in the preview box.
 
     ![](images/citation-preview.png){width="550" align="left"}
 
-  
+>[!NOTE]  
+>
+> You can also preview a citation inserted in a topic from the Assets UI or the Preview tab of the Web Editor.
 
 ## Insert a citation
 
@@ -131,7 +133,7 @@ You can insert a citation to the topic in the following ways:
 
 |**From the main toolbar** |**From the left panel**|
 |---|---|
-|<ol> <li> Select the **Citations** ![](images/citations-icon.svg) icon in the main toolbar,. <li>In the **Citations** dialog, choose the citation. You can also select multiple citations. <li> Click **Done**. <br> The selected citation is added at the cursor location in your topic. <br> Alternatively, press Ctrl+5. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.<br> Press the upward and downward arrow keys to navigate through the list of citations. Press `Enter` to insert a citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon in the main toolbar.</ol>|<ol><li> Select **Citations** ![](images/citations-icon.svg) icon in the left panel,. <li> Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.  <li> To select multiple citations, double-click the citation text and choose the citations. <li>Select **Done** to add them to the topic. <br> You can also select **Insert** from  ![](images/options.svg) **Options** to insert a Citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon  in the main toolbar.</ol>|
+|<ol> <li> Select the **Citations** ![](images/citations-icon.svg) icon in the main toolbar,. <li>In the **Citations** dialog, choose the citation. You can also select multiple citations. <li> Click **Done**. <br> The selected citation is added at the cursor location in your topic. <br> Alternatively, press Ctrl+5. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.<br> Press the upward and downward arrow keys to navigate through the list of citations. Press `Enter` to insert a citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon in the main toolbar.</ol>|<ol><li> Select **Citations** ![](images/citations-icon.svg) icon in the left panel,. <li> Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.  <li> To select multiple citations, right-click a citation in the topic and select **Modify Citation** from the shortcut menu. Select the citations you want to insert from the **Citation** dialog. . <li>Select **Done** to add them to the topic. <br> You can also select **Insert** from  ![](images/options.svg) **Options** to insert a Citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon  in the main toolbar.</ol>|
 
 
 Once you insert citations to the project topic, you can list them in PDF output. Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book gets listed on one page and appear at the end of the PDF output. To learn more about creating a page layout, view [Create a page layout](../native-pdf/components-pdf-template.md#create-page-layout).

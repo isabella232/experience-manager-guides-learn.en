@@ -63,6 +63,12 @@ To customize a PDF template, follow the below steps:
       By default, this opens the Settings panel in the templates editor.
    <img src="assets/customize-pdf-template.png" alt="Customize PDF Teamplte" width="350">
    
+   >[!NOTE]
+   >
+   >  Your adminstrator can download the latest templates from the following path and replace the existing ones:
+   >
+   > `/libs/fmdita/pdf`
+
    The various template components that you can customize are categorized under the following sections:
    * Page Layouts: A typical PDF contains different pages, such as a front cover or title page, TOC, chapter, index, citations, and more. The Page Layouts section allows you to design the look-and-feel of different pages that would make up your PDF. In addition to the appearance, you can also define the arrangement of page elements such as the header, footer, and content areas on a page. To know more on customizing a page's layout, see [Create and customize page layouts](components-pdf-template.md#create-customize-page-layout).
    * Stylesheets: The settings in the Stylesheets section allows you to customize the look and feel of the page layout components like the TOC, index, glossary and more. In addition, you can also customize the styles for the DITA content like headings, paragraphs, lists, and more. To know more on using the stylesheets, see [Use Stylesheets to customize PDF](components-pdf-template.md#stylesheet-customization).
