@@ -17,7 +17,7 @@ Perform the following steps to configure AEM Guides Native PDF Publishing JVM fl
     http://<server name>:<port>/system/console/configMgr
     ```
 
-1.  Search for and select the *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* bundle.
+1.  Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
 
 1.  Update the property **Java Command line options for native pdf** (*native.pdf.java.opts*) to pass any standard JVM flags.
 
