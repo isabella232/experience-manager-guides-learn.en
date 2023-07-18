@@ -407,9 +407,10 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
 1. \(Optional\) In the **Check-In** or the **Check-in with Dependents** dialog, add a comment in **Version Comments** text box.
 
-   >[!NOTE]
-   >
-   >This comment is displayed in the AEM version history of the file.
+    >[!NOTE]
+    >
+    >This comment is displayed in the AEM version history of the file.
+   
 1. Add label(s) in the **Label** text box in the **Check-In** or the **Check-in with Dependents** dialog . Enter a label and press Enter. For example, *2307 Release*.
 
     If your administrator has predefined a list of labels and uploaded them in the `label.json` file, then those labels are displayed as a dropdown. You can choose one or more labels from the dropdown.
