@@ -1,27 +1,28 @@
 ---
-title: Add citations into to your content
+title: Add citations to to your content
 description: Learn how to implement references by adding and applying citations to your content.
 ---
 
-# Add citations into your content
+# Add citations to your content
 
 Citations are references to the source or credits to the author added to the content. Add the citations to your project and apply them to your content. You can add these citations from any source of books, websites, and journals. Citations are only visible in PDF outputs. You can find the catalog for them at the end of the PDF. For some scenarios, it’s mandatory to add citations. There are three main reasons to include citations in your content.
 
-* To credit the authors of the source information, you use for your content.
+* To credit the authors of the source information you use for your content.
 * To help readers to follow up on the source information.
 * To display well-researched content.
 There are different styles to display the citations having formats like MLA, APA, Chicago, IEEE, and AHA. The recommendation is to use them clearly and consistently. It makes your content more reliable and prevents plagiarism.
 
-Learn more about these styles from Manage Projects.
 
 
-## Add a Citation to the project
+
+## Add a citation to the project
 
 To add a citation to the project, follow these steps:
 
-1. Select the **Citations** icon in the left panel.
+1. Select the **Citations** ![](images/citations-icon.svg) icon in the left panel.
 The **Citations** panel opens.
-![](images/citation-panel.png){width="300" align="left"}
+
+    ![](images/citation-panel.png){width="300" align="left"}
 
 1. In the **Citations** panel, select ![](images/Add_icon.svg) and then select **New Citation**.
 The **Add Citation** dialog box opens.
@@ -33,12 +34,12 @@ The **Add Citation** dialog box opens.
    
     | Book | Website |Journal|
     | --- | ---|---|
-    |**Source** <br> From the drop-down, select the source of the citation as Book.| **Source**<br>From the drop-down, select the source of the citation as Website.| **Source** <br> From the drop-down, select the source of the citation as Journal.|
+    |**Source** <br> From the drop-down, select the source of the citation as a Book.| **Source**<br>From the drop-down, select the source of the citation as a Website.| **Source** <br> From the drop-down, select the source of the citation as a Journal.|
     |**Search by** <br> Select ISBN or DOI from the drop-down to search for the digital ID linked to the citation. You can directly search from the listed citation by entering the ID in the search column. <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Search by** <br> Select DOI from the drop-down to search for the digital ID linked to the citation. You can directly search from the listed citation by entering the ID in the search column. <br> DOI: Digital Object Identifier | **Search by** <br> Select DOI or PubMed ID from the drop-down to search for the digital ID linked to the citation. You can directly search from the listed citation by entering the ID in the search column. <br> DOI: Digital Object Identifier <br> |
     |**Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg) to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)  to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)to add more names. | 
     |**Title** <br> Add the title of the book. | **Title** <br> Add the title of the web page.| **Title** <br> Add the title of the article.| 
     |**Editor** <br> Add the editor of the book. | **Website Name** <br> Add the name of the website. | **Journal Title** <br> Add the title of the work in which the article is found.| 
-    |**Edition** <br> Add the edition of the book.| **URL** <br> Add the web link of the website to browse the content.| **Year** <br> Add the year in which the article is published |
+    |**Edition** <br> Add the edition of the book.| **URL** <br> Add the web link of the website to browse the content.| **Year** <br> Add the year in which the article is published. |
     |**City** <br> Add the city of the publication.| **Accessed Date**<br> Add the date on which the content of the website is accessed. | **Volume** <br> Add the volume of the work in the series. |
     |**Publisher** <br> Add the name of the publisher of the book. | **Published Date** <br> Add the date on which the content of the website is published.|**Number** <br> Add the number of the volume within the series. |
     | **Year** <br> Add the year in which the book is published.|**Updated Date** <br> Add the date on which the content of the website is updated.| **Pages** <br> Add the page number or page range in which the article is found. |
@@ -59,11 +60,11 @@ The **Add Citation** dialog box opens.
 >
 > Adding a Unique ID for the citation field is mandatory.  You cannot change the unique ID once the citation is added.
 
-## Import citations to the project
+## Import citations to a project
 
-To import a citation to the project, follow these steps:
+To import citations to a project, follow these steps:
 
-1. In the left panel, click **Citations**.
+1. In the left panel, select **Citations** ![](images/citations-icon.svg).
 
     The **Citations** panel opens.
 
@@ -77,11 +78,11 @@ Once the file is imported successfully, you can view the references in the citat
 >
 > A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
 
-### Edit a citation in the project
+### Edit a citation
 
 To edit the citation, follow these steps:
 
-1. Hover over the name of the citation from the list. Select  ![](images/options.svg) **Options** icon.
+1. Hover over the name of the citation from the list. Select  ![](images/options.svg) the **Options** icon.
 
 1. Select  **Edit**.
 
@@ -94,9 +95,9 @@ The selected citation is edited.
 >
 >You cannot change the unique ID once the citation is added.
 
-## Preview of citation in the project
+## Preview a citation 
 
-To preview the citation in the project, follow these steps:
+To preview a citation, follow these steps:
 
 Hover over the name of the citation from the list. Select     ![](images/options.svg) **Options** icon.
 
@@ -111,21 +112,42 @@ You can preview the content and format of the citation in the preview box.
 ## Insert a citation
 
 You can insert a citation to a topic.
- 1. Select the topic in the repository panel, then double-click to open it in editing window. 
- 1. Put the cursor at the location in the topic where you want to add the citation.
+ 1. Select the topic in the repository panel, then double-click to open it in the editing window. 
+ 1. Put the cursor at the location of the topic where you want to add the citation.
 
 You can insert a citation to the topic in the following ways: 
 * From the main toolbar 
+
+    ![](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+
 * From the left panel
+
+    ![](images/citation-panel-insert.png)
+
+
+> [!NOTE]
+> 
+>To view the **Citations** icon from the left panel, your system administrator must select the **Citations** option in the **Panels** tab in **Editor Settings**.
 
 |**From the main toolbar** |**From the left panel**|
 |---|---|
-|<ol> <li> In the main toolbar, select **Citations**. <li>In the **Citations** dialog, choose the citation. You can also select multiple citations. <li> Click **Done**. <br> The selected citation is added at the cursor location in your topic. <br> Alternatively, press Ctrl+5. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.<br> Press the upward and downward arrow keys to navigate through the list of citations. Press `Enter` to insert a citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon in the main toolbar.</ol>|<ol><li> In the left panel, select **Citations**. <li> Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.  <li> To select multiple citations, double-click the citation text and choose the citations. <li>Select **Done** to add them to the topic. <br> You can also select **Insert** from  ![](images/options.svg) **Options** to insert a Citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon  in the main toolbar.</ol>|
+|<ol> <li> Select the **Citations** ![](images/citations-icon.svg) icon in the main toolbar,. <li>In the **Citations** dialog, choose the citation. You can also select multiple citations. <li> Click **Done**. <br> The selected citation is added at the cursor location in your topic. <br> Alternatively, press Ctrl+5. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.<br> Press the upward and downward arrow keys to navigate through the list of citations. Press `Enter` to insert a citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon in the main toolbar.</ol>|<ol><li> Select **Citations** ![](images/citations-icon.svg) icon in the left panel,. <li> Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.  <li> To select multiple citations, double-click the citation text and choose the citations. <li>Select **Done** to add them to the topic. <br> You can also select **Insert** from  ![](images/options.svg) **Options** to insert a Citation. <li> Select the **Save All** ![](images/SaveFloppy_icon.svg) icon  in the main toolbar.</ol>|
 
 
-Once you insert citations to the project topic, you can list them in PDF output. Create a citations page in the bookmap, and add it to the table of contents. To add a citation page to your Table of Contents, view Create and manage a table of contents.
+Once you insert citations to the project topic, you can list them in PDF output. Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book gets listed on one page and appear at the end of the PDF output. To learn more about creating a page layout, view [Create a page layout](../native-pdf/components-pdf-template.md#create-page-layout).
 
-To change the view and feel of the citation page, view Customize PDF templates.
+To change the view and feel of the citation page, view [Customize PDF templates](../native-pdf/pdf-template.md).
+
+## Change citation style {#change-citation-style}
+
+Your system administrator can change the style of citations from the **Citations**  dropdown in the **General Settings** tab in the **Editor Settings**.
+
+The following options are available in the dropdown:
+
+|MLA |APA| Chicago | IEEE | AHA
+|---|---|---|---|---|
+|Who uses it? <ul><li> Literature <li> Foreign Languages <li> Communications <li> Religious Studies <li> Philosophy</ul>|Who uses it? <ul><li> Psychology <li> Education <li>Business or Economics <li> Nursing <li> Linguistic Studies</ul>|Who uses it? <ul> <li> History <li>Art History <li>Fine Arts <li> Anthropology<li>Business</ul>| Who uses it? <ul> <li>Engineering <li>Computer Science <li>Information Science</ul>| Who uses it? <li> Books <li> Music <li> Videos |
+| Example:<br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, vol 16, 2010, Amsterdam.| Example: <br> Crawford, C., J., & , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289| Example: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*. 505-16, 2010. |Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010. | Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010.
 
 ## Delete a citation
 
@@ -139,7 +161,7 @@ To delete a citation from the project, follow these steps:
 The confirmation dialog box opens.
 1. Select **Yes**.
 The selected citation is deleted from the project.
-1. Delete citation
+1. Delete the citation
 
 ### Delete a Citation from a Topic
 
@@ -149,12 +171,12 @@ In the topic, place your cursor at the end of the citation.
 
 1. Click the Delete key from the keyboard.
 
-Alternatively, if you're deleting the used citation from the citation panel directly, hover over the citation. 
+Alternatively hover over the citation, if you're deleting the used citation from the citation panel directly. 
 1. Select ![](images/Delete_icon.svg)  **Delete** from ![](images/options.svg) **Options**.
  The **Delete Citation** dialog box opens.
 
 1. Select the required option.
-    *  **Delete the citation and its references**: It deletes the citation from the project and all its references present in the topic.
+    *  **Delete the citation and its references**: It deletes the citation from the project and all its references in the topic.
     * **Delete only the citation**: It only deletes the citation but leaves the references present in the topic. 
 
 1. Select **Done**.
@@ -163,11 +185,11 @@ The selected citation is deleted from the project.
 
 ## Manage citations
 
-From the  toolbar, sort and search for citations according to the sources to use in your topic.
+From the  toolbar, sort, and search for citations according to the sources to use in your topic.
 
 ### Filter
 
-To filter the citation source list, select **Filter** ![](images/filter-search-icon.svg) ficon next to the search bar. Select the source options from the drop-down to filter the citation list. It allows both single and multiple selections. 
+Select the **Filter** ![](images/filter-search-icon.svg) icon next to the search bar and select the source options from the drop-down to filter the citation list. It allows both single and multiple selections. 
 
 * **All Sources**: It shows a complete list of citations, including all the sources.
 
@@ -181,12 +203,14 @@ To filter the citation source list, select **Filter** ![](images/filter-search-i
 
 Search the citation for your content.
 
-1. In the left panel, click Citations.
+1. In the left panel, select Citations.
 The **Citations** panel opens.
 
 1. Use the Search bar to search for the appropriate citation from a long list.
 
-### Styling of a citation
+
+
+### Apply style to a citation
 
 1. Apply formatting to the citation when added to the topic. 
 
@@ -194,4 +218,4 @@ The **Citations** panel opens.
 
 1. In the Search panel, search for `<cite>`.
 
-To learn more about styles, see [Work with the common content styles](../native-pdf/stylesheet.md)
+To learn more about styles, view [Work with the common content styles](../native-pdf/stylesheet.md).

@@ -109,6 +109,11 @@ The Editor Settings are only available to administrative users. Using the prefer
     -  **Authoring**
 
         -   **Enable Replace All**: Select this to see Replace All icon in the Find and Replace panel.
+        
+
+    -  **Citations**
+       Change the style of citations. Choose the citation style from the drop-down you want to use in your project. For more details see [Change citation styles](./web-editor-apply-citations.md#change-citation-style).
+
 
 **Panels**: This setting controls the panels that are shown in the left panel of the editor. You can toggle the switch to show or hide the desired panel.
 
