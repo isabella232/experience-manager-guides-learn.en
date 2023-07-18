@@ -279,15 +279,15 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 
    When you merge a section to its previous page or next page, the content is merged, and the style of the target section in which the content is merged is applied. 
 
-   For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**s. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
+   For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
 
-   The merge option works recursively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
+   The merge option works successively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
 
 
 **Static pages**
 
 The various page layouts help you design the output of the various sections. These sections are generated from the DITA map while you publish the output.
-You can also create custom page layouts and publish them as static pages in the PDF output. This helps you to add any static content like Notes. 
+You can also create custom page layouts and publish them as static pages in the PDF output. This helps you to add any static content like Notes or blank pages. 
  
 Perform the following steps to add a custom page layout:
 
@@ -347,10 +347,10 @@ AEM Guides provides the following out-of-the-box variables:
 * {chapter}: Adds a cross-reference to the chapter numbers. For example, See on Chapter 1.
 * {bookmarkText}: Creates a cross-reference to the bookmarked text. For example, stop_words.
 * {captionText}: Functions like a heading of an image. Creates a cross-reference to the image in your topic and shows the text of the caption for the image. For example, Airflow.
-* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number tags that you’ve defined for figure numbers.  
-* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number tags you’ve defined for table numbers. 
+* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number tags that you’ve defined for figure numbers.  For example, you can use View {figure} on page {page}. The cross reference in the output contains the auto-generated figure number and its page number, “View Figure 1 on page 5”.
+* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number tags you’ve defined for table numbers. For example, you can use View {table} on page {page}. The cross reference in the output contains the auto-generated table number and its page number, “View Table 1 on page 5”.
    
-   For example, you can use View {table} on page {page}. The cross reference in the output contains the auto-generated table number and its page number, “View Table 1 on page 5”.
+   
 
    >[!NOTE] 
    >
