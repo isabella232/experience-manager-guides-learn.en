@@ -5,12 +5,20 @@ description: Learn how to implement references by adding and applying citations 
 
 # Add citations to your content
 
-Citations are references to the source or credits to the author added to the content. Add the citations to your project and apply them to your content. You can add these citations from any source of books, websites, and journals. Citations are only visible in PDF outputs. You can find the catalog for them at the end of the PDF. There are three main reasons to include citations in your content.
+Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.
 
-* To credit the authors of the source information you use for your content.
-* To help readers to follow up on the source information.
-* To display well-researched content.
-There are different styles to display the citations having formats like MLA, APA, Chicago, IEEE, and AHA. The recommendation is to use them clearly and consistently. It makes your content more reliable and prevents plagiarism.
+In AEM Guides, you can add citations to your project and apply them to your content. You can add these citations from any source of books, websites, and journals.
+
+You can also import the citations saved in a .bib file to your project. 
+
+>[!TIP]
+>
+> A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
+
+AEM Gudies help you to edit, preview, and sort your citations. After inserting your citations to your topics, you can list them in PDF output. You can add the bibliography or references page to the end of the PDF. 
+
+AEM Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), and American Heart Association (AHA). The recommendation is to use them clearly and consistently. 
+
 
 
 
@@ -46,7 +54,7 @@ The **Add Citation** dialog box opens.
     | **Version** <br> Add the version of the book.| **Unique ID** <br> Add a unique ID for the citation. A unique ID is an identifier among all identifiers added to the project.| **URL** <br>Add the web link to the journal. |
     |**Series** <br>Add the series of the book. || **Unique ID** <br> Add a unique ID for the citation. A unique ID is an identifier among all identifiers added to the project.|
     | **URL**  <br>  Add the web link to the book.| 
-    | **Unique ID** <br> Add a unique ID for the citation. A unique ID is an identifier among all identifiers added to the project.|||
+    | **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.|||
 
  
 
@@ -74,9 +82,7 @@ To import citations to a project, follow these steps:
 Once the file is imported successfully, you can view the references in the citations panel.
 
  
->[!TIP]
->
-> A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
+
 
 ## Edit a citation
 
@@ -117,7 +123,8 @@ You can insert a citation to a topic.
  1. Select the topic in the repository panel, then double-click to open it in the editing window. 
  1. Put the cursor at the location of the topic where you want to add the citation.
 
-You can insert a citation to the topic in the following ways: 
+You can insert a citation to the topic in the following ways:
+
 * From the main toolbar 
 
     ![](images/citation-dialog-main-toolbar.png){width="300" align="left"}
@@ -187,7 +194,7 @@ The selected citation is deleted from the project.
 
 ## Manage citations
 
-From the  toolbar, sort, and search for citations according to the sources to use in your topic.
+The citations are sorted alphabetically in the left panel. Search for the citations according to the sources to use in your topic.
 
 ### Filter
 
