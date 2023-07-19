@@ -337,18 +337,18 @@ Use the Cross-reference tab to define how the cross-references are published the
 
 You can also use variables to define a cross-reference.  When you use a variable, its value is picked from the properties. You can use a single or a combination of variables to define a cross-reference. You can also use a combination of a string and a variable. 
 
-For example, you can use View details on {chapter}. If the Chapter name is “General settings,” the cross-reference in the output is “View details on General settings.” 
+For example, you can use View details on {chapter}. If the Chapter name is “General settings,” the cross-reference in the output is “See details on General settings.” 
 
 AEM Guides provides the following out-of-the-box variables:
 
-* {title}: Creates a cross-reference to the title of the topic. For example, Useful Links.
+* {title}: Creates a cross-reference to the title of the topic. For example, See Useful Links on page 2.
 * {page} Adds a cross-reference to the page numbers. For example, See on page 1.
-* {description}: Adds a cross-reference to the text of the description.
+* {description}: Adds a cross-reference to the text of the description. For example,  See the details of AEM Guides.
 * {chapter}: Adds a cross-reference to the chapter numbers. For example, See on Chapter 1.
-* {bookmarkText}: Creates a cross-reference to the bookmarked text. For example, stop_words.
-* {captionText}: Functions like a heading of an image. Creates a cross-reference to the image in your topic and shows the text of the caption for the image. For example, Airflow.
-* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number tags that you’ve defined for figure numbers.  For example, you can use "See {figure} on page {page}". The cross reference in the output contains the auto-generated figure number and its page number, “See Figure 1 on page 5”.
-* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number tags you’ve defined for table numbers. For example, you can use "See {table} on page {page}". The cross reference in the output contains the auto-generated table number and its page number, “See Table 1 on page 5”.
+* {bookmarkText}: Creates a cross-reference to the bookmarked text. For example, See stop_words on page 5.
+* {captionText}: Creates a cross-reference to caption of the figure or table in your topic. For example,  See Airflow on Page 2.
+* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number styles that you’ve defined for figcaption.  For example, you can use "See {figure} on page {page}". The cross reference in the output contains the auto-generated figure number and its page number, “See Figure 1 on page 5”.
+* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number styles you’ve defined for caption. For example, you can use "See {table} on page {page}". The cross reference in the output contains the auto-generated table number and its page number, “See Table 1 on page 5”.
    
    
 

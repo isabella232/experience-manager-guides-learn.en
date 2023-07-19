@@ -15,7 +15,7 @@ You can also import the citations saved in a .bib file to your project.
 >
 > A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
 
-AEM Gudies help you to edit, preview, and sort your citations. After inserting your citations to your topics, you can list them in PDF output. You can add the bibliography or references page to the end of the PDF. 
+AEM Guides help you to edit, preview, and sort your citations. After inserting your citations to your topics, you can list them in PDF output. You can add the bibliography or references page to the end of the PDF. 
 
 AEM Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), and American Heart Association (AHA). The recommendation is to use them clearly and consistently. 
 
