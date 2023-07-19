@@ -147,7 +147,7 @@ Once you insert citations to the project topic, you can list them in PDF output.
 
 To change the view and feel of the citation page, view [Customize PDF templates](../native-pdf/pdf-template.md).
 
-## Change citation style {#change-citation-style}
+### Change citation style {#change-citation-style}
 
 Your system administrator can change the style of citations from the **Citations**  dropdown in the **General Settings** tab in the **Editor Settings**.
 
@@ -219,7 +219,7 @@ The **Citations** panel opens.
 
 
 
-### Apply style to a citation
+## Apply style to a citation
 
 1. Apply formatting to the citation when added to the topic. 
 
