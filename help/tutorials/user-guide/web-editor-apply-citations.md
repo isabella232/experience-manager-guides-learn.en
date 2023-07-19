@@ -219,7 +219,7 @@ The **Citations** panel opens.
 
 
 
-## Apply style to a citation
+## Apply content style to a citation
 
 1. Apply formatting to the citation when added to the topic. 
 
