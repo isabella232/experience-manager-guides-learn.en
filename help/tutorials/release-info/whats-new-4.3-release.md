@@ -74,7 +74,7 @@ Metadata is the description or definition of your content. This metadata is stor
 Now In AEM Guides you can also select the metadata properties of your assets and add them to the page layout. Then AEM Guides picks these metadata properties of your assets and publishes them in your PDF output. 
 
  
-![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
+![](assets/native-pdf-metadata-asset.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -199,7 +199,7 @@ Create custom packages on top of AEM Guides to provide extensibility using AEM G
  
 Now you can also rename or move a file from the repository panel. This feature is handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
 
-![](assets/rename-move-assets.png){width="650" align="left"}
+![](assets/rename-move-assets.png){width="550" align="left"}
 
 For more details on the Options menu of a file, see the **Repository view** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
