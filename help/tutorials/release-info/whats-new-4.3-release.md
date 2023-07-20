@@ -176,6 +176,7 @@ For more details, see [Define abstract patterns](../user-guide/support-schematro
 ## Guides Extension Framework 
 
 Create custom packages on top of AEM Guides to provide extensibility using AEM Guides Extension Framework. These are useful for developers and consultants and give them extensibility to the components in the Editor. They can target buttons, dialogs, and dropdowns and add custom Javascript that can easily interoperate with AEM Guides UI.
+
 ## Rename and Move files within the Repository view
  
 Now you can also rename or move a file from the repository panel. This feature is handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
@@ -214,9 +215,9 @@ For more details, view the **Review** feature description within the [Left Panel
 
 A Map Collection helps you organize multiple maps and batch publish them. Many new enhancements have been made to the Map Collection:
 
-- Now, you can also add Native PDF output presets to a map collection and use them to generate the PDF output. 
-- You can view the global and folder profile presets created by your administrator and use them to generate the PDF output. 
-- Now, you can not only select an individual preset, but you can also enable all the folder profile presets for a DITA map in one go.
+* Now, you can also add Native PDF output presets to a map collection and use them to generate the PDF output. 
+* You can view the global and folder profile presets created by your administrator and use them to generate the PDF output. 
+* Now, you can not only select an individual preset, but you can also enable all the folder profile presets for a DITA map in one go.
 ![](assets/edit-map-collection.png){width="800" align="left"}   
 
 For more details, view [Use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
