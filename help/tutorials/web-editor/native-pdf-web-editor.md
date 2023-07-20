@@ -114,9 +114,9 @@ To use a variable, you need to define it in the `${<variable>}` format.
 For example, one of the metadata properties defined in the /`jcr:content/metadata` node is
 `dc:title`. You can specify `${dc:title}`, and the title value is used in the final output. 
 
-You can use a single or a combination of variables to define the metadata.For example, `${dc:title} ${dc:docstate}`.
+You can use a single or a combination of variables to define the metadata. For example, `${dc:title} ${dc:docstate}`.
 
-You can also use the combination of a variable and a string.  For example, `` View ${dc:title} in ${dc:language}``.
+You can also use the combination of a variable and a string.  For example, `View ${dc:title} in ${dc:language}`.
 
 
 **Layout**

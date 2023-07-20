@@ -193,7 +193,7 @@ For more details, view [Move files in bulk](../user-guide/authoring-file-managem
 
 ## Guides Extension Framework 
 
-Create custom packages on top of AEM Guides to provide extensibility using AEM Guides Extension Framework. These are useful for developers and consultants and give them extensibility to the components in the Editor. They can target buttons, dialogs, and dropdowns and add custom Javascript that can easily interoperate with AEM Guides UI.
+Create custom packages on top of AEM Guides to provide extensibility using AEM Guides Extension Framework. These are useful for developers and consultants and give them extensibility to the components in the Editor. They can target buttons, dialogs, and dropdowns and add custom JavaScript that can easily interoperate with AEM Guides UI.
 
 ## Rename and Move files within the Repository view
  
