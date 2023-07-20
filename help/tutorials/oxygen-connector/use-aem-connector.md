@@ -671,38 +671,56 @@ Solution: This issue has been observed in scenarios wherein the file path contai
 
 Issue: By default, the Oxygen Plugin for AEM Guides does not generate any logs, which makes it difficult to debug any error scenario.
 
-Solution: Perform the following steps to enable logs generation feature in the Plugin:
+Solution: Perform the following steps to  set up the loggers for oXygen and JxBrowser:
 
-1. Browse to the Oxygen XML Author's install location.
+1. Close Oxygen XML Author
 
-1. Open the oxygenAuthor19.1.vmoptions file in a text editor.
+1. Create a file named `logback.xml` with the following content:
 
-    >[!NOTE]
-    >
-    >The file's version number might differ based on the version number of the application installed on your system.
+    ```xml
+     <configuration>
+        <appender name="R2" class="ch.qos.logback.core.rolling.RollingFileAppender">
+            <file>${user.home}/Desktop/oxygenLog/oxygen.log</file>
+            <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+                <fileNamePattern>${user.home}/Desktop/oxygenLog/oxygen%i.log.gz</fileNamePattern>
+                <minIndex>1</minIndex>
+                <maxIndex>20</maxIndex>
+            </rollingPolicy>
+            <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+                <maxFileSize>100MB</maxFileSize>
+            </triggeringPolicy>
+            <encoder>
+                <pattern>%r %marker %p [ %t ] %c - %m%n</pattern>
+            </encoder>
+        </appender> 
+        
+        <root level="debug">
+            <appender-ref ref="R2" />
+        </root>
+    </configuration>   
 
-1.  Append the following line in the file:
-
-    ```java
-    -Djava.util.logging.config.file=./log.properties
     ```
 
-1. Save and close the file.
+1. Save the file in the `Oxygen Author 25` directory. (For example, the path would be: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
 
-1. In the same location, create a file named log.properties with the following content:
+1. Close the file. This will enable oXygen logs, which will be available at path: `${user.home}/Desktop/oxygenLog/oxygen.log`
+1. Open the `oxygenAuthor.bat` file in a text editor.
+1.	Setup JxBrowser-related logs by adding the parameter
+ `-Denable.aem.jx.log=true`:
+    
+
+
 
     ```java
-    handlers=java.util.logging.FileHandler
-    java.util.logging.FileHandler.level = DEBUG
-    java.util.logging.FileHandler.limit = 1048576
-    java.util.logging.FileHandler.count = 5
-    java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-    java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-    java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+    SET OXYGEN_JAVA=java.exe
+    if exist "%JAVA_HOME%\bin\java.exe" set OXYGEN_JAVA="%JAVA_HOME%\bin\java.exe"
+    if exist "%~dp0\jre\bin\java.exe" SET OXYGEN_JAVA="%~dp0\jre\bin\java.exe"
+    rem Set environment variables
+    call "%~dp0\env.bat"
+    %OXYGEN_JAVA% -XX:-OmitStackTraceInFastThrow -XX:SoftRefLRUPolicyMSPerMB=10 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true -Denable.aem.jx.log=true -Dsun.java2d.noddraw=true -Dsun.awt.nopixfmt=true -Dsun.java2d.dpiaware=true -Dsun.io.useCanonCaches=true -Dsun.io.useCanonPrefixCache=true -Dsun.awt.keepWorkingSetOnMinimize=true -Dcom.oxygenxml.app.descriptor=ro.sync.exml.AuthorFrameDescriptor -Dcom.oxygenxml.ApplicationDataFolder="%APPDATA%" -cp %CP% ro.sync.exml.Oxygen %*
     ```
+This enables JxBrowser-related logs, which you can view at path: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`
 
-1. Save and close the file.
-1. Start Oxygen XML Author.
+With the earlier steps, the logs will be enabled and you can use them to debug the problems.
 
 
-The plugin now creates logs in the user's home directory with the file name aem-pluginX.log \(*where X denotes the rotation number*\).

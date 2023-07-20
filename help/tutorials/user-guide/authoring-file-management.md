@@ -89,7 +89,7 @@ If you choose the **Move File\(s\) to New Location** option, then the existing f
 With replace or moving the files, if you choose the option to create a version from the existing copy, then a new version from the working copy of the document is created; the new file is either replaced at the existing location or moved to the new location.
 
 
-## Move files in bulk 
+## Move files in bulk {#move-files-bulk}
 
 AEM Guides comes with the Bulk Move Tool that helps an administrator to move a folder having large number of files from one location to another. This tool can easily move files within one or more folders into a different folder in your AEM repository. One of the major features of this tool is that it not only moves a large number of files, but it also maintains the references to and from the files being moved. You can tweak the number of files that you can move in batches without hampering the authoring and publishing tasks.
 

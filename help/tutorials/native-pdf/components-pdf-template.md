@@ -255,7 +255,7 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 * Glossary
 * Citation
 
-   <img src="assets/page-order-advance-settings.png" alt="Page layouts" width="550">
+   <img src="assets/page-order-advance-settings.png" alt="Page order" width="550">
 
    If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off. 
 
