@@ -72,6 +72,7 @@ If your administrator has predefined a list of labels and uploaded them in the l
 ## Publish to a content fragment
 
 Content fragments are discrete pieces of content in AEM. They are structured content based on a content model. Content fragments are pure content without design or layout information. They can be authored and managed independently of the channels that AEM supports. The modularity and reusability of the content fragments leads to greater flexibility, consistency, efficiency, and simpler management.
+
 Now AEM Guides offers a way to publish a topic or the elements within a topic to a content fragment. You can create a JSON-based mapping between a topic and a content fragment model. Use this mapping to publish content present in some or all elements within a topic to a content fragment. 
 
 Capitalize the power of AEM Guides and content fragments and use content fragments in any AEM site. You can also extract the details via APIs supported by content fragments.

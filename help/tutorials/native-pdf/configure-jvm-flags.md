@@ -5,7 +5,7 @@ description: Configure JVM flags for Native PDF Publishing
 
 # Configure JVM flags for Native PDF Publishing
 
-Native PDF publishing uses a separate JVM process to convert the files generated in the process of publishing a final PDF file. Sometimes, you need to tweak the configurations of the separate JVM running Native PDF publishing to support different scenarios. For example, to run larger workloads you should increase the maximum heap size available to the spawned JVM process.
+Native PDF publishing starts a separate JVM process to generate a PDF. You might have to tweak the configurations of this JVM to support different scenarios. For example, to run larger workloads you should increase the maximum heap size available to the spawned JVM process.
 
 Perform the following steps to configure AEM Guides Native PDF Publishing JVM flags:
 
