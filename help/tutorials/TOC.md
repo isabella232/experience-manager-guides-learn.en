@@ -40,6 +40,9 @@ breadcrumb-title: AEM Guides Tutorials
         + [February release notes](./release-info/release-notes-2022.2.0.md)
         + [January release notes](./release-info/release-notes-2022.1.0.md)
     + On-prem/Managed Services {#on-prem-release-notes}
+      + 4.3 Release {#43-release}
+        + What's new {#43-whats-new}
+          + [4.3 What's new](./release-info/whats-new-4.2.1-release.md)
       + 4.2 Release {#42-release}
         + What's new {#42-whats-new}
           + [4.2.1 What's new](./release-info/whats-new-4.2.1-release.md)
