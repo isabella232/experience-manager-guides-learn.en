@@ -705,7 +705,7 @@ Solution: Perform the following steps to  set up the loggers for oXygen and JxBr
 
 1. Close the file. This will enable oXygen logs, which will be available at path: `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Open the `oxygenAuthor.bat` file in a text editor.
-1.	Setup JxBrowser-related logs by adding the parameter
+1. Setup JxBrowser-related logs by adding the parameter
  `-Denable.aem.jx.log=true`:
     
 
@@ -719,6 +719,7 @@ Solution: Perform the following steps to  set up the loggers for oXygen and JxBr
     call "%~dp0\env.bat"
     %OXYGEN_JAVA% -XX:-OmitStackTraceInFastThrow -XX:SoftRefLRUPolicyMSPerMB=10 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true -Denable.aem.jx.log=true -Dsun.java2d.noddraw=true -Dsun.awt.nopixfmt=true -Dsun.java2d.dpiaware=true -Dsun.io.useCanonCaches=true -Dsun.io.useCanonPrefixCache=true -Dsun.awt.keepWorkingSetOnMinimize=true -Dcom.oxygenxml.app.descriptor=ro.sync.exml.AuthorFrameDescriptor -Dcom.oxygenxml.ApplicationDataFolder="%APPDATA%" -cp %CP% ro.sync.exml.Oxygen %*
     ```
+    
 This enables JxBrowser-related logs, which you can view at path: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`
 
 With the earlier steps, the logs will be enabled and you can use them to debug the problems.

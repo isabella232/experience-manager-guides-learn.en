@@ -20,7 +20,7 @@ Once added, you can view the configured connectors listed under the Data Sources
 
 Create a content snippet generator to fetch the data from a connected data source. You can then insert the data into your topics and edit it. Once you’ve created a content snippet generator, you can reuse it to insert the data into any topic. 
 
-Now you can also create a topic generator and then generate the topics using the generator.  A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics.   You also can <conref> these topics and keep your data in sync with the data source. 
+Now you can also create a topic generator and then generate the topics using the generator.  A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics.   You also can `<conref>` these topics and keep your data in sync with the data source. 
 
 For more details, view [Use data from your data source](../user-guide/web-editor-content-snippet.md).
 
@@ -123,7 +123,7 @@ Now In AEM Guides you can also select the metadata properties of your assets and
 
 For more details, see [Add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata).
 
-###  Order pages in the PDF output
+### Order pages in the PDF output
 
 You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output:
 
