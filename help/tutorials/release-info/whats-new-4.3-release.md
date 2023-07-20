@@ -34,7 +34,7 @@ After inserting your citations to your topics, you can preview them in the Web E
 
 <img  src="assets/citation-panel.png" alt= "Citations listed in a panel" width=300>
 
-For more details, view [Add citations to your content](../user-guide/web-editor-apply-citations.md).
+For more details, view [Add and manage citations in your content](../user-guide/web-editor-apply-citations.md).
 
 
 
