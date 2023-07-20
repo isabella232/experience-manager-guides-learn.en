@@ -37,7 +37,7 @@ Perform the following steps to review a topic:
     -   **A**: The name of the review task.
     -   **B**: Click the Topics View icon to show or hide the topics panel.
 
-    -   **C**: You can search for the required topic by entering some part of the text of the title or filepath in the search bar 
+    -   **C**: You can search for the required topic by entering some part of the text of the title or filepath in the search bar. 
     
         Select  ![](images/view-options.svg) near the search bar to  choose to view all topics or view topics with comments. By default, you can view all topics present in the review task.
  
