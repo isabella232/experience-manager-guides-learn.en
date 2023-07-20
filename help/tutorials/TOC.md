@@ -348,5 +348,5 @@ breadcrumb-title: AEM Guides Tutorials
     + Use Cases {#use-cases}
       + [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       + [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-+ Hidden articles {#hidden}
+
   + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
