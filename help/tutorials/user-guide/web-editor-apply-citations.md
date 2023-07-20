@@ -80,6 +80,7 @@ To import citations, follow these steps:
     >[!TIP]
     >
     > A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
+    
 Once the file is imported successfully, you can view the references in the citations panel.
 
  
