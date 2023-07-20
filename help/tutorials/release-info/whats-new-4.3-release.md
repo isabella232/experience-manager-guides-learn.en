@@ -28,55 +28,13 @@ For more details, view [Use data from your data source](../user-guide/web-editor
 
 Citations are references to the source of information added to your content. Citations assist you in establishing credibility and preventing plagiarism. Citations help the readers to locate the source and verify the information presented in the text.
 
-In AEM Guides, you can add citations to your project and apply them to your content. You can add these citations from any source of books, websites, and journals. 
+In AEM Guides, you can add citations or import citations and apply them to your content. You can add these citations from any source of books, websites, and journals. 
 
-You can also import the citations saved in a .bib file to your project. After inserting your citations to your topics, you can preview them in the Web Editor. You can also publish content with citations using Native PDF.
+After inserting your citations to your topics, you can preview them in the Web Editor. You can also publish content with citations using Native PDF.
 
 <img  src="assets/citation-panel.png" alt= "Citations listed in a panel" width=300>
 
 For more details, view [Add citations to your content](../user-guide/web-editor-apply-citations.md).
-
-## Search review topics 
-
-Conducting reviews is a critical feature of AEM Guides. It helps the reviewers to review the documents assigned to them . 
-Now you can search for a topic by entering some part of the text of the title or filepath in the search bar of the topics view of the review panel. You can also choose to view all topics or view topics with comments. By default, you can view all topics present in the review task.
-
-<img  src="assets/review-search-topic.png" alt= "Search in a review topics panel" width=800>
-
-For more details, view [Review topics](../user-guide/review-topics.md).
-
-
-## Improved Bulk Move Tool
-
-Now as an administrator, you can use the improved Bulk Move Tool to move folders with many files from one location to another. 
-You can use the browse file dialog to select the source folders you want to move. You can also browse to select the destination location to move the source folders. 
-Select  near any field to view more information about it.
-
-For more details, view [Move files in bulk](../user-guide/authoring-file-management.md#move-files-bulk).
-
-
-## Native PDF support in Bulk Publish Dashboard
-
-
-With AEM Guides' Bulk Activation feature, you can quickly and easily activate your content from authoring to publishing instance. In the Bulk Activation map, you can include the Native PDF output preset and the AEM Site, PDF, HTML5, Custom, and JSON output.
-For more details, view [Bulk activation of published content](../user-guide/conf-bulk-activation.md).
-
-
-## Add labels during check using Oxygen Plugin for AEM Guides
-
-Oxygen Plugin for AEM Guides allows you to add labels to different versions of a file while checking in a file from your local system into AEM repository.
-If your administrator has predefined a list of labels and uploaded them in the label.json file, you can choose one or more labels from the list.
-
-
-
-## Publish to a content fragment
-
-Content fragments are discrete pieces of content in AEM. They are structured content based on a content model. Content fragments are pure content without design or layout information. They can be authored and managed independently of the channels that AEM supports. The modularity and reusability of the content fragments leads to greater flexibility, consistency, efficiency, and simpler management.
-
-Now AEM Guides offers a way to publish a topic or the elements within a topic to a content fragment. You can create a JSON-based mapping between a topic and a content fragment model. Use this mapping to publish content present in some or all elements within a topic to a content fragment. 
-
-Capitalize the power of AEM Guides and content fragments and use content fragments in any AEM site. You can also extract the details via APIs supported by content fragments.
-
 
 
 
@@ -173,6 +131,66 @@ AEM Guides also supports abstract patterns in Schematron. You can define generic
 
 For more details, see [Define abstract patterns](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
 
+## Review panel to showcase review projects and the active review tasks
+
+Now AEM Guides makes your reviews more seamless. It provides the Reviews panel within the Web Editor. The Reviews panel displays all the review projects and the active review tasks within the review projects that you're part of.  
+
+As an author, this feature helps you easily open the review tasks, view the comments, and quickly address the comments in a centralized view. 
+![](assets/active-review-task-comments.png){width="800" align="left"} 
+For more details, view the **Review** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
+
+
+## Map Collection enhancements
+
+A Map Collection helps you organize multiple maps and batch publish them. Many new enhancements have been made to the Map Collection:
+
+* Now, you can also add Native PDF output presets to a map collection and use them to generate the PDF output. 
+* You can view the global and folder profile presets created by your administrator and use them to generate the PDF output. 
+* Now, you can not only select an individual preset, but you can also enable all the folder profile presets for a DITA map in one go.
+![](assets/edit-map-collection.png){width="800" align="left"}   
+
+For more details, view [Use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
+
+## Native PDF support in Bulk Publish Dashboard
+
+
+With AEM Guides' Bulk Activation feature, you can quickly and easily activate your content from authoring to publishing instance. In the Bulk Activation map, you can include the Native PDF output preset and the AEM Site, PDF, HTML5, Custom, and JSON output.
+For more details, view [Bulk activation of published content](../user-guide/conf-bulk-activation.md).
+
+
+## Add labels during check using Oxygen Plugin for AEM Guides
+
+Oxygen Plugin for AEM Guides allows you to add labels to different versions of a file while checking in a file from your local system into AEM repository.
+If your administrator has predefined a list of labels and uploaded them in the label.json file, you can choose one or more labels from the list.
+
+
+
+## Publish to a content fragment
+
+Content fragments are discrete pieces of content in AEM. They are structured content based on a content model. Content fragments are pure content without design or layout information. They can be authored and managed independently of the channels that AEM supports. The modularity and reusability of the content fragments leads to greater flexibility, consistency, efficiency, and simpler management.
+
+Now AEM Guides offers a way to publish a topic or the elements within a topic to a content fragment. You can create a JSON-based mapping between a topic and a content fragment model. Use this mapping to publish content present in some or all elements within a topic to a content fragment. 
+
+Capitalize the power of AEM Guides and content fragments and use content fragments in any AEM site. You can also extract the details via APIs supported by content fragments.
+
+## Search review topics 
+
+Conducting reviews is a critical feature of AEM Guides. It helps the reviewers to review the documents assigned to them . 
+Now you can search for a topic by entering some part of the text of the title or filepath in the search bar of the topics view of the review panel. You can also choose to view all topics or view topics with comments. By default, you can view all topics present in the review task.
+
+<img  src="assets/review-search-topic.png" alt= "Search in a review topics panel" width=800>
+
+For more details, view [Review topics](../user-guide/review-topics.md).
+
+
+## Improved Bulk Move Tool
+
+Now as an administrator, you can use the improved Bulk Move Tool to move folders with many files from one location to another. 
+You can use the browse file dialog to select the source folders you want to move. You can also browse to select the destination location to move the source folders. 
+Select  near any field to view more information about it.
+
+For more details, view [Move files in bulk](../user-guide/authoring-file-management.md#move-files-bulk).
+
 ## Guides Extension Framework 
 
 Create custom packages on top of AEM Guides to provide extensibility using AEM Guides Extension Framework. These are useful for developers and consultants and give them extensibility to the components in the Editor. They can target buttons, dialogs, and dropdowns and add custom Javascript that can easily interoperate with AEM Guides UI.
@@ -202,25 +220,6 @@ Using this format,  you can export the content to the industry standard XLIFF fo
  ![](assets/translation-project-types.png){width="350" align="left"}
 
 
-## Review panel to showcase review projects and the active review tasks
-
-Now AEM Guides makes your reviews more seamless. It provides the Reviews panel within the Web Editor. The Reviews panel displays all the review projects and the active review tasks within the review projects that you're part of.  
-
-As an author, this feature helps you easily open the review tasks, view the comments, and quickly address the comments in a centralized view. 
-![](assets/active-review-task-comments.png){width="800" align="left"} 
-For more details, view the **Review** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
-
-
-## Map Collection enhancements
-
-A Map Collection helps you organize multiple maps and batch publish them. Many new enhancements have been made to the Map Collection:
-
-* Now, you can also add Native PDF output presets to a map collection and use them to generate the PDF output. 
-* You can view the global and folder profile presets created by your administrator and use them to generate the PDF output. 
-* Now, you can not only select an individual preset, but you can also enable all the folder profile presets for a DITA map in one go.
-![](assets/edit-map-collection.png){width="800" align="left"}   
-
-For more details, view [Use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 
 ## Improved Favorites panel

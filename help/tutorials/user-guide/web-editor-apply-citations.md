@@ -3,29 +3,26 @@ title: Add citations to to your content
 description: Learn how to implement references by adding and applying citations to your content.
 ---
 
-# Add citations to your content
+# Add and manage citations in your content
 
 Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.
 
-In AEM Guides, you can add citations to your project and apply them to your content. You can add these citations from any source of books, websites, and journals.
+In AEM Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals.
 
-You can also import the citations saved in a .bib file to your project. 
 
->[!TIP]
->
-> A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
-
-AEM Guides help you to edit, preview, and sort your citations. After inserting your citations to your topics, you can list them in PDF output. You can add the bibliography or references page to the end of the PDF. 
+AEM Guides help you to edit, preview, and sort your citations. After inserting your citations to your topics, you can generate the output using Native PDF. You can also add the bibliography or references page to the end of the PDF. 
 
 AEM Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), and American Heart Association (AHA). The recommendation is to use them clearly and consistently. 
 
 
+>[!NOTE]
+>
+>Currently AEM Guides only supports Native PDF for citations.
 
 
+## Add a citation 
 
-## Add a citation to the project
-
-To add a citation to the project, follow these steps:
+To add a citation, follow these steps:
 
 1. Select the **Citations** ![](images/citations-icon.svg) icon in the left panel.
 The **Citations** panel opens.
@@ -68,9 +65,9 @@ The **Add Citation** dialog box opens.
 >
 > Adding a Unique ID for the citation field is mandatory.  You cannot change the unique ID once the citation is added.
 
-## Import citations to a project
+## Import citations 
 
-To import citations to a project, follow these steps:
+To import citations, follow these steps:
 
 1. In the left panel, select **Citations** ![](images/citations-icon.svg).
 
@@ -79,6 +76,10 @@ To import citations to a project, follow these steps:
 1. In the **Citations** panel, select  , and then select **Import** 
 .
 1. Browse a .bib file from your system and import it to the project.
+
+    >[!TIP]
+    >
+    > A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
 Once the file is imported successfully, you can view the references in the citations panel.
 
  
@@ -155,7 +156,7 @@ The following options are available in the dropdown:
 
 |MLA |APA| Chicago | IEEE | AHA|
 |---|---|---|---|---|
-|Who uses it? <ul><li> Literature <li> Foreign Languages <li> Communications <li> Religious Studies <li> Philosophy</ul>|Who uses it? <ul><li> Psychology <li> Education <li>Business or Economics <li> Nursing <li> Linguistic Studies</ul>|Who uses it? <ul> <li> History <li>Art History <li>Fine Arts <li> Anthropology<li>Business</ul>| Who uses it? <ul> <li>Engineering <li>Computer Science <li>Information Science</ul>| Who uses it? <li> Books <li> Music <li> Videos |
+|Modern Language Association Style <br> | American Psychological Association Style| Chicago Manual of Style| Institute for Electrical and Electronics Engineers Style| American Heart Association Style|
 | Example:<br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, vol 16, 2010, Amsterdam.| Example: <br> Crawford, C., J., & , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289| Example: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*. 505-16, 2010. |Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010. | Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010.|
 
 ## Delete a citation
