@@ -20,7 +20,7 @@ Once added, you can view the configured connectors listed under the Data Sources
 
 Create a content snippet to fetch the data from a connected data source. You can then insert the data into your topics and edit it. Once you’ve created a content snippet generator, you can reuse it to insert the data into any topic. 
 
-Now you can also create a topic from a connected data source.  A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics.  You can associate metadata to the topic when pulling from a data source.
+Now you can also create a topic from a connected data source. A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics. You can associate metadata to the topic when pulling from a data source.
 
 For more details, view [Use data from your data source](../user-guide/web-editor-content-snippet.md).
 
@@ -72,7 +72,7 @@ For more details, view [Review topics](../user-guide/review-topics.md).
 
 ## Guides Extension Framework 
 
-Create custom packages on top of AEM Guides to provide extensibility using AEM Guides Extension Framework. These are useful for developers and consultants and give them extensibility to the components in the Editor. They can target buttons, dialogs, and dropdowns and add custom JavaScript that can easily interoperate with AEM Guides UI.
+Create custom packages on top of AEM Guides to provide extensibility using AEM Guides Extension Framework. These packages are useful for developers and consultants and give them extensibility to the components in the Editor. They can target buttons, dialogs, and dropdowns and add custom JavaScript that can easily interoperate with AEM Guides UI.
 
 
 
@@ -142,7 +142,7 @@ For more details, view [Page Order](../native-pdf/components-pdf-template.md#pag
 
 ### Merge pages
 
-In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page.  This publishes the section in continuation with the selected page in the PDF output and there is be no page break in between.
+In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page. This publishes the section in continuation with the selected page in the PDF output and there is no page break in between.
 
 For more details, view Merge pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
 
@@ -157,10 +157,10 @@ For more details, view Static pages feature description in [Page Order](../nativ
 
 You can use variables to define a cross-reference. When you use a variable, its value is picked from the properties.
 
-Now you can use  also use {figure} and {table}.
+Now you can also use {figure} and {table}.
 Use {figure}to add a cross-reference to the figure number. It picks the figure number from the auto number styles that you’ve defined for figcaption. 
 
-Use {table} to add a cross-reference to the table number. It picks the table number from the auto number styles you’ve defined for caption.
+Use {table} to add a cross-reference to the table number. It picks the table number from the auto number styles that you’ve defined for caption.
 
 For more details, view [Cross references](../native-pdf/components-pdf-template.md##cross-references).
 
@@ -168,12 +168,12 @@ For more details, view [Cross references](../native-pdf/components-pdf-template.
 
 You can set the basic configuration settings for starting a chapter from odd or even page, the TOC structure, and define the leader line format for the TOC entries. 
 
-Now you can also start a chapter from the current page.  If you choose to do so, all chapters are published in continuation without any page breaks. For example, if a chapter ends in the middle of page 15, then the next chapter also starts from the 15th page itself.
+Now you can also start a chapter from the current page. If you choose to do so, all chapters are published in continuation without any page breaks. For example, if a chapter ends in the middle of page 15, then the next chapter also starts from the 15th page itself.
 
 
 ### Ability to access temporary HTML files while generating the native PDF output
 
-Now AEM Guides allows you to download the temporary HTML files created while generating the native PDF output. In the output preset settings, select the option to download the temporary files.  AEM Guides then allows you to download the temporary files created while generating the output using that preset. 
+Now AEM Guides allows you to download the temporary HTML files created while generating the native PDF output. In the output preset settings, select the option to download the temporary files.  AEM Guides then allow you to download the temporary files created while generating the output using that preset. 
 
 This feature enables better insights into the generation process with access to interim styles and layouts and helps you correct or change your CSS styles according to your requirements. 
 
@@ -188,7 +188,7 @@ Now the CSS editor is redesigned for a better user experience with selectors and
 
 #### Enhancement of Add Style dialog
 
-You can now add selectors to add a new style to the style list. Selectors are used to merge multiple styles together to form one efficient style form for the content. 
+You can now add selectors for adding a new style to the style list. Selectors are used to merge multiple styles together to form one efficient style form for the content. 
 
 ![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300" align="left"}
 
