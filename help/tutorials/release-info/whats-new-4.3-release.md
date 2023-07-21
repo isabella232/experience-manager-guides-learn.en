@@ -184,7 +184,7 @@ For more details, view [Create a PDF output preset](../web-editor/native-pdf-web
 
 ### Redesign of CSS editor
 
-In 4.3 release, the CSS editor is redesigned for a better user experience with selectors and style properties.
+Now the CSS editor is redesigned for a better user experience with selectors and style properties.
 
 #### Enhancement of Add Style dialog
 
