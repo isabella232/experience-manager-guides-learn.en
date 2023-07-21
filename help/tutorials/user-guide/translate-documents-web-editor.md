@@ -75,7 +75,7 @@ Before performing steps in this procedure, ensure that you have created the requ
     Besides a new translation project, you also can select from the following options:
 
     -   You can choose to **Create a structure** only for the translation project.
-    -  You can choose to **Create a new XLIFF translation project** to convert the XML content into the XML Localization Interchange File Format (XLIFF). XLIFF is an open XML-based format that is used to standardize the data transfer between various tools used in the content translation process. 
+    -  You can choose to **Create a new XLIFF translation project** to convert the XML content into the XML Localization Interchange File Format (XLIFF). XLIFF is an open XML-based format that is used to standardize the data transfer between various tools used in the content translation process. AEM Guides supports XLIFF version 1.2.
     In an XLIFF project, the content is exported to the industry standard XLIFF format, which can be provided to Translation vendors. XLIFF format empowers potential reuse of segments that you have already translated during the translation phase.  
     After the XLIFF content is translated, it can be imported into AEM Guides, creating a translated version of the original DITA project. 
 
