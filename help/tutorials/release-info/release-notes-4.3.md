@@ -6,7 +6,7 @@ description: Learn about the bug fixes and how to upgrade to  4.3 releases of Ad
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.3 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more information about the new features and enhancements, see [What's new in 4.3 release of Adobe Experience Manager Guidesw](./whats-new-4.3-release.md)
+For more information about the new features and enhancements, see [What's new in 4.3 release of Adobe Experience Manager Guides](./whats-new-4.3-release.md).
 
 ## Upgrade to 4.3 release of AEM Guides
 
@@ -88,29 +88,13 @@ The bugs fixed in various areas are listed below:
 - `conref` in ph tag | The browse dialog shown is incorrect. (9481)
 - Local links to other elements are not resolved in Web Editor. (8790)
 - Matches() function do not work in schematron feature. (11224)
+- In the Oxygen Plugin for AEM Guides, the option to open a DITA map in Web DITA Map Editor takes to the old UI. (12633)
 
-- Publishing to AEM site fails when reading temp files from pod that may have refreshed or restarted. (12113)
-
-- Native PDF | Custom attributes are not propagated to temporary HTML or PDF engine. (DXML-12005)
-- Native PDF |  Java OutOfMemoryError occurs on publishing large content. (11789)
-
-- Native PDF | Xref is printing the contents of href topic title instead of the Xref label. (11322)
-- Native PDF | Unable to save the PDF template settings. (10751)
-- Native PDF | The text extends beyond the column width on including multiple xrefs. (10876)
-- Native PDF | `<note>``</note>` element does not generate extra span title of its type. (10549)
-
-- JSON output | The `fmUuid` property on the jcr:content node of JSON is different from the "id" inside the JSON. (11564)
-- JSON Output | If the map and topic with same filename are present, JSON for the map is removed. (11524)
 
 ### Management
 
 - The "title" field in DITA map metadata properties is overwritten by `<title>` element for the map. (10702)
 - When trying to open or update the version of topics in the baseline, the "Fetching information from the server" loader runs indefinitely.(12478)
-
-
-### Oxygen Plugin for AEM Guides
-
-- In the Oxygen Plugin for AEM Guides, the option to open a DITA map in Web DITA Map Editor takes to the old UI. (12633)
 
 
 ### Review
@@ -120,6 +104,14 @@ The bugs fixed in various areas are listed below:
 ### Publishing
 
 - Publishing fails on renaming a Native PDF preset. (12564)
-
 - Duplicating a Native PDF template duplicates to the default template location instead of the provided custom template location. (12563)
 - Native PDF | The language metadata cannot be set in the generated PDF to comply with WCAG 2.0. (12407)
+- Publishing to AEM site fails when reading temp files from pod that may have refreshed or restarted. (12113)
+- Native PDF | Custom attributes are not propagated to temporary HTML or PDF engine. (DXML-12005)
+- Native PDF |  Java OutOfMemoryError occurs on publishing large content. (11789)
+- Native PDF | Xref is printing the contents of href topic title instead of the Xref label. (11322)
+- Native PDF | Unable to save the PDF template settings. (10751)
+- Native PDF | The text extends beyond the column width on including multiple xrefs. (10876)
+- Native PDF | `<note>``</note>` element does not generate extra span title of its type. (10549)
+- JSON output | The `fmUuid` property on the jcr:content node of JSON is different from the "id" inside the JSON. (11564)
+- JSON Output | If the map and topic with same filename are present, JSON for the map is removed. (11524)
