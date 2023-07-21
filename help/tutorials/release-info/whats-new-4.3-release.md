@@ -49,6 +49,7 @@ Capitalize the power of AEM Guides and content fragments and use content fragmen
 
 
 ## Review Enhancements
+
 AEM Guides now provides an improved review capability with the following functionalities:
 
 ### Review panel to showcase review projects and the active review tasks
@@ -76,6 +77,7 @@ Create custom packages on top of AEM Guides to provide extensibility using AEM G
 
 
 ## Native PDF enhancements
+
 The following Native PDF enhancements have been done in the 4.3 release to make AEM Guides a more robust product:
 
 ### Support for language variables
