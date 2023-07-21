@@ -189,6 +189,7 @@ To change the view and feel of the citation page, view [Customize PDF templates]
 
 
 ## Delete a citation
+
 You can delete a citations from the Citaitons panel or from a topic where you have inserted.
 
 ### Delete a Citation from Citations panel

@@ -82,7 +82,6 @@ The bugs fixed in various areas are listed below:
 - Not able to edit content fragment in column view with AEM Guides installed. (7342)
 - Content is lost when an unwrapped xref is under a sub element tags. (12532)
 - Approval workflow does not work when docstate is changed to "end state" from File properties of the right panel. (11026)
-
 - Asset UI | In the List view, the overlayed available columns are not mergeable. (11528)
 - Keyref is not resolved in the map view. (11490)
 - Top menu does not appear when navigating through XML editor. (10868)
@@ -104,11 +103,13 @@ The bugs fixed in various areas are listed below:
 - JSON Output | If the map and topic with same filename are present, JSON for the map is removed. (11524)
 
 ### Management
-- The “title” field in DITA map metadata properties is overwritten by <title> element for the map. (10702)
+
+- The "title" field in DITA map metadata properties is overwritten by `<title>` element for the map. (10702)
 - When trying to open or update the version of topics in the baseline, the "Fetching information from the server" loader runs indefinitely.(12478)
 
 
 ### Oxygen Plugin for AEM Guides
+
 - In the Oxygen Plugin for AEM Guides, the option to open a DITA map in Web DITA Map Editor takes to the old UI. (12633)
 
 
