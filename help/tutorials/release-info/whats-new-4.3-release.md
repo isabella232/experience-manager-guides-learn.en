@@ -6,7 +6,7 @@ description: Learn the new and enhanced features in 4.3 releases of Adobe Experi
 
 This article covers the new and enhanced features in version 4.3 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the Release notes article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](./release-notes-4.3.md).
 
 
 ## Connect to a data source and insert data into your topics
@@ -82,6 +82,7 @@ Now In AEM Guides you can also select the metadata properties of your assets and
 
 For more details, see [Add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata).
 
+
 ### Order pages in the PDF output
 
 You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output:
@@ -97,7 +98,38 @@ You can show or hide the following sections in your PDF and also arrange the ord
 
 If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off.
 
-For more details, view [Components of a PDF template](../native-pdf/components-pdf-template.md)
+For more details, view [Page Order](../native-pdf/components-pdf-template.md#page-order).
+
+### Merge pages
+
+In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page.  This publishes the section in continuation with the selected page in the PDF output and there is be no page break in between.
+
+For more details, view Merge pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+
+### Static pages
+
+You can also create custom page layouts and publish them as static pages in the PDF output. This helps you to add any static content like Notes or blank pages. 
+
+For more details, view Static pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+
+
+### Variables in Cross references
+
+You can use variables to define a cross-reference. When you use a variable, its value is picked from the properties.
+
+Now you can use  also use {figure} and {table}.
+Use {figure}to add a cross-reference to the figure number. It picks the figure number from the auto number styles that you’ve defined for figcaption. 
+
+Use {table} to add a cross-reference to the table number. It picks the table number from the auto number styles you’ve defined for caption.
+
+For more details, view [Cross references](../native-pdf/components-pdf-template.md##cross-references).
+
+### Start any chapter from the current page
+
+You can set the basic configuration settings for starting a chapter from odd or even page, the TOC structure, and define the leader line format for the TOC entries. 
+
+Now you can also start a chapter from the current page.  If you choose to do so, all chapters are published in continuation without any page breaks. For example, if a chapter ends in the middle of page 15, then the next chapter also starts from the 15th page itself.
+
 
 ### Ability to access temporary HTML files while generating the native PDF output
 

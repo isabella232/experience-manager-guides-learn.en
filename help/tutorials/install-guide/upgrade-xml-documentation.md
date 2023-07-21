@@ -9,11 +9,13 @@ exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
 >
 > Follow the upgrade instructions specific to the licensed version of your product.
 
-You can upgrade your current version of AEM Guides to version 4.2.1
--   If you are using version 4.1, 4.1.x, or 4.2, then you can directly upgrade to version 4.2.1.
--   If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.2.1.
--   If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
--   If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
+You can upgrade your current version of AEM Guides to version 4.3
+- If you are using version 4.2, or 4.2.x, then you can directly upgrade to version 4.3.
+- If you are using version 4.1, 4.1.x, or 4.2, then you need to upgrade to version 4.2.1. before upgrading to version 4.3.
+- If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.
+- If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
+- If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
+
 
 >[!NOTE]
 >
@@ -24,6 +26,7 @@ For more details, refer to the following procedures:
 -   [Upgrade from 3.8.5 to version 4.0](#id2256DK003E1)
 -   [Upgrade to version 4.2](#id22A3F500SXA)
 -   [Upgrade to version 4.2.1](#upgrade-version-4-2-1)
+-   [Upgrade to version 4.3](#upgrade-version-4-3)
 
 
 >[!IMPORTANT]
@@ -455,4 +458,54 @@ Perform the following steps for indexing the existing content and use the new fi
 
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
+
+## Upgrade to version 4.3 {#upgrade-version-4-3} 
+
+Upgrading to version 4.3 depends on the current version of AEM Guides. If you are using version 4.2 or 4.2.x then you can directly upgrade to version 4.3.
+
+>[!NOTE]
+>
+>The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
+
+****Prerequisites****
+
+Before you start the AEM Guides 4.2.1 upgrade process, ensure that you have:
+
+1.  Upgraded to AEM Guides version 4.2 or 4.2.x and completed their respective installation step.
+1.  Closed all translation tasks.
+
+
+
+## Install version 4.3
+
+1. Download 4.3 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Install version 4.3 package.
+1. Clear the browser cache after installing the package.
+
+
+## After you install version 4.3
+
+After you install AEM Guides, you may merge the various configurations applicable from the newly installed version to your setup.
+
+## Steps to post process the existing content to use the broken link report 
+
+
+Perform the following steps for post processing the existing content and using the new broken link report:
+
+1. (Optional) If there are more than 100,000 dita files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000) and then redeploy.
+
+   |PID|Property Key|Property Value|
+   |---|---|---|
+   |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 <br> Default Value: 100000|
+
+1.  Run a POST request to the server (with correct authentication) - `http://<server:port>//bin/guides/reports/upgrade`.
+
+1.  The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+1.  Once the job is complete, the previous GET request will respond with success. If job fails for some reason then failure can be seen from server logs.
+
+1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
+
 **Parent topic:**[Download and install](download-install.md)
+

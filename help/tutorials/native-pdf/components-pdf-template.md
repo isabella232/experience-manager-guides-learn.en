@@ -241,7 +241,7 @@ Set the basic configuration settings for starting a chapter from odd or even pag
 
 For more information on page layouts, see [Design a page layout](design-page-layout.md).
 
-### Page Order
+### Page Order {#page-order}
 
    You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
 
@@ -331,7 +331,7 @@ Configure the print production settings to assign printer marks, select color mo
 
    <!--For more information on applying these print settings, see *Printing preferences*.-->
 
-### Cross references
+### Cross references {#cross-references}
 
 Use the Cross-reference tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
 
