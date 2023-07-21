@@ -177,9 +177,22 @@ Now AEM Guides allows you to download the temporary HTML files created while gen
 
 This feature enables better insights into the generation process with access to interim styles and layouts and helps you correct or change your CSS styles according to your requirements. 
 
-![the advnaced settings dialog of native pdf](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![the advanced settings dialog of native pdf](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
 For more details, view [Create a PDF output preset](../web-editor/native-pdf-web-editor.md#create-output-preset).   
+
+
+### Redesign of CSS editor
+In 4.3 release, the CSS editor is redesigned for a better user experience with selectors and style properties.
+
+#### Enhancement of Add Style dialog
+You can now add selectors to add a new style to the style list. Selectors are used to merge multiple styles together to form one efficient style form for the content. 
+
+![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300" align="left"}
+
+#### Customize properties of style
+Now AEM Guides introduces you to a new properties panel under the preview section for styles. You can edit the properties of the styles more efficiently and quicky from the properties panel.
+
 
 ## Rename and Move files within the Repository view
  
