@@ -6,7 +6,7 @@ description: Learn about the bug fixes and how to upgrade to  4.3 releases of Ad
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.3 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more information about the new features and enhancements, see [What's new in 4.3 release of Adobe Experience Manager Guides](./whats-new-4.3-release.md)
+For more information about the new features and enhancements, see [What's new in 4.3 release of Adobe Experience Manager Guidesw](./whats-new-4.3-release.md)
 
 ## Upgrade to 4.3 release of AEM Guides
 
