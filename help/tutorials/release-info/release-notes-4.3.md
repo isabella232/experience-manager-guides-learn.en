@@ -14,11 +14,11 @@ For more information about the new features and enhancements, see [What's new in
 You can easily upgrade your current version of AEM Guides to version 4.3 Before you proceed with upgrading to version 4.3 of AEM Guides, you must consider the following points:
 You can upgrade your current version of AEM Guides to version 4.3
 
-* If you are using version 4.2, or 4.2.x, then you can directly upgrade to version 4.3.
-* If you are using version 4.1, 4.1.x, or 4.2, then you need to upgrade to version 4.2.1. before upgrading to version 4.3.
-* If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.
-* If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
-* If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
+- If you are using version 4.2, or 4.2.x, then you can directly upgrade to version 4.3.
+- If you are using version 4.1, 4.1.x, or 4.2, then you need to upgrade to version 4.2.1. before upgrading to version 4.3.
+- If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.
+- If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
+- If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
 
 
 
