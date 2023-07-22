@@ -1,5 +1,5 @@
 ---
-title: Add citations to to your content
+title: Add and manage citations in your content
 description: Learn how to implement references by adding and applying citations to your content.
 ---
 
@@ -37,9 +37,6 @@ The **Add Citation** dialog box opens.
     ![citation panel in the web editor](images/citation-add.png) {width="300" align="left"}
 
 
-
-
-
 1. Fill in the fields in the **Add Citation** dialog box.
 
     >![NOTE]
@@ -57,10 +54,10 @@ The **Add Citation** dialog box opens.
     |**City** <br> Add the city of the publication.| **Accessed Date**<br> Add the date on which the content of the website is accessed. | **Volume** <br> Add the volume of the work in the series. |
     |**Publisher** <br> Add the name of the publisher of the book. | **Published Date** <br> Add the date on which the content of the website is published.|**Number** <br> Add the number of the volume within the series. |
     | **Year** <br> Add the year in which the book is published.|**Updated Date** <br> Add the date on which the content of the website is updated.| **Pages** <br> Add the page number or page range in which the article is found. |
-    | **Version** <br> Add the version of the book.| **Unique ID** <br> Add a unique ID for the citation. A unique ID is an identifier among all identifiers added to the project.| **URL** <br>Add the web link to the journal. |
-    |**Series** <br>Add the series of the book. || **Unique ID** <br> Add a unique ID for the citation. A unique ID is an identifier among all identifiers added to the project.|
+    | **Version** <br> Add the version of the book.| **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.| **URL** <br>Add the web link to the journal. |
+    |**Series** <br>Add the series of the book. || **Unique ID** <br> Add a unique ID for the citation.A Unique ID is a unique identifier for that citation.|
     | **URL**  <br>  Add the web link to the book.| 
-    | **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.|||
+    | **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.|
 
  
 
@@ -83,7 +80,6 @@ To import citations, follow these steps:
     The **Citations** panel opens.
 
 1. In the **Citations** panel, select ![Add icon](images/Add_icon.svg), and then select **Import** from the dropdown.
-.
 1. Browse a .bib file from your system and import it .
 
     >[!TIP]
@@ -92,7 +88,46 @@ To import citations, follow these steps:
     
 Once the file is imported successfully, you can view the references in the citations panel.
 
+>[!NOTE]
+> <ol><li> AEM Guides imports only those citations which are unique and not already present.
+> <li> AEM Guides can import citations from a Book, Journal, or a Website. Currently it does not support citations from other sources.
  
+## Manage citations
+
+The citations are sorted alphabetically in the left panel. Search for the citations according to the sources to use in your topic.
+
+### Filter
+
+Select the **Filter** ![](images/filter-search-icon.svg) icon next to the search bar and select the source options from the drop-down to filter the citation list. It allows both single and multiple selections. 
+
+* **All Sources**: It shows a complete list of citations, including all the sources.
+
+* **Book**: It shows the list of citations sourced from books.
+
+* **Website**: It shows the list of citations sourced from websites.
+
+* **Journal**: It shows the list of citations sourced from journals.
+
+### Search
+
+Search the citation for your content.
+
+1. In the left panel, select Citations.
+The **Citations** panel opens.
+
+1. Use the Search bar to search for the appropriate citation from a long list.
+
+### Change citation style {#change-citation-style}
+
+Your system administrator can change the style of citations from the **Citations**  dropdown in the **General Settings** tab in the **Editor Settings**. 
+These styles determine the way how citations appear in the preview pane or the Native PDF output.
+
+The following options are available in the dropdown:
+
+|MLA |APA| Chicago | IEEE | AHA|
+|---|---|---|---|---|
+|Modern Language Association Style <br> | American Psychological Association Style| Chicago Manual of Style| Institute for Electrical and Electronics Engineers Style| American Heart Association Style|
+| Example:<br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, vol 16, 2010, Amsterdam.| Example: <br> Crawford, C., J., & , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289| Example: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*. 505-16, 2010. |Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010. | Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010.|
 
 
 ## Edit a citation
@@ -169,22 +204,10 @@ You can insert citations to the topic from the main toolbar or the left panel.
 
     ![insert citations](images/citation-panel-insert.png)
 1. To select multiple citations, right-click a citation in the topic and select **Modify Citation** from the shortcut menu. 
-1. Select the citations you want to insert from the **Citation** dialog.
+1. Select the citations that you want to insert from the **Citation** dialog.
 1. Select **Done** to add them to the topic.  
 
-
-
-
-
-Once you have inserted citations in the topic, you can preview them in the Web Editor. 
-
-You can also publish content with citations using Native PDF. 
-In the Native PDF ouptut the citations appear within the content where you have inserted them. When you click on any citation you are redirected to the bibliography page.
-
-Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book gets listed on one page and appear at the end of the PDF output. To learn more about creating a page layout, view [Create a page layout](../native-pdf/components-pdf-template.md#create-page-layout).
-
-
-To change the view and feel of the citation page, view [Customize PDF templates](../native-pdf/pdf-template.md).
+Once you have inserted citations in the topic, you can preview them in the Web Editor. You can also publish content with citations using Native PDF. 
 
 
 
@@ -194,7 +217,7 @@ You can delete a citations from the Citaitons panel or from a topic where you ha
 
 ### Delete a Citation from Citations panel
 
-To delete a citation from the project, follow these steps:
+To delete a citation from the Citations panel, follow these steps:
 
 1. Hover over the name of the citation from the list. 
 1. Select the ![](images/options.svg) **Options** icon.
@@ -211,58 +234,32 @@ To delete a citation that is already used in the topic, follow these steps:
 
 In the topic, place your cursor at the end of the citation.
 
-1. Click the Delete key from the keyboard.
+1. Right-click a citation in the topic and select **Modify Citation** from the shortcut menu. The Citation dialog opens.
+![shortcut menu of a citation](./images/modify-citation.png)
 
-Alternatively hover over the citation, if you're deleting the used citation from the citation panel directly. 
-1. Select ![](images/Delete_icon.svg)  **Delete** from ![](images/options.svg) **Options**.
- The **Delete Citation** dialog box opens.
+1. You can choose the citations you want to insert into the document.
 
-1. Select the required option.
-    *  **Delete the citation and its references**: It deletes the citation from the project and all its references in the topic.
-    * **Delete only the citation**: It only deletes the citation but leaves the references present in the topic. 
+    >[!NOTE]
+    >
+    >The citations that are already used in the topic are replaced with the ciations that you select from the dialog.
+
 
 1. Select **Done**.
 
+## Generate output of content with citations
+
+Once you have inserted citations in the topic, you can publish content with citations using Native PDF. 
+
+In the Native PDF output, the citations appear within the content where you have inserted them. You can also create a Bibliography page. When you click any citation, you are redirected to the bibliography page.
+
+Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book get listed on one page that appears in the PDF output. To learn more about creating a page layout, view [Create a page layout](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-## Manage citations
+To change the view and feel of the citation page, view [Customize PDF templates](../native-pdf/pdf-template.md).
 
-The citations are sorted alphabetically in the left panel. Search for the citations according to the sources to use in your topic.
 
-### Filter
 
-Select the **Filter** ![](images/filter-search-icon.svg) icon next to the search bar and select the source options from the drop-down to filter the citation list. It allows both single and multiple selections. 
-
-* **All Sources**: It shows a complete list of citations, including all the sources.
-
-* **Book**: It shows the list of citations sourced from books.
-
-* **Website**: It shows the list of citations sourced from websites.
-
-* **Journal**: It shows the list of citations sourced from journals.
-
-### Search
-
-Search the citation for your content.
-
-1. In the left panel, select Citations.
-The **Citations** panel opens.
-
-1. Use the Search bar to search for the appropriate citation from a long list.
-
-### Change citation style {#change-citation-style}
-
-Your system administrator can change the style of citations from the **Citations**  dropdown in the **General Settings** tab in the **Editor Settings**. 
-These styles determine the way how citations appear in the preview pane or the Native PDF output.
-
-The following options are available in the dropdown:
-
-|MLA |APA| Chicago | IEEE | AHA|
-|---|---|---|---|---|
-|Modern Language Association Style <br> | American Psychological Association Style| Chicago Manual of Style| Institute for Electrical and Electronics Engineers Style| American Heart Association Style|
-| Example:<br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, vol 16, 2010, Amsterdam.| Example: <br> Crawford, C., J., & , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289| Example: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*. 505-16, 2010. |Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010. | Example: <br> C. Crawford, J. , and C. , *Emotional Content of Dark Memories*. Amsterdam, 2010.|
-
-## Apply content style to a citation
+### Apply content style to a citation
 
 Apply formatting to the citation when added to the topic. 
 

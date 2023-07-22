@@ -204,7 +204,7 @@ Set the basic configuration settings for starting a chapter from odd or even pag
     
 * **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
-### Page Layouts
+### Page Layouts {#page-layouts}
 
    The Page Layouts settings give you complete control over specifying which page layout is to be used for a specific section of your document. For example, to select a layout for the Table of Contents, click the dropdown menu under the TOC field and select the layout you have designed to generate the TOC. 
 
