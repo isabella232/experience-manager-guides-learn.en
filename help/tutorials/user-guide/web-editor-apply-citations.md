@@ -7,10 +7,10 @@ description: Learn how to implement references by adding and applying citations 
 
 Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.
 
-In AEM Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals.
+In AEM Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals. 
 
 
-AEM Guides helps you to edit, preview, and sort your citations. After adding your citations into the content, you can generate the output using Native PDF. You can also add the bibliography or references page to the end of the PDF. 
+AEM Guides helps you to edit, preview, and sort your citations. After adding your citations into the content, you can generate the output using Native PDF. You can also add the bibliography or references page in the Native PDF output. 
 
 AEM Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), and American Heart Association (AHA). The recommendation is to use them clearly and consistently. 
 
@@ -86,11 +86,11 @@ To import citations, follow these steps:
     >
     > A .bib filename extension is a BibTeX Bibliographical Database file. It's a specially formatted text file that lists references about a particular source of information.
     
-Once the file is imported successfully, you can view the references in the citations panel.
+    Once the file is imported successfully, you can view the references in the citations panel.
 
->[!NOTE]
-> <ol><li> AEM Guides imports only those citations which are unique and not already present.
-> <li> AEM Guides can import citations from a Book, Journal, or a Website. Currently it does not support citations from other sources.
+    >[!NOTE]
+    > <ol><li> AEM Guides imports only those citations which are unique and not already present.
+    > <li> AEM Guides can import citations from a Book, Journal, or a Website. Currently it does not support citations from other sources.
  
 ## Manage citations
 
@@ -190,17 +190,14 @@ You can insert citations to the topic from the main toolbar or the left panel.
  
 
 ### From the left panel
-
-
-
 >[!NOTE]
 > 
 >To view the **Citations** icon from the left panel, your system administrator must select the **Citations** option in the **Panels** tab in **Editor Settings**.
 
 1. Select **Citations** ![citations icon ](images/citations-icon.svg) icon in the left panel. 
 1. Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.  
-    >[!NOTE] 
-    >You can also select **Insert** from  ![](images/options.svg) **Options** to insert a citation. 
+    
+    You can also select **Insert** from  ![](images/options.svg) **Options** to insert a citation. 
 
     ![insert citations](images/citation-panel-insert.png)
 1. To select multiple citations, right-click a citation in the topic and select **Modify Citation** from the shortcut menu. 
