@@ -190,6 +190,7 @@ You can insert citations to the topic from the main toolbar or the left panel.
  
 
 ### From the left panel
+
 >[!NOTE]
 > 
 >To view the **Citations** icon from the left panel, your system administrator must select the **Citations** option in the **Panels** tab in **Editor Settings**.
