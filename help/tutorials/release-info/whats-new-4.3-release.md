@@ -6,7 +6,7 @@ description: Learn the new and enhanced features in 4.3 releases of Adobe Experi
 
 This article covers the new and enhanced features in version 4.3 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](./release-notes-4.3.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4.3.md).
 
 
 ## Connect to a data source and insert data into your topics
@@ -249,7 +249,7 @@ Using this format,  you can export the content to the industry standard XLIFF fo
 
 A Map Collection helps you organize multiple maps and batch publish them. Many new enhancements have been made to the Map Collection:
 
-* Now, you can also add Native PDF output presets to a map collection and use them to generate the PDF output. 
+* Now, you can add Native PDF output presets to a map collection and use them to generate the PDF output. 
 * You can view the global and folder profile presets created by your administrator and use them to generate the PDF output. 
 * Now, you can not only select an individual preset, but you can also enable all the folder profile presets for a DITA map in one go.
 ![edit a map collection](assets/edit-map-collection.png){width="800" align="left"}   
