@@ -23,9 +23,9 @@ Once you have the installer, install it on your local machine where the Oxygen X
 
 -   Oxygen XML Author version 25.1
 
--   Adobe Experience Manager Guides version 3.4 or higher
+-   Adobe Experience Manager Guides version 4.3 or higher
 
--   Adobe Experience Manager version 6.5 with Service Pack 10, 11, 12, and 13
+-   Adobe Experience Manager version 6.5 with Service Pack 14, 15, 16, and 17
 
 -   Operating system supported by Oxygen XML Author version 25.1
 
@@ -245,11 +245,11 @@ Perform the following steps to configure profiling attributes:
     ![Class path tab](images/dita-extension.png){width="650" align="left"}
 
 1.  In the **Extensions** tab, make the following changes:
-1.  -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
--   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+    -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+    -   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
     The following screenshot shows the configured **Extension** tab for DITA topics:
 
-    ![Configured extenstion for DITA topics](images/dita-topic-extension-tab.png){width="650" align="left"}
+        ![Configured extenstion for DITA topics](images/dita-topic-extension-tab.png){width="650" align="left"}
 
 1.  Click **OK** on all dialog boxes to save your changes.
 
