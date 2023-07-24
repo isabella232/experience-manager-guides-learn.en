@@ -1,6 +1,6 @@
 ---
-title: Native PDF Publish Feature | Customize and configure the Native PDF feature
-description: Learn how to customize and configure the various components of the Native PDF Feature.
+title: Create and customize Native PDF templates
+description: Learn how to Create and customize Native PDF templates.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 ---
 # PDF template {#PDF-template}

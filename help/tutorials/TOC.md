@@ -312,7 +312,7 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Version management](./cs-install-guide/version-management.md)
     + Work with output generation settings {#output-gen-config-cs} 
       +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-    + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)  
+      + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)  
     + Work with custom workflows {#custom-workflow-cs}
       +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config-cs}
