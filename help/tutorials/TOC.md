@@ -312,6 +312,7 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Version management](./cs-install-guide/version-management.md)
     + Work with output generation settings {#output-gen-config-cs} 
       +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+    + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)  
     + Work with custom workflows {#custom-workflow-cs}
       +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config-cs}
@@ -353,5 +354,3 @@ breadcrumb-title: AEM Guides Tutorials
     + Use Cases {#use-cases}
       + [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       + [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-+ Hidden articles {#hidden}
-  + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
