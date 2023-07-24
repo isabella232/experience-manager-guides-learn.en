@@ -144,13 +144,13 @@ For more details, view [Page Order](../native-pdf/components-pdf-template.md#pag
 
 In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page. This publishes the section in continuation with the selected page in the PDF output and there is no page break in between.
 
-For more details, view Merge pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+For more details, view the Merge pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
 
 ### Static pages
 
 You can also create custom page layouts and publish them as static pages in the PDF output. This helps you to add any static content like Notes or blank pages. 
 
-For more details, view Static pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+For more details, view the Static pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
 
 
 ### Variables in cross references
