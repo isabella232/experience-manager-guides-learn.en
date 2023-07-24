@@ -6,7 +6,7 @@ description: Learn the new and enhanced features in 4.3 releases of Adobe Experi
 
 This article covers the new and enhanced features in version 4.3 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4.3.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release,  [Release notes](./release-notes-4.3.md).
 
 
 ## Connect to a data source and insert data into your topics
@@ -105,7 +105,7 @@ For more details, view [Support for language variables](../native-pdf/native-pdf
 
 Now you can add a watermark to the PDF output of the document which is yet not approved. This watermark does not appear if you generate the PDF for the document in ‘Approved’ docstate. For example, you can add a watermark Draft for your PDF output.
 
-For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
+For more details, view [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
 ### Ability to use AEM metadata in PDF layouts
 
@@ -120,7 +120,7 @@ Now In AEM Guides you can also select the metadata properties of your assets and
 >
 > AEM Guides also supports the metadata properties for your DITA maps. 
 
-For more details, see [Add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata).
+For more details, view [Add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata).
 
 
 ### Order pages in the PDF output
@@ -203,7 +203,7 @@ Now you can also rename or move a file from the repository panel. This feature i
 
 ![options menu of a file](assets/rename-move-assets.png){width="550" align="left"}
 
-For more details on the Options menu of a file, see the **Repository view** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+For more details on the Options menu of a file, view the **Repository view** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 ## Broken Links report in the Web Editor
 
@@ -220,13 +220,13 @@ For more details, see [View and fix broken links](../user-guide/reports-web-edit
 
 AEM Guides also now supports the report statements with the Schematron. A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters.
 
-For more details, see [Use assert and report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
+For more details, view [Use assert and report statements to check for rules](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Use Regex expressions
 
 You can also use Regex expressions to define a rule with matches() function and then perform validation using the Schematron file.
 
-For more details, see [Use Regex expresstions](../user-guide/support-schematron-file.md#schematron-assert-report).
+For more details, view [Use Regex expresstions](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 
 ### Define abstract patterns
@@ -234,13 +234,13 @@ For more details, see [Use Regex expresstions](../user-guide/support-schematron-
 AEM Guides also supports abstract patterns in Schematron. You can define generic abstract patterns and reuse these abstract patterns. Abstract patterns can simplify your Schematron schema and also help you manage and update your validation logic. 
 
 
-For more details, see [Define abstract patterns](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
+For more details, view [Define abstract patterns](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
 
 ## Support for XLIFF format in translation
 
 AEM Guides also provides the support for XML Localization Interchange File Format (XLIFF) format in translation. Now you can also choose to **Create a new XLIFF translation project** to convert the XML content into the XLIFF format. AEM Guides supports XLIFF version 1.2.
 
-Using this format,  you can export the content to the industry standard XLIFF format, and then provide the same to the translation vendors. For more details, see [Create a translation project](../user-guide/translate-documents-web-editor.md#create-translation-project).
+Using this format,  you can export the content to the industry standard XLIFF format, and then provide the same to the translation vendors. For more details, view [Create a translation project](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
  ![types of translation projects](assets/translation-project-types.png){width="350" align="left"}
 
@@ -285,7 +285,7 @@ AEM Guides helps you create a collection or favorite list of your  files and fol
 >
 > You can also refresh the list using the **Refresh** icon on the top.
 
-For more details on the **Options** menu of a Favorites collection, see the **Favorites** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+For more details on the **Options** menu of a Favorites collection, view the **Favorites** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 ## Switch to the system theme
 
@@ -293,4 +293,4 @@ You can also now use the device theme. Using the **User Preferences**, you can c
 
 ![user preferences](assets/device-theme-user-preferences.png){width="550" align="left"}
 
-For more details, see the **User Preferences** feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.
+For more details, view the **User Preferences** feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.
