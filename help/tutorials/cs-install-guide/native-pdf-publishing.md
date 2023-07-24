@@ -7,9 +7,10 @@ description: Learn how to customize and configure the various components of the 
 
 # Native PDF Publishing
 
-With AEM Guides, you can generate PDFs of individual topics or a map file. You can customize and use PDF templates while generating the Native PDF output. You can create and design page layouts to present the various sections in the PDF output. 
+With AEM Guides, you can generate PDFs of individual topics or a map file using the Native PDF output generation feature. You can customize and use PDF templates while generating the PDF output. You can create and design page layouts to present the various sections in the PDF output as per your requirements.
 
-AEM Guides supports language variables to help you define localized strings. It allows you to define styles for various elements present in your PDF output. You also can work with CSS directly to create advanced page layouts.
+In addition, AEM Guides also support language variables to help you define localized strings. It also allows you to define styles for various elements present in your PDF output. If you are an advanced user, you also can work with CSS directly to create advanced page layouts.
+
 
 For more details, view the following:
 * [PDF Template](../native-pdf/pdf-template.md)
