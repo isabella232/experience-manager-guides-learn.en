@@ -115,3 +115,12 @@ The bugs fixed in various areas are listed below:
 - Native PDF | `<note>``</note>` element does not generate extra span title of its type. (10549)
 - JSON output | The `fmUuid` property on the jcr:content node of JSON is different from the "id" inside the JSON. (11564)
 - JSON Output | If the map and topic with same filename are present, JSON for the map is removed. (11524)
+
+## Known issue
+
+Adobe has identified the following known issue for AEM Guides 4.3 release: 
+
+* Common page layout defined in the Basic template is not getting applied as default template.
+
+    Workaround:
+    Add Common page layout as front and back cover then it starts coming for every page.
