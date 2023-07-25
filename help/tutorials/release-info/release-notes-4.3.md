@@ -120,7 +120,7 @@ The bugs fixed in various areas are listed below:
 
 Adobe has identified the following known issue for AEM Guides 4.3 release: 
 
-* Common page layout defined in the Basic template is not getting applied as default template.
+- Common page layout defined in the Basic template is not getting applied as default template.
 
     Workaround:
     Add Common page layout as front and back cover then it starts coming for every page.
