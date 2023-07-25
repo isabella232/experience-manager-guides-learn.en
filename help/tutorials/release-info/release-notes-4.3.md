@@ -2,7 +2,7 @@
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.3 release
 description: Learn about the bug fixes and how to upgrade to  4.3 releases of Adobe Experience Manager Guides
 ---
-# 4.3 release of Adobe Experience Manager Guides (May 2023)
+# 4.3 release of Adobe Experience Manager Guides (July 2023)
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.3 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
