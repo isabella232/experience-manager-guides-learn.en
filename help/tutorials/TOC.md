@@ -40,6 +40,11 @@ breadcrumb-title: AEM Guides Tutorials
         + [February release notes](./release-info/release-notes-2022.2.0.md)
         + [January release notes](./release-info/release-notes-2022.1.0.md)
     + On-prem/Managed Services {#on-prem-release-notes}
+      + 4.3.0 Release {#43-release}
+        + What's new {#43-whats-new}
+          + [4.3.0 What's new](./release-info/whats-new-4.3-release.md)
+        + Release notes {#43-release-notes}
+          + [4.3.0 Release Notes](./release-info/release-notes-4.3.md)
       + 4.2 Release {#42-release}
         + What's new {#42-whats-new}
           + [4.2.1 What's new](./release-info/whats-new-4.2.1-release.md)
@@ -79,7 +84,8 @@ breadcrumb-title: AEM Guides Tutorials
           + [Web Editor views](./user-guide/web-editor-views.md)
           + [Support for Schematron files](./user-guide/support-schematron-file.md)
           + [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
-          + [Insert a content snippet from your data source](./user-guide/web-editor-content-snippet.md)
+          + [Add citations to your content](./user-guide/web-editor-apply-citations.md)
+          + [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
           + [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
           + Article-based publishing {#article-based-pub}
             + [Article-based publishing from the Web Editor](./user-guide/web-editor-article-publishing.md)
@@ -205,6 +211,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Customize Web Editor](./install-guide/conf-web-editor.md)
       + [Customize toolbar](./install-guide/conf-web-editor-customize-toolbar.md)
       + [Configure default value for the Tags View](./install-guide/configure-default-value-tags-view.md)
+      + [Configure the title for Check in and Check out icons](./install-guide/conf-checkin-checkout-title.md)
       + [Configure display of UUID-based links](./install-guide/conf-uuid-based-links.md)
       + [Open DITA topic or map files in same tab](./install-guide/open-dita-files-same-tab.md)
       + [Configure a custom panel in the left panel](./install-guide/configure-custom-panel.md)
@@ -218,6 +225,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configure text filters](./install-guide/config-text-filters.md)
       + [Configure the number of LimitReads for a query](./install-guide/conf-query-limitreads.md)
       + [Install packages for Article-based publishing](./install-guide/configure-article-based-publishing.md)
+      + [Configure a data source connector](./install-guide/conf-data-source-connector.md)
       + [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
     + Work with global and folder-level profiles {#global-folder-profiles}
@@ -240,6 +248,7 @@ breadcrumb-title: AEM Guides Tutorials
             + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
             + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
             + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
+        + [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
     + Work with custom workflows {#custom-workflow}
       + [Configure and customize workflows](./install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config}
@@ -303,6 +312,7 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Version management](./cs-install-guide/version-management.md)
     + Work with output generation settings {#output-gen-config-cs} 
       +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+      + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)  
     + Work with custom workflows {#custom-workflow-cs}
       +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config-cs}
@@ -345,3 +355,4 @@ breadcrumb-title: AEM Guides Tutorials
       + [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       + [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
   + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
+

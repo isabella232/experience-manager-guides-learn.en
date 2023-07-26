@@ -109,6 +109,11 @@ The Editor Settings are only available to administrative users. Using the prefer
     -  **Authoring**
 
         -   **Enable Replace All**: Select this to see Replace All icon in the Find and Replace panel.
+        
+
+    -  **Citations**
+       Change the style of citations. Choose the citation style from the drop-down you want to use in your project. For more details see [Change citation styles](./web-editor-apply-citations.md#change-citation-style).
+
 
 **Panels**: This setting controls the panels that are shown in the left panel of the editor. You can toggle the switch to show or hide the desired panel.
 
@@ -424,11 +429,20 @@ Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png),
 
 If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
 
-**Lock/Unlock** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Check out/Check in** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
-Locks or unlocks the current file. Locking \(or checking\) out a file gives the user exclusive write access on the file. When the file is Unlocked \(or checked-in\), the changes are saved in the current version of the file.
+Checks out or checks in the current file. Checking out a file gives the user exclusive write access to the file. When the file is checked-in, the changes are saved in the current version of the file.
 
-If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can click on the Lock icon to get the lock on all files within the map.
+If you are in the Map View and you expand the parent map, you can check out all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Check out**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
+
+>[!NOTE]
+>
+> When you check in a file that has any unsaved changes, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
+ 
+The tooltip for Check in/Check out is determined by the title property in the `ui_config.json` file.
+
+For more details, view [Configure the title for Check in and Check out icons](../install-guide/conf-checkin-checkout-title.md) in the On-premise Installation and configuration Guide.
+
 
 **Toggle Tags View** - ![](images/Label_icon.svg)
 
@@ -789,8 +803,9 @@ The various options in the Options menu are explained below:
 
     >[!NOTE]
     >
-    > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
-
+    > - If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
+    > - When you check in a file that has any unsaved changes, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
+    
 -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 
     ![](images/quick-preview_cs.png){width="800" align="left"}
@@ -984,16 +999,20 @@ You can perform the following actions using the Options menu:
 -   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
 
 -   **Check Out**: Check out the selected file. For a checked out file, this option changes to **Check In**.
+    
+
 
     >[!NOTE]
     >
-    > If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
+    > - If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
+    > - When you check in a file, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
 
 -   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
 -   **Copy**: You can choose from the following options:
     -   **Copy UUID**: Copy the UUID of the selected file to Clipboard.
     -   **Copy Path**: Copy complete path of the selected file to Clipboard.
 
+    
 -   **Locate in Repository**: Shows the location of the selected file in the repository \(or DAM\).
 -   **Expand All**: Expand all topics in the map files.
 

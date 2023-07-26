@@ -20,6 +20,13 @@ You can edit a bulk activation map collection by adding or removing map file or 
 1.  Click **Edit**.
 
     The bulk activation map collection page appears wherein you are shown the maps along with their pre-configured presets for each available locale.
+    You can view the various types of output presets along with their icons such as AEM Site, PDF, Native PDF, HTML5, Custom, and JSON output
+.
+    
+    >[!NOTE]
+    >
+    > The small ![](images/global-preset-icon.svg) icon indicates a folder profile level preset.
+   
 
 1.  Use the slider to turn on of off the desired output preset that you want to activate or deactivate.
 
@@ -27,7 +34,7 @@ You can edit a bulk activation map collection by adding or removing map file or 
 
 1.  Click **Delete**.
 
-    ![](images/bulk-activation-delete-map.png){width="800" align="left"}
+    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
     The selected map is removed from the bulk activation map collection.
 
