@@ -9,10 +9,10 @@ exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
 >
 > Follow the upgrade instructions specific to the licensed version of your product.
 
-You can upgrade your current version of AEM Guides to version 4.3
-- If you are using version 4.2, or 4.2.x, then you can directly upgrade to version 4.3.
-- If you are using version 4.1, 4.1.x, or 4.2, then you need to upgrade to version 4.2.1. before upgrading to version 4.3.
-- If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.
+You can upgrade your current version of AEM Guides to version 4.3.0
+- If you are using version 4.2, or 4.2.x, then you can directly upgrade to version 4.3.0.
+- If you are using version 4.1, 4.1.x, or 4.2, then you need to upgrade to version 4.2.1. before upgrading to version 4.3.0.
+- If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.0.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
 
@@ -26,7 +26,7 @@ For more details, refer to the following procedures:
 -   [Upgrade from 3.8.5 to version 4.0](#id2256DK003E1)
 -   [Upgrade to version 4.2](#id22A3F500SXA)
 -   [Upgrade to version 4.2.1](#upgrade-version-4-2-1)
--   [Upgrade to version 4.3](#upgrade-version-4-3)
+-   [Upgrade to version 4.3.0](#upgrade-version-4-3)
 
 
 >[!IMPORTANT]
@@ -459,9 +459,9 @@ Perform the following steps for indexing the existing content and use the new fi
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
 
-## Upgrade to version 4.3 {#upgrade-version-4-3} 
+## Upgrade to version 4.3.0 {#upgrade-version-4-3} 
 
-Upgrading to version 4.3 depends on the current version of AEM Guides. If you are using version 4.2 or 4.2.x then you can directly upgrade to version 4.3.
+Upgrading to version 4.3.0 depends on the current version of AEM Guides. If you are using version 4.2 or 4.2.x then you can directly upgrade to version 4.3.0.
 
 >[!NOTE]
 >
@@ -476,14 +476,15 @@ Before you start the AEM Guides 4.3.0 upgrade process, ensure that you have:
 
 
 
-## Install version 4.3
+## Install version 4.3.0
 
-1. Download 4.3 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Install version 4.3 package.
+1. Download 4.3.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Install version 4.3.0 package.
 1. Clear the browser cache after installing the package.
+1. Upgrade the `ui_config.json` file from the **XML Editor Configuration** tab in the Folder Profile.
 
 
-## After you install version 4.3
+## After you install version 4.3.0
 
 After you install AEM Guides, you may merge the various configurations applicable from the newly installed version to your setup.
 

@@ -1,10 +1,10 @@
 ---
-title: Release Notes | What's New in Adobe Experience Manager Guides 4.3 release
-description: Learn the new and enhanced features in 4.3 releases of Adobe Experience Manager Guides
+title: Release Notes | What's New in Adobe Experience Manager Guides 4.3.0 release
+description: Learn the new and enhanced features in 4.3.0 releases of Adobe Experience Manager Guides
 ---
-# What's new in 4.3 release of Adobe Experience Manager Guides (July 2023)
+# What's new in 4.3.0 release of Adobe Experience Manager Guides (July 2023)
 
-This article covers the new and enhanced features in version 4.3 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
+This article covers the new and enhanced features in version 4.3.0 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release,  [Release notes](./release-notes-4.3.md).
 
@@ -78,7 +78,7 @@ Create custom packages on top of AEM Guides to provide extensibility using AEM G
 
 ## Native PDF enhancements
 
-The following Native PDF enhancements have been done in the 4.3 release to make AEM Guides a more robust product:
+The following Native PDF enhancements have been done in the 4.3.0 release to make AEM Guides a more robust product:
 
 ### Support for language variables
 
@@ -268,12 +268,6 @@ Now as an administrator, you can use the improved Bulk Move Tool to move folders
 You can use the browse file dialog to select the source folders you want to move. You can also browse to select the destination location to move the source folders. Select ![info icon](assets/info-icon.svg) {width="25" align="left"} near a field to view more information about it.
 
 For more details, view [Move files in bulk](../user-guide/authoring-file-management.md#move-files-bulk).
-
-## Add labels during file check-in using Oxygen Plugin for AEM Guides
-
-Oxygen Plugin for AEM Guides allows you to add labels to different versions of a file while checking in a file from your local system into AEM repository.
-If your administrator has predefined a list of labels and uploaded them in the label.json file, you can choose one or more labels from the list.
-
 
 ## Improved Favorites panel
 
