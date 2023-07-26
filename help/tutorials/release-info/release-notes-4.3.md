@@ -76,7 +76,6 @@ The bugs fixed in various areas are listed below:
 - Search results are disabled in the Find and Replace panel after opening one searched file. (12142)
 - The “8” number key on the side keyboard isn’t working in the AEM Guides editor. (12106)
 - Inline/Display attributes do not show up in the Layout view of the Web Editor. (12498)
-- Upload files in Oxygen Plugin for AEM Guides is not working in cloud services if you have ! in the file name. (12207)
 - Global Profile UI config does not match with Folder Profile. (11970)
 - Content references are broken when DITA files are copied and pasted. (11959)
 - Not able to edit content fragment in column view with AEM Guides installed. (7342)
@@ -88,7 +87,7 @@ The bugs fixed in various areas are listed below:
 - `conref` in ph tag | The browse dialog shown is incorrect. (9481)
 - Local links to other elements are not resolved in Web Editor. (8790)
 - Matches() function do not work in schematron feature. (11224)
-- In the Oxygen Plugin for AEM Guides, the option to open a DITA map in Web DITA Map Editor takes to the old UI. (12633)
+
 
 
 ### Management

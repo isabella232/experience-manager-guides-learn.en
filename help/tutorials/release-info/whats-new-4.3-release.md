@@ -6,7 +6,7 @@ description: Learn the new and enhanced features in 4.3.0 releases of Adobe Expe
 
 This article covers the new and enhanced features in version 4.3.0 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release,  [Release notes](./release-notes-4.3.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4.3.md).
 
 
 ## Connect to a data source and insert data into your topics
