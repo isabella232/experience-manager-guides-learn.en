@@ -469,7 +469,7 @@ Upgrading to version 4.3 depends on the current version of AEM Guides. If you ar
 
 ****Prerequisites****
 
-Before you start the AEM Guides 4.2.1 upgrade process, ensure that you have:
+Before you start the AEM Guides 4.3.0 upgrade process, ensure that you have:
 
 1.  Upgraded to AEM Guides version 4.2 or 4.2.x and completed their respective installation step.
 1.  Closed all translation tasks.
