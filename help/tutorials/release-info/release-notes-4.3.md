@@ -136,4 +136,5 @@ Adobe has identified the following known issue for AEM Guides 4.3.0 release:
 
         *(Add the missing closing anchor tag at the end).
         ```
+        
     1. Save the file.
