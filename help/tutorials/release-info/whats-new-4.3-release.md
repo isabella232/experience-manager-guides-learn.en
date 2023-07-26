@@ -188,7 +188,7 @@ Now the CSS editor is redesigned for a better user experience with selectors and
 
 #### Enhancement of Add Style dialog
 
-You can now add selectors for adding a new style to the style list. Selectors are used to merge multiple styles together to form one efficient style form for the content. 
+You can now use custom selectors to add complex styles. The new Selector field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create `table a.link` style for all the hyperlinks inside a table.
 
 ![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300" align="left"}
 
