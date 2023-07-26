@@ -269,11 +269,11 @@ You can use the browse file dialog to select the source folders you want to move
 
 For more details, view [Move files in bulk](../user-guide/authoring-file-management.md#move-files-bulk).
 
-
 ## Add labels during file check-in using Oxygen Plugin for AEM Guides
 
 Oxygen Plugin for AEM Guides allows you to add labels to different versions of a file while checking in a file from your local system into AEM repository.
 If your administrator has predefined a list of labels and uploaded them in the label.json file, you can choose one or more labels from the list.
+
 
 ## Improved Favorites panel
 
