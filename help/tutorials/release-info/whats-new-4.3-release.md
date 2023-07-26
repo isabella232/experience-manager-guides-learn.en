@@ -194,7 +194,7 @@ You can now add selectors for adding a new style to the style list. Selectors ar
 
 #### Customize properties of style
 
-Now AEM Guides introduces you to a new properties panel under the preview section for styles. You can edit the properties of the styles more efficiently and quicky from the properties panel.
+Now AEM Guides introduces you to a new properties panel under the preview section for styles. You can edit the properties of the styles more efficiently and quickly from the properties panel.
 
 
 ## Rename and Move files within the Repository view
@@ -226,7 +226,7 @@ For more details, view [Use assert and report statements to check for rules](../
 
 You can also use Regex expressions to define a rule with matches() function and then perform validation using the Schematron file.
 
-For more details, view [Use Regex expresstions](../user-guide/support-schematron-file.md#schematron-assert-report).
+For more details, view [Use Regex expressions](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 
 ### Define abstract patterns
