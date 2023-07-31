@@ -10,8 +10,9 @@ exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
 > Follow the upgrade instructions specific to the licensed version of your product.
 
 You can upgrade your current version of AEM Guides to version 4.3.0
+
 - If you are using version 4.2, or 4.2.x, then you can directly upgrade to version 4.3.0.
-- If you are using version 4.1, 4.1.x, or 4.2, then you need to upgrade to version 4.2.1. before upgrading to version 4.3.0.
+- If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.2 or 4.2.x before upgrading to version 4.3.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.0.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
@@ -499,12 +500,19 @@ Perform the following steps for post processing the existing content and using t
    |---|---|---|
    |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 <br> Default Value: 100000|
 
-1.  Run a POST request to the server (with correct authentication) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Execute the following APIs to run post-processing on all the files:
 
-1.  The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+    |End Point| /bin/guides/reports/upgrade|
+    |---|---|
+    |Request Type| **POST**  This script is a POST request hence should be executed via agents like Postman. |
+    | Expected Response | The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point.<br> Sample URL: `http://<server:port>/bin/guides/reports/upgrade`|
 
-1.  Once the job is complete, the previous GET request will respond with success. If job fails for some reason then failure can be seen from server logs.
+    |End Point| /bin/guides/reports/upgrade|
+    |---|---|
+    |Request Type| **GET** |
+    |Param| jobId: Pass the jobId received from the previous post request.|
+    |Expected Response | - Once the job is complete, the GET request responds with success. <br> - In case there are errors,  share the error logs along with API output with your customer success team.  <br>Sample URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 

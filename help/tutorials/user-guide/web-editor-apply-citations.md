@@ -39,7 +39,7 @@ The **Add Citation** dialog box opens.
 
 1. Fill in the fields in the **Add Citation** dialog box.
 
-    >![NOTE]
+    >[!NOTE]
     >
     >You can also add the ISBN or DOI or PubMed ID. AEM Guides populates the other fields automatically. 
 
