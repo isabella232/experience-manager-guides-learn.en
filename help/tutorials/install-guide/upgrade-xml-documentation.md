@@ -504,12 +504,12 @@ Perform the following steps for post processing the existing content and using t
     |End Point| /bin/guides/reports/upgrade|
     |---|---|
     |Request Type| **POST**  This script is a POST request hence should be executed via agents like Postman. |
-    | Expected Response | The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point.<br> Sample URL: `http://<server:port>/bin/guides/reports/upgrade`.
+    | Expected Response | The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point.<br> Sample URL: `http://<server:port>/bin/guides/reports/upgrade`|
 
     |End Point| /bin/guides/reports/upgrade|
     |---|---|
     |Request Type| **GET** Param: jobId Pass the jobId received from the previous post request.|
-    |Expected Response | - Once the job is complete, the GET request responds with success. <br> - In case there are errors,  share the error logs along with API output with your customer success team.  <br>Sample URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` 
+    |Expected Response | - Once the job is complete, the GET request responds with success. <br> - In case there are errors,  share the error logs along with API output with your customer success team.  <br>Sample URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
