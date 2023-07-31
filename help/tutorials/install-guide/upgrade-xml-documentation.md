@@ -499,7 +499,7 @@ Perform the following steps for post processing the existing content and using t
    |---|---|---|
    |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 <br> Default Value: 100000|
 
-1. Execute the following APIs to execute the post processing on all the files:
+1. Execute the following APIs to run post-processing on all the files:
 
     |End Point| /bin/guides/reports/upgrade|
     |---|---|
