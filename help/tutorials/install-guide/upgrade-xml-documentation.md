@@ -10,8 +10,9 @@ exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
 > Follow the upgrade instructions specific to the licensed version of your product.
 
 You can upgrade your current version of AEM Guides to version 4.3.0
+
 - If you are using version 4.2, or 4.2.x, then you can directly upgrade to version 4.3.0.
-- If you are using version 4.1, 4.1.x, or 4.2, then you need to upgrade to version 4.2.1. before upgrading to version 4.3.0.
+- If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.2 or 4.2.x before upgrading to version 4.3.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.0.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
@@ -508,7 +509,8 @@ Perform the following steps for post processing the existing content and using t
 
     |End Point| /bin/guides/reports/upgrade|
     |---|---|
-    |Request Type| **GET** Param: jobId Pass the jobId received from the previous post request.|
+    |Request Type| **GET** |
+    |Param| jobId: Pass the jobId received from the previous post request.|
     |Expected Response | - Once the job is complete, the GET request responds with success. <br> - In case there are errors,  share the error logs along with API output with your customer success team.  <br>Sample URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
