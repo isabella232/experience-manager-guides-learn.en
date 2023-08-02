@@ -25,15 +25,17 @@ Select a data source to view the content snippet generators and the topic genera
 ### List View  ![](images/data-sources-list-view-icon.svg) 
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
-
+*List of connected data sources.*
  
 ### Tile View   ![](images/data-sources-tile-view-icon.svg) 
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
+*View the connected data sources as tiles.* 
 
 You can use the data from data sources in two ways:
 - Insert a content snippet
 - Create a topic 
+
 
 
 ## Insert a content snippet from your data source
@@ -47,6 +49,7 @@ Perform the following steps to create a content snippet using the content snippe
 1. Select a data source to view the content snippet generators available for the selected data source.
 
     ![](images/code-snippet-generator.png){width="300" align="left"}
+*The Data Sources panel lists the available content snippet generators.* 
 
 1. Select **Add** to add a new content snippet generator. The **Add content snippet generator** panel opens.
 
@@ -69,6 +72,8 @@ The out-of-the-box templates for the selected data source are displayed in the d
 
     1. The source view shows the data in the DITA source view. 
  ![](images/add-content-snippet-generator.png){width="800" align="left"}
+ *Add a content snippet generator. View the data in source or preview mode.* 
+
 1. To save the results of the query, enter the name of the generator and then click **ADD**.   A new content snippet generator is added to the list.
 
     >[!NOTE]
@@ -95,7 +100,7 @@ Right-click on a content snippet generator to open the Options. Using the option
 You can also use the **Insert Query Snippet** ![](images/data-source-icon.svg)   from the main toolbar to insert the data snippet into the topics.  You can select a generator from the dropdown, edit your query, or change the template and insert the data in your topic.
 
 ![](images/insert-content-snippet.png){width="800" align="left"}
- 
+ *Edit and insert a data snippet.*
 
 ## Create a topic using the topic generator 
 
@@ -112,6 +117,8 @@ Perform the following steps to create a topic using the topic generator:
 1. Select a data source to view the content snippet generators and the topic generators available for the selected data source.
  
     ![](images/data-sources.png){width="300" align="left"}
+    *Add a topic generator for a connected data source.*
+
 1. Select **Add** ![](images/Add_icon.svg) and select **Topic generator** from the dropdown to add a new topic generator. The **Add topic generator** panel opens.
 
 
@@ -121,7 +128,7 @@ Perform the following steps to create a topic using the topic generator:
      **Fetch Configuration**
      
       ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
-
+        *Add the Data Query, Data mapping template, and Root node for the topic generator and give it a unique name in the Fetch Configuration panel.*
 
       1. Enter the query in the **Data query** text box.
       1. Select the template which maps with your data source from the **Data mapping template** dropdown.
@@ -142,7 +149,8 @@ Perform the following steps to create a topic using the topic generator:
     **Output Configuration**
 
     ![](images/topic-generator-output-configuration.png){width="300" align="left"}
- 
+    *Enter the Output path, Topic naming convention in the Output Configuration panel. Generate a DITA map and name it.*
+
      1. Enter the **Output path** details where you want to save your topics.
      1. In the **Topic naming convention**, you can enter a value or a variable with velocity tags. The new topics will follow the convention. For example, you can enter the `$key` to create topics based on Jira keys.
      1. Enable the option **Generate a map** if you want to create a map that contains all the generated topics.      
@@ -160,7 +168,7 @@ Perform the following steps to create a topic using the topic generator:
 
    ![](images/topic-generator-metadata.png){width="300" align="left"}
  
-
+    *Add the metadata properties in the Metadata panel to pass to the topics.*
 
 1. Enter the generator’s name and click **Save** to save the query results. A new topic generator is added to the list.
 
@@ -170,6 +178,8 @@ Perform the following steps to create a topic using the topic generator:
 
    ![](images/edit-topic-generator.png){width="650" align="left"}
     
+    *Generate new topics from an existing topic generator.*
+
     >[!NOTE]
     >
     > If the topics already exist, then the generator updates the data in the existing topics.
@@ -186,6 +196,7 @@ Right-click on a topic generator to open the **Options**. Using the options, you
     >If your topic already exists, you can either overwrite the data in the topic or save it as a new version.
     
     ![](images/generate-topic-options.png)
+    *Generate a topic and if the file already exists, save it as a new version or overwrite it.*   
   
 - **Edit**: Use this option to change and save the topic generator.
 - **Delete**: Use this option to delete the selected topic generator.
