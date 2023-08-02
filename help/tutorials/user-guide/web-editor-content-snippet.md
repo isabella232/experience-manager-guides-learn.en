@@ -24,12 +24,14 @@ Select a data source to view the content snippet generators and the topic genera
 
 ### List View  ![](images/data-sources-list-view-icon.svg) 
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+  ![](images/data-sources-list-view.png){width="300" align="left"}
+
 *List of connected data sources.*
  
 ### Tile View   ![](images/data-sources-tile-view-icon.svg) 
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
+
 *View the connected data sources as tiles.* 
 
 You can use the data from data sources in two ways:
@@ -100,6 +102,7 @@ Right-click on a content snippet generator to open the Options. Using the option
 You can also use the **Insert Query Snippet** ![](images/data-source-icon.svg)   from the main toolbar to insert the data snippet into the topics.  You can select a generator from the dropdown, edit your query, or change the template and insert the data in your topic.
 
 ![](images/insert-content-snippet.png){width="800" align="left"}
+
  *Edit and insert a data snippet.*
 
 ## Create a topic using the topic generator 
@@ -117,6 +120,7 @@ Perform the following steps to create a topic using the topic generator:
 1. Select a data source to view the content snippet generators and the topic generators available for the selected data source.
  
     ![](images/data-sources.png){width="300" align="left"}
+
     *Add a topic generator for a connected data source.*
 
 1. Select **Add** ![](images/Add_icon.svg) and select **Topic generator** from the dropdown to add a new topic generator. The **Add topic generator** panel opens.
@@ -128,7 +132,8 @@ Perform the following steps to create a topic using the topic generator:
      **Fetch Configuration**
      
       ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
-        *Add the Data Query, Data mapping template, and Root node for the topic generator and give it a unique name in the Fetch Configuration panel.*
+      
+      *Add the Data Query, Data mapping template, and Root node for the topic generator and give it a unique name in the Fetch Configuration panel.*
 
       1. Enter the query in the **Data query** text box.
       1. Select the template which maps with your data source from the **Data mapping template** dropdown.
@@ -196,6 +201,7 @@ Right-click on a topic generator to open the **Options**. Using the options, you
     >If your topic already exists, you can either overwrite the data in the topic or save it as a new version.
     
     ![](images/generate-topic-options.png)
+
     *Generate a topic and if the file already exists, save it as a new version or overwrite it.*   
   
 - **Edit**: Use this option to change and save the topic generator.
