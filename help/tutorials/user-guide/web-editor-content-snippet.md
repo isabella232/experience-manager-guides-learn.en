@@ -132,15 +132,15 @@ Perform the following steps to create a topic using the topic generator:
      **Fetch Configuration**
      
       ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
-      
-      *Add the Data Query, Data mapping template, and Root node for the topic generator and give it a unique name in the Fetch Configuration panel.*
+
+      *Add the Data Query, Data mapping template, and Root node for the topic generator and give it a unique name in the Fetch Configuration panel.*     
 
       1. Enter the query in the **Data query** text box.
       1. Select the template which maps with your data source from the **Data mapping template** dropdown.
 
-    >[!NOTE]
-    >
-    > If your administrator has configured customized templates, then you're also shown those templates in the drop-down list (based on the template path configurations done by your administrator). For example, you can create a topic template containing an ordered list, tables, paragraphs, or other DITA elements.
+            >[!NOTE]
+            >
+            > If your administrator has configured customized templates, then you're also shown those templates in the drop-down list (based on the template path configurations done by your administrator). For example, you can create a topic template containing an ordered list, tables, paragraphs, or other DITA elements.
 
       1. Enter the **Root node**. This is the node at which you want to access your data. The topic generator then creates each topic at the level defined in the root node. For example, you can add ‘issues’ as the root node in Jira. So, if a query returns 13 issues, you will get 13 topics, one topic for each issue.
 
@@ -154,6 +154,7 @@ Perform the following steps to create a topic using the topic generator:
     **Output Configuration**
 
     ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+    
     *Enter the Output path, Topic naming convention in the Output Configuration panel. Generate a DITA map and name it.*
 
      1. Enter the **Output path** details where you want to save your topics.
