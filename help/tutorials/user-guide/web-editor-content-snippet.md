@@ -133,7 +133,7 @@ Perform the following steps to create a topic using the topic generator:
      
       ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
 
-      *Add the Data Query, Data mapping template, and Root node for the topic generator and give it a unique name in the Fetch Configuration panel.*     
+      *Add the Data Query, Data mapping template, and Root node details for the topic generator and give it a unique name in the Fetch Configuration panel.*     
 
       1. Enter the query in the **Data query** text box.
       1. Select the template which maps with your data source from the **Data mapping template** dropdown.
@@ -154,8 +154,8 @@ Perform the following steps to create a topic using the topic generator:
     **Output Configuration**
 
     ![](images/topic-generator-output-configuration.png){width="300" align="left"}
-    
-    *Enter the Output path, Topic naming convention in the Output Configuration panel. Generate a DITA map and name it.*
+
+    *Enter the Output path and Topic naming convention details in the Output Configuration panel. Generate a DITA map and name it.*
 
      1. Enter the **Output path** details where you want to save your topics.
      1. In the **Topic naming convention**, you can enter a value or a variable with velocity tags. The new topics will follow the convention. For example, you can enter the `$key` to create topics based on Jira keys.
