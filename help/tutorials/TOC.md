@@ -253,6 +253,8 @@ breadcrumb-title: AEM Guides Tutorials
        + [Create a mapping between a topic and a content fragment](./install-guide/conf-content-fragment-mapping.md)  
     + Work with custom workflows {#custom-workflow}
       + [Configure and customize workflows](./install-guide/customize-workflows.md)
+    + Customize AEM Guides UI
+      + [Create AEM Guides extensions](./install-guide/guides-extentsion-framework.md)
     + Work with translation configurations {#translate-config}
       + [Translate content](./install-guide/translation.md)
     + Work with AEM Assets search {#aem-asset-search}
