@@ -152,6 +152,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
     + [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     + [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
+    + [Publish to a content fragment](./user-guide/publish-content-fragment.md)
     + Bulk activation of content {#bulk-activation}
       + [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       + [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -249,6 +250,7 @@ breadcrumb-title: AEM Guides Tutorials
             + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
             + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
         + [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
+       + [Create a mapping between a topic and a content fragment](./install-guide/conf-content-fragment-mapping.md)  
     + Work with custom workflows {#custom-workflow}
       + [Configure and customize workflows](./install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config}

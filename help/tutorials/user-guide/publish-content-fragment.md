@@ -1,0 +1,48 @@
+---
+title: Publish a topic to a content fragment
+description: Learn how to publish a topic to a content fragment.
+---
+
+# Publish to a content fragment
+
+In Adobe Experience Manager (AEM), content fragments are reusable independent pieces of content you can create and then reference or include in multiple locations across your website.
+You can create a [content fragment model](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) in AEM, then create a content fragment, and then reference it in your AEM site using a content fragment component or the content service APIs.   
+In AEM Guides, you can create a JSON-based mapping between a topic and a content fragment model. Then use this mapping to publish the content present in some or all elements within a topic to a content fragment.
+
+To create a content fragment, perform the following steps:
+
+1.	Create a [content fragment model](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) in AEM Assets. 
+1.	Create a folder where you want to save the content fragments that you create based on the content fragment model. For example, stock-content-fragments. 
+1.	Edit the folder’s properties (for example, stock-content-fragments) and add the path of the folder, which contains the content fragment model in the cloud configuration. 
+For example, add `/conf/we-retail` in the cloud configuration. This connects all the content fragment models with the folder.       
+ ![add cloud configuration details in the folder properties](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+       *Add the cloud configuration in the folder properties to connect it with the fragment models.* 
+1 .	Select the topic you want to publish in the Repository View. 
+1.	From the **Options** menu, select **Publish As** > **Content Fragment**.  
+1.	In the **Publish As Content Fragment** dialog, fill in the following details:
+        ![Add the fragment model and mapping details in the Publish as content fragment dialog](images/content-fragment-publish.png){width="500" align="left"}
+       *Add the path, model, and mapping details to publish a topic or its elements as a content fragment. You can overwrite an existing content fragment.*  
+
+    *	**Path**: Browse and select the path of the folder where you want to publish the content fragment. You can also select an existing content fragment and publish it.
+    *	**Title**: Enter the title of the content fragment.
+    *	**Name**: Enter the name of the content fragment.
+    *	**Model**: Select the content fragment model you want to create your content fragment. The models are picked from the folder which you’ve configured in the cloud services.
+    *	 **Mapping**: Select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  
+
+            >[!NOTE]
+            >
+            >Your administrator can add the mappings in the *contentFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and a content fragment](../install-guide/conf-content-fragment-mapping.md) from the *On-premise Installation and configuration Guide*.
+
+     
+    *	Select the **Overwrite** checkbox if your content fragment already exists and you wish to overwrite it. AEM Guides displays an error if you don’t select the checkbox and your content fragment already exists. 
+7.	Select **Create** to publish the content fragment.
+8.	You can view the content fragments for a topic under the **Fragments** section in the **File properties**.
+ 
+    ![View the content fragments for a topic](images/topic-content-fragments.png){width="300" align="left"}
+       *View the content fragments present for a topic and republish them.*  
+You can republish the content fragment to update the content fragment with the latest content from the DITA topic.
+
+
+
+Once you’ve published the content fragments, you can also use them in any AEM site. 
+
