@@ -30,8 +30,8 @@ For example, add `/conf/we-retail` in the cloud configuration. This configiratio
     * **Mapping**: Select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  
 
         >[!NOTE]
-            >
-            >Your administrator can add the mappings in the *contentFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and a content fragment](../install-guide/conf-content-fragment-mapping.md) in the *On-premise Installation and configuration Guide*.
+        >
+        >Your administrator can add the mappings in the *contentFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and a content fragment](../install-guide/conf-content-fragment-mapping.md) in *On-premise Installation and configuration Guide*.
 
      
     * Select the **Overwrite** checkbox if your content fragment already exists and you wish to overwrite it. AEM Guides displays an error if you don’t select the checkbox and your content fragment already exists. 
