@@ -31,8 +31,7 @@ AEM Guides provides the feature to create a JSON-based mapping between a topic a
         `"xpath": string`
 
         `"outputType": string`
-
-
+1. Save the file and upload it.
 
 Sample file:
 
@@ -84,4 +83,4 @@ Sample file:
     "name": "Sample Example with XPath"
   }
 ]
-``` 
+```
