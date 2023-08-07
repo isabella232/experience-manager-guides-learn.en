@@ -39,8 +39,10 @@ For example, add `/conf/we-retail` in the cloud configuration. This configiratio
 1. You can view the content fragments for a topic under the **Fragments** section in the **File properties**.
  
     ![View the content fragments for a topic](images/topic-content-fragments.png){width="300" align="left"}
-       *View the content fragments present for a topic and republish them.*  
-You can republish the content fragment to update the content fragment with the latest content from the DITA topic.
+       
+     *View the content fragments present for a topic and republish them.*  
+
+You can also republish the content fragment to update the content fragment with the latest content from the DITA topic.
 
 
 
