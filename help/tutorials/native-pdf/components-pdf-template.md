@@ -117,10 +117,10 @@ To create a new style, follow the below steps:
    
      <img src="assets/add-style.png" alt="Add new style" width="500"/>
       
-1. In the **Tag** filed, choose a tag for which you want to create a new style.
-1. Specify a **Class** name.
+1. Specify a **Class** name. This class name must be associated with the tag's outputclass attribute in your source content.
+1. In the **Tag** field, choose a tag for which you want to create a new style.
    
-   This class name must be associated with the tag's outputclass attribute in your source content. 
+    
 1. Select a **Pseudo Class** for enhanced styling of the element. You can also select multiple pseudo classes.
 1. Add the selector for the new style. The **Selector** field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create `table a.link` style for all the hyperlinks inside a table.
 
