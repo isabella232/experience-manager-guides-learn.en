@@ -108,16 +108,23 @@ Typically, you will create a new style when you want to associate a custom style
 
 
 To create a new style, follow the below steps:
-1. Right click any style and choose New Style from the context menu.
-
-   This opens the Add Style dialog.
+1. Expand the left sidebar and double-click on the template in which you want to create the style.
+1. Expand the Stylesheets section. It opens the Styles panel that contains all the styling options.
+1.	Select +  icon to add a new style.
    
+      **Add Style** dialog box opens.
+
+   T
      <img src="assets/add-style.png" alt="Add new style" width="300"/>
 1. In the **Tag** filed, choose a tag for which you want to create a new style.
 1. Specify a **Class** name.
    
    This class name must be associated with the tag's outputclass attribute in your source content. 
-1. Select a **Pseudo Class** for enhanced styling of the element. 
+1. Select a **Pseudo Class** for enhanced styling of the element. You can also select multiple pseudo classes.
+1. Add the selector for the new style. The Selector field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create table a.link style for all the hyperlinks inside a table.
+
+   For more info regarding CSS tags, view [Refer to CSS style grammar](https://www.w3.org/TR/CSS21/syndata.html#characters).
+
 1. Click **Done**.
 
    A new style is created and added under the base style.
@@ -142,7 +149,14 @@ To customize a style, follow the below steps:
 
 1. To customize a style, double-click a style or click the > icon before a style to view and customize it using the Styles editor.
 
-For details about working with the most common styles, see [Work with the common content styles](stylesheet.md).
+### Properties of Styles
+
+Edit the properties of style while previewing them. In the Properties pane under the Preview pane, edit the styles with the custom property name and value or directly choose them from the drop-down list. 
+This Preview pane gives you the ability to add properties directly from the design view, and you don't have to switch to the source view.
+The Preview pane also gives you a real-time view of any style updates you apply on any element.
+Learn more about using the style editor to work with the most common styles.
+
+Learn more about using the style editor to [Work with the common content styles](stylesheet.md).
 
 ## Work with resources {#work-with-resources}
 
