@@ -152,10 +152,10 @@ To customize a style, follow the below steps:
 
 ### Properties of Styles
 
-Edit the properties of style while previewing them. In the Properties pane under the Preview pane, edit the styles with the custom property name and value or directly choose them from the drop-down list. 
-This Preview pane gives you the ability to add properties directly from the design view, and you don't have to switch to the source view.
-The Preview pane also gives you a real-time view of any style updates you apply on any element.
-Learn more about using the style editor to work with the most common styles.
+Edit the properties of style while previewing them. In the **Properties** pane under the **Preview** pane, edit the styles with the custom property name and value or directly choose them from the drop-down list. 
+
+This **Properties** pane gives you the ability to add properties directly from the design view, and you don't have to switch to the source view. It also gives you a real-time view of any style updates you apply on any element.
+
 
 Learn more about using the style editor to [Work with the common content styles](stylesheet.md).
 
