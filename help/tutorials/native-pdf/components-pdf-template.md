@@ -115,7 +115,7 @@ To create a new style, follow the below steps:
       **Add Style** dialog box opens.
 
    
-     <img src="assets/add-style.png" alt="Add new style" width="300"/>
+     <img src="assets/add-style.png" alt="Add new style" width="500"/>
       
 1. In the **Tag** filed, choose a tag for which you want to create a new style.
 1. Specify a **Class** name.
@@ -146,7 +146,7 @@ To customize a style, follow the below steps:
    
    This opens the stylesheet for editing and displays the list of styles in the Styles panel.
 
-   <img src="assets/customize-style.png" alt="Customize style" width="450">
+   <img src="assets/customize-style.png" alt="Customize style" width="800">
 
 1. To customize a style, double-click a style or click the > icon before a style to view and customize it using the Styles editor.
 
