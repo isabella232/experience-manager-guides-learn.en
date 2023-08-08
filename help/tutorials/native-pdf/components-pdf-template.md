@@ -110,12 +110,13 @@ Typically, you will create a new style when you want to associate a custom style
 To create a new style, follow the below steps:
 1. Expand the left sidebar and double-click on the template in which you want to create the style.
 1. Expand the Stylesheets section. It opens the Styles panel that contains all the styling options.
-1.	Select +  icon to add a new style.
+1. Select +  icon to add a new style.
    
       **Add Style** dialog box opens.
 
-   T
+   
      <img src="assets/add-style.png" alt="Add new style" width="300"/>
+      
 1. In the **Tag** filed, choose a tag for which you want to create a new style.
 1. Specify a **Class** name.
    
