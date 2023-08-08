@@ -122,13 +122,13 @@ To create a new style, follow the below steps:
    
    This class name must be associated with the tag's outputclass attribute in your source content. 
 1. Select a **Pseudo Class** for enhanced styling of the element. You can also select multiple pseudo classes.
-1. Add the selector for the new style. The Selector field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create table a.link style for all the hyperlinks inside a table.
+1. Add the selector for the new style. The **Selector** field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create `table a.link` style for all the hyperlinks inside a table.
 
    For more info regarding CSS tags, view [Refer to CSS style grammar](https://www.w3.org/TR/CSS21/syndata.html#characters).
 
 1. Click **Done**.
 
-   A new style is created and added under the base style.
+   A new style is created and added to the style list.
 
 ### Customize a predefined or new style {#customize-style}
 
@@ -148,13 +148,13 @@ To customize a style, follow the below steps:
 
    <img src="assets/customize-style.png" alt="Customize style" width="800">
 
-1. To customize a style, double-click a style or click the > icon before a style to view and customize it using the Styles editor.
+1. To customize a style, select the style to view and customize it using the Styles editor.
 
 ### Properties of Styles
 
 Edit the properties of style while previewing them. In the **Properties** pane under the **Preview** pane, edit the styles with the custom property name and value or directly choose them from the drop-down list. 
 
-This **Properties** pane gives you the ability to add properties directly from the design view, and you don't have to switch to the source view. It also gives you a real-time view of any style updates you apply on any element.
+This **Properties** pane gives you the ability to add properties directly from the design view, and you don’t have to switch to the source view. It also gives you a real-time view of any style updates you apply on any element. 
 
 
 Learn more about using the style editor to [Work with the common content styles](stylesheet.md).
@@ -164,6 +164,7 @@ Learn more about using the style editor to [Work with the common content styles]
 This is a container for all assets used to design a template. You can think of it as a folder, which contains assets such as background images, custom fonts, logos, and more. Whenever you add an asset in your template, it is upload or check in to the asset folder. You can then use these assets to customize or design your PDF templates.
 
 To add an asset file to the Resources folder, follow the below steps:
+
 1. Hover over the Resources folder tab and click the (Options icon) ... and choose Import.
 
    This opens the Upload Assets dialog.
