@@ -191,10 +191,10 @@ breadcrumb-title: AEM Guides Tutorials
       + [User administration and security](./install-guide/user-admin-sec.md)
     + Content migration {#content-migration}
       + [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
-      + [Migrate existing content](./install-guide/migrate-content.md)
-          + Migration process{#migration-process}
+        + Migration process {#migration process}
             + [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            + [Migrate non-UUID content without versions](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+             + [Migrate non-UUID content without versions](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+      + [Migrate existing content](./install-guide/migrate-content.md)
       + [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       + [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
     + Work with custom DITA-OT and specialization {#custom-dita-ot-spec}
