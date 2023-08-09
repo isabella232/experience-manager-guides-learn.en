@@ -5,9 +5,9 @@ description: Learn how to migrate non-UUID content with versions.
 
 
 
-# Migrate non-UUID content with versions to UUID content
+# Migrate non-UUID content with versions
 
-Perform these steps to migrate your non-UUID content with versions. 
+Perform these steps to migrate your non-UUID content with versions to UUID content. 
 
 ## Compatibility matrix
 

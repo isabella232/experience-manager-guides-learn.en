@@ -3,7 +3,7 @@ title: Convert non-UUID  content without versions to UUID content
 description: Learn how to migrate non-UUID content without versions.
 ---
 
-# Migrate non-UUID content without versions to UUID content
+# Migrate non-UUID content without versions 
 
 >[!IMPORTANT]
 >
