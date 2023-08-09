@@ -28,13 +28,12 @@ Perform these steps to migrate your non-UUID content with versions.
 
 ## Pre-migration
 
-1. (Optional) Perform version purging on the content to remove unnecessary versions and speed up the migration process. To perform version purging on version 4.1 (NOT supported on 4.0), install the package com.adobe.guides.version-purge-1.0.11.zip, and go to the user interface using this URL http://<server-name> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html 
+1. (Optional) Perform version purging on the content to remove unnecessary versions and speed up the migration process. To perform version purging on version 4.1 (NOT supported on 4.0), install the package `com.adobe.guides.version-purge-1.0.11.zip`, and go to the user interface using this URL `http://<server-name> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`. 
 
-    >[!NOTE] 
+    >[!NOTE]
     >
     >This utility will not remove any versions used in baselines or reviews or has any labels.
-
-1. Install the pre-migration package (com.adobe.guides.pre-uuid-migration-1.0.7.zip)
+1. Install the pre-migration package (`com.adobe.guides.pre-uuid-migration-1.0.7.zip`).
 
 1. Run the following below query to get a report with an estimated time (ETA) of how long the migration will take and it will report if there are any files with content issues that would not migrate. 
 
@@ -45,8 +44,7 @@ Perform these steps to migrate your non-UUID content with versions.
 
 |Endpoint URL| Request Type|Query Param| Expected Results|
 |---|---|---|---|
-|`/bin/guides/pre_uuid_upgrade` <br> <br>**For example**: http://localhost:4502/bin/guides/pre_uuid_upgrade?root=/content/dam	| GET	| **root**: Root folder<br> **Value**: `/content/dam` for the entire repository.|A pre-migration report (.csv) will be created listing the number of files, total versions, and the errors. <br><br> **Sample output**:<br>RootFolder: /content/dam <br>Total Files: 2697 <br>Total Versions: 10380 <br>Number of files with errors: 28 <br>A detailed report will be available via AEM CRX at `/content/uuid-upgrade/UuidMigrationReport_1688400131039.csv`|
-
+|`/bin/guides/pre_uuid_upgrade` <br> <br>**For example**: http://localhost:4502/bin/guides/pre_uuid_upgrade?root=/content/dam	| GET	| **root**: Root folder<br> **Value**: `/content/dam` for the entire repository.|A pre-migration report (.csv) will be created listing the number of files, total versions, and the errors. <br><br> **Sample output**:<br>RootFolder: /content/dam <br>Total Files: 2697 <br>Total Versions: 10380 <br>Number of files with errors: 28 <br>A detailed report will be available via AEM CRX at `/content/uuid-pgrade/UuidMigrationReport_1688400131039.csv`|
 
 This step could fail if there are many DITA files in the system. To address this, increase the limit of the number of files traversed in the query by increasing the value of *In Memory Read Limit (queryLimitReads)* in Apache Jackrabbit Query Engine Settings Service from 100000  a number greater than the total number of DITA assets present in the system.
 
@@ -60,9 +58,9 @@ This step could fail if there are many DITA files in the system. To address this
 
 1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using a 4.0 non-UUID build or a 4.1 non-UUID build, you need to install UUID version 4.1.
 
-1. Install the new package for uuid migration. (`com.adobe.guides.uuid-upgrade-1.0.17`)
+1. Install the new package for uuid migration (`com.adobe.guides.uuid-upgrade-1.0.17`).
 
-1. Disable the following workflows and any other workflow that runs on /content/dam using launchers in `http://localhost:4502/libs/cq/workflow/content/console.html`
+1. Disable the following workflows and any other workflow that runs on `/content/dam` using launchers in `http://localhost:4502/libs/cq/workflow/content/console.html`.
 
     * DAM Update Asset workflow
     * DAM Metadata Writeback workflow
@@ -71,8 +69,8 @@ This step could fail if there are many DITA files in the system. To address this
 
 1. Disable the property Enable validation (`validation.enabled`) in Day CQ Tagging Service.
 
-1. Ensure that `uuid.regex` property folder is set properly in `com.adobe.fmdita.config.ConfigManager`. If it's blank, set it to the default value - ^GUID-(?<id>.*)
-1. Add a separate logger for com.adobe.fmdita.uuid.upgrade.UuidUpgrade. The browser response is also available at `/content/uuid-upgrade/logs'.
+1. Ensure that `uuid.regex` property folder is set properly in `com.adobe.fmdita.config.ConfigManager`. If it's blank, set it to the default value - ^GUID-(?<id>.*).
+1. Add a separate logger for `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` The browser response is also available at `/content/uuid-upgrade/logs`.
 
 ### Step 2: Run the script and validate
 
@@ -114,7 +112,7 @@ Once the server is migrated successfully, enable post-processing, tagging, and t
 
 ## Migration validation
 
-1. Install the post uuid migration package (com.adobe.guides.post-uuid-migration-1.0.2.zip) 
+1. Install the post uuid migration package (`com.adobe.guides.post-uuid-migration-1.0.2.zip). 
 
 1. Run the following query to validate that there were no errors during migration that caused any links to be broken. This script will identify if there were any links which were not broken before but have been broken now for any reason.
 
@@ -122,7 +120,7 @@ Once the server is migrated successfully, enable post-processing, tagging, and t
     |---|---|---|---|
     |`/bin/guides/get_broken_links` <br> <br> **For example**: <br>`http://localhost:4502/bin/guides/get_broken_links`|GET|NA|	Migration report with the total number of files having broken UUIDs and their respective file paths. <br> <br> **Sample output**:<br>[DEBUG] Checking if all these GUIDs are used in the content.<br>[DEBUG] Total number of files potentially having broken UUIDs: 0 <br>[DEBUG] Paths potentially having broken UUIDs:|
 
-1. Once the migration is completed, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`)
+1. Once the migration is completed, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
 ## Delta content migration
 
@@ -135,7 +133,7 @@ The timestamp uses the ISO8601 format for dates and times ( YYYY-MM-DDTHH:mm:ss.
     |---|---|---|---|
     |`/bin/guides/data_export`<br><br>**For example**: <br> `http://localhost:4502/bin/guides/data_export?timestamp=2023-07-11&root=/content/dam`| GET|**timestamp** <br> **Value**: YYYY-MM-DD<br><br> **root**: Root folder <br> **Value**: `/content/dam` for the entire repository. | A zip file with delta content gets created at /var/dxml/exports. <br> <br>**Sample**: dataexport_1689761491218.zip (file gets created)|
 
-1. Download the zip file exported by the script. The last line of the response should give the path of the generated zip file (stored in /var/dxml/exports in the system)
+1. Download the zip file exported by the script. The last line of the response should give the path of the generated zip file (stored in /var/dxml/exports in the system).
 
 1. Upload the zip file to the uuid server at the desired path in Assets UI.
 
@@ -145,8 +143,7 @@ The timestamp uses the ISO8601 format for dates and times ( YYYY-MM-DDTHH:mm:ss.
 
     |Endpoint URL|Request Type|Query Param|Expected Results|
     |---|---|---|---|
-    |`/bin/guides/data_import`<br> **For example**:`http://localhost:4502/bin/guides/data_import?path=/content/dam/dataexport_1689344927551.zip&createVersion=true`|POST|**path**<br> **Value**: `/content/dam/filename.zip`(Uploaded file location) **createVersion** <br> **Value**: true/false<br>(The default value of createVersion is false)|The file gets uploaded to the desired content path.<br><br>**Sample**: `dataexport_1689761491218.zip`<br> 
-    (The same file which was exported in the previous step gets uploaded to the desired path in `/content/dam`)|
+    |`/bin/guides/data_import`<br> **For example**:`http://localhost:4502/bin/guides/data_import?path=/content/dam/dataexport_1689344927551.zip&createVersion=true`|POST|**path**<br> **Value**: `/content/dam/filename.zip`(Uploaded file location) **createVersion** <br> **Value**: true/false<br>(The default value of createVersion is false).|The file gets uploaded to the desired content path.<br><br>**Sample**: `dataexport_1689761491218.zip`<br><br> (The same file which was exported in the previous step gets uploaded to the desired path in `/content/dam`).|
 
 1. The script will create a new file if it doesn't exist or override the existing file if it was modified. 
 
