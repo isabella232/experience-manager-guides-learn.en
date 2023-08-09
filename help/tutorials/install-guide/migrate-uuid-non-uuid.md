@@ -14,8 +14,8 @@ You can migrate your non-UUID content to UUID.
 
 
 
-* [**Migration process (with version)**](./migrate-non-uuid-uuid-with-versions.md)
-* [**Migration process (without version)**](./migrate-non-uuid-uuid-without-versions.md)
+* [**Migrate content with versions**](./migrate-non-uuid-uuid-with-versions.md)
+* [**Migrate content without versions**](./migrate-non-uuid-uuid-without-versions.md)
 
 
 
