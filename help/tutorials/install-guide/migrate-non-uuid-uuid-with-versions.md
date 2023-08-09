@@ -44,7 +44,7 @@ Perform these steps to migrate your non-UUID content with versions.
 
 |Endpoint URL| Request Type|Query Param| Expected Results|
 |---|---|---|---|
-|`/bin/guides/pre_uuid_upgrade` <br> <br>**For example**: http://localhost:4502/bin/guides/pre_uuid_upgrade?root=/content/dam	| GET	| **root**: Root folder<br> **Value**: `/content/dam` for the entire repository.|A pre-migration report (.csv) will be created listing the number of files, total versions, and the errors. <br><br> **Sample output**:<br>RootFolder: /content/dam <br>Total Files: 2697 <br>Total Versions: 10380 <br>Number of files with errors: 28 <br>A detailed report will be available via AEM CRX at `/content/uuid-pgrade/UuidMigrationReport_1688400131039.csv`|
+|`/bin/guides/pre_uuid_upgrade` <br> <br>**For example**: http://localhost:4502/bin/guides/pre_uuid_upgrade?root=/content/dam| GET| **root**: Root folder<br> **Value**: `/content/dam` for the entire repository.|A pre-migration report (.csv) will be created listing the number of files, total versions, and the errors. <br><br> **Sample output**:<br>RootFolder: /content/dam <br>Total Files: 2697 <br>Total Versions: 10380 <br>Number of files with errors: 28 <br>A detailed report will be available via AEM CRX at `/content/uuid-pgrade/UuidMigrationReport_1688400131039.csv`|
 
 This step could fail if there are many DITA files in the system. To address this, increase the limit of the number of files traversed in the query by increasing the value of *In Memory Read Limit (queryLimitReads)* in Apache Jackrabbit Query Engine Settings Service from 100000  a number greater than the total number of DITA assets present in the system.
 
@@ -69,7 +69,7 @@ This step could fail if there are many DITA files in the system. To address this
 
 1. Disable the property Enable validation (`validation.enabled`) in Day CQ Tagging Service.
 
-1. Ensure that `uuid.regex` property folder is set properly in `com.adobe.fmdita.config.ConfigManager`. If it's blank, set it to the default value - ^GUID-(?<id>.*).
+1. Ensure that `uuid.regex` property folder is set properly in `com.adobe.fmdita.config.ConfigManager`. If it's blank, set it to the default value - `^GUID-(?<id>.*)`.
 1. Add a separate logger for `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` The browser response is also available at `/content/uuid-upgrade/logs`.
 
 ### Step 2: Run the script and validate
@@ -112,13 +112,13 @@ Once the server is migrated successfully, enable post-processing, tagging, and t
 
 ## Migration validation
 
-1. Install the post uuid migration package (`com.adobe.guides.post-uuid-migration-1.0.2.zip). 
+1. Install the post uuid migration package (`com.adobe.guides.post-uuid-migration-1.0.2.zip`). 
 
 1. Run the following query to validate that there were no errors during migration that caused any links to be broken. This script will identify if there were any links which were not broken before but have been broken now for any reason.
 
     |Endpoint URL| Request Type|Query Param|Expected Results|
     |---|---|---|---|
-    |`/bin/guides/get_broken_links` <br> <br> **For example**: <br>`http://localhost:4502/bin/guides/get_broken_links`|GET|NA|	Migration report with the total number of files having broken UUIDs and their respective file paths. <br> <br> **Sample output**:<br>[DEBUG] Checking if all these GUIDs are used in the content.<br>[DEBUG] Total number of files potentially having broken UUIDs: 0 <br>[DEBUG] Paths potentially having broken UUIDs:|
+    |`/bin/guides/get_broken_links` <br> <br> **For example**:<br>`http://localhost:4502/bin/guides/get_broken_links`|GET|NA|Migration report with the total number of files having broken UUIDs and their respective file paths. <br> <br> **Sample output**:<br>[DEBUG] Checking if all these GUIDs are used in the content.<br>[DEBUG] Total number of files potentially having broken UUIDs: 0 <br>[DEBUG] Paths potentially having broken UUIDs:0|
 
 1. Once the migration is completed, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
