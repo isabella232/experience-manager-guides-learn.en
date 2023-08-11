@@ -14,8 +14,7 @@ Perform these steps to migrate your non-UUID content with versions to UUID conte
 |Current AEM Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path| 
 |---|---|---|
 | 3.8.5|  4.0 non-UUID|Install 4.1 (UUID) and run the migration|
-|4.0  or 4.0.x | Same| Install 4.1 (UUID) and run the migration|
-|4.1 or 4.1.x|   Same | Install 4.1 (UUID) and run the migration|
+|4.0, 4.0.x, 4.1, or 4.1.x  | Same as current non-UUID| Install 4.1 (UUID) and run the migration|
 |4.2 or Higher|   NA |Not supported yet|
 
 ## Required packages
@@ -32,10 +31,10 @@ Perform these steps to migrate your non-UUID content with versions to UUID conte
 
     >[!NOTE]
     >
-    >This utility will not remove any versions used in baselines or reviews or has any labels.
+    >This utility does not remove any versions used in baselines or reviews or has any labels.
 1. Install the pre-migration package (`com.adobe.guides.pre-uuid-migration-1.0.7.zip`).
 
-1. Run the following below query to get a report with an estimated time (ETA) of how long the migration will take and it will report if there are any files with content issues that would not migrate. 
+1. Run the following below query to get a report with an estimated time (ETA) of how long the migration will take and it reports if there are any files with content issues that would not migrate. 
 
 >[!NOTE]
 >
