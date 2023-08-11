@@ -14,7 +14,7 @@ To create a content fragment, perform the following steps:
 1. Create a [content fragment model](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) in AEM Assets. 
 1. Create a folder where you want to save the content fragments that you create based on the content fragment model. For example, stock-content-fragments. 
 1. Edit the folder’s properties (for example, stock-content-fragments) and add the path of the folder, which contains the content fragment model in the cloud configuration. 
-For example, add `/conf/we-retail` in the cloud configuration. This configiration connects all the content fragment models with the folder.       
+For example, add `/conf/we-retail` in the cloud configuration. This configuration connects all the content fragment models with the folder.       
  ![add cloud configuration details in the folder properties](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
        *Add the cloud configuration in the folder properties to connect it with the fragment models.* 
 1. Select the topic that you want to publish in the Repository View. 
