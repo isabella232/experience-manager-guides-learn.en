@@ -80,8 +80,8 @@ To configure and generate the output using a Map Collection, perform the followi
     <summary> Cloud Services </summary>
 
     - Enable any individual preset. 
-    - Select All presets for a DITA map to select all the presets for it in one go. This option is disabled by default.
-    - Select Folder profile presets for a DITA map to select all the folder profiles for it. This option is disabled by default.
+    - Select **All presets** for a DITA map to select all the presets for it in one go. This option is disabled by default.
+    - Select **Folder profile presets** for a DITA map to select all the folder profiles for it. This option is disabled by default.
    ![edit a map collection on cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
         </details>
         </details>
@@ -91,7 +91,7 @@ To configure and generate the output using a Map Collection, perform the followi
      <summary> On-premise Software</summary>
 
     - Enable any individual preset. 
-    - You can select Enable/Disable folder profile presets for a DITA map to select all the folder profiles for it in one go. This option is disabled by default.
+    - You can select **Enable/Disable folder profile presets** for a DITA map to select all the folder profiles for it in one go. This option is disabled by default.
 
     ![edit a map collection](images/edit-map-collection.png){width="800" align="left"}
     </details>
