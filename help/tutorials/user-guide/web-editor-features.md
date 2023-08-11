@@ -1353,8 +1353,8 @@ The references are not resolved if the enumeration is not found in the same map 
 
 **Restrict the values to a specific element**
 
-You can also restrict the  onditions to some elements within a topic. Use `<elementdef>` tag to define the element and `<attributedef>` tag to define the condition that can be applied to the element.  If you don’t add the <elementdef> tag,  you can apply the conditions to all elements. 
-For example, use the following enumeration to restrict the “platform” attribute to the “shortdesc” element.  The other conditions are visible for all elements.
+You can also restrict the  conditions to some elements within a topic. Use the `<elementdef>` tag to define the element and the `<attributedef>` tag to define the condition that can be applied to the element.  If you don’t add the `<elementdef>` tag,  you can apply the conditions to all elements. 
+For example, use the following enumeration to restrict the `@platform` attribute to the `<shortdesc>` element.  The other conditions are visible for all elements.
 
 ```XML
 <enumerationdef>
