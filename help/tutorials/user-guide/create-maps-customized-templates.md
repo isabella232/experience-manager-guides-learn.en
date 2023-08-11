@@ -23,9 +23,9 @@ AEM Guides allows you to create customized maps and topics from the dita-templat
 
 
 You can create map and topic templates in the following ways:
-1.	Templates pane of the [Left panel](./web-editor-features.md#left-panel-id2051ea0m0hs)
-2.	[Templates in Assets UI](#templates-assets-ui)
-3.	[Options menu](#templates-in-assets-ui)
+1. Templates pane of the [Left panel](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. [Templates in Assets UI](#templates-assets-ui)
+1. [Options menu](#templates-in-assets-ui)
 
 ### Templates in Assets UI {#templates-assets-ui}
 
@@ -70,13 +70,14 @@ Perform the following steps to create a map template:
 1.  (Optional\) Add a description.Click **Create**. The map template created message appears. You can then open the map template and edit it. You can add the references for the topic templates, map templates, and also other assets in the map template.
 
 ### Options menu {#options-menu}
-To create a map or topic template, perform the following steps:
-1.	Select the **Map** or **Topic** folder in the `dita-templates` folder.
-1.	 From the **Options** menu, select **Create Map Template** or **Create Topic Template**. 
 
-        The **Create New Map Template** or the **Create New Topic Template** dialog opens.
-1.	Enter the title and the name of the new template. 
-1.	Choose the type of template that you want to create from the **Template** drop-down list.
+To create a map or topic template, perform the following steps:
+1. Select the **Map** or **Topic** folder in the `dita-templates` folder.
+1. From the **Options** menu, select **Create Map Template** or **Create Topic Template**. 
+
+    The **Create New Map Template** or the **Create New Topic Template** dialog opens.
+1. Enter the title and the name of the new template. 
+1. Choose the type of template that you want to create from the **Template** drop-down list.
 
 The map template created message appears. You can add the template to your global or folder-level profile. The new template then appears in the topic or map creation process, and you can create maps or topics using it.
 
