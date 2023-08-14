@@ -102,7 +102,7 @@ To create a stylesheet, follow the below steps:
 
 ### Create a new style {#create-style}
 
-By default, the CSS files contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
+By default, the CSS files provided with the template contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
 
 Typically, you will create a new style when you want to associate a custom style for any DITA element. For such custom styles to work, you must ensure that you are associating the style's class name with the DITA element's outputclass attribute. 
 
