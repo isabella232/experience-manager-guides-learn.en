@@ -104,7 +104,8 @@ To create a stylesheet, follow the below steps:
 
 By default, the CSS files provided with the template contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
 
-Typically, you will create a new style when you want to associate a custom style for any DITA element. For such custom styles to work, you must ensure that you are associating the style's class name with the DITA element's outputclass attribute. 
+
+You can create a new style to use it in the page layout of the template or to apply a custom style for any DITA element. To apply these custom styles to the DITA element, you must ensure that the style’s class name is the same as the DITA element’s `outputclass` attribute.
 
 
 To create a new style, follow the below steps:
@@ -117,11 +118,12 @@ To create a new style, follow the below steps:
    
      <img src="assets/add-style.png" alt="Add new style" width="500"/>
       
-1. Specify a **Class** name. This class name must be associated with the tag's outputclass attribute in your source content.
+1. Specify a **Class** name. To apply a style to the DITA element, ensure that the style’s class name is the same as the DITA element’s `outputclass` attribute.
 1. In the **Tag** field, choose a tag for which you want to create a new style.
    
     
-1. Select a **Pseudo Class** for enhanced styling of the element. You can also select multiple pseudo classes.
+1. Select a **Pseudo Class** to style an element. A pseudo-class helps you define a special state of the element. For example, use pseudo-class to style an element when you hover a mouse over it or when you focus over it. You can also select multiple pseudo-classes. For example, you can use pseudo-class `a::visited {color: blue;}` to style the visited links.  
+
 1. Add the selector for the new style. The **Selector** field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create `table a.link` style for all the hyperlinks inside a table.
 
    For more info regarding CSS tags, view [Refer to CSS style grammar](https://www.w3.org/TR/CSS21/syndata.html#characters).
@@ -150,11 +152,12 @@ To customize a style, follow the below steps:
 
 1. To customize a style, select the style to view and customize it using the Styles editor.
 
+
 ### Properties of Styles
 
-Edit the properties of style while previewing them. In the **Properties** pane under the **Preview** pane, edit the styles with the custom property name and value or directly choose them from the drop-down list. 
+In the center panel, you can edit the properties, but it might be difficult to get a snapshot of what all values are present.  The **Properties** pane gives a quick view of all the attributes and values of the style. 
 
-This **Properties** pane gives you the ability to add properties directly from the design view, and you don’t have to switch to the source view. It also gives you a real-time view of any style updates you apply on any element. 
+In the center panel, you can edit the commonly used properties but not all the properties that CSS supports. In the **Properties** pane, you can edit all the properties that CSS supports and preview them. You need not switch to the source view to edit any properties.
 
 
 Learn more about using the style editor to [Work with the common content styles](stylesheet.md).
