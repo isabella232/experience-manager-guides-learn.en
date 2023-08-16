@@ -72,7 +72,8 @@ Perform the following steps to create a map template:
 ### Options menu {#options-menu}
 
 To create a map or topic template, perform the following steps:
-1. Select the **Map** or **Topic** folder in the `dita-templates` folder.
+
+1. Select the **Map** or **Topic** folder in the current templates folder. For example, `dita-templates` folder. 
 1. From the **Options** menu, select **Create Map Template** or **Create Topic Template**. 
 
     The **Create New Map Template** or the **Create New Topic Template** dialog opens.

@@ -675,20 +675,24 @@ To add a file to your favorite collection, use any of the following methods:
 
     ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
--   Right-click on a file's tab in the editor to open the context menu. Choose **Add To \> Favorites** to add the file to your favorites list.
+-   Right-click on a file's tab in the editor to open the context menu. Choose **Add To** > **Favorites** to add the file to your favorites list.
 
     ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
+> [!NOTE]
+> - To remove an item from the favorites list, select the Options icon next to the item in a Favorites collection and choose **Remove from Favorites**.
+> - To preview the file without opening it, select a file and then select **Preview** from the Options menu. 
 
-** Options menu for Favroties collection**  
+
+
+**Options menu for Favroties collection**  
 You can also perform many actions using the Options menu available for a Favorites collection: 
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **Rename**: Rename the selected collection. 
-- **Delete**: Delete the selected file.  
+- **Delete**: Delete the selected collection.  
 - **Refresh**: Get a fresh list of files and folders from the repository. 
 - **View in Assets UI**: Show the file or folder contents in the Assets UI. 
-
 
 >[!NOTE]
 >
@@ -806,7 +810,7 @@ The various options in the Options menu are explained below:
     > - If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
     > - When you check in a file that has any unsaved changes, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
     
--   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
+-   **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab. The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** pane, you can either select the close icon or click anywhere outside the pane.  
 
     ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1007,7 +1011,7 @@ You can perform the following actions using the Options menu:
     > - If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
     > - When you check in a file, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
 
--   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
+-   **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any <xref> or <conref>, you can select it to open it in a new tab.  The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** pane, you can either select the close icon or click anywhere outside the pane.  
 -   **Copy**: You can choose from the following options:
     -   **Copy UUID**: Copy the UUID of the selected file to Clipboard.
     -   **Copy Path**: Copy complete path of the selected file to Clipboard.
@@ -1130,9 +1134,12 @@ To insert content from the Reusable Contents panel, use any of the following met
 
     >[!NOTE]
     >
-    > Note: The **Preview** option is also available in the context menu, which gives you a quick preview of the element before inserting it.
+    > Select a file and then select **Preview** from the **Options** menu to preview the file without opening it. You can also preview the references present in a topic. The reference ID appears in the window. 
+
+    > The **Preview** option is also available in the **Options** menu of an element, which gives you a quick preview of the element before inserting it.  
 
 -   Drag-and-drop the reusable content item from the panel at the desired location in your document.
+
 
 
 **Glossary** -  ![](images/glossary.svg)
