@@ -36,7 +36,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
      
     * Select the **Overwrite** checkbox if your content fragment already exists and you wish to overwrite it. AEM Guides displays an error if you don’t select the checkbox and your content fragment already exists. 
-1. Select **Create** to publish the content fragment.
+1. Click **Create** to publish the content fragment.
 1. You can view the content fragments for a topic under the **Fragments** section in the **File properties**.
  
     ![View the content fragments for a topic](images/topic-content-fragments.png){width="300" align="left"}
