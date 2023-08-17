@@ -1283,7 +1283,7 @@ The following example shows how to use subject scheme in AEM Guides.
    The subject definitions are defined in `subject_scheme_map_1.ditamap`   
 
  
-  ```XML
+```XML
   <?xml version="1.0" encoding="UTF-8"?> 
     <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
     <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
@@ -1327,7 +1327,7 @@ The following example shows how to use subject scheme in AEM Guides.
 
 The enumeration definition is present in    subject_scheme_map_2.ditamap. 
 
-   ```XML
+```XML
     ?xml version="1.0" encoding="UTF-8"?> 
         <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
         <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
