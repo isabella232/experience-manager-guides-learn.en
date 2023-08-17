@@ -1278,7 +1278,7 @@ The following example shows how to use subject scheme in AEM Guides.
 
 **Handling hierarchical definitions of subject definitions and enumerations**
 
-Based on your setup, you can handle the enumerations and the subject definitions in the following ways: 
+Based on your setup, you can handle the enumerations and the subject definitions: 
 
  <details>
   <summary> Cloud Services </summary>
@@ -1328,11 +1328,11 @@ Based on your setup, you can handle the enumerations and the subject definitions
         </subjectdef>
     </subjectdef>
     </subjectScheme>
-    ```
+```
 
-    The enumeration definition is present in    subject_scheme_map_2.ditamap. 
+The enumeration definition is present in    subject_scheme_map_2.ditamap. 
 
-    ```XML
+   ```XML
     ?xml version="1.0" encoding="UTF-8"?> 
         <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
         <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
@@ -1349,6 +1349,7 @@ Based on your setup, you can handle the enumerations and the subject definitions
         </enumerationdef>
         </subjectScheme>
 ```
+
  Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
 
 >[!NOTE] 
@@ -1383,6 +1384,7 @@ For example, use the following enumeration to restrict the `@platform` attribute
     </subjectdef>
   </enumerationdef>
 ```
+
 </details>
 
 
@@ -1410,11 +1412,11 @@ For example, use the following enumeration to restrict the `@platform` attribute
     </subjectdef> 
     </subjectScheme>  
 
-  ```
+```
 
 The enumeration definition is present in    subject_scheme_map_2.ditamap 
 
-  ```XML
+ ```XML
     <?xml version="1.0" encoding="UTF-8"?> 
     <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
     <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
@@ -1428,7 +1430,7 @@ The enumeration definition is present in    subject_scheme_map_2.ditamap
     </subjectdef> 
     </enumerationdef> 
     </subjectScheme>  
-   ``` 
+``` 
 
 Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
 
