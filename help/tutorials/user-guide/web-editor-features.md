@@ -1278,11 +1278,6 @@ The following example shows how to use subject scheme in AEM Guides.
 
 **Handling hierarchical definitions of subject definitions and enumerations**
 
-Based on your setup, you can handle the enumerations and the subject definitions: 
-
- <details>
-  <summary> Cloud Services </summary>
-
   Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define one or more subject definitions in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
 
    The subject definitions are defined in `subject_scheme_map_1.ditamap`   
@@ -1387,66 +1382,6 @@ For example, use the following enumeration to restrict the `@platform` attribute
 
 </details>
 
-
-<details>
-    <summary> On-premise Software</summary>
-
-
-   Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define the subject definition in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
-
- The subject definitions are defined in `subject_scheme_map_1.ditamap`   
-
- 
- ```XML
-    <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-    <title>subject_scheme_map_1</title> 
-    <subjectdef keys="os" navtitle="Operating system"> 
-    <subjectdef keys="linux" navtitle="Linux"> 
-    <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
-    <subjectdef keys="suse" navtitle="SuSE Linux"/> 
-    </subjectdef> 
-    <subjectdef keys="windows" navtitle="Windows"/> 
-    <subjectdef keys="zos" navtitle="z/OS"/> 
-    </subjectdef> 
-    </subjectScheme>  
-
-```
-
-The enumeration definition is present in    subject_scheme_map_2.ditamap 
-
- ```XML
-    <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-    <title>subject_scheme_map_2</title> 
-    <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-    </mapref> 
-    <enumerationdef> 
-    <attributedef name="platform"> 
-    </attributedef> 
-    <subjectdef keyref="os"> 
-    </subjectdef> 
-    </enumerationdef> 
-    </subjectScheme>  
-``` 
-
-Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
-
-  >[!NOTE] 
-  >
-  > As the `subject_scheme_map_1.ditamap` and `subject_scheme_map_2.ditamap` are referenced with each other hence the subject schemes are getting resolved.  
-
-The subject-enumeration references are resolved in the following order of priority: 
-
-   1. Same map 
-   1. Referenced map  
-
- 
-   The references are not resolved if the enumeration is not found in the same map and the referenced map. 
-
-</details>
 
 **Attributes drop-down**
 
