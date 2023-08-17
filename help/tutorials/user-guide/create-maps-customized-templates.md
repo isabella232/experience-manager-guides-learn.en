@@ -83,8 +83,20 @@ To create a map or topic template, perform the following steps:
 The map template created message appears. You can add the template to your global or folder-level profile. The new template then appears in the topic or map creation process, and you can create maps or topics using it.
 
 
-Your administrator can also create a folder and configure it to be the folder wherein you can create and save the templates. Learn how to [configure custom DITA template folder path](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the Installation and Configuration Guide. 
+Your administrator can also create a folder and configure it to be the folder wherein you can create and save the templates. 
 
+Based on your setup learn how to configure custom DITA template folder path:
+<details>
+    <summary> Cloud Services </summary>
+
+ Learn how to [configure custom DITA template folder path](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  Cloud Services Installation and Configuration Guide. 
+ </details>
+
+<details>
+    <summary> On-premise  Software</summary>
+     
+Learn how to [configure custom DITA template folder path](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  On-premise Installation and Configuration Guide.
+     </details>
 
 ## Pass on the title defined in the templates
 
