@@ -105,12 +105,13 @@ To create a stylesheet, follow the below steps:
 By default, the CSS files provided with the template contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
 
 
-You can create a new style to use it in the page layout of the template or to apply a custom style for any DITA element. To apply these custom styles to the DITA element, you must ensure that the style’s class name is the same as the DITA element’s `outputclass` attribute.
+You can create a new style to use it in the page layout of the template or apply a custom style for any DITA element. To apply these custom styles to the DITA element, you must ensure that the style’s class name is the same as the DITA element’s name or the `outputclass` attribute.  For example, `<div>` in DITA is governed by the `.div {}` in CSS or its `outputclass` attribute. If you apply `<div outputclass="my-div">` in DITA, it's governed by the `.div {}` or `.my-div {}` in the CSS. 
+
 
 
 To create a new style, follow the below steps:
 1. Expand the left sidebar and double-click on the template in which you want to create the style.
-1. Expand the Stylesheets section. It opens the Styles panel that contains all the styling options.
+1. Expand the **Stylesheets** section. It opens the **Styles** panel that contains all the styling options.
 1. Select +  icon to add a new style.
    
       **Add Style** dialog box opens.
@@ -118,8 +119,8 @@ To create a new style, follow the below steps:
    
      <img src="assets/add-style.png" alt="Add new style" width="500"/>
       
-1. Specify a **Class** name. To apply a style to the DITA element, ensure that the style’s class name is the same as the DITA element’s `outputclass` attribute.
-1. In the **Tag** field, choose a tag for which you want to create a new style.
+1. Specify a **Class** name. To apply a style to the DITA element, ensure that the style’s class name is the same as the DITA element’s name or the `outputclass` attribute.
+1. In the **Tag** field (optional), choose a tag for which you want to create a new style.
    
     
 1. Select a **Pseudo Class** to style an element. A pseudo-class helps you define a special state of the element. For example, use pseudo-class to style an element when you hover a mouse over it or when you focus over it. You can also select multiple pseudo-classes. For example, you can use pseudo-class `a::visited {color: blue;}` to style the visited links.  
