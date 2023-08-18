@@ -73,11 +73,11 @@ To configure and generate the output using a Map Collection, perform the followi
         >  
         > By default, any new preset is disabled. 
         
-1.  Enable the folder profile presets for a DITA map  in the following ways:
+1.  You can enable the presets for a DITA map  in the following ways:
 
-    - Select any individual preset. 
-    - Select **All presets** for a DITA map to select all presets in one go. This option is disabled by default.
-    - Select **Folder profile presets** for a DITA map to select all the folder profile presets for it. This option is disabled by default.
+    - Enable any individual preset. 
+    - Enable **All presets** for a DITA map to select all presets in one go. This option is disabled by default.
+    - Enable **Folder profile presets** for a DITA map to select all the folder profile presets for it. This option is disabled by default.
    ![edit a map collection on cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
         
     
