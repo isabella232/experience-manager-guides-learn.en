@@ -252,9 +252,10 @@ Perform the following steps to configure profiling attributes and cross referenc
 
         ![Configured extenstion for DITA topics](images/dita-topic-extension-tab.png){width="650" align="left"}
 
--  Click **Choose** next to the **Extensions bundle** and select   LinkResolverExtensionBundle - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+    -  Click **Choose** next to the **Extensions bundle** and select   LinkResolverExtensionBundle - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
 
-    ![Configured extenstion for DITA topics](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+        ![Configured extenstion for DITA topics](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1.  Click **OK** on all dialog boxes to save your changes.
 
