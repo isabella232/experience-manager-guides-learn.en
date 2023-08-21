@@ -1324,7 +1324,6 @@ The following example shows how to use subject scheme in AEM Guides.
  
     The references are not resolved if the enumeration is not found in the same map and the referenced map. 
 
-
     **Attributes drop-down**
 
     You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
