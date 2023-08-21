@@ -66,7 +66,7 @@ Native PDF publishing engine needs Oracle JDK to generate the node modules in th
 
 ## Configuration steps for Linux Server (RHEL7/centOS 7)
 
-1. Ensure that AEM server is down
+1. Ensure that the AEM server is down
 2. Verify the JAVA_HOME variable by doing echo $JAVA_HOME
 3. If JAVA_HOME variable is not set, then follow step 4. Otherwise, move to step 5 directly.
 4. Set JAVA_HOME variable using the below commands based on the installed java version
@@ -84,7 +84,7 @@ Native PDF publishing engine needs Oracle JDK to generate the node modules in th
     1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
     2. export PATH=$PATH: $JAVA\_HOME/bin
 
-5. Restart AEM Server
+5. Restart AEM Server and move to Step 12, if you are using Guides version 4.2 and higher. 
 6. Copy the "_node_modules.zip_" attached in the bottom of this article to the crx-quickstart/profiles/nodejs--b1aad0a7-9079-e56c-1ed8-6fcababe8166/ directory.
 7. Open terminal in crx-quickstart/profiles/nodejs--b1aad0a7-9079-e56c-1ed8-6fcababe8166/ location.
 8. Delete node_modules directory using below command
@@ -105,7 +105,7 @@ Native PDF publishing engine needs Oracle JDK to generate the node modules in th
 
 **NOTE** : node_modules.zip package can be downloaded [here](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
-Manually importing the downloaded node modules for Linux operating system is a workaround for users who are on Guides 4.1 or earlier versions.
+Manually importing the downloaded node modules for the Linux operating system is a workaround for users who are on Guides 4.1 or earlier versions(Step 6-12)
 
 ## Configuration steps for Mac machine (JAVA 11/8)
 
@@ -159,8 +159,22 @@ Below are the common errors that may occur during PDF Generation when environmen
 
 ![null pointer exception](../assets/publishing/null-pointer-exception.png)
 
+If the issue persists even after correcting the Java environment settings, please revalidate the following:
+
+1. Check whether the output preset is defined correctly or create a new output preset without spaces.
+
+2. Verify the node resources directory at /libs/fmdta/node_resources to ensure that all the required libraries are installed during the installation.
+
 ### Missing Libraries in RHEL 7 Linux OS
 
 ![missing libraries](../assets/publishing/missing-libraries.png)
+
+### Publish process timeout. Process did not complete in given time 0ms
+
+![publish process timeout](../assets/publishing/publish-process-timeout.png)
+
+Validate the timeout property value for the nodejs node in  /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs in CRX repository. Default value is 300.
+
+
 
 If you encounter any issues while performing any of the above steps, post your question on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for assistance.

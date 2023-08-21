@@ -39,9 +39,7 @@ AEM Guides allows you to configure a folder to store your customized DITA map an
 
 `/content/dam/dita-templates/`
 
-To manage topic and map template files, there are dedicated folders to store the topic and map templates. By default, all topic templates are stored under the `/content/dam/dita-templates/topics`
-
-folder. All map templates are stored under the `/content/dam/dita-templates/maps` folder.
+To manage topic and map template files, there are dedicated folders to store the topic and map templates. By default, all topic templates are stored under the `/content/dam/dita-templates/topics` folder. All map templates are stored under the `/content/dam/dita-templates/maps` folder.
 
 As an administrator, you can choose to create custom map or topic templates in the default folder or create your own folder to store custom templates. If you plan to use the default folder, then you can skip this process.
 
