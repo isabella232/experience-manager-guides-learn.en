@@ -806,7 +806,7 @@ The various options in the Options menu are explained below:
     > - If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
     > - When you check in a file that has any unsaved changes, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
     
--   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
+-   **Preview**: Get a quick preview of the file (.dita/.xml\) without opening it.
 
     ![](images/quick-preview_cs.png){width="800" align="left"}
 
