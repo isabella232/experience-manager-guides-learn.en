@@ -47,7 +47,7 @@ Perform the following steps to create a map template:
 
 1.  In the **Assets UI**, navigate to the dita-templates folder.
 1.  Click **maps** folder to open it.
-1.  Click **Create \> DITA Template.**
+1.  Click **Create** > **DITA Template.**
 
     ![](images/create-dita-template.png){width="300" align="left"}
 

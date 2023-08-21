@@ -21,7 +21,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1.  Enter a Title for your map collection.
+1.  Enter a title for your map collection.
 1.  Click **Create**.
 
     A Success message is displayed on creation of the map collection.
