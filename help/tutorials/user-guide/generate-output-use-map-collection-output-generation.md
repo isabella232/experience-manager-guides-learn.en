@@ -73,19 +73,13 @@ To configure and generate the output using a Map Collection, perform the followi
         >  
         > By default, any new preset is disabled. 
         
-1.  You can enable the presets for a DITA map  in the following ways:
+    -   You can select **Enable/Disable all folder profile presets** for a DITA map to select all the folder profiles for it in one go. 
 
-    - Enable any individual preset. 
-    - Enable **All presets** for a DITA map to select all presets in one go. This option is disabled by default.
-    - Enable **Folder profile presets** for a DITA map to select all the folder profile presets for it. This option is disabled by default.
-   ![edit a map collection on cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
-        
-    
 
 1.  Do one of the following:
 
     -   To generate output of selected maps, select the map files and click **Generate Selected**.
-    -   To generate output of all DITA maps with their configured presets, click **Generate All**.
+    -   To generate output of all DITA maps with their configured presets, Click **Generate All**.
     >[!IMPORTANT]
     >
     > If an output generation process for a preset or DITA map is either in the queue or in progress, you cannot initiate another output generation task for the same preset or map.
