@@ -102,25 +102,36 @@ To create a stylesheet, follow the below steps:
 
 ### Create a new style {#create-style}
 
-By default, the CSS files contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
+By default, the CSS files provided with the template contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
 
-Typically, you will create a new style when you want to associate a custom style for any DITA element. For such custom styles to work, you must ensure that you are associating the style's class name with the DITA element's outputclass attribute. 
+
+You can create a new style to use it in the page layout of the template or apply a custom style for any DITA element. To apply these custom styles to the DITA element, you must ensure that the style’s class name is the same as the DITA element’s name or the `outputclass` attribute.  For example, `<div>` in DITA is governed by the `.div {}` in CSS or its `outputclass` attribute. If you apply `<div outputclass="my-div">` in DITA, it's governed by the `.div {}` or `.my-div {}` in the CSS. 
+
 
 
 To create a new style, follow the below steps:
-1. Right click any style and choose New Style from the context menu.
+1. Expand the left sidebar and double-click on the template in which you want to create the style.
+1. Expand the **Stylesheets** section. It opens the **Styles** panel that contains all the styling options.
+1. Select +  icon to add a new style.
+   
+      **Add Style** dialog box opens.
 
-   This opens the Add Style dialog.
    
-     <img src="assets/add-style.png" alt="Add new style" width="300"/>
-1. In the **Tag** filed, choose a tag for which you want to create a new style.
-1. Specify a **Class** name.
+     <img src="assets/add-style.png" alt="Add new style" width="500"/>
+      
+1. Specify a **Class** name. To apply a style to the DITA element, ensure that the style’s class name is the same as the DITA element’s name or the `outputclass` attribute.
+1. In the **Tag** field (optional), choose a tag for which you want to create a new style.
    
-   This class name must be associated with the tag's outputclass attribute in your source content. 
-1. Select a **Pseudo Class** for enhanced styling of the element. 
+    
+1. Select a **Pseudo Class** to style an element. A pseudo-class helps you define a special state of the element. For example, use pseudo-class to style an element when you hover a mouse over it or when you focus over it. You can also select multiple pseudo-classes. For example, you can use pseudo-class `a::visited {color: blue;}` to style the visited links.  
+
+1. Add the selector for the new style. The **Selector** field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create `table a.link` style for all the hyperlinks inside a table.
+
+   For more info regarding CSS tags, view [Refer to CSS style grammar](https://www.w3.org/TR/CSS21/syndata.html#characters).
+
 1. Click **Done**.
 
-   A new style is created and added under the base style.
+   A new style is created and added to the style list.
 
 ### Customize a predefined or new style {#customize-style}
 
@@ -138,17 +149,26 @@ To customize a style, follow the below steps:
    
    This opens the stylesheet for editing and displays the list of styles in the Styles panel.
 
-   <img src="assets/customize-style.png" alt="Customize style" width="450">
+   <img src="assets/customize-style.png" alt="Customize style" width="800">
 
-1. To customize a style, double-click a style or click the > icon before a style to view and customize it using the Styles editor.
+1. To customize a style, select the style to view and customize it using the Styles editor.
 
-For details about working with the most common styles, see [Work with the common content styles](stylesheet.md).
+
+### Properties of Styles
+
+In the center panel, you can edit the properties, but it might be difficult to get a snapshot of what all values are present.  The **Properties** pane gives a quick view of all the attributes and values of the style. 
+
+In the center panel, you can edit the commonly used properties but not all the properties that CSS supports. In the **Properties** pane, you can edit all the properties that CSS supports and preview them. You need not switch to the source view to edit any properties.
+
+
+Learn more about using the style editor to [Work with the common content styles](stylesheet.md).
 
 ## Work with resources {#work-with-resources}
 
 This is a container for all assets used to design a template. You can think of it as a folder, which contains assets such as background images, custom fonts, logos, and more. Whenever you add an asset in your template, it is upload or check in to the asset folder. You can then use these assets to customize or design your PDF templates.
 
 To add an asset file to the Resources folder, follow the below steps:
+
 1. Hover over the Resources folder tab and click the (Options icon) ... and choose Import.
 
    This opens the Upload Assets dialog.
