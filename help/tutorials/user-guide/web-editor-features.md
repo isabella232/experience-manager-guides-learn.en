@@ -17,7 +17,7 @@ The following subsection cover in details the various sections of the Web Editor
 
 ## Main toolbar {#id2051EA0G05Z}
 
-The main toolbar is at the top of the Web Editor's interface and it provides file-level features and various authoring modes available in the Web Editor. The features available in the top toolbar are explained as follows:
+The main toolbar is at the top of the Web Editor's interface and it provides file-level features and various authoring modes available in the Web Editor. Features available in the top toolbar are explained as follows:
 
 **Save All** - ![](images/SaveFloppy_icon.svg)
 
@@ -675,20 +675,25 @@ To add a file to your favorite collection, use any of the following methods:
 
     ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
--   Right-click on a file's tab in the editor to open the context menu. Choose **Add To \> Favorites** to add the file to your favorites list.
+-   Right-click on a file's tab in the editor to open the context menu. Choose **Add To** > **Favorites** to add the file to your favorites list.
 
     ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
+>[!NOTE]
+>
+> - To remove an item from the favorites list, select the Options icon next to the item in a Favorites collection and choose **Remove from Favorites**.
+> - To preview the file without opening it, select a file and then select **Preview** from the Options menu. 
 
-** Options menu for Favroties collection**  
+
+
+**Options menu for Favroties collection**  
 You can also perform many actions using the Options menu available for a Favorites collection: 
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **Rename**: Rename the selected collection. 
-- **Delete**: Delete the selected file.  
+- **Delete**: Delete the selected collection.  
 - **Refresh**: Get a fresh list of files and folders from the repository. 
 - **View in Assets UI**: Show the file or folder contents in the Assets UI. 
-
 
 >[!NOTE]
 >
@@ -796,7 +801,7 @@ You will see different options in the Options menu depending on whether you sele
 
 The various options in the Options menu are explained below:
 
--   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
+-   **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Advanced Map Editor](map-editor-advanced-map-editor.md#) for editing.
 
 -   **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
 -   **Check Out**: Get a lock on the selected file for editing. For a locked file, this option changes to **Check In**.
@@ -806,7 +811,7 @@ The various options in the Options menu are explained below:
     > - If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
     > - When you check in a file that has any unsaved changes, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
     
--   **Preview**: Get a quick preview of the file (.dita/.xml\) without opening it.
+-   **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab. The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** pane, you can either select the close icon or click anywhere outside the pane.  
 
     ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1007,7 +1012,7 @@ You can perform the following actions using the Options menu:
     > - If a file is locked or checked out by a user, hovering the mouse pointer over the lock icon shows the user \(name\) who has locked the file.
     > - When you check in a file, it prompts you to save the changes. If you don't save your changes, then it only checks in the file.
 
--   **Preview**: Get a quick preview of the file \(.dita/.xml\) without opening it.
+-   **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab.  The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** pane, you can either select the close icon or click anywhere outside the pane.  
 -   **Copy**: You can choose from the following options:
     -   **Copy UUID**: Copy the UUID of the selected file to Clipboard.
     -   **Copy Path**: Copy complete path of the selected file to Clipboard.
@@ -1130,9 +1135,12 @@ To insert content from the Reusable Contents panel, use any of the following met
 
     >[!NOTE]
     >
-    > Note: The **Preview** option is also available in the context menu, which gives you a quick preview of the element before inserting it.
+    > Select a file and then select **Preview** from the **Options** menu to preview the file without opening it. You can also preview the references present in a topic. The reference ID appears in the window. 
+    >
+    > The **Preview** option is also available in the **Options** menu of an element, which gives you a quick preview of the element before inserting it.  
 
 -   Drag-and-drop the reusable content item from the panel at the desired location in your document.
+
 
 
 **Glossary** -  ![](images/glossary.svg)
@@ -1268,87 +1276,138 @@ The following example shows how to use subject scheme in AEM Guides.
 
     ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-    **Handling hierarchical definitions of subject definitions and enumerations**
+**Handling hierarchical definitions of subject definitions and enumerations**
 
-    Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define the subject definition in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
+  Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define one or more subject definitions in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
 
-    The subject definitions are defined in `subject_scheme_map_1.ditamap`   
+   The subject definitions are defined in `subject_scheme_map_1.ditamap`   
 
  
-    ```XML
-    <?xml version="1.0" encoding="UTF-8"?> 
+```XML
+  <?xml version="1.0" encoding="UTF-8"?> 
     <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
     <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+
     <title>subject_scheme_map_1</title> 
-    <subjectdef keys="os" navtitle="Operating system"> 
-    <subjectdef keys="linux" navtitle="Linux"> 
-    <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
-    <subjectdef keys="suse" navtitle="SuSE Linux"/> 
-    </subjectdef> 
-    <subjectdef keys="windows" navtitle="Windows"/> 
-    <subjectdef keys="zos" navtitle="z/OS"/> 
-    </subjectdef> 
-    </subjectScheme>  
+    
+    <subjectdef keys="os" navtitle="Operating system">
+        <subjectdef keys="linux" navtitle="Linux">
+        <subjectdef keys="redhat" navtitle="RedHat Linux">
+        </subjectdef>
+        <subjectdef keys="suse" navtitle="SuSE Linux">
+        </subjectdef>
+        </subjectdef>
+        <subjectdef keys="windows" navtitle="Windows">
+        </subjectdef>
+        <subjectdef keys="zos" navtitle="z/OS">
+        </subjectdef>
+        </subjectdef>
+        <subjectdef keys="deliveryTargetValues">
+        <subjectdef keys="print">
+        </subjectdef>
+        <subjectdef keys="online">
+        </subjectdef>
+    </subjectdef>
+    <subjectdef keys="mobile" navtitle="Mobile">
+        <subjectdef keys="android" navtitle="Android">
+        </subjectdef>
+        <subjectdef keys="ios" navtitle="iOS">
+    </subjectdef>
+    </subjectdef>
+    <subjectdef keys="cloud" navtitle="Cloud">
+        <subjectdef keys="aws" navtitle="Amazon Web Services">
+        </subjectdef>
+        <subjectdef keys="azure" navtitle="Microsoft Azure">
+        </subjectdef>
+        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
+        </subjectdef>
+    </subjectdef>
+    </subjectScheme>
+```
 
-    ```
+The enumeration definition is present in    subject_scheme_map_2.ditamap. 
 
-    The enumeration definition is present in    subject_scheme_map_2.ditamap 
+```XML
+    ?xml version="1.0" encoding="UTF-8"?> 
+        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+        <title>subject_scheme_map_2</title> 
+        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+        </mapref> 
+        <enumerationdef>
+        <attributedef name="platform">
+        </attributedef>
+        <subjectdef keyref="mobile">
+        </subjectdef>
+        <subjectdef keyref="cloud">
+        </subjectdef>
+        </enumerationdef>
+        </subjectScheme>
+```
 
-    ```XML
-    <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-    <title>subject_scheme_map_2</title> 
-    <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-    </mapref> 
-    <enumerationdef> 
-    <attributedef name="platform"> 
-    </attributedef> 
-    <subjectdef keyref="os"> 
-    </subjectdef> 
-    </enumerationdef> 
-    </subjectScheme>  
-    ``` 
+ Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
 
-    Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`. 
+>[!NOTE] 
+>
+> As the `subject_scheme_map_1.ditamap` and `subject_scheme_map_2.ditamap` are referenced with each other hence the subject schemes are getting resolved.  
 
-    >[!NOTE] 
-    >
-    > As the `subject_scheme_map_1.ditamap` and `subject_scheme_map_2.ditamap` are referenced with each other hence the subject schemes are getting resolved.  
+The subject-enumeration references are resolved in the following order of priority: 
 
-    The subject-enumeration references are resolved in the following order of priority: 
-
-    1. Same map 
-    1. Referenced map  
+  1. Same map 
+  1. Referenced map  
 
  
-    The references are not resolved if the enumeration is not found in the same map and the referenced map. 
+The references are not resolved if the enumeration is not found in the same map and the referenced map. 
 
-    **Attributes drop-down**
 
-    You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
 
-    ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-    You can also apply values for an attribute by selecting multiple values from the dropdown.
+**Restrict the values to a specific element**
 
-    **Source View**
+You can also restrict the  conditions to some elements within a topic. Use the `<elementdef>` tag to define the element and the `<attributedef>` tag to define the condition that can be applied to the element.  If you don’t add the `<elementdef>` tag,  you can apply the conditions to all elements. 
+For example, use the following enumeration to restrict the `@platform` attribute to the `<shortdesc>` element.  The other conditions are visible for all elements.
 
-    You can also change the values from the attribute's drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
+```XML
+<enumerationdef>
+    <elementdef name="shortdesc">
+    </elementdef>
+    <attributedef name="platform">
+    </attributedef>
+    <subjectdef keyref="deliveryTargetValues">
+    </subjectdef>
+    <subjectdef keyref="os">
+    </subjectdef>
+  </enumerationdef>
+```
 
-    ![](images/subject-scheme-code-error.png){width="550" align="left"}
+</details>
 
-    **View and apply the subject scheme from the Conditions panel**
 
-    You can also view and apply the subject scheme from the Conditions panel.
+**Attributes drop-down**
 
-    To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
+You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
 
-    The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
+![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-    ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+You can also apply values for an attribute by selecting multiple values from the dropdown.
 
-    You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
+**Source View**
+
+You can also change the values from the attribute's drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
+
+![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+**View and apply the subject scheme from the Conditions panel**
+
+You can also view and apply the subject scheme from the Conditions panel.
+
+To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
+
+The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
+
+![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
 
 **Snippets** -  ![](images/insert-snippet-icon.svg)
 
