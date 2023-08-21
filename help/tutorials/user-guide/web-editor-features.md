@@ -17,7 +17,7 @@ The following subsection cover in details the various sections of the Web Editor
 
 ## Main toolbar {#id2051EA0G05Z}
 
-The main toolbar is at the top of the Web Editor's interface and it provides file-level features and various authoring modes available in the Web Editor. Features available in the top toolbar are explained as follows:
+The main toolbar is at the top of the Web Editor's interface and it provides file-level features and various authoring modes available in the Web Editor. The features available in the top toolbar are explained as follows:
 
 **Save All** - ![](images/SaveFloppy_icon.svg)
 
