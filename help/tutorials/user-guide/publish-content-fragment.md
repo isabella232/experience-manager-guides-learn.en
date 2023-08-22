@@ -43,7 +43,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
         <details>
         <summary> On-premise  Software</summary>
 
-        Learn more about how to [create a mapping between a topic and a content fragment](../install-guide/conf-content-fragment-mapping.md) in On-premise Installation and configuration Guide.
+        Learn more about how to [create a mapping between a topic and a content fragment](../install-guide/conf-content-fragment-mapping.md) in the On-premise Installation and Configuration Guide.
 
         </details>
     * Select the **Overwrite** checkbox if your content fragment already exists and you wish to overwrite it. AEM Guides displays an error if you don’t select the checkbox and your content fragment already exists. 
