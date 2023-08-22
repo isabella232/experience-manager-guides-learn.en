@@ -123,7 +123,7 @@ To move files in bulk, perform the following steps:
 
     <details>
         
-    <summary> On-premise UUID-based file system </summary>
+    <summary> Cloud Services and On-premise UUID-based file system </summary>
 
     ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
