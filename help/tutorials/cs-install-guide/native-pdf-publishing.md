@@ -24,4 +24,4 @@ For more details, view the following:
     * [Add a custom bookmark in PDF output](../native-pdf/add-custom-bookmark.md)
     * [Use JavaScript to work with content or style](../native-pdf/use-javascript-content-style.md)
     * [Use custom styles in footnotes](../native-pdf/footnote-number-style.md)
-+ [Configure JVM flags for Native PDF Publishing](../native-pdf/configure-jvm-flags.md)
+* [Configure JVM flags for Native PDF Publishing](../native-pdf/configure-jvm-flags.md)
