@@ -22,7 +22,7 @@ Learn how to [configure a data source connector](../cs-install-guide/conf-data-s
 <details>    
 <summary>  On-premise Software </summary>
 
-Learn how to [configure a data source connector](../install-guide/conf-data-source-connector.md)  in the On-premise Installation and Configuration Guide.. 
+Learn how to [configure a data source connector](../install-guide/conf-data-source-connector.md)  in the On-premise Installation and Configuration Guide.
 </details>
 
 
