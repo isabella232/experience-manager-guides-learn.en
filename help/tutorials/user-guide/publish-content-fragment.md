@@ -30,11 +30,22 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     * **Model**: Select the content fragment model that you want to use to create your content fragment. The models are picked from the folder which you have configured in the cloud services. 
     * **Mapping**: Select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  
 
-        >[!NOTE]
-        >
-        >Your administrator can add the mappings in the *contentFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and a content fragment](../install-guide/conf-content-fragment-mapping.md) in *On-premise Installation and configuration Guide*.
+      
 
+        Based on your setup your administrator can add the mappings in the *contentFragmentMapping.json* file. 
+    
+        <details>
+        <summary>Cloud Services</summary>
      
+         Learn more about how to [create a mapping between a topic and a content fragment](../cs-install-guide/conf-content-fragment-mapping.md) in the  Cloud Services Installation and Configuration Guide. 
+        </details>
+
+        <details>
+        <summary> On-premise  Software</summary>
+
+        Learn more about how to [create a mapping between a topic and a content fragment](../install-guide/conf-content-fragment-mapping.md) in On-premise Installation and configuration Guide.
+
+        </details>
     * Select the **Overwrite** checkbox if your content fragment already exists and you wish to overwrite it. AEM Guides displays an error if you don’t select the checkbox and your content fragment already exists. 
 1. Click **Create** to publish the content fragment.
 1. You can view the content fragments for a topic under the **Fragments** section in the **File properties**.
