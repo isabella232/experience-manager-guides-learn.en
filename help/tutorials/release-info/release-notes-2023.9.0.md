@@ -154,7 +154,7 @@ The bugs fixed in various areas are listed below:
 
 - Native PDF | Including multiple xrefs extends the text beyond the column width. (13004)
 - Native PDF | In AEM Guides version 4.2.1.270, when the topic and title have the same ID, it leads to a malformed generation of the PDF output. (12644)
-- Native PDF | On adding an outputclass to a parent <topicref> element in a DITA map and applying custom style to the outputclass, the styling is applied to elements within the topic body, including section titles.(12166)
+- Native PDF | On adding an outputclass to a parent `<topicref>` element in a DITA map and applying custom style to the outputclass, the styling is applied to elements within the topic body, including section titles.(12166)
 - Incremental publishing doesn’t work if a DITA map has multiple ditavalrefs. (12117)
 - AEM Site | On creating a map with keydef pointing to a topic as a variable and adding processing-role=resource-only creates some unexpected pages. (12099)
 - If any assets from AEM’s DAM are used in any output other than the AEM site, then the metadata "jcr:createdBy" does not reflect the publisher’s name or the name of the user who last modified the DITA map or topic. (12090)
@@ -162,7 +162,7 @@ The bugs fixed in various areas are listed below:
 - Native PDF | Issues occur in support of topichead / topicmeta / navtitle in Frontmatter and Backmatter. (11969)
 - Native PDF | Generating PDFs for large documents is time-consuming. (11955)
 - Native PDF | Renaming a preset throws a NullPointerException while generating a PDF output. (11889)
-- The <conref> content isn’t shown in the PDF output. (11131)
+- The `<conref>` content isn’t shown in the PDF output. (11131)
 - Web Editor shows an incorrect title when a slash is present. (10949)
 - An extra space gets added inside the `<div>` elements on toggling between the Author and Source view in the page layout editor. (10750)
 - The content replicated on the AEM Cloud manager isn’t visible on the Publish instance. (9564)
