@@ -1,6 +1,6 @@
 ---
 title: Native PDF | Configure Node process for Native PDF Publishing
-description: Configure JVM flags for Node process Publishing
+description: Learn how to configure Node process for Native PDF Publishing
 ---
 
 # Configure Node Process for Native PDF Publishing
