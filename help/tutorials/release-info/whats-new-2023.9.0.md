@@ -6,22 +6,20 @@ description: Learn the new and enhanced features in September 2023 release of Ad
 
 This article covers the new and enhanced features in version  September 2023 of Adobe Experience Manager Guides (later referred to as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.7.0.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.9.0.md).
 
-## Connect to a data source and insert data into your topics
+## Connect to a data source and insert the topics
 
-Now you can quickly connect to your data sources using out-of-the-box connectors from AEM Guides. Connecting to a data source enables you to keep your information in sync with the source, and any updates to the data are reflected automatically, making AEM Guides a true content hub. This feature helps you save time and effort to manually add or copy the data.
+You can quickly connect to your data sources using out-of-the-box connectors from AEM Guides. 
 
-AEM Guides allows your administrator to configure the out-of-the-box connectors for JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases. They can also add other connectors by extending the default interfaces.
-Once added, you can view the configured connectors listed under the Data Sources panel in the Web Editor.
+Your administrator can configure the out-of-the-box connectors for  JIRA, SQL (MySQL, PostgreSQL, SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases. They can also add other connectors by extending the default interfaces.
+You can view the configured connectors under the **Data Sources** panel in the Web Editor.
  
 <img  src="assets/data-sources.png" alt= "Data sources list in the panel" width=300>
 
-*View the conected data sources.*
+*View the connected data sources.*
 
-Create a content snippet to fetch the data from a connected data source. You can then insert the data into your topics and edit it. Once you’ve created a content snippet generator, you can reuse it to insert the data into any topic. 
-
-Now you can also create a topic from a connected data source. A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics. You can associate metadata to the topic when pulling from a data source.
+You can now also create a topic from a connected data source. A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics. You can associate metadata to the topic when pulling from a data source.
 
 For more details, view [Use data from your data source](../user-guide/web-editor-content-snippet.md).
 
@@ -95,7 +93,7 @@ For more details, view [Page Order](../native-pdf/components-pdf-template.md#pag
 
 ### Merge pages
 
-In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page. This publishes the section in continuation with the selected page in the PDF output and there is no page break in between.
+In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page. This publishes the section in continuation with the selected page in the PDF output and there is no page break-in between.
 
 For more details, view the Merge pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
 
@@ -134,6 +132,17 @@ You can now use custom selectors to add complex styles. The new Selector field h
 Now AEM Guides introduces you to a new properties panel under the preview section for styles. You can edit the properties of the styles more efficiently and quickly from the properties panel.
 
 
+## Support for multiple subject definitions in a single enumeration definition
+
+You can now define one or more subject definitions in one map and the enumeration definitions in another and then add the map reference. You can then add the map reference and use the subject scheme. The subject-enumeration references are resolved in the same map or the referenced map.
+You can now define conditions and apply them to some specific elements in a topic.  They are not visible for all the other elements of the topic.
+
+
+For more details on the handling hierarchical definitions of subject definitions and enumerations, see the Subject scheme feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+
+
+
 
 ## Select all presets in a Map Collection
 
@@ -158,3 +167,6 @@ You can use the browse file dialog to select the source folders you want to move
 For more details, view [Move files in bulk](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
+## Enhanced preview experience from the context menu
+
+Use the context menu to quickly preview the file (.dita, .xml, audio, video, or image) without opening it. You can now resize the preview pane, and if the content contains any reference link, you can select it to open it in a new tab. 
