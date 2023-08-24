@@ -318,7 +318,7 @@ breadcrumb-title: AEM Guides Tutorials
     + Work with output generation settings {#output-gen-config-cs} 
       +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
       + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md) 
-      + [Create a mapping between a topic and a content fragment](./install-guide/conf-content-fragment-mapping.md)  
+      + [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)  
     + Work with custom workflows {#custom-workflow-cs}
       +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config-cs}

@@ -168,7 +168,8 @@ The bugs fixed in various areas are listed below:
 - The content replicated on the AEM Cloud manager isn’t visible on the Publish instance. (9564)
 
 ### Translation
-The  process to export a baseline fails. (12993)
+
+The process to export a renamed baseline for a translation fails. (12993)
 
 
 

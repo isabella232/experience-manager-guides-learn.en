@@ -37,7 +37,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
         <details>
         <summary>Cloud Services</summary>
      
-         Learn more about how to [create a mapping between a topic and a content fragment](../cs-install-guide/conf-content-fragment-mapping.md) in the  Cloud Services Installation and Configuration Guide. 
+         Learn more about how to [create a mapping between a topic and a content fragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in the  Cloud Services Installation and Configuration Guide. 
         </details>
 
         <details>
