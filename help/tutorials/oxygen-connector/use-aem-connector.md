@@ -494,6 +494,7 @@ The following points must be considered while moving or copying content from you
 
 -   When you checkout content from AEM repository and make changes on your local system, ensure that file name is not changed at the time of uploading the file.
 
+- When you insert a reference in the DITA Maps Manager, it displays the title of the file and not the UUID. If the title isn't present, then it displays the filename.
 
 ### Add or remove Favorites {#id195HC04405P}
 
