@@ -32,7 +32,7 @@ You can create a baseline from the Web Editor by performing the following steps:
         1.  **Date** <time stamp\>: Picks the topics' version as on the specified date and time.
         1.  **Label**: Select this option to pick the topics according to the label applied to them. If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box. 
 
-            For the direct references in static baselines, the labels are pulled from the latest saved version of the map. For example, if you have created labels `Label Release 1.0` and `Label Release 1.1` for versions 1.0 and 1.1 of Topic A, and then add this topic to the map whose version is saved as 1.0. In this case, you can view the labels `Label Release 1.0` and `Label Release 1.1` in the drop-down for static baseline labels.
+            For the direct references in static baselines, the labels are pulled from the latest saved version of the map. For example, if you have created labels `Label Release 1.0` and `Label Release 1.1` for versions 1.0 and 1.1 of Topic A, and then add Topic A to the map saved as version 1.0. In this case, you can view the labels `Label Release 1.0` and `Label Release 1.1` in the drop-down for static baseline labels.
 
 
             When you select **Label,** you can choose the direct and indirect references.
