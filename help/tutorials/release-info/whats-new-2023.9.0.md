@@ -170,3 +170,7 @@ For more details, view [Move files in bulk](../user-guide/authoring-file-managem
 ## Enhanced preview experience from the context menu
 
 Use the context menu to quickly preview the file (.dita, .xml, audio, video, or image) without opening it. You can now resize the preview pane, and if the content contains any reference link, you can select it to open it in a new tab. 
+
+### Use variables for current date and time in the  Destination Path, Site Name, or File Name options
+
+While generating outputs in AEM Site or PDFs, you can use variables for setting the **Destination Path**, **Site Name**, or **File Name** options. You can now also use the `${system_date}`and `${system_time}` variables. These variables help you append the current date and time to these options.
