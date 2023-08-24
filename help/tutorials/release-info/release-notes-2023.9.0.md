@@ -167,6 +167,9 @@ The bugs fixed in various areas are listed below:
 - An extra space gets added inside the `<div>` elements on toggling between the Author and Source view in the page layout editor. (10750)
 - The content replicated on the AEM Cloud manager isn’t visible on the Publish instance. (9564)
 
+### Translation
+The  process to export a baseline fails. (12993)
+
 
 
 
