@@ -63,6 +63,7 @@ Conducting reviews is a critical feature of AEM Guides. It helps the reviewers t
 Now you can search for a topic by entering some part of the text of the title or filepath in the search bar of the topics view of the review panel. You can also choose to view all topics or view topics with comments. By default, you can view all topics present in the review task. For more details, view [Review topics](../user-guide/review-topics.md).
 
 ![Search in a review topics panel](assets/review-search-topic.png){width="800" align="left"}
+
 *Search a review topic in the review panel.*
 
 
