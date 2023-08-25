@@ -50,7 +50,7 @@ Perform the following steps to create a baseline:
 
     >[!NOTE]
     >
-    >It is recommended to not use the **Browse All Topics** link when creating a baseline. 
+    >It is recommended not to use the **Browse All Topics** link when creating a baseline. 
 
 1.  Click **Save**.
 
