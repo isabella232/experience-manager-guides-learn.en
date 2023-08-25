@@ -140,11 +140,15 @@ The bugs fixed in various areas are listed below:
 - On saving long files in the Web Editor, `DirtyChecker` throws an exception with a long stack trace and fills the log files. (11860)
 - The Reports tab in Web Editor doesn’t display the topic list of old DITA maps created before the 4.2 upgrade. (11852)
 - Creating DITA topics requires Delete permission on the corresponding folder node, although the map can be created with Write permission. (11706)
+- Web Editor shows an incorrect title when a slash is present. (10949)
 
 
 ### Management
 
 - The "title" field in DITA map metadata properties is overwritten by `<title>` element for the map. (10702)
+- Content reference is broken copy-pasting DITA files when the topic id isn’t the same as GUID. (12614)
+- In dynamic baselines, the list of labels isn’t pulled from the direct references of the working copy of a DITA map. (11917)
+
 
 
 ### Publishing
@@ -163,7 +167,6 @@ The bugs fixed in various areas are listed below:
 - Native PDF | Generating PDFs for large documents is time-consuming. (11955)
 - Native PDF | Renaming a preset throws a NullPointerException while generating a PDF output. (11889)
 - The `<conref>` content isn’t shown in the PDF output. (11131)
-- Web Editor shows an incorrect title when a slash is present. (10949)
 - An extra space gets added inside the `<div>` elements on toggling between the Author and Source view in the page layout editor. (10750)
 - The content replicated on the AEM Cloud manager isn’t visible on the Publish instance. (9564)
 
