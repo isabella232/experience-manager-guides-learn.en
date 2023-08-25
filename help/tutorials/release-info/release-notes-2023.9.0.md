@@ -107,7 +107,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2023.09.0| 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 | 
+| 2023.09.0| 3.0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
@@ -138,7 +138,6 @@ The bugs fixed in various areas are listed below:
 - The ditaval topic template references don’t create a copy in the content folder when creating a map from the map template. (12150)
 - The search box in DITA maps does not have a close button. (11867)
 - On saving long files in the Web Editor, `DirtyChecker` throws an exception with a long stack trace and fills the log files. (11860)
-- The Reports tab in Web Editor doesn’t display the topic list of old DITA maps created before the 4.2 upgrade. (11852)
 - Creating DITA topics requires Delete permission on the corresponding folder node, although the map can be created with Write permission. (11706)
 - Web Editor shows an incorrect title when a slash is present. (10949)
 
@@ -148,6 +147,7 @@ The bugs fixed in various areas are listed below:
 - The "title" field in DITA map metadata properties is overwritten by `<title>` element for the map. (10702)
 - Content reference is broken copy-pasting DITA files when the topic id isn’t the same as GUID. (12614)
 - In dynamic baselines, the list of labels isn’t pulled from the direct references of the working copy of a DITA map. (11917)
+- The Reports tab in Web Editor doesn’t display the topic list of old DITA maps created before the September 2023 upgrade. (11852)
 
 
 
@@ -157,7 +157,7 @@ The bugs fixed in various areas are listed below:
 - Duplicating a Native PDF template duplicates to the default template location instead of the provided custom template location. (12563)
 
 - Native PDF | Including multiple xrefs extends the text beyond the column width. (13004)
-- Native PDF | In AEM Guides version 4.2.1.270, when the topic and title have the same ID, it leads to a malformed generation of the PDF output. (12644)
+- Native PDF | When the topic and title have the same ID, it leads to a malformed generation of the PDF output. (12644)
 - Native PDF | On adding an outputclass to a parent `<topicref>` element in a DITA map and applying custom style to the outputclass, the styling is applied to elements within the topic body, including section titles.(12166)
 - Incremental publishing doesn’t work if a DITA map has multiple ditavalrefs. (12117)
 - AEM Site | On creating a map with keydef pointing to a topic as a variable and adding processing-role=resource-only creates some unexpected pages. (12099)
