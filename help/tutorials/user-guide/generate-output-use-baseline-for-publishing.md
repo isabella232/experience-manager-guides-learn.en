@@ -48,7 +48,9 @@ Perform the following steps to create a baseline:
 
     Once you have selected a label or version as on date, then all referenced topics and media files within the map are selected accordingly. This selection of topics is not shown on the user interface, but it is saved in the backend.
 
-1. It is recommended to not use the **Browse All Topics** link when creating a baseline. 
+    >[!NOTE]
+    >
+    >It is recommended to not use the **Browse All Topics** link when creating a baseline. 
 
 1.  Click **Save**.
 
