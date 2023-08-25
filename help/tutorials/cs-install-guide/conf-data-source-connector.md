@@ -5,13 +5,13 @@ description: Learn how to configure a data source connector
 
 # Configure a data source connector 
 
-AEM Guides provides out-of-the-box connectors for JIRA, SQL (MySQL, PostgreSQL, SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases. You can also add other connectors by extending the default interfaces. The following configuration helps you to easily add the various data sources. Once added, you can view the data sources in the Web Editor. 
+AEM Guides provides out-of-the-box connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases. You can also add other connectors by extending the default interfaces. The following configuration helps you to easily add the various data sources. Once added, you can view the data sources in the Web Editor. 
 
 Perform the following steps to configure a data source connector and then use it from the Web Editor:
 
 ## Configure a connector
 
-You can configure an out-of-the-box connector by uploading a JSON file. You can use the following sample setup files to set up connectors for JIRA, SQL (MySQL, PostgreSQL, SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
+You can configure an out-of-the-box connector by uploading a JSON file. You can use the following sample setup files to set up connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
   
 A sample setup file for Jira's basic authentication with username and password:
 
@@ -113,7 +113,7 @@ A sample setup file for PostgreSQL's basic authentication:
 
 For example, save as `postgres.json`.
 
-A sample setup file for MS SQL Server's basic authentication:
+A sample setup file for Microsoft SQL Server's basic authentication:
 
 ```
 {

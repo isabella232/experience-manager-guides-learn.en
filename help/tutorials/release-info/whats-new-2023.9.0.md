@@ -10,9 +10,10 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 ## Connect to a data source and insert the topics
 
-You can quickly connect to your data sources using out-of-the-box connectors from AEM Guides. 
+AEM Guides provides out-of-the-box connectors that help you connect with your data sources, making AEM Guides a true content hub. This gives you the advantage of saving you time and effort that would otherwise be spent on manual data addition or replication.
 
-Your administrator can configure the out-of-the-box connectors for  JIRA, SQL (MySQL, PostgreSQL, SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases. They can also add other connectors by extending the default interfaces.
+Along with the existing out-of-the-box connectors like JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite), your administrator can also configure connectors like MariaDB, H2DB, AdobeCommerce, and ElasticSearch databases. They can also add other connectors by extending the default interfaces.
+
 You can view the configured connectors under the **Data Sources** panel in the Web Editor.
  
 <img  src="assets/data-sources.png" alt= "Data sources list in the panel" width=300>
@@ -47,6 +48,8 @@ Capitalize the power of AEM Guides and content fragments and use content fragmen
 
 ![option to publish content fragment](assets/content-fragment-publish.png){width="550" align="left"}
 *Publish a topic to a content fragment.*
+
+For more details, view [Publish to a content fragment](../user-guide//publish-content-fragment.md).
 
 ## Review Enhancements
 
@@ -97,6 +100,14 @@ In a Native PDF output by default, all sections begin on a new page. Now you can
 
 For more details, view the Merge pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
 
+### Start any chapter from the current page
+
+You can set the basic configuration settings for starting a chapter from odd or even page, the TOC structure, and define the leader line format for the TOC entries. 
+
+Now you can also start a chapter from the current page. If you choose to do so, all chapters are published in continuation without any page breaks. For example, if a chapter ends in the middle of page 15, then the next chapter also starts from the 15th page itself.
+
+For more details, view the **General** tab description in  [Advanced PDF Settings](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
+
 ### Static pages
 
 You can also create custom page layouts and publish them as static pages in the PDF output. This helps you to add any static content like Notes or blank pages. 
@@ -134,11 +145,11 @@ Now AEM Guides introduces you to a new properties panel under the preview sectio
 
 ## Support for multiple subject definitions in a single enumeration definition
 
-You can now define one or more subject definitions in one map and the enumeration definitions in another and then add the map reference. You can then add the map reference and use the subject scheme. The subject-enumeration references are resolved in the same map or the referenced map.
-You can now define conditions and apply them to some specific elements in a topic.  They are not visible for all the other elements of the topic.
+You can now define one or more subject definitions in one map and the enumeration definitions in another map and then add the map reference. The subject-enumeration references are resolved in the same map or the referenced map.
 
+You can now also define conditions and apply them to some specific elements in a topic.  The conditions are visible only for those specific elements and not for all the other elements.
 
-For more details on the handling hierarchical definitions of subject definitions and enumerations, see the Subject scheme feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+For more details on the handling hierarchical definitions of subject definitions and enumerations, view the Subject scheme feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 
 
@@ -146,8 +157,8 @@ For more details on the handling hierarchical definitions of subject definitions
 
 ## Select all presets in a Map Collection
 
-You can not only select an individual preset, but you can also enable all the presets for a DITA map in one go.
-![edit a map collection](assets/edit-map-collection.png){width="800" align="left"}   
+You can not only enable an individual preset and all folder profile presets, but also enable all the presets for a DITA map in one go.
+![edit a map collection](assets/edit-map-collection-cs.png){width="800" align="left"}   
 *Select all presets in a map collection.*
 
 For more details, view [Use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
@@ -171,6 +182,15 @@ For more details, view [Move files in bulk](../user-guide/authoring-file-managem
 
 Use the context menu to quickly preview the file (.dita, .xml, audio, video, or image) without opening it. You can now resize the preview pane, and if the content contains any reference link, you can select it to open it in a new tab. 
 
+![Preview pane ](assets/quick-preview_cs.png){width="800" align="left"}
+
+*Preview the file in the pane.*
+
+For more details on the context menu, see the **Options for a file** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+
 ## Use variables for current date and time in the  Destination Path, Site Name, or File Name options
 
 While generating outputs in AEM Site or PDFs, you can use variables for setting the **Destination Path**, **Site Name**, or **File Name** options. You can now also use the `${system_date}`and `${system_time}` variables. These variables help you append the current date and time to these options.
+
+
