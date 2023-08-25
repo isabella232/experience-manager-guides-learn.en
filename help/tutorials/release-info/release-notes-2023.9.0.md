@@ -115,7 +115,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 |Components package name| Components version | Template version|
 |---|---|---|
-|XML_Documentation_Components_Content_Package_for_Cloud_Service|1.2.2| 1.0.15|
+|AEM Guides Components Content Package for Cloud Service|1.2.2| 1.0.15|
 
 ## Fixed issues
 
@@ -147,7 +147,7 @@ The bugs fixed in various areas are listed below:
 - The "title" field in DITA map metadata properties is overwritten by `<title>` element for the map. (10702)
 - Content reference is broken copy-pasting DITA files when the topic id isn’t the same as GUID. (12614)
 - In dynamic baselines, the list of labels isn’t pulled from the direct references of the working copy of a DITA map. (11917)
-- The Reports tab in Web Editor doesn’t display the topic list of old DITA maps created before the September 2023 upgrade. (11852)
+- Indexing upgrade for find and replace and reports fails when there are more than 100000 nodes in the system. (11852)
 
 
 
