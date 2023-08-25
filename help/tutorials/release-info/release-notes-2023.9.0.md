@@ -172,7 +172,8 @@ The bugs fixed in various areas are listed below:
 
 ### Translation
 
-The process to export a renamed baseline for a translation fails. (12993)
+- The process to export a renamed baseline for a translation fails. (12993)
+- The title of the translated file is displayed in place of the title of the source file. (11630)
 
 
 
