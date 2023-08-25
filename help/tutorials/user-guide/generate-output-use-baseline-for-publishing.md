@@ -88,7 +88,7 @@ Perform the following steps to edit an existing baseline:
 
     The information about the topic and it's selected version is stored in the backend. You can repeat this step to change the selected version for multiple topics.
 
-1.  Click the **Browse All Topics** link to load all topics and media files referred from the DITA map.The UUID of topics and media files is also shown below the topic title or the \(media\) file name.
+1. To load all topics and media files referred from the DITA  map, click the **Browse All Topics** link. The UUID of topics and media files is also shown below the topic title or the \(media\) file name.
 
     >[!NOTE]
     >
