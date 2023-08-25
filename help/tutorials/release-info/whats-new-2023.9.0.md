@@ -33,6 +33,7 @@ In AEM Guides, you can add citations or import citations and apply them to your 
 After inserting your citations to your topics, you can preview them in the Web Editor. You can also publish content with citations using Native PDF.
 
 ![Citations listed in a panel](assets/citation-panel.png){width="300" align="left"}
+
 *View the list of citations in the Citations panel.*
 
 For more details, view [Add and manage citations in your content](../user-guide/web-editor-apply-citations.md).
@@ -47,6 +48,7 @@ Now AEM Guides offers a way to publish a topic or the elements within a topic to
 Capitalize the power of AEM Guides and content fragments and use content fragments in any AEM site. You can also extract the details via APIs supported by content fragments.
 
 ![option to publish content fragment](assets/content-fragment-publish.png){width="550" align="left"}
+
 *Publish a topic to a content fragment.*
 
 For more details, view [Publish to a content fragment](../user-guide//publish-content-fragment.md).
@@ -73,7 +75,7 @@ Create custom packages on top of AEM Guides to provide extensibility using AEM G
 
 ## Native PDF enhancements
 
-The following Native PDF enhancements have been done in the 4.3.0 release to make AEM Guides a more robust product:
+The following Native PDF enhancements have been done in the September 2023 release to make AEM Guides a more robust product:
 
 
 
@@ -98,7 +100,7 @@ For more details, view [Page Order](../native-pdf/components-pdf-template.md#pag
 
 In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page. This publishes the section in continuation with the selected page in the PDF output and there is no page break-in between.
 
-For more details, view the Merge pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+For more details, view the **Merge pages** feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
 
 ### Start any chapter from the current page
 
@@ -112,7 +114,7 @@ For more details, view the **General** tab description in  [Advanced PDF Setting
 
 You can also create custom page layouts and publish them as static pages in the PDF output. This helps you to add any static content like Notes or blank pages. 
 
-For more details, view the Static pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+For more details, view the **Static pages** feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
 
 
 ### Variables in cross references
@@ -137,6 +139,8 @@ Now the CSS editor is redesigned for a better user experience with selectors and
 You can now use custom selectors to add complex styles. The new Selector field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create `table a.link` style for all the hyperlinks inside a table.
 
 ![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300" align="left"}
+
+*Add the details for the new style.*
 
 #### Customize properties of style
 
