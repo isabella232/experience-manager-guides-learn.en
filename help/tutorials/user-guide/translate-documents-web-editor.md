@@ -53,7 +53,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     You can also use the following topic filtering options:
 
-    -   **Title**: Title of the source file
+    -   **Title**: Title of the source file.  Hover over the title of the source file to view the title of the target or translated file.
     -   **File Name**: Name of the source file
     -   **File Type**: Type of the source file. The available options are Map, Topic, and Image.
     -   **Reference Type**: Direct or Indirect references

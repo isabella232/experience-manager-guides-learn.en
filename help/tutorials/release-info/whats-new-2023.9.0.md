@@ -12,7 +12,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 AEM Guides provides out-of-the-box connectors that help you connect with your data sources, making AEM Guides a true content hub. This gives you the advantage of saving you time and effort that would otherwise be spent on manual data addition or replication.
 
-Along with the existing out-of-the-box connectors like JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite), your administrator can also configure connectors like MariaDB, H2DB, AdobeCommerce, and ElasticSearch databases. They can also add other connectors by extending the default interfaces.
+Along with the existing out-of-the-box connectors like JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite), your administrator can also configure connectors for MariaDB, H2DB, AdobeCommerce, and ElasticSearch databases. They can also add other connectors by extending the default interfaces.
 
 You can view the configured connectors under the **Data Sources** panel in the Web Editor.
  
@@ -198,4 +198,4 @@ For more details on the context menu, see the **Options for a file** feature des
 
 While generating outputs in AEM Site or PDFs, you can use variables for setting the **Destination Path**, **Site Name**, or **File Name** options. You can now also use the `${system_date}`and `${system_time}` variables. These variables help you append the current date and time to these options.
 
-
+Learn how to [use variables for setting the Destination Path, Site Name, or File Name options](../user-guide/generate-output-use-variables.md).
