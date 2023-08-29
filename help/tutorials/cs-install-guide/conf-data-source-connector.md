@@ -202,7 +202,7 @@ A sample setup file for MariaDb's basic authentication:
 For example, save as `mariadb.json`.
 
 
-A sample setup file for ElasticSearch's BasicAuthentication:
+A sample setup file for ElasticSearch's basic authentication:
 
 ```
 {
@@ -236,7 +236,7 @@ The query for Elastic Search should include the index and the query:
 
 
 
-A sample setup file for Magento's NoAuth:
+A sample setup file for AdobeCommerce NoAuth:
 
 ```
 {
