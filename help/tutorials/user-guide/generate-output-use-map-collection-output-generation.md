@@ -21,7 +21,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1.  Enter a title for your map collection.
+1.  Enter a Title for your map collection.
 1.  Click **Create**.
 
     A Success message is displayed on creation of the map collection.
@@ -73,13 +73,19 @@ To configure and generate the output using a Map Collection, perform the followi
         >  
         > By default, any new preset is disabled. 
         
-    -   You can select **Enable/Disable all folder profile presets** for a DITA map to select all the folder profiles for it in one go. 
+1.  You can enable the presets for a DITA map  in the following ways:
 
+    - Enable any individual preset. 
+    - Enable **All presets** for a DITA map to select all presets in one go. This option is disabled by default.
+    - Enable **Folder profile presets** for a DITA map to select all the folder profile presets for it. This option is disabled by default.
+   ![edit a map collection on cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
+        
+    
 
 1.  Do one of the following:
 
     -   To generate output of selected maps, select the map files and click **Generate Selected**.
-    -   To generate output of all DITA maps with their configured presets, Click **Generate All**.
+    -   To generate output of all DITA maps with their configured presets, click **Generate All**.
     >[!IMPORTANT]
     >
     > If an output generation process for a preset or DITA map is either in the queue or in progress, you cannot initiate another output generation task for the same preset or map.

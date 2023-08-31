@@ -14,6 +14,9 @@ breadcrumb-title: AEM Guides Tutorials
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       + 2023 Releases {#2023-releases}
+        + September Release {#2309-release}      
+            + [What's new](./release-info/whats-new-2023.9.0.md)
+            + [Release Notes](./release-info/release-notes-2023.9.0.md)
         + July Release {#2307-release}      
             + [What's new](./release-info/whats-new-2023.7.0.md)
             + [Release Notes](./release-info/release-notes-2023.7.0.md)
@@ -149,7 +152,7 @@ breadcrumb-title: AEM Guides Tutorials
     + [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
     + Use native PDF publishing feature {#web-editor}
       + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
-      + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
+     + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
     + [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     + [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
     + [Publish to a content fragment](./user-guide/publish-content-fragment.md)
@@ -252,7 +255,7 @@ breadcrumb-title: AEM Guides Tutorials
             + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
             + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
             + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
-        + [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
+      + [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
        + [Create a mapping between a topic and a content fragment](./install-guide/conf-content-fragment-mapping.md)  
     + Work with custom workflows {#custom-workflow}
       + [Configure and customize workflows](./install-guide/customize-workflows.md)
@@ -317,7 +320,9 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Version management](./cs-install-guide/version-management.md)
     + Work with output generation settings {#output-gen-config-cs} 
       +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-      + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)  
+      + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md) 
+      + [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
+      + [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)  
     + Work with custom workflows {#custom-workflow-cs}
       +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config-cs}

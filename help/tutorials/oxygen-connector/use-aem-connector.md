@@ -140,7 +140,7 @@ After you have downloaded and installed the plugin, you need to configure the fo
 
 -   **Web authentication settings**: Settings for SSO authentication in the plugin for AEM Guides.
 -   **General Settings**: Connection settings for the plugin, such as AEM server URL, login details, and so on.
--   **Preference for profiling attribute customization**: This configuration is required for the profiling attribute schemes for the documentation sets.
+-   **Preference for profiling attribute customization and and filenames in cross references**: This configuration is required for the profiling attribute schemes for the documentation sets.
 
 ### Web authentication settings 
 
@@ -230,11 +230,11 @@ Perform the following steps to configure the connection settings in the Oxygen P
     -   **Auto-Checkout File when Opened**: If selected, double-clicking on a file automatically checks it out and opens it for editing. In case the file is already checked-out, then it is simply opened up for editing. If this option is not selected, then opening a file on which you don't have a lock opens it up in read-only mode.
 1.  Click **OK**.
 
-### Preference for profiling attribute customization {#id1827K0D0OHT}
+### Preference for profiling attribute customization and filenames in cross references {#id1827K0D0OHT}
 
-You need to configure the preferences in Oxygen XML Author to use the profiling attribute associated with the DITA topics in the AEM repository.
+You need to configure the preferences in Oxygen XML Author to use the profiling attribute associated with the DITA topics in the AEM repository. You also need to configure the preference to display filenames in place of GUIDs in the cross references.
 
-Perform the following steps to configure profiling attributes:
+Perform the following steps to configure profiling attributes and cross references:
 
 1.  In Oxygen XML Author, click **Options** \> **Preferences**.
 1.  In the **Document Type Association** tab, select **DITA**, and then click **Extend**.
@@ -251,6 +251,11 @@ Perform the following steps to configure profiling attributes:
     The following screenshot shows the configured **Extension** tab for DITA topics:
 
         ![Configured extenstion for DITA topics](images/dita-topic-extension-tab.png){width="650" align="left"}
+
+    -  Click **Choose** next to the **Extensions bundle** and select   LinkResolverExtensionBundle - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+
+        ![Configured extenstion for DITA topics](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1.  Click **OK** on all dialog boxes to save your changes.
 
@@ -489,6 +494,7 @@ The following points must be considered while moving or copying content from you
 
 -   When you checkout content from AEM repository and make changes on your local system, ensure that file name is not changed at the time of uploading the file.
 
+- When you insert a reference in the DITA Maps Manager, it displays the title of the file and not the UUID. If the title isn't present, then it displays the filename.
 
 ### Add or remove Favorites {#id195HC04405P}
 

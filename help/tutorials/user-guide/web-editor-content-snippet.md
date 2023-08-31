@@ -9,7 +9,22 @@ A **data source** is a system where you store and manage the data for your organ
 
 ## Data Sources panel
 
-Select **Data Sources** ![](images/data-source-icon.svg) in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. For more details, view [Configure a data source connector](../install-guide/conf-data-source-connector.md). 
+Select **Data Sources** ![](images/data-source-icon.svg) in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
+
+Based on your setup your administrator can configure a data source connector:
+
+<details>
+<summary> Cloud Services </summary>
+
+Learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
+</details>
+
+<details>    
+<summary>  On-premise Software </summary>
+
+Learn how to [configure a data source connector](../install-guide/conf-data-source-connector.md)  in the On-premise Installation and Configuration Guide.
+</details>
+
 
 >[!NOTE]
 >

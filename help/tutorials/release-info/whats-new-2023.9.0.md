@@ -6,22 +6,21 @@ description: Learn the new and enhanced features in September 2023 release of Ad
 
 This article covers the new and enhanced features in version  September 2023 of Adobe Experience Manager Guides (later referred to as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.7.0.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.9.0.md).
 
-## Connect to a data source and insert data into your topics
+## Connect to a data source and insert the topics
 
-Now you can quickly connect to your data sources using out-of-the-box connectors from AEM Guides. Connecting to a data source enables you to keep your information in sync with the source, and any updates to the data are reflected automatically, making AEM Guides a true content hub. This feature helps you save time and effort to manually add or copy the data.
+AEM Guides provides out-of-the-box connectors that help you connect with your data sources, making AEM Guides a true content hub. This gives you the advantage of saving you time and effort that would otherwise be spent on manual data addition or replication.
 
-AEM Guides allows your administrator to configure the out-of-the-box connectors for JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases. They can also add other connectors by extending the default interfaces.
-Once added, you can view the configured connectors listed under the Data Sources panel in the Web Editor.
+Along with the existing out-of-the-box connectors like JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite), your administrator can also configure connectors for MariaDB, H2DB, AdobeCommerce, and ElasticSearch databases. They can also add other connectors by extending the default interfaces.
+
+You can view the configured connectors under the **Data Sources** panel in the Web Editor.
  
 <img  src="assets/data-sources.png" alt= "Data sources list in the panel" width=300>
 
-*View the conected data sources.*
+*View the connected data sources.*
 
-Create a content snippet to fetch the data from a connected data source. You can then insert the data into your topics and edit it. Once you’ve created a content snippet generator, you can reuse it to insert the data into any topic. 
-
-Now you can also create a topic from a connected data source. A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics. You can associate metadata to the topic when pulling from a data source.
+You can now also create a topic from a connected data source. A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics. You can associate metadata to the topic when pulling from a data source.
 
 For more details, view [Use data from your data source](../user-guide/web-editor-content-snippet.md).
 
@@ -34,6 +33,7 @@ In AEM Guides, you can add citations or import citations and apply them to your 
 After inserting your citations to your topics, you can preview them in the Web Editor. You can also publish content with citations using Native PDF.
 
 ![Citations listed in a panel](assets/citation-panel.png){width="300" align="left"}
+
 *View the list of citations in the Citations panel.*
 
 For more details, view [Add and manage citations in your content](../user-guide/web-editor-apply-citations.md).
@@ -48,7 +48,10 @@ Now AEM Guides offers a way to publish a topic or the elements within a topic to
 Capitalize the power of AEM Guides and content fragments and use content fragments in any AEM site. You can also extract the details via APIs supported by content fragments.
 
 ![option to publish content fragment](assets/content-fragment-publish.png){width="550" align="left"}
+
 *Publish a topic to a content fragment.*
+
+For more details, view [Publish to a content fragment](../user-guide//publish-content-fragment.md).
 
 ## Review Enhancements
 
@@ -60,6 +63,7 @@ Conducting reviews is a critical feature of AEM Guides. It helps the reviewers t
 Now you can search for a topic by entering some part of the text of the title or filepath in the search bar of the topics view of the review panel. You can also choose to view all topics or view topics with comments. By default, you can view all topics present in the review task. For more details, view [Review topics](../user-guide/review-topics.md).
 
 ![Search in a review topics panel](assets/review-search-topic.png){width="800" align="left"}
+
 *Search a review topic in the review panel.*
 
 
@@ -72,7 +76,7 @@ Create custom packages on top of AEM Guides to provide extensibility using AEM G
 
 ## Native PDF enhancements
 
-The following Native PDF enhancements have been done in the 4.3.0 release to make AEM Guides a more robust product:
+The following Native PDF enhancements have been done in the September 2023 release to make AEM Guides a more robust product:
 
 
 
@@ -95,15 +99,23 @@ For more details, view [Page Order](../native-pdf/components-pdf-template.md#pag
 
 ### Merge pages
 
-In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page. This publishes the section in continuation with the selected page in the PDF output and there is no page break in between.
+In a Native PDF output by default, all sections begin on a new page. Now you can merge a section to its previous page or the next page. This publishes the section in continuation with the selected page in the PDF output and there is no page break-in between.
 
-For more details, view the Merge pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+For more details, view the **Merge pages** feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+
+### Start any chapter from the current page
+
+You can set the basic configuration settings for starting a chapter from odd or even page, the TOC structure, and define the leader line format for the TOC entries. 
+
+Now you can also start a chapter from the current page. If you choose to do so, all chapters are published in continuation without any page breaks. For example, if a chapter ends in the middle of page 15, then the next chapter also starts from the 15th page itself.
+
+For more details, view the **General** tab description in  [Advanced PDF Settings](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
 
 ### Static pages
 
 You can also create custom page layouts and publish them as static pages in the PDF output. This helps you to add any static content like Notes or blank pages. 
 
-For more details, view the Static pages feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
+For more details, view the **Static pages** feature description in [Page Order](../native-pdf/components-pdf-template.md#page-order) section.
 
 
 ### Variables in cross references
@@ -129,16 +141,29 @@ You can now use custom selectors to add complex styles. The new Selector field h
 
 ![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300" align="left"}
 
+*Add the details for the new style.*
+
 #### Customize properties of style
 
 Now AEM Guides introduces you to a new properties panel under the preview section for styles. You can edit the properties of the styles more efficiently and quickly from the properties panel.
 
 
+## Support for multiple subject definitions in a single enumeration definition
+
+You can now define one or more subject definitions in one map and the enumeration definitions in another map and then add the map reference. The subject-enumeration references are resolved in the same map or the referenced map.
+
+You can now also define conditions and apply them to some specific elements in a topic.  The conditions are visible only for those specific elements and not for all the other elements.
+
+For more details on the handling hierarchical definitions of subject definitions and enumerations, view the Subject scheme feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+
+
+
 
 ## Select all presets in a Map Collection
 
-You can not only select an individual preset, but you can also enable all the presets for a DITA map in one go.
-![edit a map collection](assets/edit-map-collection.png){width="800" align="left"}   
+You can not only enable an individual preset and all folder profile presets, but also enable all the presets for a DITA map in one go.
+![edit a map collection](assets/edit-map-collection-cs.png){width="800" align="left"}   
 *Select all presets in a map collection.*
 
 For more details, view [Use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
@@ -158,3 +183,19 @@ You can use the browse file dialog to select the source folders you want to move
 For more details, view [Move files in bulk](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
+## Enhanced preview experience from the context menu
+
+Use the context menu to quickly preview the file (.dita, .xml, audio, video, or image) without opening it. You can now resize the preview pane, and if the content contains any reference link, you can select it to open it in a new tab. 
+
+![Preview pane ](assets/quick-preview_cs.png){width="800" align="left"}
+
+*Preview the file in the pane.*
+
+For more details on the context menu, see the **Options for a file** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+
+## Use variables for current date and time in the  Destination Path, Site Name, or File Name options
+
+While generating outputs in AEM Site or PDFs, you can use variables for setting the **Destination Path**, **Site Name**, or **File Name** options. You can now also use the `${system_date}`and `${system_time}` variables. These variables help you append the current date and time to these options.
+
+Learn how to [use variables for setting the Destination Path, Site Name, or File Name options](../user-guide/generate-output-use-variables.md).

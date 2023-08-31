@@ -5,13 +5,13 @@ description: Learn how to configure a data source connector
 
 # Configure a data source connector 
 
-AEM Guides provides out-of-the-box connectors for JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases. You can also add other connectors by extending the default interfaces. The following configuration helps you to easily add the various data sources. Once added, you can view the data sources in the Web Editor. 
+AEM Guides provides out-of-the-box connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases. You can also add other connectors by extending the default interfaces. The following configuration helps you to easily add the various data sources. Once added, you can view the data sources in the Web Editor. 
 
 Perform the following steps to configure a data source connector and then use it from the Web Editor:
 
 ## Configure a connector
 
-You can configure an out-of-the-box connector by uploading a JSON file. You can use the following sample setup files to set up connectors for Jira and SQL (MySQL, PostgreSQL, SQL Server, SQLite) databases.
+You can configure an out-of-the-box connector by uploading a JSON file. You can use the following sample setup files to set up connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
   
 A sample setup file for Jira's basic authentication with username and password:
 
@@ -21,7 +21,7 @@ A sample setup file for Jira's basic authentication with username and password:
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -41,7 +41,7 @@ A sample setup file for Jira's basic authentication with token:
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -60,7 +60,7 @@ A sample setup file for Jira's basic authentication with the token having "Basic
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -113,7 +113,7 @@ A sample setup file for PostgreSQL's basic authentication:
 
 For example, save as `postgres.json`.
 
-A sample setup file for MS SQL Server's basic authentication:
+A sample setup file for Microsoft SQL Server's basic authentication:
 
 ```
 {
@@ -154,6 +154,104 @@ A sample setup file for SQLite's basic authentication:
 ```
 
 For example, save as `sqqlite.json`.
+
+
+
+A sample setup file for H2DB:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
+	"configName": "H2DBConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.h2.Driver",
+			"connectionString": "jdbc:h2:file:D:/h2db/db"
+		}
+	}
+}
+```
+
+For example, save as `sqqlite.json`.
+
+
+
+A sample setup file for MariaDb's basic authentication:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
+	"configName": "SampleMariaDbConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.mariadb.jdbc.Driver",
+			"connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
+		}
+	}
+}
+```
+
+For example, save as `mariadb.json`.
+
+
+A sample setup file for ElasticSearch's basic authentication:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
+	"configName": "SampleES",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",    	
+			"url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
+	}
+}
+```
+
+For example, save as `ES.json`.
+
+The query for Elastic Search should include the index and the query:
+
+```
+{
+"index": "kibana_sample_data_ecommerce",
+"queryString":{
+    "query": {
+        "match_all": {}
+    }
+}
+}
+```
+
+
+
+A sample setup file for AdobeCommerce NoAuth:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
+	"configName": "SampleCommerce",
+	"templateFolders": ["/content/dam/dita-templates/konnect"],
+	"connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
+   "configData": {
+   			"url": "http://host/graphql"   
+		}
+	}
+}
+```
+
+For example,  save as `commerce.json`.
 
 ### Customize a connector configuration
 

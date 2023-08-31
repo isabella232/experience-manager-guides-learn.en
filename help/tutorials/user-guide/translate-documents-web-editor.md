@@ -49,11 +49,9 @@ Before performing steps in this procedure, ensure that you have created the requ
     **Use Latest Version as on**: Choose to filter the version of topics based on their creation date and time. When you select a date and time only the latest version of the files created on or before the selected date and time are shown.
 
 1.  Click **Apply**. A list with details of topics and associated assets is shown.
-1.  Select the topics that you want to send for translation.
+1.  Select the topics that you want to send for translation. You can also use the topic filtering options for the following columns:
 
-    You can also use the following topic filtering options:
-
-    -   **Title**: Title of the source file
+    -   **Title**: Title of the source file.  Hover over the title of the source file to view the title of the target or translated file.
     -   **File Name**: Name of the source file
     -   **File Type**: Type of the source file. The available options are Map, Topic, and Image.
     -   **Reference Type**: Direct or Indirect references
