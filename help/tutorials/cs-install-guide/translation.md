@@ -42,7 +42,7 @@ To hide the Translation tab on the DITA map dashboard, perform the following ste
 
     |PID|Property Key|Property Value|
     |---|------------|--------------|
-    |`com.adobe.fmdita.config.ConfigManager`|`hide.tabs.translation`|Boolean \( true/ false\).<br> **Default value**: `true`|
+    |`com.adobe.fmdita.config.ConfigManager`|`tabs.translation`|Boolean \( true/ false\).<br> **Default value**: `true`|
 
     >[!NOTE]
     >
