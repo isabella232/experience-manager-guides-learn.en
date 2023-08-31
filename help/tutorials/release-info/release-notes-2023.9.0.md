@@ -147,9 +147,6 @@ The bugs fixed in various areas are listed below:
 - The "title" field in DITA map metadata properties is overwritten by `<title>` element for the map. (10702)
 - Content reference is broken copy-pasting DITA files when the topic id isn’t the same as GUID. (12614)
 - In dynamic baselines, the list of labels isn’t pulled from the direct references of the working copy of a DITA map. (11917)
-- Indexing upgrade for find and replace and reports fails when there are more than 100000 nodes in the system. (11852)
-
-
 
 ### Publishing
 
