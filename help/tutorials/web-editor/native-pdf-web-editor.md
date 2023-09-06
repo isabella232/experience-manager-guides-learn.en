@@ -116,7 +116,7 @@ For example, one of the metadata properties defined in the /`jcr:content/metadat
 
 You can use a single or a combination of variables to define the metadata. For example, `${dc:title} ${dc:docstate}`. You can also use the combination of a variable and a string.  For example, `View ${dc:title} in ${dc:language}`.
 
-Use language variables to define the localized value of metadata properties. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can print "Author" as the metadata value in English and "Autorin" in German. 
+Use language variables to define the localized value of metadata properties. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can print "Author" as the metadata value in English and "Autorin" in German. 
 
 Format: `${lng:<variable name>}`. For example, `${lng:author-label}` where `author-label` is a language variable. 
 
