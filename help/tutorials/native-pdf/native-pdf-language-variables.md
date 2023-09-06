@@ -19,7 +19,9 @@ For example, you can have the following ways to present the label `Note` in the 
 
 - German: Hinweis
 
- <img src="./assets/language-variable-output.png" width="550">
+ <img alt= "output ot the document that contains language variables" src="./assets/language-variable-output.png" width="550">
+
+ *A sample note in English, French, and German languages.*
  
 >[!NOTE]
 >
@@ -48,8 +50,9 @@ You can also create new language variables. For example, you can create a user v
 >
 >  You should have administrative privileges to create user variables and edit the application variables.
  
-<img src="./assets/add-language-variables.png" width=550>
+<img alt="langiage variables window" src="./assets/add-language-variables.png" width=550>
 
+*Add and view the language variables for a selected language.*  
 ## Add a new language variable 
 
 1. In the Web Editor, go to the Output tab.
@@ -116,7 +119,9 @@ The variables with the same ID are imported once you import the file. The values
 
 Hover over the variable to view the **Options** menu for it.
  
-<img width="550" src="./assets/language-variable-user-options.png"> 
+<img width="550" alt="options menu for language variables" src="./assets/language-variable-user-options.png"> 
+
+*Use the **Options** menu to  delete, preview, or duplicate a language variable.*
 
 You can preview both application and user variables. To view how the variable's value is displayed in the output, select **Preview** from the **Options** menu of the selected variable. 
 You can also choose to **Delete** or **Duplicate** the user variables. Deleting a variable from one language automatically deletes it from all languages.
@@ -129,10 +134,12 @@ You can also edit the values for an application variable. Later, you can revert 
 
 You should add language variables in your localized documents. You can insert these language variables within the page layout that appears across different pages in your localized documents. For example, you can add the language variable for the `author-name` that appears in the page layout’s header area (or any other part like the footer or body). 
 
-<img src="./assets/language-variable-page-layout.png" width="550">
 
-The following screenshot shows the author and the brand name localized in the PDF output generated for the French language.
- 
+
+<img alt="page-layout of a pdf" src="./assets/language-variable-page-layout.png" width="550">
+
+
+*The author and the brand name localized in the PDF output generated for the French language.* 
 
 To insert a language variable like your `copyright-label` in the header area, perform the following steps:
 
@@ -151,10 +158,12 @@ To insert a language variable like your `copyright-label` in the header area, pe
     > You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list. 
     > The selected language variable is inserted in the header area. 
 
-The following screenshot shows the value for the `copyright-label` added in the header area.
 
-<img src="./assets/language-variable-header.png" width="550">
+
+<img alt="insert variable in the header area" src="./assets/language-variable-header.png" width="550">
  
+ *The `copyright-label` added in the header area.*
+
 ### Apply content style to language variables
 
 Besides the value you assign to a language variable, you can also use HTML tags to display the variable value in specific formatting. For example, you can display the value of the `publisher-label` in bold.
@@ -199,9 +208,13 @@ h1:before {
 
 The following screenshots display the strings localized in German and Japanese PDF output .
  
- <img src="./assets/localize-chapter-german.png" width="550">
+ <img alt=" japanese output with language variable" src="./assets/localize-chapter-german.png" width="550">
 
- <img src="./assets/localize-chapter-japanese.png" width="550">
+ 
+
+ <img alt="German output with language variable" src="./assets/localize-chapter-japanese.png" width="550">
+
+
 
 ### Format the prefixes 
 
