@@ -187,7 +187,7 @@ The selected file is imported and listed under the Resources folder.
 
 ## Advanced PDF Settings {#advanced-pdf-settings}
 
-Use the Settings section to configure the advanced settings for PDF's page layout, starting PDF from odd or even page, formats for the cross references, and enabling printing marks in the final PDF that's generated
+Use the Settings section to configure the advanced settings for PDF's page layout, starting PDF from odd or even page, formats for the cross-references, and enabling printing marks in the final PDF that's generated
 using the template.
 
 To configure, click **Settings** in the **Templates** panel to view the following options:
@@ -358,7 +358,7 @@ Configure the print production settings to assign printer marks, select color mo
 
    <!--For more information on applying these print settings, see *Printing preferences*.-->
 
-### Cross references {#cross-references}
+### Cross-references {#cross-references}
 
 Use the **Cross-reference** tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
 
@@ -374,8 +374,8 @@ AEM Guides provides the following out-of-the-box variables:
 * {chapter}: Adds a cross-reference to the chapter numbers. For example, See on Chapter 1.
 * {bookmarkText}: Creates a cross-reference to the bookmarked text. For example, See stop_words on page 5.
 * {captionText}: Creates a cross-reference to caption of the figure or table in your topic. For example,  See Airflow on Page 2.
-* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number styles that you’ve defined for figcaption.  For example, you can use "See {figure} on page {page}". The cross reference in the output contains the auto-generated figure number and its page number, “See Figure 1 on page 5”.
-* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number styles you’ve defined for caption. For example, you can use "See {table} on page {page}". The cross reference in the output contains the auto-generated table number and its page number, “See Table 1 on page 5”.
+* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number styles that you’ve defined for figcaption.  For example, you can use "See {figure} on page {page}". The cross-reference in the output contains the auto-generated figure number and its page number, “See Figure 1 on page 5”.
+* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number styles you’ve defined for caption. For example, you can use "See {table} on page {page}". The cross-reference in the output contains the auto-generated table number and its page number, “See Table 1 on page 5”.
    
    
 
@@ -384,7 +384,7 @@ AEM Guides provides the following out-of-the-box variables:
    >You can create auto number styles for caption and figcaption tags. 
 
 
-#### Language variables in Cross references
+#### Language variables in Cross-references
 
    You can also use language variables to define localized cross-references. Depending on your chosen language, the localized value is automatically picked in the PDF output.  
 
@@ -397,11 +397,11 @@ AEM Guides provides the following out-of-the-box variables:
 When you add `${lng:<variable name>}` to the Paragraph section, the cross-references in the paragraphs of the output contain the localized text and the page number.  
 For example, the following screenshots show the cross-references “View on page 1 ” in English and “Einzelheiten finden Sie auf der Seite 1” in German. 
 
-<img src="./assets/english-output-corss-reference.png" alt="English output of a cross reference in a pragrah" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="English output of a cross-reference in a pragrah" width ="800">
 
 *A cross-reference within a paragraph when published in the English language.*
 
-   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross reference in a pragrah" width ="800">
+   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800">
 
 *A cross-reference within a paragraph when published in the German language.*
 
