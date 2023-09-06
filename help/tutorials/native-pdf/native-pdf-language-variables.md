@@ -77,7 +77,7 @@ You can also create new language variables. For example, you can create a user v
   >
   > If you don’t select **Add Language Variable**, the variable is not created and added to the list
 
-## Import and export language variables
+## Export and import language variables
 
 Experience Manager Guides provides the support to export and import the language variables present in the selected language. You can easily export all the language variables along with the defined values. This includes both application and user variables. Use the exported file to make the desired changes in the values or get them localized to other languages. 
 
