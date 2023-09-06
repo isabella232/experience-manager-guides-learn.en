@@ -384,7 +384,7 @@ AEM Guides provides the following out-of-the-box variables:
    >You can create auto number styles for caption and figcaption tags. 
 
 
-   #### Language variables in Cross-references
+#### Language variables in Cross references
 
    You can also use language variables to define localized cross-references. Depending on your chosen language, the localized value is automatically picked in the PDF output.  
 

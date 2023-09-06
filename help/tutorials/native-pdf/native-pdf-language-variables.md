@@ -81,19 +81,19 @@ You can also import the XML file, which contains the language variables. Experie
 
 ### Export language variables
 
-To export the language variables for a language, select the language from the dropdown and select **Export** <img src="./assets/language-variable-export-icon.svg" width="25">. 
+To export the language variables for a language, select the language from the dropdown and select **Export** <img src="./assets/language-variable-export-icon.svg" alt="export icon" width="25">. 
 It creates an XML file with the format `language_variable_<ln>` where `<ln>` is the code of the selected language. For example, `language_variable_en.xml` for English and `language_variable_fr.xml` for French.
 
 >[!NOTE]
 > 
->If you have any unsaved changes in the language variables, you cannot export them. Save the changes to view the enabled **Export** <img src="./assets/language-variable-export-icon.svg" width="25"> icon. 
+>If you have any unsaved changes in the language variables, you cannot export them. Save the changes to view the enabled **Export** <img src="./assets/language-variable-export-icon.svg" alt="import icon" width="25"> icon. 
 
 ### Import language variables
 
  To import the language variables:
 
-1.	Select a language from the dropdown and select **Import** <img src="./assets/language-variable-import-icon.svg" width="25">. 
-2.	Browse and select the XML, which contains the language variables. For example, language_variable_en.xml.
+1. Select a language from the dropdown and select **Import** <img src="./assets/language-variable-import-icon.svg" width="25">. 
+2. Browse and select the XML, which contains the language variables. For example, language_variable_en.xml.
 You can import XML files in the following format:
 
 ```
