@@ -53,6 +53,7 @@ You can also create new language variables. For example, you can create a user v
 <img alt="langiage variables window" src="./assets/add-language-variables.png" width=550>
 
 *Add and view the language variables for a selected language.*  
+
 ## Add a new language variable 
 
 1. In the Web Editor, go to the Output tab.
