@@ -114,11 +114,13 @@ To use a variable, you need to define it in the `${<variable>}` format.
 For example, one of the metadata properties defined in the /`jcr:content/metadata` node is
 `dc:title`. You can specify `${dc:title}`, and the title value is used in the final output. 
 
-You can use a single or a combination of variables to define the metadata. For example, `${dc:title} ${dc:docstate}`.
+You can use a single or a combination of variables to define the metadata. For example, `${dc:title} ${dc:docstate}`. You can also use the combination of a variable and a string.  For example, `View ${dc:title} in ${dc:language}`.
 
-You can also use the combination of a variable and a string.  For example, `View ${dc:title} in ${dc:language}`.
+Use language variables to define the localized value of metadata properties. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can print "Author" as the metadata value in English and "Autorin" in German. 
 
+Format: `${lng:<variable name>}`. For example, `${lng:author-label}` where `author-label` is a language variable. 
 
+Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it.  
 **Layout**
 
 Use to set page layouts and specify page view options for PDF output such as Page Display and set Zoom levels.
@@ -153,7 +155,7 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 |  **Use full compression to optimize the PDF size** | Select this option if you want to compress/reduce the size of a large PDF. Remember, compressing the PDF may reduce the file quality. | 
 |  **Use image compression to optimize the PDF size** | Select this option if you want to compress/reduce the size of images used, in your PDF. Remember, compressing an image may reduce the image quality.  | 
 |  **Use custom resolution (pixels per inch)** | It is the page display resolution at pixels per inch. Enter a preferred value in the field that appears when this option is selected. The default value is 96 pixels per inch. Set a higher value to fit more content in an inch, and vice versa, if you set a lower value. | 
-|  **Show Watermark** | Select this option to superimpose a watermark in your output. You can enter a new text string in the text box with the character casing the way you want. | 
+|  **Show Watermark** | Select this option to superimpose a watermark in your output. You can enter a new text string in the text box with the character casing the way you want. <br><br>Use static text or language variables to publish the localized version of the watermark.  Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can print ‘Publisher’ as a watermark in English and ‘Auteure’ in French.  <br> Format: `${lng:<variable name>}`. For example, `$ {lng:publisher-label}` where `publisher-label` is a language variable. <br> Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. | 
 |  **Enable MathML equations** | Select this option to render MathML equations present in your content. The equations will be ignored otherwise by default.  | 
 |  **PDF conformance** | It is the standard to which you intend to save your PDF to ensure it is compliant. Select from the dropdown to choose from the list of available PDF standards. For more details about the supported standards, see [About PDF standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). | 
 |**Download temporary files**|Select this option if you want to download the interim HTML files created while generating the Native PDF output. You can later download the temporary files after generating the output.  |

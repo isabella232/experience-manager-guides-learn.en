@@ -222,7 +222,14 @@ Set the basic configuration settings for starting a chapter from odd or even pag
     >
     >If you are a CSS developer, then you can define the leader format directly in the CSS file as well. 
     
-* **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. 
+You can define the text to appear before and after the break. For example, a table breaks on page 5, and you define `<Continued on page %page-num%>` for **Text Before Break**.  The text displays “Continued on page 6” at the bottom of page 5. 
+
+   Use language variables to define the continuation marker text before and after the break. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can publish `Continued on page %page-num%` as a text in English and `Fortsetzung auf Seite %page-num%` in German. 
+
+   Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. 
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Page Layouts {#page-layouts}
 
@@ -353,11 +360,11 @@ Configure the print production settings to assign printer marks, select color mo
 
 ### Cross references {#cross-references}
 
-Use the Cross-reference tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
+Use the **Cross-reference** tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
 
 You can also use variables to define a cross-reference.  When you use a variable, its value is picked from the properties. You can use a single or a combination of variables to define a cross-reference. You can also use a combination of a string and a variable. 
 
-For example, you can use View details on {chapter}. If the Chapter name is “General settings,” the cross-reference in the output is “See details on General settings.” 
+For example, you can use `View details on {chapter}`. If the Chapter name is “General settings,” the cross-reference in the output is “See details on General settings.” 
 
 AEM Guides provides the following out-of-the-box variables:
 
@@ -377,8 +384,25 @@ AEM Guides provides the following out-of-the-box variables:
    >You can create auto number styles for caption and figcaption tags. 
 
 
+   #### Language variables in Cross-references
 
+   You can also use language variables to define localized cross-references. Depending on your chosen language, the localized value is automatically picked in the PDF output.  
 
+   For example, you can add a language variable “reference-label” and define the values in English and German. 
 
+   * English - “View on page {page}”  
+   * German - “Einzelheiten finden Sie auf der Seite {page}”  
+
+ 
+   When you add `${lng:<variable name>}` to the Paragraph section, the cross-references in the paragraphs of the output contain the localized text and the page number.  
+   For example, the following screenshots show the cross-references “View on page 1 ” in English and “Einzelheiten finden Sie auf der Seite 1” in German. 
+
+   <img src="./assets/english-output-corss-reference.png" alt="English output of a cross reference in a pragrah" width ="800">
+
+   *A cross-reference within a paragraph when published in the English language.*
+
+   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross reference in a pragrah" width ="800">
+
+   *A cross-reference within a paragraph when published in the German language.*
 
  <!--For more information, see *Format cross-references*.-->

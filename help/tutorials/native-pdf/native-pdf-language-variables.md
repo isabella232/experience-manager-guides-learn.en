@@ -27,11 +27,11 @@ For example, you can have the following ways to present the label `Note` in the 
 >
 > If you have not defined the value in the language of the UI, it looks for English (`en_us`), or else it picks the English(`en`) value and displays the same in the PDF output. 
 
-### Types of language variables
+## Types of language variables
 
 AEM Guides supports two types of variables: Application and User variables.
 
-#### Application variables
+### Application variables
 
 AEM Guides provides a set of predefined or out-of-the-box application variables. You can use these predefined variables to add information about a document specific to AEM Guides. For example, the `chapter-number` variable, if included in a page, displays the chapter number to which the page belongs. The `author-label` variable displays the name of the document author. 
 
@@ -40,7 +40,7 @@ AEM Guides provides a set of predefined or out-of-the-box application variables.
 > You can override the value for an application variable.
 
 
-#### User variables
+### User variables
 
 You can also create new language variables. For example, you can create a user variable Publisher for the label of the publisher for the document. 
 
@@ -50,7 +50,7 @@ You can also create new language variables. For example, you can create a user v
  
 <img src="./assets/add-language-variables.png" width=550>
 
-### Add a new language variable 
+## Add a new language variable 
 
 1. In the Web Editor, go to the Output tab.
 1. Select **Language Variables** <img src="./assets/language-variables.svg" width="25"> in the left panel.
@@ -72,6 +72,45 @@ You can also create new language variables. For example, you can create a user v
   >[!NOTE]
   >
   > If you don’t select **Add Language Variable**, the variable is not created and added to the list
+
+## Import and export language variables
+
+Experience Manager Guides provides the support to export and import the language variables present in the selected language. You can easily export all the language variables along with the defined values. This includes both application and user variables. Use the exported file to make the desired changes in the values or get them localized to other languages. 
+
+You can also import the XML file, which contains the language variables. Experience Manager Guides only imports the language variables that are already defined, including both application and user variables. It does not import any variables that are not already defined. 
+
+### Export language variables
+
+To export the language variables for a language, select the language from the dropdown and select **Export** <img src="./assets/language-variable-export-icon.svg" width="25">. 
+It creates an XML file with the format `language_variable_<ln>` where `<ln>` is the code of the selected language. For example, `language_variable_en.xml` for English and `language_variable_fr.xml` for French.
+
+>[!NOTE]
+> 
+>If you have any unsaved changes in the language variables, you cannot export them. Save the changes to view the enabled **Export** <img src="./assets/language-variable-export-icon.svg" width="25"> icon. 
+
+### Import language variables
+
+ To import the language variables:
+
+1.	Select a language from the dropdown and select **Import** <img src="./assets/language-variable-import-icon.svg" width="25">. 
+2.	Browse and select the XML, which contains the language variables. For example, language_variable_en.xml.
+You can import XML files in the following format:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>    
+<variable id="note-important">Important: </variable>    
+<variable id="note-caution">Avertir: </variable>    
+<variable id="image-with-text">Text and image &lt;img src=&quot;/content/dam/assets/images/image_with_text.png&quot; /&gt; </variable> 
+</variables> 
+```
+
+The variables with the same ID are imported once you import the file. The values for the variables in the selected language are updated with those in the XML file.  A message about the number of variables updated is displayed. 
+
+>[!NOTE]
+> 
+><ul><li>If the file isn't an XML file, or if the file contains an incorrect format that doesn't map with the language variables, you view an error that there is an issue with the XML file. 
+><li>If the file contains no variables with the same ID, you view a warning that no matching language variable is found in the imported file.
 
 ### Options for a language variable
 
