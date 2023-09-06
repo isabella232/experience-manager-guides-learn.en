@@ -120,7 +120,9 @@ Use language variables to define the localized value of metadata properties. Dep
 
 Format: `${lng:<variable name>}`. For example, `${lng:author-label}` where `author-label` is a language variable. 
 
-Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it.  
+Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. 
+
+
 **Layout**
 
 Use to set page layouts and specify page view options for PDF output such as Page Display and set Zoom levels.
