@@ -26,6 +26,7 @@ Bundle details:
 The ``generateOutput`` method generates output for a DITA map file using the specified output presets.
 
 **Syntax**:
+
 ```JAVA
 public static void generateOutput(Session session,
 String sourcePath,

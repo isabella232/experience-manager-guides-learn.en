@@ -100,7 +100,7 @@ public static void applyLabel(Session session,
 |`sourcePath`|String|Absolute path of the DITA map file in AEM repository.|
 |``baselineName``|String|Name of the baseline node on which the label has to be applied. To get the name of the baseline node, you can use the [\#id185NFF0085Z](#id185NFF0085Z) method or check the baselines node of the DITA map in CRXDE.<br> **Note:** Label is applied to version of files that are directly referenced from the map file in the baseline.|
 |`label`|String|A label that is applied on files in the baseline. Ensure that the label does not contain the following characters:
-`/,:,\[,\],\|,\*` <br> In case you want to set multiple labels, then separate labels with a comma; for example Label1, Label2.|
+`/,:,\[,\],\\|,\*` <br> In case you want to set multiple labels, then separate labels with a comma; for example Label1, Label2.|
 
 **Exception**:
 Throws `RepositoryException`.

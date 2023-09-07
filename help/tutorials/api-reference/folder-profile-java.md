@@ -26,6 +26,7 @@ Bundle details:
 The ``addAttributeProfiles`` method adds conditional attributes to a folder-level profile.
 
 **Syntax**:
+
 ```JAVA
 public static boolean addAttributeProfiles
 (List

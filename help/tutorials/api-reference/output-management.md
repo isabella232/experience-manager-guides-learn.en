@@ -84,8 +84,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 **Parameters**:
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `getoutput`. <br>**Note:**
-The value is case-insensitive.|
+|`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `getoutput`. <br>**Note:** The value is case-insensitive.|
 |`sourcePath`|String|Yes|Absolute path of the DITA map file.|
 |`outputName`|String|Yes|Name of the output preset for which the details have to be retrieved.|
 
@@ -139,6 +138,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 |----|----|--------|-----------|
 |`operation`|String|Yes|Name of the operation being called. The value of this parameter is `INCREMENTALPUBLISH```. <br>**Note:** The value is case-sensitive.|
 |`contentPath`|JSON|Yes|Absolute path of the DITA map file and topic files along with the name of output presets. Use the following example as the building block:
+
 ```XML
 {
    {   
@@ -160,6 +160,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
    }
 }
 ```
+
 The `ditamap` attribute takes the absolute path of the DITA map that is used to generate the output. <br> The `topics` attribute takes an array of topics that are updated and need to be republished.<br> The `fullMaps` attribute contains path of the map files \(like chunked submaps\) that are needed along with their topics for incremental output generation. <br> The `maps` attribute contains path of the map files \(for resolving keyspace references\) that are extracted on the disk without topics. <br> The `outputs` attribute takes an array of output preset names that are used to generate the output.|
 
 **Response values**:
