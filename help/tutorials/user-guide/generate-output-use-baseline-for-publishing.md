@@ -37,6 +37,7 @@ Perform the following steps to create a baseline:
 
 1.  On the Baselines page, click **Create**.
 1.  Enter a name for the Baseline in **Baseline Name**.
+    ![create a baseline](images/create-baseline.png){width="800" align="left"}
 1.  In **Set the Version Based on**, select one of the following options:
 
     -   **Label**: Select this option to pick the topics according to the label applied to them. Enter a label to filter the list based on the entered string. From the filtered out list, you can choose a label to select topics and other assets having the specified label.
@@ -47,31 +48,9 @@ Perform the following steps to create a baseline:
 
     Once you have selected a label or version as on date, then all referenced topics and media files within the map are selected accordingly. This selection of topics is not shown on the user interface, but it is saved in the backend.
 
-1.  If you want to use a different version for one or more topics, then you can do so by manually selecting those topics. Click **Browse Topic**, select the topic for which you want to use a different version. From the Select a Version drop-down list for the selected topic, select a version of the topic that you want to use in the baseline and click **OK**.
-
-    ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
-
-    The information about the topic and it's selected version is stored in the backend. You can repeat this step to change the selected version for multiple topics.
-
-1.  Click the **Browse All Topics** link to load all topics and media files referred from the DITA map.The UUID of topics and media files is also shown below the topic title or the \(media\) file name.
-
     >[!NOTE]
     >
-    > If you have a very large set of files in your DITA map, with nested maps and topics, then clicking Browse All Topics could take some time to load all files.
-
-    The contents of your map are presented in the three sections: the map file, Content \(topic references\), and Referred Content \(nested topics, maps, and other assets\). Once you have all the referenced content available, you can individually select the version of the topic that you want to use in your baseline.
-
-    The **Version** drop-down list shows the available versions of the topics or the referenced content. For the referenced content, you have the option to choose a version automatically.
-
-    If you choose **Pick Automatically** for the referenced content, the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced. For example, let's say a topic A has a reference to an image B. When version 1.5 of topic A was created, the version of image B was 1.2 in the repository. Now, when a baseline is created with version 1.5 of the topic A with image B set to **Pick Automatically**, the system will automatically pick version 1.2 of image B.
-
-    If you create a baseline using the labels, **Pick Automatically** is applied to the version of all referenced content.
-
-    If the referenced content or assets \(topic, sub-maps, images, or videos\) are not versioned \(such as, newly uploaded content\), then creating a baseline will create a version for such files. However, if your files are versioned, then no incremental version is created for those files. This behavior is controlled by the auto-create version setting, which is enabled by default. This is also required for translating content wherein the translation process expects all files to have a version.
-
-    >[!NOTE]
-    >
-    > If you want to specify a different version for any particular resource, you can do so by choosing the desired version from the **Version** drop-down list.
+    >It is recommended not to use the **Browse All Topics** link when creating a baseline. 
 
 1.  Click **Save**.
 
@@ -103,6 +82,31 @@ Perform the following steps to edit an existing baseline:
 
 1.  Select the Baseline and click **Edit**.
 1.  Make the required changes in the baseline. You can change the name and version of the topic or referenced content.
+1.  If you want to use a different version for one or more topics, then you can do so by manually selecting those topics. Click **Browse Topic**, select the topic for which you want to use a different version. From the Select a Version drop-down list for the selected topic, select a version of the topic that you want to use in the baseline and click **OK**.
+
+    ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+
+    The information about the topic and it's selected version is stored in the backend. You can repeat this step to change the selected version for multiple topics.
+
+1. To load all topics and media files referred from the DITA  map, click the **Browse All Topics** link. The UUID of topics and media files is also shown below the topic title or the \(media\) file name.
+
+    >[!NOTE]
+    >
+    > If you have a very large set of files in your DITA map, with nested maps and topics, then clicking Browse All Topics could take some time to load all files.
+
+    The contents of your map are presented in the three sections: the map file, Content \(topic references\), and Referred Content \(nested topics, maps, and other assets\). Once you have all the referenced content available, you can individually select the version of the topic that you want to use in your baseline.
+
+    The **Version** drop-down list shows the available versions of the topics or the referenced content. For the referenced content, you have the option to choose a version automatically.
+
+    If you choose **Pick Automatically** for the referenced content, the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced. For example, let's say a topic A has a reference to an image B. When version 1.5 of topic A was created, the version of image B was 1.2 in the repository. Now, when a baseline is created with version 1.5 of the topic A with image B set to **Pick Automatically**, the system will automatically pick version 1.2 of image B.
+
+    If you create a baseline using the labels, **Pick Automatically** is applied to the version of all referenced content.
+
+    If the referenced content or assets \(topic, sub-maps, images, or videos\) are not versioned \(such as, newly uploaded content\), then creating a baseline will create a version for such files. However, if your files are versioned, then no incremental version is created for those files. This behavior is controlled by the auto-create version setting, which is enabled by default. This is also required for translating content wherein the translation process expects all files to have a version.
+
+    >[!NOTE]
+    >
+    > If you want to specify a different version for any particular resource, you can do so by choosing the desired version from the **Version** drop-down list.
 1.  Click **Save**.
 
 **Duplicate Baselines**
