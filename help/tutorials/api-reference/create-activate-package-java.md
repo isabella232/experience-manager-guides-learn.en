@@ -29,6 +29,7 @@ The `activate` method creates a CRX package on the author instance and replicate
 > Errors encountered during the creation or activation process are written to the `outputstream`.
 
 **Syntax**:
+
 ```JAVA
 public static void activate
 (String json, 

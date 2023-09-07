@@ -32,6 +32,7 @@ It also allows you to either maintain the same structure \(parent and child fold
 > The API will throw an exception and fail to create a .zip file if any of the dependent files are missing.
 
 **Syntax**:
+
 ```JAVA
 public static void zipMapWithDependents(Session session, 
                      String sourcePath, 
@@ -69,6 +70,7 @@ It also allows you to either maintain the same structure \(parent and child fold
 > This node is auto deleted after some time based on output.history.purgetime configuration if defined, or 5 days as default.
 
 **Syntax**:
+
 ```JAVA
 public static CompletableFuture<Node> zipMapWithDependencies(Session session,
                      String sourcePath, 
@@ -82,7 +84,7 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 |`session`|javax.jcr.Session|A valid JCR session.|
 |`sourcePath`|String|Path \(in the AEM repository\) of the DITA map file that needs to be downloaded.|
 |`baseline`|String|The title of the baseline that is used to retrieve the versioned content. <br> **Note:** The value is case-sensitive.|
-|flatFS|Boolean|\(Optional\) If set to true, then a flat structure of files is returned in the ZIP file. For example, if your DITA map refers to content in multiple folders, then all referenced files are pulled into a single folder. In case there are files with same name, then those files are renamed by adding a numeric suffix. All references \(in DITA map and topics\) are handled automatically, as they are updated based on the new location of files in the flat folder structure. If set to false, then the folder structure is maintained as is in the ZIP file. If the DITA map refers to files from multiple locations, then all those locations are also created in the ZIP file. When you restore the ZIP file, the exact folder structure is created at the destination location.<br> 
+|flatFS|Boolean|\(Optional\) If set to true, then a flat structure of files is returned in the ZIP file. For example, if your DITA map refers to content in multiple folders, then all referenced files are pulled into a single folder. In case there are files with same name, then those files are renamed by adding a numeric suffix. All references \(in DITA map and topics\) are handled automatically, as they are updated based on the new location of files in the flat folder structure. If set to false, then the folder structure is maintained as is in the ZIP file. If the DITA map refers to files from multiple locations, then all those locations are also created in the ZIP file. When you restore the ZIP file, the exact folder structure is created at the destination location.<br>
 The default value for this parameter is false.|
 
 **Returns**:
@@ -93,6 +95,7 @@ The Node of the zip file is wrapped in the `CompletableFuture`class. The user ca
 The ``getBaselineList`` method retrieves a list of all baselines that exist for a given DITA map.
 
 **Syntax**:
+
 ```JAVA
 public static List<HashMap<String,String>> getBaselineList( 
                   javax.jcr.Session session, 
@@ -117,6 +120,7 @@ Throws ``javax.jcr.RepositoryException``.
 The ``getConditionalPresetList`` method retrieves a list of all conditional presets that exist for a given DITA map.
 
 **Syntax**:
+
 ```JAVA
 public static List<HashMap<String,String>> getConditionalPresetList (
                   javax.jcr.Session session,
@@ -141,6 +145,7 @@ Throws ``javax.jcr.RepositoryException``.
 The ``getDitavalFromConditionalPreset`` method retrieves the path of the DITAVAL file corresponding to a conditional preset for a given DITA map.
 
 **Syntax**:
+
 ```JAVA
 public static String getDitavalFromConditionalPreset
     (Session session,
@@ -163,6 +168,7 @@ The path of the  DITAVAL file corresponding to the conditional preset defined in
 The ``getAllDependencies`` method returns all dependencies of a given node.
 
 **Syntax**:
+
 ```JAVA
 public static List
 <Node> getAllDependencies 

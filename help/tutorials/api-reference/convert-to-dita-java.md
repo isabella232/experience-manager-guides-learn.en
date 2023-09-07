@@ -25,7 +25,8 @@ The following Java-based APIs allow you to convert HTML and Word documents into 
 
 The `convertHtmlToDita` method converts HTML documents into DITA format.
 
-**Syntax**:   
+**Syntax**:  
+
 ```JAVA
 public static void convertHtmlToDita(Session session, 
                   String inputFile, 
@@ -50,6 +51,7 @@ Throws `RepositoryException`.
 The ``convertWordToDita`` method converts Word documents into DITA format.
 
 **Syntax**:
+
 ```JAVA
 public static void convertWordToDita(Session session, 
                   String inputFile,
