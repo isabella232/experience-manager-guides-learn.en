@@ -330,6 +330,22 @@ breadcrumb-title: AEM Guides Tutorials
     + Work with AEM Assets search {#aem-asset-search-cs}
       +   [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
     +   [Appendix](./cs-install-guide/appendix.md)
++ API Reference {#api-reference}
+  + [Introduction](./api-reference/introduction.md)
+  + [REST APIs for Output management](./api-reference/output-management.md)
+  + [REST API to work with DITA maps](./api-reference/dita-map-management.md)
+  + [REST API to register a data source connector](./api-reference/data-source-connector.md)
+  + [REST API to work with conditional attributes](./api-reference/conditional-attribute.md)
+  + [REST APIs for conversion workflow](./api-reference/convert-to-dita.md)
+  + [REST API for creating and activating packages](./api-reference/create-activate-package.md)
+  + [Java-based API to work with output generation](./api-reference/generate-output.md)
+  + [Java-based APIs to work with DITA maps](./api-reference/dita-map-management-java.md)
+  + [Java-based APIs for conversion workflow](./api-reference/convert-to-dita-java.md)
+  + [Java-based APIs to work with baseline and labels](./api-reference/create-baseline-label-java.md)
+  + [Java-based API to work with folder profiles](./api-reference/folder-profile-java.md)
+  + [Java-based API for creating and activating packages](./api-reference/create-activate-package-java.md)
+  + [Post-processing event handler](./api-reference/post-process-event.md)
+  + [Conversion process event handler](./api-reference/conversion-complete-event.md)
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
     + [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md) 
