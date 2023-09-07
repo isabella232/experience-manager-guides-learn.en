@@ -1,3 +1,8 @@
+---
+title: Post-processing event handler
+description: Learn about Post-processing event handler
+---
+
 # Post-processing event handler {#id175UB30E05Z}
 
 AEM Guides exposes com/adobe/fmdita/postprocess/complete event that is used to perform any post-processing operations. This event is triggered whenever an operation is performed on a DITA file. The following operations on a DITA file trigger this event:

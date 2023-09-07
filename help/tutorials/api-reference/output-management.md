@@ -1,3 +1,8 @@
+---
+title: REST APIs for Output management
+description: Learn about REST APIs for Output management
+---
+
 # REST APIs for Output management {#id175UB30E05Z}
 
 The following REST APIs are available for managing output in AEM Guides.

@@ -1,3 +1,8 @@
+---
+title: API Reference for Adobe Experience Manager Guides
+description: API Reference for Adobe Experience Manager Guides
+---
+
 # API Reference for Adobe Experience Manager Guides
 
 -   [Disclaimer](rebranding-disclaimer.md)

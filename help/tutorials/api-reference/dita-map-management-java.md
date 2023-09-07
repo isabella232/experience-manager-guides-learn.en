@@ -1,3 +1,8 @@
+---
+title: Java-based APIs to work with DITA maps 
+description: Learn about the Java-based APIs to work with DITA maps
+---
+
 # Java-based APIs to work with DITA maps {#id175UB30E05Z}
 
 The following Java-based APIs allow you to work with DITA maps in AEM Guides. These APIs are available in the form of a bundle. You must include this bundle in your code to use these APIs.

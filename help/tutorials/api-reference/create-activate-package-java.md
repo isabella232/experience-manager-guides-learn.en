@@ -1,3 +1,8 @@
+---
+title: Java-based API for creating and activating packages 
+description: Learn about the Java-based API for creating and activating packages
+---
+
 # Java-based API for creating and activating packages {#id175UB30E05Z}
 
 The following Java-based API allows you to create and activate CRX packages. This API is available in the form of a bundle. You must include this bundle in your code to use this APIs.

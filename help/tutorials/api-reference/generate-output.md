@@ -1,3 +1,8 @@
+---
+title: Java-based API to work with output generation 
+description: Learn about the Java-based API to work with output generation
+---
+
 # Java-based API to work with output generation {#id175UB30E05Z}
 
 The following Java-based API allows you to generate output for a DITA map. This API is available in the form of a bundle. You must include this bundle in your code to use this APIs.

@@ -1,3 +1,8 @@
+---
+title: REST API to work with conditional attributes
+description: Learn about the REST API to work with conditional attributes
+---
+
 # REST API to work with conditional attributes {#id175UB30E05Z}
 
 The following REST API allows you to add conditional attributes in a folder profile.

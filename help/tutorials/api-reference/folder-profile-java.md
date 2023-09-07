@@ -1,3 +1,8 @@
+---
+title: Java-based API to work with folder profiles
+description: Learn about the Java-based API to work with folder profiles 
+---
+
 # Java-based API to work with folder profiles {#id175UB30E05Z}
 
 The following Java-based API allows you to add conditional attributes to a folder-level profile. This API is available in the form of a bundle. You must include this bundle in your code to use this APIs.

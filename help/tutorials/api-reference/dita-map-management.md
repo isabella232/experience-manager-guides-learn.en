@@ -1,3 +1,8 @@
+---
+title: REST API to work with DITA maps 
+description: Learn about the REST API to work with DITA maps
+---
+
 # REST API to work with DITA maps {#id175UB30E05Z}
 
 The following REST API allows you to work with DITA maps in AEM Guides.
