@@ -142,7 +142,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`operation`|String|Yes|Name of the operation being called. The value of this parameter is `INCREMENTALPUBLISH`. <br>**Note:** The value is case-sensitive.|
-|`contentPath`|JSON|Yes|Absolute path of the DITA map file and topic files along with the name of output presets. Use the following example as the building block:
+|`contentPath`|JSON|Yes|Absolute path of the DITA map file and topic files along with the name of output presets. Use the following example as the building block:|
 
 ```XML
 {
@@ -170,7 +170,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 - The `topics` attribute takes an array of topics that are updated and need to be republished.
 - The `fullMaps` attribute contains path of the map files \(like chunked submaps\) that are needed along with their topics for incremental output generation. 
 - The `maps` attribute contains path of the map files \(for resolving keyspace references\) that are extracted on the disk without topics. 
-- The `outputs` attribute takes an array of output preset names that are used to generate the output.|
+- The `outputs` attribute takes an array of output preset names that are used to generate the output.
 
 **Response values**:
 Returns a HTTP 200 \(Successful\) response.
