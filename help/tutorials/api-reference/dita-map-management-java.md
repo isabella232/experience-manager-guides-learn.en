@@ -20,7 +20,7 @@ Bundle details:
 - Class details:
 
     ```JAVA
-    public class **MapUtilities** extends Object
+    public class MapUtilities extends Object
     ```
 
     The MapUtilities class contain methods for retrieving metadata information from a DITA map file.

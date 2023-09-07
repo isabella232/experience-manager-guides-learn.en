@@ -15,12 +15,12 @@ Bundle details:
 
 - Version: **3.2**
 
-- Package: ****com.adobe.fmdita.api.profiles****
+- Package: **com.adobe.fmdita.api.profiles**
 
 - Class details:
 
-  ```
-  public class **FolderProfileUtils** extends Object
+  ```JAVA
+  public class FolderProfileUtils extends Object
   ```
 
   The **`FolderProfileUtils`** class contains a method for adding conditional attributes in a folder profile.

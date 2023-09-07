@@ -44,7 +44,7 @@ throws GuidesApiException
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
 |``sourcePath``|String|Path \(in the AEM repository\) of the DITA map file for which the output needs to be generated.|
-|``outputName``|String|Name of the output preset\(s\) to be used to generate output. Multiple output presets can be specified using a pipe \("\|"\) delimiter, for example `aemsite|pdfoutput`.|
+|``outputName``|String|Name of the output preset\(s\) to be used to generate output. Multiple output presets can be specified using a pipe \("\|"\) delimiter, for example `aemsite\|pdfoutput`.|
 
 **Exception**:
 Throws ``javax.jcr.RepositoryException``, `java.io.IOException`, and `java.lang.Exception`.

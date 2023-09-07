@@ -15,12 +15,12 @@ The following Java-based APIs allow you to convert HTML and Word documents into 
 
 - Version: **3.2**
 
-- Package: ****com.adobe.fmdita.api.conversion****
+- Package: **com.adobe.fmdita.api.conversion**
 
 - Class details:
 
     ```JAVA
-    public class **ConversionUtils** extends Object
+    public class ConversionUtils extends Object
     ```
 
     The **ConversionUtils** class contain methods for converting HTML and Word documents into DITA format.

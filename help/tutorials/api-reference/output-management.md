@@ -17,26 +17,26 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 **Parameters**:   
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `getalloutputs`. **Note:** The value is case-insensitive.|
+|`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `getalloutputs`.<br> **Note:** The value is case-insensitive.|
 |`sourcePath`|String|Yes|Absolute path of the DITA map file.|
 
 **Response values**:
 Returns an array of JSON Output Preset objects, each object containing the following elements:
 
-    |Element|Description|
-    |-------|-----------|
-    |`outputName`|Name of the output preset. Output names are unique in the scope of the DITA map they are defined in.|
-    |`outputType`|Type of output generated using this preset, for example AEM Site, PDF, EPUB or other. The available options are:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   CUSTOM|
-    |`outputTitle`|A descriptive name for the output preset settings. This is used to define the value for the Setting Name property for the output preset.|
-    |`ditaValPathList`|Array of DITAVAL file paths to be used to generate the desired output.|
-    |`targetPath`|Path where the output is published or stored.|
-    |`siteName`|*\(For AEM Site output\)* Name of the AEM Site.|
-    |`templatePath`|*\(For AEM Site output\)* Path of the template node to be used to generate the desired output.|
-    |`searchScope`|Specify the scope for the search operation. The value for this parameter must be set to `local`.|
-    |`generateTOC`|*\(For AEM Site output\)* Specify whether a TOC is generated \(true\) or not \(false\).|
-    |`generateBreadcrumbs`|*\(For AEM Site output\)* Specify whether the breadcrumbs are generated \(true\) or not \(false\).|
-    |`overwriteStrategy`|*\(For AEM Site output\)* Specify whether files at the destination are overwritten \(true\) or not \(false\).|
-    |`pdfGenerator`|Specify the PDF generation engine to use. The possible values are:<br>-   DITAOT <br>-   FMPS|
+|Element|Description|
+|-------|-----------|
+|`outputName`|Name of the output preset. Output names are unique in the scope of the DITA map they are defined in.|
+|`outputType`|Type of output generated using this preset, for example AEM Site, PDF, EPUB or other. The available options are:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   CUSTOM|
+|`outputTitle`|A descriptive name for the output preset settings. This is used to define the value for the Setting Name property for the output preset.|
+|`ditaValPathList`|Array of DITAVAL file paths to be used to generate the desired output.|
+|`targetPath`|Path where the output is published or stored.|
+|`siteName`|*\(For AEM Site output\)* Name of the AEM Site.|
+|`templatePath`|*\(For AEM Site output\)* Path of the template node to be used to generate the desired output.|
+|`searchScope`|Specify the scope for the search operation. The value for this parameter must be set to `local`.|
+|`generateTOC`|*\(For AEM Site output\)* Specify whether a TOC is generated \(true\) or not \(false\).|
+|`generateBreadcrumbs`|*\(For AEM Site output\)* Specify whether the breadcrumbs are generated \(true\) or not \(false\).|
+|`overwriteStrategy`|*\(For AEM Site output\)* Specify whether files at the destination are overwritten \(true\) or not \(false\).|
+|`pdfGenerator`|Specify the PDF generation engine to use. The possible values are:<br>-   DITAOT <br>-   FMPS|
 
 >[!NOTE]
 >
@@ -52,9 +52,9 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 **Parameters**:
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``createoutput``. **Note:** The value is case-insensitive.|
+|`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``createoutput``.<br> **Note:** The value is case-insensitive.|
 |`sourcePath`|String|Yes|Absolute path of the DITA map file.|
-|`outputTitle`|String|Yes|A descriptive name for the output preset settings. This is used to define the value for the Setting Name property for the output preset. **Note:** When a new output preset is created, the back-end system drives a unique name for the output preset from the given title.|
+|`outputTitle`|String|Yes|A descriptive name for the output preset settings. This is used to define the value for the Setting Name property for the output preset.<br> **Note:** When a new output preset is created, the back-end system drives a unique name for the output preset from the given title.|
 |`outputType`|String|Yes|Type of output generated using this preset, for example AEM Site, PDF, EPUB or other. The available options are:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   CUSTOM|
 
 **Response values**:
@@ -72,7 +72,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 **Parameters**:
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``saveoutput``. **Note:** The value is case-insensitive.|
+|`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``saveoutput``.<br> **Note:** The value is case-insensitive.|
 |`sourcePath`|String|Yes|Absolute path of the DITA map file.|
 |`outputObj`|String|Yes|A JSON object that contains properties of the output preset that is being updated. The `outputObj.outputName` property contains the name of the output preset that is to be updated. For the format of the JSON object, see the [Response values](#id177BC0I0L5Z) table in *Get all output presets for a DITA map*.|
 
@@ -141,7 +141,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 **Parameters**:
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|`operation`|String|Yes|Name of the operation being called. The value of this parameter is `INCREMENTALPUBLISH```. <br>**Note:** The value is case-sensitive.|
+|`operation`|String|Yes|Name of the operation being called. The value of this parameter is `INCREMENTALPUBLISH`. <br>**Note:** The value is case-sensitive.|
 |`contentPath`|JSON|Yes|Absolute path of the DITA map file and topic files along with the name of output presets. Use the following example as the building block:
 
 ```XML
@@ -166,7 +166,11 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 }
 ```
 
-The `ditamap` attribute takes the absolute path of the DITA map that is used to generate the output. <br> The `topics` attribute takes an array of topics that are updated and need to be republished.<br> The `fullMaps` attribute contains path of the map files \(like chunked submaps\) that are needed along with their topics for incremental output generation. <br> The `maps` attribute contains path of the map files \(for resolving keyspace references\) that are extracted on the disk without topics. <br> The `outputs` attribute takes an array of output preset names that are used to generate the output.|
+- The `ditamap` attribute takes the absolute path of the DITA map that is used to generate the output. 
+- The `topics` attribute takes an array of topics that are updated and need to be republished.
+- The `fullMaps` attribute contains path of the map files \(like chunked submaps\) that are needed along with their topics for incremental output generation. 
+- The `maps` attribute contains path of the map files \(for resolving keyspace references\) that are extracted on the disk without topics. 
+- The `outputs` attribute takes an array of output preset names that are used to generate the output.|
 
 **Response values**:
 Returns a HTTP 200 \(Successful\) response.

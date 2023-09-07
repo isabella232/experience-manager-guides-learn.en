@@ -15,12 +15,12 @@ Bundle details:
 
 - Version: **3.3**
 
-- Package: ****com.adobe.fmdita.api.crxactivate****
+- Package: **com.adobe.fmdita.api.crxactivate**
 
 - Class details:
 
     ```JAVA
-    public class **CRXActivator**
+    public class CRXActivator
     ```
 
     The **`CRXActivator`** class contains a method for creating CRX packages and replicating it on the publish instance.
@@ -37,9 +37,11 @@ The `activate` method creates a CRX package on the author instance and replicate
 
 ```JAVA
 public static void activate
-(String json, 
-OutputStream outputstream, 
-Session session) 
+(
+  String json, 
+  OutputStream outputstream, 
+  Session session
+) 
 throws GuidesApiException
 ```
 
@@ -56,37 +58,37 @@ Throws ``java.io.IOException``.
 **Example**:
 The following example shows how to build a JSON query:
 
-    ```JSON
+```JSON
+{
+  "activate": true,
+  "rules": [
     {
-      "activate": true,
-      "rules": [
+      "rootPath": "/content/dam/nested",
+      "nodeQueries": [
+        ".*\\.jpg",
+        ".*\\.png",
+        ".*\\.gif"        
+      ]
+    },
+    {
+      "rootPath": "/content/output/sites/hierarchy_ditamap"
+    },
+    {
+      "rootPath": "/content/output/sites/hierarchy_ditamap",
+      "propertyQueries": [
         {
-          "rootPath": "/content/dam/nested",
-          "nodeQueries": [
-            ".*\\.jpg",
-            ".*\\.png",
-            ".*\\.gif"        
-          ]
-        },
-        {
-          "rootPath": "/content/output/sites/hierarchy_ditamap"
-        },
-        {
-          "rootPath": "/content/output/sites/hierarchy_ditamap",
-          "propertyQueries": [
-            {
-              "query": "//*[@fileReference]",
-              "property": "fileReference"
-            }
-          ]
+          "query": "//*[@fileReference]",
+          "property": "fileReference"
         }
       ]
     }
-    ```
+  ]
+}
+```
 
-    The example JSON query consists of the following rules:
+The example JSON query consists of the following rules:
 
-    -   Only the .png, .jpg, and .gif images under /content/dam/nested path are included in the package.
-    -   All node under /content/output/sites/hierarchy\_ditamap are included in the package.
-    -   The paths present in the `fileReference` property of nodes under /content/output/sites/hierarchy\_ditamap are included in the package.
+-   Only the .png, .jpg, and .gif images under /content/dam/nested path are included in the package.
+-   All node under /content/output/sites/hierarchy\_ditamap are included in the package.
+-   The paths present in the `fileReference` property of nodes under /content/output/sites/hierarchy\_ditamap are included in the package.
 

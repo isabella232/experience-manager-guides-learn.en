@@ -15,20 +15,20 @@ Bundle details:
 
 - Version: **3.5**
 
-- Package: ****com.adobe.fmdita.api.baselines****
+- Package: **com.adobe.fmdita.api.baselines**
 
 - Class details:
 
   ```JAVA
-  public class **BaselineUtils** extends Object
+  public class BaselineUtils extends Object
   ```
 
-  The ****BaselineUtils**** class contain methods for creating baselines and applying labels to files in a baseline.
+  The **BaselineUtils** class contain methods for creating baselines and applying labels to files in a baseline.
 
 
 ## Create a baseline 
 
-The create baseline`` method has two versions – one for XML Documentation solution version 3.5, and other for versions prior to 3.5 release \(which includes versions 3.4, 3.3, and 3.2\). The version 3.5 API allows creation of baseline using a label, direct references, and indirect references in a map file.
+The create baseline method has two versions – one for XML Documentation solution version 3.5, and other for versions prior to 3.5 release \(which includes versions 3.4, 3.3, and 3.2\). The version 3.5 API allows creation of baseline using a label, direct references, and indirect references in a map file.
 
 The other version of API uses the date and time to create a baseline. This API is retained for backward-compatibility with systems using XML Documentation solution 3.4, 3.3, or 3.2.
 
