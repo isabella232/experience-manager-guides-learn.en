@@ -19,7 +19,9 @@ For example, you can have the following ways to present the label `Note` in the 
 
 - German: Hinweis
 
- <img src="./assets/language-variable-output.png" width="550">
+ <img alt= "output ot the document that contains language variables" src="./assets/language-variable-output.png" width="550">
+
+ *A sample note in English, French, and German languages.*
  
 >[!NOTE]
 >
@@ -27,11 +29,11 @@ For example, you can have the following ways to present the label `Note` in the 
 >
 > If you have not defined the value in the language of the UI, it looks for English (`en_us`), or else it picks the English(`en`) value and displays the same in the PDF output. 
 
-### Types of language variables
+## Types of language variables
 
 AEM Guides supports two types of variables: Application and User variables.
 
-#### Application variables
+### Application variables
 
 AEM Guides provides a set of predefined or out-of-the-box application variables. You can use these predefined variables to add information about a document specific to AEM Guides. For example, the `chapter-number` variable, if included in a page, displays the chapter number to which the page belongs. The `author-label` variable displays the name of the document author. 
 
@@ -40,7 +42,7 @@ AEM Guides provides a set of predefined or out-of-the-box application variables.
 > You can override the value for an application variable.
 
 
-#### User variables
+### User variables
 
 You can also create new language variables. For example, you can create a user variable Publisher for the label of the publisher for the document. 
 
@@ -48,9 +50,11 @@ You can also create new language variables. For example, you can create a user v
 >
 >  You should have administrative privileges to create user variables and edit the application variables.
  
-<img src="./assets/add-language-variables.png" width=550>
+<img alt="langiage variables window" src="./assets/add-language-variables.png" width=550>
 
-### Add a new language variable 
+*Add and view the language variables for a selected language.*  
+
+## Add a new language variable 
 
 1. In the Web Editor, go to the Output tab.
 1. Select **Language Variables** <img src="./assets/language-variables.svg" width="25"> in the left panel.
@@ -73,11 +77,52 @@ You can also create new language variables. For example, you can create a user v
   >
   > If you don’t select **Add Language Variable**, the variable is not created and added to the list
 
+## Export and import language variables
+
+Experience Manager Guides provides the support to export and import the language variables present in the selected language. You can easily export all the language variables along with the defined values. This includes both application and user variables. Use the exported file to make the desired changes in the values or get them localized to other languages. 
+
+You can also import the XML file, which contains the language variables. Experience Manager Guides only imports the language variables that are already defined, including both application and user variables. It does not import any variables that are not already defined. 
+
+### Export language variables
+
+To export the language variables for a language, select the language from the dropdown and select **Export** <img src="./assets/language-variable-export-icon.svg" alt="export icon" width="25">. 
+It creates an XML file with the format `language_variable_<ln>` where `<ln>` is the code of the selected language. For example, `language_variable_en.xml` for English and `language_variable_fr.xml` for French.
+
+>[!NOTE]
+> 
+>If you have any unsaved changes in the language variables, you cannot export them. Save the changes to view the enabled **Export** <img src="./assets/language-variable-export-icon.svg" alt="import icon" width="25"> icon. 
+
+### Import language variables
+
+ To import the language variables:
+
+1. Select a language from the dropdown and select **Import** <img src="./assets/language-variable-import-icon.svg" width="25">. 
+2. Browse and select the XML, which contains the language variables. For example, language_variable_en.xml.
+You can import XML files in the following format:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>    
+<variable id="note-important">Important: </variable>    
+<variable id="note-caution">Avertir: </variable>    
+<variable id="image-with-text">Text and image &lt;img src=&quot;/content/dam/assets/images/image_with_text.png&quot; /&gt; </variable> 
+</variables> 
+```
+
+The variables with the same ID are imported once you import the file. The values for the variables in the selected language are updated with those in the XML file.  A message about the number of variables updated is displayed. 
+
+>[!NOTE]
+> 
+><ul><li>If the file isn't an XML file, or if the file contains an incorrect format that doesn't map with the language variables, you view an error that there is an issue with the XML file. 
+><li>If the file contains no variables with the same ID, you view a warning that no matching language variable is found in the imported file.
+
 ### Options for a language variable
 
 Hover over the variable to view the **Options** menu for it.
  
-<img width="550" src="./assets/language-variable-user-options.png"> 
+<img width="550" alt="options menu for language variables" src="./assets/language-variable-user-options.png"> 
+
+*Use the **Options** menu to  delete, preview, or duplicate a language variable.*
 
 You can preview both application and user variables. To view how the variable's value is displayed in the output, select **Preview** from the **Options** menu of the selected variable. 
 You can also choose to **Delete** or **Duplicate** the user variables. Deleting a variable from one language automatically deletes it from all languages.
@@ -90,10 +135,12 @@ You can also edit the values for an application variable. Later, you can revert 
 
 You should add language variables in your localized documents. You can insert these language variables within the page layout that appears across different pages in your localized documents. For example, you can add the language variable for the `author-name` that appears in the page layout’s header area (or any other part like the footer or body). 
 
-<img src="./assets/language-variable-page-layout.png" width="550">
 
-The following screenshot shows the author and the brand name localized in the PDF output generated for the French language.
- 
+
+<img alt="page-layout of a pdf" src="./assets/language-variable-page-layout.png" width="550">
+
+
+*The author and the brand name localized in the PDF output generated for the French language.* 
 
 To insert a language variable like your `copyright-label` in the header area, perform the following steps:
 
@@ -112,10 +159,12 @@ To insert a language variable like your `copyright-label` in the header area, pe
     > You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list. 
     > The selected language variable is inserted in the header area. 
 
-The following screenshot shows the value for the `copyright-label` added in the header area.
 
-<img src="./assets/language-variable-header.png" width="550">
+
+<img alt="insert variable in the header area" src="./assets/language-variable-header.png" width="550">
  
+ *The `copyright-label` added in the header area.*
+
 ### Apply content style to language variables
 
 Besides the value you assign to a language variable, you can also use HTML tags to display the variable value in specific formatting. For example, you can display the value of the `publisher-label` in bold.
@@ -160,9 +209,13 @@ h1:before {
 
 The following screenshots display the strings localized in German and Japanese PDF output .
  
- <img src="./assets/localize-chapter-german.png" width="550">
+ <img alt=" japanese output with language variable" src="./assets/localize-chapter-german.png" width="550">
 
- <img src="./assets/localize-chapter-japanese.png" width="550">
+ 
+
+ <img alt="German output with language variable" src="./assets/localize-chapter-japanese.png" width="550">
+
+
 
 ### Format the prefixes 
 
