@@ -11,7 +11,7 @@ Adobe Experience Manager Guides \(later referred as *AEM Guides*\) is an end-to-
 
 The AEM Guides APIs are available in two formats: HTTP and Java. These APIs expose key functions of AEM Guides to application developers. Using these functions, developers can create their own plug-ins to extend the out-of-the-box workflows. The APIs are available around managing outputs for DITA content, working with DITA maps, adding conditional attributes to folder-level profiles, and converting HTML and Words documents to DITA format.
 
-## Installing the JARs on your local Apache Maven repository 
+## Installing the JARs on your local Apache Maven repository {#install-jar-local}
 
 To be able to use the JAR files exposed by AEM Guides, you need to install them on your local Apache Maven repository. Perform the following steps to install the JARs on your location Maven repository:
 
@@ -65,7 +65,7 @@ After installing the API JARs in your local Maven repository, perform the follow
 
     >[!IMPORTANT]
     >
-    > In the following code snippet, X.x should be replaced with the actual version number and the API JAR's file name. This information will be same as given in the [Step 3](#id216BA3004XA) of the installation process.
+    > In the following code snippet, X.x should be replaced with the actual version number and the API JAR's file name. This information will be same as given in the Step 3 of the [installation process](#install-jar-local).
 
     ```XML
     <plugin>
@@ -219,7 +219,7 @@ To use the API JAR, you need to add the dependency to your project's pom.xml as 
 Following is a list of other helpful resources of AEM Guides, which are available on the [Learn & Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) page:
 
 -   User Guide
--   API Reference Guide
+-   Installation and Configuration Guide
 -   Quick Start Guide
 -   [Help Archival Page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(access older release documentation\)
 

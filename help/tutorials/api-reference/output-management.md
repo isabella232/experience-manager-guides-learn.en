@@ -7,7 +7,7 @@ description: Learn about REST APIs for Output management
 
 The following REST APIs are available for managing output in AEM Guides.
 
-## Get all output presets for a DITA map 
+## Get all output presets for a DITA map {#get-output-presets-dita-map}
 
 A POST method that retrieves all output presets configured for a DITA map.
 
@@ -74,7 +74,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``saveoutput``.<br> **Note:** The value is case-insensitive.|
 |`sourcePath`|String|Yes|Absolute path of the DITA map file.|
-|`outputObj`|String|Yes|A JSON object that contains properties of the output preset that is being updated. The `outputObj.outputName` property contains the name of the output preset that is to be updated. For the format of the JSON object, see the [Response values](#id177BC0I0L5Z) table in *Get all output presets for a DITA map*.|
+|`outputObj`|String|Yes|A JSON object that contains properties of the output preset that is being updated. The `outputObj.outputName` property contains the name of the output preset that is to be updated. For the format of the JSON object, see the **Response values** table in [Get all output presets for a DITA map](#get-output-presets-dita-map).|
 
 **Response values**:
 Returns a HTTP 200 \(Successful\) response.
