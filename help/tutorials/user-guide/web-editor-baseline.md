@@ -80,6 +80,11 @@ You can manage your existing baselines using the various features on the Baselin
 You can also perform the following operations on the baseline from the Options menu:
 
 -   **Edit**, **Duplicate,** or **Delete** an existing baseline.
+
+>[!NOTE]
+>
+>Edit operation is only recommended for small number of reference changes. Edit operation is not recommended to change the version of the main DITA map as it must recalculate all the references which may cause baseline update failure for large maps. For the larger DITA maps, you can create a new baseline or edit the properties of the baseline.
+
 -   Add, remove, or make changes to existing labels from the **Manage Labels** option. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label drop-down list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
 
     >[!NOTE]
