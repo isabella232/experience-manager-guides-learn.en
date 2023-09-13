@@ -35,10 +35,10 @@ This section lists the compatibility matrix for the software applications suppor
 ### Adobe Experience Manager
 
 **4.3.0 Non-UUID**
-Version 6.5 Service Pack 17, 16, 15, or 14
+Version 6.5 Service Pack 18, 17, 16, 15, or 14
 
 **4.3.0 UUID**
-Version 6.5 Service Pack 17, 16, 15, or 14
+Version 6.5 Service Pack 18, 17, 16, 15, or 14
 
 For more details, see the *Technical requirements* section in the Install and configure Adobe Experience Manager Guides guide.
 
