@@ -16,7 +16,11 @@ Based on your setup your administrator can configure a data source connector:
 <details>
 <summary> Cloud Services </summary>
 
-Learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
+
+* If you're using the October 2023 release or later, learn how to [configure a data source connector using the tools](../cs-install-guide/conf-data-source-connector-tools.md) in the Cloud Services Installation and Configuration Guide.
+
+* If you're using the July 2023 or September 2023 release, learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
+
 </details>
 
 <details>    
