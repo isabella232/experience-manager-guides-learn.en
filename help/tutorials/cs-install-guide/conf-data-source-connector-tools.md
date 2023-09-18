@@ -3,7 +3,7 @@ title: Configure a data source connector using tools
 description: Learn how to configure a data source connector using the tools. 
 ---
 
-## Configure a data source connector using the tools
+# Configure a data source connector using the tools
 
 Experience Manager Guides comes with the **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can set up connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
 
@@ -27,7 +27,7 @@ To configure a connector, perform the following steps:
 1. Click **Next**. 
 1. Enter the configuration and connection details as per the database. 
 
-    >[!Tip]
+    >[!TIP]
     >* Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the field to view more details about it.
     > * Fields with * are mandatory. For example, you can enter the following details for the ElasticSearch connector.
 
@@ -35,7 +35,7 @@ To configure a connector, perform the following steps:
     * Authentication type: Select the type of authentication from the drop-down. For example, Basic username-password authentication
     * **Username**: Enter your username.
     * **Password**: Enter your username and password. 
-    * **URL**: Add the API URL.	
+    * **URL**: Add the API URL.
 
 1. Select **Test connection**. You can view the **Test Connection** button enabled after you add the required details.
 You view a success message if the configuration and connection details are correct. Otherwise, you'll view an error message. 
