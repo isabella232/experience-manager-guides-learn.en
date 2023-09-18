@@ -47,14 +47,14 @@ If the connector is saved, you view a success message, and the connector is conn
 
 You can use the following features for the connector in the **Data Sources** Panel:
 
-> [!NOTE]
+>[!NOTE]
 >
 > * You can toggle between the **List View** or **Tile View**  to view the various connected data sources as a list or as tiles. 
 > * Select the checkbox for a single connector. Click **Select All** to select all connectors. You can click **Deselect All** when all the connectors are selected. 
  
  <img src="./assets/data-sources-features.png" alt= "features of the data sources on the data sources page" width="800">
  
- ***Edit**, **Reconnect**, **Duplciate**, or **Delete** a data source connector.*
+*Edit, reconnect, duplciate, or delete a data source connector.*
 
 **Edit**: Edit the configuration details for the selected connector.
 

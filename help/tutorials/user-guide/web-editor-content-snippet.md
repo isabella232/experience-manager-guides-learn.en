@@ -88,8 +88,8 @@ The out-of-the-box templates for the selected data source are displayed in the d
 
    1. The preview shows how the data will be displayed when inserted into the content. The preview displays a small fraction of the data in the format of the selected template. 
    For example:
-        - If you’ve selected the sql-table template, you can view the SQL data in a tabular format. 
-        - If you’ve selected the jira-ordered-list template, you can view an ordered list for the Jira issues.
+        * If you’ve selected the sql-table template, you can view the SQL data in a tabular format. 
+        * If you’ve selected the jira-ordered-list template, you can view an ordered list for the Jira issues.
 
     1. The source view shows the data in the DITA source view. 
  ![](images/add-content-snippet-generator.png){width="800" align="left"}
