@@ -312,7 +312,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configure single topic PDF generation](./cs-install-guide/conf-pdf-generation-dita-ot.md)
       + [Configure Translation feature in the Web Editor](./cs-install-guide/conf-translation-web-editor.md)
       + [Configure a data source connector](./cs-install-guide/conf-data-source-connector.md)
-      + [Configure a data source connector using tools](./cs-install-guide/conf-data-source-connector-tools.md.md)
+      + [Configure a data source connector using tools](./cs-install-guide/conf-data-source-connector-tools.md)
       + [Set the Advanced Map Editor as default](./cs-install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./cs-install-guide/auto-add-navtitle.md)
     + Work with global and folder-level profiles {#global-folder-profiles-cs}
