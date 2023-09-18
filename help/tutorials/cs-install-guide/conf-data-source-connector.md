@@ -268,7 +268,7 @@ Other fields are customized based on the config class selected to run the Connec
 
 Upload the file to some location in AEM Assets.
 
-For example,  `/var/dxml/konnect/jira.json`
+For example,  `/content/dam/jira.json`
 
 ## Create Configuration using REST API
 
