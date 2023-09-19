@@ -220,8 +220,8 @@ Set the basic configuration settings for starting a chapter from odd or even pag
    >[!NOTE]
    >
    > To convert the glossary terms to hyperlinks, you need to:
-      >* Enable **Glossary** in the **Page Order** tab for a DITA map. 
-      > * Add the Glossary in the Back Matter Pages for a Book map.<br>
+   >* Enable **Glossary** in the **Page Order** tab for a DITA map. 
+   > * Add the Glossary in the Back Matter Pages for a Book map.<br>
    >If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
 
 
