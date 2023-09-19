@@ -161,7 +161,7 @@ In the center panel, you can edit the properties, but it might be difficult to g
 In the center panel, you can edit the commonly used properties but not all the properties that CSS supports. In the **Properties** pane, you can edit all the properties that CSS supports and preview them. You need not switch to the source view to edit any properties.
 
 
-Learn more about using the style editor to [Work with the common content styles](stylesheet.md).
+Learn more about using the style editor to [work with the common content styles](stylesheet.md).
 
 ## Work with resources {#work-with-resources}
 
@@ -215,6 +215,16 @@ Set the basic configuration settings for starting a chapter from odd or even pag
 
    Here you can notice that the first chapter Advanced PDF settings is not given any page number, as it has nested or child topics. Whereas a page number if assigned to Appendix and Legal because they are standalone topics without any child topic. 
 
+*  **Do not show chapter number in the TOC** : Select this option to display the chapter names without the chapter numbers in the TOC.   By default, the chapter numbers are displayed in the TOC of your PDF output.
+* **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
+   >[!NOTE]
+   >
+   > To convert the glossary terms to hyperlinks, you need to:
+      >* Enable **Glossary** in the **Page Order** tab for a DITA map. 
+      > * Add the Glossary in the Back Matter Pages for a Book map.<br>
+   >If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
+
+
 * **Leader format**: Use the drop-down to select Dotted, Solid, or Space leader lines to connect heading levels to its corresponding page numbers.
    For applying TOC structure and styling heading levels, see [Add a chapter TOC](design-page-layout.md#add-chapter-toc).
 
@@ -254,6 +264,11 @@ You can define the text to appear before and after the break. For example, a tab
 
 * **Index and Glossary**:  If you have designed a Index page layout, map it to the Index option. If you have a Glossary page layout, then map it to the Glossary option. 
 
+   >[!NOTE]
+   >
+   > * The terms in the glossary of your PDF output are always sorted in alphabetical order. 
+   > * Using the stylesheets, you can design the **Glossary**. You can use the glossary styles `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, and `.glo-term` to customize the styles for the elements of the glossary.<br> Learn more about using the style editor to [work with the common content styles](stylesheet.md).
+
 * **Front Matter Pages and Back Matter Pages**: These page layouts define the styling for front or back matter pages in your book. If you've designed the front matter  layout, map it to the **Front Matter Pages** option. When you select the front matter layout from the dropdown, the front matter layout is applied to all topics present in the front matter. 
 
    If you've designed the back matter layout, map it to the **Back Matter Pages** option. When you select the back matter layout from the dropdown, the back matter layout is applied to all topics present in the back matter. 
@@ -286,7 +301,7 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 
    If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off. 
 
-   You can also define the order in which these different sections as generated in your PDF. To change the default order of these sections, select the dotted bars to drag and drop the sections at the desired location. 
+   You can also define the order in which these different sections are generated in your PDF. To change the default order of these sections, select the dotted bars to drag and drop the sections at the desired location. 
 
    >[!NOTE]
    >
@@ -294,7 +309,7 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 
 
 .
-   **Chapter & Topics** layout is always enabled and **Glossary** layout is always disabled by default. You cannot toggle them.
+   **Chapter & Topics** layout is always enabled by default. You cannot toggle it.
 
 **Merge pages**
 
