@@ -218,9 +218,10 @@ Set the basic configuration settings for starting a chapter from odd or even pag
 *  **Do not show chapter number in the TOC** : Select this option to display the chapter names without the chapter numbers in the TOC.   By default, the chapter numbers are displayed in the TOC of your PDF output.
 * **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
     
-    To convert the glossary terms to hyperlinks, you need to:
+   To convert the glossary terms to hyperlinks, you need to:
    * Enable **Glossary** in the **Page Order** tab for a DITA map. 
-    * Add the Glossary in the Back Matter Pages for a Book map.<br>
+   * Add the Glossary in the Back Matter Pages for a Book map.
+
    If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
 
 
