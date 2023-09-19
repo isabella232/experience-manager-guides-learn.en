@@ -216,15 +216,6 @@ Set the basic configuration settings for starting a chapter from odd or even pag
    Here you can notice that the first chapter Advanced PDF settings is not given any page number, as it has nested or child topics. Whereas a page number if assigned to Appendix and Legal because they are standalone topics without any child topic. 
 
 *  **Do not show chapter number in the TOC** : Select this option to display the chapter names without the chapter numbers in the TOC.   By default, the chapter numbers are displayed in the TOC of your PDF output.
-* **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
-    
-   To convert the glossary terms to hyperlinks, you need to:
-   * Enable **Glossary** in the **Page Order** tab for a DITA map. 
-   * Add the Glossary in the Back Matter Pages for a Book map.
-
-   If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
-
-
 * **Leader format**: Use the drop-down to select Dotted, Solid, or Space leader lines to connect heading levels to its corresponding page numbers.
    For applying TOC structure and styling heading levels, see [Add a chapter TOC](design-page-layout.md#add-chapter-toc).
 
@@ -238,7 +229,13 @@ You can define the text to appear before and after the break. For example, a tab
    Use language variables to define the continuation marker text before and after the break. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can publish `Continued on page %page-num%` as a text in English and `Fortsetzung auf Seite %page-num%` in German. 
 
    Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. 
+* **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
+    
+   To convert the glossary terms to hyperlinks, you need to:
+   * Enable **Glossary** in the **Page Order** tab for a DITA map. 
+   * Add the Glossary in the Back Matter Pages for a Book map.
 
+   If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
 <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Page Layouts {#page-layouts}
