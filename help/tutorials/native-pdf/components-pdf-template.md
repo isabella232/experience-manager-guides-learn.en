@@ -217,12 +217,11 @@ Set the basic configuration settings for starting a chapter from odd or even pag
 
 *  **Do not show chapter number in the TOC** : Select this option to display the chapter names without the chapter numbers in the TOC.   By default, the chapter numbers are displayed in the TOC of your PDF output.
 * **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
-   >[!NOTE]
-   >
-   > To convert the glossary terms to hyperlinks, you need to:
-   >* Enable **Glossary** in the **Page Order** tab for a DITA map. 
-   > * Add the Glossary in the Back Matter Pages for a Book map.<br>
-   >If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
+    
+    To convert the glossary terms to hyperlinks, you need to:
+   * Enable **Glossary** in the **Page Order** tab for a DITA map. 
+    * Add the Glossary in the Back Matter Pages for a Book map.<br>
+   If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
 
 
 * **Leader format**: Use the drop-down to select Dotted, Solid, or Space leader lines to connect heading levels to its corresponding page numbers.
@@ -264,10 +263,8 @@ You can define the text to appear before and after the break. For example, a tab
 
 * **Index and Glossary**:  If you have designed a Index page layout, map it to the Index option. If you have a Glossary page layout, then map it to the Glossary option. 
 
-   >[!NOTE]
-   >
-   > * The terms in the glossary of your PDF output are always sorted in alphabetical order. 
-   > * Using the stylesheets, you can design the **Glossary**. You can use the glossary styles `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, and `.glo-term` to customize the styles for the elements of the glossary.<br> Learn more about using the style editor to [work with the common content styles](stylesheet.md).
+   * The terms in the glossary of your PDF output are always sorted in alphabetical order. 
+   * Using the stylesheets, you can design the **Glossary**. You can use the glossary styles `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, and `.glo-term` to customize the styles for the elements of the glossary.<br> Learn more about using the style editor to [work with the common content styles](stylesheet.md).
 
 * **Front Matter Pages and Back Matter Pages**: These page layouts define the styling for front or back matter pages in your book. If you've designed the front matter  layout, map it to the **Front Matter Pages** option. When you select the front matter layout from the dropdown, the front matter layout is applied to all topics present in the front matter. 
 
