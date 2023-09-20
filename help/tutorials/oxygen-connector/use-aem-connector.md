@@ -368,9 +368,14 @@ If you want to use the editors available in AEM Guides, you can do so by selecti
 
 ### Check-out files {#id195HC020TS4}
 
-When you checkout a file, it is stored locally on your system and locked for editing in the AEM repository. Perform the following steps to check-out a file:
+When you check out a file, it is stored locally on your system and locked for editing in the AEM repository. Perform the following steps to checkout a file:
 
-1. Right-click a file in the AEM Guides panel.
+1. You can check out your files in one of the following ways:
+    - Right-click a file in the AEM Guides panel.
+    - Right-click the map tab in the DITA Maps Manager panel.
+    - Right-click a file in the DITA Maps Manager panel. 
+    - Right-click the file tab when you open a map or topic in the Editor.
+ 
 1. Select one of the following options:
    -  **Check-out:** Checks out a file from AEM repository and makes it available for editing.
    -  **Check-out with dependents**: Checks out a file with its direct references. You can make changes in parent and child pages using this option. Oxygen Plugin for AEM Guides supports checking out one level of dependents. For example, Map A references Topic A and Topic A references Topic B. Checking out Map A will checkout Topic A regardless of its level in the TOC hierarchy. However, it will not check out Topic B because it is not directly linked from Map A.
@@ -396,7 +401,13 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
 1. Save your file by clicking **File** \> **Save**.
 
-1. Right-click on a checked-out file and choose from the following two options:
+1. Right-click on a checked-out file or map in one of the following locations:
+    - AEM Guides panel
+    - DITA Maps Manager panel 
+    - The file tab when you open a map or topic in the Editor.
+    - The map tab in the DITA Maps Manager panel.
+
+1. Choose from the following two options:
 
    -  **Check-In**: Checks-in the selected file from your local system into AEM repository.
    -  **Check-In with Dependents:** If you have checked-out a file along with its dependents, then use this option to check in all dependent files in one single operation. On selecting this option, you are shown the Check-In dialog with all dependent files. Click OK to check-in all files at once.

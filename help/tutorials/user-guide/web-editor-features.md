@@ -991,9 +991,27 @@ You can perform the following actions using the Options menu of the map file:
 -   **Open Map Dashboard**: Open the map dashboard.
 
 -   **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
+- **Download Map**: Select this option to open the **Download Map** dialog. 
+In the **Download Map** dialog, you can choose the following options:
+    - **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want
+    to download the map file and its contents based on a specific Baseline, select the Baseline
+    from the drop-down list. For more details about working with Baselines, view [work with Baseline](./generate-output-use-baseline-for-publishing.md).
+    - **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder.
+    
+     You can also download the map file without selecting any option. In that case, the last persisted versions of the referenced topics and media files are downloaded.
 
--   **Quick Generate**: Generate the output for the selected map file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+    After you click the **Download** button, the map download request is queued. You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed
+
+    You can access the download link from the AEM notification Inbox. Select the generated map notification in the Inbox to download the map in .zip format.
+
+    >[!NOTE]
+    >
+    >  By default, the downloaded maps remain for five days in the AEM notification Inbox.
+
+-   **Generate Output**: Generate the output for the selected map file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 -   **Close**: Closes the map file.
+
+
 
 The following screenshot shows the Options menu for a file in the DITA Map View:
 
