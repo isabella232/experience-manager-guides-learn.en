@@ -38,7 +38,7 @@ In this session, you learnt about following for Native PDF publishing:
  
 - **Functional overview of Native PDF publishing** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Documented common use cases** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Documented common use cases** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
  
 - **Community Forum** - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -50,8 +50,8 @@ In this session, you learnt about following for Native PDF publishing:
 
 ## Next expert session 
 
-- **Topic** - TBD
-- **Scheduled on** - July 20, 2023
+- **Topic** - Native PDF publishing “Hands on lab - BYOS” – Interactive learning
+- **Scheduled on** - September 07, 2023
 
 ## Contact us
 
