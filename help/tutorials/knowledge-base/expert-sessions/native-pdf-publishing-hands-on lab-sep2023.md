@@ -8,6 +8,7 @@ description: This 'Hands-on Lab - BYOS' session offers an in-depth exploration o
 This 'Hands-on Lab - BYOS' session offers an in-depth exploration of Native PDF publishing. Explore different use cases, leverage key features, and engage directly with Adobe experts to address your specific problem statements and requirements.
 
 ## Session overview
+
 In this session, you will gain valuable insights into Native PDF publishing, covering a wide range of topics from using metadata in PDF output to advanced troubleshooting techniques. Understand recent developments, discuss usecases or specific requirements in Native PDF with Adobe experts to enhance your publishing capabilities. 
 
 ## Session recording
