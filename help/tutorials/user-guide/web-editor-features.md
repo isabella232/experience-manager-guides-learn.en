@@ -737,9 +737,7 @@ The list of filtered files which contain the searched text is displayed. For exa
 
 **Options menu**
 
-In addition to opening files from the left panel, you can also perform many actions using the
-
-Options menu available in the Repository View. You will see different options, depending on whether you choose a folder, topic file, or a media file.
+In addition to opening files from the left panel, you can also perform many actions using the Options menu available in the Repository View. You will see different options, depending on whether you choose a folder, topic file, or a media file.
 
 **Options for a folder**
 
@@ -892,7 +890,18 @@ The various options in the Options menu are explained below:
 
 -   **Open Map Dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
 
+-  **Edit in Oxygen**: Select this option to edit the topic in the Editor of Oxygen connector plugin. The file is opened for editing.
+
+    >[!NOTE] 
+    >
+    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
+ 
+
 -   **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
+
+-  **Download as PDF**: Use the option to generate the PDF output and download it.  
+
+- **Publish As**:  Use the option to publish a topic or the elements within a topic to a content fragment.   
 
 -   **Quick Generate**: Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 

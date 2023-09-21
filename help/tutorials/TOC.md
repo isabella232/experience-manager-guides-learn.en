@@ -238,6 +238,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configure a data source connector](./install-guide/conf-data-source-connector.md)
       + [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
+      + [Configure the option to edit in Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
     + Work with global and folder-level profiles {#global-folder-profiles}
       + [Configure global or folder-level profiles](./install-guide/conf-folder-level.md)
     + Configure versions {#version-mgt}
