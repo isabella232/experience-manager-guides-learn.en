@@ -1,6 +1,6 @@
 ---
 title: Keyboard shortcuts in the Web Editor
-description: Learn how to Keyboard shortcuts in the Web Editor
+description: Find out time-saving keyboard shortcuts in the web editor of AEM Guides. 
 exl-id: e8be4c83-a236-43c1-b778-c3da92537174
 ---
 # Keyboard shortcuts in the Web Editor {#id2056B0A0WHT}

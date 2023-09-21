@@ -1,6 +1,6 @@
 ---
 title: Author content
-description: Learn how to Author content
+description: Learn how to author content in AEM Guides. Create, preview, edit, save the version of your document, and share for reviews.
 exl-id: bba2a7a1-ffbc-4d28-9b70-a0274f03e29b
 ---
 # Author content {#id221EAJ0A047}

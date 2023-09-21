@@ -1,6 +1,6 @@
 ---
 title: Generate output from the Repository panel
-description: Learn how to Generate output from the Repository panel
+description: Generate output from the repository panel or the Map View panel. Learn to publish a topic used across one or more DITA maps or generate output for multiple topics in AEM Guides.
 exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
 ---
 # Generate output from the Repository panel or the Map View panel {#id218CL6010AE}
