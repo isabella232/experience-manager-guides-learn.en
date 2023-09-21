@@ -1,6 +1,6 @@
 ---
 title: Know the Web Editor features
-description: Learn how to Know the Web Editor features
+description: Discover features of the web editor in AEM Guides. Know the web editor's interface, including the main toolbar, secondary toolbar, left panel, content editing area, and right panel.
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
 ---
 # Know the Web Editor features {#id176NC500V5Z}
@@ -795,7 +795,7 @@ You will see different options in the Options menu depending on whether you sele
 -   Properties
 -   View in Assets UI
 
-![](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![options menu of a file in the repository view](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 The various options in the Options menu are explained below:
 
