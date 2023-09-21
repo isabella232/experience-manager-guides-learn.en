@@ -1,6 +1,6 @@
 ---
 title: Other features in the Web Editor
-description: Learn how to Other features in the Web Editor
+description: Explore other valuable features of the web editor in AEM Guides. Learn using the other features of the web editor for improved authoring in AEM Guides.
 exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
 ---
 # Other features in the Web Editor {#id2056B0B0YPF}

@@ -1,6 +1,6 @@
 ---
 title: Create topics
-description: Learn how to Create topics
+description: Learn to create types of DITA topics using custom templates and the web editor in AEM Guides. 
 exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
 ---
 # Create topics {#id2056AL00O5Z}

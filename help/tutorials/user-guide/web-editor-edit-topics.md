@@ -1,6 +1,6 @@
 ---
 title: Edit topics in the Web Editor
-description: Learn how to Edit topics in the Web Editor
+description: Edit topics in the web editor of AEM Guides. Know various editing features to modify your topic files in the web editor.
 exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
 ---
 # Edit topics in the Web Editor {#id2056B040VUI}
