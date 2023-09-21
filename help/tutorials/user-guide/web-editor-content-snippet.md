@@ -213,19 +213,22 @@ Perform the following steps to create a topic using the topic generator:
 
 Right-click on a topic generator to open the **Options**. Using the options, you can perform the following operations:
 
-- **Preview**: Use this option to open a pane and view a small fraction of how the data is displayed in the output.
-- **Generate content**: This option generates the topics for the selected topic generator. You can also use this option to update the existing topics. It connects to the data source and fetches the updated data. 
-
+- **Generate**: This option generates the topics for the selected topic generator. You can also use this option to update the existing topics. It connects to the data source and fetches the updated data. While generating the content, this option is disabled, and you view a loader.
     >[!NOTE] 
     >
     >If your topic already exists, you can either overwrite the data in the topic or save it as a new version.
     
     ![](images/generate-topic-options.png)
 
-    *Generate a topic and if the file already exists, save it as a new version or overwrite it.*   
+    *Generate a topic, and if the file already exists, save it as a new version or overwrite it.*  
+- **View Log**: Select this option to view the content generation log file. The log file opens in a new tab. You can view the errors,  warnings, information messages, and exceptions in the log file. This option is enabled if you have generated the content for the selected topic generator.
+
+- **Preview**: Use this option to open a pane and view a small fraction of how the data is displayed in the output.
+
+     
   
-- **Edit**: Use this option to change and save the topic generator.
-- **Delete**: Use this option to delete the selected topic generator.
+- **Edit**: Use this option to change and save the topic generator. This option is disabled while you're generating the content.
+- **Delete**: Use this option to delete the selected topic generator. This option is disabled while you're generating the content.
 - **Duplicate**: This option creates a duplicate or copy of the selected topic generator. The duplicate is created with a suffix (like `topic-sample_1`) by default.
 
 
