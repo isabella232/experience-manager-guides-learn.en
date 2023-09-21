@@ -890,7 +890,7 @@ The various options in the Options menu are explained below:
 
 -   **Open Map Dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
 
--  **Edit in Oxygen**: Select this option to edit the topic in the Editor of Oxygen connector plugin. The file is opened for editing.
+-  **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin. The file is opened for editing.
 
     >[!NOTE] 
     >

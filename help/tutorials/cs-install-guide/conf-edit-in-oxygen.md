@@ -5,7 +5,7 @@ description: Learn how to configure the option to edit in Oxygen connector plugi
 
 # Configure the option to edit in Oxygen
 
-AEM Guides also allows the users to edit their DITA topics and DITA maps in the Editor of Oxygen connector plugin. 
+AEM Guides also allows the users to edit their DITA topics and DITA maps in the Oxygen connector plugin. 
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the **Edit in Oxygen** option:
 
