@@ -20,6 +20,7 @@ You can also easily edit, reconnect, duplicate, or delete a data source connecto
 You can now also view the content generation log file. This log file helps you check the warnings, errors, and exceptions.  Learn more about how the [options for a topic generator](../user-guide/web-editor-content-snippet.md#options-for-a-topic-generator) help you easily generate and manage the topic generators.   
 
 ## Native PDF enhancements
+
 The following Native PDF enhancements have been done in the October 2023 release:
 
 ### Reset the page number for the first page of a layout
