@@ -1,6 +1,6 @@
 ---
 title: Create maps based on customized templates
-description: Learn how to Create maps based on customized templates
+description: Learn to create a customizes template, use them to create new map files, and pass on the defined title to a DITA map in AEM Guides.
 exl-id: 02513148-3876-4549-962a-9984f619030f
 ---
 # Create maps based on customized templates {#id225VF0808MP}

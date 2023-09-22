@@ -1,6 +1,6 @@
 ---
 title: Review topics
-description: Learn how to Review topics
+description: Learn how to review topics and use the features as a reviewer, document view, topic view, contextual toolbar, preview mode, add attachments to comments, and conditions panel in AEM Guides.
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
 ---
 # Review topics {#id2056B0W0FBI}

@@ -1,6 +1,6 @@
 ---
 title: Manage metadata
-description: Learn how to Manage metadata
+description: Learn how to define and manage metadata in AEM Guides. Use smart and bulk tagging to easily find related topics within a DITA map.
 exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
 ---
 # Manage metadata {#id221EJ0500LI}

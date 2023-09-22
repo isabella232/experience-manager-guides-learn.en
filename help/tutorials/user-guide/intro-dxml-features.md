@@ -1,6 +1,6 @@
 ---
 title: Key AEM Guides features
-description: Learn how to Key AEM Guides features
+description: Explore the key features in AEM Guides, DITA authoring, content management, web-based review, translation, localization, multichannel publishing, and integration of FrameMaker.
 exl-id: f456741a-b504-4686-8230-64fac0ad8939
 ---
 # Key AEM Guides features {#id167G9I060SI}

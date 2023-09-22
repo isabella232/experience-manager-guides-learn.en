@@ -1,6 +1,6 @@
 ---
 title: Work with the Map Editor
-description: Learn how to Work with the Map Editor
+description: Work with the Map Editor in AEM Guides. Learn to create and edit a map file in AEM map editor.
 exl-id: 19f40bc2-0f44-43fc-bc9f-1e2692eb11d6
 ---
 # Work with the Map Editor {#id181OF0M30Y4}

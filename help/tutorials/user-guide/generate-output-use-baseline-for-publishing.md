@@ -1,6 +1,6 @@
 ---
 title: Work with Baseline
-description: Learn how to Work wit Baseline
+description: Know the use of Baselines in AEM Guides. Learn how to create, view contents, edit, duplicate, remove, add labels, and export translated Baselines.
 exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
 ---
 # Work with Baseline {#id1825FI0J0PF}
