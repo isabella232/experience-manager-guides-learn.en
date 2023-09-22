@@ -124,7 +124,6 @@ The bugs fixed in various areas are listed below:
 
 - After upgrading to 4.x, some versions or labels are not visible for certain assets in the **Version History**.(13247)
 - Afternoon hours are not set in the **Date** for the creation of baselines. (12712)
-- Unable to set the timezone in the **Version Created On** column of the **Baselines**. (12711)
 - Not able to paste the JSON code in the `<codeblock>` element of the Web Editor. (12326)
 - Unsaved version changes and the indicators for them are not displayed for large files. (11784)
 - While editing in the Korean language, the first character changes to the default. (10049) 
@@ -134,12 +133,12 @@ The bugs fixed in various areas are listed below:
 
 - Native PDF | The order of the topics isn't fixed when the PDF output is generated. (13157)
 - Native PDF| No default style tag is available for `<p>`element. (12559)
+- Native PDF | Inline styles applied to the content region are not applied to the topics in front matter and back matter. (13510)
 - The `DeliveryTarget` attribute isn't propagated on generating the AEM Site output.  (13132)
 - The **Publish** workflow gets stuck while generating AEM Site output for content with certain errors. (12000)
 
 ### Management
 
-- The Reports tab in the Web Editor doesn’t display the topic list of old DITA maps that were created before the 4.2 upgrade. (11852)
 - Version History doesn’t show even if the `dc:format` property isn't present for an asset. (10463)
 
 

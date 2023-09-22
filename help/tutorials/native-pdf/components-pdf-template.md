@@ -259,10 +259,13 @@ You can define the text to appear before and after the break. For example, a tab
 
 * **List of Figures and List of Tables**: You can also specify the page layout for figures and tables. The selected layout will be applied to all the Figures and Tables. 
 
-* **Index and Glossary**:  If you have designed a Index page layout, map it to the Index option. If you have a Glossary page layout, then map it to the Glossary option. 
+* **Index**:  If you have designed an Index page layout, map it to the Index option. Using the stylesheets, you can style different index elements in the PDF output. Use the index styles `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` and `.idx-child` to customize the styles for the elements of the index. 
 
-   * The terms in the glossary of your PDF output are always sorted in alphabetical order. 
-   * Using the stylesheets, you can design the **Glossary**. You can use the glossary styles `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, and `.glo-term` to customize the styles for the elements of the glossary.<br> Learn more about using the style editor to [work with the common content styles](stylesheet.md).
+* **Glossary**:  If you have a Glossary page layout, then map it to the Glossary option.  The terms in the glossary of your PDF output are always sorted in alphabetical order. 
+   
+  Using the stylesheets, you can style different glossary elements in the PDF output. Use the glossary styles `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, and `.glo-term` to customize the styles for the elements of the glossary.
+  
+  Learn more about using the style editor to [work with the common content styles](stylesheet.md).
 
 * **Front Matter Pages and Back Matter Pages**: These page layouts define the styling for front or back matter pages in your book. If you've designed the front matter  layout, map it to the **Front Matter Pages** option. When you select the front matter layout from the dropdown, the front matter layout is applied to all topics present in the front matter. 
 
