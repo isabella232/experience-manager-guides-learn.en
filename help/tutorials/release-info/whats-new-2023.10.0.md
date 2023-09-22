@@ -45,7 +45,7 @@ Now you can not only edit a map in the map view of the Web Editor but also downl
 
 For more details, refer to the **Map View** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-![options menu of a file in the repository view](assets/options-menu-repo-view-file-level%20-%202310.png){width="550" align="left"}
+![options menu of a file in the repository view](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
 
 *Select a file in repository view and choose the option to perform an action on the file.* 
 
