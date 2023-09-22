@@ -1,6 +1,6 @@
 ---
 title: Insert a content snippet from your data source
-description: Learn how to insert a content snippet from your data source
+description: Use data from your data source in AEM Guides. Learn how to insert a content snippet from your data source. Create a topic using the topic generator.
 ---
 
 # Use data from your data source
