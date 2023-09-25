@@ -72,26 +72,28 @@ You can manage your existing baselines using the various features on the Baselin
 
 -   You can search for an existing baseline using the text box in the Baseline panel. Use the **Apply Filter** icon to show all baselines or list the baselines with the creation status as Successful, In-Progress, or Failed.
 -   Use the **Refresh** icon in the Baseline panel to recheck for all baselines and display a fresh list of baselines for the DITA map that's opened in the Map View.
--   You can view or edit the contents of an existing baseline by double-clicking the baseline from the list in the Baseline panel. The baseline editing window in the center displays the DITA map file, map's contents or topics, and the referenced content.
+-   You can view or edit the contents of an existing static baseline by double-clicking the baseline from the list in the Baseline panel. The baseline editing window in the center displays the DITA map file, map's contents or topics, and the referenced content.
 
 
-![](images/baseline-options.png){width="550" align="left"}
+    ![options of a baseline](images/baseline-options.png){width="800" align="left"}
 
 You can also perform the following operations on the baseline from the Options menu:
 
--   **Edit**, **Duplicate,** or **Delete** an existing baseline.
+-   **Edit**, **Duplicate,** **Rename**, or **Delete** an existing baseline.
 
->[!NOTE]
->
->Edit operation is only recommended for small number of reference changes. Edit operation is not recommended to change the version of the main DITA map as it must recalculate all the references. This may cause a baseline update failure for large DITA maps. For the larger DITA maps, you can create a new baseline or edit the properties of the baseline. 
+    >[!NOTE]
+    >
+    >Edit operation for static baselines is only recommended for small number of reference changes. Edit operation is not recommended to change the version of the main DITA map as it must recalculate all the references. This may cause a baseline update failure for large DITA maps. For the larger DITA maps, you can create a new baseline or edit the properties of the baseline. 
+    >
+    >Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.   
 
--   Add, remove, or make changes to existing labels from the **Manage Labels** option. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label drop-down list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
+-   Add, remove, or make changes to existing labels from the **Manage Labels** option for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label drop-down list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
 
     >[!NOTE]
     >
     > The process to add or remove labels happens asynchronously, so you can continue working on other files in the Web Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
 
--   **Edit properties** of an existing baseline that you have set while creating the baseline.
+-   **Edit properties** of an existing static baseline that you have set while creating the baseline.
 -   Export the snapshot of a baseline in a CSV file with the **Export Baseline** option.
 
 **Baseline filters**
