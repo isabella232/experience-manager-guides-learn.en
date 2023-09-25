@@ -1,6 +1,6 @@
 ---
 title: Output generation
-description: Learn how to Output generation
+description: Generate output in AEM site, PDF, HTML5, EPUB, custom, and JSON through DITA-OT plug-ins, Native PDF publishing, and FMPS in AEM Guides.
 exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
 ---
 # Output generation {#id1645H8040HD}

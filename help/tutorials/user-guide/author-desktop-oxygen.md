@@ -1,6 +1,6 @@
 ---
 title: Work with Oxygen
-description: Learn how to Work with Oxygen
+description: Know about Oxygen XML Editor support for content authoring and publishing in AEM Guides.
 exl-id: 9fc690a6-fee3-4315-ad86-256cedb7b7d6
 ---
 # Work with Oxygen {#id221BH0V0UE8}

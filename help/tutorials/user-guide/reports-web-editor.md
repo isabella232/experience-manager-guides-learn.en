@@ -1,6 +1,6 @@
 ---
 title: DITA map report from the Web Editor
-description: Learn how to DITA map report from the Web Editor
+description: Generate DITA map reports from web editor in AEM Guides. Learn how to generate a CSV for a topic list, multimedia, metadata, and broken links reports.
 exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
 ---
 # DITA map report from the Web Editor {#id231HF0Z0NXA}

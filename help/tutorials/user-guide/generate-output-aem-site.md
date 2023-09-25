@@ -1,6 +1,6 @@
 ---
 title: AEM Site
-description: Learn how to AEM Site
+description: Create and configure AEM site preset in AEM Guides. Use AEM site support to generate article-based output, output linking topics, publish conref, and search a string within the content.
 exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
 ---
 # AEM Site {#id205BE3008SW}
