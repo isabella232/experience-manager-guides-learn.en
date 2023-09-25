@@ -122,7 +122,6 @@ The bugs fixed in various areas are listed below:
 
 ### Authoring
 
-- After upgrading to 4.x, some versions or labels are not visible for certain assets in the **Version History**.(13247)
 - Afternoon hours are not set in the **Date** for the creation of baselines. (12712)
 - Not able to paste the JSON code in the `<codeblock>` element of the Web Editor. (12326)
 - Unsaved version changes and the indicators for them are not displayed for large files. (11784)

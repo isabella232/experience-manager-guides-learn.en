@@ -81,6 +81,8 @@ The out-of-the-box templates for the selected data source are displayed in the d
      >[!NOTE] 
      >  
      > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
+     >   
+     >You can also use Velocity tools in the templates. Learn more about how to [use Velocity tools](#use-velocity-tools).
 
 1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. 
 
@@ -231,6 +233,41 @@ Right-click on a topic generator to open the **Options**. Using the options, you
 - **Delete**: Use this option to delete the selected topic generator. This option is disabled while you're generating the content.
 - **Duplicate**: This option creates a duplicate or copy of the selected topic generator. The duplicate is created with a suffix (like `topic-sample_1`) by default.
 
+
+
+## Use Velocity tools in the data source templates {#use-velocity-tools}
+
+Experience Manager templates also support the Velocity tools (version 2.0). These tools help you apply various functions to the data you fetch from the data sources. Learn more about the use of the [Velocity tools](https://velocity.apache.org/tools/2.0/generic.html) and the functions that you can apply.
+
+Perform the following steps to use a Velocity tool in a template:
+1.	Edit a Velocity template in the Web Editor.  
+2.	Add a tool and its function in the `<tool.function>` format. For example: 
+    - To generate a random number using the math tool, use `$mathTool.random`.
+    - To generate the sum of numbers using the math tool, use `$mathTool.add(num1, num2)`.
+3.	Use the template to create a content snippet or topic.  
+4.	After you apply the template to the data, you can view the data in the preview or the DITA source view.
+
+
+
+ 
+You can use the following tools within the Velocity templates to apply various functions to the data you fetch from the connector:
+- `$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 

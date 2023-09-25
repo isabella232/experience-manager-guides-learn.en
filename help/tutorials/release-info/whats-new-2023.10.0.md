@@ -23,6 +23,11 @@ You can also easily edit, reconnect, duplicate, or delete a data source connecto
 
 You can now also view the content generation log file. This log file helps you check the warnings, errors, and exceptions.  Learn more about how the [options for a topic generator](../user-guide/web-editor-content-snippet.md#options-for-a-topic-generator) help you easily generate and manage the topic generators.   
 
+## Support for Velocity tools in the data source templates
+
+You can now use the Velocity tools in the Experience Manager Guides templates. These tools help you apply various functions to the data you fetch from the data sources. You can use the templates while creating a content snippet or a topic. This feature helps you save time and effort to manually apply the same function to each data set.  It also ensures accurate results. 
+For example, you can use the $mathTool to perform mathematical functions. 
+Learn more about how to [use Velocity tools in the data source templates](../user-guide/web-editor-content-snippet.md##use-velocity-tools).
 
 
 ## Native PDF enhancements
