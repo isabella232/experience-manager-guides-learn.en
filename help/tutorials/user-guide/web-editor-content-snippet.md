@@ -240,18 +240,18 @@ Right-click on a topic generator to open the **Options**. Using the options, you
 Experience Manager templates also support the Velocity tools (version 2.0). These tools help you apply various functions to the data you fetch from the data sources. Learn more about the use of the [Velocity tools](https://velocity.apache.org/tools/2.0/generic.html) and the functions that you can apply.
 
 Perform the following steps to use a Velocity tool in a template:
-1.	Edit a Velocity template in the Web Editor.  
-2.	Add a tool and its function in the `<tool.function>` format. For example: 
+1. Edit a Velocity template in the Web Editor.  
+1. Add a tool and its function in the `<tool.function>` format. For example: 
     - To generate a random number using the math tool, use `$mathTool.random`.
     - To generate the sum of numbers using the math tool, use `$mathTool.add(num1, num2)`.
-3.	Use the template to create a content snippet or topic.  
-4.	After you apply the template to the data, you can view the data in the preview or the DITA source view.
+1. Use the template to create a content snippet or topic.  
+1. After you apply the template to the data, you can view the data in the preview or the DITA source view.
 
 
 
  
 You can use the following tools within the Velocity templates to apply various functions to the data you fetch from the connector:
-- `$alternatorTool`
+-`$alternatorTool`
 - `$classTool`
 - `$contextTool`
 - `$conversionTool`
