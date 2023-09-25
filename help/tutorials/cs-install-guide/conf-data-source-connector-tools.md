@@ -48,10 +48,10 @@ To configure a connector, perform the following steps:
 
 ## Features available for a connector
 
- * Toggle between the **List View** or **Tile View**  to view the various connected data sources as a list or as tiles. 
- * Select the checkbox for a single connector. Click **Select All** to select all connectors. You can click **Deselect All** when all the connectors are selected. 
+* Toggle between the **List View** or **Tile View**  to view the various connected data sources as a list or as tiles. 
+* Select the checkbox for a single connector. Click **Select All** to select all connectors. You can click **Deselect All** when all the connectors are selected. 
  
- <img src="./assets/data-sources-features.png" alt= "features of the data sources on the data sources page" width="800">
+<img src="./assets/data-sources-features.png" alt= "features of the data sources on the data sources page" width="800">
  
 *Edit, reconnect, duplicated, or delete a data source connector.*
 
