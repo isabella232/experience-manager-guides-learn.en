@@ -42,7 +42,7 @@ Learn more about how to [work with the page properties of a page layout](../nati
 
 ### View chapters without auto numbers in the TOC
 
-Experience Manager Guides display the chapter numbers along with the chapter names in the Table of Contents (TOC). Now you can choose to publish only the chapter names without the chapter numbers. View more details about how to configure the [advanced PDF settings of a template](../native-pdf/pdf-template.md#). 
+Experience Manager Guides display the chapter numbers along with the chapter names in the Table of Contents (TOC). Now you can choose to publish only the chapter names without the chapter numbers. View more details about how to configure the [advanced PDF settings of a template](../native-pdf/components-pdf-template.md#advanced-pdf-settings). 
 
 ## Download a map from the Web Editor
 
