@@ -1,6 +1,6 @@
 ---
 title: Manage content
-description: Manage content and identify your roles and permissions in AEM Guides. Learn the key concepts of content management and pre-requisites to content authoring.
+description: Manage content and identify your roles and permissions in AEM Guides. Learn the key concepts of content management and working with the global or folder-level profiles.
 exl-id: d2fa31a7-a8ce-4d17-bd4e-0f51ea751dca
 ---
 # Manage content {#id164JBG0M0T1}

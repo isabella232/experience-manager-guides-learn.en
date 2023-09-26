@@ -1,6 +1,6 @@
 ---
 title: Add and manage citations in your content
-description: Learn how to apply, import, manage, filter, search, change citation style, edit, preview, insert, delete, and generate content output with citations in AEM Guides.
+description: Add and manage citations in AEM Guides. Learn how to apply, import, filter, search, change citation style, edit, preview, insert, delete, and generate content output with citations.
 ---
 
 # Add and manage citations in your content

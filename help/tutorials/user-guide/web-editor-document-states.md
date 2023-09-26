@@ -1,6 +1,6 @@
 ---
 title: Document state
-description: Know the types of document states in AEM Guides. Learn to change or view the document state and use the document state in DDLC.
+description: Learn the types of document states in AEM Guides. Know how to change or view the document state and use the document state in DDLC.
 exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
 ---
 # Document state {#id1821HC00URO}
