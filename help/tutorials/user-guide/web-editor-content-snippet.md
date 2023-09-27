@@ -235,7 +235,7 @@ Right-click on a topic generator to open the **Options**. Using the options, you
 
 
 
-## Use Velocity tools in the data source templates {#use-velocity-tools}
+## Use Velocity tools in the data source templates {#use-velocity-tools} 
 
 Experience Manager templates also support the Velocity tools (version 2.0). These tools help you apply various functions to the data you fetch from the data sources. Learn more about the use of the [Velocity tools](https://velocity.apache.org/tools/2.0/generic.html) and the functions that you can apply.
 
