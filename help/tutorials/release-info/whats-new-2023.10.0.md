@@ -13,7 +13,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 Experience Manager Guides now provides a **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can easily create the connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
 
-You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn how to [configure a data source connector using the tools](../install-guide/conf-data-source-connector.md).
+You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn how to [configure a data source connector using the tools](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![data source connectors listed in the data sources panel](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -27,7 +27,7 @@ You can now also view the content generation log file. This log file helps you c
 
 You can now use the Velocity tools in the Experience Manager Guides templates. These tools help you apply various functions to the data you fetch from the data sources. You can use the templates while creating a content snippet or a topic. This feature helps you save time and effort to manually apply the same function to each data set.  It also ensures accurate results. 
 For example, you can use the $mathTool to perform mathematical functions. 
-Learn more about how to [use Velocity tools in the data source templates](../user-guide/web-editor-content-snippet.md##use-velocity-tools).
+Learn more about how to [use Velocity tools in the data source templates](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
 ## Native PDF enhancements
