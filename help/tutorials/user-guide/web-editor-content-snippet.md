@@ -1,6 +1,6 @@
 ---
 title: Insert a content snippet from your data source
-description: Learn how to insert a content snippet from your data source
+description: Use data from your data source in AEM Guides. Learn how to insert a content snippet from your data source. Create a topic using the topic generator.
 ---
 
 # Use data from your data source
@@ -16,7 +16,11 @@ Based on your setup your administrator can configure a data source connector:
 <details>
 <summary> Cloud Services </summary>
 
-Learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
+
+- If you're using the October 2023 release or later, learn how to [configure a data source connector using the tools](../cs-install-guide/conf-data-source-connector-tools.md) in the Cloud Services Installation and Configuration Guide.
+
+- If you're using the July 2023 or September 2023 release, learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
+
 </details>
 
 <details>    
@@ -77,6 +81,8 @@ The out-of-the-box templates for the selected data source are displayed in the d
      >[!NOTE] 
      >  
      > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
+     >   
+     >You can also use Velocity tools in the templates. Learn more about how to [use Velocity tools](#use-velocity-tools).
 
 1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. 
 
@@ -209,21 +215,59 @@ Perform the following steps to create a topic using the topic generator:
 
 Right-click on a topic generator to open the **Options**. Using the options, you can perform the following operations:
 
-- **Preview**: Use this option to open a pane and view a small fraction of how the data is displayed in the output.
-- **Generate content**: This option generates the topics for the selected topic generator. You can also use this option to update the existing topics. It connects to the data source and fetches the updated data. 
-
+- **Generate**: This option generates the topics for the selected topic generator. You can also use this option to update the existing topics. It connects to the data source and fetches the updated data. While generating the content, this option is disabled, and you view a loader.
     >[!NOTE] 
     >
     >If your topic already exists, you can either overwrite the data in the topic or save it as a new version.
     
     ![](images/generate-topic-options.png)
 
-    *Generate a topic and if the file already exists, save it as a new version or overwrite it.*   
+    *Generate a topic, and if the file already exists, save it as a new version or overwrite it.*  
+- **View Log**: Select this option to view the content generation log file. The log file opens in a new tab. You can view the errors,  warnings, information messages, and exceptions in the log file. This option is enabled if you have generated the content for the selected topic generator.
+
+- **Preview**: Use this option to open a pane and view a small fraction of how the data is displayed in the output.
+
+     
   
-- **Edit**: Use this option to change and save the topic generator.
-- **Delete**: Use this option to delete the selected topic generator.
+- **Edit**: Use this option to change and save the topic generator. This option is disabled while you're generating the content.
+- **Delete**: Use this option to delete the selected topic generator. This option is disabled while you're generating the content.
 - **Duplicate**: This option creates a duplicate or copy of the selected topic generator. The duplicate is created with a suffix (like `topic-sample_1`) by default.
 
+
+
+## Use Velocity tools in the data source templates {#use-velocity-tools}
+
+Experience Manager templates also support the Velocity tools (version 2.0). These tools help you apply various functions to the data you fetch from the data sources. Learn more about the use of the [Velocity tools](https://velocity.apache.org/tools/2.0/generic.html) and the functions that you can apply.
+
+Perform the following steps to use a Velocity tool in a template:
+1. Edit a Velocity template in the Web Editor.  
+1. Add a tool and its function in the `<tool.function>` format. For example: 
+    - To generate a random number using the math tool, use `$mathTool.random`.
+    - To generate the sum of numbers using the math tool, use `$mathTool.add(num1, num2)`.
+1. Use the template to create a content snippet or topic.  
+1. After you apply the template to the data, you can view the data in the preview or the DITA source view.
+
+
+
+ 
+You can use the following tools within the Velocity templates to apply various functions to the data you fetch from the connector:
+-`$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 

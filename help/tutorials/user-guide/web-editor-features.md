@@ -1,6 +1,6 @@
 ---
 title: Know the Web Editor features
-description: Learn how to Know the Web Editor features
+description: Discover features of the web editor in AEM Guides. Know the web editor's interface, including the main toolbar, secondary toolbar, left panel, content editing area, and right panel.
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
 ---
 # Know the Web Editor features {#id176NC500V5Z}
@@ -737,9 +737,7 @@ The list of filtered files which contain the searched text is displayed. For exa
 
 **Options menu**
 
-In addition to opening files from the left panel, you can also perform many actions using the
-
-Options menu available in the Repository View. You will see different options, depending on whether you choose a folder, topic file, or a media file.
+In addition to opening files from the left panel, you can also perform many actions using the Options menu available in the Repository View. You will see different options, depending on whether you choose a folder, topic file, or a media file.
 
 **Options for a folder**
 
@@ -797,7 +795,7 @@ You will see different options in the Options menu depending on whether you sele
 -   Properties
 -   View in Assets UI
 
-![](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![options menu of a file in the repository view](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 The various options in the Options menu are explained below:
 
@@ -892,7 +890,18 @@ The various options in the Options menu are explained below:
 
 -   **Open Map Dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
 
+-  **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin. The file is opened for editing.
+
+    >[!NOTE] 
+    >
+    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
+ 
+
 -   **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
+
+-  **Download as PDF**: Use the option to generate the PDF output and download it.  
+
+- **Publish As**:  Use the option to publish a topic or the elements within a topic to a content fragment.   
 
 -   **Quick Generate**: Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -991,9 +1000,27 @@ You can perform the following actions using the Options menu of the map file:
 -   **Open Map Dashboard**: Open the map dashboard.
 
 -   **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
+- **Download Map**: Select this option to open the **Download Map** dialog. 
+In the **Download Map** dialog, you can choose the following options:
+    - **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want
+    to download the map file and its contents based on a specific Baseline, select the Baseline
+    from the drop-down list. For more details about working with Baselines, view [work with Baseline](./generate-output-use-baseline-for-publishing.md).
+    - **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder.
+    
+     You can also download the map file without selecting any option. In that case, the last persisted versions of the referenced topics and media files are downloaded.
 
--   **Quick Generate**: Generate the output for the selected map file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+    After you click the **Download** button, the map download request is queued. You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed
+
+    You can access the download link from the AEM notification Inbox. Select the generated map notification in the Inbox to download the map in .zip format.
+
+    >[!NOTE]
+    >
+    >  By default, the downloaded maps remain for five days in the AEM notification Inbox.
+
+-   **Generate Output**: Generate the output for the selected map file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 -   **Close**: Closes the map file.
+
+
 
 The following screenshot shows the Options menu for a file in the DITA Map View:
 

@@ -1,6 +1,6 @@
 ---
 title: Publish a topic to a content fragment
-description: Learn how to publish a topic to a content fragment.
+description: Publish a topic or the elements within a topic to a content fragment in AEM Guides.  Learn how to view the content fragments present for a topic and republish them.
 ---
 
 # Publish to a content fragment

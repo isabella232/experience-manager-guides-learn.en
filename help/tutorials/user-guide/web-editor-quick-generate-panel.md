@@ -1,6 +1,6 @@
 ---
 title: Use Quick Generate panel
-description: Learn how to Use Quick Generate panel
+description: Use the quick generate panel in AEM Guides. Learn how to generate and view output from the quick generate panel.
 exl-id: d48803d9-470c-4679-8def-72b45a85917b
 ---
 # Use Quick Generate panel to generate and view output {#id22AKE050F5L}

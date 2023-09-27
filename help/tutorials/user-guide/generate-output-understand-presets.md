@@ -1,6 +1,6 @@
 ---
 title: Understanding the output presets
-description: Learn how to Understanding the output presets
+description: Understand the output presets in AEM Guides. Create output presets from the web editor and the map dashboard for AEM site, PDF, HTML5, EPUB, custom, and JSON formats.
 exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
 ---
 # Understanding the output presets {#understanding_output_settings}

@@ -1,6 +1,6 @@
 ---
 title: Use labels
-description: Learn how to Use labels
+description: Discover the use of labels for different versions of a file in AEM Guides. Learn how to add or delete a label to a version of a topic.
 exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
 ---
 # Use labels {#id164JBG0M0T1}

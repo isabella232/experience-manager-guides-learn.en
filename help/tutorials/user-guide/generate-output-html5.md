@@ -1,6 +1,6 @@
 ---
 title: Use HTML5
-description: Learn how to use HTML5
+description: Learn how to create an HTML5 preset from the web editor and map dashboard. Configure HTML5 output preset in AEM Guides.
 exl-id: c484289b-92aa-4790-b62b-650ecbe1b86b
 ---
 # HTML5 {#id205BE700XO1}

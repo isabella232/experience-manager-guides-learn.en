@@ -1,6 +1,6 @@
 ---
 title: Work with FrameMaker
-description: Learn how to Work with FrameMaker
+description: Know about FrameMaker support for content authoring and publishing in AEM Guides.
 exl-id: 4bf65bad-0ff4-45f7-88ac-6efa19faefab
 ---
 # Work with FrameMaker {#id221BH0L03XA}

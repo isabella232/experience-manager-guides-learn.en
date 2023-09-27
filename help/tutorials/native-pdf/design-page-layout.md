@@ -91,7 +91,10 @@ While designing a page layout, having control over various page properties is es
 
 * **View Rotation** : Specify the side or direction in which the original top side is represented after rotation. You can choose from Clockwise 90, Anticlockwise 90, or Anticlockwise 180 degrees. This is very useful in a situation wherein you want to use a combination of Portrait and Landscape layouts in your output. For example, you can use portrait as the generic page layout, and you can set a landscape page layout for rendering wide tables. In that situation, you can set to display the table content in Clockwise 90 degrees. That way the page will be oriented in landscape and the content will be rotated 90 degrees to maintain continuity in view. We will see how this is achieved as an example later in this section.
 
-* **Restart Numbering From** : Specify the page number from where the numbering for this page layout will start. For example, you can set the page number to restart for every chapter. In that case, you need to set the Restart Numbering From property to 1 on the First page layout variant of the chapter page layout.
+* **Page Numbering** :The page numbering, by default, is continuous in a PDF. For example, a PDF of 100 pages could have continuous page numbers from 1 to 100. You can also restart the numbering from a specific number in all the different sections or the first occurrence of a section.
+    * **Restart from** : Specify the page number from where the numbering for this page layout will start. For example, you can set the page number to restart for every chapter. In that case, you need to set the restart from property to 1 on the First page layout variant of the chapter page layout. By default, the page numbering continues from the previous page. 
+
+    * **Apply to the first occurrence only**: You can also start from a specific number only for the first occurrence of a section. For example, you can start only the first chapter from 1 and continue the page numbers for other chapters. 
 
 * **Layout** : Specify page margins along with padding for top, bottom, left, and right sides. The following illustration explains how margins, padding, and borders are rendered around the content. Note that the margin at the top and bottom of a page contain the header and footer.
 

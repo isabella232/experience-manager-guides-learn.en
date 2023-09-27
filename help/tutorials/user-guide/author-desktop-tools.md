@@ -1,6 +1,6 @@
 ---
 title: Author content using desktop tools
-description: Learn how to Author content using desktop tools
+description: Author content using desktop tools in AEM Guides. Learn how to work with Adobe FrameMaker and Oxygen XML Editor to author and publish DITA content.
 exl-id: 43ffb7a6-9740-4e39-bb03-4f8a124f26d3
 ---
 # Author content using desktop tools {#id221EB0Z80KS}

@@ -1,6 +1,6 @@
 ---
 title: Configure additional special characters in Web Editor toolbar
-description: How to configure additional special characters in Web Editor toolbar
+description: Learn how to configure additional special characters in the web editor of AEM Guides.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90

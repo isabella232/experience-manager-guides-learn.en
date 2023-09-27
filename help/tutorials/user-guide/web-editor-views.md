@@ -1,6 +1,6 @@
 ---
 title: Web Editor views
-description: Learn how to  Web Editor views
+description: View documents in author, source, and preview mode. Learn how to view content based on conditional filters, view the track changes markups, and export a topic as PDF in AEM Guides.
 exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
 ---
 # Web Editor views {#id204GK0D0V5Z}

@@ -1,6 +1,6 @@
 ---
 title: Review topics or maps
-description: Learn how to Review topics or maps
+description: Efficiently review topics or maps in AEM Guides for smooth content evaluation. Know the features for authors and reviewers in AEM Guides.
 exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
 ---
 # Review topics or maps {#id1645H6010Q5}

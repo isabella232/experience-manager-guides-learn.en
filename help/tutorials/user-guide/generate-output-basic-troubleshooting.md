@@ -1,6 +1,6 @@
 ---
 title: Basic troubleshooting
-description: Learn how to Basic troubleshooting
+description: Resolve issues with basic troubleshooting in AEM Guides. Learn to view, copy, and check the log file in a text editor and resolve JSP compilation errors.
 exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
 ---
 # Basic troubleshooting {#id1821I0Y0G0A}

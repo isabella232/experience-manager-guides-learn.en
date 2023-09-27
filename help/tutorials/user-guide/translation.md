@@ -1,6 +1,6 @@
 ---
 title: Learn how to translate content
-description: Learn how to Translate content
+description: Translate your content into multiple languages in AEM Guides. Learn about the human and machine translation workflows.
 exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
 ---
 # Translate content {#id1645H700L67}
