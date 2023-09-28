@@ -9,11 +9,11 @@ This article covers the new and enhanced features in the version  October 2023 o
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.10.0.md).
 
 
-## Configure a data source connector using the tools
+## Configure a data source connector from the user interface
 
 Experience Manager Guides now provides a **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can easily create the connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
 
-You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn how to [configure a data source connector using the tools](../cs-install-guide/conf-data-source-connector-tools.md).
+You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn how to [configure a data source connector easily from the user interface](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![data source connectors listed in the data sources panel](assets/data-sources-create-window.png){width="550" align="left"}
 
