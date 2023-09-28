@@ -13,7 +13,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 Experience Manager Guides now provides a **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can easily create the connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
 
-You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn how to [configure a data source connector easily from the user interface](../cs-install-guide/conf-data-source-connector-tools.md).
+You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn how to [easily configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![data source connectors listed in the data sources panel](assets/data-sources-create-window.png){width="550" align="left"}
 
