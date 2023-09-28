@@ -1,8 +1,8 @@
 ---
 title: Configure custom DITA topic template
 description: Learn how to Configure custom DITA topic template
+exl-id: e0fd3239-30b6-44d2-a69d-c16c48cf945b
 ---
-
 # Configure custom DITA topic template {#id16A7G0O02TD}
 
 The AEM Guides comes with the following DITA topic templates:
@@ -56,4 +56,3 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |`com.adobe.fmdita.config.ConfigManager`|`topic.templates`|Specify a location to store custom templates.<br> If the specified location exists in DAM, then all default map and topic templates are copied into that folder. If the location does not exist, then the folder is created with all default map and topic templates.|
 
 **Parent topic:**[Configure topic and map templates](conf-template-tags.md)
-

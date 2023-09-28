@@ -1,8 +1,8 @@
 ---
 title: Appendix
 description: Learn how to prepare InDesign documents for migration
+exl-id: faa7c5c8-fb50-4a66-8941-8eeccab31ce2
 ---
-
 # Appendix {#id195AD0L60Y4}
 
 ## Troubleshooting AEM Guides 
@@ -477,5 +477,3 @@ The attributes used in the `elementRule` are explained below:
 -   `@context`: This attribute is used to link to a specific wrap rule when more than one wrapper choice is available. Example: the `li` element may be wrapped in either an `ol`, or a `ul` element.
 
 -   `@commentOut`: This attribute enables the wrapping of the target element in XML comments so that the information is not lost but can be handled manually by the user. This is useful if the source content cannot be forced to conform to DITA structure rules.
-
-

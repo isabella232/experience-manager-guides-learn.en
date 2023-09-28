@@ -1,8 +1,8 @@
 ---
 title: About this guide
 description: Learn About this guide
+exl-id: 8d12c951-19a5-460d-8835-dd0fb2a51df4
 ---
-
 # About this guide {#id175MC0P0S5Z}
 
 Adobe Experience Manager Guides \(later referred as *AEM Guides*\) is a powerful, cloud-based, enterprise-grade component content management solution \(CCMS\). It enables native DITA support in Adobe Experience Manager, empowering AEM to handle DITA-based content creation and delivery. It empowers authors to create content using easy-to-use built-in Web Editor and publish it into various output formats.
@@ -70,4 +70,3 @@ Following is a list of other helpful resources of AEM Guides, which are availabl
 
 -   User Guide
 -   API Reference Guide
-

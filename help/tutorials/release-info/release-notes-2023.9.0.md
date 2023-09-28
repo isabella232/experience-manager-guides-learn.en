@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, September 2023 release
 description: Learn about the bug fixes and how to upgrade to September 2023 release of Adobe Experience Manager Guides as a Cloud Service
+exl-id: 970d0c23-1c28-4b05-a607-4c4aecbba405
 ---
 # September 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -171,7 +172,3 @@ The bugs fixed in various areas are listed below:
 
 - The process to export a renamed baseline for a translation fails. (12993)
 - The title of the translated file is displayed in place of the title of the source file. (11630)
-
-
-
-

@@ -1,8 +1,8 @@
 ---
-title: Java-based API for creating and activating packages 
+title: Java-based API for creating and activating packages
 description: Learn about the Java-based API for creating and activating packages
+exl-id: 304d15ce-503d-4a75-9989-25266bb5161b
 ---
-
 # Java-based API for creating and activating packages {#id175UB30E05Z}
 
 The following Java-based API allows you to create and activate CRX packages. This API is available in the form of a bundle. You must include this bundle in your code to use this APIs.
@@ -91,4 +91,3 @@ The example JSON query consists of the following rules:
 -   Only the .png, .jpg, and .gif images under /content/dam/nested path are included in the package.
 -   All node under /content/output/sites/hierarchy\_ditamap are included in the package.
 -   The paths present in the `fileReference` property of nodes under /content/output/sites/hierarchy\_ditamap are included in the package.
-

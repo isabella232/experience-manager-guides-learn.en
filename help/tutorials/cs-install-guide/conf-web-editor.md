@@ -1,8 +1,8 @@
 ---
 title: Customize Web Editor
 description: Learn how to Customize Web Editor
+exl-id: df443c4b-476b-4924-a0d8-5e320ebbf49b
 ---
-
 # Customize Web Editor {#id181AI0003PN}
 
 AEM Guides comes bundled with a powerful Web Editor that allows your authors to create and edit DITA documents. You can customize the Web Editor's toolbar to add or remove any feature that you can access from the toolbar. Also, you can configure auto-savings of files, generating IDs for elements as they are inserted in your documents, and much more. The following sections cover the features that you can customize in the Web Editor:
@@ -49,6 +49,4 @@ AEM Guides comes bundled with a powerful Web Editor that allows your authors to 
 
 -   **[Set the Advanced Map Editor as default](conf-map-editor.md)**  
 
--   **[Include @navtitle attribute by default](auto-add-navtitle.md)**  
-
-
+-   **[Include @navtitle attribute by default](auto-add-navtitle.md)**

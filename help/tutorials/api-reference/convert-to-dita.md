@@ -1,8 +1,8 @@
 ---
-title: REST APIs for conversion workflow 
+title: REST APIs for conversion workflow
 description: Learn about the REST APIs for conversion workflow
+exl-id: 1226311e-b0dd-4cf1-88e4-1e2e60ca1b74
 ---
-
 # REST APIs for conversion workflow {#id175UB30E05Z}
 
 The following REST APIs allows you to convert Word, HTML, and InDesign documents into DITA format.
@@ -61,4 +61,3 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/conversion
 
 **Response values**:
 Returns a HTTP 200 \(Successful\) response.
-

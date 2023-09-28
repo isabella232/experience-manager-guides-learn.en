@@ -1,8 +1,8 @@
 ---
 title: Upgrade AEM Guides
 description: Learn how to Upgrade AEM Guides
+exl-id: 12749a7d-bd58-416f-83b9-40bb2a343015
 ---
-
 # Upgrade AEM Guides {#id213BD050YPH}
 
 1.  Access your Cloud Manager's Git repository.
@@ -23,4 +23,3 @@ description: Learn how to Upgrade AEM Guides
 After completing the upgrade process, all users must clear the browser cache before using the upgraded version of AEM Guides.
 
 **Parent topic:**[Download and install](download-install.md)
-

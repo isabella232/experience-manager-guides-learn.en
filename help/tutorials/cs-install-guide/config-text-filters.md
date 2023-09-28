@@ -1,8 +1,8 @@
 ---
 title: Configure text filters
 description: Learn how to Configure text filters
+exl-id: ec3bf0c0-36f4-4959-9589-1fee56332655
 ---
-
 # Configure text filters {#id21BPD0FK0XA}
 
 AEM Guides provides the feature to search for text in the files present on the selected path of the AEM repository. You can use filter search to search files from the repository panel or to browse files. While working in the Web Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference.
@@ -72,4 +72,3 @@ Perform the following steps to configure the text filters:
 The configured filters are available in the filters panel.
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-

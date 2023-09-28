@@ -1,8 +1,8 @@
 ---
-title: REST API for creating and activating packages 
+title: REST API for creating and activating packages
 description: Learn about the REST API for creating and activating packages
+exl-id: 5320727d-d6de-4ea7-b822-088f670687ab
 ---
-
 # REST API for creating and activating packages {#id198CF0260Y4}
 
 The following REST API allows you to create and activate CRX packages.

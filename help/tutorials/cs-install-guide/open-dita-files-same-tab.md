@@ -1,8 +1,8 @@
 ---
 title: Open DITA topic or map files in same tab
 description: Learn how to Open DITA topic or map files in same tab
+exl-id: 7fc391ba-731e-4915-b3fc-0fba1a30954b
 ---
-
 # Open DITA topic or map files in same tab {#id223HH0301J3}
 
 In some workflows, when you click on a link of a topic or a map file, it opens in a new tab. This could lead to many tabs opened in your browser, which could impact your productivity. You can change this behavior of opening a topic or map file in a new tab, and force it open in the current tab itself.
@@ -27,4 +27,3 @@ This setting impacts the following places from where you can access the topic or
 
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-

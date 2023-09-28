@@ -1,8 +1,8 @@
 ---
 title: Native PDF | Support for language variables
 description: Use language variables in the PDF output and output templates
+exl-id: e027ddc3-d5d1-452b-b7e7-14cc5e084dab
 ---
-
 # Support for language variables
 
 AEM Guides provides the feature to use language variables. You can use language variables to define localized strings in the PDF output or to localize any static text in the output templates. You can use CSS styles to localize the strings coming from a CSS.
@@ -227,6 +227,3 @@ Using CSS styles, you can also format the prefixes. For example, you can format 
 color: red;
 } 
 ```
-
-
-

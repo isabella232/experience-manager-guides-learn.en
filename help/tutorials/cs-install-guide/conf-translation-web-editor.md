@@ -1,8 +1,8 @@
 ---
 title: Configure Translation feature in the Web Editor
 description: Learn how to Configure Translation feature in the Web Editor
+exl-id: a0422f43-39da-4901-9aa0-81697d0a8ba5
 ---
-
 # Configure Translation feature in the Web Editor {#id21BONI0J0YR}
 
 The Web editor provides a powerful translation feature to translate your content into multiple languages.
@@ -40,4 +40,3 @@ To hide the **Manage** tab in the Web Editor, perform the following steps:
 Note that the **Manage** filter is no longer available.
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-
