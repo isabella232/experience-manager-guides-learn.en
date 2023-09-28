@@ -1,8 +1,8 @@
 ---
 title: Download and install
 description: Learn how to Download and install
+exl-id: 301683f8-f8c8-42d0-9e13-fb24c8f42d0f
 ---
-
 # Download and install {#id1645E0O04MK}
 
 The AEM Guides is made available through GitHub repository. You can download the AEM Guides from the GitHub repository and install it.
@@ -17,6 +17,4 @@ The AEM Guides is made available through GitHub repository. You can download the
 
 -   **[Configuration overrides](download-install-additional-config-override.md)**  
 
--   **[Recommendations for performance optimization](download-install-recommend-perf-optimiz.md)**  
-
-
+-   **[Recommendations for performance optimization](download-install-recommend-perf-optimiz.md)**

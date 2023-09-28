@@ -1,8 +1,8 @@
 ---
 title: Configure filenames
 description: Learn how to Configure filenames
+exl-id: 6f491ec4-e66e-4f43-8f6a-cb7823253a42
 ---
-
 # Configure filenames {#id214BD010GXA}
 
 This topic covers information about working with filenames for your DITA files. You can define filename patterns and also control the list of valid characters allowed in the filenames.
@@ -11,6 +11,4 @@ This topic covers information about working with filenames for your DITA files. 
 
 -   **[Configure Regx for valid file name characters](conf-file-names-valid-regx.md)**  
 
--   **[Configure valid file names for AEM Site output](conf-file-names-valid-regx-aem-site-output.md)**  
-
-
+-   **[Configure valid file names for AEM Site output](conf-file-names-valid-regx-aem-site-output.md)**

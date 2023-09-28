@@ -1,8 +1,8 @@
 ---
 title: Recommendations for performance optimization
 description: Learn Recommendations for performance optimization
+exl-id: a7e8d175-d922-44f3-8432-c825bc11ba25
 ---
-
 # Recommendations for performance optimization {#id213BD0JG0XA}
 
 For performance optimization, consider the following points:
@@ -17,4 +17,3 @@ For performance optimization, consider the following points:
 
 
 **Parent topic:**[Download and install](download-install.md)
-

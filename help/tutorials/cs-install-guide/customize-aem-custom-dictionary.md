@@ -1,8 +1,8 @@
 ---
 title: Customize AEM's default dictionary
 description: Learn how to Customize AEM's default dictionary
+exl-id: 96dd7ea3-e38c-4d9e-8bc2-6976fb94fdb9
 ---
-
 # Customize AEM's default dictionary {#id209SD8000WU}
 
 The Web Editor can be configured to use AEM's spell checker or the browser's spell checker. If you choose to work with AEM's spell checker, then you get the flexibility to define your custom words list. These custom words are then added to the AEM's dictionary and these words are not flagged \(as incorrect\) in the Web Editor.
@@ -27,4 +27,3 @@ Perform the following steps to create your custom words list, which are added in
 Authors would need to restart their Web Editor session to get the custom words list updated in AEM dictionary.
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-

@@ -1,8 +1,8 @@
 ---
-title: REST API to register a data source connector 
-description: Learn about the REST API to register a data source connector  
+title: REST API to register a data source connector
+description: Learn about the REST API to register a data source connector
+exl-id: ee38d2fb-ec72-4ce3-9453-7705244b7f1c
 ---
-
 # REST API to register a data source connector {#id236LG0Y0CXA}
 
 The following REST API allows you to register a data source connector.
@@ -21,4 +21,3 @@ A GET method that registers a data source connector.
 
 **Example**:   
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`
-

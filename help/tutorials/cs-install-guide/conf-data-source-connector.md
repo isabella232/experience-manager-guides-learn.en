@@ -1,8 +1,8 @@
 ---
-title: Configure a data source connector 
-description: Learn how to configure a data source connector 
+title: Configure a data source connector
+description: Learn how to configure a data source connector
+exl-id: 8ea76dd1-120e-4d0f-b89a-034cb8643a54
 ---
-
 # Configure a data source connector 
 
 AEM Guides provides out-of-the-box connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases. You can also add other connectors by extending the default interfaces. The following configuration helps you to easily add the various data sources. Once added, you can view the data sources in the Web Editor. 
@@ -275,4 +275,3 @@ For example,  `/content/dam/jira.json`
 You can register the configuration using REST API. For more details, view the *REST API to register a data source connector* section in the API Reference for Adobe Experience Manager Guides.
 
 Once you have configured the data source, the connector is listed under the Data Sources panel in the Web Editor. You can then connect to the data source and insert a content snippet into your topics. For more details, view [Insert a content snippet from your data source](../user-guide/web-editor-content-snippet.md).
-

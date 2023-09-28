@@ -1,8 +1,8 @@
 ---
 title: Add and manage citations in your content
 description: Add and manage citations in AEM Guides. Learn how to apply, import, filter, search, change citation style, edit, preview, insert, delete, and generate content output with citations.
+exl-id: d1775f39-b8a0-40b8-aec3-4b7646e78c22
 ---
-
 # Add and manage citations in your content
 
 Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.

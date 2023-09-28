@@ -1,8 +1,8 @@
 ---
 title: Configure output generation settings
 description: Learn how to Configure output generation settings
+exl-id: 617b30b1-651a-4848-8264-5ebced452020
 ---
-
 # Configure output generation settings {#id181AI0B0E30}
 
 AEM Guides comes with a lot of configuration options for you to customize the output generation process. This topic covers all configurations and customizations that would help you set up your output generation process.
@@ -651,4 +651,3 @@ Use the instructions given in [Configuration overrides](download-install-additio
 >[!TIP]
 >
 > See the *Output history* section in the Best practices guide for best practices around working with output history.
-

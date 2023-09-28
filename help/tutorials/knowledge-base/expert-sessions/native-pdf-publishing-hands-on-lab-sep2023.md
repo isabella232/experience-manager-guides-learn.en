@@ -1,7 +1,7 @@
 ---
 title: Native PDF publishing “Hands on lab - BYOS” – Interactive learning
 description: This 'Hands-on Lab - BYOS' session offers an in-depth exploration of Native PDF publishing. Explore different use cases, leverage key features, and engage directly with Adobe experts to address your specific problem statements and requirements.
-
+exl-id: 3507d067-13aa-4a63-ba0a-6748064f6ca1
 ---
 # Native PDF publishing “Hands on lab - BYOS” – Interactive learning
 

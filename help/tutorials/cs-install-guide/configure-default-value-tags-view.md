@@ -1,8 +1,8 @@
 ---
 title: Configure default value for the Tags View
 description: Learn how to Configure default value for the Tags View
+exl-id: 45610cc6-ee0e-411d-a3fe-d3eb0a45445e
 ---
-
 # Configure default value for the Tags View {#id223GN0M0NDC}
 
 AEM Guides allows you to configure the default state for the Tags View in the Web Editor, which helps you to keep the Tags View on or off by default for a new user's session.Perform the following steps to configure the default value for Tags View:
@@ -29,4 +29,3 @@ AEM Guides allows you to configure the default state for the Tags View in the We
 > The user's preference in the Web Editor to enable/disable the Tags View has precedence over this default value. So, if a user enables the Tags View from the Web Editor, it remains enabled even across the sessions.
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-

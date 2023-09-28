@@ -1,8 +1,8 @@
 ---
 title: Translate content
 description: Learn how to Translate content
+exl-id: 3ed769d0-2e3a-4a94-95d6-41d7a9c1ea5a
 ---
-
 # Translate content {#id181GB0400UI}
 
 Automate the translation of page content, assets, and user-generated content to create and maintain multilingual websites. To automate translation workflows, you integrate translation service providers with AEM and create projects for translating content into multiple languages. AEM supports human and machine translation workflows.
@@ -76,4 +76,3 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |PID|Property Key|Property Value|
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`postprocess.temporary.langcopies`|Boolean: <br> -   If you do not want to run the post-processing operation on the temporary files, then *Disable* \( false\) the **Post-process language copies** option.<br> -   If you want to run the post-processing operation on the temporary files, then *Enable* \( true\) the **Post-process language copies** option.<br> **Default value**: false|
-

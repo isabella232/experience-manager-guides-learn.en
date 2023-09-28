@@ -1,6 +1,7 @@
 ---
 title: Configure title for Cehck in and Check out icons
 description: Learn how to configure the title for Check in and check out icons
+exl-id: aa27e2b5-2ede-4e24-bfbd-0ea7050f2782
 ---
 # Configure the title for Check in and Check out icons
 
@@ -23,4 +24,3 @@ AEM Guides allows you to configure the title for Check in and Check out icons in
     ```
 
 1. Save the file and upload it.
-

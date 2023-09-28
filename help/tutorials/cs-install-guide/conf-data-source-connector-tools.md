@@ -1,8 +1,8 @@
 ---
 title: Configure a data source connector using tools
-description: Learn how to configure a data source connector using the tools. 
+description: Learn how to configure a data source connector using the tools.
+exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
 ---
-
 # Configure a data source connector using the tools
 
 Experience Manager Guides comes with the **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can set up connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
@@ -68,7 +68,3 @@ You view an error if the connector with the same name exists.
 
 
 Once you have configured the data source, the connector is listed under the **Data Sources panel** in the Web Editor. You can then connect to the data source and insert a content snippet into your topics. For more details, view [Insert a content snippet from your data source](../user-guide/web-editor-content-snippet.md).
-
- 
-
-

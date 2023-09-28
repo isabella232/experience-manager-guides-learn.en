@@ -1,8 +1,8 @@
 ---
 title: Version management
 description: Learn how to manage versions
+exl-id: 13be7e31-d48d-4742-a88f-8e076652e3f2
 ---
-
 # Version management {#id181GB000XY4}
 
 Versioning is an important aspect of any content management system. It allows you to create a snapshot of your digital asset at a specific point in time. With a version of a digital asset in place, you can restore the required version of the asset and update it. Typically, for creating a version of any asset, you would check out and check in the required asset.
@@ -162,4 +162,3 @@ Perform the following steps to purge the older versions:
 >[!NOTE]
 >
 > The report is downloaded at the following location: `/var/dxml/versionpurge`
-

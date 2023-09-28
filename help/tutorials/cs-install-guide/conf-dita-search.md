@@ -1,8 +1,8 @@
 ---
 title: Configure search for AEM Assets UI
 description: Learn how to Configure search for AEM Assets UI
+exl-id: 0a5f02ed-929b-4569-8d5b-1646208a1bb5
 ---
-
 # Configure search for AEM Assets UI {#id192SC800MY4}
 
 By default, AEM does not recognize DITA content, thus, it doesn't provide any mechanism to search DITA content within its repository. Also, there's no OOTB capability to search content based on their UUID. AEM Guides allows you to add the DITA content search and UUID-based search capabilities in the AEM repository.
@@ -232,5 +232,3 @@ Perform the following steps to exclude the temporary translation folder from the
     |Property name|Type|Value|
     |-------------|----|-----|
     |excludedPaths|String\[\]|Add the following values to this property:<br> `/content/dam/projects/translation\_output`|
-
-

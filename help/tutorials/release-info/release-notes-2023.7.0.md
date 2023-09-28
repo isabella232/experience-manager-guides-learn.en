@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, July 2023 release
 description: Learn about the bug fixes and how to upgrade to  July 2023 release of Adobe Experience Manager Guides as a Cloud Service
+exl-id: 3d19d12d-9d6d-4710-8aff-81a6667e52ec
 ---
 # July 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -128,5 +129,3 @@ The bugs fixed in various areas are listed below:
 ### Publishing
 
 - Approval workflow does not work when docstate is changed to "end state" from File properties of the right panel. (11026)
-
-

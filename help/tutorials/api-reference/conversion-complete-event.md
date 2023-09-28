@@ -1,8 +1,8 @@
 ---
-title: Conversion process event handler 
+title: Conversion process event handler
 description: Learn about the Conversion process event handler
+exl-id: fbf9affd-bf91-41fc-b086-06c94586a9f7
 ---
-
 # Conversion process event handler {#id175UB30E05Z}
 
 AEM Guides exposes com/adobe/fmdita/conversion/complete event that is used to perform any post-processing operations after completion of a document conversion process. This event is triggered whenever an non-DITA document is migrated into DITA file format. For example, if you run a Word to DITA conversion or InDesign to DITA conversion process, this event is called after the conversion process ends.
@@ -24,4 +24,3 @@ com/adobe/fmdita/conversion/complete
 |`filePath`|String|Absolute path of the source file \(to be converted\) in AEM repository.|
 |`outputPath`|String|Absolute path of the destination location where the converted DITA files will be saved.|
 |`logPath`|String|Absolute path of the node where the conversion log will be saved.|
-
