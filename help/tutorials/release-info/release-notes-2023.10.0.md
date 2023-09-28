@@ -154,7 +154,8 @@ The bugs fixed in various areas are listed below:
 - New translation projects are created instead of adding new jobs to the selected existing translation projects.  (10214)
 
 
+## Known issue
 
+Adobe has identified the following known issue for the October 2023 release.
 
-
-
+- Content fragment republishing is failing.
