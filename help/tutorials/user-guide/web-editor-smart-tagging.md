@@ -1,7 +1,7 @@
 ---
 title: Smart Tagging
 description: Learn how to add smart tags in AEM Guides. Use XML Keyword Extract tool to extract relevant keywords.
-exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
+exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 ---
 # Smart Tagging {#id216KH0ID0Y8}
 

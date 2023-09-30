@@ -1,7 +1,7 @@
 ---
 title: Send topics for review
 description: Learn how to create a review task and send topics for review in AEM Guides. Send one or more topics in a DITA map for review.
-exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
+exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 ---
 # Send topics for review {#id199RD0S035Z}
 

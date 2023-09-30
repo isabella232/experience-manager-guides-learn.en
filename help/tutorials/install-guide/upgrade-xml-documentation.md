@@ -1,7 +1,7 @@
 ---
 title: Upgrade Adobe Experience Manager Guides
 description: Learn how to Upgrade Adobe Experience Manager Guides
-exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
+exl-id: f058b39f-7408-4874-942b-693e133886cf
 ---
 # Upgrade Adobe Experience Manager Guides {#id224MBE0M0XA}
 
@@ -517,4 +517,3 @@ Perform the following steps for post processing the existing content and using t
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
 **Parent topic:**[Download and install](download-install.md)
-

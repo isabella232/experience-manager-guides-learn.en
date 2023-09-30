@@ -1,7 +1,7 @@
 ---
 title: Configure allowed special characters
 description: Learn how to Configure allowed special characters
-exl-id: 11f8abd4-86b8-43db-a2e1-08c66e0a24c6
+exl-id: 3dd7752e-0836-480a-b1e1-6fa2099d404f
 ---
 # Configure allowed special characters {#id20CIL600035}
 

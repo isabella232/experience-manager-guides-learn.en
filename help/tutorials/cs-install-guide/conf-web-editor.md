@@ -1,7 +1,7 @@
 ---
 title: Customize Web Editor
 description: Learn how to Customize Web Editor
-exl-id: df443c4b-476b-4924-a0d8-5e320ebbf49b
+exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 ---
 # Customize Web Editor {#id181AI0003PN}
 

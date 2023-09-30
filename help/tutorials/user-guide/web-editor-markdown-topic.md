@@ -1,7 +1,7 @@
 ---
 title: Author Markdown documents
 description: Author markdown documents from the web editor. Learn how to create, author, and preview a Markdown topic in AEM Guides.
-exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
+exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 ---
 # Author Markdown documents from the Web Editor {#id223MIE0B079}
 

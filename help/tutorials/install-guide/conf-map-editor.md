@@ -1,7 +1,7 @@
 ---
 title: Set the Advanced Map Editor as default
 description: Learn how to Set the Advanced Map Editor as default
-exl-id: a9dc14bf-5f6c-4614-b2c0-d985a06ecce4
+exl-id: ecc023f6-48eb-4afd-97a2-4b3cdd5a8991
 ---
 # Set the Advanced Map Editor as default {#id181AI0003PN}
 

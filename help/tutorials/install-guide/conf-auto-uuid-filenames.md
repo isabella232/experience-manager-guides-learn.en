@@ -1,7 +1,7 @@
 ---
 title: Configure auto-filenames based on UUID
 description: Learn how to Configure auto-filenames based on UUID
-exl-id: 4c2f74a4-485a-4fff-810f-1965840a3712
+exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
 ---
 # Configure auto-filenames based on UUID {#id205QG070D5Z}
 

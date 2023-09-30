@@ -1,7 +1,7 @@
 ---
 title: REST APIs for Output management
 description: Learn about REST APIs for Output management
-exl-id: e0c3ae1f-9acb-444a-88d4-d83e631ab8a1
+exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 ---
 # REST APIs for Output management {#id175UB30E05Z}
 

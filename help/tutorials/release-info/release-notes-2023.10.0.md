@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, October 2023 release
 description: Learn about the bug fixes and how to upgrade to the October 2023 release of Adobe Experience Manager Guides as a Cloud Service
-exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
+exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
 ---
 # October 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -159,4 +159,3 @@ The bugs fixed in various areas are listed below:
 Adobe has identified the following known issue for the October 2023 release.
 
 - Content fragment republishing is failing.
-

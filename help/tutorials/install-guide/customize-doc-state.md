@@ -1,7 +1,7 @@
 ---
 title: Configure document states
 description: Learn how to Configure document states
-exl-id: 7587ef90-0571-44ae-b3db-4775369ad1dd
+exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
 ---
 # Configure document states {#id181GB0400UI}
 

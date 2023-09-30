@@ -1,7 +1,7 @@
 ---
 title: Use custom DITA-OT and DITA specialization
 description: Learn how to Use custom DITA-OT and DITA specialization
-exl-id: 03bf4643-2c7b-4ab2-b193-e60ec554baef
+exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 ---
 # Use custom DITA-OT and DITA specialization {#id181GAJ0005Z}
 

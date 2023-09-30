@@ -1,7 +1,7 @@
 ---
 title: Auto-generate element IDs
 description: Learn how to Auto-generate element IDs
-exl-id: c5c49bd8-61f6-48f9-a077-8983446662b0
+exl-id: a651db7f-228e-4de5-b569-3f1b4f86c418
 ---
 # Auto-generate element IDs {#id20CIL40016I}
 

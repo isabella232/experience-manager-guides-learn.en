@@ -1,7 +1,7 @@
 ---
 title: REST API to register a data source connector
 description: Learn about the REST API to register a data source connector
-exl-id: ee38d2fb-ec72-4ce3-9453-7705244b7f1c
+exl-id: e2811892-c3cf-41f5-94d8-c2b37823a53a
 ---
 # REST API to register a data source connector {#id236LG0Y0CXA}
 

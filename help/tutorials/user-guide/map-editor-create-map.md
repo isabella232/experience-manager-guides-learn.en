@@ -1,7 +1,7 @@
 ---
 title: Create a map
 description: Create a map with Map Editor in AEM Guides. Find the steps to create a map file based on a map template.
-exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 ---
 # Create a map {#id176FEN0D05Z}
 
