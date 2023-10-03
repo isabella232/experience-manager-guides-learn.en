@@ -252,6 +252,7 @@ breadcrumb-title: AEM Guides Tutorials
         + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         + [Design a page layout](./native-pdf/design-page-layout.md)
         + [Support for language variables](./native-pdf/native-pdf-language-variables.md)
+        + [Insert and link footnotes](./native-pdf/insert-link-footnotes.md)
         + Common content styles {#content-styles}
             + [Work with the common content styles](./native-pdf/stylesheet.md)
             + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
