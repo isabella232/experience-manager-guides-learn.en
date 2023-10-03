@@ -19,7 +19,7 @@ A footnote consists of two parts:
 
 To insert a footnote reference in your main content, use the `<fn>` element. In the authoring mode, the footnote reference value is shown in line with the content. However, in the **Preview** mode or the output of your document, the footnote text appears at the end of the topic. The footnote references are indicated in the text with markers like superscript numbers.  
 
-> [!NOTE]
+>[!NOTE]
 >
 > The footnotes appear in a sequence according to their location in the main content. So, the first reference in the main content occurs as the first footnote. 
 
