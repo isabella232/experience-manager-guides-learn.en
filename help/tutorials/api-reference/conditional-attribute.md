@@ -1,8 +1,8 @@
 ---
 title: REST API to work with conditional attributes
 description: Learn about the REST API to work with conditional attributes
+exl-id: ca7b9c2a-6763-4cce-a8dd-0324d44fc041
 ---
-
 # REST API to work with conditional attributes {#id175UB30E05Z}
 
 The following REST API allows you to add conditional attributes in a folder profile.
@@ -38,4 +38,3 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/folderprofiles
 
 **Response values**:   
 Returns a HTTP 200 \(Successful\) response.
-

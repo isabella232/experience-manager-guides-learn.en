@@ -1,8 +1,8 @@
 ---
-title: Manage tags for DITA files in AEM Guides 
-description: Brief article to tell on managing cq:tags in AEM Guides 
+title: Manage tags for DITA files in AEM Guides
+description: Brief article to tell on managing cq:tags in AEM Guides
+exl-id: 2fdba3d8-86d1-4889-9cf4-8f27d34ad0d5
 ---
-
 # How to Add , Remove and Manage  tags  in your  DITA  content 
 
 Tags come useful to categorize your content. If content is properly tagged, then it can help you in locating  exact topics in your ditamap  and end user finds the appropriate content more quickly on your published output 
@@ -54,4 +54,3 @@ You can also remove existing tags which are common in selected files.
 
 
 **Contact your respective CSM for any other queries**
-

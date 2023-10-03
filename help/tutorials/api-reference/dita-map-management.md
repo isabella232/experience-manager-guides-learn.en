@@ -1,8 +1,8 @@
 ---
-title: REST API to work with DITA maps 
+title: REST API to work with DITA maps
 description: Learn about the REST API to work with DITA maps
+exl-id: c513a1c2-8586-4edf-a456-cb927fdd56ba
 ---
-
 # REST API to work with DITA maps {#id175UB30E05Z}
 
 The following REST API allows you to work with DITA maps in AEM Guides.
@@ -64,4 +64,3 @@ http:*//<aem-guides-server\>: <port-number\>/bin/dxml/async-export*
 |`jobId`|The unique ID of the job. Can be used later on to query for the status.|
 |`errorMessage`|The error message of the job in case of a failure \(if the status is FAILED, MISSING or DELETED\).|
 |`filePath`|The file path of the ZIP. It is present only when the job is completed and the status is SUCCEED. This can be used to download the ZIP file.|
-

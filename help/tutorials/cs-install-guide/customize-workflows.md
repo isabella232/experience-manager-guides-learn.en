@@ -1,8 +1,8 @@
 ---
 title: Configure and customize workflows
 description: Learn how to Configure and customize workflows
+exl-id: cf4d36e4-aa8d-4d74-80b5-4cf2ccbe66de
 ---
-
 # Configure and customize workflows {#id181AI0OJ0RO}
 
 Workflows enable you to automate Adobe Experience Manager \(AEM\) activities. A workflow consists of a series of steps that are executed in a specific order. You can define a distinct activity to execute on each step. For example, you can send an email notification to all reviewers in a group when a topic review is created. Or, send a notification to the publisher when an output generation task completes.
@@ -147,4 +147,3 @@ generatedPath;
 ```
 
 Once you have created the script, call the custom script in your workflow. Then, depending on your requirements, you can call the other workflow processes. Once you have designed your custom workflow, call the *Finalize Post Generation* as the last step in your workflow process. The *Finalize Post Generation* step ensures that the status of the output generation task gets updated to *Finished* on completion of the output generation process. After creating a custom post-output generation workflow, you can configure it with any of your output generation presets. Select the required workflow in the *Run Post Generation Workflow* property of the required preset. When you run an output generation task using the configured output preset, the task status \(in the Output tab\) changes to *Post-Processing*.
-

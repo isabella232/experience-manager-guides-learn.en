@@ -1,8 +1,8 @@
 ---
 title: Publish a topic to a content fragment
 description: Publish a topic or the elements within a topic to a content fragment in AEM Guides.  Learn how to view the content fragments present for a topic and republish them.
+exl-id: e03414ea-cdca-48e3-ba9e-d968e26f27f9
 ---
-
 # Publish to a content fragment
 
 Content fragments are discrete pieces of content in AEM. They are structured content based on a content model. Content fragments are pure content without design or layout information. They can be authored and managed independently of the channels that AEM supports. Content fragments are modular, where content is broken down into smaller components.
@@ -58,5 +58,4 @@ You can also republish the content fragment to update the content fragment with 
 
 
 
-Once you’ve published the content fragments, you can also use them in any AEM site. 
-
+Once you’ve published the content fragments, you can also use them in any AEM site.

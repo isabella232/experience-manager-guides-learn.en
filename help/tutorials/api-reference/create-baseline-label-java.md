@@ -1,8 +1,8 @@
 ---
 title: Java-based APIs to work with baseline and labels
 description: Learn about the Java-based APIs to work with baseline and labels
+exl-id: 90ec3dc1-8b06-4f74-81f2-6ba56fd8da13
 ---
-
 # Java-based APIs to work with baseline and labels {#id175UB30E05Z}
 
 The following Java-based APIs allow you to create baseline and add labels to files in a baseline. These APIs are available in the form of a bundle. You must include this bundle in your code to use these APIs.
@@ -136,4 +136,3 @@ The map with *key:value* pair of `path:deletedlabels` for all files in the basel
 
 **Exception**:
 Throws ``RepositoryException`, `VersionException`, `Exception``.
-

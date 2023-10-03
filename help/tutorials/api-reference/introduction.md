@@ -1,8 +1,8 @@
 ---
 title: Introduction
 description: Introduction to the API Reference Guide for AEM Guides
+exl-id: 6f55bdc4-90a3-45d3-8b02-5958f2f931c3
 ---
-
 # Introduction {#id1761C0007W7}
 
 Adobe Experience Manager Guides \(later referred as *AEM Guides*\) is an end-to-end, enterprise solution that enables Adobe Experience Manager \(AEM\) to have component content management solution \(CCMS\) capabilities for DITA-based content creation and delivery. Customers can access AEM Guides workflows programmatically using the AEM Guides APIs to integrate it with other enterprise applications. These APIs can also be used by Adobe partners to enhance the value proposition of AEM Guides by extending its functionality or by integrating it with other applications or services.
@@ -222,4 +222,3 @@ Following is a list of other helpful resources of AEM Guides, which are availabl
 -   Installation and Configuration Guide
 -   Quick Start Guide
 -   [Help Archival Page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(access older release documentation\)
-

@@ -1,8 +1,8 @@
 ---
 title: REST APIs for Output management
 description: Learn about REST APIs for Output management
+exl-id: e0c3ae1f-9acb-444a-88d4-d83e631ab8a1
 ---
-
 # REST APIs for Output management {#id175UB30E05Z}
 
 The following REST APIs are available for managing output in AEM Guides.
@@ -191,4 +191,3 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Response values**:
 Returns a HTTP 200 \(Successful\) response.
-

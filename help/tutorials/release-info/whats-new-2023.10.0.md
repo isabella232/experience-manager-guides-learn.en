@@ -1,6 +1,7 @@
 ---
 title: Release Notes | What's New in Adobe Experience Manager Guides, October 2023 release
 description: Learn the new and enhanced features in October 2023 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
 ---
 # What's new in October 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
@@ -58,5 +59,4 @@ For more details, refer to the **Map View** feature description within the [Left
 
 Experience Manager Guides now allows you to select a file in the Web Editor and then choose to edit the file in the Oxygen connector plugin. This option isn't enabled as a part of the out-of-the-box support. 
 
-For more details, refer to the **Options for a file** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
-
+For more details, refer to the **Options for a file** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.

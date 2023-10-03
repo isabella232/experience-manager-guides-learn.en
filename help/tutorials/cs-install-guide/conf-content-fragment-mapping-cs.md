@@ -1,8 +1,8 @@
 ---
 title: Configure the JSON-based mapping between a topic and a content fragment model.
 description: Learn how to configure the JSON-based mapping between a topic and a content fragment model.
+exl-id: 18abf538-7e88-4b9c-a18d-5d1eacd57ab0
 ---
-
 # Create a mapping between a topic and a content fragment
 
 AEM Guides provides the feature to create a JSON-based mapping between a topic and a content fragment model. You can use this mapping to publish content present in some or all elements within a topic to a content fragment. 
@@ -85,4 +85,4 @@ Sample file:
 ]
 ```
 
- You can publish the whole topic with the default mapping. Select the `Full Topic` mapping from the dropdown in the **Publish As Content Fragment** dialog box and have "topicData" field in the content fragment model.  
+ You can publish the whole topic with the default mapping. Select the `Full Topic` mapping from the dropdown in the **Publish As Content Fragment** dialog box and have "topicData" field in the content fragment model.

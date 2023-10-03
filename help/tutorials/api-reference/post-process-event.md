@@ -1,8 +1,8 @@
 ---
 title: Post-processing event handler
 description: Learn about Post-processing event handler
+exl-id: 68d432d5-d974-4424-8e65-0a0f0ced4e7b
 ---
-
 # Post-processing event handler {#id175UB30E05Z}
 
 AEM Guides exposes com/adobe/fmdita/postprocess/complete event that is used to perform any post-processing operations. This event is triggered whenever an operation is performed on a DITA file. The following operations on a DITA file trigger this event:
@@ -33,4 +33,3 @@ com/adobe/fmdita/postprocess/complete
 |`status`|String|The return status for the operation performed. The possible options are: - <br>- SUCCESS: The post-processing operation completed successfully. <br>- COMPLETED WITH ERRORS: The post-processing operation completed, but with some errors. <br>- FAILED: The post-processing operation failed due to some fatal error.|
 |`message`|String|In case the status is COMPLETED WITH ERRORS or FAILED, this parameter contains the details about the error or the reason of failure.|
 |`operation`|String|The post-processing operation performed on the file. The possible options are:<br>- Addition <br>- Updation <br>- Deletion|
-

@@ -1,8 +1,8 @@
 ---
 title: Auto-generate element IDs
 description: Learn how to Auto-generate element IDs
+exl-id: c5c49bd8-61f6-48f9-a077-8983446662b0
 ---
-
 # Auto-generate element IDs {#id20CIL40016I}
 
 AEM Guides generates a document ID for any new document that you create. For example, when you create a DITA map, an ID like `map.ditamap_random_digits` is assigned to the map's ID. You can also define elements on which an ID is automatically generated and assigned.
@@ -22,4 +22,3 @@ To configure a pattern for auto-generated ID create a configuration file with th
 |`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.pattern`|The default value for this field is set to `${elementName}_${id}`. The `${elementName}` value is replaced with the name of the element. The `${id}` variable generates sequential number for the element. For example, if you assign the paragraph element to have auto-generated IDs, then the first paragraph in the topic or document will get an ID like p\_1, the next paragraph will get p\_2, and so on. However, in a different document, the ID generation process restarts. This means that in a different document, IDs like p\_1 and p\_2 can be assigned to paragraph elements. **Default value**: ``${elementName}_${id}``|
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-

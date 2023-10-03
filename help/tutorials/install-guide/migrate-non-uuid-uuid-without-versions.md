@@ -1,8 +1,8 @@
 ---
 title: Convert non-UUID  content without versions to UUID content
 description: Learn how to migrate non-UUID content without versions.
+exl-id: 4cabe2db-3e12-4044-b0d7-809b2c176fb6
 ---
-
 # Migrate non-UUID content without versions 
 
 >[!IMPORTANT]
@@ -13,4 +13,3 @@ description: Learn how to migrate non-UUID content without versions.
 1. Download and upload assets from the non-UUID instance to the UUID instance directly from the AEM Assets UI using Adobe tools like the AEM desktop app.
 
 1. Ensure that you enable the DAM update asset workflow  and execute it on all the assets after importing the content for GUID creation.
-

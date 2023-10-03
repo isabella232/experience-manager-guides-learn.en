@@ -1,10 +1,8 @@
 ---
 title: Customize and configure the Native PDF publishing feature
 description: Learn how to customize and configure the various components of the Native PDF Feature.
+exl-id: 33ccf6dc-5fc3-4236-9f80-1f560cf31bf9
 ---
-
-
-
 # Native PDF Publishing
 
 With AEM Guides, you can generate PDFs of individual topics or a map file using the Native PDF output generation feature. You can customize and use PDF templates while generating the PDF output. You can create and design page layouts to present the various sections in the PDF output as per your requirements.
@@ -24,4 +22,3 @@ For more details, view the following:
     * [Add a custom bookmark in PDF output](../native-pdf/add-custom-bookmark.md)
     * [Use JavaScript to work with content or style](../native-pdf/use-javascript-content-style.md)
     * [Use custom styles in footnotes](../native-pdf/footnote-number-style.md)
-

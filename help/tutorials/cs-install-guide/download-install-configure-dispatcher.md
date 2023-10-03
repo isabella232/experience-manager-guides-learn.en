@@ -1,8 +1,8 @@
 ---
 title: Configure Dispatcher
 description: Learn how to Configure Dispatcher
+exl-id: 6a03cab2-7362-4b19-a7c5-ea4c831c2483
 ---
-
 # Configure Dispatcher {#id213BCM0M05U}
 
 Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For more details, refer to [Dispatcher in the Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
@@ -15,4 +15,3 @@ Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For
 > AEM as a cloud service doesn't support dispatcher for author instance.
 
 **Parent topic:**[Download and install](download-install.md)
-

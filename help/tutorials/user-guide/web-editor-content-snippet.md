@@ -1,8 +1,8 @@
 ---
 title: Insert a content snippet from your data source
 description: Use data from your data source in AEM Guides. Learn how to insert a content snippet from your data source. Create a topic using the topic generator.
+exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
 ---
-
 # Use data from your data source
 
 A **data source** is a system where you store and manage the data for your organization. These are your systems of record like JIRA, SQL Databases, PIM, or PLM. AEM Guides provides the feature to connect with your data source and use the data from them.
@@ -268,6 +268,3 @@ You can use the following tools within the Velocity templates to apply various f
 - `$renderTool`
 - `$resourceTool`
 - `$sortTool`
-
-
-

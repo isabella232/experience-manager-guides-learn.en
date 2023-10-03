@@ -1,8 +1,8 @@
 ---
 title: Configure allowed special characters
 description: Learn how to Configure allowed special characters
+exl-id: d3430009-b7a7-4ecb-a19b-dd75305014a9
 ---
-
 # Configure allowed special characters {#id20CIL600035}
 
 The Web Editor allows you to insert some special characters out-of-the-box. However, you can customize the list of special characters that your authors can insert in their documents. If you customize the special characters list, then it overwrites the default set of special characters. Only those special characters that you add in your configuration are made available to the authors.
@@ -38,4 +38,3 @@ The structure of the `symbols.json` file is explained below:
 
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
-
