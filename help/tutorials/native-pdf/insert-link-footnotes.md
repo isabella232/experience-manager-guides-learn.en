@@ -9,7 +9,7 @@ Footnotes are notes placed on the bottom of the page in a PDF. Footnotes general
 
 A footnote consists of two parts:  
 
-* The footnote call or reference that appears in the text. 
+* The footnote call or reference that appears in the main content. 
 
 * The footnote text contains further details and appears at the bottom of the page.  
 
