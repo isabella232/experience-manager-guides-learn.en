@@ -48,8 +48,10 @@ breadcrumb-title: AEM Guides Tutorials
     + On-prem/Managed Services {#on-prem-release-notes}
       + 4.3.0 Release {#43-release}
         + What's new {#43-whats-new}
+          + [4.3.1 What's new](./release-info/whats-new-4.3.1-release.md)
           + [4.3.0 What's new](./release-info/whats-new-4.3-release.md)
         + Release notes {#43-release-notes}
+          + [4.3.1 Release Notes](./release-info/release-notes-4.3.1.md)
           + [4.3.0 Release Notes](./release-info/release-notes-4.3.md)
       + 4.2 Release {#42-release}
         + What's new {#42-whats-new}
@@ -252,7 +254,6 @@ breadcrumb-title: AEM Guides Tutorials
         + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         + [Design a page layout](./native-pdf/design-page-layout.md)
         + [Support for language variables](./native-pdf/native-pdf-language-variables.md)
-        + [Insert and link footnotes](./native-pdf/insert-link-footnotes.md)
         + Common content styles {#content-styles}
             + [Work with the common content styles](./native-pdf/stylesheet.md)
             + [Work with custom change bars styles](./native-pdf/change-bar-style.md)
