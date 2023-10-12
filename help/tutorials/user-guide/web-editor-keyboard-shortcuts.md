@@ -27,7 +27,7 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Move the cursor to the beginning the current line.|***Home***|***Command***+***Left Arrow***|
 |Move the cursor to the end of the current line.|**End**|***Command***+***Right Arrow***|
 |Auto indent XML in Source view|***Ctrl***+***Alt***+***L***|***Command***+***Option***+***L***|
-|Split the current element|***Enter***|***Enter***|
+|Split the current element|***Enter***|***Return***|
 |Copy selected text|***Ctrl***+**C**|***Command***+**C**|
 |Paste|***Ctrl***+**V**|***Command***+**V**|
 |Open Print dialog|***Ctrl***+**P**|***Command***+**P**|

@@ -102,3 +102,10 @@ For more details, refer to the **Options for a file** feature description within
 While generating outputs in AEM Site or PDFs, you can use variables for setting the **Destination Path**, **Site Name**, or **File Name** options. You can now also use the `${system_date}`and `${system_time}` variables. These variables help you append the current date and time to these options.
 
 Learn how to [use variables for setting the Destination Path, Site Name, or File Name options](../user-guide/generate-output-use-variables.md).
+
+
+## Keyboard shortcuts to move the cursor in the Web Editor
+
+Experience Manager Guides now also allows you to use keyboard shortcuts to move the cursor in the Web Editor. You can use the keyboard shortcuts to quickly move one word left or right. You can also move to the beginning or the end of the line with the help of the keyboard shortcuts.
+
+Learn more about the [keyboard shortcuts in the Web Editor](../user-guide/web-editor-keyboard-shortcuts.md).
