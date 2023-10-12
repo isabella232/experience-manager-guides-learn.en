@@ -34,4 +34,4 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Undo last action|***Ctrl***+**Z**|***Command***+**Z**|
 |Redo last action|***Ctrl***+**Y**|***Command***+**Y**|
 
-**Parent topic: **[Work with the Web Editor](web-editor.md)
+**Parent topic:** [Work with the Web Editor](web-editor.md)
