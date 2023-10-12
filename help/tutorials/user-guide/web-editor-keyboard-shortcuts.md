@@ -11,9 +11,9 @@ There are many operations in the Web Editor that you can perform using the keybo
 >
 > The letter keys in the keyboard shortcut are case-insensitive.
 
-## Keyboard shortcuts for Windows and MacOS
+## Keyboard shortcuts for Windows and macOS
 
-|Operation in Web Editor|Windows|MacOS |
+|Operation in Web Editor|Windows|macOS |
 |-----------------------|-----------------|-----------------|
 |Apply bold formatting on selected text|***Ctrl***+***B***|***Command***+***B***|
 |Apply Italics formatting on selected text|***Ctrl***+***I***|***Command***+***I***|
@@ -24,7 +24,7 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Show Insert Element dialog to insert element before the selected element|***Alt***+***Shift***+***Enter***|***Option***+***Shift***+***Enter***|
 |Move the cursor one word to the left.|***Ctrl***+***Left Arrow***| ***Option***+***Left Arrow***|
 |Move the cursor one word to the right.|***Ctrl***+***Right Arrow***|***Option***+***Right Arrow***|
-|Move the cursor to the beginning the current line.|***Home***|***Command***+***Left Arrow***|
+|Move the cursor to the beginning of the current line.|***Home***|***Command***+***Left Arrow***|
 |Move the cursor to the end of the current line.|**End**|***Command***+***Right Arrow***|
 |Auto indent XML in Source view|***Ctrl***+***Alt***+***L***|***Command***+***Option***+***L***|
 |Split the current element|***Enter***|***Return***|
@@ -34,4 +34,4 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Undo last action|***Ctrl***+**Z**|***Command***+**Z**|
 |Redo last action|***Ctrl***+**Y**|***Command***+**Y**|
 
-**Parent topic:**[Work with the Web Editor](web-editor.md)
+**Parent topic: **[Work with the Web Editor](web-editor.md)
