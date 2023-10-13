@@ -171,7 +171,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     >To configure a proxy for Salesforce in Experience Manager Guides, use Apache HTTP Components Proxy Configuration in AEM. Learn how to [configure proxy for the AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-    After you login, you can select the Publish Profile in the output presets of a DITA Map and use to generate the output for selected articles. For more details, see [Article-based publishing from the Web Editor](../install-guide/configure-article-based-publishing.md).
+    After you login, you can select the Publish Profile in the output presets of a DITA Map and use to generate the output for selected articles. For more details, see [Article-based publishing from the Web Editor](../install-guide/configure-article-based-publishing.md) in the Installation and Configuration Guide..
 
 - **Validation**: This tab contains options to configure the Schematron Validations in the Web editor. You can enable the following features:
 
