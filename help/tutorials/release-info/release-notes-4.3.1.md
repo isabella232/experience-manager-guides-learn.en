@@ -83,7 +83,6 @@ The bugs fixed in various areas are listed below:
 
 - If the title of a topic contains a slash "/", the tab in the editor only shows the letters coming after that. (13455)
 - The image preview doesn’t disappear after displaying the preview in the Editor. (13454)
-- Baselines show the title for the previous version of the DITA file. (13444)
 - Some of the existing version or their labels are not displayed in the Version History after the upgrade to 4.x. (13247)
 - The Version History panel in Assets UI shows an incorrect timestamp for the **Current** field. (12624)
 - Topic with conref title is not resolved in Repository View or Map View.(13304)
@@ -117,12 +116,14 @@ The bugs fixed in various areas are listed below:
 - Version History doesn’t show even if the `dc:format` property isn't present for an asset. (10463)
 - Content reference is broken copy-pasting DITA files when the topic id isn’t the same as GUID. (12614)
 - In dynamic baselines, the list of labels isn’t pulled from the direct references of the working copy of a DITA map. (11917)
+-  Baseline shows the incorrect number of files on the Map Dashboard when using the Browse all topics functionality. (13265)
+-  In the Web Editor, the baseline shows the title for the previous version instead of the selected version of the DITA file. (13444)
 
 ### Review
 
 - The Review on a topic shows incorrect comments. (13453)
 - The Close button on the Review page in the Experience Manager Guides takes the users to the AEM Homepage. (13535)
-- Attachments are not displayed on the editor's right panel for an In-review topic
+- Attachments are not displayed on the editor's right panel for an In-review topic. (13011)
 
 
 
@@ -134,5 +135,4 @@ The bugs fixed in various areas are listed below:
 - The title of the translated file is displayed in place of the title of the source file. (11630)
 - Auto approve isn't working sometimes, and exceptions occur if an incorrect value is set on Translation Status. (13607)
 - The baseline exported from the Translation dashboard fails and doesn't open in the target language. (12993)
-- Some files are missing, and Baselines show incorrect number of files. (13265)
 - Some files are missing while using Baselines in translation. (13021)
