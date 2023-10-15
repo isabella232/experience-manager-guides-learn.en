@@ -88,7 +88,7 @@ The footnote area is where all footnotes are placed, generally at the bottom of 
   		        }
 	      }
 
-```
+ ```
 
 ### Page layouts
 
