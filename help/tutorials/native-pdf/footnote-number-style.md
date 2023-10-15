@@ -6,21 +6,21 @@ exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 # Work with footnote styles
 
 
-Footnotes are notes placed at the bottom of a page that comments on or cites a reference for a designated part of the text. You can apply styles to the footnote calls and markers and manage their appearance in the PDF output.
+Footnotes are notes placed at the bottom of a page that comment on or cite a reference for a designated part of the text. You can apply styles to the footnote calls and markers and manage their appearance in the PDF output.
 
 ## Apply styles to footnote calls and markers
 
 You can style the numbers in the footnote call present in the topic content and the footnote marker present typically at the bottom of the page. 
 
-For example, you can add brackets around the number or change their color. You can also replace the numbers with asterisk or greek letters. These styles help you easily identify the footnotes in the document. 
+For example you can add brackets around the footnote number or change their color. You can also replace the numbers with asterisk or Greek letters. These styles help you quickly identify the footnotes in the document. 
 
 
 **Example 1**:
 
 Use the given example, to add a bracket before and after the footnote call and marker: 
 
-* Add the prefix "(" and the suffix ")" using the content attribute in the `footnote-call` style which will add the brackets around the footnote number in the topic content. 
-* Add the prefix "(" and the suffix ")" using the content attribute in the `footnote-marker` style which will add the brackets around the footnote number at the bottom of the page. 
+* Add the prefix "(" and the suffix ")" using the content attribute in the `footnote-call` style, which will add the brackets around the footnote number in the topic content. 
+* Add the prefix "(" and the suffix ")" using the content attribute in the `footnote-marker` style, which will add the brackets around the footnote number at the bottom of the page. 
 
 ```css
 ...
@@ -111,7 +111,7 @@ counter-reset: footnote
 }
 ```
 
-So, the footnotes on each page will restart from 1.
+So, the footnotes on each page restart from 1.
 
 ### Page layouts
 
@@ -136,7 +136,7 @@ For example, the following screenshot shows how the same footnote is linked to a
  
 <img width="550" alt="footnote references in a pdf" src="./assets/link-footnotes.png"> 
 
-*Insert a footnote refrence and link it to the footnote text.*
+*Insert a footnote reference and link it to the footnote.*
 
 
 
