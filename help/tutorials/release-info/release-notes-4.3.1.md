@@ -57,8 +57,16 @@ For more details, see the *Technical requirements* section in the Install and co
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
 | --- | --- | --- |--- |--- |
 | 4.3.1 (Non-UUID)|  2.3-regular-5| 2.3-regular-5 |  1.6 | 1.6  |
-| 4.3.1 (UUID) | 3.0-uuid-4|3.0-uuid-3 |2.3 | 2.3  |
+| 4.3.1 (UUID) | 3.2-uuid-5|3.2-uuid-5 |2.3 | 2.3  |
 |  |  |   |  
+
+
+
+### Knowledge base template version
+
+|Components package name| Components version | Template version|
+|---|---|---|
+|AEM Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
 
 ## Fixed issues
 
