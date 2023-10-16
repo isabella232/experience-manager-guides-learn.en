@@ -28,7 +28,7 @@ For more details, view [Use data from your data source](../user-guide/web-editor
 
 Experience Manager Guides now also provides a **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can easily create the connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
 
-You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn how to [easily configure a data source connector from the user interface](../install-guide/conf-data-source-connector-tools.md).
+You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn more about how to [easily configure a data source connector from the user interface](../install-guide/conf-data-source-connector-tools.md).
 
 ![data source connectors listed in the data sources panel](assets/data-sources-create-window.png){width="550" align="left"}
 
