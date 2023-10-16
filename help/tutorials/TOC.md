@@ -48,8 +48,10 @@ breadcrumb-title: AEM Guides Tutorials
     + On-prem/Managed Services {#on-prem-release-notes}
       + 4.3.0 Release {#43-release}
         + What's new {#43-whats-new}
+          + [4.3.1 What's new](./release-info/whats-new-4.3.1-release.md)
           + [4.3.0 What's new](./release-info/whats-new-4.3-release.md)
         + Release notes {#43-release-notes}
+          + [4.3.1 Release Notes](./release-info/release-notes-4.3.1.md)
           + [4.3.0 Release Notes](./release-info/release-notes-4.3.md)
       + 4.2 Release {#42-release}
         + What's new {#42-whats-new}
@@ -236,6 +238,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configure the number of LimitReads for a query](./install-guide/conf-query-limitreads.md)
       + [Install packages for Article-based publishing](./install-guide/configure-article-based-publishing.md)
       + [Configure a data source connector](./install-guide/conf-data-source-connector.md)
+      + [Configure a data source connector from the user interface](./install-guide/conf-data-source-connector-tools.md)
       + [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
       + [Configure the option to edit in Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -316,7 +319,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Configure single topic PDF generation](./cs-install-guide/conf-pdf-generation-dita-ot.md)
       + [Configure Translation feature in the Web Editor](./cs-install-guide/conf-translation-web-editor.md)
       + [Configure a data source connector](./cs-install-guide/conf-data-source-connector.md)
-      + [Configure a data source connector using tools](./cs-install-guide/conf-data-source-connector-tools.md)
+      + [Configure a data source connector from the user interface](./cs-install-guide/conf-data-source-connector-tools.md)
       + [Set the Advanced Map Editor as default](./cs-install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./cs-install-guide/auto-add-navtitle.md)
     + Work with global and folder-level profiles {#global-folder-profiles-cs}

@@ -135,17 +135,62 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
 -   **Attributes List**: Similar to the Elements List, you can control the list of attributes and their display names to be displayed in the attributes list of an element. In the following screenshot, only 3 attributes have been configured to be shown in an element's attribute list:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+    ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-With this setting, when you try to add an attribute to an element, you only see the list of attributes configured in the list.
+    With this setting, when you try to add an attribute to an element, you only see the list of attributes configured in the list.
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+    ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **Publish Profile**: This contains the Publish Profiles that can be used to publish the knowledge base output. You can create a new profile for a selected consumer type. For example, Salesforce.
+
+    - **Requirements to create a Salesforce Publish Profile**
+        
+        - Create a connected app for Salesforce. For more details see [Enable OAuth Settings for API Integration](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
+        
+        - While configuring the connected app ensure the following:
+
+            - Specify the callback. 
+            
+              `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+            - Select the following OAuth Scopes:
+                - Full access (full)
+                - Select Manage user data via APIs (api)
+
+    Once the app is configured, Salesforce provides a **Consumer Key** and **Consumer Secret**.
+
+    These can be used to create the Salesforce Publish Profile. 
+![profiles in editor settings](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+    
+
+- To create a Publish Profile you can select a knowledge base like Salesforce from the **Server Type** dropdown. Enter a profile Name. In the **Site URL** enter the consumer site that you would use for publishing the output and then add the **Consumer Key** and **Consumer Secret** provided by the consumer site like Salesforce. Then login to the newly created Profile.
+
+    >[!NOTE]
+    >
+    >To configure a proxy for Salesforce in Experience Manager Guides, use Apache HTTP Components Proxy Configuration in AEM. Learn how to [configure proxy for the AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+    After you login, you can select the Publish Profile in the output presets of a DITA Map and use to generate the output for selected articles. For more details, see [Article-based publishing from the Web Editor](../install-guide/configure-article-based-publishing.md) in the Installation and Configuration Guide.
+
+- **Validation**: This tab contains options to configure the Schematron Validations in the Web editor. You can enable the following features:
+
+    - **Run validation check before saving the file**: Select this to run Schematron validations using the selected Schematron file(s) before any save operation. You can add a Schematron file by clicking the + icon. The selected Schematron file(s) are listed.
+
+        >[!NOTE]
+        >The selected Schematron file(s) will persist for the selected folder profile.
+
+        ![Validation in editor settings](./images/editor-setting-validation.png){width="300" align="left"}
+        This prevents the users from saving any file which breaks a rule defined in the selected Schematron file(s). If this is not selected the file will not be validated before saving the changes.
+
+    - **Allow all users to add schematron files in validation panel**: Select this to allow the users to add any Schematron file in the Validation panel of the Web Editor. This allows the users to add Schematron files and then validate the topics against the Schematron file. If this is not selected the **Add Schematron File** button is not available to the users in the **Validation panel** of the Web Editor.
+
 
 -   **Display Attributes**: Like the Attributes List, you can control the list of  attributes to be displayed in the attributes list of an element. By default, four **Display Attributes** — audience, platform, product, and props have been configured to be shown in an element's attribute list. You can also add a display attribute using the **Add** icon on the top. You can also delete any of the display attributes using the **Delete** icon.
 
-The attributes defined for an element are displayed in the Layout and the Outline view.
+    The attributes defined for an element are displayed in the Layout and the Outline view.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+    ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 -   **Translation**: This tab contains the option to propagate the source labels to the target version.
 
