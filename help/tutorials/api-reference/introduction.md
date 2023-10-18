@@ -169,7 +169,7 @@ Perform the following steps to configure and use the service API JARs from the p
     <repository>
        <id>fmdita-public</id>
        <name>fmdita-public</name>
-       <url>https://repo.xmldocumentation.com/repository/fmdita-public</url>
+       <url>https://repo.aem-guides.com/repository/fmdita-public</url>
     </repository>
     ```
 
