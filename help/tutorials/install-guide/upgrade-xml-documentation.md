@@ -676,7 +676,7 @@ After you install Experience Manager Guides, you may merge the various configura
 
 >[!NOTE]
 >
-> You need not perform these steps if you upgrade from 4.3.0
+> You need not perform these steps if you upgrade from 4.3.0 or 4.2.1.
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level:
 
