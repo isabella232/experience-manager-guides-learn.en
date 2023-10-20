@@ -4,33 +4,33 @@ description: Learn about the bug fixes and how to upgrade to  4.3.1 releases of 
 ---
 # 4.3.1 release of Adobe Experience Manager Guides (October 2023)
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.3.1 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.3.1 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
 
 For more information about the new features and enhancements, see [What's new in 4.3.1 release of Adobe Experience Manager Guides](./whats-new-4.3.1-release.md).
 
-## Upgrade to 4.3.1 release of AEM Guides
+## Upgrade to 4.3.1 release of Experience Manager Guides
 
 
-You can easily upgrade your current version of AEM Guides to version 4.3.1. Before you proceed with upgrading to version 4.3.1 of AEM Guides, you must consider the following points:
-You can upgrade your current version of AEM Guides to version 4.3.1
+You can easily upgrade your current version of  Guides to version 4.3.1. Before you proceed with upgrading to version 4.3.1 of Experience Manager Guides, you must consider the following points:
+You can upgrade your current version of Experience Manager Guides to version 4.3.1
 
-- If you are using version 4.2 or 4.2.x then you can directly upgrade to version 4.3.1.
-- If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.2 or 4.2.x before upgrading to version 4.3.1.
+
+- If you are using version 4.3, 4.2, or 4.2.1, then you can directly upgrade to version 4.3.1.
+- If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.3, 4.2 or 4.2.x before upgrading to version 4.3.1.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.1.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
-- If you are on a version prior to 3.8.5, refer to the Upgrade AEM Guides section in the product-specific installation guide.
-
+- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide.
 
 
 >[!NOTE]
 >
->You must install AEM service pack before upgrading AEM Guides version.
+>You must install AEM service pack before upgrading Experience Manager Guides version.
 
 For details, see [Upgrade instructions](../install-guide/upgrade-xml-documentation.md).
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by AEM Guides 4.3.1 release. 
+This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 4.3.1 release. 
 
 ### Adobe Experience Manager
 
@@ -66,7 +66,7 @@ For more details, see the *Technical requirements* section in the Install and co
 
 |Components package name| Components version | Template version|
 |---|---|---|
-|AEM Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
+|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
 
 ## Fixed issues
 
