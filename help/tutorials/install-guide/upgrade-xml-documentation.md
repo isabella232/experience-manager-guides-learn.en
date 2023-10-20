@@ -522,7 +522,7 @@ Perform the following steps for post processing the existing content and using t
 
 ## Upgrade to version 4.3.1 {#upgrade-version-4-3-1} 
 
-Upgrading to version 4.3.1 depends on the current version of Experience Manager Guides. If you are using version 4.3, 4.2, or 4.2.1 then you can directly upgrade to version 4.3.1.
+Upgrading to version 4.3.1 depends on the current version of Experience Manager Guides. If you are using version 4.3.0, 4.2, or 4.2.1 then you can directly upgrade to version 4.3.1.
 
 >[!NOTE]
 >
