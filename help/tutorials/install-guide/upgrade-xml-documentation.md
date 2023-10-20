@@ -541,7 +541,7 @@ Before you start the Experience Manager Guides 4.3.1 upgrade process, ensure tha
 
 1. Download 4.3.1 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Install version 4.3.1 package.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-serverlet).
+1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-serverlet-4-3-1).
 
 
 1.  After you complete the package installation, wait for the following message\(s\) in the logs:
@@ -559,7 +559,7 @@ Before you start the Experience Manager Guides 4.3.1 upgrade process, ensure tha
 1.  Clear the browser cache after installing the package.
 1.  Continue upgrading the customizations as detailed out in the next section.
 
-### Enable trigger of script via a Servlet{#enable-trigger-serverlet}
+### Enable trigger of script via a Servlet{#enable-trigger-serverlet-4-3-1}
 
 POST:
 
