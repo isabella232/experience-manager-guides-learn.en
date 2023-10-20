@@ -28,6 +28,7 @@ For more details, refer to the following procedures:
 -   [Upgrade to version 4.2](#id22A3F500SXA)
 -   [Upgrade to version 4.2.1](#upgrade-version-4-2-1)
 -   [Upgrade to version 4.3.0](#upgrade-version-4-3)
+-   [Upgrade to version 4.3.1](#upgrade-version-4-3-1)
 
 
 >[!IMPORTANT]
@@ -672,6 +673,9 @@ After you install Experience Manager Guides, you may merge the various configura
   
 ## Steps to post process the existing content to use the broken link report 
 
+>[!NOTE]
+>
+> You need not perform these steps if you upgrade from 4.3.0.
 
 Perform the following steps for post processing the existing content and using the new broken link report:
 
