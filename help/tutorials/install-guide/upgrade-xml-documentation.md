@@ -672,7 +672,7 @@ After you install Experience Manager Guides, you may merge the various configura
     -   amended `com.adobe.fmdita.config.ConfigManager`
 
 
-## Steps to index the existing content to use the new find and replace: 
+## Steps to index the existing content: 
 
 >[!NOTE]
 >
