@@ -15,8 +15,8 @@ You can easily upgrade your current version of  Guides to version 4.3.1. Before 
 You can upgrade your current version of Experience Manager Guides to version 4.3.1
 
 
-- If you are using version 4.3, 4.2, or 4.2.1, then you can directly upgrade to version 4.3.1.
-- If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.3, 4.2 or 4.2.x before upgrading to version 4.3.1.
+- If you are using version 4.3.0, 4.2, or 4.2.1, then you can directly upgrade to version 4.3.1.
+- If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.3.0, 4.2 or 4.2.x before upgrading to version 4.3.1.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.1.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide.

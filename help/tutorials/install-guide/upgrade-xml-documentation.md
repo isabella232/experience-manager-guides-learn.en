@@ -11,8 +11,8 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 
 You can upgrade your current version of Experience Manager Guides to version 4.3.1
 
-- If you are using version 4.3, 4.2, or 4.2.1, then you can directly upgrade to version 4.3.1.
-- If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.3, 4.2 or 4.2.x before upgrading to version 4.3.1.
+- If you are using version 4.3.0, 4.2, or 4.2.1, then you can directly upgrade to version 4.3.1.
+- If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.3.0, 4.2 or 4.2.x before upgrading to version 4.3.1.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.1.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide.
@@ -532,7 +532,7 @@ Upgrading to version 4.3.1 depends on the current version of Experience Manager 
 
 Before you start the Experience Manager Guides 4.3.1 upgrade process, ensure that you have:
 
-1.  Upgraded to Experience Manager Guides version 4.3, 4.2, or 4.2.1 and completed their respective installation step.
+1.  Upgraded to Experience Manager Guides version 4.3.0, 4.2, or 4.2.1 and completed their respective installation step.
 1.  Closed all translation tasks.
 1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
@@ -675,7 +675,7 @@ After you install Experience Manager Guides, you may merge the various configura
 
 >[!NOTE]
 >
-> You need not perform these steps if you upgrade from 4.3.0.
+> You need not perform these steps if you upgrade from 4.3.0
 
 Perform the following steps for post processing the existing content and using the new broken link report:
 
