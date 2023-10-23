@@ -7,20 +7,33 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 
 Using a template ensures consistency in content layout and structure. As templates are predefined, you can avoid rework on formatting issues that arise for every new project or updates. Templates enable you to design page layouts, style content, and apply various settings to customize your PDF.
 
-While authors can use the PDF presets to generate output, developers can create their own templates. There are sample templates shipped out of the box, which can be further customized or duplicated by the developers as per their organizational requirements.
+While authors can use the PDF presets to generate output, developers can create their own templates. There are sample factory templates shipped out of the box, which can be further customized or duplicated by the developers as per their organizational requirements.
+
+Expereince Manager Guides supports factory PDF templates and custom PDF templates.
+
+## Factory PDF templates
+
+These are the OOTB templates that you can preview, duplicate, or use to generate your PDF output. When you duplicate a factory template, a new custom template is created using it as the base. 
+
+## Custom PDF templates
+
+You can create custom PDF templates in two ways:
+
+* Create a new template by cloning a factory template
+* Duplicate an existing factory or custom template
 
 
 ## Create a new PDF template {#create-pdf-template}
 
 You can create custom PDF templates with specific page layouts and define formatting for page layout components (like TOC, index, glossary) or DITA components (like heading, paragraph, list) using stylesheets. You can create a new template from scratch or build it using a sample template.  
 
-To create a new PDF template, follow the below steps:
+To create a new PDF template, perform the following steps:
 1. In the Web Editor, go to the **Output** tab.
 1. Expand the left sidebar and select **Templates**.
 <img src="assets/create-pdf-template.png" alt="Create PDF template" width="400">
 1. In the **Templates** panel, select the **+** icon next to **Templates** and choose **PDF Template**.
-1. Specify a name for the template in the **New Template** dialog.
-1. Click **Done**. 
+1. Specify a name for the template in the **New PDF Template** dialog.
+1. Click **Create**. 
    
    The new template is created and added in the *Templates* panel. 
 
