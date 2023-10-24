@@ -261,7 +261,11 @@ You can define the text to appear before and after the break. For example, a tab
 
 * **Index**:  If you have designed an Index page layout, map it to the Index option. Using the stylesheets, you can style different index elements in the PDF output. Use the index styles `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` and `.idx-child` to customize the styles for the elements of the index. 
 
-* **Glossary**:  If you have a Glossary page layout, then map it to the Glossary option.  The terms in the glossary of your PDF output are always sorted in alphabetical order. 
+* **Glossary**:  If you have a Glossary page layout, then map it to the Glossary option.  
+
+   The terms in the glossary of your PDF output are always sorted in alphabetical order. 
+
+   You can also add the tag `sort-as` to define a sort key for the glossary terms. Experience Manager Guides then uses the sort key to sort the glossary terms in place of the glossary terms. If you haven't defined the sort key, it uses the glossary terms for sorting. For example, you can add the tag `sort-as—A` to the term "USB" and `sort-as—B` to the term "Pen Drive". When you sort these glossary terms, the sort key `A` for the glossary term "USB" appears before the sort key `B` for the glossary term  "Pen Drive".
    
   Using the stylesheets, you can style different glossary elements in the PDF output. Use the glossary styles `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, and `.glo-term` to customize the styles for the elements of the glossary.
   

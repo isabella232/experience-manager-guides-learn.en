@@ -221,11 +221,11 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
 
 ## Configure authoring templates {#id1889D0IL0Y4}
 
-AEM Guides comes with 7 out-of-the-box authoring templates and 2 DITA map templates. You can choose to have only a few templates available to your authors. In case you use a custom template, the same can be configured and made available for authoring. You use the Authoring Template tab in the Folder Profiles configuration to add or remove topic or map templates from global or folder-level profiles.
+AEM Guides comes with 7 out-of-the-box authoring templates and 2 DITA map templates. You can choose to have only a few templates available to your authors. In case you use a custom template, the same can be configured and made available for authoring. You use the Authoring Template tab in the Folder Profiles configuration to add or remove topic, map, or PDF templates from global or folder-level profiles.
 
-Even before configuring the topic or map templates at global or folder-level, you can also define a location to store your custom authoring templates. To configure a custom location to store authoring templates, see [Configure custom DITA template folder path](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Even before configuring the topic, map, or PDF templates at global or folder-level, you can also define a location to store your custom authoring templates. To configure a custom location to store authoring templates, see [Configure custom DITA template folder path](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Perform the following steps to add the topic or map templates into a folder profile:
+Perform the following steps to add the topic, map, or PDF templates into a folder profile:
 
 1.  Log into Adobe Experience Manager as an administrator or the user having administrative rights on a folder-level profile.
 
@@ -242,15 +242,15 @@ Perform the following steps to add the topic or map templates into a folder prof
 1.  On the profile page, click on the **Authoring Template** tab.
 1.  Click **Edit**.
 
-    You get the options to add Topic and Map templates by searching from the default location or browsing for it.
+    You get the options to add Topic, Map, and PDF templates by searching from the default location or browsing for it.
 
     >[!NOTE]
     >
-    > By default, all authoring templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics` and `maps` sub-folders to store the topic and map templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
+    > By default, all authoring templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics`, `maps`, and `PDF` sub-folders to store the topic, map, and PDF templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
 
     ![](assets/search-author-temp.png)
 
-1.  Add the required topic and map templates to your profile.
+1.  Add the required topic, map, and PDF templates to your profile.
 
     To add a template, do one of the following:
 

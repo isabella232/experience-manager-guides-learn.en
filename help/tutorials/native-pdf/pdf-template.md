@@ -48,32 +48,79 @@ To duplicate an existing PDF template, follow the below steps:
    This opens the Templates panel.
 1. Hover over the template that you want to duplicate and select the (*Options* icon) **...** and choose **Duplicate** from the context menu.
 
-   This opens the Duplicate Template dialog.   
+   This opens the Duplicate PDF Template dialog.   
    <img src="assets/duplicate-template.png" alt="Duplicate PDF template" width="250">  
-1. Specify a name for the teamplte.
+   In the Duplicate PDF Template dialog, you can also preview the template and update the title and the description. 
 
-   The **Name** field is pre-populated as a copy of the same name as the source template.
+1. Specify a name for the template.
+
+   The **Name** field is pre-populated as a copy of the same name as the source template. You'll view an error message if the template with the same title exists.  
+
+
 
 1. To specify a preferred name, remove the pre-populated name and specify a name.
-1. Click **Done**.
+1. Click **Duplicate**.
    
    A duplicate template is created and added under Templates.
+
+## Other operations on the templates
+
+You can also perform the following operations on the templates from the **Options** menu:
+ 
+ 
+### Delete
+
+Select the Delete option to delete the selected template. Then, select Yes on the confirmation prompt. 
+The preset is removed from the Templates list.
+
+### Properties
+
+Select this option to view and edit the properties of the template. You can preview the existing image for the template. You can also edit or delete the Preview image. You can also change the title and description of the template.
+
+### View in Assets UI
+
+Select this option to view the template in the Assets UI. As it opens the root location of the template, you can view all the resources of the template.
+
+Once you have created the custom template, you can choose it from the Page Layouts in the PDF output preset. 
+
+Learn how to [publish a PDF output](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
+
+>[!NOTE]
+>
+> If your folder has a Folder Profile configured on it, then you'll view only those PDF templates that
+are configured on the Folder Profile.
+
+Based on your setup your administrator can configure the authoring templates:
+
+<details>
+<summary> Cloud Services </summary> 
+
+For details on setting up global and folder-level profiles, view [Configure authoring templates](../cs-install-guide/conf-folder-level.md#configure-authoring-templates-id1889d0il0y4) section in the Cloud Services Installation and configuration guide.
+
+</details>
+
+<details>    
+<summary>  On-premise Software </summary>
+
+For details on setting up global and folder-level profiles, view [Configure authoring templates](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) section in the On-premise Installation and configuration guide.
+
+</details>
 
 ## Customize a PDF template {#customize-pdf-template}
 
 You can customize templates by tweaking the template components and applying style formats using stylesheets.
 
-To customize a PDF template, follow the below steps:
-1. In the Web Editor, go to the Output tab.
-1. Expand the left sidebar and select Templates.
+To customize a PDF template, perform the following steps:
+1. In the Web Editor, go to the **Output** tab.
+1. Expand the left sidebar and select **Templates**.
    
-   This opens the Templates panel.
+   This opens the **Templates** panel.
 1. To view a template's components, do one of the following:
 
    * Select the > icon next to a template or double-click the template name.
-   * Hover over any template and select the ... (Options icon) and choose Edit from the context menu.
+   * Hover over any template and select the ... (**Options** icon) and choose **Edit** from the context menu.
    
-      By default, this opens the Settings panel in the templates editor.
+      By default, this opens the **Settings** panel in the templates editor.
    <img src="assets/customize-pdf-template.png" alt="Customize PDF Teamplte" width="350">
    
    >[!NOTE]
