@@ -49,8 +49,9 @@ To duplicate an existing PDF template, follow the below steps:
 1. Hover over the template that you want to duplicate and select the (*Options* icon) **...** and choose **Duplicate** from the context menu.
 
    This opens the Duplicate PDF Template dialog.   
-   <img src="assets/duplicate-template.png" alt="Duplicate PDF template" width="250">  
-   In the Duplicate PDF Template dialog, you can also preview the template and update the title and the description. 
+   <img src="assets/duplicate-template.png" alt="Duplicate PDF template" width="350">  
+
+   *Preview the template and update the title and the description In the Duplicate PDF Template dialog.* 
 
 1. Specify a name for the template.
 
@@ -66,7 +67,8 @@ To duplicate an existing PDF template, follow the below steps:
 ## Other operations on the templates
 
 You can also perform the following operations on the templates from the **Options** menu:
- 
+
+ <img src="assets/PDF-template-options.png" alt="Duplicate PDF template" width="350">   
  
 ### Delete
 
@@ -87,8 +89,7 @@ Learn how to [publish a PDF output](https://experienceleague.adobe.com/docs/expe
 
 >[!NOTE]
 >
-> If your folder has a Folder Profile configured on it, then you'll view only those PDF templates that
-are configured on the Folder Profile.
+>If your folder has a Folder Profile configured on it, then you'll view only those PDF templates that are configured on the Folder Profile.
 
 Based on your setup your administrator can configure the authoring templates:
 
