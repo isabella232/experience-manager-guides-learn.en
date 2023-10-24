@@ -3,16 +3,20 @@ title: Native PDF Publish Feature | Use custom styles in footnotes
 description: Learn how to apply style on the numbers in footnotes.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 ---
-# Work with footnote styles
+# Footnote styles
 
 
-Footnotes are notes placed at the bottom of a page that comment on or cite a reference for a designated part of the text. You can apply styles to the footnote calls and markers and manage their appearance in the PDF output.
+Footnotes are notes placed at the bottom of a page that comment on or cite a reference for a designated part of the text. 
+
+A footnote consists of two parts:
+*  The footnote call that appears in the main content.
+*  The footnote marker contains further details and appears at the bottom of the page.
+
+
 
 ## Apply styles to footnote calls and markers
 
-You can style the numbers in the footnote call present in the topic content and the footnote marker present typically at the bottom of the page. 
-
-For example you can add brackets around the footnote number or change their color. You can also replace the numbers with asterisk or Greek letters. These styles help you quickly identify the footnotes in the document. 
+You can apply styles to the footnote calls and markers and manage their appearance in the PDF output. For example you can add brackets around the footnote number or change their color. You can also replace the numbers with asterisk or Greek letters. These styles help you quickly identify the footnotes in the document. 
 
 
 **Example 1**:
@@ -57,8 +61,9 @@ You can also flag the footnote call and marker with an asterisk or lower Greek c
 
 In the output, you can view something like: 
 
-`This sentence contains the first footnote* and the second footnote**.`
+<img src="./assets/footnote-number-2.png" alt= "Footer in PDF output" width=500>
 
+*Add asterisk to a footnote call and marker.*
 
 ## Hide a footnote call
 
