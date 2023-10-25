@@ -3,7 +3,7 @@ title: Native PDF Publish Feature | Use custom styles in footnotes
 description: Learn how to apply style on the numbers in footnotes.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 ---
-# Footnote styles
+# work with footnote styles
 
 
 Footnotes are notes placed at the bottom of a page that comment on or cite a reference for a designated part of the text. 
@@ -15,7 +15,7 @@ Every footnote has a footnote marker at th bottom of the page, which is generall
 
 ## Apply styles to footnote calls and markers
 
-You can apply styles to the footnote calls and markers and manage their appearance in the PDF output. For example you can add brackets around the footnote number or change their color. You can also replace the numbers with asterisk or Greek letters. These styles help you quickly identify the footnotes in the document. 
+You can apply styles to the footnote calls and markers and manage their appearance in the PDF output. These styles help you quickly identify the footnotes in the document. 
 
 
 **Example 1**:
@@ -135,9 +135,9 @@ Typically, each footnote appears as a block or begins on a new line. But you can
 
 ## Apply styles to cross-references
 
-You can also link a footnote and refer to the same footnote multiple times in your PDF output.  This helps you refer to the same citation or detailed note various times in the document without creating a footnote for it again.
+You can also cross-reference a footnote and refer to the same footnote multiple times in your PDF output. This helps you refer to the same citation or detailed note various times in the document without creating a footnote for it again.
 
-For example, the following screenshot shows how the same footnote is linked to all cities in the PDF output.
+For example, the following screenshot shows how the same footnote is cross-referenced to all cities in the PDF output.
  
 <img width="550" alt="footnote references in a pdf" src="./assets/link-footnotes.png"> 
 
@@ -147,7 +147,7 @@ For example, the following screenshot shows how the same footnote is linked to a
 
 
 
-Using CSS styles, you can also format the cross references to footnotes. For example, you can change the background color of the cross-references.
+Using CSS styles, you can also format the cross-references to footnotes. For example, you can change the background color of the cross-references.
 
 ```css
     .xref-fn{
