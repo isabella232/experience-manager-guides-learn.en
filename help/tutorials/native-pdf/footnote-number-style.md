@@ -8,9 +8,8 @@ exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 
 Footnotes are notes placed at the bottom of a page that comment on or cite a reference for a designated part of the text. 
 
-A footnote consists of two parts:
-*  The footnote call that appears in the main content.
-*  The footnote marker contains further details and appears at the bottom of the page.
+Every footnote has a footnote marker at th bottom of the page, which is generally a number or an asterisk. Inside the main content, the same footnote marker appears as a footnote call and is indicated by the same number or asterisk as a superscript. 
+
 
 
 
@@ -134,7 +133,7 @@ Typically, each footnote appears as a block or begins on a new line. But you can
               }
 ```
 
-## Apply styles to footnote links
+## Apply styles to cross-references
 
 You can also link a footnote and refer to the same footnote multiple times in your PDF output.  This helps you refer to the same citation or detailed note various times in the document without creating a footnote for it again.
 
@@ -142,15 +141,13 @@ For example, the following screenshot shows how the same footnote is linked to a
  
 <img width="550" alt="footnote references in a pdf" src="./assets/link-footnotes.png"> 
 
-*Insert a footnote reference and link it to the footnote.*
+*Insert the cross-reference to a footnote.*
 
 
 
 
 
-## Format footnote references
-
-Using CSS styles, you can also format the footnote references. For example, you can change the background color of footnote references.
+Using CSS styles, you can also format the cross references to footnotes. For example, you can change the background color of the cross-references.
 
 ```css
     .xref-fn{
