@@ -78,7 +78,14 @@ The footnote call is hidden in the main content, but the footnote marker appears
 
 ## Format the footnote area
 
-The footnote area is where all footnotes are placed, generally at the bottom of a page. You can format the footnote area using CSS styles or the page layouts. 
+The footnote area is where all footnotes are placed, generally at the bottom of a page. You can format the footnote area using the page layouts or CSS styles. 
+
+
+### Page layouts
+
+You can use the page properties for page layouts to style the footnote area in the different sections in a PDF document. For example, you can specify the margins and padding properties of the footnote area in a chapter. You can also change the border side, style, color, width, and radius. 
+
+Learn about how to [work with the page properties of a page layout](./design-page-layout.md#page-props-page-layout). 
 
 ### CSS styles
 
@@ -95,15 +102,14 @@ The footnote area is where all footnotes are placed, generally at the bottom of 
 
  ```
 
-### Page layouts
-
-You can use the page properties for page layouts to style the footnote area in the different sections in a PDF document. For example, you can specify the margins and padding properties of the footnote area in a chapter. You can also change the border side, style, color, width, and radius. 
-
-Learn about how to [work with the page properties of a page layout](./design-page-layout.md#page-props-page-layout). 
-
 ## Restart the numbering of footnotes
 
-By default, the footnotes are numbered continuously in a document. However, you can use CSS styles or page layouts to restart the numbering of footnotes.
+By default, the footnotes are numbered continuously in a document. However, you can use page layouts or CSS styles to restart the numbering of footnotes.
+
+
+### Page layouts
+
+You can specify a number in the page layouts to restart the footnote numbering in the different sections in a PDF document. For example, select a number from the **Restart numbering from** field in the Page Properties panel to restart the footnote numbering for each chapter.
 
 ### CSS styles
 
@@ -117,11 +123,6 @@ counter-reset: footnote
 ```
 
 So, the footnotes on each page restart from 1.
-
-### Page layouts
-
-You can specify a number in the page layouts to restart the footnote numbering in the different sections in a PDF document. For example, select a number from the **Restart numbering from** field in the Page Properties panel to restart the footnote numbering for each chapter.
-
 
 ## Display inline footnotes
 
