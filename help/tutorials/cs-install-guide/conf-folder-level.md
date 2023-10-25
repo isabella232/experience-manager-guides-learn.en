@@ -256,7 +256,7 @@ Perform the following steps to add the topic, map, or PDF templates into a folde
 
     -   Choose **Search or Type** and enter or select the name of a template from the drop-down list. The drop-down list consists of all default templates and any new template that you have created.
 
-        ![](assets/default-template-list.png){width="300" align="left"}
+        ![](assets/default-template-list.png){width="800" align="left"}
 
     -   Click **Browse** and select a template from DAM.
 
