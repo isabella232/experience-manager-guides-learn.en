@@ -13,7 +13,7 @@ Expereince Manager Guides supports factory PDF templates and custom PDF template
 
 ## Factory PDF templates
 
-These are the OOTB templates that you can preview, duplicate, or use to generate your PDF output. When you duplicate a factory template, a new custom template is created using it as the base. 
+These are the OOTB templates that you can preview or duplicate to create the custom PDF templates. When you duplicate a factory template, a new custom template is created using it as the base. 
 
 ## Custom PDF templates
 
@@ -96,7 +96,7 @@ Based on your setup your administrator can configure the authoring templates:
 <details>
 <summary> Cloud Services </summary> 
 
-For details on setting up global and folder-level profiles, view [Configure authoring templates](../cs-install-guide/conf-folder-level.md#configure-authoring-templates-id1889d0il0y4) section in the Cloud Services Installation and configuration guide.
+For details on setting up global and folder-level profiles, view [Configure authoring templates](../cs-install-guide/conf-folder-level.md#configure-authoring-templates-id1889d0il0y4) section in the Installation and configuration guide for Cloud Services.
 
 </details>
 

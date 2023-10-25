@@ -248,7 +248,7 @@ Perform the following steps to add the topic, map, or PDF templates into a folde
     >
     > By default, all authoring templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics`, `maps`, and `PDF` sub-folders to store the topic, map, and PDF templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
 
-    ![](assets/search-author-temp.png)
+    ![](assets/search-author-temp.png){width="800" align="left"}
 
 1.  Add the required topic, map, and PDF templates to your profile.
 
@@ -256,7 +256,7 @@ Perform the following steps to add the topic, map, or PDF templates into a folde
 
     -   Choose **Search or Type** and enter or select the name of a template from the drop-down list. The drop-down list consists of all default templates and any new template that you have created.
 
-        ![](assets/default-template-list.png)
+        ![](assets/default-template-list.png){width="300" align="left"}
 
     -   Click **Browse** and select a template from DAM.
 
@@ -264,7 +264,7 @@ Perform the following steps to add the topic, map, or PDF templates into a folde
 
     The selected templates are added to the template list.
 
-    ![](assets/author-templ-added-list.png)
+    ![](assets/author-templ-added-list.png){width="800" align="left"}
 
     >[!NOTE]
     >
