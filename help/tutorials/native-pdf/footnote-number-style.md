@@ -3,12 +3,12 @@ title: Native PDF Publish Feature | Use custom styles in footnotes
 description: Learn how to apply style on the numbers in footnotes.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 ---
-# work with footnote styles
+# Apply footnote styles
 
 
 Footnotes are notes placed at the bottom of a page that comment on or cite a reference for a designated part of the text. 
 
-Every footnote has a footnote marker at th bottom of the page, which is generally a number or an asterisk. Inside the main content, the same footnote marker appears as a footnote call and is indicated by the same number or asterisk as a superscript. 
+Every footnote has a footnote marker at the bottom of the page, which is generally a number or an asterisk. Inside the main content, the same footnote marker appears as a footnote call and is indicated by the same number or asterisk as a superscript. 
 
 
 
