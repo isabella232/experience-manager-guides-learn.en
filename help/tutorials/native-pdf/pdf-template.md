@@ -98,7 +98,7 @@ Based on your setup your administrator can configure the  templates:
 <details>
 <summary> Cloud Services </summary> 
 
-For details on setting up global and folder-level profiles, view [Configure templates](../cs-install-guide/conf-folder-level.md#configure-templates-id1889d0il0y4) section in the Installation and configuration guide for Cloud Services.
+For details on setting up global and folder-level profiles, view [Configure templates](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) section in the Installation and configuration guide for Cloud Services.
 
 </details>
 
