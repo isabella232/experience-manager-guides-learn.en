@@ -5,21 +5,21 @@ description: Learn about the bug fixes and how to upgrade to the November 2023 r
 ---
 # November 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version November 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version November 2023 of Adobe Experience Manager Guides as a Cloud Service (later referred as *Expereince Manager Guides as a Cloud Service*).
 
-For more information about the new features and enhancements, see [What's new in the November 2023 release of AEM Guides as a Cloud Service](whats-new-2023.11.0.md).
+For more information about the new features and enhancements, see [What's new in the November 2023 release of Experience Manager Guides as a Cloud Service](whats-new-2023.11.0.md).
 
 ## Upgrade to November 2023 release
 
-Upgrade your current AEM Guides as a Cloud Service setup by performing the following steps:
+Upgrade your current Experience Manager Guides as a Cloud Service setup by performing the following steps:
 
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
 2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.10.0.373.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the November 2023 release of AEM Guides as a Cloud Service.
+3. Commit the changes and run the Cloud Services pipeline to upgrade to the November 2023 release of Experience Manager Guides as a Cloud Service.
 
 ## Steps to enable the trigger of a script via a servlet
 
-(Only if you are on a version prior to the June 2023 release of AEM Guides as a Cloud Service)
+(Only if you are on a version prior to the June 2023 release of Experience Manager Guides as a Cloud Service)
 
 After you complete the installation, you can choose to HIT the trigger to start the translation job:
 
@@ -54,7 +54,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## Steps to post process the existing content to use the broken link report 
 
-(Only if you are on a version prior to the June 2023 release of AEM Guides as a Cloud Service)
+(Only if you are on a version prior to the June 2023 release of Experience Manager Guides as a Cloud Service)
 
 Perform the following steps for post-processing the existing content and using the new broken link report:
 
@@ -78,7 +78,7 @@ Perform the following steps for post-processing the existing content and using t
 
 ## Steps to index the existing content to use the new find and replace and topic list under the Reports tab: 
 
-(Only if you are on a version prior to the June 2023 release of AEM Guides as a Cloud Service)
+(Only if you are on a version prior to the June 2023 release of Experience Manager Guides as a Cloud Service)
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level and topic list under the reports tab:
 
@@ -101,11 +101,11 @@ To upgrade, as the order is decreasing from 1000 to 50, you need to ensure to me
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by AEM Guides as a Cloud Service November 2023 release. 
+This section lists the compatibility matrix for the software applications supported by Experience Manager Guides as a Cloud Service November 2023 release. 
 
 ### FrameMaker and FrameMaker Publishing Server
 
-| AEM Guides as a Cloud Release| FMPS | FrameMaker |
+| Experience Manager Guides Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.11.0 | Not compatible | 2022 or higher |
 | | | |
@@ -113,7 +113,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 ### Oxygen Connector
 
-| AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
+| Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
 | 2023.11.0|  3.2-uuid 5|  3.2-uuid 5 | 2.3 | 2.3 | 
 |  |  |  |  |
@@ -123,7 +123,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 |Components package name| Components version | Template version|
 |---|---|---|
-|AEM Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
+|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
 
 ## Fixed issues
 
