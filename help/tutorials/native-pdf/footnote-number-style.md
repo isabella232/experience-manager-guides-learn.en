@@ -13,9 +13,9 @@ Every footnote has a footnote marker at the bottom of the page, which is general
 
 
 
-## Apply styles to footnote calls and markers
+## Change the styles of footnote calls and markers
 
-You can apply styles to the footnote calls and markers and manage their appearance in the PDF output. These styles help you quickly identify the footnotes in the document. 
+You can change the styles of the footnote calls and markers and manage their appearance in the PDF output. These styles help you quickly identify the footnotes in the document. 
 
 
 **Example 1**:
