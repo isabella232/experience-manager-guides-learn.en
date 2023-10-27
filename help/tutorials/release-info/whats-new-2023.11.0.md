@@ -12,6 +12,18 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 The following Native PDF enhancements have been done in the November 2023 release:
 
+### Use and duplicate out-of-the-box PDF templates 
+
+Experience Manager Guides provides out-of-the-box  or factory PDF templates. Duplicate the factory PDF templates to create the custom PDF templates.
+
+Now, you can also preview the thumbnail image for a template while creating and duplicating a template. You can also edit or delete this image. This feature is useful for branding or distinguishing templates with similar names.
+Learn more about the [PDF template](../native-pdf/pdf-template.md).
+ 
+![Duplicate PDF template dialog](assets/duplicate-template.png){width="550" align="left"}
+
+*Duplicate an existing PDF template.*
+
+
 ### Change the order of pages and publish multiple pages per sheet
 
 Besides publishing the pages according to the source document, you can also change the order of pages in PDF while publishing a multi-page document.  This gives you the flexibility to publish the pages in various orders, like all odd or all even pages first. You can also publish as a booklet and read the pages like a book. You can also decide the number of pages you want to publish on a single sheet of paper. For more details, view the [Page Ordering](../native-pdf/components-pdf-template.md#page-organization) section.
@@ -34,16 +46,6 @@ You can now choose the default way to view the files in the Web Editor. You can 
 
 *Change the default way to view the files from the **User Preferences** dialog.*
  
-
-## Use and duplicate out-of-the-box PDF templates 
-
-Experience Manager Guides provides out-of-the-box  or factory PDF templates. Duplicate the factory PDF templates to create the custom PDF templates.
-
-Now, you can also preview the thumbnail image for a template while creating and duplicating a template. You can also edit or delete this image. This feature is useful for branding or distinguishing templates with similar names.
- 
-![Duplicate PDF template dialog](assets/duplicate-template.png){width="550" align="left"}
-
-*Duplicate an existing PDF template.*
 
 ## Manage condtion presets from the Web Editor 
 
