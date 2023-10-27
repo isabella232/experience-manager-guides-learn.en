@@ -373,11 +373,11 @@ Select a page order that determines the sequence of the pages in your PDF docume
 * **Booklet**: All pages are ordered as in a booklet.
 * **Right to Left Booklet**: All pages are in right-to-left booklet order.
 * **Custom**: Define a custom order of pages instead of a predefined order. 
-   *	"a..b" — All consecutive pages from a to b.
-   *	"a,b,c" — New page order a, b, c.
-   *	"a*b" — The page a is repeated b times.
-   *	"-a" — Negative page numbers count backward beginning from the last page and can be combined with other custom orders.
-   *	"X" — All pages of the document. Same result as "1..-1".
+   * "a..b" — All consecutive pages from a to b.
+   * "a,b,c" — New page order a, b, c.
+   * "a*b" — The page a is repeated b times.
+   * "-a" — Negative page numbers count backward beginning from the last page and can be combined with other custom orders.
+   * "X" — All pages of the document. Same result as "1..-1".
 
 So, for example, you can give a custom order like "2,3,5*2,7..10,-1,-2.
 The given page order results in a PDF having the following page numbers from the original document, assuming it has 25 pages total: 2, 3, 5, 5,7, 8, 9, 10, 25, 24.
