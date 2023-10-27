@@ -47,12 +47,11 @@ If you want to create a new template with the same page layouts and formatting a
 
 To duplicate an existing PDF template, follow the below steps:
 1. In the Web Editor, go to the **Output** tab.
-1. Expand the left sidebar and select **Templates**.
-   
-   This opens the Templates panel.
-1. Hover over the template that you want to duplicate and select the (*Options* icon) **...** and choose **Duplicate** from the context menu.
+1. Expand the left sidebar and select **Templates**. This opens the **Templates** panel.
+1. Hover over the template that you want to duplicate and select the **...** *Options* icon and choose **Duplicate** from the context menu.
 
-   This opens the Duplicate PDF Template dialog.   
+   This opens the **Duplicate PDF Template** dialog.   
+
    <img src="assets/duplicate-template.png" alt="Duplicate PDF template" width="350">  
 
    *Preview the template and update the title and the description In the Duplicate PDF Template dialog.* 
@@ -66,7 +65,7 @@ To duplicate an existing PDF template, follow the below steps:
 1. To specify a preferred name, remove the pre-populated name and specify a name.
 1. Click **Duplicate**.
    
-   A duplicate template is created and added under Templates.
+   A duplicate template is created and added under the **Templates**.
 
 ## Other operations on the templates
 
@@ -77,7 +76,7 @@ You can also perform the following operations on the templates from the **Option
 ### Delete
 
 Select the Delete option to delete the selected template. Then, select Yes on the confirmation prompt. 
-The preset is removed from the Templates list.
+The preset is removed from the **Templates**.
 
 ### Properties{#properties-option}
 
@@ -88,7 +87,6 @@ Select this option to view and edit the properties of the template. You can prev
 Select this option to view the template in the Assets UI. As it opens the root location of the template, you can view all the resources of the template.
 
 Once you have created the custom template, you can choose it from the Page Layouts in the PDF output preset. 
-
 Learn how to [publish a PDF output](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
@@ -100,7 +98,7 @@ Based on your setup your administrator can configure the  templates:
 <details>
 <summary> Cloud Services </summary> 
 
-For details on setting up global and folder-level profiles, view [Configure templates](../cs-install-guide/conf-folder-level.md#configure-authoring-templates-id1889d0il0y4) section in the Installation and configuration guide for Cloud Services.
+For details on setting up global and folder-level profiles, view [Configure templates](../cs-install-guide/conf-folder-level.md#configure-templates-id1889d0il0y4) section in the Installation and configuration guide for Cloud Services.
 
 </details>
 
