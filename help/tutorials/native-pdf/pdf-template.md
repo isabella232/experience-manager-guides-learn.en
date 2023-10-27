@@ -36,8 +36,7 @@ To create a new PDF template, perform the following steps:
 
    >[!NOTE]
    >
-   >  You can also preview a thumbnail image for the template while creating and duplicating a template. 
-   You can edit or delete the thumbnail image using the **Properties** option in the **Options** menu.
+   >  You can also preview a thumbnail image for the template while creating and duplicating a template. <br> Edit or delete the thumbnail image using the [**Properties**](#properties-option) option in the **Options** menu.
 
 1. Click **Create**. 
 
@@ -82,7 +81,7 @@ You can also perform the following operations on the templates from the **Option
 Select the Delete option to delete the selected template. Then, select Yes on the confirmation prompt. 
 The preset is removed from the Templates list.
 
-### Properties
+### Properties{#properties-option}
 
 Select this option to view and edit the properties of the template. You can preview the existing image for the template. You can also edit or delete the Preview image. You can also change the title and description of the template.
 
