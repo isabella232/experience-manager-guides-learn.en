@@ -1,12 +1,12 @@
 ---
-title: Release Notes | What's New in Adobe Experience Manager Guides, November 2023 release
+title: Release Notes | What's New in the Adobe Experience Manager Guides, November 2023 release
 description: Learn the new and enhanced features in November 2023 release of Adobe Experience Manager Guides as a Cloud Service.
 ---
-# What's new in November 2023 release of Adobe Experience Manager Guides as a Cloud Service
+# What's new in the November 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
 This article covers the new and enhanced features in the version  November 2023 of Adobe Experience Manager Guides (later referred to as *Experience Manager Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.11.0.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release notes](release-notes-2023.11.0.md).
 
 
 
@@ -16,9 +16,9 @@ Now, you can also sort the glossary terms based on sort keys. You can use the ta
 For more details, view the [Advanced PDF Settings](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 
-## Resource management improvements for Native PDF templates 
+## Improved resource management for Native PDF templates 
 
-You can now share and reuse resources, like images, CSS files, and font files, across multiple Native PDF templates. With this improvement, it's now much simpler to manage the resources for a large set of templates. You don't need to create duplicate resources for each template, and you can keep them in a common folder and use them in all Native PDF templatess.
+Experience Manager Guides now has improved the resource management for Native PDF templates. You can now share and reuse resources, like images, CSS files, and font files, across multiple Native PDF templates. With this improvement, managing the resources for a large set of templates is much simpler. You don't need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
 
 
 
@@ -41,12 +41,26 @@ You can now choose the default way to view the files in the Web Editor. You can 
 *Change the default way to view the files from the **User Preferences** dialog.*
  
 
-## Use and Duplicate Out of the Box PDF Templates 
+## Use and duplicate out-of-the-box PDF Templates 
 
-Experience Manager Guides provides out of the box or factory PDF templates. Duplicate the factory PDF templates to create the custom PDF templates. Now, you can also add the thumbnail image for a template. You can preview this image while creating and duplicating a template. This feature is useful for branding or distinguishing templates with similar names.
+Experience Manager Guides provides out-of-the-box  or factory PDF templates. Duplicate the factory PDF templates to create the custom PDF templates.
+
+Now, you can also preview the thumbnail image for a template while creating and duplicating a template. You can also edit or delete this image. This feature is useful for branding or distinguishing templates with similar names.
  
 ![Duplicate PDF template dialog](assets/duplicate-template.png){width="550" align="left"}
 
 *Duplicate an existing PDF template.*
 
+## Manage Condtion Presets from the Web Editor 
 
+You can define condition attributes in your DITA topics. Then, use the condition attributes in the condition preset to publish the content in a DITA map. Experience Manager Guides now also allows you to create and manage condition presets from the Web Editor. You can also easily edit, duplicate, or delete them.
+
+![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+
+## Restore file tabs on refreshing the browser
+
+Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser.
+
+## Unwrap an element easily from the context menu of an element
+
+Now you can easily unwrap an element using the option from the context menu of an element in the Web Editor. This helps you easily merge the element's text with its parent element. 
