@@ -25,7 +25,7 @@ You can create custom PDF templates in two ways:
 
 ## Create a new PDF template {#create-pdf-template}
 
-You can create custom PDF templates with specific page layouts and define formatting for page layout components (like TOC, index, glossary) or DITA components (like heading, paragraph, list) using stylesheets. You can create a new template from scratch or build it using a sample template.  
+You can create custom PDF templates with specific page layouts and define formatting for page layout components (like TOC, index, glossary) or DITA components (like heading, paragraph, list) using stylesheets. You can create a new template from scratch or build it using a sample template. 
 
 To create a new PDF template, perform the following steps:
 1. In the Web Editor, go to the **Output** tab.
@@ -33,8 +33,15 @@ To create a new PDF template, perform the following steps:
 <img src="assets/create-pdf-template.png" alt="Create PDF template" width="400">
 1. In the **Templates** panel, select the **+** icon next to **Templates** and choose **PDF Template**.
 1. Specify a name for the template in the **New PDF Template** dialog.
+
+   >[!NOTE]
+   >
+   >  You can also preview a thumbnail image for the template while creating and duplicating a template. 
+   You can edit or delete the thumbnail image using the **Properties** option in the **Options** menu.
+
 1. Click **Create**. 
-   
+
+  
    The new template is created and added in the *Templates* panel. 
 
 ## Duplicate a PDF template {#duplicate-pdf-template}
@@ -91,12 +98,12 @@ Learn how to [publish a PDF output](https://experienceleague.adobe.com/docs/expe
 >
 >If your folder has a Folder Profile configured on it, then you'll view only those PDF templates that are configured on the Folder Profile.
 
-Based on your setup your administrator can configure the authoring templates:
+Based on your setup your administrator can configure the  templates:
 
 <details>
 <summary> Cloud Services </summary> 
 
-For details on setting up global and folder-level profiles, view [Configure authoring templates](../cs-install-guide/conf-folder-level.md#configure-authoring-templates-id1889d0il0y4) section in the Installation and configuration guide for Cloud Services.
+For details on setting up global and folder-level profiles, view [Configure templates](../cs-install-guide/conf-folder-level.md#configure-authoring-templates-id1889d0il0y4) section in the Installation and configuration guide for Cloud Services.
 
 </details>
 
