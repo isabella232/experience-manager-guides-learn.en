@@ -23,6 +23,7 @@ You can now share and reuse resources, like images, CSS files, and font files, a
 
 
 ## Change the order of pages and publish multiple pages per sheet
+
 Besides publishing the pages according to the source document, you can also change the order of pages in PDF while publishing a multi-page document.  This gives you the flexibility to publish the pages in various orders, like all odd or all even pages first. You can also publish as a booklet and read the pages like a book. You can also decide the number of pages you want to publish on a single sheet of paper. For more details, view the [Page Ordering](../native-pdf/components-pdf-template.md#page-organization) section.
 
 ## Keyboard shortcuts to move the cursor in the Web Editor
