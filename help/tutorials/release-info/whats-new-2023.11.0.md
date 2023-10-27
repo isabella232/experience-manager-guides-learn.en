@@ -9,7 +9,8 @@ This article covers the new and enhanced features in the version  November 2023 
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release notes](release-notes-2023.11.0.md).
 
 ## Native PDF enhancements
-The following Native PDF enhancements have been done in the October 2023 release:
+
+The following Native PDF enhancements have been done in the November 2023 release:
 
 ### Change the order of pages and publish multiple pages per sheet
 
