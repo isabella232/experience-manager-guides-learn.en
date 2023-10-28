@@ -1,9 +1,8 @@
 ---
 title: Configure a data source connector using tools
 description: Learn how to configure a data source connector using the tools.
+exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 ---
-
-
 # Configure a data source connector from the user interface
 
 Experience Manager Guides comes with the **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can set up connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
