@@ -7,32 +7,23 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 
 Using a template ensures consistency in content layout and structure. As templates are predefined, you can avoid rework on formatting issues that arise for every new project or updates. Templates enable you to design page layouts, style content, and apply various settings to customize your PDF.
 
-While authors can use the PDF presets to generate output, developers can create their own templates. There are sample factory templates shipped out of the box, which can be further customized or duplicated by the developers as per their organizational requirements.
+## Factory and Custom PDF templates
 
-Expereince Manager Guides supports factory PDF templates and custom PDF templates.
+There are some sample factory templates shipped out of the box, which the developers can use as the base templates to create customized templates per their organizational requirements.
 
-## Factory PDF templates
-
-These are the OOTB templates that you can preview or duplicate to create the custom PDF templates. When you duplicate a factory template, a new custom template is created using it as the base. 
-
-## Custom PDF templates
-
-You can create custom PDF templates in two ways:
-
-* Create a new template by cloning a factory template
-* Duplicate an existing factory or custom template
 
 
 ## Create a new PDF template {#create-pdf-template}
 
-You can create custom PDF templates with specific page layouts and define formatting for page layout components (like TOC, index, glossary) or DITA components (like heading, paragraph, list) using stylesheets. You can create a new template from scratch or build it using a sample template. 
+You can create custom PDF templates with specific page layouts and define formatting for page layout components (like TOC, index, glossary) or DITA components (like heading, paragraph, list) using stylesheets. 
 
 To create a new PDF template, perform the following steps:
 1. In the Web Editor, go to the **Output** tab.
-1. Expand the left sidebar and select **Templates**.
+1. Select **Templates** in the left panel.
 <img src="assets/create-pdf-template.png" alt="Create PDF template" width="400">
-1. In the **Templates** panel, select the **+** icon next to **Templates** and choose **PDF Template**.
-1. Specify a name for the template in the **New PDF Template** dialog.
+1. In the **Templates** window, select the **+** icon next to **Templates** and choose **PDF Template**.
+1. In the **New PDF Template** dialog, select a factory template which you want to use as a base to create the custom template. You can also use the search box to search for a template.
+1. Specify a title and the description for the template.  
 
    >[!NOTE]
    >
@@ -48,14 +39,14 @@ If you want to create a new template with the same page layouts and formatting a
 
 To duplicate an existing PDF template, follow the below steps:
 1. In the Web Editor, go to the **Output** tab.
-1. Expand the left sidebar and select **Templates**. This opens the **Templates** panel.
+1. Select **Templates** in the left panel. This opens the **Templates** window.
 1. Hover over the template that you want to duplicate and select the **...** *Options* icon and choose **Duplicate** from the context menu.
 
    This opens the **Duplicate PDF Template** dialog.   
 
    <img src="assets/duplicate-template.png" alt="Duplicate PDF template" width="350">  
 
-   *Preview the template and update the title and the description In the Duplicate PDF Template dialog.* 
+   *Preview the template and update the title in the **Duplicate PDF Template** dialog.* 
 
 1. Specify a name for the template.
 
@@ -81,7 +72,7 @@ The preset is removed from the **Templates**.
 
 ### Properties{#properties-option}
 
-Select this option to view and edit the properties of the template. You can preview the existing image for the template. You can also edit or delete the Preview image. You can also change the title and description of the template.
+Select this option to view and edit the properties of the template. You can preview the existing thumbnail for the template. You can also edit or delete the thumbnail. You can also change the title and description of the template.
 
 ### View in Assets UI
 

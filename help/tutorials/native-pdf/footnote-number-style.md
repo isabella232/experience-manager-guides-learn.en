@@ -8,7 +8,7 @@ exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 
 Footnotes are notes placed at the bottom of a page that comment on or cite a reference for a designated part of the text. 
 
-Every footnote has a footnote marker at the bottom of the page, which is generally a number or an asterisk. Inside the main content, the same footnote marker appears as a footnote call and is indicated by the same number or asterisk as a superscript. 
+Every footnote has a footnote marker at the bottom of the page, which is generally a number or a symbol like an asterisk. Inside the main content, the same footnote marker appears as a footnote call and is indicated by the same number or symbol as a superscript. 
 
 
 
@@ -133,7 +133,7 @@ Typically, each footnote appears as a block or begins on a new line. But you can
               }
 ```
 
-## Apply styles to cross-references
+## Apply styles to footnote cross-references
 
 You can also cross-reference a footnote and refer to the same footnote multiple times in your PDF output. This helps you refer to the same citation or detailed note various times in the document without creating a footnote for it again.
 

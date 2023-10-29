@@ -33,7 +33,8 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Auto indent XML in Source view|***Ctrl***+***Alt***+***L***|***Command***+***Option***+***L***|
 |Split the current element|***Enter***|***Return***|
 |Copy selected text|***Ctrl***+**C**|***Command***+**C**|
-|Paste|***Ctrl***+**V**|***Command***+***Shift***+**V**|
+|Paste|***Ctrl***+**V**|***Command***+**V**|
+|Paste and match formatting|***Ctrl***+***Shift***+**V**|***Command***+***Shift***+**V**|
 |Open Print dialog|***Ctrl***+**P**|***Command***+**P**|
 |Undo last action|***Ctrl***+**Z**|***Command***+**Z**|
 |Redo last action|***Ctrl***+**Y**|***Command***+**Y**|
