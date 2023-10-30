@@ -141,8 +141,8 @@ To customize a PDF template, perform the following steps:
    For example, double-click *Page Layouts* or select the *>* icon before *Page Layouts* to view the available
 page layouts.
 
->[!NOTE]
->
->You can also update a thumbnail image and the description for the template using the [**Properties**](#properties-option) in the **Options** menu.
+   >[!NOTE]
+   >
+   >You can also update a thumbnail image and the description for the template using the [**Properties**](#properties-option) in the **Options** menu.
 
 1. Once you have made the desired changes, select *Save All* (or `Ctrl+S`).
