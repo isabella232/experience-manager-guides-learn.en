@@ -5,7 +5,7 @@ description: Learn about the bug fixes and how to upgrade to the November 2023 r
 ---
 # November 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version November 2023 of Adobe Experience Manager Guides as a Cloud Service (later referred as *Expereince Manager Guides as a Cloud Service*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version November 2023 of Adobe Experience Manager Guides as a Cloud Service (later referred as *Experience Manager Guides as a Cloud Service*).
 
 For more information about the new features and enhancements, see [What's new in the November 2023 release of Experience Manager Guides as a Cloud Service](whats-new-2023.11.0.md).
 
@@ -39,7 +39,7 @@ Response:
 }
 ```
 
-In the previous response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
+In the previous response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, then, you can refer to this node for the status of the job.
 
 Wait till this job is completed before proceeding to the next steps. 
 
@@ -97,7 +97,7 @@ Experience Manager Guides has a custom sling rewriter module for handling cross-
 
 If you have your own sling rewriter, then use an order value that is greater than 50. For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
-To upgrade, as the order is decreasing from 1000 to 50, you need to ensure to merge the already existing rewriter, if any, correctly with fmdita-rewriter.
+To upgrade, as the order is decreasing from 1000 to 50, you need to ensure to merge the existing rewriter, if any, correctly with fmdita-rewriter.
 
 ## Compatibility matrix
 
@@ -129,17 +129,14 @@ This section lists the compatibility matrix for the software applications suppor
 
 The bugs fixed in various areas are listed below:
 
-### General 
 
-- A self reference link appears under the list of Broken Links in Reports. (13539)
 
 ### Authoring
 
 - Space after conref `<ph>` element disappears on saving the topic. (13642)
-- Application error occurs on saving DITA files. (13571)
+- Application error occurs when trying to save DITA files before the post-processing is complete. (13571)
 - If the title of a topic contains a slash `/`, the tab in the editor only shows the letters coming after it. (13455)
 - The image preview doesn’t disappear after displaying the preview in the Editor. (13454)
-- Some of the existing version or their labels are not displayed in the Version History after the upgrade to 4.x. (13247)
 - Insert keyword pop-up does not appear when using root map-defined keys in other topics. (12950)
 - Close icons is not visbile when very tall graphics are previewed in the Version History panel. (12867)
 - Unable to modify the timezone of **Version Created On** column for the Baselines. (12711)
@@ -147,36 +144,43 @@ The bugs fixed in various areas are listed below:
 - Creating a DITA file from a template with a filename starting with numeric characters results in a namespace error. (12188)
 - In the Web Editor, the **Key References** window opens when inserting the `varname` tag. (10940) 
 - Zip files are not recognized in the Web Editor, and you cannot drag and drop them. (12709)
+- The content with some attributes applied on it is not being highlighted in Author or Preview mode. (11063)
+- On closing a topic after editing it, you are redirected to the AEM Home page instead of returning to the folder view. (13306)
+-Processing is delayed on copying and pasting files in the cloud services. (12457)
+-The rootmap setting persists in the Web Editor even if the user has not set it explicitly from the User Preferences. (11551)
+
 
 ### Publishing
 
 - Publish as content fragment functionality not working for files listed in search results. (14090)
 - In Native PDF publishing, the background color selection on template layout requires a page reload when reverting to `None`. (13621)
 - Issue in committing to datastore for a large DITA map with scope peer links in AEM Site publishing. (13530)
-- Native PDF generates duplicate Table of Contents (TOC) entries in Experience Manager Guides 4.2.1 release. (12843)
 - In Native PDF publishing, accessibility is compromised as images in header and footer doesn't display alt text. (12829)
 - Duplicating page layout in Native PDF doesn't work with no extension added automatically. (12534)
+- When generating the PDF output with Native PDF publishing, the file name is truncated after a period. (13620)
+- Incorrect icon and tooltip are displayed for  **Edit content** option in the Page Layouts toolbar of the Templates used in Native PDF publishing. (13492)
 - Custom metadata isn't available in the final output. (12116)
 - fmdita rewriter conflicts with the user's rewriter config and leads to the display of long URLs instead of the links. (12076)
-- With AEM Sites output preset, separate PDFs are not generated for each topic. (11555)
+- In the AEM Site preset, the option to **Generate separate PDF for every topic** is non-functional. (11555)
 - Native PDF publishing lacks the support for CMYK color space conversion. (10754)
-- The location of PDF Templates configuration within the Authoring Template section for output preset is not appropriate. (9981)
+- Dynamic baseline calls are using the name instead of title, which results in the failure of Export DITA map API. (14268)
 
 ### Management
 
-- Content reference is broken copy-pasting DITA files with self-reference links without GUID. (13540)
+- Content reference is broken on copy-pasting the DITA files having self-reference links without GUID. (13540)
 - In the Web Editor, the baseline shows the title for the previous version instead of the selected version of the DITA file. (13444)
-- The **Reports** tab in the Web Editor UI fails to show the topic list for old DITA maps created prior to the 4.2 upgrade in the Cloud Servicest. (11852)
+- The **Reports** tab in the Web Editor UI fails to show the topic list for old DITA maps created prior to the July 2023 upgrade of Experience Manager Guides as a Cloud Service. (11852)
 - With Experience Manager Guides installed, images with spaces in their names are not uploading to the DAM. (11718)
-- Condition presets for DITA map aren't getting created. (10936)
+- Condition presets for large DITA map aren't getting created. (10936)
+- A self reference link appears under the list of Broken Links in Reports. (13539)
 
 ### Review
 
-- Side by side review panels of the previous and the current versions in the Web Editor are not correct in 4.3 release. (14156)
+- Side by side review panels of the previous and the current versions in the Web Editor are not correct in the October 2023 release of Experience Manager Guides as a Cloud Service. (14156)
 - Email template customization for **Review** workflow doesn't work with overlaying the nodes. (13954)
 - The **Close** button on the Review page in the Experience Manager Guides takes the users to the AEM Homepage. (13535)
-- Brokem characters appear while creating the snippets in Korean language. (13489)
-- Korean attachments in the Experience Manager Guides Review screen are'nt clickable. (13436)
+- Broken characters appear while creating the snippets in Korean language. (13489)
+- Korean attachments in the Experience Manager Guides Review screen aren't clickable. (13436)
 - Map title gets cut off in the review and collaboration screen, with no option to view the full title. (13012)
 
 ### Translation
