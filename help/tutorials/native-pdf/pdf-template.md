@@ -19,7 +19,7 @@ You can create custom PDF templates with specific page layouts and define format
 
 To create a new PDF template, perform the following steps:
 1. In the Web Editor, go to the **Output** tab.
-1. Select **Templates** in the left panel.
+1. Select **Templates** <img src="./assets/template.svg" alt= "templates icon" width="25"> in the left panel.
 <img src="assets/create-pdf-template.png" alt="Create PDF template" width="400">
 1. In the **Templates** window, select the **+** icon next to **Templates** and choose **PDF Template**.
 1. In the **New PDF Template** dialog, select a factory template which you want to use as a base to create the custom template. You can also use the search box to search for a template.
@@ -39,7 +39,7 @@ If you want to create a new template with the same page layouts and formatting a
 
 To duplicate an existing PDF template, follow the below steps:
 1. In the Web Editor, go to the **Output** tab.
-1. Select **Templates** in the left panel. This opens the **Templates** window.
+1. Select **Templates** <img src="./assets/template.svg" alt= "templates icon" width="25"> in the left panel. This opens the **Templates** window.
 1. Hover over the template that you want to duplicate and select the **...** *Options* icon and choose **Duplicate** from the context menu.
 
    This opens the **Duplicate PDF Template** dialog.   
