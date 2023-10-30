@@ -60,9 +60,7 @@ Next time when you publish any DITA content using your site's template configura
 The AEM Guides supports creating outputs in following formats:
 
 -   AEM Site
-
 -   PDF
-
 -   HTML5
 -   EPUB
 -   Custom output through DITA-OT
@@ -74,6 +72,16 @@ You can also use customized DITA Open Toolkit \(DITA-OT\) plug-ins with the AEM 
 >[!TIP]
 >
 > See the *AEM Site publishing* section in the Best practices guide for best practices around creating AEM Site output.
+
+### Setup custom rewriter with AEM Guides
+
+Experience Manager Guides has a custom sling rewriter module for handling cross-map links (modify the links generated in case of cross-maps).
+
+If you have another custom sling rewriter in your codebase, then use an order value that is greater than 50, as Experience Manager Guides sling rewriter uses 'order' 50, so to override this you need a value >50 . For more details, view Output Rewriting Pipelines.
+
+During this upgrade, since the 'order' value is changed from 1000 to 50, you need to ensure to merge the existing custom rewriter (if any), with fmdita-rewriter.
+
+To upgrade, as the order is decreasing from 1000 to 50, you need to ensure to merge the existing rewriter, if any, correctly with fmdita-rewriter.
 
 ### Customize design template for generating output {#customize_xml-add-on}
 

@@ -7,7 +7,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 
 Using a template ensures consistency in content layout and structure. As templates are predefined, you can avoid rework on formatting issues that arise for every new project or updates. Templates enable you to design page layouts, style content, and apply various settings to customize your PDF.
 
-## Factory and Custom PDF templates
+## Factory and custom PDF templates
 
 There are some sample factory templates shipped out of the box, which the developers can use as the base templates to create customized templates per their organizational requirements.
 
