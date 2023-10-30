@@ -146,8 +146,8 @@ The bugs fixed in various areas are listed below:
 - Zip files are not recognized in the Web Editor, and you cannot drag and drop them. (12709)
 - The content with some attributes applied on it is not being highlighted in Author or Preview mode. (11063)
 - On closing a topic after editing it, you are redirected to the AEM Home page instead of returning to the folder view. (13306)
--Processing is delayed on copying and pasting files in the cloud services. (12457)
--The rootmap setting persists in the Web Editor even if the user has not set it explicitly from the User Preferences. (11551)
+- Delay occurs in the post-processing of files that have been copied and pasted into the cloud services. (12457)
+- The rootmap setting persists in the Web Editor even if the user has not set it explicitly from the User Preferences. (11551)
 
 
 ### Publishing
