@@ -32,7 +32,7 @@ Add a resource ID element to the DITA map. The resource ID serves as the main in
 
 You can also edit the resource ID in the Authoring mode. 
 
-<img src="./assets/barcode-map.png" alt="Sample output with barcode" width=700 border="2px solid gray">
+<img src="./assets/barcode-map.png" alt="Sample output with barcode" width=700 border="2px solid blue">
 
 
 ### Add a barcode placeholder in the template header
@@ -69,7 +69,7 @@ Once you have performed the previous steps, you can generate the PDF output with
 
 The following screenshot displays a sample barcode in a PDF output.
 
-<kbd><img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700></kbd>
+<img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700>
 
 
 ## Barcode types {#barcode-types}
