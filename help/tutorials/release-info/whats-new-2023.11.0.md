@@ -39,6 +39,7 @@ For more details, view the [Advanced PDF Settings](../native-pdf/components-pdf-
 Experience Manager Guides now has improved the resource management for Native PDF templates. You can now share and reuse resources, like images, CSS files, and font files, across multiple Native PDF templates. With this improvement, managing the resources for a large set of templates is much simpler. You don't need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
 
 ## Web Editor enhancements
+
 The following Web Editor enhancements have been done in the November 2023 release:
 
 
@@ -62,6 +63,7 @@ You can define condition attributes in your DITA topics. Then, use the condition
 Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser.
 
 ### Unwrap an element easily 
+
 Now you can easily unwrap an element using the option from the context menu of an element in the Web Editor. This helps you easily merge the element's text with its parent element. 
 
 
