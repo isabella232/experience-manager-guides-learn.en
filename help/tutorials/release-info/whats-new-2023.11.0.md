@@ -38,7 +38,11 @@ For more details, view the [Advanced PDF Settings](../native-pdf/components-pdf-
 
 Experience Manager Guides now has improved the resource management for Native PDF templates. You can now share and reuse resources, like images, CSS files, and font files, across multiple Native PDF templates. With this improvement, managing the resources for a large set of templates is much simpler. You don't need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
 
-## View files by title or filenames in the Web Editor
+## Web Editor enhancements
+The following Web Editor enhancements have been done in the November 2023 release:
+
+
+### View files by title or filenames 
 
 You can now choose the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels from the Author view.
 
@@ -47,22 +51,21 @@ You can now choose the default way to view the files in the Web Editor. You can 
 *Change the default way to view the files from the **User Preferences** dialog.*
  
 
-## Manage condtion presets from the Web Editor 
+### Manage condtion presets 
 
 You can define condition attributes in your DITA topics. Then, use the condition attributes in the condition preset to publish the content in a DITA map. Experience Manager Guides now also allows you to create and manage condition presets from the Web Editor. You can also easily edit, duplicate, or delete them.
 
 ![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
-## Restore file tabs on refreshing the browser
+### Restore file tabs on refreshing the browser
 
 Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser.
 
-## Unwrap an element easily from the context menu of an element
-
+### Unwrap an element easily 
 Now you can easily unwrap an element using the option from the context menu of an element in the Web Editor. This helps you easily merge the element's text with its parent element. 
 
 
-## Keyboard shortcuts to move the cursor in the Web Editor
+### Keyboard shortcuts to move the cursor 
 
 Experience Manager Guides now also allows you to use keyboard shortcuts to move the cursor in the Web Editor. You can use the keyboard shortcuts to quickly move one word left or right. You can also move to the beginning or the end of the line with the help of the keyboard shortcuts.
 Now, you can also use keyboard shortcuts to move the cursor to the beginning of the next element or the end of the previous element.
