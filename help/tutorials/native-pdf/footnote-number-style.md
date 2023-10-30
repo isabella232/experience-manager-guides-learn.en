@@ -138,7 +138,6 @@ Typically, each footnote appears as a block or begins on a new line. But you can
 You can also cross-reference a footnote and refer to the same footnote multiple times in your PDF output. This helps you refer to the same citation or detailed note various times in the document without creating a footnote for it again.
 
 For example, the following screenshot shows how the same footnote is cross-referenced to all cities in the PDF output.
- 
 <img width="550" alt="footnote references in a pdf" src="./assets/link-footnotes.png"> 
 
 *Insert the cross-reference to a footnote.*

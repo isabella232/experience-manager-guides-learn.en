@@ -73,15 +73,6 @@ You can also use customized DITA Open Toolkit \(DITA-OT\) plug-ins with the AEM 
 >
 > See the *AEM Site publishing* section in the Best practices guide for best practices around creating AEM Site output.
 
-### Setup custom rewriter with AEM Guides
-
-Experience Manager Guides has a custom sling rewriter module for handling cross-map links (modify the links generated in case of cross-maps).
-
-If you have another custom sling rewriter in your codebase, then use an order value that is greater than 50, as Experience Manager Guides sling rewriter uses 'order' 50, so to override this you need a value >50 . For more details, view Output Rewriting Pipelines.
-
-During this upgrade, since the 'order' value is changed from 1000 to 50, you need to ensure to merge the existing custom rewriter (if any), with fmdita-rewriter.
-
-To upgrade, as the order is decreasing from 1000 to 50, you need to ensure to merge the existing rewriter, if any, correctly with fmdita-rewriter.
 
 ### Customize design template for generating output {#customize_xml-add-on}
 
@@ -263,6 +254,11 @@ Perform the following steps to stop the creation of a version for the page\(s\) 
     >
     > With this option selected, users will be able to directly delete any page\(s\) without creating any version for them. If the option is not selected, then a version is created before the page\(s\) are deleted.
 
+### Steps to handle the fmdita rewriter conflict
+
+Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling cross-map links (modify the links generated in case of cross-maps). 
+
+If you have another custom sling rewriter in your codebase, then use an order value that is greater than 50, as Experience Manager Guides sling rewriter uses 'order' 50, so to override this you need a value >50 . For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 ## Use metadata in publishing output through DITA-OT {#id191LF0U0TY4}
 
