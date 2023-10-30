@@ -1,6 +1,6 @@
 ---
 title: Create and customize Native PDF templates
-description: Learn how to Create and customize Native PDF templates.
+description: Learn how to create and customize Native PDF templates.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 ---
 # PDF template {#PDF-template}
@@ -23,7 +23,7 @@ To create a new PDF template, perform the following steps:
 <img src="assets/create-pdf-template.png" alt="Create PDF template" width="400">
 1. In the **Templates** window, select the **+** icon next to **Templates** and choose **PDF Template**.
 1. In the **New PDF Template** dialog, select a factory template which you want to use as a base to create the custom template. You can also use the search box to search for a template.
-1. Specify a title and the description for the template.  
+1. Specify a title for the template.  
 
    >[!NOTE]
    >
@@ -48,13 +48,13 @@ To duplicate an existing PDF template, follow the below steps:
 
    *Preview the template and update the title in the **Duplicate PDF Template** dialog.* 
 
-1. Specify a name for the template.
+1. Specify a title for the template.
 
-   The **Name** field is pre-populated as a copy of the same name as the source template. You'll view an error message if the template with the same title exists.  
+   The **Title** field is pre-populated as a copy of the same title as the source template. You'll view an error message if the template with the same title exists.  
 
 
 
-1. To specify a preferred name, remove the pre-populated name and specify a name.
+1. To specify a preferred title, remove the pre-populated title and specify a title.
 1. Click **Duplicate**.
    
    A duplicate template is created and added under the **Templates**.
@@ -140,4 +140,9 @@ To customize a PDF template, perform the following steps:
    
    For example, double-click *Page Layouts* or select the *>* icon before *Page Layouts* to view the available
 page layouts.
+
+>[!NOTE]
+>
+>You can also update a thumbnail image and the description for the template using the [**Properties**](#properties-option) in the **Options** menu.
+
 1. Once you have made the desired changes, select *Save All* (or `Ctrl+S`).
