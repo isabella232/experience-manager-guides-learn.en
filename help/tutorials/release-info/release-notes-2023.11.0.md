@@ -170,7 +170,6 @@ The bugs fixed in various areas are listed below:
 - Content reference is broken on copy-pasting the DITA files having self-reference links without GUID. (13540)
 - In the Web Editor, the baseline shows the title for the previous version instead of the selected version of the DITA file. (13444)
 - The **Reports** tab in the Web Editor UI fails to show the topic list for old DITA maps created prior to the July 2023 upgrade of Experience Manager Guides as a Cloud Service. (11852)
-- With Experience Manager Guides installed, images with spaces in their names are not uploading to the DAM. (11718)
 - Condition presets for large DITA map aren't getting created. (10936)
 - A self-reference link appears under the list of Broken Links in Reports. (13539)
 
@@ -186,6 +185,5 @@ The bugs fixed in various areas are listed below:
 ### Translation
 
 - Auto approve isn't working sometimes, and exceptions occur if an incorrect value is set on **Translation Status**. (13607)
-- **In Progress Projects** link returns to the wrong page. (13248)
 - The baseline exported from the Translation dashboard fails and doesn't open in the target language. (12993)
 
