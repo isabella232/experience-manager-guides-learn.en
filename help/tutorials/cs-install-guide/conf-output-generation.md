@@ -254,7 +254,7 @@ Perform the following steps to stop the creation of a version for the page\(s\) 
     >
     > With this option selected, users will be able to directly delete any page\(s\) without creating any version for them. If the option is not selected, then a version is created before the page\(s\) are deleted.
 
-### Setup custom rewriter with AEM guides
+### Setup custom rewriter with Experience Manager Guides
 
 Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling cross-map links (modify the links generated in case of cross-maps). 
 
