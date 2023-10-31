@@ -91,13 +91,13 @@ Perform the following steps for indexing the existing content and use the new fi
 
 1.   Once the job is completed, the previous GET request responds with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
-## Steps to handle the fmdita rewriter conflict
+## Steps to handle the `'fmdita rewriter'` conflict
 
-Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling cross-map links (modify the links generated in case of cross-maps). 
+Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling the links generated in case of cross-maps (links between the topics of two different maps).
 
-If you have another custom sling rewriter in your codebase,  use an `order` value greater than 50, as Experience Manager Guides sling rewriter uses `order` 50.  To override this, you need a value >50 . For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+If you have another custom sling rewriter in your codebase,  use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50.  To override this, you need a value >50 . For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
-During this upgrade, since the `order` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with fmdita-rewriter.
+During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `'fmdita-rewriter'`.
 
 
 ## Compatibility matrix
