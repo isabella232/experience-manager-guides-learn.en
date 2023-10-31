@@ -265,7 +265,7 @@ You can define the text to appear before and after the break. For example, a tab
 
    The terms in the glossary of your PDF output are always sorted in alphabetical order. 
 
-   You can also add the tag `sort-as` to define a sort key for the glossary terms. Experience Manager Guides then uses the sort key to sort the glossary terms in place of the glossary terms. If you haven't defined the sort key, it uses the glossary terms for sorting. For example, you can add the tag `sort-as—A` to the term "USB" and `sort-as—B` to the term "Pen Drive". When you sort these glossary terms, the sort key `A` for the glossary term "USB" appears before the sort key `B` for the glossary term  "Pen Drive".
+   You can also add the tag `sort-as` to define a sort key for the glossary terms. Experience Manager Guides then uses the sort key to sort the glossary terms in place of the glossary terms. If you haven't defined the sort key, it uses the glossary terms for sorting. For example, you can add the tag `sort-as` to the `glossterm` and set its value to `A` for the term "USB" (For example, `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Similarly, you can add `sort-as` tag and set its value to `B` for the term "Pen Drive". When you sort these glossary terms, the sort key `A` for the glossary term "USB" appears before the sort key `B` for the glossary term  "Pen Drive". So, in the PDF output, "USB" comes before "Pen Drive" on the glossary page.
    
   Using the stylesheets, you can style different glossary elements in the PDF output. Use the glossary styles `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, and `.glo-term` to customize the styles for the elements of the glossary.
   
