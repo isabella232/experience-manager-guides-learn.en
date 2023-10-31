@@ -28,9 +28,9 @@ The Web Editor comes with a range of editing features that let you easily create
     > If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the Unsaved Changes dialog.
 
     **Refresh browser while editing the files**
-    AEM Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.
+    Experience Manager Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.
 
-    Even on refreshing the browser, the views of the left and the right panel are retained in the Web Editor. For example, the active topic in the Repository panel is opened again. The map panel is retained along with the previously opened map.
+    Even on refreshing the browser, the views of the left and the right panel are retained in the Web Editor. Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser. For example, the files opened in the Repository panel are opened again. The map panel is retained along with the previously opened map.
 
     The active topic or DITA map is reopened in the content editing area.
 
