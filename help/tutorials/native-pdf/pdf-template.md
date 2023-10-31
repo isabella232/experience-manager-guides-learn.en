@@ -27,7 +27,7 @@ To create a new PDF template, perform the following steps:
 
    >[!NOTE]
    >
-   >  You can also preview a thumbnail image for the template while creating and duplicating a template. Edit or delete the thumbnail image using [**Properties**](#properties-option) in the **Options** menu.
+   >  You can also preview a thumbnail for the template while creating and duplicating a template. Edit or delete the thumbnail using [**Properties**](#properties-option) in the **Options** menu.
    
 1. Click **Create**. 
 
@@ -46,7 +46,7 @@ To duplicate an existing PDF template, follow the below steps:
 
    <img src="assets/duplicate-template.png" alt="Duplicate PDF template" width="350">  
 
-   *Preview the template and update the title in the **Duplicate PDF Template** dialog.* 
+   *Select a template to duplicate, preview the thumbnail, and update the title in the **Duplicate PDF Template** dialog.* 
 
 1. Specify a title for the template.
 
@@ -143,6 +143,6 @@ page layouts.
 
    >[!NOTE]
    >
-   >You can also update a thumbnail image and the description for the template using the [**Properties**](#properties-option) in the **Options** menu.
+   >You can also update a thumbnail and the description for the template using the [**Properties**](#properties-option) in the **Options** menu.
 
 1. Once you have made the desired changes, select *Save All* (or `Ctrl+S`).
