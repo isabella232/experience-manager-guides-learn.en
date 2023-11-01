@@ -26,7 +26,7 @@ Learn more about the [PDF template](../native-pdf/pdf-template.md).
 
 ### Change the order of pages and publish multiple pages per sheet
 
-Besides publishing the pages according to the source document, you can also change the order of pages in PDF while publishing a multi-page document.  This gives you the flexibility to publish the pages in various orders, like all odd or all even pages first. You can also publish as a booklet and read the pages like a book. You can also decide the number of pages you want to publish on a single sheet of paper. For more details, view the [Page Organization](../native-pdf/components-pdf-template.md#page-organization) section.
+Besides publishing the pages according to the source document, you can also change the order of pages in PDF while publishing a multi-page document.  This gives you the flexibility to publish the pages in various orders, like all odd, or all even pages first. You can also publish as a booklet and read the pages like a book. You can also decide the number of pages you want to publish on a single sheet of paper. For more details, view the [Page Organization](../native-pdf/components-pdf-template.md#page-organization) section.
 
 ### Sort glossary terms based on sort keys
 
@@ -60,7 +60,7 @@ You can define condition attributes in your DITA topics. Then, use the condition
 
 ### Restore file tabs on refreshing the browser
 
-Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser. For more details, view the **Refresh browser while editing the files** feature description in [Edit topics in the Web Editor](../user-guide/web-editor-edit-topics.md).
+Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser. For more details, view the **Refresh browser while editing the files** section under [Edit topics in the Web Editor](../user-guide/web-editor-edit-topics.md).
 
 ### Unwrap an element easily 
 
