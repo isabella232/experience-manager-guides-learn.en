@@ -52,7 +52,7 @@ You can now choose the default way to view the files in the Web Editor. You can 
 *Change the default way to view the files from the **User Preferences** dialog.*
  
 
-### Manage condtion presets 
+### Manage condition presets 
 
 You can define condition attributes in your DITA topics. Then, use the condition attributes in the condition preset to publish the content in a DITA map. Experience Manager Guides now also allows you to create and manage condition presets from the Web Editor. You can also easily edit, duplicate, or delete them.
 
@@ -60,7 +60,7 @@ You can define condition attributes in your DITA topics. Then, use the condition
 
 ### Restore file tabs on refreshing the browser
 
-Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser.
+Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser. For more details, view the **Refresh browser while editing the files** feature description in [Edit topics in the Web Editor](../user-guide/web-editor-edit-topics.md).
 
 ### Unwrap an element easily 
 
