@@ -65,7 +65,7 @@ Experience Manager Guides restores the state of the opened file tabs in the Web 
 ### Unwrap an element easily 
 
 Now you can easily unwrap an element using the option from the context menu of an element in the Web Editor. This helps you easily merge the element's text with its parent element. 
-
+For more details, view the **Unwrap an element** section from the [other features in the Web Editor](../user-guide/web-editor-other-features.md). 
 
 ### Keyboard shortcuts to move the cursor 
 
