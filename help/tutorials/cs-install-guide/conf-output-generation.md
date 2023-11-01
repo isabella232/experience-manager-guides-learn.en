@@ -254,9 +254,9 @@ Perform the following steps to stop the creation of a version for the page\(s\) 
     >
     > With this option selected, users will be able to directly delete any page\(s\) without creating any version for them. If the option is not selected, then a version is created before the page\(s\) are deleted.
 
-### Setup custom rewriter with Experience Manager Guides
+### Setup custom rewriter with Experience Manager Guides {#custom-rewriter}
 
-Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling the links generated in case of cross-maps (links between the topics of two different maps).
+Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling the links generated in case of cross-maps (links between the topics of two different maps). This rewriter configuration is installed at the following path: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
 
 If you have another custom sling rewriter in your codebase,  use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50.  To override this, you need a value >50 . For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
