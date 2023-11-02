@@ -206,6 +206,12 @@ The User Preferences are available to all authors. Using the preferences, an aut
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
 - **Use device theme**: Select this checkbox to allow AEM Guides automatically switch between light and dark themes based on the theme of your device. 
+
+- **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
+    >[!NOTE]
+    >
+    > By default, the files are displayed by title in the Web Editor.
+
 -   **Theme**: You can choose from the Light, Lightest, Dark, or Darkest themes for the editor. In case of Lightest theme, the toolbars and panels use more lighter gray color background. In case of Light theme, the toolbars and panels use light gray color background. In case of Darkest theme, the toolbars and panels use more darker black color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
 
 -   **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
@@ -707,6 +713,10 @@ The left panel gives you access to the following features:
 **Favorites** -  ![](images/favorite-collections.svg)
 
 If you work on a set of files or folders, you can add them to your favorite list to access them quickly. The Favorite list shows the list of documents that you have added and other publicly accessible list of favorite documents from the other users.
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+>[!NOTE]
+>
+> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg). 
 
 To create a favorite list or collection, click the + icon next to Favorites panel to bring up the New Collection dia log:
 
@@ -747,7 +757,12 @@ You can also perform many actions using the Options menu available for a Favorit
 
 **Repository View** - ![](images/Repository_icon.svg)
 
-When you click the Repository View icon, you get a list of files and folders available in DAM.
+When you click the Repository View icon, you get a list of files and folders available in DAM. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file name as a tooltip.   
+
+>[!NOTE]
+>
+> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in the **User Preferences** ![](images/user_preference_editor_icon.svg). 
+
 
 75 files are loaded at a time. Each time you click **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
 
@@ -1009,7 +1024,15 @@ Enter a **Title** for the folder, which is auto-converted into the folder name. 
 
 **Map View** -  ![](images/map-view-icon.svg)
 
-When you click the Map View icon, you get a list of topics within the map file. If you have not opened any map file, then the Map View appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Web Editor. When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+When you click the Map View icon, you get a list of topics within the map file. If you have not opened any map file, then the Map View appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Web Editor.
+
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+>[!NOTE] 
+>
+>As an administrator, you can also choose to view the filename of the parent map by selecting the selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
+
+
+When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 You can perform the following actions using the Options menu of the map file:
 
@@ -1175,6 +1198,11 @@ You can search for a string in the element if it is shown in the Outline View pa
 One of the main features of DITA is the ability to reuse content. The Reusable Contents panel can store your DITA files from where you generally insert reusable content. Once added, the DITA files remain in the Reusable Contents panel across sessions. This means that you don't have to add your DITA files again to access them later.
 
 You can simply drag-and-drop reusable content from the panel onto your current topic and it gets inserted easily and quickly. You can also get a preview of the content before inserting it in your document.
+
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+>[!NOTE]
+>
+> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 To add a DITA file to your Reusable Contents panel, use any of the following methods:
 
@@ -1525,6 +1553,12 @@ The Templates panel is available to only administrators. Using this panel, and a
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file name as a tooltip.   
+
+>[!NOTE]
+>
+> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in the **User Preferences** ![](images/user_preference_editor_icon.svg). 
+
 To create a template, Click the + icon next to Templates and choose a template that you want to create. If you select **Topic Template**, the Create New Topic Template dialog appears:
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
@@ -1542,7 +1576,12 @@ Using the Options menu on an existing template, you can choose to **Edit** or **
 **Review** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Guides provides the feature to display all the review tasks in your projects. You can view all the review projects and the active review tasks within the review projects, that you're part of from the **Review** panel.  You can then open the review tasks to view the comments of the various reviewers. 
-The review panel displays the review tasks. As an author, you can address the comments in a topic using the Web Editor. 
+The review panel displays the review tasks. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+>[!NOTE]
+>
+> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
+
+As an author, you can address the comments in a topic using the Web Editor. 
 
 
 To view the review comments in the active review tasks that are present in your projects, perform the following steps:
@@ -1579,6 +1618,11 @@ To view the review comments in the active review tasks that are present in your 
 The Find and Replace icon is found at the bottom of the left panel. The Find and Replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can find and replace in all topics of a map as well as topics present in the sub-maps within the map.
 
 ![](images/map-find-replace.png){width="800" align="left"}
+
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+>[!NOTE]
+>
+> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 To perform the global search and replace, perform the following steps:
 
@@ -1663,7 +1707,14 @@ You can also use the **Find in Map** option from the **Options** menu of a map t
 
 ## Content editing area {#id2051EB000UI}
 
-The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. You can have multiple topics opened at the same time, which are displayed in their respective tabs. Below the file's tab, you have the breadcrumb of the element at current cursor location. On the top-right corner of the content editing area, the version number of the current topic is displayed.
+The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. You can have multiple topics opened at the same time, which are displayed in their respective tabs.
+
+By default, you can view the file titles in the tabs. As you hover over a file, you can view the file title and the file path as a tooltip.   
+>[!NOTE]
+>
+> As an administrator, you can also choose to view filenames in the tabs by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
+
+ Below the file's tab, you have the breadcrumb of the element at current cursor location. On the top-right corner of the content editing area, the version number of the current topic is displayed.
 
 ![](images/content-editing-area.png){width="650" align="left"}
 
@@ -1718,7 +1769,10 @@ The References section gives you access to the following features:
 -   **Used In**: The Used In references list the documents where the current file is being referred or used.
 -   **Outgoing Links:** The Outgoing Links lists the documents that are referred to in the current document.
 
-Mouse hover over the file's reference and get the file path and UUID of the file in the tooltip.
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+>[!NOTE]
+>
+> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 **Note:** All Used In and Outgoing references are hyperlinked to the documents. You can easily open and edit the linked documents.
 
