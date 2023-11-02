@@ -26,10 +26,15 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Move the cursor one word to the right.|***Ctrl***+***Right Arrow***|***Option***+***Right Arrow***|
 |Move the cursor to the beginning of the current line.|***Home***|***Command***+***Left Arrow***|
 |Move the cursor to the end of the current line.|**End**|***Command***+***Right Arrow***|
+|Move the cursor to the beginning of the next element.|***Tab***|***Tab***|
+|Indent the list item to the next level.|***Tab***|***Tab***|
+|Move the cursor to the end of the previous element.|***Shift***+***Tab***|***Shift***+***Tab***|
+|Outdent the list item to the previous level. |***Shift***+***Tab***|***Shift***+***Tab***|
 |Auto indent XML in Source view|***Ctrl***+***Alt***+***L***|***Command***+***Option***+***L***|
 |Split the current element|***Enter***|***Return***|
 |Copy selected text|***Ctrl***+**C**|***Command***+**C**|
 |Paste|***Ctrl***+**V**|***Command***+**V**|
+|Paste and match formatting|***Ctrl***+***Shift***+**V**|***Command***+***Shift***+**V**|
 |Open Print dialog|***Ctrl***+**P**|***Command***+**P**|
 |Undo last action|***Ctrl***+**Z**|***Command***+**Z**|
 |Redo last action|***Ctrl***+**Y**|***Command***+**Y**|

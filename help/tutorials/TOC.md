@@ -14,6 +14,9 @@ breadcrumb-title: AEM Guides Tutorials
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       + 2023 Releases {#2023-releases}
+       + November Release {#2311-release}      
+            + [What's new](./release-info/whats-new-2023.11.0.md)
+            + [Release Notes](./release-info/release-notes-2023.11.0.md)
         + October Release {#2310-release}      
             + [What's new](./release-info/whats-new-2023.10.0.md)
             + [Release Notes](./release-info/release-notes-2023.10.0.md)
@@ -261,7 +264,7 @@ breadcrumb-title: AEM Guides Tutorials
             + [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
             + [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
             + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
-            + [Use custom styles in footnotes](./native-pdf/footnote-number-style.md)
+            + [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
       + [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
        + [Create a mapping between a topic and a content fragment](./install-guide/conf-content-fragment-mapping.md)  
     + Work with custom workflows {#custom-workflow}

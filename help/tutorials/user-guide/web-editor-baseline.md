@@ -94,7 +94,7 @@ You can also perform the following operations on the baseline from the Options m
     > The process to add or remove labels happens asynchronously, so you can continue working on other files in the Web Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
 
 -   **Edit properties** of an existing static baseline that you have set while creating the baseline.
--   Export the snapshot of a baseline in a CSV file with the **Export Baseline** option.
+-   Export the snapshot of a baseline in a Microsoft Excel file with the **Export Baseline** option.
 
 **Baseline filters**
 

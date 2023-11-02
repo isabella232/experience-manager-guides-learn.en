@@ -232,7 +232,7 @@ You can define the text to appear before and after the break. For example, a tab
 * **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
     
    To convert the glossary terms to hyperlinks, you need to:
-   * Enable **Glossary** in the **Page Order** tab for a DITA map. 
+   * Enable **Glossary** in the **Page Layout Order** tab for a DITA map. 
    * Add the Glossary in the Back Matter Pages for a Book map.
 
    If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
@@ -261,7 +261,11 @@ You can define the text to appear before and after the break. For example, a tab
 
 * **Index**:  If you have designed an Index page layout, map it to the Index option. Using the stylesheets, you can style different index elements in the PDF output. Use the index styles `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` and `.idx-child` to customize the styles for the elements of the index. 
 
-* **Glossary**:  If you have a Glossary page layout, then map it to the Glossary option.  The terms in the glossary of your PDF output are always sorted in alphabetical order. 
+* **Glossary**:  If you have a Glossary page layout, then map it to the Glossary option.  
+
+   The terms in the glossary of your PDF output are always sorted in alphabetical order. 
+
+   You can also add the tag `sort-as` to define a sort key for the glossary terms. Experience Manager Guides then uses the sort key to sort the glossary terms in place of the glossary terms. If you haven't defined the sort key, it uses the glossary terms for sorting. For example, you can add the tag `sort-as` to the `glossterm` and set its value to `A` for the term "USB" (For example, `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Similarly, you can add `sort-as` tag and set its value to `B` for the term "Pen Drive". When you sort these glossary terms, the sort key `A` for the glossary term "USB" appears before the sort key `B` for the glossary term  "Pen Drive". So, in the PDF output, "USB" comes before "Pen Drive" on the glossary page.
    
   Using the stylesheets, you can style different glossary elements in the PDF output. Use the glossary styles `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, and `.glo-term` to customize the styles for the elements of the glossary.
   
@@ -281,7 +285,7 @@ You can define the text to appear before and after the break. For example, a tab
 
 For more information on page layouts, see [Design a page layout](design-page-layout.md).
 
-### Page Order {#page-order}
+### Page Layout Order {#page-order}
 
    You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
 
@@ -295,7 +299,7 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 * Glossary
 * Citation
 
-   <img src="assets/page-order-advance-settings.png" alt="Page order" width="550">
+   <img src="assets/page-order-advance-settings.png" alt="Page layout order" width="550">
 
    If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off. 
 
@@ -346,6 +350,43 @@ You can also perform the following actions:
 * You can also add a custom layout multiple times and order them. This helps you publish the static content accordingly. 
 
    For example, you can use a custom layout to publish a static warning multiple times within the PDF output.
+
+
+
+### Page Organization
+
+The pages in a PDF document are typically published according to the content organized in the DITA map or bookmap file. However, you can also change the order of pages in the PDF document. For example, you can print a multipage document as a booklet. When you collate, fold, and staple the sheets, the result is a single book with the correct page order.  You can then read the published booklet like a book. 
+
+ <img src="assets/template-page-organization.png" alt="Page Organization" width="550">
+
+
+The following settings are available under the **Page Organization** section:
+ 
+#### Page order
+
+Select a page order that determines the sequence of the pages in your PDF document. You can choose the following options from the dropdown:
+
+* **Default**: The default order of the pages as per the source file.
+* **Odd pages first**: All odd pages are moved before all even pages.
+* **Even pages first**:  All even pages are moved before all odd pages.
+* **Reverse**: The page order is reversed.
+* **Booklet**: All pages are ordered as in a booklet.
+* **Right to Left Booklet**: All pages are in right-to-left booklet order.
+* **Custom**: Define a custom order of pages instead of a predefined order. 
+   * "a..b" — All consecutive pages from a to b.
+   * "a,b,c" — New page order a, b, c.
+   * "a*b" — The page a is repeated b times.
+   * "-a" — Negative page numbers count backward beginning from the last page and can be combined with other custom orders.
+   * "X" — All pages of the document. Same result as "1..-1".
+
+So, for example, you can give a custom order like "2,3,5*2,7..10,-1,-2.
+The given page order results in a PDF having the following page numbers from the original document, assuming it has 25 pages total: 2, 3, 5, 5,7, 8, 9, 10, 25, 24.
+
+#### Configure more than one page per sheet 
+
+Choose this option to publish multiple pages on a single sheet of paper.  Then, select the number of rows and columns and publish the pages like a grid on a single sheet. For example, you can publish the pages as a grid of 2 rows and 4 columns. 
+
+Define the target sheet size and the orientation in which you want to publish the sheet. You can also specify the margin and the padding properties of the sheet.
 
 
 

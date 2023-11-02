@@ -184,7 +184,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 **Unwrap an element** 
 
-- Unwrapping an element allows you to remove the element tag from the selected text and merge it with its parent element. For example, if you have a `p` element within a `note` element, you can unwrap the `p` element to merge the text directly within the `note` element. The Unwrap Element option is available in the context menu of the topic's breadcrumb. To unwrap an element, select the element from the topic's breadcrumb, then right-click on the element to open the context menu, then finally select Unwrap Element to remove the element and merge the element's text with its parent element.
+- Unwrapping an element allows you to remove the element tag from the selected text and merge it with its parent element. For example, if you have a `p` element within a `note` element, you can unwrap the `p` element to merge the text directly within the `note` element. The **Unwrap Element** option is available in the context menu of the topic's breadcrumb. To unwrap an element, right-click on the element to open the context menu, then finally select **Unwrap Element** to remove the element and merge the element's text with its parent element.
 
 **Preserving line breaks and indentation** 
 

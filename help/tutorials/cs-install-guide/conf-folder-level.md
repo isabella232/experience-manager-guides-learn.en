@@ -19,7 +19,7 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
 
 -   **Conditional Attributes**: Use this tab to configure conditional attributes at global or folder-level. A conditional attribute is a combination of the attribute name and value, and you can also define a label for it. You can use the standard DITA attributes or your own custom attributes. The conditional attributes that you define at the global level are made available to all users across projects. In case you have defined folder-level conditional attributes, then they are merged with the globally defined conditional attributes.
 
--   **Authoring Template**: Use this tab to configure the templates that your authors will use to create DITA content. The following topic templates are available out-of-the-box:
+-   **Templates**: Use this tab to configure the templates that your authors will use to create or publish DITA content. The following topic templates are available out-of-the-box:
 
     -   Glossary
 
@@ -47,7 +47,7 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
 
     -   Bookmap
 
--   **Output Preset**: Similar to Authoring Templates, there are five pre-configured output presets:
+-   **Output Preset**: Similar to Templates, there are five pre-configured output presets:
 
     -   AEM Site
 
@@ -69,9 +69,9 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
     -   XML Content Version Labels
     -   Rootmap \(only at folder level\)
 
-You can configure both — global profile and folder-level profile. In a folder-level profile, you can define the folders on which the settings will be applicable. These settings include the conditional attributes, authoring templates, output presets, and XML Editor settings. The conditional presets, authoring templates, and XML Editor configurations are then made available to authors who work in the configured folders. Similarly, publishers will have access to the configured output presets defined within the configured folders.
+You can configure both — global profile and folder-level profile. In a folder-level profile, you can define the folders on which the settings will be applicable. These settings include the conditional attributes, templates, output presets, and XML Editor settings. The conditional presets, templates, and XML Editor configurations are then made available to authors who work in the configured folders. Similarly, publishers will have access to the configured output presets defined within the configured folders.
 
-A folder-level profile overrides the settings configured in the global profile. In other words, if a folder has a folder-level profile, then it will show the authoring templates, output templates, and XML Editor settings configured in its corresponding folder profile. It will not show the settings configured in the global profile. However, this does not apply to the conditional attributes. In case of conditional attributes, the conditional attributes are merged at global and folder levels.
+A folder-level profile overrides the settings configured in the global profile. In other words, if a folder has a folder-level profile, then it will show the templates, output templates, and XML Editor settings configured in its corresponding folder profile. It will not show the settings configured in the global profile. However, this does not apply to the conditional attributes. In case of conditional attributes, the conditional attributes are merged at global and folder levels.
 
 The following sections walk you through the process of configuring global profile and folder-level profiles.
 
@@ -93,7 +93,7 @@ Perform the following steps to configure the global profile:
 
 1.  To configure **Conditional Attributes**, see [Configure conditional attributes for global or folder-level profiles](#id1889D0I305Z).
 
-1.  To configure **Authoring Template**, see [Configure authoring templates](#id1889D0IL0Y4).
+1.  To configure **Templates**, see [Configure authoring templates](#id1889D0IL0Y4).
 
 1.  To configure **Output Presets**, see [Configure output presets](#id18AGD0IH0Y4).
 
@@ -138,7 +138,7 @@ Perform the following steps to configure a folder-level profile:
 
     >[!NOTE]
     >
-    > Users that you add here will have the administrative rights to update the conditional attributes, authoring template, and output presets configured for this folder profile.
+    > Users that you add here will have the administrative rights to update the conditional attributes, template, and output presets configured for this folder profile.
 
 1.  To add a folder, click the Browse icon in the Folder Path and navigate to and select a folder, and click Add to add the folder to this profile.
 
@@ -155,11 +155,11 @@ Perform the following steps to configure a folder-level profile:
 1. After adding all required folders and users to the folder profile, click **Save**.
 
 
-Now you are ready to configure the conditional attributes, authoring templates, output presets, and XML Editor.
+Now you are ready to configure the conditional attributes, templates, output presets, and XML Editor.
 
 >[!IMPORTANT]
 >
-> When you create a folder profile, by default it does not contain any authoring templates. You must add the required authoring templates in the folder profile to make them available to your authors.
+> When you create a folder profile, by default it does not contain any templates. You must add the required templates in the folder profile to make them available to your authors.
 
 ## Configure conditional attributes for global or folder-level profiles {#id1889D0I305Z}
 
@@ -219,13 +219,13 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
 1.  Add custom attributes to the global or folder-level profile.
 
 
-## Configure authoring templates {#id1889D0IL0Y4}
+## Configure templates {#id1889D0IL0Y4}
 
-AEM Guides comes with 7 out-of-the-box authoring templates and 2 DITA map templates. You can choose to have only a few templates available to your authors. In case you use a custom template, the same can be configured and made available for authoring. You use the Authoring Template tab in the Folder Profiles configuration to add or remove topic or map templates from global or folder-level profiles.
+AEM Guides comes with 7 out-of-the-box topic templates, 2 DITA map templates, and 3 PDF templates. You can choose to have only a few templates available to your authors and publishers. In case you use a custom template, the same can be configured and made available for authoring and publishing. You use the **Templates** tab in the Folder Profiles configuration to add or remove topic, map, or PDF templates from global or folder-level profiles.
 
-Even before configuring the topic or map templates at global or folder-level, you can also define a location to store your custom authoring templates. To configure a custom location to store authoring templates, see [Configure custom DITA template folder path](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Even before configuring the topic, map, or PDF templates at global or folder-level, you can also define a location to store your custom templates. To configure a custom location to store the templates, see [Configure custom DITA template folder path](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Perform the following steps to add the topic or map templates into a folder profile:
+Perform the following steps to add the topic, map, or PDF templates into a folder profile:
 
 1.  Log into Adobe Experience Manager as an administrator or the user having administrative rights on a folder-level profile.
 
@@ -237,26 +237,26 @@ Perform the following steps to add the topic or map templates into a folder prof
 
     >[!NOTE]
     >
-    > You can choose to configure authoring template in the Global Profile or a folder-level profile.
+    > You can choose to configure a template in the Global Profile or a folder-level profile.
 
-1.  On the profile page, click on the **Authoring Template** tab.
+1.  On the profile page, click on the **Templates** tab.
 1.  Click **Edit**.
 
-    You get the options to add Topic and Map templates by searching from the default location or browsing for it.
+    You get the options to add Topic, Map, and PDF templates by searching from the default location or browsing for it.
 
     >[!NOTE]
     >
-    > By default, all authoring templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics` and `maps` sub-folders to store the topic and map templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
+    > By default, all templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics`, `maps`, and `PDF` sub-folders to store the topic, map, and PDF templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
 
-    ![](assets/search-author-temp.png)
+    ![](assets/search-author-temp.png){width="800" align="left"}
 
-1.  Add the required topic and map templates to your profile.
+1.  Add the required topic, map, and PDF templates to your profile.
 
     To add a template, do one of the following:
 
     -   Choose **Search or Type** and enter or select the name of a template from the drop-down list. The drop-down list consists of all default templates and any new template that you have created.
 
-        ![](assets/default-template-list.png)
+        ![](assets/default-template-list.png){width="800" align="left"}
 
     -   Click **Browse** and select a template from DAM.
 
@@ -264,7 +264,7 @@ Perform the following steps to add the topic or map templates into a folder prof
 
     The selected templates are added to the template list.
 
-    ![](assets/author-templ-added-list.png)
+    ![](assets/author-templ-added-list.png){width="800" align="left"}
 
     >[!NOTE]
     >
