@@ -189,3 +189,8 @@ The bugs fixed in various areas are listed below:
 - Auto approve isn't working sometimes, and exceptions occur if an incorrect value is set on **Translation Status**. (13607)
 - The baseline exported from the Translation dashboard fails and doesn't open in the target language. (12993)
 
+## Known issue
+
+Adobe has identified the following known issue for the November 2023 release.
+
+- Regenerative publishing to generate the AEM site output is failing.
