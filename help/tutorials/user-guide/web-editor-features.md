@@ -716,7 +716,7 @@ If you work on a set of files or folders, you can add them to your favorite list
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg). 
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg). 
 
 To create a favorite list or collection, click the + icon next to Favorites panel to bring up the New Collection dia log:
 
@@ -761,7 +761,7 @@ When you click the Repository View icon, you get a list of files and folders ava
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in the **User Preferences** ![](images/user_preference_editor_icon.svg). 
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor by selecting the **Filename** option in the **User Preferences** ![](images/user_preference_editor_icon.svg). 
 
 
 75 files are loaded at a time. Each time you click **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
@@ -1202,7 +1202,7 @@ You can simply drag-and-drop reusable content from the panel onto your current t
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 To add a DITA file to your Reusable Contents panel, use any of the following methods:
 
@@ -1553,11 +1553,11 @@ The Templates panel is available to only administrators. Using this panel, and a
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
-By default, you can view the files by titles. As you hover over a file, you can view the file title and the file name as a tooltip.   
+By default, you can view the files by titles. As you hover over a template, you can view the file title and the file name as a tooltip.   
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in the **User Preferences** ![](images/user_preference_editor_icon.svg). 
+> As an administrator, you can also choose to view the list of files in the Web Editor by selecting the **Filename** option in the **User Preferences** ![](images/user_preference_editor_icon.svg). 
 
 To create a template, Click the + icon next to Templates and choose a template that you want to create. If you select **Topic Template**, the Create New Topic Template dialog appears:
 
@@ -1579,7 +1579,7 @@ AEM Guides provides the feature to display all the review tasks in your projects
 The review panel displays the review tasks. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 As an author, you can address the comments in a topic using the Web Editor. 
 
@@ -1622,7 +1622,7 @@ The Find and Replace icon is found at the bottom of the left panel. The Find and
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 To perform the global search and replace, perform the following steps:
 
@@ -1712,7 +1712,7 @@ The content editing area is where the content of your topic or map is displayed.
 By default, you can view the file titles in the tabs. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view filenames in the tabs by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the tabs by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
  Below the file's tab, you have the breadcrumb of the element at current cursor location. On the top-right corner of the content editing area, the version number of the current topic is displayed.
 
@@ -1772,7 +1772,7 @@ The References section gives you access to the following features:
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor by selecting the **Filename** option in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 **Note:** All Used In and Outgoing references are hyperlinked to the documents. You can easily open and edit the linked documents.
 
