@@ -193,4 +193,4 @@ The bugs fixed in various areas are listed below:
 
 Adobe has identified the following known issue for the November 2023 release.
 
-- Unable to regenerate the AEM Site output for a DITA map after editing it.
+- Selective topic regeneration for AEM Site output fails.
