@@ -56,8 +56,8 @@ In this session, you learnt about following for Native PDF publishing:
 
 ## Next expert session 
 
-- **Topic** - TBD
-- **Scheduled on** - TBD
+- **Topic** - Guides Extension Framework
+- **Scheduled on** - 02 Nov 2023
 
 ## Contact us
 
