@@ -1,7 +1,7 @@
 ---
 title: Extension Framework of AEM Guides - Customize Web-Editor and Review UI
 description: With the Guides extension framework you can customize the desired sections of Review Ui or Webeditor by using easy-to-update JSON, CSS, and JavaScript.
-exl-id: 
+
 ---
 # Extension Framework of AEM Guides: Customize Web-Editor and Review UI
 
