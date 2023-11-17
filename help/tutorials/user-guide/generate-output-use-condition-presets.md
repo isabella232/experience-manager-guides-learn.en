@@ -98,7 +98,7 @@ Perform the following steps to delete condition presets:
 ## Condition presets from the map dashboard
 
 
-## Create a condition preset 
+### Create a condition preset 
 
 Perform the following steps to create a condition preset:
 
@@ -123,7 +123,7 @@ Perform the following steps to create a condition preset:
     *   Select an action for an attribute from the **Action** drop-down.
 1.  Click **Save**.
 
-## Edit a condition preset 
+### Edit a condition preset 
 
 You can make changes in an existing condition preset to change the actions applied to the attributes in the condition preset. Perform the following steps to edit a condition preset:
 
@@ -132,7 +132,7 @@ You can make changes in an existing condition preset to change the actions appli
 1.  Make required changes for all the attributes in the condition preset.
 1.  Click **Save**.
 
-## Create a copy of a condition preset 
+### Create a copy of a condition preset 
 
 You can create a copy of a condition preset and then modify it according to your requirement. Perform the following steps to create a copy of a condition preset:
 
@@ -148,7 +148,7 @@ You can create a copy of a condition preset and then modify it according to your
 1.  \(Optional\) Make required changes for all the attributes in the condition preset.
 1.  Click **Save**.
 
-## Delete condition preset 
+### Delete condition preset 
 
 You can delete one or more condition presets from the **Condition Preset** tab of the DITA map console. Perform the following steps to delete condition presets:
 
