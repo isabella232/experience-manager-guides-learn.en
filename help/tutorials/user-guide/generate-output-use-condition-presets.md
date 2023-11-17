@@ -83,6 +83,7 @@ Perform the following steps to duplicate a condition preset:
     >[!NOTE]
     >
     > The default name of the preset is `<selected condition preset name>_1`. You can change the name according to your requirements.
+    
 1. Click **Duplicate**.
 
 ### Delete condition preset
