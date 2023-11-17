@@ -130,7 +130,10 @@ To customize a PDF template, perform the following steps:
       In addition to the appearance, you can also define the arrangement of page elements such as the header, footer, and content areas on a page. To know more on customizing a page's layout, see [Create and customize page layouts](components-pdf-template.md#create-customize-page-layout).
 
    * Stylesheets: The settings in the Stylesheets section allows you to customize the look and feel of the page layout components like the TOC, index, glossary, citations, and more. In addition, you can also customize the styles for the DITA content like headings, paragraphs, lists, and more. To know more on using the stylesheets, see [Use Stylesheets to customize PDF](components-pdf-template.md#stylesheet-customization).
-   * Resources: Store asset files that you would need to customize or design PDF templates. Assets such as logos, custom fonts, background images, and more are stored in the Resources. To know more on utilizing resources, see [Work with resources](components-pdf-template.md#work-with-resources).
+   * Resources: Store asset files that you would need to customize or design PDF templates. Assets such as logos, custom fonts, background images, and more are stored in the Resources. 
+   You can also use resources present at any other location in the repository. You don’t need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
+
+      To know more on utilizing resources, see [Work with resources](components-pdf-template.md#work-with-resources).
    * Settings: Configure the output settings for generating a PDF using the template. This section allows you to define template mapping for various pages in a PDF, chapter starting page, print markers, citations, and more. 
    You can also arrange the order in which they should appear in your final PDF output.
    For more information on applying settings, see [Advanced PDF Settings](components-pdf-template.md#advanced-pdf-settings).
