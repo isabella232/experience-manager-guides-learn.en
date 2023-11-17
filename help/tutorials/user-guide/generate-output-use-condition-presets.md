@@ -31,7 +31,7 @@ You can create a condition preset of the topics by performing the following step
 1. Select the + icon next to **Condition Presets** to open the **New Condition Preset** dialog. 
 1. Enter a unique name for the preset.
  
-    <!NOTE>
+    >[!NOTE]
     >
     > You view an error if the name field is empty or if you enter an Invalid character or a name that is the same as an existing condition preset. You can use a hyphen '-' or underscore '_' as a separator.
 
@@ -43,9 +43,9 @@ The **Attributes** panel shows all the attributes added to the map. The right pa
     * Select one or more attributes to add all the values under them to the condition preset. For example, you can select the `platform` attribute to add all its values.
     * Select one or more attribute values to add them to the condition preset. For example, you can select the `Unix` and `Win` values of the platform attribute 
     * **Select all** to add all the attributes and their values to the condition preset.
-By default, the action for an attribute is `Include`.
+    By default, the action for an attribute is `Include`.
 
-1.	Select **Add**. You can repeat this step to add more attributes. The attributes that you add move from the central to the right panel.  
+1. Select **Add**. You can repeat this step to add more attributes. The attributes that you add move from the central to the right panel.  
 1. Select Remove from the actions bar on the top to remove the selected attributes in the right panel. 
 1.  (Optional) If required, you can override the action applied to the attributes. 
 Do one of the following:
@@ -57,7 +57,7 @@ Do one of the following:
     * Select multiple attribute rows from the right panel and choose an action from the actions bar on the top. For example, you can select Exclude action for the selected attributes.
 1.  Select **Save** to save the condition preset. 
 
-    <!NOTE>
+    >[!NOTE]
     >
     > You view a warning if you select another preset or close the preset without saving it. 
 
@@ -78,7 +78,7 @@ Perform the following steps to duplicate a condition preset:
 
 1. Hover over  a condition preset from the **Condition Presets** panel.
 1. Select **Duplicate** from the Options menu to open the **Duplicate condition preset** dialog.
-    <!NOTE>
+    >[!NOTE]
     >
     > The default name of the preset is <selected condition preset name>_1
 You can change the name according to your requirements.
