@@ -18,7 +18,7 @@ You can create condition presets in two ways:
 Experience Manager Guides allows you to manage condition presets from the Web Editor and use them within the Output presets to generate the final output.
 You can create and view the condition presets, view the attributes, and manage the actions for the current map from the **Condition Presets** view in the Web Editor.
 
-<img src="images//manage-condtions-presets.png" alt= "condtion presets in web editor" width="800" border="1px">
+<img src="images//manage-condtions-presets.png" alt= "Condtion presets in web editor" width="800" border="1px">
 
 
 
