@@ -80,8 +80,7 @@ Perform the following steps to duplicate a condition preset:
 1. Select **Duplicate** from the Options menu to open the **Duplicate condition preset** dialog.
     >[!NOTE]
     >
-    > The default name of the preset is <selected condition preset name>_1
-You can change the name according to your requirements.
+    > The default name of the preset is `<selected condition preset name>_1`. You can change the name according to your requirements.
 1. Click **Duplicate**.
 
 ### Delete condition preset
