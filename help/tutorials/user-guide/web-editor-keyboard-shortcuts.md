@@ -18,6 +18,9 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Apply bold formatting on selected text|***Ctrl***+***B***|***Command***+***B***|
 |Apply Italics formatting on selected text|***Ctrl***+***I***|***Command***+***I***|
 |Apply underline formatting on selected text|***Ctrl***+***U***|***Command***+***U***|
+|Focus on the left panel|**Ctrl***+**Shift**+***1***|***Command***+**Shift**+***1***|
+|Focus on the right panel	|**Ctrl***+**Shift**+***2***|***Command***+**Shift**+***2***|
+|Focus on the middle content editing area	|**Ctrl***+**Shift**+***0***|***Command***+**Shift**+***0***|
 |Save document in Author or Source view|***Ctrl***+**Shift**+***S***|***Command***+**Shift**+***S***|
 |Save all opened documents in Author or Source view|***Ctrl***+***S***|***Command***+***S***|
 |Show Insert Element dialog|***Alt***+***Enter***|***Option***+***Enter***|
