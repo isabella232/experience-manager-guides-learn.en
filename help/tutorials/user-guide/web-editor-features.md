@@ -296,7 +296,7 @@ Using the table's context menu, you can:
 -   Generate IDs
 
 
-You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**. In the Other Attributes section, select the `@valign` attribute from the attribute drop-down list. From the value drop-down list, select the desired text alignment you want to apply on the selected table cells.
+You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**. In the Attributes section, Click **+Add**. Select the `@valign` attribute from the attribute drop-down list. From the value drop-down list, select the desired text alignment you want to apply on the selected table cells. Then click **Add.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -1485,9 +1485,15 @@ For example, use the following enumeration to restrict the `@platform` attribute
 
 **Attributes drop-down**
 
-You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
+You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. 
+Perform the following steps to change the value:
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+ 1. Select an attribute from the **Attribute** dropdown. 
+ 1. Select **Edit** ![edit-icon](images/edit_pencil_icon.svg). 
+ 1. Select the required value from the **Value** dropdown. 
+ 1. Click **Update**.   
+
+    ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
 You can also apply values for an attribute by selecting multiple values from the dropdown.
 
@@ -1730,7 +1736,13 @@ The right panel gives you access to the following features:
 
 **Content Properties** -  ![](images/content-properties-icon.svg)
 
-You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. You can also add attributes by selecting the attribute from the dropdown list and specifying an attribute's value.
+You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. Perform the following steps to add attributes:
+
+1. Click **+ Add**. The **Attribute** dropdown panel appears.
+1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  You can view the selected attributes in the panel.  Then click **Add**. You can view the added attributes. To remove an attribute, select the cross icon next to the attribute.
+1. To edit the attribute, hover over it and select **Edit** ![edit-icon](images/edit_pencil_icon.svg).
+1. To delete the attribute, hover over it, and select **Delete** ![delete-icon](images/Delete_icon.svg). 
+
 
 >[!NOTE]
 >
