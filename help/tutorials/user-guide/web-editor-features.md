@@ -1037,7 +1037,12 @@ By default, you can view the files by titles. As you hover over a file, you can 
 >As an administrator, you can also choose to view the filename of the parent map which is currently opened in the map view. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 
-When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. 
+
+When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`. 
+
+If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+
 
 You can perform the following actions using the Options menu of the map file:
 
@@ -1166,7 +1171,7 @@ The Outline View offers the following features:
 
     ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
--   The **Options** menu in the *Outline View* allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Unwrap an element, and create a snippet out of the selected element.
+-   The **Options** menu in the *Outline View* allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Wrap an element, Unwrap an element, and create a snippet out of the selected element.
 
 >[!NOTE]
 >
