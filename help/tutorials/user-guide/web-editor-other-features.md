@@ -185,7 +185,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 **Wrap an element** 
 
-- Wrapping an element allows adding an element tag to the selected text. You can wrap the text to any child element following DITA standards. For example, if you have text under a `note` element, then you can wrap the text to a `p` element. 
+- Wrapping an element allows you to add an element tag to the selected text. You can wrap the text to any child element following DITA standards. For example, if you have text under a `note` element, then you can wrap the text to a `p` element. 
     
     The **Wrap Element** option is available in the context menu of the topic's breadcrumb. To wrap an element, right-click on the element and open the context menu. Select the element from the **Wrap Element** dialog. The text appears in the new element. 
 
