@@ -296,7 +296,12 @@ Using the table's context menu, you can:
 -   Generate IDs
 
 
-You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**. In the Attributes section, Click **+Add**. Select the `@valign` attribute from the attribute drop-down list. From the value drop-down list, select the desired text alignment you want to apply on the selected table cells. Then click **Add.**
+You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**.
+
+1. In the **Attributes** section, Click **+Add**. 
+1. Select the `@valign` attribute from the **Attribute** dropdown list. 
+1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
+1. Click **Add.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -1485,7 +1490,8 @@ For example, use the following enumeration to restrict the `@platform` attribute
 
 **Attributes drop-down**
 
-You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. 
+You can also change the value of the subject scheme using the **Attributes** dropdown from the **Content Properties** panel in the **Author** view. 
+
 Perform the following steps to change the value:
 
  1. Select an attribute from the **Attribute** dropdown. 
@@ -1741,7 +1747,7 @@ You can access the Content Properties feature by clicking the Content Properties
 1. Click **+ Add**. The **Attribute** dropdown panel appears.
 1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  You can view the selected attributes in the panel.  Then click **Add**. You can view the added attributes. To remove an attribute, select the cross icon next to the attribute.
 1. To edit the attribute, hover over it and select **Edit** ![edit-icon](images/edit_pencil_icon.svg).
-1. To delete the attribute, hover over it, and select **Delete** ![delete-icon](images/Delete_icon.svg). 
+1. To delete the attribute, hover over it and select **Delete** ![delete-icon](images/Delete_icon.svg). 
 
 
 >[!NOTE]
