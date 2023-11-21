@@ -298,7 +298,7 @@ Using the table's context menu, you can:
 
 You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**.
 
-1. In the **Attributes** section, Click **+Add**. 
+1. In the **Attributes** section, click **+Add**. 
 1. Select the `@valign` attribute from the **Attribute** dropdown list. 
 1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
 1. Click **Add.**
