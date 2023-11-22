@@ -161,6 +161,7 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 |  **Enable MathML equations** | Select this option to render MathML equations present in your content. The equations will be ignored otherwise by default.  | 
 |  **PDF conformance** | It is the standard to which you intend to save your PDF to ensure it is compliant. Select from the dropdown to choose from the list of available PDF standards. For more details about the supported standards, see [About PDF standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). | 
 |**Download temporary files**|Select this option if you want to download the interim HTML files created while generating the Native PDF output. You can later download the temporary files after generating the output.  |
+|**File Properites**|Select the properties that you want to process as metadata. The dropdown lists both the custom and the default properties. These properties are set from the Properties page of the DITA map or bookmap file. Once set, these properties are also copied into the topics within the map. The selected metadata properties will be passed to the output generated using Native-PDF.|
 
 ## Generate a PDF output {#generate-pdf-output} 
 
