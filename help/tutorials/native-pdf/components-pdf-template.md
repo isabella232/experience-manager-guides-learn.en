@@ -462,11 +462,11 @@ If you leave the text field blank, Experience Manager Guides adds the following 
 When you add `${lng:<variable name>}` to the Paragraph section, the cross-references in the paragraphs of the output contain the localized text and the page number.  
 For example, the following screenshots show the cross-references “View on page 1 ” in English and “Einzelheiten finden Sie auf der Seite 1” in German. 
 
-<img src="./assets/english-output-corss-reference.png" alt="English output of a cross-reference in a pragrah" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="English output of a cross-reference in a pragrah" width ="800" border="2px">
 
 *A cross-reference within a paragraph when published in the English language.*
 
-   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800">
+   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800" border="2px">
 
 *A cross-reference within a paragraph when published in the German language.*
 
