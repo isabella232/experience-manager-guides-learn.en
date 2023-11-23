@@ -150,7 +150,7 @@ The bugs fixed in various areas are listed below:
 
 ### Publishing
 
-- Fmdita components have a hardcoded path of `delegator.jsp, preventing the overlay of AEM Sites components. (13993)
+- Fmdita components have a hardcoded path of `delegator.jsp`, preventing the overlay of AEM Sites components. (13993)
 - The tagged view of PDF reactor in Native PDF publishing output isn't working as expected. (13622)
 - AEM Site publishing encounters an issue when committing to the datastore for large maps with scope peer links. (13531)
 - Unable to activate a site using Experience Manager Guides Bulk Publication dashboard. (13439)
