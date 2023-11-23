@@ -15,7 +15,7 @@ breadcrumb-title: AEM Guides Tutorials
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       + 2023 Releases {#2023-releases}
         + December Release {#2312-release}      
-            + [What's new](./release-info/whats-new-2023.11.0.md)
+            + [What's new](./release-info/whats-new-2023.12.0.md)
             + [Release Notes](./release-info/release-notes-2023.12.0.md)
         + November Release {#2311-release}      
             + [What's new](./release-info/whats-new-2023.11.0.md)

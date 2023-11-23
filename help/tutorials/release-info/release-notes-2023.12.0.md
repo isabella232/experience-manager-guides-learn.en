@@ -7,7 +7,7 @@ description: Learn about the bug fixes and how to upgrade to the December 2023 r
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version December 2023 of Adobe Experience Manager Guides as a Cloud Service (later referred as *Experience Manager Guides as a Cloud Service*).
 
-For more information about the new features and enhancements, see [What's new in the December 2023 release of Experience Manager Guides as a Cloud Service](whats-new-2023.11.0.md).
+For more information about the new features and enhancements, see [What's new in the December 2023 release of Experience Manager Guides as a Cloud Service](whats-new-2023.12.0.md).
 
 ## Upgrade to December 2023 release
 
