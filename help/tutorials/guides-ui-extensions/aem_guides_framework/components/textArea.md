@@ -24,6 +24,7 @@ const textAreaJSON =  {
 },
 
 ```
+
 Here, `on-keyup` is the syntax for invoking the commands in the controllers.
 This will produce a textArea where pressing ENTER will call the event `submitName`
 

@@ -2,15 +2,16 @@
 
 To ease the customisation of the review app we have provided some hooks listed and explained below:
 
-### Review-Comment
+## Review-Comment
+
 - id: `review_comment`
 - hook: `this.updateExtraProps`:
 
 As discussed [here](../../aem_guides_framework/basic_customisation.md), any new attribute added during customisation goes under `this.model.extraProps`. The method `updateExtraProps` allows you to add attributes to a review comment, handling the updation and storage of the added attribute on the server as well.
 
-#### Usage Example:
+### Usage Example
 
-Say for example, you want to add fields `commentRationale` and `severity` to your comments. 
+Say for example, you want to add fields `commentRationale` and `severity` to your comments.
 Let us update the `commentRationale` to "This is an important sentence." and the `severity` to "CRITICAL".
 This can be done using the syntax:
 
@@ -30,12 +31,11 @@ The above code snippet will handle the updation and saving of the values. The sa
 }
 ```
 
-### Inline review panel
+## Inline review panel
 
 - id: `inline_review_panel`
 
 1. hook: `onNewCommentEvent`
-
 The hook `onNewCommentEvent` allows you to throw an event or call a method on a new comment or reply event.
 The args received in the `onNewCommentEvent` include:
     - events: the comment/reply event that was dispatched.
@@ -48,7 +48,7 @@ The args received in the `onNewCommentEvent` include:
 
 This hook is beneficial if you want to extend an `event` and send `extraProps` from the inline review panel. We will explain the usage of these two hooks below.
 
-#### Usage Example:
+### Inline Review Panel Example
 
 Say we want to send an extraProp, `userInfo`, everytime a new comment or reply is dispatched. Now this will be done via the inline review panel, however we do not have the reference to the commentId of the newly generated comment, hence to achieve this we can write the following code.
 
@@ -66,7 +66,6 @@ Say we want to send an extraProp, `userInfo`, everytime a new comment or reply i
 ```
 
 In the above code snippet, we are checking if the dispatched event was a new comment or reply. In case of a new comment or reply, we are calling the method `setUserInfo`
-
 
 ```typescript
     setUserInfo(event) {

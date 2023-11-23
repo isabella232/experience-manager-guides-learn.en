@@ -8,6 +8,7 @@ Let us now how to integrate these customisations in our AEM Guides app.
 
 Say, we want to add this button in an exisiting view of the app.
 For this we need to 3 basic things:
+
 1. The `id` of the view JSON we want to add our component to.
 2. The `target`, i.e. the location in the JSON we want to add the new component to. The `target` is defined using a `key` and `value`. The key-value pair can be any attribute used to define the component that can help in unique identification of it.
 We can also use indexes to reference the target.
@@ -46,6 +47,7 @@ export default {
 ```
 
 In the above example we have:
+
 1. the `id` of the JSON we want to insert our component into, i.e. `annotation_toolbox`
 2. the target is the `addcomment` button. We add our button after the `addcomment` button using the viewState `append`.
 3. We define the on-click event of the button in the controller.
@@ -63,7 +65,8 @@ After the customisation, the annotation toolbox looks like this:
 ## Adding CSS
 
 For the consistency we provide the component already styled. The inserted JSON will have inherent styles applied to it
-The primary way to manage css is through the extraClass key in the extensions. 
+The primary way to manage css is through the extraClass key in the extensions.
+
 ```js
 {    
     "view":{
@@ -77,4 +80,5 @@ The primary way to manage css is through the extraClass key in the extensions.
 }
 
 ```
+
 You can put custom styles with CSS classes by adding a css file to [clientlibs](#clientlibs). During the build we also create [Tailwind](https://tailwindcss.com/docs/utility-first) output for the utility classes in tailwind. The config for the same can be found at [tailwind.config.js](../../../tailwind.config.js)

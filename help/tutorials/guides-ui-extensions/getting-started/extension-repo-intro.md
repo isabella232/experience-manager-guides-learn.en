@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # AEM Guides Extension Package Directory structure
 
-```
+```text
 ├── src
 │   ├── **/*{js,ts}
 │   ├── index.ts
@@ -27,19 +27,21 @@ sidebar_position: 3
 
 ```
 
-### /src
-```
+## /src
+
+```text
 ├── src
 │   ├── **/*{js,ts}
 │   ├── index.ts
 ```
+
 The source directory will contain the typescript or javascript files for your extension. The index.ts file is the entry point for your extension. You can import all your components here and export them as a single object. This object will be used by the extension to render the components.
 
 ### /dist
 
 This is the final build directory. This contains the final JS and CSS, that needs to be copied to the AEM
 
-```
+```test
 ├── dist
 │   ├── gudies-extension.js // you can either choose es module (this one) or .cjs(other one) file
 │   ├── gudies-extension.umd.cjs
@@ -47,10 +49,11 @@ This is the final build directory. This contains the final JS and CSS, that need
 
 ```
 
-### /jsons
+## /jsons
+
 This directory contains the JSONs for the various views. You can use these JSONs to identify the targets and customise the view.
 
-```
+```text
 ├── jsons // jsons for the aem app
 │   ├── context_menus // jsons for the context menus
 │   ├── review_app // jsons for the review app

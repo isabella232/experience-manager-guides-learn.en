@@ -14,6 +14,7 @@ const listJSON =  {
 },
 
 ```
+
 Here, language is a simple array of strings. `languages = ["English", "Hindi", "French"]`
 In case we want to render a list of objects, we can specify the structure using item config.
 

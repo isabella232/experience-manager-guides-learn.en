@@ -2,9 +2,10 @@
 sidebar_position: 7
 ---
 
-### The below JSONs are customisable:
+# Customisable JSON
 
 Context Menus:
+
 - [`file_options`](./../../jsons/context_menus/file_options.json)
 - [`folder_options`](./../../jsons/context_menus/folder_options.json)
 - [`collection_options`](./../../jsons/context_menus/collection_options.json)
@@ -13,7 +14,8 @@ Context Menus:
 - [`preset_item_menu`](./../../jsons/context_menus/preset_item_menu.json)
 
 Review App:
-- [`inline_review_panel`](./../../jsons/review_app/inline_review_panel.json) 
+
+- [`inline_review_panel`](./../../jsons/review_app/inline_review_panel.json)
 - [`annotation_toolbox`](./../../jsons/review_app/annotation_toolbox.json)
 - [`review_comment`](./../../jsons/review_app/review_comment.json)
 - [`comment_reply`](./../../jsons/review_app/comment_reply.json)

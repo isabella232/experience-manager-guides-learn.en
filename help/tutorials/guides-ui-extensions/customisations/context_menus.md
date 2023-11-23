@@ -4,36 +4,37 @@ sidebar_position: 2
 
 # Customising Context Menus
 
-The following context menus can be customised: 
+The following context menus can be customised:
+
 - `file_options`
-    controllers: 
-    - Map view: `ditamap_viewer_controller`
-    - Repository Panel: `repository_panel_controller`
-    - Favorites Panel: `collection_tree_controller`
-    - File Properties Reference Links: `file_references_links_controller`
-    - Repository Search Panel: `repository_search_controller`
-    - Subject Scheme Panel: `subject_scheme_tree_controller`
+    controllers:
+  - Map view: `ditamap_viewer_controller`
+  - Repository Panel: `repository_panel_controller`
+  - Favorites Panel: `collection_tree_controller`
+  - File Properties Reference Links: `file_references_links_controller`
+  - Repository Search Panel: `repository_search_controller`
+  - Subject Scheme Panel: `subject_scheme_tree_controller`
 
 - `folder_options`
-    controllers: 
-    - Repository Panel: `repository_panel_controller`
-    - Favorites Panel: `collection_tree_controller`
+    controllers:
+  - Repository Panel: `repository_panel_controller`
+  - Favorites Panel: `collection_tree_controller`
 
 - `collection_options`
-    controllers: 
-    - Favorites Panel: `collection_tree_controller`
+    controllers:
+  - Favorites Panel: `collection_tree_controller`
 
 - `map_view_options`
-    controllers: 
-    - Map view: `ditamap_viewer_controller`
+    controllers:
+  - Map view: `ditamap_viewer_controller`
 
 - `baseline_panel_menu`
     controllers:
-    - Baseline Panel: `baseline_panel`
+  - Baseline Panel: `baseline_panel`
 
 - `preset_item_menu`
     controllers:
-    - Preset Panel: `preset_panel`
+  - Preset Panel: `preset_panel`
 
 You can also create your own context menu by defining a new unique id.
 
@@ -106,6 +107,7 @@ const fileOptions = {
     }
 }
 ```
+
 Now let us understand what this code is doing.
 
 1. `id` is used to identify the context menu we want to customise.

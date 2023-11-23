@@ -16,6 +16,7 @@ const buttonJSON = {
 };
 
 ```
+
 This will produce a button with a label of `Yes, login`. The other properties includes but are not limited to variant,label,on-click.
 > **_NOTE:_**  The `on-<events>` is the syntax for invoking the commands in the controllers.
 
