@@ -39,7 +39,7 @@ Response:
 }
 ```
 
-In the previous response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, then, you can refer to this node for the status of the job.
+In the previous response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, then you can refer to this node for the status of the job.
 
 Wait till this job is completed before proceeding to the next steps. 
 
@@ -107,7 +107,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 ### FrameMaker and FrameMaker Publishing Server
 
-| Experience Manager Guides Guides as a Cloud Release| FMPS | FrameMaker |
+| Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.12.0 | Not compatible | 2022 or higher |
 | | | |
@@ -138,35 +138,34 @@ The bugs fixed in various areas are listed below:
 - The **Title** in the Web Editor tab gets truncated after a dot(.) character. (14372)
 - Error messaging for duplicate map names in Assets UI is not updated. (14320)
 - An error occurs in version creation logic during drag-and-drop of assets. (14291)
-- Re-usable content skips the element IDs.(14213)
-- The setting control to hide **Language Variables** panel under **Output** tab is missing.(14194)
-- In the Web Editor's Layout view with specialized schema, adding a new reference (empty/topic) results in an application error.(14094)
-- The Web Editor throws application errors when adding a new reference or topic using a specialized schema in the Layout view. (12576)
+- Re-usable content skips the element IDs. (14213)
+- The setting control to hide **Language Variables** panel under **Output** tab is missing. (14194)
+- The Web Editor throws application errors when adding a new reference or topic using a specialized schema in the Layout view. (14094)
 - An anchor link to `<dlentry>` or `<dt>` element fails to display the link text.(13543)
-- The **Favorites** collection in the Web Editor fails to load.(13495)
-- Citations display non-clickable links when created with a unique ID with spaces.(13447)
-- In the Layout view fora Bookmap, using **move right** to make a selected chapter a sub-element does not work.(12567)
-- XML Editor's Preview window cuts off the content in Google Chrome and Microsoft Edge browsers. (10755)
+- The **Favorites** collection in the Web Editor fails to load. (13495)
+- Citations display non-clickable links when created with a unique ID with spaces. (13447)
+- In the **Layout** view for a Bookmap, using **Move Right** to make a selected chapter a subelement does not work. (12567)
+- XML Editor's Preview window is truncated in Google Chrome and Microsoft Edge browsers. (10755)
 - The Web Editor lacks the ability to wrap an element inside the possible parent elements. (8791)
 
 ### Publishing
 
 - Fmdita components have a hardcoded path of `delegator.jsp, preventing the overlay of AEM Sites components. (13993)
 - The tagged view of PDF reactor in Native PDF publishing output isn't working as expected. (13622)
-- AEM Site publishing encounters an issue committing to the datastore for large maps with scope peer links. (13531)
-- Unable to activate a site using Expereince Manager Guides Bulk Publication dashboard. (13439)
+- AEM Site publishing encounters an issue when committing to the datastore for large maps with scope peer links. (13531)
+- Unable to activate a site using Experience Manager Guides Bulk Publication dashboard. (13439)
 - The localization of the element labels isn't functioning properly in the AEM Sites output. (12144)
 - Missing **ditaval** option in folder profile level output presets created via Web Editor UI. (11903)
 
 ### Management
 
-- AEM cloud environments encounter MongoWrite exception due to large-sized nodes.(13509)
+- AEM cloud environments encounter MongoWrite exception due to large-sized nodes. (13509)
 
 ### Translation
 
-- **Accept/Reject** buttons erroneously appear for auto-approved human translation.(14318)
+- The **Accept/Reject** buttons erroneously appear for auto-approved human translation. (14318)
 - Internationalization (i18n) issues occur during the transformation of non-English DITA files to AEM pages. (14286)
-- Translated contents fail to sync from temporary translation projects, and DITA XML editor translation wizard incorrectly shows **'In progress'** status for approved jobs. (9938)
+- Translated contents fail to sync from temporary translation projects, and DITA XML editor translation wizard incorrectly shows **In progress** status for approved jobs. (9938)
 
 ### Accessibility
 
