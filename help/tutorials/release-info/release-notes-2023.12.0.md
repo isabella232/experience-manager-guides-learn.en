@@ -144,7 +144,7 @@ The bugs fixed in various areas are listed below:
 - An anchor link to `<dlentry>` or `<dt>` element fails to display text.(13543)
 - Favorites collection in Web Editor fails to load.(13495)
 - Citations display non-clickable links when created with a unique ID with spaces.(13447)
-- In Layout view for Bookmap, using **Move right** to make a selected chapter a sub-element does not work.(12567)
+- In Layout view for Bookmap, using **move right** to make a selected chapter a sub-element does not work.(12567)
 - XML Editor's Preview window cuts off content in Google Chrome and Microsoft Edge browsers. (10755)
 - The Web Editor lacks the ability to wrap an element inside possible parent elements. (8791)
 
@@ -153,13 +153,13 @@ The bugs fixed in various areas are listed below:
 - Fmdita components have a hardcoded path of delegator.jsp, preventing the overlay of AEM Sites components. (13993)
 - PDF reactor tagged view in Native PDF publishing output isn't working as expected. (13622)
 - AEM Site publishing encounters an issue committing to the datastore for large maps with scope peer links. (13531)
-- Unable to activate a site using AEM Guides **Bulk Publication** dashboard. (13439)
+- Unable to activate a site using AEM Guides Bulk Publication dashboard. (13439)
 - Localization of element labels isn't functioning in AEM Sites output. (12144)
 - Missing **ditaval** option in folder profile level output presets created via Web Editor UI. (11903)
 
 ### Management
 
-- AEM Cloud environments encounter MongoWrite Exception due to large-sized nodes.(13509)
+- AEM Cloud environments encounter **MongoWrite Exception** due to large-sized nodes.(13509)
 
 ### Translation
 
