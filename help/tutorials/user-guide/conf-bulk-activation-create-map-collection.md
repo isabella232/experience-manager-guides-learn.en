@@ -55,7 +55,7 @@ The Maps and Presets tab presents information in the following columns:
     > The small ![](images/global-preset-icon.svg) icon indicates a folder profile level preset.
 -   **Modified**: Indicates if the DITA map is updated after last publication. Based on this information, you can decide if you want to activate the output for this DITA map or not.
 -   **Generated**: Shows the date and time of the last generated output.
--   **Published**: Shows the date and time of the last published \(or activated\) output. If you click on the link, the Activation Results page is displayed with information about the root path where the content is activated.
+-   **Published**: Shows the date and time of the last published (or activated) output. If you select the link, the **Activation Results** page is displayed, which contains the logs with information about the root path where the content is activated.
 
 
 The following filtering options are available on the left panel:
