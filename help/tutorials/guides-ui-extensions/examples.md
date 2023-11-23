@@ -10,7 +10,7 @@ In this package we have also provided some customisation examples (available at 
 In this example we have customised the `file_options` context menu, to remove the `Delete` and `Edit` options, and replace the `Duplicate` option with a `Download` option.
 
 2. [Left Panel](../../src/left_panel_container.ts)
-In this example we have customised the `left tab panel`` to have another`tab` titled "TEST EXTENSION", and a corresponding `tab panel` which has a label: `Test Tab Panel`
+In this example we have customised the `left tab panel` to have another`tab` titled "TEST EXTENSION", and a corresponding `tab panel` which has a label: `Test Tab Panel`
 
 3. [Right Panel](../../src/right_panel_container.ts)
 In this example we have customised the `right tab panel` to have another `tab` titled "TEST EXTENSION", and a corresponding `tab panel` which has a label: `New Tab Panel`
