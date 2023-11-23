@@ -83,11 +83,11 @@ Perform the following steps for post-processing the existing content and using t
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level and topic list under the reports tab:
 
-1.   Run a POST request to the server \(with correct authentication\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed \|\| For example : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1.   Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed|| For example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-1. You can also pass a root folder to index the DITA maps of a specific folder (and its subfolders). For example, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Note that if both the paths parameter and root parameter are passed, only the paths parameter is considered. 
+1. You can also pass a root folder to index the DITA maps of a specific folder (and its subfolders). For example, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Note that if both the paths parameter and root parameter are passed, only the paths parameter is considered. 
 
-1.   The API returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`\)
+1.   The API returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 
 1.   Once the job is completed, the previous GET request responds with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
@@ -135,39 +135,40 @@ The bugs fixed in various areas are listed below:
 
 ### Authoring
 
-- The **Title** in the Web Editor tab gets truncated after a dot **(.)** character. (14372)
-- Error messaging for duplicate map names in Assets UI needs to be updated. (14320)
+- The **Title** in the Web Editor tab gets truncated after a dot(.) character. (14372)
+- Error messaging for duplicate map names in Assets UI is not updated. (14320)
 - An error occurs in version creation logic during drag-and-drop of assets. (14291)
-- Re-usable content skips element **IDs**.(14213)
-- Lack of setting control to hide Language Variables panel under Output tab.(14194)
-- In Web Editor's Layout view with specialized schema, adding a new reference **(empty/topic)** results in an application error.(14094)
-- An anchor link to `<dlentry>` or `<dt>` element fails to display text.(13543)
-- Favorites collection in Web Editor fails to load.(13495)
+- Re-usable content skips the element IDs.(14213)
+- The setting control to hide **Language Variables** panel under **Output** tab is missing.(14194)
+- In the Web Editor's Layout view with specialized schema, adding a new reference (empty/topic) results in an application error.(14094)
+- The Web Editor throws application errors when adding a new reference or topic using a specialized schema in the Layout view. (12576)
+- An anchor link to `<dlentry>` or `<dt>` element fails to display the link text.(13543)
+- The **Favorites** collection in the Web Editor fails to load.(13495)
 - Citations display non-clickable links when created with a unique ID with spaces.(13447)
-- In Layout view for Bookmap, using **move right** to make a selected chapter a sub-element does not work.(12567)
-- XML Editor's Preview window cuts off content in Google Chrome and Microsoft Edge browsers. (10755)
-- The Web Editor lacks the ability to wrap an element inside possible parent elements. (8791)
+- In the Layout view fora Bookmap, using **move right** to make a selected chapter a sub-element does not work.(12567)
+- XML Editor's Preview window cuts off the content in Google Chrome and Microsoft Edge browsers. (10755)
+- The Web Editor lacks the ability to wrap an element inside the possible parent elements. (8791)
 
 ### Publishing
 
-- Fmdita components have a hardcoded path of delegator.jsp, preventing the overlay of AEM Sites components. (13993)
-- PDF reactor tagged view in Native PDF publishing output isn't working as expected. (13622)
+- Fmdita components have a hardcoded path of `delegator.jsp, preventing the overlay of AEM Sites components. (13993)
+- The tagged view of PDF reactor in Native PDF publishing output isn't working as expected. (13622)
 - AEM Site publishing encounters an issue committing to the datastore for large maps with scope peer links. (13531)
-- Unable to activate a site using AEM Guides Bulk Publication dashboard. (13439)
-- Localization of element labels isn't functioning in AEM Sites output. (12144)
+- Unable to activate a site using Expereince Manager Guides Bulk Publication dashboard. (13439)
+- The localization of the element labels isn't functioning properly in the AEM Sites output. (12144)
 - Missing **ditaval** option in folder profile level output presets created via Web Editor UI. (11903)
 
 ### Management
 
-- AEM Cloud environments encounter **MongoWrite Exception** due to large-sized nodes.(13509)
+- AEM cloud environments encounter MongoWrite exception due to large-sized nodes.(13509)
 
 ### Translation
 
 - **Accept/Reject** buttons erroneously appear for auto-approved human translation.(14318)
--Internationalization (i18n) issues during the transformation of non-English DITA files to AEM pages. (14286)
-- Translated contents fail to sync from temporary translation projects despite translation jobs reaching the **'approved'** state, with DITA XML editor translation wizard status incorrectly showing **'In progress'**. (9938)
+- Internationalization (i18n) issues occur during the transformation of non-English DITA files to AEM pages. (14286)
+- Translated contents fail to sync from temporary translation projects, and DITA XML editor translation wizard incorrectly shows **'In progress'** status for approved jobs. (9938)
 
 ### Accessibility
 
-- Unable to navigate through the author canvas user interface, as the focus becomes trapped in the Topic Editor.(13517)
+- Unable to navigate through the author canvas user interface, as the focus becomes trapped in the topic editor.(13517)
 
