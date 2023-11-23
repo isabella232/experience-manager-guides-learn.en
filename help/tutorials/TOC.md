@@ -356,7 +356,9 @@ breadcrumb-title: AEM Guides Tutorials
   + [Java-based API to work with folder profiles](./api-reference/folder-profile-java.md)
   + [Java-based API for creating and activating packages](./api-reference/create-activate-package-java.md)
   + [Post-processing event handler](./api-reference/post-process-event.md)
+   + [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   + [Conversion process event handler](./api-reference/conversion-complete-event.md)
+  
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
     + [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md) 

@@ -1,5 +1,5 @@
 ---
-title: Post-processing event handler
+title: Bulk activation complete event handler
 description: Learn about bulk activation complete event handler
 ---
 # Bulk activation complete event handler
