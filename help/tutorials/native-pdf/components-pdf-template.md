@@ -437,6 +437,16 @@ AEM Guides provides the following out-of-the-box variables:
    >
    >You can create auto number styles for caption and figcaption tags. 
 
+#### Default link text 
+
+If you leave the text field blank, Experience Manager Guides adds the following default link text for the respective cross-references:
+* **Title**: Title of the topic
+* **Description**: Topic description text
+* **Heading**: Heading of the topic
+* **Paragraph**: Bookmarked text
+* **Bookmark**: Bookmarked text
+* **Figure**: Caption of the figure
+* **Table**: Caption of the table
 
 #### Language variables in Cross-references
 
