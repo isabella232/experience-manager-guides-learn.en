@@ -1771,11 +1771,12 @@ View the properties of the selected file by clicking the File Properties icon in
 
 The General section gives you access to the following features:
 
-![](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300" align="left"}
 
 -   **Name**: Displays the filename of the selected topic. The filename is hyperlinked to the properties page of the selected file.
 -   **ID**: Displays the ID of the selected topic.
--   **Metadata Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page.
+-   **Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page. You can type or select them from the dropdown.  The tags appear under the dropdown. To delete a tag, select the cross icon next to the tag. 
+-  **Edit more properties**: You can edit more properties from the file properties page.  
 -   **Language**: Shows the language of the topic. It is set from the language field in the properties page.
 -   **Created On**: Displays date and time on which the topic was created.
 -   **Checked Out By**: Shows the user who checked out the topic.
