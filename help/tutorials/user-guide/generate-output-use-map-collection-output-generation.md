@@ -50,13 +50,13 @@ The following filtering options and map details are shown on the collection page
     -   **Preset**: Select a preset for which you want to filter out the map files. For example, if you choose *AEM Site* preset, then only those maps are shown that have the *AEM Site* output preset configured on them.
     -   **Language**: You can select any of the available language codes and display only the selected language in the Maps and Presets table.
 -   **Maps and Presets** table: The Maps and Presets table presents information in the following columns:
-    -   **Map**: Shows the title of the DITA map file.
-    -	**Filename**: Shows the filename of the DITA map.
-    -   **Language**: Shows the language of the DITA map.
-    -   **Preset**: Shows the output preset type configured on the map file.
-    -	**Baseline**: Shows the baseline which is used by the output preset.  If no baseline is used, then it shows a hyphen '-' 
-    -   **Modified**: Indicates if the DITA map is updated after last publication. Based on this information, you can decide if you want to republish the output for this DITA map or not.
-    -   **Last Generated**: Shows the date and time of the last generated output.
+    - **Map**: Shows the title of the DITA map file.
+    - **Filename**: Shows the filename of the DITA map.
+    - **Language**: Shows the language of the DITA map.
+    -  **Preset**: Shows the output preset type configured on the map file.
+    - **Baseline**: Shows the baseline which is used by the output preset.  If no baseline is used, then it shows a hyphen '-' 
+    - **Modified**: Indicates if the DITA map is updated after last publication. Based on this information, you can decide if you want to republish the output for this DITA map or not.
+    - **Last Generated**: Shows the date and time of the last generated output.
 
 ## Configure and generate the output using a Map Collection 
 
@@ -88,7 +88,7 @@ To configure and generate the output using a Map Collection, perform the followi
 
     -   To generate output of selected maps, select the map files and click **Generate Selected**.
     -   To generate output of all DITA maps with their configured presets, click **Generate All**.
-    
+
     >[!IMPORTANT]
     >
     > If an output generation process for a preset or DITA map is either in the queue or in progress, you cannot initiate another output generation task for the same preset or map.
