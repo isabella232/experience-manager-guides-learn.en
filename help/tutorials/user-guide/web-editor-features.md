@@ -1504,7 +1504,6 @@ Perform the following steps to change the value:
  1. Select an attribute from the **Attribute** dropdown. 
  1. Select **Edit** ![edit-icon](images/edit_pencil_icon.svg). 
  1. Select the required value from the **Value** dropdown.
- ![update attributes](images/update-attributes-content-properties.png) {width="200" align="left"}
  1. Click **Update**.   
 
 
@@ -1750,18 +1749,20 @@ The right panel gives you access to the following features:
 
 **Content Properties** -  ![](images/content-properties-icon.svg)
 
-You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. Perform the following steps to add attributes:
+You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. 
+You can easily add, edit, or delete the attributes.
 
-1. Click **+ Add**. The **Attribute** dropdown panel appears.
+1. Click **+ Add**. 
 
-    ![attrubutes in content properties](images/attributes-right-panel.png){width="650" align="left"}
+    ![attrubutes in content properties](images/attributes-right-panel.png){width="300" align="left"}
 
-1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  You can view the selected attributes in the panel.  Then click **Add**. You can view the added attributes. 
+1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  Then click **Add**. 
 
-    ![attributes panel with multiple attributes ](images/attributes-multiple-properties.png){width="650" align="left"}
+    ![attributes panel with multiple attributes ](images/attributes-multiple-properties.png){width="300" align="left"}
 
-To remove an attribute, select the cross icon next to the attribute.
 1. To edit the attribute, hover over it and select **Edit** ![edit-icon](images/edit_pencil_icon.svg).
+    ![edit attributes](images/edit-attributes-content-properties.png){width="300" align="left"}
+
 1. To delete the attribute, hover over it and select **Delete** ![delete-icon](images/Delete_icon.svg). 
 
 
