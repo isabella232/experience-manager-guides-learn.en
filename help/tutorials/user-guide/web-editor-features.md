@@ -296,7 +296,7 @@ Using the table's context menu, you can:
 -   Generate IDs
 
 
-You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**.
+You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **Multiple Entry**.
 
 1. In the **Attributes** section, click **+Add**. 
 1. Select the `@valign` attribute from the **Attribute** dropdown list. 
@@ -328,7 +328,7 @@ The Source field displays the UUID of the inserted image file. You can find the 
 
 You can resize an image by providing either Height or Width value for the image file. The aspect ratio of the image is maintained automatically. If you want, you can also choose not to maintain the aspect ratio of the image file by clicking the lock icon \(of Maintain Aspect Ratio\) and providing Height and Width values.
 
-You can also specify the Placement setting for the image as Inline or Break. In case you choose to use the Break placement option, you can then choose where to align the image \(Left, Center, or Right\).
+You can also specify the Placement setting for the image as Inline or Break. In case you choose to use the Break placement option, you can then choose where to align the image (Left, Center, or Right).
 
 You can also add other properties for an image file by selecting the required properties in the **Attributes** field.
 
@@ -1041,6 +1041,7 @@ When you open a map in the map view, the title of the current map is displayed i
 
 When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`. 
 
+![keys in map view](images/view-key-title-map-view.png). {width="300" align="left"}
 If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 
@@ -1496,15 +1497,18 @@ For example, use the following enumeration to restrict the `@platform` attribute
 **Attributes drop-down**
 
 You can also change the value of the subject scheme using the **Attributes** dropdown from the **Content Properties** panel in the **Author** view. 
-
+    ![](images/subject-scheme-attribute-dropdown.png){width="2
+    00" align="left"}
 Perform the following steps to change the value:
 
  1. Select an attribute from the **Attribute** dropdown. 
  1. Select **Edit** ![edit-icon](images/edit_pencil_icon.svg). 
- 1. Select the required value from the **Value** dropdown. 
+ 1. Select the required value from the **Value** dropdown.
+ ![update attributes](images/update-attributes-content-properties.png) {width="2
+    00" align="left"}
  1. Click **Update**.   
 
-    ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
 
 You can also apply values for an attribute by selecting multiple values from the dropdown.
 
@@ -1750,7 +1754,14 @@ The right panel gives you access to the following features:
 You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. Perform the following steps to add attributes:
 
 1. Click **+ Add**. The **Attribute** dropdown panel appears.
-1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  You can view the selected attributes in the panel.  Then click **Add**. You can view the added attributes. To remove an attribute, select the cross icon next to the attribute.
+
+    ![attrubutes in content properties](images/attributes-right-panel.png){width="650" align="left"}
+
+1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  You can view the selected attributes in the panel.  Then click **Add**. You can view the added attributes. 
+
+    ![attributes panel with multiple attributes ](images/attributes-multiple-properties.png){width="650" align="left"}
+
+To remove an attribute, select the cross icon next to the attribute.
 1. To edit the attribute, hover over it and select **Edit** ![edit-icon](images/edit_pencil_icon.svg).
 1. To delete the attribute, hover over it and select **Delete** ![delete-icon](images/Delete_icon.svg). 
 
