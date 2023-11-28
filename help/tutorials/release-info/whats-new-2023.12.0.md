@@ -121,7 +121,7 @@ Cross-map links (XREF with scope peer) getting rendered in the AEM Site output a
 
 
 ## Duplicate baselines based on labels
-	
+
 Experience Manager Guides allows you to duplicate a baseline based on the label. The reference version is picked based on the given label (if it exists) while duplicating, or else picks the version from the duplicated baseline.
 
 ## Configure page names for topic titles 
