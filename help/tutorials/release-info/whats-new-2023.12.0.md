@@ -4,7 +4,7 @@ description: Learn the new and enhanced features in December 2023 release of Ado
 ---
 # What's new in the December 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
-This article covers the new and enhanced features in the version  December 2023 of Adobe Experience Manager Guides (later referred to as *Experience Manager Guides as a Cloud Service*).
+This article covers the new and enhanced features in the version December 2023 of Adobe Experience Manager Guides (later referred to as *Experience Manager Guides as a Cloud Service*).
 
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release notes](release-notes-2023.12.0.md).
 
@@ -13,7 +13,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 ## Edit metadata while authoring 
 
-Now, you can manage the file properties more easily from the Web Editor, You can seamlessly update the file metadata using the dropdown from the file properties in the right panel. You can also edit more properties quickly from the **File Properties** panel.
+Now, you can manage the file properties more easily from the Web Editor. You can seamlessly update the file metadata using the dropdown from the **File Properties** in the right panel. You can also edit more properties quickly from the **File Properties**.
 
 ![file-properties](assets/file-properties-general.png){width="300" align="left"}
 
@@ -25,16 +25,16 @@ For more details, refer to the **File Properties** feature description within th
 
 ## Propagate asset metadata to the published Native PDF output 
 
-Now you can set and update the metadata for a DITA map from the Native PDF output preset.  Once set, these properties are also copied into the topics within the map and then passed to the output generated using Native PDF.
+Now, you can set and update the metadata for a DITA map from the Native PDF output preset. Once set, these properties are also copied into the topics within the map and passed to the output generated using Native PDF.
  
-![file-properties](assets/output-preset-file-poperties.png){width="300" align="left"}
+![file-properties](assets/output-preset-file-poperties.png){width="500" align="left"}
 
 *Set file properties from the Native PDF output preset.*
 
 
 ## Use variables in the Native PDF output 
 
-You can use variable sets to dynamically insert and manage information that may change based on specific conditions such as product names and versions. This feature helps you use the same PDF layout and generate outputs with different values. You don’t have to create separate layouts for every set of values.  
+You can use variable sets to dynamically insert and manage information that may change based on specific conditions such as product names and versions. This feature helps you use the same PDF layout and generate outputs with different values. You don’t have to create separate layouts for every set of values.
 For example, you can create a variable set for each product. This variable set can consist of variables for different product details like ProductName, VersionNumber, and ReleaseDate. Then, you can add different values for these variables. 
 
 **Variable set 1: Adobe-set1**
@@ -50,13 +50,16 @@ For example, you can create a variable set for each product. This variable set c
 * ReleaseDate: 09/27/2023
  
 
-  
-
-You can add the variables to the appropriate places in your document using the page layouts in the output templates. The values are automatically picked in the PDF output based on the variable set you select in the output preset. You can create variables with values having HTML tags. For example, add images from the content DAM using the `<img>` tag.
-
 ![native pdf variables](assets/native-pdf-variables.png){width="800" align="left"}
+*Create variables from the Output tab in the Web Editor.* 
 
-*Create variables from the Output tab in the Web Editor.*
+You can also create variables with values having HTML tags. For example, add images from the content DAM using the `<img>` tag.
+
+Once you have created the variables, you can add the variables to the appropriate places in your document using the page layouts in the output templates. The values are automatically picked in the PDF output based on the variable set you select in the output preset. 
+
+
+![native pdf variables](assets/native-pdf-variable-output.png) {width="500" align="left" border="2px"}
+*Generate the native PDF output using variables in the PDF layout.*
 
 You can also quickly update the values for any variable set whenever required. For example, if you need to update the details for a version, you can update the value of the version in VersionNumber. 
 
@@ -68,8 +71,8 @@ This feature helps generate customized output with dynamic content in your docum
 
 Experience Manager Guides now provides the support to publish your content to the ServiceNow knowledgebase platform. With the December 2023 release, your administrator can create a publish profile for the ServiceNow knowledgebase server. 
 
-While creating the output preset for a DITA map, you have the additional option to choose the ServiceNow Knowledge Base as the target.  You can choose the ServiceNow publish profile in the output preset to generate the output for the map to the specified Knowledgebase.
-This feature helps you publish a variety of content, like text, videos, and images, to the ServiceNow knowledgebase platform and maintain a comprehensive repository.  
+While creating the output preset for a DITA map, you have the additional option to choose the ServiceNow Knowledge Base as the target. You can choose the ServiceNow publish profile in the output preset to generate the output for the map to the specified Knowledgebase.
+This feature helps you publish various content, like text, videos, and images, to the ServiceNow knowledgebase platform and maintain a comprehensive repository.
 
 ![publish profile in editor settings](assets/editor-settings-publish-profile-servicenow.png){width="500" align="left"}
 
@@ -78,9 +81,9 @@ This feature helps you publish a variety of content, like text, videos, and imag
 
 ## Enhanced experience while selecting attributes from the Content Properties 
 
-Experience Manager Guides provides an enhanced experience while you select and add one or more properties to an element from the Attributes panel in the Content Properties. 
+Experience Manager Guides provides an enhanced experience while you select and add one or more properties to an element from the **Attributes** panel in the Content Properties. 
 
-![Attributes panel](assets/editor-settings-publish-profile-servicenow.png){width="500" align="left"}
+![Attributes panel](assets/attributes-multiple-properties.png){width="300" align="left"}
 
 *Add attributes from the Content Properties.*
 
@@ -91,17 +94,17 @@ For more details, refer to the **Content Properties** feature description within
 
 ## Enhanced Map collection dashboard
 
-Experience Manager Guides provides an enhanced Map collection dashboard. In a map collection, you can quickly configure the metadata properties in bulk for the DITA maps. This feature is quite handy as you don’t have to update the metadata properties for each DITA map individually.
+Experience Manager Guides provides an enhanced Map collection dashboard. In a map collection, you can quickly configure the metadata properties in bulk for the DITA maps. This feature is handy as you don’t have to update the metadata properties for each DITA map individually.
  
-Now, you can view the filename of the DITA map. You can also view the Baselines. This helps you easily find the baseline used for a preset.
+Now, you can view the filename of the DITA map. You can also view the Baselines. This helps you quickly find the baseline used for a preset.
 
 ![Map collection dashboard](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *View, edit, and generate output from the map collection dashboard.* 
 
-## Improved process for the creation of bulk activation map collection
+## An improved process for the creation of bulk activation map collection
 
-The process of creating a bulk activation map collection is now more harmonious. Now, when the Activation Results page is displayed, you can view the result of activation and logs. 
+The process of creating a bulk activation map collection is now more harmonious. Now, when the Activation Results page is displayed, you can view the results of activation and logs. 
 For more details, refer to [Create a bulk activation map collection](../user-guide/conf-bulk-activation-create-map-collection.md).
 
 
@@ -109,7 +112,7 @@ For more details, refer to [Create a bulk activation map collection](../user-gui
 
 When you define key attributes for the topic or map references, you can also view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`.
 
-For more details, refer to the **Map View** feature description within the in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+For more details, refer to the **Map View** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 ![keys in map view](assets/view-key-title-map-view.png). {width="300" align="left"}
 
