@@ -6,7 +6,7 @@ description: Learn the new and enhanced features in December 2023 release of Ado
 
 This article covers the new and enhanced features in the version December 2023 of Adobe Experience Manager Guides (later referred to as *Experience Manager Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release notes](release-notes-2023.12.0.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release Notes](release-notes-2023.12.0.md).
 
 
 
@@ -58,7 +58,9 @@ You can also create variables with values having HTML tags. For example, add ima
 Once you have created the variables, you can add the variables to the appropriate places in your document using the page layouts in the output templates. The values are automatically picked in the PDF output based on the variable set you select in the output preset. 
 
 
-![native pdf variables](assets/native-pdf-variable-output.png) {width="500" align="left" border="2px"}
+
+<img src="./assets/native-pdf-variable-output.png" alt= "Footer in PDF output" width=500 border="2px">
+
 *Generate the native PDF output using variables in the PDF layout.*
 
 You can also quickly update the values for any variable set whenever required. For example, if you need to update the details for a version, you can update the value of the version in VersionNumber. 
