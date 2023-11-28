@@ -9,29 +9,6 @@ This article covers the new and enhanced features in the version December 2023 o
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release Notes](release-notes-2023.12.0.md).
 
 
-
-
-## Edit metadata while authoring 
-
-Now, you can manage the file properties more easily from the Web Editor. You can seamlessly update the file metadata using the dropdown from the **File Properties** in the right panel. You can also edit more properties quickly from the **File Properties**.
-
-![file-properties](assets/file-properties-general.png){width="300" align="left"}
-
-*Update metadata and edit file properties from the right panel.*
-
-For more details, refer to the **File Properties** feature description within the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section.
-
-
-
-## Propagate asset metadata to the published Native PDF output 
-
-Now, you can set and update the metadata for a DITA map from the Native PDF output preset. Once set, these properties are also copied into the topics within the map and passed to the output generated using Native PDF.
- 
-![file-properties](assets/output-preset-file-poperties.png){width="500" align="left"}
-
-*Set file properties from the Native PDF output preset.*
-
-
 ## Use variables in the Native PDF output 
 
 You can use variable sets to dynamically insert and manage information that may change based on specific conditions such as product names and versions. This feature helps you use the same PDF layout and generate outputs with different values. You don’t have to create separate layouts for every set of values.
@@ -69,30 +46,51 @@ You can also quickly update the values for any variable set whenever required. F
 This feature helps generate customized output with dynamic content in your documentation and manage changes efficiently. You can also apply styles and use HTML markup to format the variables.
 
 
+## Revamped attribute editing experience 
 
-## Support for ServiceNow knowledge base site path in publishing
-
-Experience Manager Guides now provides the support to publish your content to the ServiceNow knowledgebase platform. With the December 2023 release, your administrator can create a publish profile for the ServiceNow knowledgebase server. 
-
-While creating the output preset for a DITA map, you have the additional option to choose the ServiceNow Knowledge Base as the target. You can choose the ServiceNow publish profile in the output preset to generate the output for the map to the specified Knowledgebase.
-This feature helps you publish various content, like text, videos, and images, to the ServiceNow knowledgebase platform and maintain a comprehensive repository.
-
-![publish profile in editor settings](assets/editor-settings-publish-profile-servicenow.png){width="500" align="left"}
-
-*Create a publish profile for the ServiceNow knowledgebase server.*
-
-
-## Enhanced experience while selecting attributes from the Content Properties 
-
-Experience Manager Guides provides an enhanced experience while you select and add one or more properties to an element from the **Attributes** panel in the Content Properties. 
+Experience Manager Guides provides an enhanced experience while you add one or more properties to an element from the **Attributes** panel in the Content Properties. 
 
 ![Attributes panel](assets/attributes-multiple-properties.png){width="300" align="left"}
 
 *Add attributes from the Content Properties.*
 
-You can easily select the attribute and the values from the dropdowns. You can also easily edit and delete an attribute from the **Attributes** panel. 
+You can also easily edit and delete the attributes from the **Attributes** panel. 
 
 For more details, refer to the **Content Properties** feature description within the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section.
+
+
+## Edit metadata while authoring 
+
+Now, while authoring, you can also update the file metadata tags using the dropdown from the **File Properties** in the right panel. You can also select **Edit more properties** to update more metadata.
+
+![file-properties](assets/file-properties-general.png){width="300" align="left"}
+
+*Update metadata and edit file properties from the right panel.*
+
+For more details, refer to the **File Properties** feature description within the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section.
+
+## Ability to publish content to the ServiceNow knowledge base
+
+You can now also publish your content to the ServiceNow knowledge base platform.
+
+With the December 2023 release, as an administrator, you can create a publish profile for the ServiceNow knowledge base server. Then, as an author or a publisher, you can choose that ServiceNow publish profile in the output preset to publish the output to the specified knowledge base.
+
+This feature helps you publish content, like text, videos, and images, to the ServiceNow knowledge base platform and maintain a comprehensive repository.
+
+
+![service now knowledge base preset](assets/knowledgebase--output-preset.png){width="500" align="left"}
+
+*Create an output preset for the ServiceNow knowledge base.*
+
+
+## Propagate asset metadata to the published Native PDF output 
+
+Now, you can set and update the metadata for a DITA map from the Native PDF output preset. Once set, these properties are also copied into the topics within the map and passed to the output generated using Native PDF.
+ 
+![file-properties](assets/output-preset-file-poperties.png){width="500" align="left"}
+
+*Set file properties from the Native PDF output preset.*
+
 
 
 ## Enhanced Map collection dashboard
@@ -105,12 +103,6 @@ Now, you can view the filename of the DITA map. You can also view the Baselines.
 
 *View, edit, and generate output from the map collection dashboard.* 
 
-## An improved process for the creation of bulk activation map collection
-
-The process of creating a bulk activation map collection is now more harmonious. Now, when the Activation Results page is displayed, you can view the results of activation and logs. 
-For more details, refer to [Create a bulk activation map collection](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 ## View key attribute in the Map View
 
 When you define key attributes for the topic or map references, you can also view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`.
@@ -121,14 +113,28 @@ For more details, refer to the **Map View** feature description in the [Left Pan
 
 *View the key attribute in the Map View.*
 
+## Ability to duplicate a baseline based on label
+Experience Manager Guides now provides an enhanced user experience for creating the baselines from the Web Editor.  
+![create new baseline](assets/create-new-baseline.png) {width="300" align="left"}
+*Create baseline from the Web Editor.*
+
+It also allows you to duplicate a baseline based on the label. The reference version is picked based on the given label (if it exists) while duplicating, or else picks the version from the duplicated baseline.
+
+
+![duplicate a baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
+*Duplicate a baseline based on a label or create an exact copy.*
+
+## An improved process for the creation of bulk activation map collection
+
+The process of creating a bulk activation map collection is now more harmonious. Now, when the Activation Results page is displayed, you can view the results of activation and logs. 
+For more details, refer to [Create a bulk activation map collection](../user-guide/conf-bulk-activation-create-map-collection.md).
+
+
+
 ## Resolve cross-map links in the AEM Site output 
 
 Cross-map links (XREF with scope peer) getting rendered in the AEM Site output are now resolved as per the file title of the publishing context set for the generated map.
 
-
-## Duplicate baselines based on labels
-
-Experience Manager Guides allows you to duplicate a baseline based on the label. The reference version is picked based on the given label (if it exists) while duplicating, or else picks the version from the duplicated baseline.
 
 ## Configure page names for topic titles 
 
