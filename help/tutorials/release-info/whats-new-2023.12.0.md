@@ -51,6 +51,7 @@ For example, you can create a variable set for each product. This variable set c
  
 
 ![native pdf variables](assets/native-pdf-variables.png){width="800" align="left"}
+
 *Create variables from the Output tab in the Web Editor.* 
 
 You can also create variables with values having HTML tags. For example, add images from the content DAM using the `<img>` tag.
@@ -116,7 +117,7 @@ When you define key attributes for the topic or map references, you can also vie
 
 For more details, refer to the **Map View** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-![keys in map view](assets/view-key-title-map-view.png). {width="300" align="left"}
+![keys in map view](assets/view-key-title-map-view.png) {width="300" align="left"}
 
 *View the key attribute in the Map View.*
 

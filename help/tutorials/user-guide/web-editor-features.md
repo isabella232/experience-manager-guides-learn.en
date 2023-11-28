@@ -1041,7 +1041,8 @@ When you open a map in the map view, the title of the current map is displayed i
 
 When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`. 
 
-![keys in map view](images/view-key-title-map-view.png). {width="300" align="left"}
+![keys in map view](images/view-key-title-map-view.png){width="300" align="left"}
+
 If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 
