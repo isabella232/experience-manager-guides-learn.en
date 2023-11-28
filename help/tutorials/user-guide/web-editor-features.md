@@ -1497,15 +1497,13 @@ For example, use the following enumeration to restrict the `@platform` attribute
 **Attributes drop-down**
 
 You can also change the value of the subject scheme using the **Attributes** dropdown from the **Content Properties** panel in the **Author** view. 
-    ![](images/subject-scheme-attribute-dropdown.png){width="2
-    00" align="left"}
+    ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
 Perform the following steps to change the value:
 
  1. Select an attribute from the **Attribute** dropdown. 
  1. Select **Edit** ![edit-icon](images/edit_pencil_icon.svg). 
  1. Select the required value from the **Value** dropdown.
- ![update attributes](images/update-attributes-content-properties.png) {width="2
-    00" align="left"}
+ ![update attributes](images/update-attributes-content-properties.png) {width="200" align="left"}
  1. Click **Update**.   
 
 
