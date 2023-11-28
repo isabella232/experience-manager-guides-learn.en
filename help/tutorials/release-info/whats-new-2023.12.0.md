@@ -12,6 +12,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 ## Use variables in the Native PDF output 
 
 You can use variable sets to dynamically insert and manage information that may change based on specific conditions such as product names and versions. This feature helps you use the same PDF layout and generate outputs with different values. You don’t have to create separate layouts for every set of values.
+
 For example, you can create a variable set for each product. This variable set can consist of variables for different product details like ProductName, VersionNumber, and ReleaseDate. Then, you can add different values for these variables. 
 
 **Variable set 1: Adobe-set1**
@@ -103,7 +104,7 @@ Now, you can view the filename of the DITA map. You can also view the Baselines.
 
 *View, edit, and generate output from the map collection dashboard.* 
 
-## View key attribute in the Map View
+## View key attributes in the Map View
 
 When you define key attributes for the topic or map references, you can also view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`.
 
@@ -114,6 +115,7 @@ For more details, refer to the **Map View** feature description in the [Left Pan
 *View the key attribute in the Map View.*
 
 ## Ability to duplicate a baseline based on label
+
 Experience Manager Guides now provides an enhanced user experience for creating the baselines from the Web Editor.  
 ![create new baseline](assets/create-new-baseline.png) {width="300" align="left"}
 *Create baseline from the Web Editor.*
