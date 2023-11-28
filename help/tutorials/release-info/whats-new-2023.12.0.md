@@ -84,16 +84,6 @@ This feature helps you publish content, like text, videos, and images, to the Se
 *Create an output preset for the ServiceNow knowledge base.*
 
 
-## Propagate asset metadata to the published Native PDF output 
-
-Now, you can set and update the metadata for a DITA map from the Native PDF output preset. Once set, these properties are also copied into the topics within the map and passed to the output generated using Native PDF.
- 
-![file-properties](assets/output-preset-file-poperties.png){width="500" align="left"}
-
-*Set file properties from the Native PDF output preset.*
-
-
-
 ## Enhanced Map collection dashboard
 
 Experience Manager Guides provides an enhanced Map collection dashboard. In a map collection, you can quickly configure the metadata properties in bulk for the DITA maps. This feature is handy as you don’t have to update the metadata properties for each DITA map individually.
