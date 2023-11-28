@@ -40,7 +40,7 @@ Once you have created the variables, you can add the variables to the appropriat
 
 <img src="./assets/native-pdf-variable-output.png" alt= "Footer in PDF output" width=500 border="2px">
 
-*Generate the native PDF output using variables in the PDF layout.*
+*Generate the Native PDF output using variables in the PDF layout.*
 
 You can also quickly update the values for any variable set whenever required. For example, if you need to update the details for a version, you can update the value of the version in VersionNumber. 
 
