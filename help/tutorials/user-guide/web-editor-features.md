@@ -1039,7 +1039,7 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. 
 
-When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`. 
+When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `keys=<key-name>`. 
 
 ![keys in map view](images/view-key-title-map-view.png){width="300" align="left"}
 
@@ -1754,7 +1754,7 @@ You can easily add, edit, or delete the attributes.
 
 1. Click **+ Add**. 
 
-    ![attrubutes in content properties](images/attributes-right-panel.png){width="300" align="left"}
+    ![attrubutes in content properties](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
 1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  Then click **Add**. 
 
@@ -1772,7 +1772,7 @@ You can easily add, edit, or delete the attributes.
 
 If your administrator has created a profile for attributes, then you will get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. This way you can also create conditional content, which can then be used to create conditional output. For more information about generating output using conditional presets, see [Use condition presets](generate-output-use-condition-presets.md#).
 
-![](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
 
 **File Properties** -  ![](images/topic-properties-icon.svg)
 
