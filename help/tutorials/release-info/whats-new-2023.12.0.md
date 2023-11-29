@@ -117,7 +117,7 @@ It also allows you to duplicate a baseline based on the label. The reference ver
 
 *Duplicate a baseline based on a label or create an exact copy.*
 
-## An improved process for the creation of bulk activation map collection
+## Improved process for the creation of bulk activation map collection
 
 The process of creating a bulk activation map collection is now more harmonious. Now, when the Activation Results page is displayed, you can view the results of activation and logs. 
 For more details, refer to [Create a bulk activation map collection](../user-guide/conf-bulk-activation-create-map-collection.md).
