@@ -445,12 +445,12 @@ AEM Guides provides the following out-of-the-box variables:
 
 If you leave the text field blank and you have not defined the link text while inserting a cross-reference, Experience Manager Guides adds the following variables for the respective cross-references:
 
-* **Title**: {title} 
-* **Description**: {description}
-* **Paragraph**: {bookmarkText}
-* **Bookmark**: {bookmarkText}
-* **Figure**: {captionText}
-* **Table**: {captionText}
+* **Title**: `{title}` 
+* **Description**: `{description}`
+* **Paragraph**: `{bookmarkText}`
+* **Bookmark**: `{bookmarkText}`
+* **Figure**: `{captionText}`
+* **Table**: `{captionText}`
 
 The order of precedence for cross-references is:
 * Link text added in the cross-references 
