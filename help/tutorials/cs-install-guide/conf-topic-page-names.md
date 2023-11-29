@@ -1,10 +1,11 @@
 ---
-title: Configure page names for the topics 
-description: Learn how to page names for the topics 
----
-# Configure page names for the topics 
+title: Configure the URL of the AEM Site output to use the document title
+description: Learn how to configure the URL of the AEM Site output to use the document title
 
-You can configure the page names for the topics. If the filename doesn’t exist or contains all special characters, you can configure the system to replace the special characters with a separator in the URL of the AEM Site output. You can also configure to replace with the first child topic’s name.
+---
+# Configure the URL of the AEM Site output to use the document title
+
+You can use the document titles in the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure the system to replace the special characters with a separator in the URL of the AEM Site output. You can also configure it to replace them with the first child topic’s name.
 
 
 To configure the page names, perform the following steps:

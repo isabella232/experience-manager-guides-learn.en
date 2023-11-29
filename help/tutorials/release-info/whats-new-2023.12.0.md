@@ -128,10 +128,9 @@ For more details, refer to [Create a bulk activation map collection](../user-gui
 Cross-map links (XREF with scope peer) getting rendered in the AEM Site output are now resolved as per the file title of the publishing context set for the generated map.
 
 
-## Configure page names for topic titles 
+## Configure the URL of the AEM Site output to use the document title
 
-Experience Manager Guides allows you, as an administrator, to configure the page names for the topics. If the filename doesn’t exist or contains all special characters, you can configure it to replace the special characters with a separator or the first child topic’s name in the URL of the AEM Site output.
-
+Experience Manager Guides allows you, as an administrator, to configure the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure it to replace the special characters with a separator or the first child topic’s name in the URL of the AEM Site output.
 
 
 
