@@ -33,7 +33,6 @@ com/adobe/fmdita/replication/complete
 
 ```XML
 
-Sample Replication Complete Event Listener
 @Component(service = EventHandler.class,
         immediate = true,
         property = {
