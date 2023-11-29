@@ -1,7 +1,7 @@
 ---
 title: Migrate non-DITA content
 description: Learn how to Migrate non-DITA content
-exl-id: 82c6541a-c43d-44ef-a115-d7d0aa7d88d7
+exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 ---
 # Migrate non-DITA content {#id181AH0R02HT}
 

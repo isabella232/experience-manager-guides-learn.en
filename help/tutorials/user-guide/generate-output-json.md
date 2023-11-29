@@ -1,7 +1,7 @@
 ---
 title: JSON
 description: Learn how to create JSON preset from the web editor and the map dashboard. Configure JSON output preset in AEM Guides.
-exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 ---
 # JSON {#id231KK0180T4}
 

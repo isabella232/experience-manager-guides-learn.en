@@ -1,7 +1,7 @@
 ---
 title: Java-based APIs to work with baseline and labels
 description: Learn about the Java-based APIs to work with baseline and labels
-exl-id: 90ec3dc1-8b06-4f74-81f2-6ba56fd8da13
+exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 ---
 # Java-based APIs to work with baseline and labels {#id175UB30E05Z}
 

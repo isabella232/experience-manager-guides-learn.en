@@ -32,7 +32,7 @@ Add a resource ID element to the DITA map. The resource ID serves as the main in
 
 You can also edit the resource ID in the Authoring mode. 
 
-<img src="./assets/barcode-map.png" alt="Sample output with barcode" width=700>
+<img src="./assets/barcode-map.png" alt="Sample output with barcode" width=700 border="2px solid blue">
 
 
 ### Add a barcode placeholder in the template header

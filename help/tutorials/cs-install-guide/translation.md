@@ -1,7 +1,7 @@
 ---
 title: Translate content
 description: Learn how to Translate content
-exl-id: 3ed769d0-2e3a-4a94-95d6-41d7a9c1ea5a
+exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 ---
 # Translate content {#id181GB0400UI}
 

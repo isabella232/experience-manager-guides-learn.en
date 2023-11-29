@@ -1,7 +1,7 @@
 ---
 title: Configure the JSON-based mapping between a topic and a content fragment model.
 description: Learn how to configure the JSON-based mapping between a topic and a content fragment model.
-exl-id: 8890698a-f0bd-4cba-92a2-c0cd9ef7429e
+exl-id: 21446bcb-e7df-4823-acc3-1fdc7473f0d1
 ---
 # Create a mapping between a topic and a content fragment
 

@@ -477,6 +477,7 @@ For example, the following screenshots show the cross-references “View on page
 
    <img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800" border="2px">
 
+
 *A cross-reference within a paragraph when published in the German language.*
 
  <!--For more information, see *Format cross-references*.-->

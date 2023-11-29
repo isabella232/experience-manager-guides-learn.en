@@ -1,7 +1,7 @@
 ---
 title: Verify AEM Guides installation
 description: Learn how to Verify AEM Guides installation
-exl-id: d8d35cd3-7593-4dc8-ba6e-97a5ed02813d
+exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 ---
 # Verify AEM Guides installation {#id213BD030FBE}
 

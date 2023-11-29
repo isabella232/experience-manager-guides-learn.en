@@ -1,7 +1,7 @@
 ---
 title: Pass on the metadata to the output using DITA-OT
 description: Learn how to pass on the metadata to the output using DITA-OT publishing in AEM Guides.
-exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
+exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 ---
 # Pass on the metadata to the output using DITA-OT {#id21BJ00QD0XA}
 

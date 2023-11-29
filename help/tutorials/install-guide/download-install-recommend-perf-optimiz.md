@@ -1,7 +1,7 @@
 ---
 title: Recommendations for performance optimization
 description: Learn the Recommendations for performance optimization
-exl-id: 65097417-f4b3-4247-b919-303b1ba217ad
+exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 ---
 # Recommendations for performance optimization {#id213BD0JG0XA}
 

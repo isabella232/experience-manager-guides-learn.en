@@ -1,7 +1,7 @@
 ---
 title: Convert non-UUID  content with versions to UUID content
 description: Learn how to migrate non-UUID content with versions.
-exl-id: 5503f444-0fb4-456f-9ed1-b54d951e9317
+exl-id: 9387e0d1-906c-4e5c-a7a0-0ed1600f5eb6
 ---
 # Migrate non-UUID content with versions
 

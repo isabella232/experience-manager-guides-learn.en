@@ -1,7 +1,7 @@
 ---
 title: Guides Publishing Benchmarks on AEMaaCS
 description: Understand system limits on Publishing on AEM Cloud.
-exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+exl-id: 2cb4dfa4-dafc-409a-8d29-dbb00fabeae5
 ---
 # AEM Guides Publishing Benchmarks on AEMaaCS
 

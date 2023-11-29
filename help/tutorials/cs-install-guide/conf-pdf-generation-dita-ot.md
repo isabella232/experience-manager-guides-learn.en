@@ -1,7 +1,7 @@
 ---
 title: Configure single topic PDF generation
 description: Learn how to Configure single topic PDF generation
-exl-id: dc2eaf6a-38a0-405f-8d4a-703e75a85d5e
+exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 ---
 # Configure single topic PDF generation {#id22ADC70M0XA}
 

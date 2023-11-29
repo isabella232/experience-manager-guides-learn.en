@@ -1,7 +1,7 @@
 ---
 title: REST API for creating and activating packages
 description: Learn about the REST API for creating and activating packages
-exl-id: 5320727d-d6de-4ea7-b822-088f670687ab
+exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 ---
 # REST API for creating and activating packages {#id198CF0260Y4}
 

@@ -1,16 +1,17 @@
 ---
 title: Release Notes | What's New in Adobe Experience Manager Guides 4.3.1 release
 description: Learn about the new and enhanced features in 4.3.1 releases of Adobe Experience Manager Guides
+exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 ---
 # What's new in 4.3.1 release of Adobe Experience Manager Guides (October 2023)
 
-This article covers the new and enhanced features in version 4.3.1 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
+This article covers the new and enhanced features in version 4.3.1 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
 
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4.3.1.md).
 
 ## Connect to a data source and insert the topics
 
-Experience Manager Guides provides out-of-the-box connectors that help you connect with your data sources, making AEM Guides a true content hub. This gives you the advantage of saving you time and effort that would otherwise be spent on manual data addition or replication.
+Experience Manager Guides provides out-of-the-box connectors that help you connect with your data sources, making Experience Manager Guides a true content hub. This gives you the advantage of saving you time and effort that would otherwise be spent on manual data addition or replication.
 
 Along with the existing out-of-the-box connectors like JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite), your administrator can also configure connectors for MariaDB, H2DB, AdobeCommerce, and ElasticSearch databases. They can also add other connectors by extending the default interfaces.
 

@@ -1,7 +1,7 @@
 ---
 title: Edit a bulk activation map collection
 description: Use bulk publish dashboard in AEM Guides. Learn to edit a bulk activation map collection by adding or removing map files.
-exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
+exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 ---
 # Edit a bulk activation map collection {#id214GI40B0XA}
 

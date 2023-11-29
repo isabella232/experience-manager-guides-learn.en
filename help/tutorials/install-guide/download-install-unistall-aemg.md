@@ -1,7 +1,7 @@
 ---
 title: Uninstall AEM Guides
 description: Learn how to Uninstall AEM Guides
-exl-id: 00a19e98-e9df-45fc-9f8d-8645b3da33a6
+exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 ---
 # Uninstall AEM Guides {#id21BHG0C0SXA}
 

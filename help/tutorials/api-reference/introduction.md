@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: Introduction to the API Reference Guide for AEM Guides
-exl-id: 6f55bdc4-90a3-45d3-8b02-5958f2f931c3
+exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 ---
 # Introduction {#id1761C0007W7}
 
@@ -169,7 +169,7 @@ Perform the following steps to configure and use the service API JARs from the p
     <repository>
        <id>fmdita-public</id>
        <name>fmdita-public</name>
-       <url>https://repo.xmldocumentation.com/repository/fmdita-public</url>
+       <url>https://repo.aem-guides.com/repository/fmdita-public</url>
     </repository>
     ```
 

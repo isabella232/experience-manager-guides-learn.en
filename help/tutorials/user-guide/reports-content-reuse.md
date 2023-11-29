@@ -1,7 +1,7 @@
 ---
 title: Content Reuse Report
 description: Learn how to view the content reuse report in AEM Guides. Generate the report to find the content reuse percentage.
-exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 ---
 # Content Reuse Report {#id205BB900OQD}
 

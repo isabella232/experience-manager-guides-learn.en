@@ -1,7 +1,7 @@
 ---
 title: Configure topic and map templates
 description: Learn how to Configure topic and map templates
-exl-id: 3ce0490c-4bdd-4496-a109-5b8067af8c2c
+exl-id: 32f4a40b-e398-4665-8767-45c58100f129
 ---
 # Configure topic and map templates {#id181AH2003PF}
 
