@@ -416,6 +416,10 @@ Configure the print production settings to assign printer marks, select color mo
 
 Use the **Cross-reference** tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
 
+> [!Note]
+>
+> If you have defined the link text while inserting the cross-references, then it takes precedence over the cross-references defined in the Native PDF template.     
+
 You can also use variables to define a cross-reference.  When you use a variable, its value is picked from the properties. You can use a single or a combination of variables to define a cross-reference. You can also use a combination of a string and a variable. 
 
 For example, you can use `View details on {chapter}`. If the Chapter name is “General settings,” the cross-reference in the output is “See details on General settings.” 
@@ -439,15 +443,20 @@ AEM Guides provides the following out-of-the-box variables:
 
 #### Default cross-reference format 
 
-If you leave the text field blank, Experience Manager Guides adds the following default text for the respective cross-references:
+If you leave the text field blank, Experience Manager Guides adds the following variables for the respective cross-references:
 
-* **Title**: Title of the topic
-* **Description**: Topic description text
-* **Heading**: Heading of the topic
-* **Paragraph**: Bookmarked text
-* **Bookmark**: Bookmarked text
-* **Figure**: Caption of the figure
-* **Table**: Caption of the table
+* **Title**: {title} 
+* **Description**: {description}
+* **Paragraph**: {bookmarkText}
+* **Bookmark**: {bookmarkText}
+* **Figure**: {captionText}
+* **Table**: {captionText}
+
+The order of precedence for cross-references is:
+* Link text added in the cross-references 
+* Cross-reference format defined in the Native PDF template
+* Default cross-reference format
+
 
 #### Language variables in cross-references
 
