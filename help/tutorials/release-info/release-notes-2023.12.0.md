@@ -141,7 +141,7 @@ The bugs fixed in various areas are listed below:
 - Re-usable content skips the element IDs. (14213)
 - The setting control to hide **Language Variables** panel under **Output** tab is missing. (14194)
 - The Web Editor throws application errors when adding a new reference or topic using a specialized schema in the Layout view. (14094)
-- An anchor link to `<dlentry>` or `<dt>` element fails to display the link text.(13543)
+- An anchor link to `<dlentry>` or `<dt>` element fails to display the link text. (13543)
 - The **Favorites** collection in the Web Editor fails to load. (13495)
 - Citations display non-clickable links when created with a unique ID with spaces. (13447)
 - In the **Layout** view for a Bookmap, using **Move Right** to make a selected chapter a subelement does not work. (12567)
@@ -169,7 +169,7 @@ The bugs fixed in various areas are listed below:
 
 ### Accessibility
 
-- Unable to navigate through the author canvas user interface, as the focus becomes trapped in the topic editor.(13517)
+- Unable to navigate through the author canvas user interface, as the focus becomes trapped in the topic editor. (13517)
 
 ## Known issue
 
