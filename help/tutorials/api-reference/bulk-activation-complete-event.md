@@ -28,3 +28,37 @@ com/adobe/fmdita/replication/complete
 |`agentId`|String|The agentId used in the replication. For example, `"publish"`.|
 |`importMode`|String|Import mode used in Activation. The possible options are: <br>`REPLACE, MERGE, UPDATE`.|
 
+
+**Sample Event Listener**:
+```XML
+Sample Replication Complete Event Listener
+@Component(service = EventHandler.class,
+        immediate = true,
+        property = {
+                EventConstants.EVENT_TOPIC + "=" + "com/adobe/fmdita/replication/complete",
+        })
+ 
+public class SampleEventHandler implements EventHandler {
+ 
+    protected final Logger log = LoggerFactory.getLogger(this.getClass());
+ 
+    @Override
+    public void handleEvent(final Event event) {
+        Map<String, String> properties = new HashMap<>();
+        properties.put("paths", (String) event.getProperty("paths"));
+        properties.put("messageType", (String) event.getProperty("messageType"));
+        properties.put("action", (String) event.getProperty("action"));
+        properties.put("result", (String) event.getProperty("result"));
+        properties.put("user", (String) event.getProperty("user"));
+        properties.put("agentId", (String) event.getProperty("agentId"));
+        properties.put("importMode", (String) event.getProperty("importMode"));
+ 
+        String eventTopic = event.getTopic();
+        log.debug("eventTopic {}", eventTopic);
+        for(Map.Entry entry:properties.entrySet()) {
+            log.debug(entry.getKey() + " : " + entry.getValue());
+        }
+ 
+    }
+}
+```
