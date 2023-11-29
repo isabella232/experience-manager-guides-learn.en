@@ -62,7 +62,7 @@ For more details, refer to the **Content Properties** feature description within
 
 ## Edit metadata while authoring 
 
-Now, while authoring, you can also update the file metadata tags using the dropdown from the **File Properties** in the right panel. You can also select **Edit more properties** to update more metadata.
+Now, while authoring, you can update the file metadata tags using the dropdown from the **File Properties** in the right panel. You can also select **Edit more properties** to update more metadata.
 
 ![file-properties](assets/file-properties-general.png){width="300" align="left"}
 
@@ -79,7 +79,7 @@ With the December 2023 release, as an administrator, you can create a publish pr
 This feature helps you publish content, like text, videos, and images, to the ServiceNow knowledge base platform and maintain a comprehensive repository.
 
 
-![service now knowledge base preset](assets/knowledgebase--output-preset.png){width="500" align="left"}
+![service now knowledge base preset](assets/knowledgebase--output-preset.png){width="300" align="left"}
 
 *Create an output preset for the ServiceNow knowledge base.*
 
