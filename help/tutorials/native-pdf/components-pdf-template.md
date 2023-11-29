@@ -416,7 +416,7 @@ Configure the print production settings to assign printer marks, select color mo
 
 Use the **Cross-reference** tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
 
-> [!Note]
+>[!NOTE]
 >
 > If you have defined the link text while inserting the cross-references, then it takes precedence over the cross-references defined in the Native PDF template.     
 
