@@ -14,7 +14,7 @@ For more information about the new features and enhancements, view [What's new i
 Upgrade your current Experience Manager Guides as a Cloud Service setup by performing the following steps:
 
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
-2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.11.0.406.
+2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.12.0.15.
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the December 2023 release of Experience Manager Guides as a Cloud Service.
 
 ## Steps to enable the trigger of a script via a servlet
@@ -171,3 +171,7 @@ The bugs fixed in various areas are listed below:
 
 - Unable to navigate through the author canvas user interface, as the focus becomes trapped in the topic editor.(13517)
 
+## Known issue
+
+Adobe has identified the following known issue for the December 2023 release:
+- "Getting Invalid DTD Error" occurs on upgrading from October 2023 release.
