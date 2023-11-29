@@ -49,7 +49,7 @@ This feature helps generate customized output with dynamic content in your docum
 
 ## Revamped attribute editing experience 
 
-Experience Manager Guides provides an enhanced experience while you add one or more attributes to an element from the **Attributes** in the **Content Properties** panel. 
+Experience Manager Guides provides an enhanced experience when you add one or more attributes to an element from **Attributes** in the **Content Properties** panel. 
 
 ![Attributes panel](assets/attributes-multiple-properties.png){width="300" align="left"}
 
