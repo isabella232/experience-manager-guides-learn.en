@@ -42,14 +42,14 @@ Once you have created the variables, you can add the variables to the appropriat
 
 *Generate the Native PDF output using variables in the PDF layout.*
 
-You can also quickly update the values for any variable set whenever required. For example, if you need to update the details for a version, you can update the value of the version in VersionNumber. 
-
 This feature helps generate customized output with dynamic content in your documentation and manage changes efficiently. You can also apply styles and use HTML markup to format the variables.
 
+You can also quickly update the values for any variable set whenever required and regenerate the output. For example, if you need to update the details for a version, you can update the value of the version in VersionNumber. 
 
-## Revamped attribute editing experience 
 
-Experience Manager Guides provides an enhanced experience when you add one or more attributes to an element from **Attributes** in the **Content Properties** panel. 
+## Revamped experience to edit the attributes 
+
+Now, you get a revamped experience to add or edit the attributes for an element from the **Content Properties** panel in the Web Editor. 
 
 ![Attributes panel](assets/attributes-multiple-properties.png){width="300" align="left"}
 
