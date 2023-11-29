@@ -114,6 +114,7 @@ It also allows you to duplicate a baseline based on the label. The reference ver
 
 
 ![duplicate a baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
+
 *Duplicate a baseline based on a label or create an exact copy.*
 
 ## An improved process for the creation of bulk activation map collection
