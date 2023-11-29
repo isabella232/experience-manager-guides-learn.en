@@ -174,4 +174,4 @@ The bugs fixed in various areas are listed below:
 ## Known issue
 
 Adobe has identified the following known issue for the December 2023 release:
-- "Getting Invalid DTD Error" occurs on upgrading from October 2023 release.
+- "Getting Invalid DTD Error" occurs intermittently on upgrading to the December 2023 release.
