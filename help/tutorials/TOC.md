@@ -334,8 +334,7 @@ breadcrumb-title: AEM Guides Tutorials
       +   [Version management](./cs-install-guide/version-management.md)
     + Work with output generation settings {#output-gen-config-cs} 
       +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-        +   [Configure page names for the topics ](./cs-install-guide/conf-topic-page-names.md)
-        + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md) 
+      + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md) 
       + [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       + [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)  
     + Work with custom workflows {#custom-workflow-cs}

@@ -135,6 +135,23 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`aemsite.pagetitle`|Boolean \(true/false\). In case you want to generate output using the page title, then set this property to true. By default, it is set to use the file name.<br> **Default value**: false |
 
+### Configure the URL of the AEM Site output to use the document title
+
+You can use the document titles in the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure the system to replace the special characters with a separator in the URL of the AEM Site output. You can also configure it to replace them with the first child topic’s name.
+
+
+To configure the page names, perform the following steps:
+
+1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  In the configuration file, provide the following (property) details to configure the page names for the topics.
+
+|PID|Property Key|Property Value|
+|---|------------|--------------|
+|`com.adobe.fmdita.common.SanitizeNodeName`|`nodename.systemDefinedPageName`|Boolean (`true/false`). **Default value**: `false`|
+
+For example, if the *@navtitle* in `<topichead>` has all special characters and you set the `aemsite.pagetitle` property to true, then by default, it uses a separator. If you set the `nodename.systemDefinedPageName` property to true, it shows the first child topic’s name.
+
+
 ### Configure filename sanitization rules for creating topics and publishing AEM Site output {#id2164D0KD0XA}
 
 As an administrator, you can define a list of valid special characters allowed in filenames, which eventually form the URL of an AEM Site output. In earlier releases, users were allowed to define filenames containing special characters such as `@`, `$`, `>`, and more. These special characters resulted in encoded URL on generation of AEM Site pages.
