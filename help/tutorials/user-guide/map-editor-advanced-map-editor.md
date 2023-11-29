@@ -63,7 +63,7 @@ Perform the following steps to build your map file using the Advanced Map Editor
 
     The topic is added in the map.
 
-    ![](images/map-editor-add-topic.png){width="800" align="left"}
+    ![map editor add topic](images/map-editor-add-topic.png){width="800" align="left"}
 
 1.  To add subsequent topics or a sub-map, drag-and-drop the topic or sub-map to the required location in the map.
 
@@ -225,7 +225,7 @@ The Content Properties panel contains information about the type of currently se
 
 -   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display Attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
 
-    ![](images/layout-inline-attributes.png){width="650" align="left"}
+    ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
 
    
     For more details, see the *Display Attributes* within the *Editor Settings* feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.

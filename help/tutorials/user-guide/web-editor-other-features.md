@@ -182,6 +182,15 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 -   You can access the Rename Element dialog by invoking the Options menu of an element in the Outline panel.
 
 
+
+**Wrap an element** 
+
+- Wrapping an element allows you to add an element tag to the selected text. You can wrap the text to any child element following DITA standards. For example, if you have text under a `note` element, then you can wrap the text to a `p` element. 
+    
+    The **Wrap Element** option is available in the context menu of the topic's breadcrumb. To wrap an element, right-click on the element and open the context menu. Select the element from the **Wrap Element** dialog. The text appears in the new element. 
+
+    You can also select the text or the element in the content and then select the **Wrap Element**  option from the context menu.
+
 **Unwrap an element** 
 
 - Unwrapping an element allows you to remove the element tag from the selected text and merge it with its parent element. For example, if you have a `p` element within a `note` element, you can unwrap the `p` element to merge the text directly within the `note` element. The **Unwrap Element** option is available in the context menu of the topic's breadcrumb. To unwrap an element, right-click on the element to open the context menu, then finally select **Unwrap Element** to remove the element and merge the element's text with its parent element.

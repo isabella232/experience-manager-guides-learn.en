@@ -41,7 +41,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     The DITA map files are added to your Map Collection.
 
-    ![](images/maps_presets_62_63.png){width="800" align="left"}
+    ![map collection dashboard](./images/map-collection-dashboard.png){width="800" align="left"}
 
 The following filtering options and map details are shown on the collection page:
 
@@ -50,11 +50,13 @@ The following filtering options and map details are shown on the collection page
     -   **Preset**: Select a preset for which you want to filter out the map files. For example, if you choose *AEM Site* preset, then only those maps are shown that have the *AEM Site* output preset configured on them.
     -   **Language**: You can select any of the available language codes and display only the selected language in the Maps and Presets table.
 -   **Maps and Presets** table: The Maps and Presets table presents information in the following columns:
-    -   **Map**: Shows the title of the DITA map file.
-    -   **Language**: Shows the language of the DITA map.
-    -   **Preset**: Shows the output preset type configured on the map file.
-    -   **Modified**: Indicates if the DITA map is updated after last publication. Based on this information, you can decide if you want to republish the output for this DITA map or not.
-    -   **Last Generated**: Shows the date and time of the last generated output.
+    - **Map**: Shows the title of the DITA map file.
+    - **Filename**: Shows the filename of the DITA map.
+    - **Language**: Shows the language of the DITA map.
+    -  **Preset**: Shows the output preset type configured on the map file.
+    - **Baseline**: Shows the baseline which is used by the output preset.  If no baseline is used, then it shows a hyphen '-' 
+    - **Modified**: Indicates if the DITA map is updated after last publication. Based on this information, you can decide if you want to republish the output for this DITA map or not.
+    - **Last Generated**: Shows the date and time of the last generated output.
 
 ## Configure and generate the output using a Map Collection 
 
@@ -86,17 +88,44 @@ To configure and generate the output using a Map Collection, perform the followi
 
     -   To generate output of selected maps, select the map files and click **Generate Selected**.
     -   To generate output of all DITA maps with their configured presets, click **Generate All**.
+
     >[!IMPORTANT]
     >
     > If an output generation process for a preset or DITA map is either in the queue or in progress, you cannot initiate another output generation task for the same preset or map.
 
+## Configure the metadata properties
+
+In the map collection, you can configure the metadata properties in bulk for the DITA maps. Select **Configure Metadata**  to open the **Asset Metadata** page. On the **Asset Metadata** page, all the maps present in the collection are listed on the left. 
+
+![configure metadata](images/map-collection-asset-metadata.png){width="800" align="left"}
+
+Perform the following steps to configure the metadata properties:
+
+1. You can choose the maps you wish to update the metadata for. By default, all the DITA maps present are selected. 
+
+1. Once you select the DITA maps, you can view properties like metadata, schedule (de)activation, references, document state, and more.
+
+1. Update the metadata properties.  
+
+1. Click **Save & Close** on the top to save the updates.
+1. (Optional) When you update the tags, you can also select Append in the **Save & Close** dropdown to append the new tags to the existing list.
+1. Click **Submit** from the **Save & Close** dropdown.
+The metadata properties are updated for the DITA maps you select in bulk from the map collection.
+
+>[!NOTE]
+> 
+>For the **Document State** dropdown, you can select only those document states that are allowed in common for all the selected DITA maps. To learn more, view [**Document State**](./web-editor-document-states.md).
+
+The metadata properties are in sync with the file properties. Once you update them, you can view them from the **File Properties** panel in the Web Editor. 
+
+
 
 ## Delete a Map collection or a DITA map from the Map Collection 
 
--   To delete a map collection, select a collection in the Map Collection page, and click **Delete**.
--   To delete a DITA map from a map collection, open the Map Collection in Edit mode, select the DITA map file, and click **Remove From Collection**.
+-  To delete a map collection, select a collection in the Map Collection page, and click **Delete**.
+-  To delete a DITA map from a map collection, open the Map  Collection in Edit mode, select the DITA map file, and click **Remove From Collection**.
 
-    This will also remove any presets or locales associated with the DITA map from the Map Collection.
+This will also remove any presets or locales associated with the DITA map from the Map Collection.
 
 
 ## Cancel an output generation task from a Map Collection 

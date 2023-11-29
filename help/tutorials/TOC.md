@@ -14,7 +14,10 @@ breadcrumb-title: AEM Guides Tutorials
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       + 2023 Releases {#2023-releases}
-       + November Release {#2311-release}      
+        + December Release {#2312-release}      
+            + [What's new](./release-info/whats-new-2023.12.0.md)
+            + [Release Notes](./release-info/release-notes-2023.12.0.md)
+        + November Release {#2311-release}      
             + [What's new](./release-info/whats-new-2023.11.0.md)
             + [Release Notes](./release-info/release-notes-2023.11.0.md)
         + October Release {#2310-release}      
@@ -356,7 +359,9 @@ breadcrumb-title: AEM Guides Tutorials
   + [Java-based API to work with folder profiles](./api-reference/folder-profile-java.md)
   + [Java-based API for creating and activating packages](./api-reference/create-activate-package-java.md)
   + [Post-processing event handler](./api-reference/post-process-event.md)
+   + [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   + [Conversion process event handler](./api-reference/conversion-complete-event.md)
+  
 + Knowledge Base {#knowledge-base}
   + Expert Session {#expert-session}
     + [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md) 

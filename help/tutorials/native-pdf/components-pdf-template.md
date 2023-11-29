@@ -416,6 +416,10 @@ Configure the print production settings to assign printer marks, select color mo
 
 Use the **Cross-reference** tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
 
+>[!NOTE]
+>
+> If you have defined the link text while inserting the cross-reference, then it takes precedence over the cross-reference format defined in the Native PDF template.     
+
 You can also use variables to define a cross-reference.  When you use a variable, its value is picked from the properties. You can use a single or a combination of variables to define a cross-reference. You can also use a combination of a string and a variable. 
 
 For example, you can use `View details on {chapter}`. If the Chapter name is “General settings,” the cross-reference in the output is “See details on General settings.” 
@@ -437,8 +441,24 @@ AEM Guides provides the following out-of-the-box variables:
    >
    >You can create auto number styles for caption and figcaption tags. 
 
+#### Default cross-reference format 
 
-#### Language variables in Cross-references
+If you leave the text field blank and you have not defined the link text while inserting a cross-reference, Experience Manager Guides adds the following variables for the respective cross-references:
+
+* **Title**: `{title}` 
+* **Description**: `{description}`
+* **Paragraph**: `{bookmarkText}`
+* **Bookmark**: `{bookmarkText}`
+* **Figure**: `{captionText}`
+* **Table**: `{captionText}`
+
+The order of precedence for cross-references is:
+* Link text added in the cross-references 
+* Cross-reference format defined in the Native PDF template
+* Default cross-reference format
+
+
+#### Language variables in cross-references
 
    You can also use language variables to define localized cross-references. Depending on your chosen language, the localized value is automatically picked in the PDF output.  
 
@@ -451,11 +471,12 @@ AEM Guides provides the following out-of-the-box variables:
 When you add `${lng:<variable name>}` to the Paragraph section, the cross-references in the paragraphs of the output contain the localized text and the page number.  
 For example, the following screenshots show the cross-references “View on page 1 ” in English and “Einzelheiten finden Sie auf der Seite 1” in German. 
 
-<img src="./assets/english-output-corss-reference.png" alt="English output of a cross-reference in a pragrah" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="English output of a cross-reference in a pragrah" width ="800" border="2px">
 
 *A cross-reference within a paragraph when published in the English language.*
 
-   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800" border="2px solid blue">
+   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800" border="2px">
+
 
 *A cross-reference within a paragraph when published in the German language.*
 

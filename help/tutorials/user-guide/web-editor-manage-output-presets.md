@@ -22,7 +22,7 @@ Perform the following steps to create an output preset for the Global and Folder
     -   Name
     -   Target \(for Knowledgebase preset\)
 1.  Select the **Add to folder profile** check box to create an output preset for the related folder profile and then click **Add**. The preset is created, and it appears under the **Output** tab of all related maps. \( ![](images/global-preset-icon.svg)\) icon indicates a folder profile level preset.
-1.  Enter the configuration details.
+1.  Enter the configuration details. For more details on output presets, view [Understanding the output presets](./generate-output-understand-presets.md).
 
     >[!NOTE]
     >

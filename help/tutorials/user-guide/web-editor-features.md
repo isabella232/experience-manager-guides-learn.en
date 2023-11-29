@@ -296,7 +296,12 @@ Using the table's context menu, you can:
 -   Generate IDs
 
 
-You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel \(on the right\), the property **Type** changes to **Multiple Entry**. In the Other Attributes section, select the `@valign` attribute from the attribute drop-down list. From the value drop-down list, select the desired text alignment you want to apply on the selected table cells.
+You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **Multiple Entry**.
+
+1. In the **Attributes** section, click **+Add**. 
+1. Select the `@valign` attribute from the **Attribute** dropdown list. 
+1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
+1. Click **Add.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -323,7 +328,7 @@ The Source field displays the UUID of the inserted image file. You can find the 
 
 You can resize an image by providing either Height or Width value for the image file. The aspect ratio of the image is maintained automatically. If you want, you can also choose not to maintain the aspect ratio of the image file by clicking the lock icon \(of Maintain Aspect Ratio\) and providing Height and Width values.
 
-You can also specify the Placement setting for the image as Inline or Break. In case you choose to use the Break placement option, you can then choose where to align the image \(Left, Center, or Right\).
+You can also specify the Placement setting for the image as Inline or Break. In case you choose to use the Break placement option, you can then choose where to align the image (Left, Center, or Right).
 
 You can also add other properties for an image file by selecting the required properties in the **Attributes** field.
 
@@ -774,7 +779,7 @@ speed, or view picture in picture.
 
 
 
- Double-clicking on a map file opens it in the **Map View**. For more details, see the **Map View** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. Double-clicking on a topic file opens it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity. 
+ Select a map and press Enter or double-click to open it in the **Map View**. For more details, see the **Map View** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. Select a topic and press Enter or double-click to open it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity. 
 
 **Filter Search**
 
@@ -1032,7 +1037,14 @@ By default, you can view the files by titles. As you hover over a file, you can 
 >As an administrator, you can also choose to view the filename of the parent map which is currently opened in the map view. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
 
 
-When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. 
+
+When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `keys=<key-name>`. 
+
+![keys in map view](images/view-key-title-map-view.png){width="300" align="left"}
+
+If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+
 
 You can perform the following actions using the Options menu of the map file:
 
@@ -1161,7 +1173,7 @@ The Outline View offers the following features:
 
     ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
--   The **Options** menu in the *Outline View* allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Unwrap an element, and create a snippet out of the selected element.
+-   The **Options** menu in the *Outline View* allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Wrap an element, Unwrap an element, and create a snippet out of the selected element.
 
 >[!NOTE]
 >
@@ -1485,9 +1497,16 @@ For example, use the following enumeration to restrict the `@platform` attribute
 
 **Attributes drop-down**
 
-You can also change the value of the subject scheme using the Attribute dropdown from the Content Properties panel in the Author view. To change the value, select a value from the Attribute dropdown.
+You can also change the value of the subject scheme using the **Attributes** dropdown from the **Content Properties** panel in the **Author** view. 
+    ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
+Perform the following steps to change the value:
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+ 1. Select an attribute from the **Attribute** dropdown. 
+ 1. Select **Edit** ![edit-icon](images/edit_pencil_icon.svg). 
+ 1. Select the required value from the **Value** dropdown.
+ 1. Click **Update**.   
+
+
 
 You can also apply values for an attribute by selecting multiple values from the dropdown.
 
@@ -1730,7 +1749,22 @@ The right panel gives you access to the following features:
 
 **Content Properties** -  ![](images/content-properties-icon.svg)
 
-You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. You can also add attributes by selecting the attribute from the dropdown list and specifying an attribute's value.
+You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. 
+You can easily add, edit, or delete the attributes.
+
+1. Click **+ Add**. 
+
+    ![attrubutes in content properties](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
+1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  Then click **Add**. 
+
+    ![attributes panel with multiple attributes ](images/attributes-multiple-properties.png){width="300" align="left"}
+
+1. To edit the attribute, hover over it and select **Edit** ![edit-icon](images/edit_pencil_icon.svg).
+    ![edit attributes](images/edit-attributes-content-properties.png){width="300" align="left"}
+
+1. To delete the attribute, hover over it and select **Delete** ![delete-icon](images/Delete_icon.svg). 
+
 
 >[!NOTE]
 >
@@ -1738,7 +1772,7 @@ You can access the Content Properties feature by clicking the Content Properties
 
 If your administrator has created a profile for attributes, then you will get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. This way you can also create conditional content, which can then be used to create conditional output. For more information about generating output using conditional presets, see [Use condition presets](generate-output-use-condition-presets.md#).
 
-![](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
 
 **File Properties** -  ![](images/topic-properties-icon.svg)
 
@@ -1748,11 +1782,12 @@ View the properties of the selected file by clicking the File Properties icon in
 
 The General section gives you access to the following features:
 
-![](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300" align="left"}
 
 -   **Name**: Displays the filename of the selected topic. The filename is hyperlinked to the properties page of the selected file.
 -   **ID**: Displays the ID of the selected topic.
--   **Metadata Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page.
+-   **Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page. You can type or select them from the dropdown.  The tags appear under the dropdown. To delete a tag, select the cross icon next to the tag. 
+-  **Edit more properties**: You can edit more properties from the file properties page.  
 -   **Language**: Shows the language of the topic. It is set from the language field in the properties page.
 -   **Created On**: Displays date and time on which the topic was created.
 -   **Checked Out By**: Shows the user who checked out the topic.

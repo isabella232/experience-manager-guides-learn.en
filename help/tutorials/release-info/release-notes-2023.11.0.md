@@ -7,7 +7,7 @@ exl-id: 80839890-075f-4187-a167-444c73215496
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version November 2023 of Adobe Experience Manager Guides as a Cloud Service (later referred as *Experience Manager Guides as a Cloud Service*).
 
-For more information about the new features and enhancements, see [What's new in the November 2023 release of Experience Manager Guides as a Cloud Service](whats-new-2023.11.0.md).
+For more information about the new features and enhancements, view [What's new in the November 2023 release of Experience Manager Guides as a Cloud Service](whats-new-2023.11.0.md).
 
 ## Upgrade to November 2023 release
 
@@ -83,11 +83,11 @@ Perform the following steps for post-processing the existing content and using t
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level and topic list under the reports tab:
 
-1.   Run a POST request to the server \(with correct authentication\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed \|\| For example : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1.   Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed || For example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-1. You can also pass a root folder to index the DITA maps of a specific folder (and its subfolders). For example, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Note that if both the paths parameter and root parameter are passed, only the paths parameter is considered. 
+1. You can also pass a root folder to index the DITA maps of a specific folder (and its subfolders). For example, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Note that if both the paths parameter and root parameter are passed, only the paths parameter is considered. 
 
-1.   The API returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1.   The API returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
 
 
 1.   Once the job is completed, the previous GET request responds with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
