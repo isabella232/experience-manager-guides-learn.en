@@ -131,7 +131,7 @@ Cross-map links (XREF with scope peer) getting rendered in the AEM Site output a
 
 ## Configure the URL of the AEM Site output to use the document title
 
-Experience Manager Guides allows you, as an administrator, to configure the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure it to replace the special characters with a separator or the first child topic’s name in the URL of the AEM Site output.
+Experience Manager Guides allows you, as an administrator, to configure the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure to replace them with a separator in the URL of the AEM Site output. You can also replace them with the first child topic’s name .
 
 
 
