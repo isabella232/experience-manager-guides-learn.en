@@ -53,9 +53,9 @@ Experience Manager Guides provides an enhanced experience when you add one or mo
 
 ![Attributes panel](assets/attributes-multiple-properties.png){width="300" align="left"}
 
-*Add attributes from the Content Properties.*
+*Add attributes from the Content Properties panel.*
 
-You can also easily edit and delete the attributes from the **Attributes** panel. 
+You can also easily edit and delete the attributes. 
 
 For more details, refer to the **Content Properties** feature description within the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section.
 
