@@ -40,10 +40,11 @@ You can create a condition preset of the topics by performing the following step
 1. Select **Create**.
 The new condition preset is added to the list.
 1. Double-click a condition preset to view the attributes and the actions.
-The **Attributes** panel shows all the attributes added to the map. The right panel shows only the conditions that are selected.
+The **Attributes** panel shows all the attributes added to any references present in the map. The right panel shows only the conditions that you have added to the condition presets.
 1. Do any of the following to add the attributes:
     * Select one or more attributes to add all the values under them to the condition preset. For example, you can select the `platform` attribute to add all its values.
     * Select one or more attribute values to add them to the condition preset. For example, you can select the `Unix` and `Win` values of the platform attribute 
+    * Select any attribute and value pair and drag it to the center panel. For example, you can select the `Unix` value of the platform attribute and drag it.
     * **Select all** to add all the attributes and their values to the condition preset.
     By default, the action for an attribute is `Include`.
 
