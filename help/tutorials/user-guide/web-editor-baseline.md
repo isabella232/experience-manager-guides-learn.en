@@ -76,6 +76,7 @@ You can manage your existing baselines using the various features on the Baselin
 
 
     ![options of a baseline](images/baseline-options.png){width="800" align="left"}
+    *Use the options to manage baselines.*
 
 You can also perform the following operations on the baseline from the Options menu:
 
@@ -100,8 +101,8 @@ You can also perform the following operations on the baseline from the Options m
 
 Using the Filters icon in the **Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
 
-![](images/baseline-filter.png){width="350" align="left"}
-
+![baseline filters](images/baseline-filter.png){width="300" align="left"}
+*Apply filters on the baselines.*
 -   Filter the files based on filenames, or file location.
 -   Filter the files based on the values for different columns like File Type, Reference Type and so on.
 -   Choose the columns to be displayed in the baseline editing window.
