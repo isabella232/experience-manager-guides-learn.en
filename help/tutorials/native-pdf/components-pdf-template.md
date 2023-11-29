@@ -418,7 +418,7 @@ Use the **Cross-reference** tab to define how the cross-references are published
 
 >[!NOTE]
 >
-> If you have defined the link text while inserting the cross-references, then it takes precedence over the cross-references defined in the Native PDF template.     
+> If you have defined the link text while inserting the cross-reference, then it takes precedence over the cross-reference format defined in the Native PDF template.     
 
 You can also use variables to define a cross-reference.  When you use a variable, its value is picked from the properties. You can use a single or a combination of variables to define a cross-reference. You can also use a combination of a string and a variable. 
 
@@ -443,7 +443,7 @@ AEM Guides provides the following out-of-the-box variables:
 
 #### Default cross-reference format 
 
-If you leave the text field blank, Experience Manager Guides adds the following variables for the respective cross-references:
+If you leave the text field blank and you have not defined the link text while inserting a cross-reference, Experience Manager Guides adds the following variables for the respective cross-references:
 
 * **Title**: {title} 
 * **Description**: {description}
