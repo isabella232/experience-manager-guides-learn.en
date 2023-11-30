@@ -1,7 +1,7 @@
 ---
 title: Java-based API to work with output generation
 description: Learn about the Java-based API to work with output generation
-exl-id: 1b99f5b4-2d4d-49f3-8e01-6c252ecee19e
+exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 ---
 # Java-based API to work with output generation {#id175UB30E05Z}
 

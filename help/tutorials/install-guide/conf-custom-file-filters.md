@@ -1,7 +1,7 @@
 ---
 title: Configure filters for file browse dialog
 description: Learn how to Configure filters for file browse dialog
-exl-id: ff9d0298-1c83-4b7e-b4b6-770de4ab748f
+exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 ---
 # Configure filters for file browse dialog {#id20CIL7009GN}
 

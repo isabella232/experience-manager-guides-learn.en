@@ -1,7 +1,7 @@
 ---
 title: Configure search for AEM Assets UI
 description: Learn how to Configure search for AEM Assets UI
-exl-id: 0a5f02ed-929b-4569-8d5b-1646208a1bb5
+exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 ---
 # Configure search for AEM Assets UI {#id192SC800MY4}
 

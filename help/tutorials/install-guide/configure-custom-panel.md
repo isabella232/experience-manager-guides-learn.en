@@ -1,7 +1,7 @@
 ---
 title: Configure a custom panel in the left panel
 description: Learn how to Configure a custom panel in the left panel
-exl-id: 09aee704-cd9e-4ad5-b41c-11274b398f86
+exl-id: 6cfa64aa-46f3-4235-a4a7-f21e658f0a5a
 ---
 # Configure a custom panel in the left panel {#id224JI200Y6F}
 

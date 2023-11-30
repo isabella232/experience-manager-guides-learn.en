@@ -1,7 +1,7 @@
 ---
 title: Configure filenames
 description: Learn how to Configure filenames
-exl-id: 04a337f3-f116-44ea-828b-c7ee16925237
+exl-id: e5e50cb8-45a9-4045-abac-88a3de62803d
 ---
 # Configure filenames {#id214BD010GXA}
 

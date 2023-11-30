@@ -1,7 +1,7 @@
 ---
 title: Translate modified topics
 description: Learn how to re-translate a modified topic in AEM Guides.
-exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 ---
 # Translate modified topics {#id16A5A0B6072}
 

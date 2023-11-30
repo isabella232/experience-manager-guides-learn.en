@@ -1,7 +1,7 @@
 ---
 title: Configure text filters
 description: Learn how to Configure text filters
-exl-id: ec3bf0c0-36f4-4959-9589-1fee56332655
+exl-id: 0963606c-010e-4a72-b7bf-850b86b34a84
 ---
 # Configure text filters {#id21BPD0FK0XA}
 

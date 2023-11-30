@@ -1,7 +1,7 @@
 ---
 title: Know the Web Editor features
 description: Discover features of the web editor in AEM Guides. Know the web editor's interface, including the main toolbar, secondary toolbar, left panel, content editing area, and right panel.
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 ---
 # Know the Web Editor features {#id176NC500V5Z}
 

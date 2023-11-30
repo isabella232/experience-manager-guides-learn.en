@@ -1,7 +1,7 @@
 ---
 title: Manage files and folders
 description: Learn how to manage files and folders in AEM Guides. Copy and paste, drag and drop, delete, move files and folders in bulk, and search DITA content.
-exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
+exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 ---
 # Manage files and folders {#id2116G0L08XA}
 

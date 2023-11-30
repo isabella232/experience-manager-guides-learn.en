@@ -1,7 +1,7 @@
 ---
 title: Configure file auto-save in the Web Editor
 description: Learn how to Configure file auto-save in the Web Editor
-exl-id: 0c5d1e7e-3dd7-4949-96de-58c5deea557e
+exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
 ---
 # Configure file auto-save in the Web Editor {#id199CC0J0M5Z}
 

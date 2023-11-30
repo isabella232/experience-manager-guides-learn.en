@@ -1,7 +1,7 @@
 ---
 title: Reports
 description: Learn how to create DITA map reports in AEM Guides.
-exl-id: baf3bc11-0725-418e-afef-fe9aa55327fe
+exl-id: 1f8a33ba-d6e5-448f-b40b-646b9fdc0b19
 ---
 # Reports {#id1645H9007MZ}
 

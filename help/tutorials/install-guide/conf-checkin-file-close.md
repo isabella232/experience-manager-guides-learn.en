@@ -1,7 +1,7 @@
 ---
 title: Configure prompt to check in a file on close
 description: Learn how to Configure prompt to check in a file on close
-exl-id: 1bdf6017-0313-4404-9091-f30f0af392ce
+exl-id: d184c97f-8405-4bcd-963d-635f17584897
 ---
 # Configure prompt to check in a file on close {#id222HC040PE8}
 

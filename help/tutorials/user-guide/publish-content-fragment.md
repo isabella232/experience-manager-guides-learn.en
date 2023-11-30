@@ -1,7 +1,7 @@
 ---
 title: Publish a topic to a content fragment
 description: Publish a topic or the elements within a topic to a content fragment in AEM Guides.  Learn how to view the content fragments present for a topic and republish them.
-exl-id: e03414ea-cdca-48e3-ba9e-d968e26f27f9
+exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 ---
 # Publish to a content fragment
 

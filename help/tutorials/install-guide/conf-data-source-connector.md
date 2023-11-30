@@ -1,7 +1,7 @@
 ---
 title: Configure a data source connector
 description: Learn how to configure a data source connector
-exl-id: b7d09319-28d8-4f70-a641-03e8659442de
+exl-id: bd1188e1-0e1d-4e70-928a-10251c3d529d
 ---
 # Configure a data source connector 
 

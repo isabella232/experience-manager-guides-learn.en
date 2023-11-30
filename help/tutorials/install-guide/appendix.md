@@ -1,7 +1,7 @@
 ---
 title: Appendix
 description: Learn how to Prepare InDesign files for conversion
-exl-id: d543cf0c-556a-44d8-9872-0c4ef1629656
+exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 ---
 # Appendix {#id195AD0L60Y4}
 

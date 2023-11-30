@@ -1,7 +1,7 @@
 ---
 title: How AEM Guides works
 description: Learn how AEM Guides works with AEM and other DITA editors to empower content management, reuse, translation, and review in an enterprise scenario.
-exl-id: d7383997-451e-4f01-a0a3-3061f151a57c
+exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 ---
 # How AEM Guides works {#id167G9A00DO4}
 

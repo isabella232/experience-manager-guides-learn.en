@@ -1,7 +1,7 @@
 ---
 title: Author content using AEM Guides
 description: Author content efficiently using AEM Guides. Learn how to create, edit, and publish your documents in AEM Guides.
-exl-id: 6a6354ce-29cc-4bd7-8235-579fe3647682
+exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 ---
 # Author content using AEM Guides {#id221EB0P0E20}
 

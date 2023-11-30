@@ -1,7 +1,7 @@
 ---
 title: Customize and configure the Native PDF publishing feature
 description: Learn how to customize and configure the various components of the Native PDF Feature.
-exl-id: 33ccf6dc-5fc3-4236-9f80-1f560cf31bf9
+exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
 ---
 # Native PDF Publishing
 

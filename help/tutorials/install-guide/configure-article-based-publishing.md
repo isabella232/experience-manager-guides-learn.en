@@ -1,7 +1,7 @@
 ---
 title: Install packages for Article-based publishing
 description: Learn how to Install packages for Article-based publishing
-exl-id: a4f90ac6-40cc-486f-9d92-4f7fd8159011
+exl-id: 69f408da-602d-4541-94fa-6f058773502f
 ---
 # Install packages for Article-based publishing {#id21BNL02052Z}
 

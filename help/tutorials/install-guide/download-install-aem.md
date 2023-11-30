@@ -1,7 +1,7 @@
 ---
 title: Install Adobe Experience Manager
 description: Learn how to Install Adobe Experience Manager
-exl-id: e511fb45-18ba-4094-b284-5d83e3825c8e
+exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
 ---
 # Install Adobe Experience Manager {#id213BCI020E8}
 

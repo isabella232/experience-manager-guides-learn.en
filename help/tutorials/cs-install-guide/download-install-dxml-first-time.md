@@ -1,7 +1,7 @@
 ---
 title: Deploy AEM Guides module
 description: Learn how to Deploy AEM Guides module
-exl-id: 32d4c046-e70e-4e16-9ed6-7c33198b4f67
+exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 ---
 # Deploy AEM Guides module {#id213BCL00KEV}
 

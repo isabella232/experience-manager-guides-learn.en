@@ -1,6 +1,7 @@
 ---
 title: Release Notes | What's New in the Adobe Experience Manager Guides, November 2023 release
 description: Learn the new and enhanced features in November 2023 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 ---
 # What's new in the November 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
@@ -75,4 +76,3 @@ For more details, view the **Unwrap an element** section from the [other feature
 Experience Manager Guides now also allows you to use keyboard shortcuts to move the cursor in the Web Editor. You can use the keyboard shortcuts to quickly move one word left or right. You can also move to the beginning or the end of the line with the help of the keyboard shortcuts.
 Now, you can also use keyboard shortcuts to move the cursor to the beginning of the next element or the end of the previous element.
 Learn more about the [keyboard shortcuts in the Web Editor](../user-guide/web-editor-keyboard-shortcuts.md).
-

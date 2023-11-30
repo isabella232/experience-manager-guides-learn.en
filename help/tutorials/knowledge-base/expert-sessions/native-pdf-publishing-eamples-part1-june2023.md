@@ -1,7 +1,7 @@
 ---
 title: Native PDF Publishing - Learning by examples (part 1)
 description: With the Native PDF publishing engine, you can control the content layout of the document while manipulating the desired sections as needed using easy-to-update CSS, HTML, and JavaScript.
-exl-id: e6fcb2cb-4dfe-4aa7-8c84-f11759898c41
+exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
 ---
 # Native PDF Publishing - Learning by examples - 01
 

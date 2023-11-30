@@ -1,7 +1,7 @@
 ---
 title: Download and install
 description: Learn how to Download and install
-exl-id: 301683f8-f8c8-42d0-9e13-fb24c8f42d0f
+exl-id: 6387dd19-1bd1-4ce8-9428-968a6b838fbb
 ---
 # Download and install {#id1645E0O04MK}
 

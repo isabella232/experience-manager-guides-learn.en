@@ -1,7 +1,7 @@
 ---
 title: Native PDF | Support for language variables
 description: Use language variables in the PDF output and output templates
-exl-id: e027ddc3-d5d1-452b-b7e7-14cc5e084dab
+exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 ---
 # Support for language variables
 

@@ -1,7 +1,7 @@
 ---
 title: Customize AEM's default dictionary
 description: Learn how to Customize AEM's default dictionary
-exl-id: 5fd3c46d-17ef-4cb2-a5a4-1e09e9a84be3
+exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 ---
 # Customize AEM's default dictionary {#id209SD8000WU}
 
