@@ -94,6 +94,8 @@ Now, you can view the filename of the DITA map. You can also view the Baselines.
 
 *View, edit, and generate output from the map collection dashboard.* 
 
+Learn how to [use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
+
 ## View key attributes in the Map View
 
 When you define key attributes for the topic or map references, you can also view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`.

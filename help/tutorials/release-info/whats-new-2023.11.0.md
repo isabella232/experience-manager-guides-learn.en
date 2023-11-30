@@ -27,7 +27,7 @@ Learn more about the [PDF template](../native-pdf/pdf-template.md).
 
 ### Change the order of pages and publish multiple pages per sheet
 
-Besides publishing the pages according to the source document, you can also change the order of pages in PDF while publishing a multi-page document.  This gives you the flexibility to publish the pages in various orders, like all odd, or all even pages first. You can also publish as a booklet and read the pages like a book. You can also decide the number of pages you want to publish on a single sheet of paper. For more details, view the [Page Organization](../native-pdf/components-pdf-template.md#page-organization) section.
+Besides publishing the pages according to the source document, you can also change the order of pages in PDF while publishing a multi-page document.  This gives you the flexibility to publish the pages in various orders, like all odd, or all even pages first. You can also publish as a booklet and read the pages like a book. You can also decide the number of pages you want to publish on a single sheet of paper. For more details, view the [Page Organization](../native-pdf/components-pdf-template.md#page-organization) section. 
 
 ### Sort glossary terms based on sort keys
 
@@ -38,6 +38,7 @@ For more details, view the [Advanced PDF Settings](../native-pdf/components-pdf-
 ### Improved resource management for Native PDF templates 
 
 Experience Manager Guides now has improved the resource management for Native PDF templates. You can now share and reuse resources, like images, CSS files, and font files, across multiple Native PDF templates. With this improvement, managing the resources for a large set of templates is much simpler. You don't need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
+For more details, view [PDF Template](../native-pdf/pdf-template.md). 
 
 ## Web Editor enhancements
 
@@ -58,6 +59,8 @@ You can now choose the default way to view the files in the Web Editor. You can 
 You can define condition attributes in your DITA topics. Then, use the condition attributes in the condition preset to publish the content in a DITA map. Experience Manager Guides now also allows you to create and manage condition presets from the Web Editor. You can also easily edit, duplicate, or delete them.
 
 ![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+
+For more details, view [Use condtion presets](../user-guide/generate-output-use-condition-presets.md).
 
 ### Restore file tabs on refreshing the browser
 
