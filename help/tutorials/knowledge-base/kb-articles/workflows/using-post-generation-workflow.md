@@ -15,7 +15,7 @@ For example, you might want to set certain properties on the PDF output, or you 
 
 Create a Java or ECMA based workflow process that performs the operation on the generated output. For example, copying some metadata from source to the generated content or manipulating metadata of the generated output.
 - We will take and example of creating such a process using ECMA script (you can refer attached package)
-- For Java based workflow process, refer section "*Customize post-output generation workflow*" of [Installation and configuration guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- For Java based workflow process, refer section "*Customize post-output generation workflow*" of [Installation and configuration guide](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/custom-workflow/customize-workflows.html?lang=en#id17A6GI004Y4)
 
 
 ### Create a workflow model
