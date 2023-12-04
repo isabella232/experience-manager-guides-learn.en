@@ -1,7 +1,6 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, October 2022 release
 description: October release of Adobe Experience Manager Guides as a Cloud Service
-exl-id: 38638080-625c-49c3-9e54-56cc23831546
 ---
 # October release of Adobe Experience Manager Guides as a Cloud Service 
 

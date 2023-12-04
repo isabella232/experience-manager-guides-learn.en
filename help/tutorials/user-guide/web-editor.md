@@ -1,7 +1,6 @@
 ---
 title: Work with the Web Editor
 description: Create and edit structured documents using web editor. Learn how to work with the web editor following the DITA standards in AEM Guides.
-exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 ---
 # Work with the Web Editor {#id181OD0QE05Z}
 

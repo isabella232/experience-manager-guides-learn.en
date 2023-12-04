@@ -1,7 +1,6 @@
 ---
 title: Upgrade AEM Guides
 description: Learn how to Upgrade AEM Guides
-exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 ---
 # Upgrade AEM Guides {#id213BD050YPH}
 

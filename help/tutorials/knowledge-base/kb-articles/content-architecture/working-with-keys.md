@@ -2,7 +2,6 @@
 title: Working with keys
 description: How to create keys to be used across organization content
 role: Admin
-exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 ---
 # Create keys 
 
@@ -53,7 +52,7 @@ Here you have defined two definitions, as shown above, provided a [!UICONTROL ke
 ## Step 3: Use the keys to refer to the variables defined in the global key map
 
 + Edit the topic and add the key value using the [!UICONTROL keyref].
-+ As shown in screenshot, a small window will appear from where keywords can be chosen. This will show when you add the “keyword” element.
++ As shown in screenshot, a small window will appear from where keywords can be chosen. This will show when you add the "keyword" element.
 ![Insert Element](assets/insert_element.png)
 ![Key Ref](assets/key_ref.png)
 

@@ -1,7 +1,6 @@
 ---
 title: User administration and security
 description: Learn how User administration and security work
-exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 ---
 # User administration and security {#id181AED00G5Z}
 

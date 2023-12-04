@@ -1,7 +1,6 @@
 ---
 title: Open DITA topic or map files in same tab
 description: Learn how to Open DITA topic or map files in same tab
-exl-id: 81ad2e18-3ea7-4cc1-8387-d703d1038a18
 ---
 # Open DITA topic or map files in same tab {#id223HI0P202H}
 

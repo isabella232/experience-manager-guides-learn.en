@@ -1,7 +1,6 @@
 ---
 title: Configure default value for the Tags View
 description: Learn how to Configure default value for the Tags View
-exl-id: 3ab75101-4c23-4e45-bfcf-76c1f5b92c96
 ---
 # Configure default value for the Tags View {#id223GN0M0NDC}
 

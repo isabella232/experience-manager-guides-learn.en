@@ -1,7 +1,6 @@
 ---
 title: Native PDF Publish Feature | Apply custom style on TOC entries and topic content
 description: Learn how to create use styleheets and create styles for your content.
-exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 ---
 # Apply custom style on TOC entries and topic content 
 

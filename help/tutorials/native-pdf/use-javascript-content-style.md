@@ -1,7 +1,6 @@
 ---
 title: Native PDF Publish Feature | Use JavaScript to work with content or style
 description: Learn how to create use styleheets and create styles for your content.
-exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 ---
 # Use JavaScript to work with content or style 
 

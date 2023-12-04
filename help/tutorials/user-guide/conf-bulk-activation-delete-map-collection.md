@@ -1,7 +1,6 @@
 ---
 title: Delete a bulk activation map collection
 description: Learn how to delete bulk activation map collection in AEM Guides.
-exl-id: 8e1f30e4-4b83-4282-97c9-7e6960c6ec19
 ---
 # Delete a bulk activation map collection {#id214GI40B0XA}
 

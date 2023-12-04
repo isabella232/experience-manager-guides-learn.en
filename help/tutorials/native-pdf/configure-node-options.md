@@ -1,7 +1,6 @@
 ---
 title: Native PDF | Configure Node process for Native PDF Publishing
 description: Learn how to configure Node process for Native PDF Publishing
-exl-id: f470939b-a5cb-4d28-92d1-7a0a52c4c637
 ---
 # Configure Node Process for Native PDF Publishing
 

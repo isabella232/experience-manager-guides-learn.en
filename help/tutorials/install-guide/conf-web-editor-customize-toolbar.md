@@ -1,7 +1,6 @@
 ---
 title: Customize toolbar
 description: Learn how to Customize toolbar
-exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 ---
 # Customize toolbar {#id172FB00L0V6}
 

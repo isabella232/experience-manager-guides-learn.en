@@ -1,7 +1,6 @@
 ---
 title: Bulk tagging of DITA content
 description: Use bulk tagging of content in AEM Guides to improve DITA content discoverability. Learn how to apply, remove, show, or hide bulk tags on a single or multiple topics.
-exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 ---
 # Bulk tagging of DITA content {#id179SG0TN05Z}
 

@@ -1,7 +1,6 @@
 ---
 title: Use variables for setting the Destination Path, Site Name, or File Name options
 description: Learn how to use variables for setting the Destination Path, Site Name, or File Name options. Know out-of-the-box variables supported in AEM Guides.
-exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
 ---
 # Use variables for setting the Destination Path, Site Name, or File Name options
 
