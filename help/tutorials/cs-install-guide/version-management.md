@@ -1,7 +1,6 @@
 ---
 title: Version management
 description: Learn how to manage versions
-exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 ---
 # Version management {#id181GB000XY4}
 

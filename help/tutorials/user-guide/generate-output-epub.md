@@ -1,7 +1,6 @@
 ---
 title: EPUB Preset
 description: Learn how to create an EPUB preset from the map dashboard. Configure EPUB output preset in AEM Guides.
-exl-id: b6fb5483-064e-4552-84c7-b6723b79d8c5
 ---
 # EPUB {#id205BED020YT}
 

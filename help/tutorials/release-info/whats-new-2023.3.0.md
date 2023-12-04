@@ -1,7 +1,6 @@
 ---
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, March 2023 release
 description: March release of Adobe Experience Manager Guides as a Cloud Service
-exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
 ---
 
 # What's new in March 2023 release of Adobe Experience Manager Guides as a Cloud Service

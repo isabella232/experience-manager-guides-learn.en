@@ -1,7 +1,6 @@
 ---
 title: Appendix
 description: Learn how to prepare InDesign documents for migration
-exl-id: 71b09039-b220-45f3-b334-c23f5b09dadc
 ---
 # Appendix {#id195AD0L60Y4}
 

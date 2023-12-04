@@ -1,7 +1,6 @@
 ---
 title: Integrate desktop-based XML editors
 description: Learn how to Integrate desktop-based XML editors
-exl-id: 268e8613-bb3b-4577-96fb-a588dabfd834
 ---
 # Integrate desktop-based XML editors {#id181GB01G0HS}
 

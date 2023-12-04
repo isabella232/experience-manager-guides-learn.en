@@ -1,7 +1,6 @@
 ---
 title: REST API to work with conditional attributes
 description: Learn about the REST API to work with conditional attributes
-exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 ---
 # REST API to work with conditional attributes {#id175UB30E05Z}
 

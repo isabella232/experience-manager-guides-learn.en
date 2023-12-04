@@ -1,7 +1,6 @@
 ---
 title: Configure new microservice-based publishing for AEM Guides as a Cloud Service
 description: Learn how to Configure new microservice-based publishing for AEM Guides.
-exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 ---
 # Configure new microservice-based publishing for AEM Guides as a Cloud Service
 

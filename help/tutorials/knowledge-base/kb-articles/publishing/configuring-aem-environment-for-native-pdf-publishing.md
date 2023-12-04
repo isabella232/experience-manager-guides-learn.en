@@ -1,7 +1,6 @@
 ---
 title: Configuring AEM environment for Native PDF publishing
 description: Configuring AEM environment for Native PDF publishing
-exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 ---
 # Configuring AEM environment for Native PDF publishing
 

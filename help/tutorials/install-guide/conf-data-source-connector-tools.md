@@ -1,7 +1,6 @@
 ---
 title: Configure a data source connector using tools
 description: Learn how to configure a data source connector using the tools.
-exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 ---
 # Configure a data source connector from the user interface
 

@@ -1,7 +1,6 @@
 ---
 title: Introduction
 description: Introduction to the API Reference Guide for AEM Guides
-exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 ---
 # Introduction {#id1761C0007W7}
 

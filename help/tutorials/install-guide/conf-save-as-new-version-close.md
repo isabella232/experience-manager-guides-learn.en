@@ -1,7 +1,6 @@
 ---
 title: Configure prompt to save as a new version on close
 description: Learn how to Configure prompt to save as a new version on close
-exl-id: 1b8c3eaa-a654-4563-9541-18a59b7d306c
 ---
 # Configure prompt to save as a new version on close {#id222HBI00XXA}
 

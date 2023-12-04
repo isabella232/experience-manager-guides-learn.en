@@ -1,7 +1,6 @@
 ---
 title: Native PDF Publish Feature | Work with the common content styles
 description: Learn how to create use styleheets and create styles for your content.
-exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 ---
 # Work with the common content styles {#work-with-common-styles}
 

@@ -1,7 +1,6 @@
 ---
 title: Java-based API to work with folder profiles
 description: Learn about the Java-based API to work with folder profiles
-exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 ---
 # Java-based API to work with folder profiles {#id175UB30E05Z}
 

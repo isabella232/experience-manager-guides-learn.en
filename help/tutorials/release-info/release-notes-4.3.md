@@ -1,7 +1,6 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.3.0 release
 description: Learn about the bug fixes and how to upgrade to  4.3.0 releases of Adobe Experience Manager Guides
-exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 ---
 # 4.3.0 release of Adobe Experience Manager Guides (July 2023)
 

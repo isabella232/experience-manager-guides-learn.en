@@ -1,7 +1,6 @@
 ---
 title: Best practices for content translation
 description: Know the best practices for content translation in AEM Guides. Learn how to configure the translation service, create a new translation project, and start the translation job.
-exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 ---
 # Best practices for content translation {#id1678G0S702F}
 

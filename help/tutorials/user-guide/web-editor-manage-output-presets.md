@@ -1,7 +1,6 @@
 ---
 title: Manage Global and Folder Profile output presets
 description: Learn how to create, edit, rename, duplicate, and delete global and folder profile output presets as administrative users in AEM Guides.
-exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 ---
 # Manage Global and Folder Profile output presets {#id22BLJ0D0V1U}
 

@@ -1,7 +1,6 @@
 ---
 title: Reports in AEM Guides
 description: Learn which all reports are available in AEM to aid users in improving the content quality.
-exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
 ---
 # Reports in AEM Guides
 

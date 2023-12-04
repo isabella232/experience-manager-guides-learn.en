@@ -1,7 +1,6 @@
 ---
 title: Configure title for Cehck in and Check out icons
 description: Learn how to configure the title for Check in and check out icons
-exl-id: a8888a17-e819-4fa2-bb6f-cafe1002803a
 ---
 # Configure the title for Check in and Check out icons
 

@@ -1,7 +1,6 @@
 ---
 title: Cloud Publishing Microservice Architecture and Performance
 description: Understand how the new microservice enables scalable publishing on AEMaaCS.
-exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 ---
 # Cloud Publishing Microservice Architecture and Performance Analysis
 

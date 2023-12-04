@@ -1,7 +1,6 @@
 ---
 title: Activate output
 description: Activate output of DITA maps in AEM Guides. Learn how to activate your content on the publishing instance.
-exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 ---
 # Activate output {#id214GGF00V5U}
 
