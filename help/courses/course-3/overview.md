@@ -3,11 +3,11 @@ title: Adobe Experience Manager Guides Editor Course 3
 description: Advanced User Guide to AEM Guides Web Editor
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
 ---
-# Course Overview
+# Authoring Overview
 
 >[!VIDEO](https://video.tv.adobe.com/v/342759?quality=12&learn=on)
 
-In this course, you will learn to work with the following:
+In this set of tutorials, you will learn to work with the following:
 
 - [User Preferences, Editor Settings, and Editor Toolbars](user-settings-preferences-toolbars.md)
 - [Folder Profiles](folder-profiles.md)

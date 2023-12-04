@@ -3,9 +3,9 @@ title: Overview of Getting started with [!DNL AEM Guides] course
 description: Getting started with [!DNL Adobe Experience Manager Guides]
 exl-id: 6c53602f-4971-407e-9fd0-23c3a77e0118
 ---
-# Course overview
+# Getting started overview
 
-In this course, you will learn to do the following:
+In this set of tutorials, you will learn to do the following:
 
 - [Understand the user interface](understanding-the-aem-user-interface.md)
 - [Create and structure content with the repository view and XML Editor](creating-and-structuring-content.md)

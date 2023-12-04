@@ -3,9 +3,9 @@ title: Output Generation with [!DNL AEM Guides]
 description: Output Generation with [!DNL Adobe Experience Manager Guides]
 exl-id: 3786dc47-e006-4059-ba8f-4dc66dbbcf71
 ---
-# Overview
+# Output generation overview
 
-In this course, you will learn to do the following:
+In this set of tutorials, you will learn to do the following:
 
 - [Understand the Map Dashboard](./introduction-to-the-map-dashboard.md)
 - [Work with Reports](./working-with-reports.md)
