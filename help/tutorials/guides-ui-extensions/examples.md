@@ -45,7 +45,7 @@ In this file, we calculate and assign the unique comment ID, mentioned in the `R
 5. [Topic Reviews Panel](../../src/review_app_examples/topic_reviews.ts): This file extends [Inline Review Panel](../../src/review_app_examples/inline_review_panel.ts) so that added customisations work on the Review App side as well.
 
 6. [Accept with Modification Dialog](../../src/review_app_examples/accept_with_modification_dialog.ts)
-This is an example of adding new widgets to the app. Here we have created a new dialogue, that has two input text fields: `Revised Text` and `Adjudicator Comment Rationale`
+This is an example of a adding new widget to the app. Here we have created a new dialogue, that has two input text fields: `Revised Text` and `Adjudicator Comment Rationale`
 
 ![Accept With Modification Dialog](./imgs/accept_with_modification_dialogue.png)
 
