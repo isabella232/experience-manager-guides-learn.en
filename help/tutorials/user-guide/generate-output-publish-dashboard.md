@@ -1,6 +1,7 @@
 ---
 title: Manage publish tasks using the Publish Dashboard
 description: Manage publish tasks using the Publish Dashboard in AEM Guides. Know how to access the publishing dashboard and cancel a publish task.
+exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 ---
 # Manage publish tasks using the Publish Dashboard {#id205CC08305Z}
 

@@ -1,6 +1,7 @@
 ---
 title: Bulk activation complete event handler
 description: Learn about bulk activation complete event handler
+exl-id: 63469ecd-92c4-4625-9a12-084aa11fe10f
 ---
 # Bulk activation complete event handler
 

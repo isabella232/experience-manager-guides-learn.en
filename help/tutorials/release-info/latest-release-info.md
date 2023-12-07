@@ -1,6 +1,7 @@
 ---
 title: AEM Guides releases
 description: Latest AEM Guides releases and pre-requisite AEM versions
+exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 ---
 # [!DNL AEM Guides] Releases
 

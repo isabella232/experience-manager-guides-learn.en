@@ -1,6 +1,7 @@
 ---
 title: Release Notes | What's New in the Adobe Experience Manager Guides, December 2023 release
 description: Learn the new and enhanced features in December 2023 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: c7316df1-8a73-4054-b2ba-5a4fcb989d5f
 ---
 # What's new in the December 2023 release of Adobe Experience Manager Guides as a Cloud Service
 
@@ -134,4 +135,3 @@ Cross-map links (XREF with scope peer) getting rendered in the AEM Site output a
 ## Configure the URL of the AEM Site output to use the document title
 
 Experience Manager Guides allows you, as an administrator, to configure the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure to replace them with a separator in the URL of the AEM Site output. You can also replace them with the first child topic’s name. Learn how to [configure the URL of the AEM Site output to use the document title](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
-

@@ -1,6 +1,7 @@
 ---
 title: Configure output generation settings
 description: Learn how to Configure output generation settings
+exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 ---
 # Configure output generation settings {#id181AI0B0E30}
 

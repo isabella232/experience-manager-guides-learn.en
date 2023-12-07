@@ -1,6 +1,7 @@
 ---
 title: Native PDF | Configure JVM flags for Native PDF Publishing
 description: Configure JVM flags for Native PDF Publishing
+exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
 ---
 # Configure JVM flags for Native PDF Publishing
 

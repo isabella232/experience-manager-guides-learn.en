@@ -2,6 +2,7 @@
 title: Working with keys
 description: How to create keys to be used across organization content
 role: Admin
+exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 ---
 # Create keys 
 

@@ -1,6 +1,7 @@
 ---
 title: Author web-based content
 description: Learn how to author structured content using the web editor.
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 ---
 # Author web-based content
 

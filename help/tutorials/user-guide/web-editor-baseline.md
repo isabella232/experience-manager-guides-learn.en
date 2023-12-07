@@ -1,6 +1,7 @@
 ---
 title: Create and manage baselines from the Web Editor
 description: Create and manage baselines from the web editor in AEM Guides. Learn how to create baselines on the basis of labels and apply filters to the baselines.
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 ---
 # Create and manage baselines from the Web Editor {#id223MB0ZF043}
 

@@ -1,6 +1,7 @@
 ---
 title: Upload existing DITA content
 description: Learn how to Upload existing DITA content
+exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 ---
 # Upload existing DITA content {#id176FF000JUI}
 

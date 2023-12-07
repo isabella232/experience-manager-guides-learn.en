@@ -1,6 +1,7 @@
 ---
 title: Conditional attribute profiling
 description: Learn how to create conditional attributes in AEM Guides. Use conditional attributes in the folder and global profiles to conditionalize your content.
+exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 ---
 # Conditional attribute profiling {#id1843I0HN0Y4}
 

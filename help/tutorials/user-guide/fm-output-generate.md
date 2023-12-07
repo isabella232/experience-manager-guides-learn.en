@@ -1,6 +1,7 @@
 ---
 title: Generate output of .book or .fm files
 description: Learn how to generate output of .book or .fm files in AEM Guides.
+exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 ---
 # Generate output of .book or .fm files {#generating_output_fm_docs}
 

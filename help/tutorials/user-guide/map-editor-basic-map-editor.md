@@ -1,6 +1,7 @@
 ---
 title: Work with the Basic Map Editor
 description: Learn how to work with the Basic Map Editor in AEM Guides. Know the features of the basic map editor at map level and topic level. Create and edit relationship tables in  a DITA map.
+exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 ---
 # Work with the Basic Map Editor {#id1942CM005Y4}
 

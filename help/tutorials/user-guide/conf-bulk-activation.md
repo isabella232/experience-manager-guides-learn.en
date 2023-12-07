@@ -1,6 +1,7 @@
 ---
 title: Bulk Activation of published content
 description: Learn about Bulk activation of published content. Know about the benefits of bulk activation feature in AEM guides.
+exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 ---
 # Bulk Activation of published content {#id214GG080LE8}
 

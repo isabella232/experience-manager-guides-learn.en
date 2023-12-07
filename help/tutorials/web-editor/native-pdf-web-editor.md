@@ -1,6 +1,7 @@
 ---
 title: Native PDF | PDF output generation
 description: Learn how to use native PDF publishing, create and generate a PDF output preset, download temporary files after generating the Native PDF output, and use language variables in AEM Guides.
+exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 ---
 # Publish PDF output
 
@@ -197,4 +198,3 @@ If you select the **Download temporary files** option in the Advanced settings, 
 ### Use language variables 
 
 AEM Guides also provides the support for language variables. Select **Language Variables** <img src="./assets/language-variables.svg" width="25">  in the left panel to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output. For more details, see [Support for language variables](../native-pdf/native-pdf-language-variables.md).
-

@@ -1,6 +1,7 @@
 ---
 title: Native PDF Publish Feature | Add a custom bookmark in PDF output
 description: Learn how to create use styleheets and create styles for your content.
+exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 ---
 # Add a custom bookmark in PDF output
 

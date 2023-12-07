@@ -1,6 +1,7 @@
 ---
 title: Generate output for a DITA map from the map console
 description: Generate output for a DITA map from the map console in AEM Guides. Know about incremental output generation and how to view the status, cancel, and delete an output task.
+exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 ---
 # Generate output for a DITA map from the map console {#id1825FG00UHT}
 

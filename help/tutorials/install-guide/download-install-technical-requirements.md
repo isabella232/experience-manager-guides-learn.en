@@ -1,6 +1,7 @@
 ---
 title: Technical requirements
 description: Learn the Technical requirements to work with AEM Guides
+exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 ---
 # Technical requirements {#id213BCG003XA}
 

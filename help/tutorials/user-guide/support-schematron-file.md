@@ -1,6 +1,7 @@
 ---
 title: Support for Schematron files
 description: Learn how to import and validate a DITA topic, use assert report statements to check for rules, use regex expressions, and define abstract patterns in Schematron files of AEM Guides.
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 ---
 # Support for Schematron files
 

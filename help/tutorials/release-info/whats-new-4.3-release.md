@@ -1,6 +1,7 @@
 ---
 title: Release Notes | What's New in Adobe Experience Manager Guides 4.3.0 release
 description: Learn the new and enhanced features in 4.3.0 releases of Adobe Experience Manager Guides
+exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 ---
 # What's new in 4.3.0 release of Adobe Experience Manager Guides (July 2023)
 

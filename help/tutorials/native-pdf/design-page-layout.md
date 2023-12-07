@@ -1,8 +1,8 @@
 ---
 title: Native PDF Publish Feature | Design a page layout
 description: Learn how to design your page layout for presenting information in different sections of your PDF output.
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 ---
-
 # Design a page layout {#design-page-layout}
 
 When creating a PDF document, you would have different sections for presenting different types of information. For example, a PDF document would start from a front or cover page, which would have your company's logo, book title, or version information. Then there would be chapters, appendices, or glossary pages. Each section in a PDF document looks different and that is achieved by creating and customizing the page layout.

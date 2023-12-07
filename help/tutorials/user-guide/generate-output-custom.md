@@ -1,6 +1,7 @@
 ---
 title: Custom
 description: Learn how to create custom preset from the web editor and map dashboard. Configure a custom output preset in AEM Guides.
+exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 ---
 # Custom {#id205BEF00PX0}
 

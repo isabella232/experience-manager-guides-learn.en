@@ -1,6 +1,7 @@
 ---
 title: Configure the number of LimitReads for a query
 description: Learn how to Configure the number of LimitReads for a query
+exl-id: f6010cc3-5fec-4ec7-adf7-5ad3c9bd8879
 ---
 # Configure the number of LimitReads for a query {#id231RC0HL0ID}
 

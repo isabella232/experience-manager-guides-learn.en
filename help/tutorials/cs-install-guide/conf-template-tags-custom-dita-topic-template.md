@@ -1,6 +1,7 @@
 ---
 title: Configure custom DITA topic template
 description: Learn how to Configure custom DITA topic template
+exl-id: 5a2f4897-9697-4c5c-b5be-8fdb3a211948
 ---
 # Configure custom DITA topic template {#id16A7G0O02TD}
 

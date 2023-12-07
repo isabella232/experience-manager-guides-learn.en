@@ -1,6 +1,7 @@
 ---
 title: Native PDF Publish Feature | Components of a PDF template
 description: Learn the various components of a PDF template and how to customize and configure them.
+exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 ---
 # Components of a PDF template {#components-pdf-template}
 

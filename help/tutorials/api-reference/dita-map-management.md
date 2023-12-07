@@ -1,6 +1,7 @@
 ---
 title: REST API to work with DITA maps
 description: Learn about the REST API to work with DITA maps
+exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 ---
 # REST API to work with DITA maps {#id175UB30E05Z}
 

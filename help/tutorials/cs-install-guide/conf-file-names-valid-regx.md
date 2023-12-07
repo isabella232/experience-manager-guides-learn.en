@@ -1,6 +1,7 @@
 ---
 title: Configure Regx for valid file name characters
 description: Learn how to Configure Regx for valid file name characters
+exl-id: 05e9ca3c-28ff-4f82-8061-3d20307890ff
 ---
 # Configure Regx for valid file name characters {#id214BD0550E8}
 

@@ -1,6 +1,7 @@
 ---
 title: Include @navtitle attribute by default
 description: Learn how to Include @navtitle attribute by default
+exl-id: 3def20dc-dd24-4526-ae36-45708249d34a
 ---
 # Include @navtitle attribute by default {#id2115BC0J0XA}
 

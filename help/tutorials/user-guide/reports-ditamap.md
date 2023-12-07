@@ -1,6 +1,7 @@
 ---
 title: DITA map report from the map dashboard
 description: Generate DITA map reports from the map dashboard in AEM Guides. Learn how to generate the CSV of a DITA map report.
+exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 ---
 # DITA map report from the map dashboard {#id205BB800EEN}
 

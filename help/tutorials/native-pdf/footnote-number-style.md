@@ -1,6 +1,7 @@
 ---
 title: Native PDF Publish Feature | Use custom styles in footnotes
 description: Learn how to apply style on the numbers in footnotes.
+exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 ---
 # Apply footnote styles
 
@@ -152,6 +153,3 @@ Using CSS styles, you can also format the cross-references to footnotes. For exa
 	background-color: red;
 	}
 ```
-
-
-

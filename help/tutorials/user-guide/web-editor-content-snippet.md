@@ -1,6 +1,7 @@
 ---
 title: Insert a content snippet from your data source
 description: Use data from your data source in AEM Guides. Learn how to insert a content snippet from your data source. Create a topic using the topic generator.
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 ---
 # Use data from your data source
 

@@ -1,6 +1,7 @@
 ---
 title: Configure display of UUID-based links
 description: Learn how to Configure display of UUID-based links
+exl-id: 2ae6a27f-983b-4aa0-be29-166899aeb4ff
 ---
 # Configure display of UUID-based links {#id2035G20M0QN}
 

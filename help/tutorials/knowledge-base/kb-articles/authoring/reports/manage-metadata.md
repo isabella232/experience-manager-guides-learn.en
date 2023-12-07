@@ -1,6 +1,7 @@
 ---
 title: Manage tags for DITA files in AEM Guides
 description: Brief article to tell on managing cq:tags in AEM Guides
+exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
 ---
 # How to Add , Remove and Manage  tags  in your  DITA  content 
 
