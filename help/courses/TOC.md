@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Experience Manager Guides tutorials
 user-guide-description: A collection of videos for Adobe Experience Manager Guides.
-breadcrumb-title: AEM Guides Videos
+breadcrumb-title: Tutorials for AEM Guides
 ---
 
-# [!DNL Adobe Experience Manager Guides] tutorials {#videos}
+# Tutorials for [!DNL Adobe Experience Manager Guides] {#videos}
 
 + [[!DNL AEM Guides] Videos](overview.md)
 + Getting started with [!DNL AEM Guides] {#getting-started}
